@@ -1,0 +1,27 @@
+Source: gnometris
+Section: gnome
+Priority: optional
+Maintainer: Xiao-Long Chen <chenxiaolong@cxl.epac.to>
+Build-Depends: debhelper (>= 8.0.0),
+               dh-autoreconf,
+               gettext,
+               gnome-common,
+               gnome-doc-utils,
+               gnome-pkg-tools,
+               intltool,
+               libcairo2-dev,
+               libgconf2-dev,
+               libgstreamer0.10-dev,
+               libgtk2.0-dev,
+#               scrollkeeper
+Standards-Version: 3.9.3
+Homepage: https://github.com/chenxiaolong/gnometris
+Vcs-git: git://github.com/chenxiaolong/gnometris.git
+Vcs-Browser: https://github.com/chenxiaolong/gnometris
+
+Package: gnometris
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Fork of gnometris from GNOME Games 2.26.3
+ This package contains a fork of the last version of gnometris to work well on
+ old computers without 3D acceleration.

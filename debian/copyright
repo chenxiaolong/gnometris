@@ -1,0 +1,12 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gnometris
+Source: <https://github.com/chenxiaolong/gnometris>
+
+Files: *
+Copyright: See the AUTHORS file for the list of people who wrote the original
+           GNOME Games 2.26.3
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2012 Xiao-Long Chen <chenxiaolong@cxl.epac.to>
+License: GPL-3+
