@@ -1,0 +1,6304 @@
+# gnome-games yn Gymraeg.
+# This file is distributed under the same license as the gnome-games package.
+#
+# We are using two ways to translate "corresponds to". "yn golygu"
+# and "yn cyfateb i". (Grep for examples.) Deliberate? (Telsa 2003-07-15)
+# (Gweler isod - rhysj)
+#
+# Dafydd Harries <daf@muse.19inch.net>, 2004.
+# Dafydd Tomos <l10n@da.fydd.org>, 2004.
+# Rhys Jones <rhys@sucs.org>, 2005-2007.
+#
+# rhysj, ar gyfer GNOME 2.10:
+# - Wedi newid y ffurfiau lluosog ychydig (mae 8 ac 11 yn cael eu trin yn
+#   gywir nawr).
+# - Wedi gyrru'r cyfan trwy Cysill
+#
+# rhysj, ar gyfer GNOME 2.12:
+# - wedi safoni 'teleport' fel 'llamu' (roedd enghreifftiau o 'llamu' a
+#   'telegludo' o'r blaen)
+# - wedi newid yr enghreifftiau o 'yn cyfateb i' i 'yn golygu' (gweler
+#   sylw Telsa, uchod), ar wahân i un enghraifft nad oedd yn gwneud llawer
+#   o synnwyr fel arall.
+# - wedi newid cyfieithiadau N/S/E/W i fod yn fwy nag un llythyren (amhosib
+#   gwahaniaethu rhwng e.e. D(wyrain) a D(e) fel arall)
+# - a gyrru'r cyfan trwy Cysill (eto)
+#
+# rhysj, ar gyfer GNOME 2.14:
+# - diweddariadau
+# - gwirio gyda Cysill eto
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2007-03-06 22:41-0000\n"
+"Last-Translator: Rhys Jones <rhys@sucs.org>\n"
+"Language-Team: Cymraeg <gnome-cy@www.linux.org.uk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 1 : (n == 2) ? 2 : (n == 8) || "
+"(n == 11) ? 3 : 0;\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Wedi seibio"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Gêm Drosodd"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Ffitio blociau sy'n cwympo gyda'i gilydd"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "Y ddelwedd i'w ddefnyddio ar gyfer arlunio blociau"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "Y ddelwedd i'w ddefnyddio ar gyfer arlunio blociau."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "Y thema i'w defnyddio ar gyfer arlunio blociau"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Enw'r thema a ddefnyddir i rendro'r blociau a'r cefndir."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Y lefel i gychwyn"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Y lefel i gychwyn."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "A ddylid defnyddio'r ddelwedd cefndir."
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+"Mae hwn yn dewis a ydy'r ddelwedd cefndir yn cael ei harlunio dros y lliw "
+"cefndir."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "Y lliw cefndir"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Y lliw cefndir, mewn fformat mae gdk_color_parse yn deall."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "A ddylid rhagweld y bloc nesaf"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "A ddylid rhagweld y bloc nesaf."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "A ddylid darparu targed"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "A ddylid dangos gyda graffeg y man lle fydd bloc yn glanio."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "A ddylid rhoi lliwiau ar hap i flociau"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "A ddylid rhoi lliwiau ar hap i flociau."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "A ddylid troi'r cownter clocwedd"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "A ddylid troi'r cownter clocwedd."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "Y nifer o resi i'w llenwi"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "Y nifer o resi a lenwir a blociau ar hap ar ddechrau'r gêm."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "Dwysedd y rhesi a lenwir"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Dwysedd y blociau mewn rhesi a lenwir ar ddechrau'r gêm. Mae'r gwerth hwn "
+"rhwng 0 (dim bloc) a 10 (rhes lawn)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Symud i'r chwith"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Y fysell i'w gwasgu er mwyn symud i'r chwith."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Symud i'r dde"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Y fysell i'w gwasgu er mwyn symud i'r dde."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Symud i lawr"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Y fysell i wasgu er mwyn symud i lawr."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Gollwng"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Y fysell i wasgu er mwyn gollwng."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "Troelli"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Y fysell i wasgu er mwyn troelli."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Atal"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Y fysell i wasgu er mwyn seibio."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "Gosod y lefel gychwyn (1 neu fwy)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "LEFEL"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Plaen"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Wedi Ymuno"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Sgôr:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Llinellau:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Lefel:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Gêm"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Gosodiadau"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Cymorth"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Hoffterau Gnometris"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Gêm"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Gosod"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "Y _nifer o resi gaiff eu llenwi o flaen llaw:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Dwysedd y blociau mewn rhes a gafodd ei lenwi o flaen llaw:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "Lefel _cychwyn:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Gweithrediad"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "Galluogi _synau"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_Rhagweld y bloc nesaf"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "_Defnyddio lliwiau bloc ar hap"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "_Troi blociau'n wrthglocwedd"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "Dangos lle fydd y bloc yn _glanio"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Thema"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Rheolyddion"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Rheolaeth Bysellfwrdd"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Arddull Bloc"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+#, fuzzy
+msgid "GNOME Games web site"
+msgstr "Gweinydd gemau GNOME"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Dafydd Harries <daf@parnassus.ath.cx>\n"
+"Telsa Gwynne <hobbit@aloss.ukuu.org.uk>\n"
+"Rhys Jones <rhys@sucs.org>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Sgoriau Gnometris"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, fuzzy, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "%s: opsiwn `--%s' heb ei adnabod\n"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_Gosodiadau"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, fuzzy, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "%s: opsiwn `--%s' heb ei adnabod\n"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "Gosod cyfluniad y gêm"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Dim bysell"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Gwasgwch Fysell>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Gorchymyn Anhysbys"
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr "Methu â chysylltu"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Amser:"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Sgôr"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Gêm Newydd"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Enw"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Dangos cymorth ar gyfer y gêm"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "Gorffen y gêm bresennol"
+
+#: ../libgames-support/games-stock.c:47
+#, fuzzy
+msgid "Toggle fullscreen mode"
+msgstr "Gadael y modd sgrin lawn"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Dangos awgrym ar gyfer eich symudiad nesaf"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Gadael y modd sgrin lawn"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Dangos gêm newydd ar y rhwydwaith i sawl chwaraewr"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "Gorffen y gêm rwydwaith bresennol a dychwelyd at y gweinydd rhwydwaith"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Dechrau gêm newydd"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Seibio'r gêm"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "Dangos rhestr chwaraewyr y gêm rhwydwaith"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Ail-wneud y symudiad gafodd ei ddadwneud"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Ailddechrau'r gêm"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "Ailgychwyn y gêm gafodd ei seibio"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Gweld y sgoriau"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Dadwneud y symudiad diwethaf"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Ynghylch y gêm"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Cyflunio'r gêm"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Gadael y gêm"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Cynnwys"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "Llenwi'r Sgrin"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Awgrymu"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Newydd"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "Gêm _Newydd"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "_Ail-wneud Symudiad"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Ailosod"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "Ail_ddechrau"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "_Dadwneud Symudiad"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "_Gadael modd Sgrin Lawn"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "Gêm _Rwydwaith"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "Gadael _Gêm"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "Rhestr _Chwaraewyr"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Seibio"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "_Ailgychwyn"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Sgorau"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "_Gorffen y Gêm"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, fuzzy, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Meddalwedd rhydd yw %s; gallwch ei hailddosbarthu ac/neu ei newid o dan "
+"dermau Trwydded Gyffredinol Gyhoeddus GNU a gyhoeddir gan y Free Software "
+"Foundation; naill ai fersiwn 2 y Drwydded, neu (o'ch dewis chi) unrhyw "
+"fersiwn mwy diweddar."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Mae %s yn cael ei ddosbarthu yn y gobaith y bydd yn ddefnyddiol, ond HEB "
+"UNRHYW WARANT; heb hyd yn oed y warant ymhlyg o FARSIANDÏAETH ac ADDASRWYDD "
+"AT BWRPAS ARBENNIG.  Gweler Trwydded Gyffredinol Gyhoeddus GNU a Hawlfraint "
+"Unicode am ragor o fanylion."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Fe ddylech fod wedi derbyn copi o Drwydded Gyffredinol Gyhoeddus GNU ynghyd "
+"â %s; os na, ysgrifennwch at y Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Player Chat"
+#~ msgstr "Sgwrsio â Chwaraewyr"
+
+#~ msgid "Occupied"
+#~ msgstr "Rhai'n bresennol"
+
+#~ msgid "Empty"
+#~ msgstr "Gwag"
+
+#~ msgid "Bot"
+#~ msgstr "Bot"
+
+#~ msgid "Reserved"
+#~ msgstr "Ar gadw"
+
+#~ msgid "Abandoned"
+#~ msgstr "Wedi ei adael"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "Gwyliwr"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Statws"
+
+#~ msgid "Player List"
+#~ msgstr "Rhestr Chwaraewyr"
+
+#~ msgid "Info"
+#~ msgstr "Gwybodaeth"
+
+#~ msgid "Boot player"
+#~ msgstr "Taflu chwaraewr"
+
+#~ msgid "Sit here"
+#~ msgstr "Eistedd fan hyn"
+
+#~ msgid "Move here"
+#~ msgstr "Symud at y fan hyn"
+
+#~ msgid "Play with bot"
+#~ msgstr "Chwarae gyda'r bot"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Tynnu'r cais cadw"
+
+#~ msgid "Remove bot"
+#~ msgstr "Tynnu bot"
+
+#~ msgid "X Padding"
+#~ msgstr "Padin X"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Gofod i'w ychwanegu at y dyraniad lled."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Gofod i'w ychwanegu at y dyraniad uchder."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Lluosrif Lled"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "Pa luosrif i orfodi'r lled i fod."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Lluosrif Uchder"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "Pa luosrif i orfodi'r uchder i fod."
+
+#~ msgid "X align"
+#~ msgstr "Aliniad X"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Yr aliniad llorweddol, o 0 (chwith) i 1 (de)"
+
+#~ msgid "Y align"
+#~ msgstr "Aliniad Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Yr aliniad fertigol, o 0 (top) i 1 (gwaelod)"
+
+#~ msgid ""
+#~ "A comma seperated list of recently played games. The filenames are stored "
+#~ "here, not the actual game name."
+#~ msgstr ""
+#~ "Rhestr o'r gemau chwaraewyd yn ddiweddar. Enwau'r ffeiliau sydd wedi'u "
+#~ "storio fan hyn, nid enwau'r gemau eu hunain."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Rhestr o linynnau sydd yn dod mewn ffurf pumhlyg: enw, enillion, cyfanswm "
+#~ "gemau chwaraewyd, amser gorau (mewn eiliadau) a'r amser gwaethaf (hefyd "
+#~ "eiliadau). Nid oes rhaid cynrychioli gemau heb ei chwarae."
+
+#~ msgid "Recently Played Games"
+#~ msgstr "Gemau Chwaraewyd yn Ddiweddar"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Dewis y math o reoli"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Dewis a ddylid llusgo'r cardiau neu i glicio ar y tardd ac yna ar y "
+#~ "cyrchfan."
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Ystadegau o'r gemau a chwaraewyd"
+
+#~ msgid "The game file to use"
+#~ msgstr "Y ffeil gêm i'w ddefnyddio"
+
+#~ msgid "The height of the main window."
+#~ msgstr "Uchder y brif ffenest"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Enw'r ffeil sy'n cynnwys y delweddau ar gyfer y cardiau."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Enw'r ffeil scheme yn cynnwys y gêm amynedd i'w chwarae."
+
+#~ msgid "The width of the main window."
+#~ msgstr "Lled y brif ffenest"
+
+#~ msgid "Theme file name"
+#~ msgstr "Enw'r ffeil thema"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "A ddylid dangos y bar offer"
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "A ddylid dangos y bar offer."
+
+#~ msgid "Window height"
+#~ msgstr "Uchder ffenest"
+
+#~ msgid "Window width"
+#~ msgstr "Lled ffenest"
+
+# FIXME: typo in English - needs bugzillaing [rhysj]
+#~ msgid ""
+#~ "A scheme exception occurred and we were unable to create a temporary file "
+#~ "to report it:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Digwyddodd eithriad o fewn Scheme, a methwyd creu ffeil dros dro i'w "
+#~ "adrodd:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Congratulations!!!"
+#~ msgstr "Llongyfarchiadau!!!"
+
+#~ msgid "You have won."
+#~ msgstr "Enilloch chi."
+
+#~ msgid "There are no more moves."
+#~ msgstr "Does dim mwy o symudiadau."
+
+#~ msgid "Select Game"
+#~ msgstr "Dewiswch Gêm"
+
+#~ msgid ""
+#~ "The game is over.\n"
+#~ "No hints are available"
+#~ msgstr ""
+#~ "Mae'r gêm drosodd.\n"
+#~ "Does dim awgrymiadau ar gael"
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Nid oes cynhaliaeth ar gyfer awgrymiadau gan y gêm yma eto."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Symud %s ar %s."
+
+#~ msgid "Move %s %s."
+#~ msgstr "Symud %s %s."
+
+# TRWSIO
+#~ msgid ""
+#~ "This game uses a deprecated hint method (case 3).\n"
+#~ "Please file a bug at http://bugzilla.gnome.org including this message "
+#~ "and\n"
+#~ "the name of the game you where playing (look in the title bar if you \n"
+#~ "aren't sure)."
+#~ msgstr ""
+#~ "Mae'r gêm hon yn defnyddio modd awgrym anghymeradwyir (achos 3).\n"
+#~ "Os gwelwch yn dda, cyflwynwch nam at http://bugzilla.gnome.org yn "
+#~ "cynnwys\n"
+#~ "y neges hon ac enw'r gêm roeddech chi'n chwarae (edrychwch yn y bar teitl "
+#~ "os nad ydych chi'n siŵr)."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Rydych chi'n chwilio am %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Nid yw'r gêm yma yn gallu darparu awgrym."
+
+#~ msgid "AisleRiot Cards"
+#~ msgstr "Cardiau AisleRiot"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Gêm Amynedd FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Chwarae'r gêm cardiau poblogaidd FreeCell"
+
+#~ msgid "Main game:"
+#~ msgstr "Prif gêm:"
+
+#~ msgid "Card games:"
+#~ msgstr "Gemau cardiau:"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire\n"
+#~ "card engine that allows many different\n"
+#~ "games to be played."
+#~ msgstr ""
+#~ "Mae AisleRiot yn darparu peiriant gemau\n"
+#~ "Solitaire, yn seiliedig ar reolau, sy'n caniatáu\n"
+#~ " i nifer o gemau gwahanol gael eu chwarae."
+
+#~ msgid "_View"
+#~ msgstr "_Golwg"
+
+#~ msgid "_Control"
+#~ msgstr "_Rheoli"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Ail-gychwyn y gêm bresennol"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Dewiswch Gêm..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Chwarae gêm wahanol"
+
+#~ msgid "Recently _Played"
+#~ msgstr "Chwaraewyd yn _Ddiweddar"
+
+#~ msgid "S_tatistics"
+#~ msgstr "_Ystadegau"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Dangos ystadegau chwarae'r gêm"
+
+#~ msgid "_Cards..."
+#~ msgstr "_Cardiau..."
+
+#~ msgid "Redo the last move"
+#~ msgstr "Ail-wneud y symudiad olaf"
+
+#~ msgid "Show a hint"
+#~ msgstr "Dangos awgrym"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Gweld cymorth ar gyfer Aisleriot"
+
+#~ msgid "_Toolbar"
+#~ msgstr "Bar _Offer"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Clicio i Symud"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Cerdyn Sail: Âs"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Cerdyn Sail: Jac"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Cerdyn Sail: Brenin"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Cerdyn Sail: Brenhines"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Cerdyn Sail: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Delio mwy o gardiau"
+
+#~ msgid "Stock left:"
+#~ msgstr "Stoc ar ôl:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Stoc ar ôl: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Ceisio aildrefnu'r cardiau"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "pentwr sylfaen gwag"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Delio cerdyn newydd o'r pecyn"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Dim awgrym ar gael ar hyn o bryd"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Ail-ddeliad ar ôl:"
+
+#~ msgid "Three card deals"
+#~ msgstr "Deliadau tri cherdyn"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Ceisiwch symud cardiau i lawr o'r sylfaen"
+
+#~ msgid "an empty slot"
+#~ msgstr "bwlch gwag"
+
+#~ msgid "Deal another round"
+#~ msgstr "Delio rownd arall"
+
+#~ msgid "an empty foundation"
+#~ msgstr "sylfaen wag"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Symud rhywbeth ymlaen i gronfa wag"
+
+#~ msgid "an empty tableau"
+#~ msgstr "tablo gwag"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "blwch gwaelod gwag"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "blwch cornel gwag"
+
+#~ msgid "an empty left slot"
+#~ msgstr "blwch chwith gwag"
+
+#~ msgid "an empty right slot"
+#~ msgstr "blwch de gwag"
+
+#~ msgid "an empty top slot"
+#~ msgstr "bwlch brig wag"
+
+#~ msgid "itself"
+#~ msgstr "ei hunan"
+
+#~ msgid "Base Card: "
+#~ msgstr "Cerdyn Sail: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Symud gwastraff yn ôl i'r stoc"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Cronfa ar ôl:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "bwlch gwag ar y sylfaen"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "gofod gwag ar y bwrdd"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Symud cerdyn i'r Sylfaen"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Symudwch rywbeth i'r bwlch Bwrdd gwag"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Mae cysondeb yn allweddol"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Nid yw llinyn pysgota yn edyn deintyddol da"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Ydych chi wedi darllen y ffeil cymorth?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Fe fysai rwb cefn yn neis tua nawr..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr ""
+#~ "Os fyddwch erioed ar goll ar eich pen eich hun yn y coed, cofleidiwch "
+#~ "goeden"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Os ydych chi'n meddwl nad yw'r awgrym hwn yn un da iawn, ymunwch â'r tîm "
+#~ "GNOME Cymraeg: http://muse.19inch.net/gnome-cy/"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Edrychwch i'r ddau gyfeiriad cyn croesi'r stryd"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Nid yw monitors yn rhoi Fitamin D -- ond fe fydd yr haul..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Peidiwch â chwythu mewn clust ci"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Mae Odessa yn gêm well. Wir yr."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Mae'r gofod yma ar gael i'w logi"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr ""
+#~ "Pan nad oes styffylwr gennych, fe fydd stwffwl a phren mesur yn gweithio"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Cardiau'n weddill: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Ail-ddelio."
+
+#~ msgid "the foundation pile"
+#~ msgstr "y pentwr sylfaen"
+
+#~ msgid "Deal a card"
+#~ msgstr "Delio cerdyn"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Symud ~a i sylfaen wag"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "blwch gwag ar y bwrdd"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Symudwch Frenin i'r slot tablo gwag"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Dydw i ddim yn sicr"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Tynnwch yr âsau"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Tynnwch yr wythau"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Tynnwch y pumpau"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Tynnwch y pedwarau"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Tynnwch y jaciau"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Tynnwch y brenhinoedd"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Tynnwch y nawiau"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Tynnwch y breninesau"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Tynnwch y seithiau"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Tynnwch y chwechau"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Tynnwch y degau"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Tynnwch y trioedd"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Tynnwch y deuoedd"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Dychwelwch gardiau i'r stoc"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Cysidrwch symud rhywbeth i mewn i fwlch gwag"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Symudwch ~a o'r bwrdd"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Fedrwch chi ddim symud. Rhaid i chi ddadwneud, neu ail-gychwyn."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Does dim datrysiad i'r gêm. Rhaid i chi ddadwneud, neu ail-gychwyn."
+
+#~ msgid "an empty reserve"
+#~ msgstr "cronfa wag"
+
+#~ msgid "an open tableau"
+#~ msgstr "bwrdd agor"
+
+#~ msgid "the foundation"
+#~ msgstr "y sylfaen"
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Rhowch glic dwbl ar unrhyw gerdyn i ail-ddelio."
+
+#~ msgid "No hint available."
+#~ msgstr "Dim awgrym ar gael."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Bylchau wedi'i Osod ar Hap wrth Ail-ddelio"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Symudwch gerdyn o'r gronfa i'r blwch bwrdd gwag"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Dewiswch gerdyn o'r gronfa ar gyfer y pentwr sylfaen cyntaf"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "ymlaen i'r slot bwrdd gwag"
+
+#~ msgid "Deal another card"
+#~ msgstr "Delio cerdyn arall"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Stoc ar ôl: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Delio dyrnaid arall"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Symudwch gerdyn neu gyfres o gardiau i'r bwlch gwag"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Symud cerdyn o'r gwastraff"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Symud y gwastraff i'r stoc"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "blwch bwrdd gwag"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Delio cerdyn newydd"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Stoc ar ôl: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Dim ail-ddelio"
+
+#~ msgid "Single card deals"
+#~ msgstr "Delio un cerdyn"
+
+#~ msgid "Base Card:"
+#~ msgstr "Cerdyn Sylfaen:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Ceisiwch roi'r siwtiau yn y drefn sy'n ffitio'r drefn gyfredol yn fwyaf "
+#~ "naturiol."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Delio cardiau newydd o'r pecyn"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Ailddeliadau ar ôl: ~a"
+
+#~ msgid "something"
+#~ msgstr "rhywbeth"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Symud ~a o'r stoc at ochr gwag neu fwlch bwrdd"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Symud ~a i faes gwag"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Rhowch gardiau ar y Bwrdd er mwyn ffurfio dyrnau pocer"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Modd Cymysgu"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "pentwr tablo gwag"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Delio'r cardiau"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Ailgymysgu’r cardiau"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Symudwch wastraff i flwch cronfa"
+
+#~ msgid "empty foundation"
+#~ msgstr "sylfaen gwag"
+
+#~ msgid "Four Suits"
+#~ msgstr "Pedair Siwt"
+
+#~ msgid "One Suit"
+#~ msgstr "Un Siwt"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Rhowch rywbeth ar fwlch gwag"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Llenwch y pentwr gwag yn gyntaf os gwelwch yn dda."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Ceisiwch symud y pentyrrau cardiau o gwmpas"
+
+#~ msgid "Two Suits"
+#~ msgstr "Dwy Siwt"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Caniatáu defnydd mannau dros dro"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Symudwch gerdyn i fwlch dros dro gwag"
+
+#~ msgid "No hint available"
+#~ msgstr "Dim awgrym ar gael"
+
+#~ msgid "and all cards below it"
+#~ msgstr "a pob cerdyn oddi dano"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "bwlch/bylchau gwag"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Delio cerdyn o'r pecyn"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Cyd-fynd â dau gerdyn uchaf y gwastraff."
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "pentwr sylfaen addas"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Symud adeiladwaith o gardiau ymlaen i'r bwlch Bwrdd gwag"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "y pentwr Sylfaen priodol"
+
+#~ msgid ""
+#~ "Aisleriot can't load the file: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Aisleriot installation"
+#~ msgstr ""
+#~ "Ni all Aisleriot lwytho'r ffeil: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Gwiriwch eich sefydliad Aisleriot os gwelwch yn dda"
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Ni fedr Aisleriot ganfod y gêm wnaethoch chi ei chwarae diwethaf."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Mae hyn yn digwydd fel arfer pan foch chi'n rhedeg fersiwn hŷn o "
+#~ "Aisleriot, nad yw'n cynnwys y gêm wnaethoch chi ei chwarae diwethaf. "
+#~ "Mae'r gêm sy'n rhagosod, sef Klondike, yn cael ei gychwyn yn lle hyn."
+
+#~ msgid "Aisleriot"
+#~ msgstr "Aisleriot"
+
+#~ msgid "Time:"
+#~ msgstr "Amser:"
+
+#~ msgid "Select the game to play"
+#~ msgstr "Dewiswch y gêm i'w chwarae"
+
+#~ msgid "NAME"
+#~ msgstr "ENW"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Amynedd AisleRiot"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Chwarae nifer o gemau amynedd gwahanol"
+
+#~ msgid "Unknown color"
+#~ msgstr "Lliw anhysbys"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Siwt anhysbys"
+
+#~ msgid "Unknown value"
+#~ msgstr "Gwerth anhysbys"
+
+#~ msgid "ace"
+#~ msgstr "âs"
+
+#~ msgid "black joker"
+#~ msgstr "jocer du"
+
+#~ msgid "clubs"
+#~ msgstr "clybiau"
+
+#~ msgid "diamonds"
+#~ msgstr "diemwntau"
+
+#~ msgid "eight"
+#~ msgstr "wyth"
+
+#~ msgid "five"
+#~ msgstr "pump"
+
+#~ msgid "four"
+#~ msgstr "pedwar"
+
+#~ msgid "hearts"
+#~ msgstr "calonnau"
+
+#~ msgid "jack"
+#~ msgstr "jac"
+
+#~ msgid "king"
+#~ msgstr "brenin"
+
+#~ msgid "nine"
+#~ msgstr "naw"
+
+#~ msgid "queen"
+#~ msgstr "brenhines"
+
+#~ msgid "red joker"
+#~ msgstr "jocer coch"
+
+#~ msgid "seven"
+#~ msgstr "saith"
+
+#~ msgid "six"
+#~ msgstr "chwech"
+
+#~ msgid "spades"
+#~ msgstr "rhawiau"
+
+#~ msgid "ten"
+#~ msgstr "deg"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "âs y clybiau"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "âs y diemwntau"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "âs y calonnau"
+
+#~ msgid "the ace of spades"
+#~ msgstr "âs y rhawiau"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "wyth y clybiau"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "wyth y diemwntau"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "wyth y calonnau"
+
+#~ msgid "the eight of spades"
+#~ msgstr "wyth y rhawiau"
+
+#~ msgid "the five of clubs"
+#~ msgstr "pump y clybiau"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "pump y diemwntau"
+
+#~ msgid "the five of hearts"
+#~ msgstr "pump y calonnau"
+
+#~ msgid "the five of spades"
+#~ msgstr "pump y rhawiau"
+
+#~ msgid "the four of clubs"
+#~ msgstr "pedwar y clybiau"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "pedwar y diemwntau"
+
+#~ msgid "the four of hearts"
+#~ msgstr "pedwar y calonnau"
+
+#~ msgid "the four of spades"
+#~ msgstr "pedwar y rhawiau"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "jac y clybiau"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "jac y diemwntau"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "jac y calonnau"
+
+#~ msgid "the jack of spades"
+#~ msgstr "jac y rhawiau"
+
+#~ msgid "the king of clubs"
+#~ msgstr "brenin y clybiau"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "brenin y diemwntau"
+
+#~ msgid "the king of hearts"
+#~ msgstr "brenin y calonnau"
+
+#~ msgid "the king of spades"
+#~ msgstr "brenin y rhawiau"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "naw'r clybiau"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "naw'r diemwntau"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "naw'r calonnau"
+
+#~ msgid "the nine of spades"
+#~ msgstr "naw'r rhawiau"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "brenhines y clybiau"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "brenhines y diemwntau"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "brenhines y calonnau"
+
+#~ msgid "the queen of spades"
+#~ msgstr "brenhines y rhawiau"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "saith y clybiau"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "saith y diemwntau"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "saith y calonnau"
+
+#~ msgid "the seven of spades"
+#~ msgstr "saith y rhawiau"
+
+#~ msgid "the six of clubs"
+#~ msgstr "chwech y clybiau"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "chwech y diemwntau"
+
+#~ msgid "the six of hearts"
+#~ msgstr "chwech y calonnau"
+
+#~ msgid "the six of spades"
+#~ msgstr "chwech y rhawiau"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "deg y clybiau"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "deg y diemwntau"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "deg y calonnau"
+
+#~ msgid "the ten of spades"
+#~ msgstr "deg y rhawiau"
+
+#~ msgid "the three of clubs"
+#~ msgstr "tri'r clybiau"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "tri'r diemwntau"
+
+#~ msgid "the three of hearts"
+#~ msgstr "tri'r calonnau"
+
+#~ msgid "the three of spades"
+#~ msgstr "tri'r rhawiau"
+
+#~ msgid "the two of clubs"
+#~ msgstr "dau'r clybiau"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "dau'r diemwntau"
+
+#~ msgid "the two of hearts"
+#~ msgstr "dau'r calonnau"
+
+#~ msgid "the two of spades"
+#~ msgstr "dau'r rhawiau"
+
+#~ msgid "the unknown card"
+#~ msgstr "y cerdyn anhysbys"
+
+#~ msgid "three"
+#~ msgstr "tri"
+
+#~ msgid "two"
+#~ msgstr "dau"
+
+#~ msgid "N/A"
+#~ msgstr "Amherthnasol"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "<b>Time</b>"
+#~ msgstr "<b>Amser</b>"
+
+#~ msgid "<b>Wins</b>"
+#~ msgstr "<b>Buddugoliaethau</b>"
+
+#~ msgid "Best:"
+#~ msgstr "Gorau:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Canran:"
+
+#~ msgid "Statistics"
+#~ msgstr "Ystadegau"
+
+#~ msgid "Total:"
+#~ msgstr "Cyfanswm:"
+
+#~ msgid "Wins:"
+#~ msgstr "Buddugoliaethau:"
+
+#~ msgid "Worst:"
+#~ msgstr "Gwaethaf:"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Anti Meri"
+
+#~ msgid "Backbone"
+#~ msgstr "Asgwrn Cefn"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Dwsin Pobydd"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Gêm y Pobydd"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Castell dan Warchae"
+
+#~ msgid "Block Ten"
+#~ msgstr "Bloc Deg"
+
+#~ msgid "Bristol"
+#~ msgstr "Bryste"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Carpet"
+#~ msgstr "Carped"
+
+#~ msgid "Chessboard"
+#~ msgstr "Bwrdd Gwyddbwyll"
+
+#~ msgid "Clock"
+#~ msgstr "Cloc"
+
+#~ msgid "Cover"
+#~ msgstr "Cover"
+
+#~ msgid "Cruel"
+#~ msgstr "Creulon"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Cloddfa Ddiemwntau"
+
+#~ msgid "Doublets"
+#~ msgstr "Doublets"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Adain Eryr"
+
+#~ msgid "Easthaven"
+#~ msgstr "Easthaven"
+
+#~ msgid "Eight Off"
+#~ msgstr "Wyth Bant"
+
+#~ msgid "Elevator"
+#~ msgstr "Elevator"
+
+#~ msgid "Escalator"
+#~ msgstr "Escalator"
+
+#~ msgid "First Law"
+#~ msgstr "Cyfraith Gyntaf"
+
+#~ msgid "Fortress"
+#~ msgstr "Fortress"
+
+#~ msgid "Fortunes"
+#~ msgstr "Fortunes"
+
+#~ msgid "Fourteen"
+#~ msgstr "Un deg pedwar"
+
+#~ msgid "Freecell"
+#~ msgstr "Cell Rydd"
+
+#~ msgid "Gaps"
+#~ msgstr "Bylchau"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay Gordons"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Gypsy"
+#~ msgstr "Gypsy"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Hopscotch"
+
+#~ msgid "Isabel"
+#~ msgstr "Isabel"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "King Albert"
+#~ msgstr "Brenin Albert"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Cynulleidfa'r Brenin"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labyrinth"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+#~ msgid "Maze"
+#~ msgstr "Maze"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Neighbor"
+#~ msgstr "Cymydog"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmosis"
+
+#~ msgid "Peek"
+#~ msgstr "Peek"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Plait"
+#~ msgstr "Plethu"
+
+#~ msgid "Poker"
+#~ msgstr "Pocer"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Royal East"
+#~ msgstr "Royal East"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Scorpion"
+#~ msgstr "Scorpion"
+
+#~ msgid "Scuffle"
+#~ msgstr "Scuffle"
+
+#~ msgid "Seahaven"
+#~ msgstr "Seahaven"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Syr Tommy"
+
+#~ msgid "Spider"
+#~ msgstr "Pry Cop"
+
+#~ msgid "Spiderette"
+#~ msgstr "Spiderette"
+
+#~ msgid "Straight Up"
+#~ msgstr "Syth i Fyny"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Strydoedd a Heolydd"
+
+#~ msgid "Template"
+#~ msgstr "Template"
+
+#~ msgid "Ten Across"
+#~ msgstr "Deg ar Draws"
+
+#~ msgid "Thieves"
+#~ msgstr "Lladron"
+
+#~ msgid "Thirteen"
+#~ msgstr "Un deg tri"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Bawd a Chod"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Tri Phegwn"
+
+#~ msgid "Union Square"
+#~ msgstr "Union Square"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#~ msgid "Westhaven"
+#~ msgstr "Westhaven"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Jac y Lantarn"
+
+#~ msgid "Yield"
+#~ msgstr "Ildio"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Zebra"
+#~ msgstr "Sebra"
+
+#~ msgid "Blackjack"
+#~ msgstr "Blacjac"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Chwarae'r gêm gardiau casino Blacjac"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Dangos tebygolrwyddau"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Dangos tebygolrwyddau pob canlyniad dyrnaid y deliwr a gwerth "
+#~ "disgwyliedig eich dyrnaid."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Peidio byth â chymryd yswiriant"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Peidio byth â chymryd yswiriant pan fo'r deliwr yn dangos âs."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Faint o arian sydd yn eich bank"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Faint o arian sydd yn eich banc."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "Enw'r ffeil rheolau sy'n cynnwys yr amrywiad rheolau i'w chwarae."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Yr amrywiad o'r ffeil rheolau i'w ddefnyddio"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Defnyddio delio cyflym"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Defnyddio deliad cyflym efo dim oediad rhwng bob cerdyn."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blacjac - %s"
+
+#~ msgid "D_eal"
+#~ msgstr "_Delio"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Delio dyrnaid arall"
+
+#~ msgid "_Hit"
+#~ msgstr "_Taro"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Ychwanegu cerdyn i'r dyrnaid"
+
+#~ msgid "_Stand"
+#~ msgstr "_Sefyll"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Gorffen ychwanegu cardiau i'r dyrnaid"
+
+#~ msgid "S_urrender"
+#~ msgstr "_Ildio"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Fforffedu'r llaw hon am hanner eich bet"
+
+#~ msgid "_Double down"
+#~ msgstr "_Dyblu i lawr"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Dyblu eich bet am un trawiad"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "_Hollti'r dyrnaid"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Hollti'r cardiau am ddau ddyrnaid newydd"
+
+#~ msgid "Show toolbar"
+#~ msgstr "Dangos y bar offer"
+
+#~ msgid "Cards left:"
+#~ msgstr "Cardiau ar ôl:"
+
+#~ msgid "Wager:"
+#~ msgstr "Bet:"
+
+#~ msgid "Balance:"
+#~ msgstr "Cydbwysedd:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Gosodwch eich bet neu deliwch ddyrnaid"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Set reolau blacjac i'w defnyddio"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "A hoffech chi yswiriant?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Yswiriant yw bet wrth ochr o 50%% o'r fet wreiddiol, pan ydych chi'n "
+#~ "credu bod gan y deliwr 21 naturiol (h.y. blacjac). Cynigir hyn pan mai âs "
+#~ "yw cerdyn wyneb-i-fyny y deliwr. Os oes gan y deliwr 21 naturiol, bydd y "
+#~ "chwaraewr yn cael ei dalu ddwywaith."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "Gosodwch eich bet a chliciwch ar yr amlinell wen er mwyn delio dyrnaid "
+#~ "newydd."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr ""
+#~ "Gosodwch eich neu cliciwch ar y cardiau er mwyn delio dyrnaid newydd."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Hoffterau Blacjac"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "_Dangos tebygolrwyddau'r dyrnaid"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "_Deliadau cyflym (dim oedi rhwng bob cerdyn)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "_Peidio byth â chymryd yswiriant"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "_Ailosod Mantol"
+
+#~ msgid "Rules"
+#~ msgstr "Rheolau"
+
+#~ msgid "Decks"
+#~ msgstr "Pecynnau"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "Bwrw 17 Meddal"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Dyblu Unrhyw Gyfanswm"
+
+#~ msgid "Double 9"
+#~ msgstr "9 Dwbl"
+
+#~ msgid "Double Soft"
+#~ msgstr "Meddal Dwbl"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Dwbl Ar Ôl Bwrw"
+
+#~ msgid "Double After Split"
+#~ msgstr "Dwbl Ar Ôl Hollti"
+
+#~ msgid "Resplit"
+#~ msgstr "Ail-hollti"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Ail-hollti Âsau"
+
+#~ msgid "Surrender"
+#~ msgstr "Ildio"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Cyflymder Deliwr"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Cliciwch er mwyn dyblu eich bet"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "dwbl gliciwch er mwyn cynyddu eich bet gan %.2f"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "dwbl gliciwch er mwyn lleihau eich bet gan %.2f"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr ""
+#~ "Cliciwch er mwyn delio cerdyn arall; llusgwch gerdyn er mwyn hollti pâr"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Cliciwch er mwyn delio cerdyn arall"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Cliciwch er mwyn gorffen ychwanegu cardiau i'ch dyrnaid"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Cliciwch er mwyn delio dyrnaid newydd"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Ni all Blacjac lwytho'r ffeil a ofynnwyd"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Gwiriwch eich sefydliad Blacjac os gwelwch yn dda"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Yr opsiwn gorau yw sefyll"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Mae sefyll yn golygu peidio ag ychwanegu mwy o gardiau i'ch llaw. Gwnewch "
+#~ "hyn drwy glicio cardiau'r deliwr, neu drwy ddewis yr opsiwn o'r ddewislen "
+#~ "Rheoli."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Yr opsiwn gorau yw bwrw"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Mae bwrw yn golygu ychwanegu cerdyn arall i'ch llaw. Gwnewch hyn drwy "
+#~ "glicio'ch cardiau unwaith, neu drwy ddewis yr opsiwn o'r ddewislen Rheoli."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "Yr opsiwn gorau yw dyblu i lawr"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Mae dyblu i lawr yn golygu ychwanegu cerdyn arall i'ch llaw. Gwnewch hyn "
+#~ "drwy glicio'r tships ar waelod y ffenest, neu drwy ddewis yr opsiwn o'r "
+#~ "ddewislen Rheoli."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Yr opsiwn gorau yw hollti"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Mae hollti yn golygu rhannu'ch llaw bresennol i ddwy law ar wahân. "
+#~ "Gwnewch hyn drwy lusgo un o'ch cardiau a'i ollwng i'r ochr, neu drwy "
+#~ "ddewis yr opsiwn o'r ddewislen Rheoli."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Yr opsiwn gorau yw ildio"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Mae ildio yn golygu rhoi'r gorau i hanner eich bet a pheidio cwblhau'r "
+#~ "llaw. Gwnewch hyn drwy ddewis yr opsiwn o'r ddewislen Rheoli."
+
+#~ msgid "Blackjack is a casino-style card game."
+#~ msgstr "Mae Blacjac yn gêm gardiau fel y ceir mewn casino."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Yn cyfrifo'r strategaeth sylfaenol..."
+
+#~ msgid "Bust"
+#~ msgstr "Wedi Chwalu"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blacjac!"
+
+#~ msgid "Soft"
+#~ msgstr "Meddal"
+
+#~ msgid "Win"
+#~ msgstr "Ennill"
+
+#~ msgid "Push"
+#~ msgstr "Gwthio"
+
+#~ msgid "Lose"
+#~ msgstr "Colli"
+
+#~ msgid "Player expected values"
+#~ msgstr "Roedd y chwaraewr yn disgwyl gwerthoedd"
+
+#~ msgid "Stand"
+#~ msgstr "Sefyll"
+
+#~ msgid "Hit"
+#~ msgstr "Bwrw"
+
+#~ msgid "Double"
+#~ msgstr "Dwbl"
+
+#~ msgid "Split"
+#~ msgstr "Hollti"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Tebygolrwyddau llaw'r deliwr"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Gwall wrth gysylltu â'r gweinydd: %s"
+
+#~ msgid "Error"
+#~ msgstr "Gwall"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Eich cyfrinair newydd yw %s"
+
+#~ msgid "New password"
+#~ msgstr "Cyfrinair newydd"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Chwaraewyr ar y gweinydd: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Ystafell bresennol: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Rydych chi wedi ymuno â'r stafell \"%s\"."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Gwall wrth ymuno â'r ystafell: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "Zôn Gemau GGZ"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Fedrwch chi ddim sgwrsio heb fod mewn stafell."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Does ddim caniatâd gyda chi i sgwrsio fan hyn."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Dim sgwrsio preifat wrth y bwrdd!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Dyw'r chwaraewr hwnnw ddim yn y stafell!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Roedd gwall wrth gychwyn sgwrsio."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Dydych chi ddim wrth fwrdd."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Methodd y sgwrs: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "Gwall wrth lansio bwrdd: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Rydych chi wedi ymuno â bwrdd %d."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Gwall wrth ymuno â bwrdd: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "Mae %s wedi'ch taflu o'r bwrdd."
+
+#~ msgid "You have left the table."
+#~ msgstr "Rydych chi wedi gadael bwrdd."
+
+#~ msgid "The game is over."
+#~ msgstr "Mae'r gêm ar ben."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "Roedd gwall ar weinydd y gêm."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Gwall wrth adael bwrdd: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Ystafell Bresennol:"
+
+#~ msgid "**none**"
+#~ msgstr "**dim**"
+
+#~ msgid "Offline"
+#~ msgstr "All-lein"
+
+#~ msgid "Connecting"
+#~ msgstr "Wrthi'n cysylltu"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Wrthi'n ailgysylltu"
+
+#~ msgid "Online"
+#~ msgstr "Ar-lein"
+
+#~ msgid "Logging In"
+#~ msgstr "Wrthi'n mewngofnodi"
+
+#~ msgid "Logged In"
+#~ msgstr "Wedi mewngofnodi"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Stafell"
+
+#~ msgid "Chatting"
+#~ msgstr "Sgwrsio"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Bwrdd"
+
+#~ msgid "Playing"
+#~ msgstr "Wrthi'n chwarae"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Bwrdd"
+
+#~ msgid "Logging Out"
+#~ msgstr "Wrthi'n allgofnodi"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Gwall gweinydd: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Wedi datgysylltu â'r gweinydd."
+
+#~ msgid "Login"
+#~ msgstr "Mewngofnodi"
+
+#~ msgid "Sorry!"
+#~ msgstr "Sori!"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Mae'r enw defnyddiwr hwnnw'n bodoli'n barod."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Methodd y dilysiant.\n"
+#~ "Rhowch y cyfrinair cywir."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Mae'r enw defnyddiwr hwnnw'n rhy hir!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Enw defnyddiwr annilys. Peidiwch â defnyddio nodau arbennig!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Methodd y mewngofnodi am reswm anhysbys: %s"
+
+#~ msgid "Server Profile"
+#~ msgstr "Proffil Gweinydd"
+
+#~ msgid "Profile:"
+#~ msgstr "Proffil:"
+
+#~ msgid "Edit Profiles..."
+#~ msgstr "Golygu Proffil..."
+
+#~ msgid "Server:"
+#~ msgstr "Gweinydd:"
+
+#~ msgid "Port:"
+#~ msgstr "Porth:"
+
+#~ msgid "Username:"
+#~ msgstr "Enw defnyddiwr:"
+
+#~ msgid "Password:"
+#~ msgstr "Cyfrinair:"
+
+#~ msgid "Email:"
+#~ msgstr "Ebost:"
+
+#~ msgid "Normal Login"
+#~ msgstr "Mewngofnodi'n arferol"
+
+#~ msgid "Guest Login"
+#~ msgstr "Mewngofnodi fel gwestai"
+
+#~ msgid "First-time Login"
+#~ msgstr "Mewngofnodi am y tro cyntaf"
+
+#~ msgid "Connect"
+#~ msgstr "Cysylltu"
+
+#~ msgid "Wizard"
+#~ msgstr "Dewin"
+
+#~ msgid "Deity"
+#~ msgstr "Duwdod"
+
+#~ msgid "Sentinel"
+#~ msgstr "Gwarchodwr"
+
+#~ msgid "Captain"
+#~ msgstr "Capten"
+
+#~ msgid "Knight"
+#~ msgstr "Marchog"
+
+#~ msgid "Angel"
+#~ msgstr "Angel"
+
+#~ msgid "Silverlord"
+#~ msgstr "Uwch-arglwydd"
+
+#~ msgid "Eagle"
+#~ msgstr "Eryr"
+
+#~ msgid "Vampire"
+#~ msgstr "Fampir"
+
+#~ msgid "Chief"
+#~ msgstr "Pennaeth"
+
+#~ msgid "Colonel"
+#~ msgstr "Cyrnol"
+
+#~ msgid "General"
+#~ msgstr "Cyffredinol"
+
+#~ msgid "Major"
+#~ msgstr "Uwch-gapten"
+
+#~ msgid "Scout"
+#~ msgstr "Sgowt"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Lefftenant"
+
+#~ msgid "Stalker"
+#~ msgstr "Sgwlcwr"
+
+#~ msgid "Scientist"
+#~ msgstr "Gwyddonydd"
+
+#~ msgid "Scholar"
+#~ msgstr "Ysgolor"
+
+#~ msgid "Entity"
+#~ msgstr "Endid"
+
+#~ msgid "Creator"
+#~ msgstr "Creawdwr"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "Cymuned GGZ (cyflym)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Gweinydd datblygu lleol"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Dyma'r tro cyntaf i chi ddefnyddio cleient Zôn Gemau GGZ GTK+. Hoffech "
+#~ "chi greu proffiliau defnyddwyr rhagosodedig?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <enw defnyddiwr> <neges>. Anfon neges breifat at chwaraewr"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <neges> .......... Neges at eich bwrdd chi"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <neges> ........... Gorchymyn gweinyddol"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <enw defnyddiwr> .... Bîp at chwaraewr"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... Derbyn cymorth"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. Rhestru'ch ffrindiau"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr ""
+#~ "/ignore ................... Rhestru'r bobl yr ydych chi'n eu hanwybyddu"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <enw defnyddiwr> .......... Taflu chwaraewr o'r stafell"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr ""
+#~ "/gag <enw defnyddiwr> ........... Cloi ceg chwaraewyr i'w hatal rhag "
+#~ "siarad"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <enw defnyddiwr>  ......... Datgloi ceg chwaraewyr i'w caniatáu i "
+#~ "siarad eto"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <enw defnyddiwr> ........... Gwahardd chwaraewr o'r gweinydd"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Mae %s wedi anfon neges anhysbys atoch chi."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "Mae %s wedi'ch bipio."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Defnydd: /msg <enw defnyddiwr> <neges>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Anfon neges breifat at ddefnyddiwr ar y rhwydwaith."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Wedi gosod %s fel bîp."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (wedi mewngofnodi)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (wedi allgofnodi)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Gorchmynion Sgwrsio"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <gweithred> ........... Anfon gweithred"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "Wedi ychwanegu %s at eich rhestr ffrindiau."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "Wedi tynnu %s o restr eich ffrindiau."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "Wedi ychwanegu %s at eich rhestr anwybyddu."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "Wedi tynnu %s o'r rhestr anwybyddu."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Eich ffrindiau ar hyn o bryd"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Y bobl rydych chi'n anwybyddu ar hyn o bryd"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Mwy nag un yn cydweddu:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Y gêm hon heb ei gosod. Medrwch ei llwytho i lawr\n"
+#~ "o %s."
+
+#~ msgid "Launch Error"
+#~ msgstr "Gwall Lansio"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Methu cychwyn modwl y gêm.\n"
+#~ " Lansio wedi ei atal."
+
+#~ msgid "Launched game"
+#~ msgstr "Wedi lansio gêm"
+
+#~ msgid "Launch failed"
+#~ msgstr "Lansio wedi methu"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Dim ond un gêm fedrwch chi ei chwarae ar y tro."
+
+#~ msgid "Game Error"
+#~ msgstr "Gwall Gêm"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Rydych chi wrth y bwrdd o hyd."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Rhaid i chi fod mewn stafell i lansio gêm.\n"
+#~ "Lansio wedi ei atal."
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Dim mathau gêm wedi'u diffinio ar gyfer y gweinydd hwn.\n"
+#~ "Lansio wedi ei atal."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Nid yw'r gêm hon yn cynnal gwylwyr eto."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Rhaid i chi lansio'r cleient GGZ yn uniongyrchol\n"
+#~ "i fedru chwarae'r gêm hon."
+
+#~ msgid "Galeon - New"
+#~ msgstr "Galeon - Newydd"
+
+#~ msgid "Galeon - Existing"
+#~ msgstr "Galeon - Yn bodoli"
+
+#~ msgid "Gnome URL Handler"
+#~ msgstr "Trinydd LAU Gnome"
+
+#~ msgid "Konqueror - New"
+#~ msgstr "Konqueror - Newydd"
+
+#~ msgid "Konqueror - Existing"
+#~ msgstr "Konqueror - Yn bodoli"
+
+#~ msgid "Lynx"
+#~ msgstr "Lynx"
+
+#~ msgid "Mozilla - New"
+#~ msgstr "Mozilla - Newydd"
+
+#~ msgid "Mozilla - Existing"
+#~ msgstr "Mozilla - Yn bodoli"
+
+#~ msgid "Netscape - New"
+#~ msgstr "Netscape - Newydd"
+
+#~ msgid "Netscape - Existing"
+#~ msgstr "Netscape - Yn bodoli"
+
+#~ msgid "Opera - New"
+#~ msgstr "Opera - Newydd"
+
+#~ msgid "Opera - Existing"
+#~ msgstr "Opera - Presennol"
+
+#~ msgid "Firefox - New"
+#~ msgstr "Firefox - Newydd"
+
+#~ msgid "Firefox - Existing"
+#~ msgstr "Firefox - Yn bodoli"
+
+#~ msgid "About"
+#~ msgstr "Ynghylch"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Neges y Dydd"
+
+#~ msgid "None"
+#~ msgstr "Dim"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Hidlo stafelloedd heb ei raglennu eto. Os\n"
+#~ "hoffech chi wireddu hyn ewch i\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Heb Gynnal Eto"
+
+#~ msgid "Description"
+#~ msgstr "Disgrifiad"
+
+#~ msgid "Web Address"
+#~ msgstr "Cyfeiriad Gwe"
+
+#~ msgid "Author"
+#~ msgstr "Awdur"
+
+#~ msgid "Game Types"
+#~ msgstr "Math Gêm"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Hidl Rhestr Stafelloedd:"
+
+#~ msgid "Set"
+#~ msgstr "Set"
+
+#~ msgid "Player Information"
+#~ msgstr "Gwybodaeth Chwaraewr"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Dolen Chwaraewr:"
+
+#~ msgid "Table:"
+#~ msgstr "Bwrdd:"
+
+#~ msgid "Account:"
+#~ msgstr "Cyfrif:"
+
+#~ msgid "Record:"
+#~ msgstr "Record:"
+
+#~ msgid "Rating:"
+#~ msgstr "Cyrhaeddiad:"
+
+#~ msgid "Rank:"
+#~ msgstr "Safle:"
+
+#~ msgid "Message:"
+#~ msgstr "Neges:"
+
+#~ msgid "Unknown"
+#~ msgstr "Anhysbys"
+
+#~ msgid "Registered"
+#~ msgstr "Wedi Cofrestru"
+
+#~ msgid "Guest"
+#~ msgstr "Gwestai"
+
+#~ msgid "Host"
+#~ msgstr "Gwesteiwr"
+
+#~ msgid "Administrator"
+#~ msgstr "Gweinyddwr"
+
+#~ msgid "Friends"
+#~ msgstr "Ffrindiau"
+
+#~ msgid "Ignore"
+#~ msgstr "Anwybyddu"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Ystadegau"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Pa gleient hoffech chi ddefnyddio i chwarae'r gêm hon?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Peidio â gofyn eto."
+
+#~ msgid "Join"
+#~ msgstr "Ymuno"
+
+#~ msgid "Leave"
+#~ msgstr "Gadael"
+
+#~ msgid "No description available."
+#~ msgstr "Dim disgrifiad ar gael."
+
+#~ msgid "Seats"
+#~ msgstr "Seddau"
+
+#~ msgid "Room Information"
+#~ msgstr "Gwybodaeth Stafell"
+
+#~ msgid "Game Name:"
+#~ msgstr "Enw'r Gêm:"
+
+#~ msgid "Author:"
+#~ msgstr "Awdur:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Tudalen Gwe:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Disgrifiad Stafell:"
+
+#~ msgid "This room has no game"
+#~ msgstr "Does dim gêm yn y stafell hon"
+
+#~ msgid "Unknown room"
+#~ msgstr "Stafell anhysbys"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Fedrwch chi ddim ymuno â stafell; dydych chi ddim wedi mewngofnodi"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Rydych chi rhwng stafelloedd eisoes."
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Fedrwch chi ddim newid stafelloedd wrth chwarae gêm"
+
+#~ msgid "Unknown error"
+#~ msgstr "Gwall anhysbys"
+
+#~ msgid "Error joining room"
+#~ msgstr "Gwall wrth ymuno â stafell"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Stafelloedd Eraill"
+
+#~ msgid "Room"
+#~ msgstr "Stafell"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Math y Gêm: %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Awdur: %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Disgrifiad:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Tudalen Gwe: %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Methu lansio bwrdd.\n"
+#~ "Lansio wedi ei atal."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Nifer annilys o fotiau wedi'u dewis"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Gwall wrth gychwyn y modwl gêm."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Neilltuad Seddau"
+
+#~ msgid "Game Type:"
+#~ msgstr "Math y Gêm:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Nifer y seddau"
+
+#~ msgid "Description:"
+#~ msgstr "Disgrifiad:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Sedd %d:"
+
+#~ msgid "Computer"
+#~ msgstr "Cyfrifiadur"
+
+#~ msgid "Open"
+#~ msgstr "Ar agor"
+
+#~ msgid "Reserved for"
+#~ msgstr "Wedi'i gadw ar gyfer"
+
+#~ msgid "Game Description   "
+#~ msgstr "Disgrifiad Gêm"
+
+#~ msgid "Launch"
+#~ msgstr "Lansio"
+
+#
+# "Lled/Uchder gofynnol y brif ffenest mewn picseli. Nodir fod y teclynnau
+# yn y "
+# "ffenest o leia 320 picsel o led/uchder."
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Ydych chi'n siŵr eich bod chi am adael?"
+
+#~ msgid "Quit?"
+#~ msgstr "Gadael?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Ystadegau gweinydd heb eu rhaglennu eto. Os hoffech chi wireddu hyn ewch "
+#~ "i\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Ystadegau chwaraewyr heb eu rhaglennu eto. Os hoffech chi wireddu hyn "
+#~ "ewch i\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "GGZ Gaming Zone help needs a browser to be configured.\n"
+#~ "The configuration dialog will be invoked now."
+#~ msgstr ""
+#~ "Mae angen cyflunio porwr gwe er mwyn defnyddio cymorth\n"
+#~ "Zôn Gemau GGZ. Fe agorir y ddeialog gyflunio nawr."
+
+#~ msgid ""
+#~ "Inline game help is not implemented yet. Help\n"
+#~ "is on our website. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Cymorth o fewn y gêm heb ei raglennu eto. Ceir\n"
+#~ "cymorth ar ein safle gwe. Os hoffech chi wireddu\n"
+#~ "cymorth o fewn y gêm ewch i\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Rhaid i chi ddewis bwrdd cyn medru ymuno ag ef."
+
+#~ msgid "Error Joining"
+#~ msgstr "Gwall wrth ymuno"
+
+#~ msgid "That table is full."
+#~ msgstr "Mae'r bwrdd yn llawn."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Rhaid i chi ddewis bwrdd cyn medru ei wylio."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Gwall wrth wylio"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Methu ymuno â'r bwrdd.\n"
+#~ "Ymuno wedi ei atal."
+
+#~ msgid "Join Error"
+#~ msgstr "Gwall ymuno"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Datgysylltu â'r gweinydd Zôn Gemau GGZ"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Dechrau chwarae gêm ar fwrdd newydd"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Ymuno â gêm sydd eisoes wedi cychwyn"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Gwylio gêm newydd - bod yn wyliwr wrth y bwrdd"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Gadael y gêm yr ydych chi'n chwarae ar hyn o bryd"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "Dangos y ddeialog briodweddau er mwyn newid gosodiadau'r cleient"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr ""
+#~ "Dangos yr ystadegau ar gyfer y math o gêm sy'n cael ei chwarae yn y "
+#~ "stafell bresennol"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Gadael y rhaglen gleient GGZ."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Crynhowyd gyda gwybodaeth datnamu."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Datgysylltu"
+
+#~ msgid "Quit"
+#~ msgstr "Gadael"
+
+#~ msgid "Watch"
+#~ msgstr "Gwylio"
+
+#~ msgid "Edit"
+#~ msgstr "Golygu"
+
+#~ msgid "Properties"
+#~ msgstr "Priodweddau"
+
+#~ msgid "View"
+#~ msgstr "Golwg"
+
+#~ msgid "Room List"
+#~ msgstr "Rhestr Stafelloedd"
+
+#~ msgid "Server Stats"
+#~ msgstr "Ystadegau Gweinydd"
+
+#~ msgid "Player Stats"
+#~ msgstr "Ystadegau Chwaraewyr"
+
+#~ msgid "MOTD"
+#~ msgstr "Neges y dydd"
+
+#~ msgid "Help"
+#~ msgstr "Cymorth"
+
+#~ msgid "Copyright"
+#~ msgstr "Hawlfraint"
+
+#~ msgid "GGZ Help"
+#~ msgstr "Cymorth GGZ"
+
+#~ msgid "Game Help"
+#~ msgstr "Cymorth Gêm"
+
+#~ msgid "Goto Web"
+#~ msgstr "Mynd ar y We"
+
+#~ msgid "Send"
+#~ msgstr "Anfon"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Priodweddau wedi'u Diweddaru"
+
+#~ msgid "Confirm:"
+#~ msgstr "Cadarnhau:"
+
+#~ msgid "Modify"
+#~ msgstr "Newid"
+
+#~ msgid "Servers"
+#~ msgstr "Gweinyddion"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Ffont Sgwrs:"
+
+#~ msgid "Change"
+#~ msgstr "Newid"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Anwybyddu Negeseuon Ymuno/Ymadael"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Chwarae Seiniau"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Mewnoli'n Awtomatig"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Rhoi Stampiau Amser ar Sgyrsiau"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Amlapio Geiriau"
+
+#~ msgid "Chat Color"
+#~ msgstr "Lliw Sgwrsio"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Y lliw sgwrsio rhagosodedig i'ch ffrindiau"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Y lliw sgwrsio ddefnyddir wrth i rywun deipio'ch enw"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Y lliw sgwrsio ar gyfer pob sgwrs arall"
+
+#~ msgid "Normal Color"
+#~ msgstr "Lliw Arferol"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Lliw Amlygu"
+
+#~ msgid "Friend Color"
+#~ msgstr "Lliw Ffrindiau"
+
+#~ msgid "Black Background"
+#~ msgstr "Cefndir Du"
+
+#~ msgid "White Background"
+#~ msgstr "Cefndir Gwyn"
+
+#~ msgid "Chat"
+#~ msgstr "Sgwrs"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "Mae'r holl wybodaeth yma'n ddewisol."
+
+#~ msgid "Name:"
+#~ msgstr "Enw:"
+
+#~ msgid "City:"
+#~ msgstr "Dinas:"
+
+#~ msgid "State:"
+#~ msgstr "Talaith/Ardal:"
+
+#~ msgid "Country:"
+#~ msgstr "Gwlad:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Sylwadau, Hobïau, a.y.b."
+
+#~ msgid "User Information"
+#~ msgstr "Gwybodaeth Defnyddiwr"
+
+#~ msgid "Browser to launch URLs with:"
+#~ msgstr "Pa borwr i lansio URLau:"
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Ymuno â stafell ag un clic"
+
+#~ msgid "Display All"
+#~ msgstr "Dangos Popeth"
+
+#~ msgid "Display New"
+#~ msgstr "Dangos rhai Newydd"
+
+#~ msgid "Display Important"
+#~ msgstr "Dangos pethau pwysig"
+
+#~ msgid "Display None"
+#~ msgstr "Dangos Dim"
+
+#~ msgid "Options"
+#~ msgstr "Opsiynau"
+
+#~ msgid "Select Font"
+#~ msgstr "Dewis Ffont"
+
+#~ msgid "Unknown negotation"
+#~ msgstr "Trafodaeth anhysbys"
+
+#~ msgid "Already logged in"
+#~ msgstr "Eisoes wedi mewngofnodi"
+
+#~ msgid "The password was incorrect"
+#~ msgstr "Roedd y cyfrinair yn anghywir"
+
+#~ msgid "Name is already taken"
+#~ msgstr "Enw wedi'i gymryd yn barod"
+
+#~ msgid "This name is already registered so cannot be used by a guest"
+#~ msgstr ""
+#~ "Mae'r enw hwn wedi ei gofrestru eisoes, felly ni all gwestai ei ddefnyddio"
+
+#~ msgid "No such name was found"
+#~ msgstr "Methu canfod enw o'r fath"
+
+#~ msgid "Name too long"
+#~ msgstr "Enw rhy hir"
+
+#~ msgid "Name contains forbidden ASCII characters"
+#~ msgstr "Enw'r cynnwys nodau ASCII sydd wedi'u gwahardd"
+
+#~ msgid "Missing password or other bad options."
+#~ msgstr "Cyfrinair ar goll neu opsiynau gwael eraill."
+
+#~ msgid "Unknown login error"
+#~ msgstr "Gwall mewngofnodi anhysbys"
+
+#~ msgid "Room full"
+#~ msgstr "Stafell yn llawn"
+
+#~ msgid "Can't change rooms while at a table"
+#~ msgstr "Methu newid stafelloedd pan wrth fwrdd"
+
+#~ msgid "Can't change rooms while joining/leaving a table"
+#~ msgstr "Methu newid stafelloedd wrth ymuno/gadael bwrdd"
+
+#~ msgid "Bad room number"
+#~ msgstr "Rhif stafell wael"
+
+#~ msgid "Insufficient permissions, room access is restricted"
+#~ msgstr "Dim digon o ganiatâd; mynediad i'r stafell wedi ei gyfyngu"
+
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Gwall anhysbys wrth ymuno â stafell"
+
+#~ msgid "Protocol mismatch"
+#~ msgstr "Protocol ddim yn cydweddu"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: mae'r opsiwn `%s' yn amwys\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: nid yw'r opsiwn `--%s' yn caniatáu arg\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: nid yw'r opsiwn `%c%s' yn caniatáu arg\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: mae angen arg ar yr opsiwn `%s'\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: opsiwn `%c%s' heb ei adnabod\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: opsiwn anghyfreithlon -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: opsiwn annilys -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: angen arg ar yr opsiwn -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: mae'r opsiwn `-W %s' yn amwys\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: nid yw'r opsiwn `-W %s' yn caniatáu arg\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "Fflag i adael i chwaraewyr pell wylio gemau newydd"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "Fflag i alluogi modd 3D"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Fflag i alluogi'r modd sgrin lawn"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "Fflag i alluogi'r porwr hanes symud"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Fflag i alluogi'r bar offer"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Mewn gemau newydd, faint o amser sydd ar gael i chwaraewr symud"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr ""
+#~ "Mewn gemau newydd, lefel anhawster rhagosodedig chwaraewr y darnau du"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr ""
+#~ "Mewn gemau newydd, lefel anhawster rhagosodedig chwaraewr y darnau gwyn"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "Mewn gemau newydd, math chwaraewr rhagosodedig y darnau du"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "Mewn gemau newydd, math chwaraewr rhagosodedig y darnau gwyn"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "Ym mha gyfeiriadur i agor y ddeialog llwytho gêm"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "Ym mha gyfeiriadur i agor y ddeialog cadw gêm"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Ym mha ffurf i ddangos symudiadau"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Uchder y brif ffenest, mewn picseli."
+
+#~ msgid "The height of the window"
+#~ msgstr "Uchder y ffenest"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Lled y brif ffenest, mewn picseli."
+
+#~ msgid "The width of the window"
+#~ msgstr "Lled y ffenest"
+
+#~ msgid "Communication:"
+#~ msgstr "Cyfathrebu:"
+
+#~ msgid "Executable:"
+#~ msgstr "Rhaglen i'w gweithredu:"
+
+#~ msgid "Playing as:"
+#~ msgstr "Yn chwarae fel:"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Cadw Gêm Wyddbwyll"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Llwytho Gêm Wyddbwyll"
+
+#~ msgid ""
+#~ "<b><big>Some games have been changed. Save changes before closing?</big></"
+#~ "b>"
+#~ msgstr ""
+#~ "<b><big>Mae rhai gemau wedi newid. Cadw'r newidiadau cyn cau?</big></b>"
+
+#~ msgid "<b><big>Unable to enable 3D mode</big></b>"
+#~ msgstr "<b><big>Methu cychwyn modd 3D</big></b>"
+
+#~ msgid "AI Information"
+#~ msgstr "Gwybodaeth Chwaraewyr Cyfrifiadurol"
+
+#~ msgid "End Game"
+#~ msgstr "Gorffen Gêm"
+
+#~ msgid "If you don't save, all your changes will be permanently lost"
+#~ msgstr "Os na wnewch chi gadw, fe gollir eich newidiadau am byth"
+
+#~ msgid "Join Game"
+#~ msgstr "Ymuno â Gêm"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "_Gadael modd Sgrin Lawn"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Llwytho gêm wedi'i chadw"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Dirwyn y gêm yn ôl i'r cychwyn"
+
+#~ msgid "Save and _Quit"
+#~ msgstr "Cadw a _Gadael"
+
+#~ msgid "Save the current game"
+#~ msgstr "Cadw'r gêm bresennol"
+
+#~ msgid "Select the games you want to save:"
+#~ msgstr "Dewiswch y gemau yr ydych chi am eu cadw:"
+
+#~ msgid "Show the current move"
+#~ msgstr "Dangos y symudiad presennol"
+
+#~ msgid "Show the next move"
+#~ msgstr "Dangos y symudiad nesaf"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Dangos y symudiad blaenorol"
+
+#~ msgid "Summary"
+#~ msgstr "Crynodeb"
+
+#~ msgid "There are no artificial intelligence players."
+#~ msgstr "Does yna ddim chwaraewyr o ddeallusrwydd artiffisial."
+
+#~ msgid ""
+#~ "Your system does not have the required software to enable 3D mode. Please "
+#~ "contact your system administrator and ask them to install the <i>OpenGL "
+#~ "Python bindings</i> and the <i>GtkGLExt Python bindings</i>.\n"
+#~ "\n"
+#~ "You are still able to play chess in 2D without these packages."
+#~ msgstr ""
+#~ "Does gan eich system mo'r meddalwedd angenrheidiol i redeg y modd 3D. "
+#~ "Cysylltwch â gweinyddwyr eich system a gofynnwch iddyn nhw osod "
+#~ "<i>rhwymiadau Python i OpenGL</i> a <i>rhwymiadau Python i GtkGLExt</i>.\n"
+#~ "\n"
+#~ "Fe allwch chi chwarae gwyddbwyll yn 2D o hyd heb y pecynnau hyn."
+
+#~ msgid "_3D"
+#~ msgstr "_3D"
+
+#~ msgid "_AI Information"
+#~ msgstr "Gwybodaeth Chwaraewyr _Cyfrifiadurol"
+
+#~ msgid "_History"
+#~ msgstr "_Hanes"
+
+#~ msgid "_Join Game"
+#~ msgstr "_Ymuno â Gêm"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Anhawster</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Priodweddau Gêm</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Chwaraewyr</b>"
+
+#~ msgid "Allow remote clients to watch this game"
+#~ msgstr "Gadael i gleientau pell wylio'r gêm"
+
+#~ msgid "B_lack:"
+#~ msgstr "_Du:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "Rhowch deitl i'r gêm"
+
+#~ msgid "Local chess game"
+#~ msgstr "Gêm wyddbwyll leol"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Amser y _Symud:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr ""
+#~ "Cychwyn y gêm. Gellir cychwyn y gêm unwaith y bydd pob maes wedi ei lenwi"
+
+#~ msgid "W_hite:"
+#~ msgstr "_Gwyn:"
+
+#~ msgid "_Allow spectators"
+#~ msgstr "_Caniatáu gwylwyr"
+
+#~ msgid "_Black:"
+#~ msgstr "D_u:"
+
+#~ msgid "_Game name:"
+#~ msgstr "_Enw'r gêm:"
+
+#~ msgid "_Start"
+#~ msgstr "_Cychwyn"
+
+#~ msgid "_White:"
+#~ msgstr "G_wyn:"
+
+#~ msgid "Chess"
+#~ msgstr "Gwyddbwyll"
+
+#~ msgid "Play the classic two-player boardgame of chess "
+#~ msgstr "Chwarae gêm draddodiadol o wyddbwyll rhwng dau chwaraewr"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "Copyright 2005-2007 Robert Ancell (and contributors)"
+#~ msgstr "Hawlfraint 2005-2007 Robert Ancell (a chyfranwyr)"
+
+#~ msgid "A 2D/3D chess interface for Gnome"
+#~ msgstr "Rhyngwyneb gwyddbwyll 2D/3D ar gyfer Gnome"
+
+#~ msgid "glChess homepage"
+#~ msgstr "Tudalen gartref glChess"
+
+#~ msgid "Game Start"
+#~ msgstr "Cychwyn Gêm"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Checkmate, %s wins."
+#~ msgstr "Checkmate, %s sy'n ennill."
+
+#~ msgid "Human"
+#~ msgstr "Person"
+
+#~ msgid "Unlimited"
+#~ msgstr "Diderfyn"
+
+#~ msgid "One minute"
+#~ msgstr "Un funud"
+
+#~ msgid "Five minutes"
+#~ msgstr "Pum munud"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 munud"
+
+#~ msgid "One hour"
+#~ msgstr "Un awr"
+
+#~ msgid "Custom"
+#~ msgstr "Addasedig"
+
+#~ msgid "seconds"
+#~ msgstr "eiliadau"
+
+#~ msgid "minutes"
+#~ msgstr "munudau"
+
+#~ msgid "hours"
+#~ msgstr "oriau"
+
+#~ msgid "Easy"
+#~ msgstr "Hawdd"
+
+#~ msgid "Normal"
+#~ msgstr "Arferol"
+
+#~ msgid "Hard"
+#~ msgstr "Anodd"
+
+#~ msgid "%s versus %s"
+#~ msgstr "%s yn erbyn %s"
+
+#~ msgid "White"
+#~ msgstr "Gwyn"
+
+#~ msgid "Black"
+#~ msgstr "Du"
+
+#~ msgid "Small"
+#~ msgstr "Bach"
+
+#~ msgid "glines|Medium"
+#~ msgstr "Canolig"
+
+#~ msgid "Large"
+#~ msgstr "Mawr"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Methu llwytho'r thema"
+
+#~ msgid "Preferences"
+#~ msgstr "Hoffterau"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Methu canfod ffeil:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Bydd y thema ragosodedig yn cael ei llwytho yn lle hyn."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Methu canfod ffeil:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Gwiriwch fod Pump neu Fwy wedi ei sefydlu'n gywir."
+
+# msgstr "Rhoi pump neu fwy pêl o'r un lliw mewn rhes er mwyn sgorio!"
+# msgstr "Creu rhesi o bump neu fwy pêl o'r un lliw er mwyn sgorio!"
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Sgoriwch gan roi pump neu fwy o beli o'r un lliw mewn rhes!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "Pump neu Fwy GNOME"
+
+#~ msgid "Board Size:"
+#~ msgstr "Maint y bwrdd:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Gêm Drosodd!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Methu symud fan yna!"
+
+#~ msgid "Five or More"
+#~ msgstr "Pump neu Fwy"
+
+#~ msgid "GNOME port of the once-popular Color Lines game"
+#~ msgstr "Trosiad at GNOME o'r gêm Color Lines a oedd yn boblogaidd unwaith"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Hoffterau Pump neu Fwy"
+
+#~ msgid "Themes"
+#~ msgstr "Themâu"
+
+#~ msgid "_Image:"
+#~ msgstr "_Delwedd:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "Lliw _cefndir:"
+
+#~ msgid "Board Size"
+#~ msgstr "Maint y Bwrdd"
+
+#~ msgid "_Small"
+#~ msgstr "_Bach"
+
+#~ msgid "_Medium"
+#~ msgstr "_Canolig"
+
+#~ msgid "_Large"
+#~ msgstr "_Mawr"
+
+#~ msgid "glines|General"
+#~ msgstr "Cyffredinol"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "Defnyddio symudiadau _cyflym"
+
+#~ msgid "Next:"
+#~ msgstr "Nesaf:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Tynnu peli lliwgar o'r bwrdd gan ffurfio llinellau"
+
+#~ msgid "Background color"
+#~ msgstr "Lliw cefndir"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Lliw cefndir. Penodiad hecs y lliw cefndir."
+
+#~ msgid "Ball style"
+#~ msgstr "Arddull pêl"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Arddull pêl. Enw ffeil y delweddau i'w defnyddio ar gyfer y peli."
+
+#~ msgid "Game field"
+#~ msgstr "Maes y gêm"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Maes y gêm i'r sesiwn a gafodd ei gadw diwethaf."
+
+#~ msgid "Game preview"
+#~ msgstr "Rhagolwg gêm"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Y rhagolwg gêm o'r sesiwn a gafodd ei gadw diwethaf."
+
+#~ msgid "Game score"
+#~ msgstr "Sgôr gêm"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Sgôr o'r sesiwn a gafodd ei gadw diwethaf."
+
+#~ msgid "Playing field size"
+#~ msgstr "Maint maes chwarae"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Maint maes chwarae. 1=Bach, 2=Canolig, 3=Mawr. Mae pob gwerth arall yn "
+#~ "annilys."
+
+#~ msgid "Time between moves"
+#~ msgstr "Amser rhwng symudiadau"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Yr amser rhwng symudiadau mewn milfedau eiliad."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Pedwar-mewn-Rhes"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Cystadlu i wneud llinellau o'r un lliw"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "Rhif yn nodi'r hoff thema."
+
+#~ msgid "Animate"
+#~ msgstr "Animeiddio"
+
+#~ msgid "Drop marble"
+#~ msgstr "Gollwng marblen"
+
+#~ msgid "Height of the main window"
+#~ msgstr "Uchder y brif ffenest"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Y fysell i'w gwasgu er mwyn gollwng marblen."
+
+#~ msgid "Level of Player One"
+#~ msgstr "Lefel Chwaraewr Un"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Lefel Chwaraewr Dau"
+
+#~ msgid "Sound"
+#~ msgstr "Sain"
+
+#~ msgid "The height of the main window, in pixels, at start-up."
+#~ msgstr "Uchder y brif ffenest, mewn picseli, ar y cychwyn."
+
+#~ msgid "The width of the main window, in pixels, at start-up."
+#~ msgstr "Lled y brif ffenest, mewn picseli, ar y cychwyn."
+
+#~ msgid "Theme ID"
+#~ msgstr "ID Thema"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "A ddylid chwarae seiniau digwyddiadau."
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "A ddylid defnyddio animeiddiad."
+
+#~ msgid "Width of the main window"
+#~ msgstr "Lled y brif ffenest"
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr ""
+#~ "Mae sero yn golygu person; mae un, dau a tri yn cyfateb i lefel chwaraewr "
+#~ "y cyfrifiadur."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Methwyd llwytho llun:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "Mae gwall rhwydwaith wedi digwydd."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Wrthi'n aros i wrthwynebwr ymuno â'r gêm"
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Croeso i gêm rhwydwaith %s."
+
+#~ msgid "It's a draw!"
+#~ msgstr "Gêm gyfartal yw e!"
+
+#~ msgid "You win!"
+#~ msgstr "'Dych chi wedi ennill!"
+
+#~ msgid "It is your move."
+#~ msgstr "Eich tro chi yw hi."
+
+#~ msgid "I win!"
+#~ msgstr "'Dw i'n ennill!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Yn Meddwl..."
+
+#~ msgid "%s wins!"
+#~ msgstr "Mae %s yn ennill!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "Wrthi'n aros i %s symud."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Awgrym: Colofn %d"
+
+#~ msgid "You:"
+#~ msgstr "Chi:"
+
+#~ msgid "Me:"
+#~ msgstr "Fi:"
+
+#~ msgid "Scores"
+#~ msgstr "Sgôr"
+
+#~ msgid "Drawn:"
+#~ msgstr "Cyfartal:"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine."
+#~ msgstr ""
+#~ "\"Pedwar mewn rhes\" ar gyfer GNOME, gyda chwaraewr cyfrifiadurol wedi ei "
+#~ "yrru gan beiriant \"Velena\" Giuliano Bertoletti."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Chwaraewr 1:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Chwaraewr 2:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "Lefel un"
+
+#~ msgid "Level two"
+#~ msgstr "Lefel dau"
+
+#~ msgid "Level three"
+#~ msgstr "Lefel tri"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Hoffterau Pedwar-mewn-Rhes"
+
+#~ msgid "Appearance"
+#~ msgstr "Ymddangosiad"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Thema:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Galluogi _animeiddiad"
+
+#~ msgid "Classic"
+#~ msgstr "Clasurol"
+
+#~ msgid "Red"
+#~ msgstr "Coch"
+
+#~ msgid "Yellow"
+#~ msgstr "Melyn"
+
+#~ msgid "High Contrast"
+#~ msgstr "Cyferbyniad Uchel"
+
+#~ msgid "Light"
+#~ msgstr "Golau"
+
+#~ msgid "Dark"
+#~ msgstr "Tywyll"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Cyferbyniad Uchel"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Marblis Hufen"
+
+#~ msgid "Blue"
+#~ msgstr "Glas"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Marblis Gwydr"
+
+#~ msgid "Nightfall"
+#~ msgstr "Dechreunos"
+
+#~ msgid "Blocks"
+#~ msgstr "Blociau"
+
+#~ msgid "Orange"
+#~ msgstr "Oren"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Mae %s wedi ymuno â'r gêm.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "Mae'r gêm ar ben am fod y llywydd %s wedi gadael y gêm.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "Mae %s wedi gadael y gêm.\n"
+
+#~ msgid ""
+#~ "Gnibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Methodd Gnibbles ganfod ffeil map picseli:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Gwiriwch eich gosodiad Gnibbles os gwelwch yn dda"
+
+#~ msgid ""
+#~ "Gnibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Methodd Gnibbles lwytho ffeil lefel:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Gwiriwch eich gosodiad Gnibbles os gwelwch yn dda"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Sgoriau Nibbles"
+
+#~ msgid "Speed:"
+#~ msgstr "Cyflymder:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Llongyfarchiadau!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Cyrhaeddodd eich sgôr y deg uchaf."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Arwain mwydyn drwy ddrysfa"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Y lliw i'w ddefnyddio ar gyfer mwydyn"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Y lliw i'w ddefnyddio ar gyfer mwydyn."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Galluogi bonysau ffug"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Galluogi bonysau ffug."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Galluogi synau"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Galluogi synau."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Lefel y gêm i ddechrau arno"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Lefel y gêm i ddechrau arno."
+
+#~ msgid "Game speed"
+#~ msgstr "Cyflymder y gêm"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Cyflymder y gêm (1=cyflym, 4=araf)."
+
+#~ msgid "Height of the GNibbles window"
+#~ msgstr "Uchder y ffenest GNibbles"
+
+#~ msgid ""
+#~ "Height of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Uchder y ffenest GNibbles, a ddefnyddir i adfer maint y ffenest rhwng "
+#~ "sesiynau."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Y fysell ar gyfer symud i lawr."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Y fysell er mwyn symud i'r chwith."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Y fysell er mwyn symud i'r dde."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Y fysell er mwyn symud i fyny."
+
+#~ msgid "Move up"
+#~ msgstr "Symud i fyny"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Nifer y chwaraewyr cyfrifiadurol"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Nifer y chwaraewyr cyfrifiadurol."
+
+#~ msgid "Number of human players"
+#~ msgstr "Nifer y chwaraewyr dynol"
+
+#~ msgid "Number of human players."
+#~ msgstr "Nifer y chwaraewyr dynol."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Chwarae'r lefelau mewn trefn ar hap"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Chwarae'r lefelau mewn trefn ar hap."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Maint teils y gêm"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Maint teils y gêm."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Defnyddio symudiad perthnasol"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig)."
+
+#~ msgid "Width of the GNibbles window"
+#~ msgstr "Lled y ffenest GNibbles"
+
+#~ msgid ""
+#~ "Width of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Lled y ffenest GNibbles, a ddefnyddir i adfer maint y ffenest rhwng "
+#~ "sesiynau."
+
+#~ msgid "Bonus"
+#~ msgstr "Bonws"
+
+#~ msgid "Bonus Appears"
+#~ msgstr "Bonws yn Ymddangos"
+
+#~ msgid "Eat Bonus"
+#~ msgstr "Bwyta Bonws"
+
+#~ msgid "Extra Life"
+#~ msgstr "Bywyd Ychwanegol"
+
+#~ msgid "Worm Death"
+#~ msgstr "Marwolaeth Mwydyn"
+
+#~ msgid "Worm Reverse"
+#~ msgstr "Gwrthdroi Mwydyn"
+
+#~ msgid "Worm Teleport"
+#~ msgstr "Llamu Mwydyn"
+
+#~ msgid "Beginner"
+#~ msgstr "Dechreuwr"
+
+#~ msgid "Slow"
+#~ msgstr "Araf"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Cymhedrol"
+
+#~ msgid "Fast"
+#~ msgstr "Cyflym"
+
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Dechreuwr gyda Ffugio"
+
+#~ msgid "Slow with Fakes"
+#~ msgstr "Araf gyda Ffugio"
+
+#~ msgid "Medium with Fakes"
+#~ msgstr "Canolig gyda Ffugio"
+
+#~ msgid "Fast with Fakes"
+#~ msgstr "Cyflym gyda Ffugio"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Gem mwydod ar gyfer GNOME."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Gêm ar ben! %s wnaeth ennill!"
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Hoffterau Nibbles"
+
+#~ msgid "Speed"
+#~ msgstr "Cyflymder"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Dechreuwr Nibbles"
+
+#~ msgid "My second day"
+#~ msgstr "Fy ail ddiwrnod"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Ddim yn wael"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Eithriadol dda"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_Chwarae'r lefelau mewn trefn ar hap"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "Galluogi _bonysau ffug"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "Galluogi _synau"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "Nifer y chwaraewyr _dynol:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "Nifer y chwaraewyr _cyfrifiadurol:"
+
+#~ msgid "Worm"
+#~ msgstr "Mwydyn"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "Defnyddio symudiad _perthynol"
+
+#~ msgid "_Worm color:"
+#~ msgstr "_Lliw'r mwydyn:"
+
+#~ msgid "Green"
+#~ msgstr "Gwyrdd"
+
+#~ msgid "Cyan"
+#~ msgstr "Glas golau"
+
+#~ msgid "Purple"
+#~ msgstr "Porffor"
+
+#~ msgid "Gray"
+#~ msgstr "Llwyd"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Mwydyn %d:"
+
+#~ msgid "'%s' with super-safe moves"
+#~ msgstr "'%s' efo symudiadau diogel iawn"
+
+#~ msgid "'%s' with safe moves"
+#~ msgstr "'%s' gyda symudiadau diogel"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Llongyfarchiadau, Rydych Wedi Curo'r Robotiaid!! \n"
+#~ "Ond Ydych Chi'n Gallu Gwneud Hynny Eto?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Does dim safleoedd llamu ar ôl!!"
+
+#~ msgid "You have run out of safe moves - the robots have won!"
+#~ msgstr "Does dim symudiadau diogel ar ôl - mae'r robotiaid wedi ennill!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Does dim safleoedd diogel i'w llamu atynt!!"
+
+# EFALLAI
+#~ msgid "Set game scenario"
+#~ msgstr "Gosod golwg y gêm"
+
+#~ msgid "Initial window position"
+#~ msgstr "Lleoliad y ffenest i gychwyn"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Robots"
+#~ msgstr "Robotiaid"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Methwyd canfod unrhyw ddata gêm."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Methodd y rhaglen Robotiaid ganfod unrhyw ffeiliau cyfluniad gêm dilys. "
+#~ "Gwiriwch fod y rhaglen wedi ei sefydlu'n gywir os gwelwch yn dda."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Mae rhai ffeiliau delwedd ar goll neu wedi llygru."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Methodd y rhaglen Robotiaid lwytho'r holl ffeiliau graffeg angenrheidiol. "
+#~ "Gwiriwch fod y rhaglen wedi ei sefydlu'n gywir os gwelwch yn dda."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Osgoi'r robotiaid a gwneud iddynt fwrw i'w gilydd"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Galluogi seiniau gêm"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr ""
+#~ "Galluogi seiniau gêm. Chwarae synau ar gyfer amryw ddigwyddiadau drwy'r "
+#~ "gêm."
+
+#~ msgid "Enable splats"
+#~ msgstr "Galluogi sblatiau"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr "Galluogi sblatiau. Chwarae sain a dangos \"Sblat!\" ar y sgrin."
+
+#~ msgid "Game type"
+#~ msgstr "Math Gêm:"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Math gêm. Enw'r amrywiad gêm i'w ddefnyddio."
+
+#~ msgid "Key to hold"
+#~ msgstr "Bysell i ddal"
+
+#~ msgid "Key to move E"
+#~ msgstr "Bysell i symud Dw"
+
+#~ msgid "Key to move N"
+#~ msgstr "Bysell i symud Gog"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Bysell i symud GogDdw"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Bysell i symud GogOrll"
+
+#~ msgid "Key to move S"
+#~ msgstr "Bysell i symud De"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Bysell i symud DeDdw"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Bysell i symud DeOrll"
+
+#~ msgid "Key to move W"
+#~ msgstr "Bysell i symud Gorll"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Bysell i lamu"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Bysell i lamu ar hap"
+
+#~ msgid "Key to wait"
+#~ msgstr "Bysell i aros"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Y thema delweddau robot"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr ""
+#~ "Y thema delweddau robot. Y thema delweddau i'w ddefnyddio ar gyfer y "
+#~ "robotiaid."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "Dangos bar offer. Opsiwn safonol ar gyfer barrau offer."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "Enw'r fysell i aros yn llonydd. Dylai'r enw fod yn enw bysell safonol yn "
+#~ "X."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r dwyrain. Dylai'r enw fod yn enw bysell safonol "
+#~ "yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r gogledd-ddwyrain. Dylai'r enw fod yn enw bysell "
+#~ "safonol yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r gogledd-orllewin. Dylai'r enw fod yn enw bysell "
+#~ "safonol yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r gogledd. Dylai'r enw fod yn enw bysell safonol "
+#~ "yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r de-ddwyrain. Dylai'r enw fod yn enw bysell "
+#~ "safonol yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r de-orllewin. Dylai'r enw fod yn enw bysell "
+#~ "safonol yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r de. Dylai'r enw fod yn enw bysell safonol yn X."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Enw'r fysell i symud i'r gorllewin. Dylai'r enw fod yn enw bysell safonol "
+#~ "yn X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Enw'r fysell i delegludo ar hap. Dylai'r enw fod yn enw bysell safonol yn "
+#~ "X"
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Enw'r fysell i delegludo yn saff (os yn bosib). Dylai'r enw fod yn enw "
+#~ "bysell safonol yn X."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr "Enw'r fysell i aros. Dylai'r enw fod yn enw bysell safonol yn X"
+
+#~ msgid "Use safe moves"
+#~ msgstr "Defnyddio symudiadau diogel"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Defnyddio symudiadau diogel. Mae'r opsiwn hwn yn eich cynorthwyo i osgoi "
+#~ "cael eich lladd gan gamgymeriad. Os ydych chi'n ceisio gwneud symudiad a "
+#~ "fysai’n arwain ar eich marwolaeth pan mae symudiad diogel ar gael yna ni "
+#~ "chewch barhau."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Defnyddio symudiadau diogel iawn"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Defnyddio symudiadau diogel iawn. Caiff y chwaraewr ei hysbysu pan nad "
+#~ "oes symudiad diogel a'r unig opsiwn yw llamu allan."
+
+#~ msgid "Bad Move"
+#~ msgstr "Symudiad Gwael"
+
+#~ msgid "Level Complete"
+#~ msgstr "Gorffennwyd y Lefel"
+
+#~ msgid "Player Dead"
+#~ msgstr "Bu farw'r Chwaraewr"
+
+#~ msgid "Player Teleport"
+#~ msgstr "Llam Chwaraewr"
+
+#~ msgid "Robot has been Splatted!"
+#~ msgstr "Sblatiwyd robot!"
+
+#~ msgid "Victory!!"
+#~ msgstr "Buddugoliaeth!"
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Methwyd canfod y ffeil map picseli '%s'\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Symud"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Llamu"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Llamu, yn ddiogel os yn bosib"
+
+#~ msgid "_Random"
+#~ msgstr "_Ar hap"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Llamu ar hap"
+
+#~ msgid "_Wait"
+#~ msgstr "_Aros"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Aros am y robotiaid"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Dangos neu guddio'r bar offer"
+
+#~ msgid "Based on classic BSD Robots."
+#~ msgstr "Wedi'i seilio ar gêm Robotiaid clasurol BSD."
+
+#~ msgid "classic robots"
+#~ msgstr "robotiaid clasurol"
+
+#~ msgid "robots2"
+#~ msgstr "robotiaid2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "robotiaid2 hawdd"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "robotiaid efo llamau diogel"
+
+#~ msgid "nightmare"
+#~ msgstr "hunllef"
+
+#~ msgid "robots"
+#~ msgstr "robotiaid"
+
+#~ msgid "cows"
+#~ msgstr "gwartheg"
+
+#~ msgid "eggs"
+#~ msgstr "wyau"
+
+#~ msgid "gnomes"
+#~ msgstr "corachod"
+
+#~ msgid "mice"
+#~ msgstr "llygod"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Hoffterau Robotiaid"
+
+#~ msgid "Game Type"
+#~ msgstr "Math Gêm"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "Defnyddio symudiadau _diogel"
+
+#~ msgid "Prevent some dangerous moves"
+#~ msgstr "Atal rhag symudiadau peryglus"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Atal symudiadau damweiniol fyddai'n eich lladd."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "Defnyddio symudiadau diogel _iawn"
+
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "Atal bob symudiadau peryglus"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Atal bob symudiad fyddai'n eich lladd."
+
+#~ msgid "Play sounds for major events"
+#~ msgstr "Chwarae synau ar gyfer prif ddigwyddiadau"
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "Chwarae synau ar gyfer digwyddiadau fel ennill lefel neu farw."
+
+#~ msgid "E_nable splats"
+#~ msgstr "Galluogi s_blatiau"
+
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "Chwarae synau pan fo dau robot yn gwrthdaro"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "Chwarae'r sŵn mwyaf cyffredin ac o bosib y mwyaf annifyr."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Thema'r Graffeg"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_Thema delwedd:"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Lliw cefndir:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Adfer y Rhagosodiadau"
+
+#~ msgid "Keyboard"
+#~ msgstr "Bysellfwrdd"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Llamau Diogel:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Ar Ôl:"
+
+#~ msgid "<none>"
+#~ msgstr "<dim>"
+
+#~ msgid ""
+#~ "Written for my wife, Matylda\n"
+#~ "Send comments and bug reports to: \n"
+#~ "janusz.gorycki@intel.com"
+#~ msgstr ""
+#~ "Ysgrifennwyd ar gyfer fy ngwraig, Matylda\n"
+#~ "Danfonwch sylwadau ac adroddiadau gwall at:\n"
+#~ "janusz.gorycki@intel.com"
+
+#~ msgid "GNOME Sudoku; a logic puzzle"
+#~ msgstr "Sudoku GNOME; pos rhesymu"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "High Scores"
+#~ msgstr "Sgoriau Uchel"
+
+#~ msgid "<i>Easy</i>"
+#~ msgstr "<i>Hawdd</i>"
+
+#~ msgid "<i>Hard</i>"
+#~ msgstr "<i>Anodd</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Select Game</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Dewis Gêm</span>"
+
+#~ msgid "Choose the _level of difficulty for your new game."
+#~ msgstr "Dewis pa mor _anodd fydd eich gêm newydd."
+
+#~ msgid "_Details"
+#~ msgstr "_Manylion"
+
+#~ msgid "_Play"
+#~ msgstr "_Chwarae"
+
+#~ msgid "Choose _game"
+#~ msgstr "Dewiswch _gêm"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Argraffu Gemau</span>"
+
+#~ msgid "Choose the _level of difficulty for games"
+#~ msgstr "Dewis pa mor _anodd fydd y gemau."
+
+#~ msgid "Ma_ximum Difficulty"
+#~ msgstr "Anhawster _Uchaf"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Argraffu Sudokus"
+
+#~ msgid "_Game List"
+#~ msgstr "Rhestr _Gemau"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr ""
+#~ "_Cynnwys gemau yr ydych chi wedi'u chwarae eisoes yn y rhestr o gemau i'w "
+#~ "argraffu"
+
+#~ msgid "_Label games with difficulty and name."
+#~ msgstr "_Labeli gemau gyda'u lefel anhawster a'u henw."
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "_Marcio gemau wedi'u chwarae ar ôl i chi eu printio."
+
+#~ msgid "_Minimum Difficulty"
+#~ msgstr "Anhawster _Isaf"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "Sawl sudoku i'w h_argraffu:"
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "Sawl sudoku ar bob _tudalen:"
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Nifer y Posau</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Hawdd:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Anodd:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Cymhedrol:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Anodd Iawn:</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Cynhyrchydd Posau</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Meini Prawf:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Creu Polisi"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Cynhyrchu posau newydd _hyd nes iddo gael ei atal"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Cynhyrchu hyd _cyrraedd y targed"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Crëwr Posau"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "Targed y _nifer o sudokus i'w creu:"
+
+#~ msgid "_Easy"
+#~ msgstr "_Hawdd"
+
+#~ msgid "_Generate"
+#~ msgstr "_Creu"
+
+#~ msgid "_Hard"
+#~ msgstr "_Anodd"
+
+#~ msgid "_Very Hard"
+#~ msgstr "_Anodd Iawn"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Clirio _Eraill"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "_Ychwanegu Traciwr"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_Clirio'r Traciwr"
+
+#~ msgid "_Trackers"
+#~ msgstr "_Tracwyr"
+
+#~ msgid "Puzzle"
+#~ msgstr "Pos"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "Sudoku GNOME"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player.  Sudoku is a "
+#~ "japanese logic puzzle."
+#~ msgstr ""
+#~ "Mae GNOME Sudoku yn fodd i greu a chwarae posau sudoku.  Pos rhesymeg o "
+#~ "Japan yw Sudoku."
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Argraffu Sudokus"
+#~ msgstr[1] "Argraffu Sudoku"
+#~ msgstr[2] "Argraffu Sudokus"
+#~ msgstr[3] "Argraffu Sudokus"
+
+#~ msgid "Print Preview"
+#~ msgstr "Rhagolwg Argraffu"
+
+#~ msgid "Squares instantly fillable by filling: "
+#~ msgstr "Sgwariau y gellir ei llenwi'n syth wrth lenwi:"
+
+#~ msgid "Squares instantly fillable by elimination: "
+#~ msgstr "Sgwariau y gellir ei llenwi'n syth wrth ddileu:"
+
+#~ msgid "Number of trial-and-errors necessary to solve: "
+#~ msgstr "Sawl gwaith sydd angen profi a methu cyn datrys:"
+
+#~ msgid "Difficulty value: "
+#~ msgstr "Gwerth anhawster:"
+
+#~ msgid "Difficulty"
+#~ msgstr "Anhawster"
+
+#~ msgid "Started"
+#~ msgstr "Wedi cychwyn"
+
+#~ msgid "Last Played"
+#~ msgstr "Chwaraewyd Diwethaf"
+
+#~ msgid "Printed %s ago"
+#~ msgstr "Wedi argraffu %s yn ôl"
+
+#~ msgid "Played for %s"
+#~ msgstr "Wedi chwarae am %s"
+
+#~ msgid "%s ago"
+#~ msgstr "%s yn ôl"
+
+#~ msgid "Player"
+#~ msgstr "Chwaraewr"
+
+#~ msgid "Date"
+#~ msgstr "Dyddiad"
+
+#~ msgid "Hints"
+#~ msgstr "Awgrymiadau"
+
+#~ msgid "Warnings about unfillable squares"
+#~ msgstr "Rhybuddio am sgwariau na ellir eu llenwi"
+
+#~ msgid "Auto-fills"
+#~ msgstr "Llenwi'n awtomatig"
+
+#~ msgid "Finished in"
+#~ msgstr "Wedi gorffen mewn"
+
+#~ msgid "Working..."
+#~ msgstr "Wrthi'n gweithio..."
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s pos"
+#~ msgstr[1] "%(n)s pos"
+#~ msgstr[2] "%(n)s bos"
+#~ msgstr[3] "Pos _Nesaf"
+
+#~ msgid "Stopped"
+#~ msgstr "Wedi atal"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "Wedi creu %(n)s o %(total)s o bosau"
+#~ msgstr[1] "Wedi creu %(n)s o %(total)s o bosau"
+#~ msgstr[2] "Wedi creu %(n)s o %(total)s o bosau"
+#~ msgstr[3] "Wedi creu %(n)s o %(total)s o bosau"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "Wedi creu %(n)s pos"
+#~ msgstr[1] "Wedi creu %(n)s pos"
+#~ msgstr[2] "Wedi creu %(n)s bos"
+#~ msgstr[3] "Wedi creu %(n)s pos"
+
+#~ msgid "Very Hard"
+#~ msgstr "Anodd Iawn"
+
+#~ msgid "Medium"
+#~ msgstr "Canolig"
+
+#~ msgid "_Stop"
+#~ msgstr "_Gorffen"
+
+#
+# "Lled/Uchder gofynnol y brif ffenest mewn picseli. Nodir fod y teclynnau
+# yn y "
+# "ffenest o leia 320 picsel o led/uchder."
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Ydych chi'n siŵr eich bod am wneud hyn?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Peidio â gofyn eto."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s blynedd"
+#~ msgstr[1] "%(n)s mlynedd"
+#~ msgstr[2] "%(n)s flynedd"
+#~ msgstr[3] "%(n)s mlynedd"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s mis"
+#~ msgstr[1] "%(n)s fis"
+#~ msgstr[2] "%(n)s fis"
+#~ msgstr[3] "%(n)s mis"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s wythnos"
+#~ msgstr[1] "%(n)s wythnos"
+#~ msgstr[2] "%(n)s wythnos"
+#~ msgstr[3] "%(n)s wythnos"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s dydd"
+#~ msgstr[1] "%(n)s dydd"
+#~ msgstr[2] "%(n)s ddydd"
+#~ msgstr[3] "%(n)s dydd"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s awr"
+#~ msgstr[1] "%(n)s awr"
+#~ msgstr[2] "%(n)s awr"
+#~ msgstr[3] "%(n)s awr"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s munud"
+#~ msgstr[1] "%(n)s funud"
+#~ msgstr[2] "%(n)s funud"
+#~ msgstr[3] "%(n)s munud"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s eiliad"
+#~ msgstr[1] "%(n)s eiliad"
+#~ msgstr[2] "%(n)s eiliad"
+#~ msgstr[3] "%(n)s eiliad"
+
+#~ msgid " and "
+#~ msgstr " a "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Today"
+#~ msgstr "Heddiw"
+
+#~ msgid "Yesterday"
+#~ msgstr "Ddoe"
+
+#~ msgid "_Clear"
+#~ msgstr "_Clirio"
+
+#~ msgid "Track moves"
+#~ msgstr "Olrhain symudiadau"
+
+#~ msgid "Full Screen"
+#~ msgstr "Sgrin Lawn"
+
+#~ msgid "_File"
+#~ msgstr "_Ffeil"
+
+#~ msgid "New game"
+#~ msgstr "Gêm newydd"
+
+#~ msgid "Print current game"
+#~ msgstr "Argraffu'r gêm bresennol"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "Argraffu _mwy nag un Sudoku"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Argraffu mwy nag un pos sudoku ar y pryd."
+
+#~ msgid "Close Sudoku (save game for later)"
+#~ msgstr "Cau Sudoku (cadw'r gêm i'r dyfodol)"
+
+#~ msgid "_Enter custom game"
+#~ msgstr "_Gosod gêm addasedig"
+
+#~ msgid ""
+#~ "Enter new puzzle by hand (use this to copy a puzzle from another source)."
+#~ msgstr ""
+#~ "Creu pos newydd â llaw (defnyddiwch hwn i gopïo pos o ffynhonnell arall)."
+
+#~ msgid "_Resume old game"
+#~ msgstr "_Ail-gychwyn hen gêm"
+
+#~ msgid "Resume a previous saved game."
+#~ msgstr "Ail-gychwyn gêm sydd eisoes wedi'i harbed."
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Dangos pa rifau allai gael eu rhoi yn y sgwâr presennol."
+
+#~ msgid "_Fill"
+#~ msgstr "_Llenwi"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Llenwi'r sgwâr presennol os yn bosib."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "_Llenwi pob sgwâr"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Llenwi'n awtomatig y sgwariau sydd ond ag un gwerth posib ar eu cyfer."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "Ystadegau'r _Pos"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Dangos ystadegau'r pos presennol"
+
+#~ msgid "High _Scores"
+#~ msgstr "Sgoriau _Uchel"
+
+#~ msgid "Show high scores or replay old games."
+#~ msgstr "Dangos sgoriau uchel neu ail-chwarae hen gemau."
+
+#~ msgid "_Always show hint"
+#~ msgstr "_Dangos awgrym bob amser"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Dangos gwerthoedd posib y sgwâr drwy'r amser"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "Rhybuddio am sgwariau na ellir eu _llenwi"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "Rhybuddio am sgwariau na ellir eu llenwi ar ôl symud"
+
+#~ msgid "_Track additions"
+#~ msgstr "_Tracio'r ychwanegiadau"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr ""
+#~ "Dangos yr hyn sy'n newydd mewn lliw gwahanol er mwyn cadw trywydd arnyn "
+#~ "nhw."
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Dangos y _Bar Offer"
+
+#~ msgid "_Black background"
+#~ msgstr "Cefndir _du"
+
+#~ msgid ""
+#~ "Background of game is black; otherwise, the background will follow your "
+#~ "theme colors."
+#~ msgstr ""
+#~ "Cefndir y gêm yn ddu; fel arall, bydd y cefndir yn dilyn lliwiau'r thema."
+
+#~ msgid "_Highlighter"
+#~ msgstr "_Amlygwr"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Amlygu'r rhes, y golofn a'r bocs presennol"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Creu posau newydd _wrth i chi chwarae"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Dangos posau newydd yn y cefndir wrth i chi chwarae. Bydd hyn yn seibio'n "
+#~ "awtomatig pan fydd y gêm yn y cefndir."
+
+#~ msgid "_Edit"
+#~ msgstr "_Golygu"
+
+#~ msgid "_Undo"
+#~ msgstr "_Dadwneud"
+
+#~ msgid "Undo last action"
+#~ msgstr "Dadwneud y weithred ddiweddaraf"
+
+#~ msgid "_Redo"
+#~ msgstr "_Ailwneud"
+
+#~ msgid "Redo last action"
+#~ msgstr "Ailwneud y weithred ddiweddaraf"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Clirio'r cofnodion yr ydych chi wedi'u llenwi"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "Clirio _Nodiadau"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Clirio'r nodiadau a'r awgrymiadau"
+
+#~ msgid "No Tracker"
+#~ msgstr "Dim traciwr"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "_Creu posau newydd"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Creu posau newydd."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Wrthi'n rhoi grid addasedig..."
+
+#~ msgid "_Play game"
+#~ msgstr "_Chwarae gêm"
+
+#~ msgid "Playing "
+#~ msgstr "Wrthi'n chwarae"
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Gwybodaeth y Pos"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Does dim pos ar hyn o bryd."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Lefel anhawster a gyfrifwyd:"
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Sawl symudiad a ellir eu llenwi drwy ddileu:"
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Sawl symudiad a ellir eu llenwi drwy lenwi:"
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Faint o brofi a methu sydd angen i ddatrys:"
+
+#~ msgid "Statistics for %s"
+#~ msgstr "Ystadegau ar gyfer %s"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr ""
+#~ "Clirio'r holl symudiadau sydd wedi'u tracio gan y traciwr dewisedig."
+
+#~ msgid "_Clear Others"
+#~ msgstr "_Clirio'r Lleill"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr ""
+#~ "Clirio'r holl symudiadau sydd heb eu tracio gan y traciwr dewisedig."
+
+#~ msgid "Tracker %s"
+#~ msgstr "Traciwr %s"
+
+#~ msgid "gnomine|Medium"
+#~ msgstr "Canolig"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Baneri: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Mae'r Ffrwydron wedi eu Clirio!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr ""
+#~ "Gwaith gwych, ond yn anffodus, wnaeth eich sgôr chi ddim cyrraedd y deg "
+#~ "uchaf."
+
+#~ msgid "Mines Scores"
+#~ msgstr "Sgoriau Ffrwydron"
+
+#~ msgid "Size:"
+#~ msgstr "Maint:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Cliciwch sgwâr, unrhyw sgwâr"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Efallai eu bod nhw gyd yn ffrwydron ..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Cynhaliaeth ail-fentio ac SVG:"
+
+#~ msgid "Faces:"
+#~ msgstr "Wynebau:"
+
+# EFALLAI
+#~ msgid "Graphics:"
+#~ msgstr "Graffeg:"
+
+#~ msgid "Mines"
+#~ msgstr "Ffrwydron"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered."
+#~ msgstr ""
+#~ "Y pos rhesymu poblogaidd o sgubo am ffrwydron. Cliriwch y ffrwydron o'r "
+#~ "bwrdd, gan gadw mewn cof y sgwariau sy'n glir yn barod."
+
+#~ msgid "Field Size"
+#~ msgstr "Maint y Maes"
+
+#~ msgid "Custom Size"
+#~ msgstr "Maint Addasedig"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_Nifer y ffrwydron:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Llorweddol:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Fertigol:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "_Defnyddio baneri \"Dydw i ddim yn siŵr\"."
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "_Defnyddio'r rhybudd \"Gormod o faneri\""
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Hoffterau Ffrwydron"
+
+#~ msgid "Width of grid"
+#~ msgstr "Lled y grid"
+
+#~ msgid "Height of grid"
+#~ msgstr "Uchder y grid"
+
+#~ msgid "Number of mines"
+#~ msgstr "Nifer y ffrwydron"
+
+#~ msgid "NUMBER"
+#~ msgstr "RHIF"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Maint y bwrdd (0-2 = bach-mawr, 3=addasedig)"
+
+#~ msgid "X location of window"
+#~ msgstr "Lleoliad X y ffenest"
+
+#~ msgid "Y location of window"
+#~ msgstr "Lleoliad Y y ffenest"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Gwasgwch i Ailddechrau"
+
+#~ msgid "Time: "
+#~ msgstr "Amser: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Clirio ffrwydron cudd o faes ffrwydron"
+
+#~ msgid "Board size"
+#~ msgstr "Maint y bwrdd"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Galluogi gosod baneri'n awtomatig"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Y nifer o golofnau mewn gêm addasedig"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Y nifer o resi mewn gêm addasedig"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "Gosod yn wir er mwyn gallu marcio sgwariau'n anhysbys"
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Gosod yn wir er mwyn cael eicon i rybuddio pan fo gormod o faneri wedi'u "
+#~ "gosod."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Gosod yn wir er mwyn i gnomine osod baneri'n awtomatig ar sgwariau ar ôl "
+#~ "i ddigon o sgwariau o'u cwmpas fod wedi clirio"
+
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "Uchder y ffenest chwarae, mewn picseli."
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Sawl ffrwydryn fydd mewn gêm addasedig"
+
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "Lled y ffenest chwarae, mewn picseli."
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Defnyddio'r faner anhysbys"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Rhybudd am ormod o faneri"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Methwyd canfod y delweddau angenrheidiol.\n"
+#~ "\n"
+#~ "Gwiriwch eich sefydliad gnome-games."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Fe ganfuwyd y delweddau angenrheidiol, ond gwrthodont lwytho.\n"
+#~ "\n"
+#~ "Gwiriwch eich sefydliad gnome-games a'i ddibyniaethau."
+
+#~ msgid "Could not load images"
+#~ msgstr "Methwyd llwytho lluniau"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "_Maint"
+
+#~ msgid "Sol_ve"
+#~ msgstr "_Datrys"
+
+#~ msgid "Solve the game"
+#~ msgstr "Datrys y gêm"
+
+#~ msgid "_Up"
+#~ msgstr "I _Fyny"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Symud y darnau i fyny"
+
+#~ msgid "_Left"
+#~ msgstr "I'r _Chwith"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Symud y darnau i'r chwith"
+
+#~ msgid "_Right"
+#~ msgstr "I'r _Dde"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Symud y darnau i'r dde"
+
+#~ msgid "_Down"
+#~ msgstr "I _Lawr"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Symud y darnau i lawr"
+
+#~ msgid "_2×2"
+#~ msgstr "_2x2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Chwarae ar fwrdd 2x2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3x3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Chwarae ar fwrdd 3x3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4x4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Chwarae ar fwrdd 4x4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5x5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Chwarae ar fwrdd 5x5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6x6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Chwarae ar fwrdd 6x6"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "Lliwiau'r _Teils"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Maint y bwrdd (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "MAINT"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Datryswyd y pos! Da iawn!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Datryswyd y pos!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Sgoriau Tetravex"
+
+#~ msgid "Game paused"
+#~ msgstr "Mae'r gêm wedi ei seibio"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Yn chwarae bwrdd %d×%d"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other."
+#~ msgstr ""
+#~ "Pos syml yw GNOME Tetravex lle mae'n rhaid gosod darnau fel bod yr un "
+#~ "rhifau yn wynebu'i gilydd."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Gorffennwch y pos drwy baru'r teils rhif"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "Fflag i alluogi teils wedi'u lliwio."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Rheoli'r teils sydd wedi'u lliwio"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Dewis a ddylid llusgo'r teils, neu'n hytrach glicio ar y tardd yna'r "
+#~ "cyrchfan."
+
+#~ msgid ""
+#~ "The height of the playing window in pixels. At minimum it should be 240."
+#~ msgstr "Uchder y ffenest chwarae mewn picseli. Dylai fod o leiaf 240."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Maint y grid chwarae"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Defnyddir gwerth yr allwedd hon i benderfynu maint y grid chwarae. "
+#~ "Gwerthoedd dilys: 2 i 8, caiff unrhyw beth arall ei osod i 3."
+
+#~ msgid ""
+#~ "The width of the playing window in pixels. At minimum it should be 320."
+#~ msgstr "Lled y ffenest chwarae mewn picseli. Dylai fod o leiaf 320."
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "18 Cam yn Unig"
+
+#~ msgid "Daisy"
+#~ msgstr "Llygad y Dydd"
+
+#~ msgid "Violet"
+#~ msgstr "Fioled"
+
+#~ msgid "Poppy"
+#~ msgstr "Pabi"
+
+# EFALLAI
+#~ msgid "Pansy"
+#~ msgstr "Pansi"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Lili Wen Fach"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Asyn Coch"
+
+#~ msgid "Trail"
+#~ msgstr "Trywydd"
+
+#~ msgid "Ambush"
+#~ msgstr "Ymosodiad"
+
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+#~ msgid "Success"
+#~ msgstr "Llwyddiant"
+
+#~ msgid "Bone"
+#~ msgstr "Asgwrn"
+
+#~ msgid "Fortune"
+#~ msgstr "Ffortiwn"
+
+#~ msgid "Fool"
+#~ msgstr "Ffŵl"
+
+#~ msgid "Solomon"
+#~ msgstr "Solomon"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Cleopatra"
+
+#~ msgid "Shark"
+#~ msgstr "Siarc"
+
+#~ msgid "Rome"
+#~ msgstr "Rhufain"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Pos Baner"
+
+#~ msgid "Ithaca"
+#~ msgstr "Ithaca"
+
+#~ msgid "Pelopones"
+#~ msgstr "Pelopones"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transewropa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Polonaise"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Môr y Baltig"
+
+#~ msgid "American Pie"
+#~ msgstr "American Pie"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Tagfa Draffig"
+
+#~ msgid "Sunshine"
+#~ msgstr "Heulwen"
+
+#~ msgid "Block 10"
+#~ msgstr "Bloc 10"
+
+#~ msgid "Block 10 Pro"
+#~ msgstr "Bloc 10 Pro"
+
+#~ msgid "Climb 12"
+#~ msgstr "Dringo 12"
+
+#~ msgid "Climb 12 Pro"
+#~ msgstr "Dringo 12 Pro"
+
+#~ msgid "Climb 15 Winter"
+#~ msgstr "Dringo 15 Gaeaf"
+
+#~ msgid "Climb 15 Spring"
+#~ msgstr "Dringo 15 Gwanwyn"
+
+#~ msgid "Climb 15 Summer"
+#~ msgstr "Dringo 15 Haf"
+
+#~ msgid "Climb 15 Fall"
+#~ msgstr "Dringo 15 Hydref"
+
+#~ msgid "Climb 24 Pro"
+#~ msgstr "Dringo 24 Pro"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "Llwybr HuaRong"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Pac Sialens"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Pac Sgil"
+
+#~ msgid "Minoru Climb"
+#~ msgstr "Dringo Minoru"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Ailgychwyn y pos"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Pos _Nesaf"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Pos _Blaenorol"
+
+#~ msgid "Level completed."
+#~ msgstr "Gorffennwyd y lefel."
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Methodd y thema ar gyfer y gêm rendro.\n"
+#~ "%s\n"
+#~ "Gwiriwch fod Klotski wedi ei sefydlu'n gywir."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Methu canfod y ddelwedd:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Gwiriwch fod Klotski wedi ei sefydlu'n gywir."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Symudiadau: %d"
+
+#~ msgid "Sliding Block Puzzles"
+#~ msgstr "Posau Llithro Blociau"
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Llithro'r blociau i ddatrys y pos"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Rhif y pos sy'n cael ei chwarae."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Y pos yn ystod y chwarae"
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Yr uchder a ofynnwyd amdano ar gyfer y brif ffenest, mewn picseli. Os nad "
+#~ "yw hwn yn ddigon mawr, fe'i hanwybyddir."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Y lled gofynnwyd amdano ar gyfer y brif ffenest, mewn picseli. Os nad yw "
+#~ "hwn yn ddigon mawr, fe'i hanwybyddir."
+
+#
+# "Lled/Uchder gofynnol y brif ffenest mewn picseli. Nodir fod y teclynnau
+# yn y "
+# "ffenest o leia 320 picsel o led/uchder."
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Defnyddiwyd yn barod! Lle hoffech chi roi hwnna?"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Trechu'r ods mewn gêm dis sy'n debyg i bocer"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Dewis a ddylid defnyddio saib rhwng rholiai dis y cyfrifiadur fel gall y "
+#~ "chwaraewr ddilyn beth mae'n ei wneud."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Saib rhwng tafliadau"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Dangos meddyliau'r cyfrifiadur"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr "Os yn wir, gollyngir gweithio'r AI i'r allbwn safonol."
+
+#~ msgid "Regular"
+#~ msgstr "Arferol"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Dynol,Dafydd,Gareth,Chris,Mabli,Bronwen]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Oedi symudiadau'r cyfrifiadur"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Dangos meddyliau'r cyfrifiadur"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Nifer o wrthwynebwyr cyfrifiadur"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Nifer o wrthwynebwyr dynol"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Dewis gem: Arferol neu Liwiau"
+
+#~ msgid "STRING"
+#~ msgstr "LLINYN"
+
+#~ msgid "Roll all!"
+#~ msgstr "Rholio'r cyfan!"
+
+#~ msgid "Roll!"
+#~ msgstr "Taflu!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Roedd y gêm yn gyfartal!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "Sgoriau Tali"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "Mae %s yn ennill y gêm gyda %d pwynt"
+#~ msgstr[1] "Mae %s yn ennill y gêm gyda %d pwynt"
+#~ msgstr[2] "Mae %s yn ennill y gêm gyda %d pwynt"
+#~ msgstr[3] "Mae %s yn ennill y gêm gyda %d pwynt"
+
+#~ msgid "Game over!"
+#~ msgstr "Gêm drosodd!"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Mae'r cyfrifiadur yn chwarae dros %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Rydych chi i fyny."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Dewiswch ddisiau i'w taflu, neu dewiswch slot sgôr."
+
+#~ msgid "Roll"
+#~ msgstr "Taflu"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Dim ond tri thafliad gewch chi. Dewiswch flwch sgôr."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Fersiwn GNOME (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Fersiwn consol (1992):"
+
+#~ msgid "A variation on poker with dice and less money."
+#~ msgstr "Math o bocer gyda disiau a llai o arian."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr ""
+#~ "Caiff y gêm gyfredol ei orffen gyda'r nifer gwreiddiol o chwaraewyr."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Hoffterau Tali"
+
+#~ msgid "Human Players"
+#~ msgstr "Chwaraewyr Dynol"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Nifer y chwaraewyr:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Gwrthwynebwyr Cyfrifiadur"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_Saib rhwng tafliadau"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "N_ifer o chwaraewyr eraill:"
+
+#~ msgid "Colors"
+#~ msgstr "Lliwiau"
+
+#~ msgid "Player Names"
+#~ msgstr "Enwau Chwaraewyr"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1au [cyfanswm 1au]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2au [cyfanswm 2au]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3au [cyfanswm 3au]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4au [cyfanswm 4au]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5au [cyfanswm 5au]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6au [cyfanswm 6au]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "3 o Fath [cyfanswm]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "4 o Fath [cyfanswm]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Tŷ Lawn"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Syth Bychan [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Syth Mawr [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "5 o'r un Fath [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Siawns [cyfanswm]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Cyfanswm Is"
+
+#~ msgid "Grand Total"
+#~ msgstr "Prif Gyfanswm"
+
+#~ msgid "Upper total"
+#~ msgstr "Cyfanswm uwch"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bonws os >62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 bâr yr Un Lliw [cyfanswm]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Tŷ Llawn [15 + cyfanswm]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Tŷ Llawn Yr Un Lliw [20 + y cyfanswm]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Fflys (yr un lliw i gyd) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "4 o Fath [25 + cyfanswm]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "5 o Fath [50 + cyfanswm]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Dewiswch slot sgorio."
+
+#~ msgid "How many times do you wish to roll?"
+#~ msgstr "Sawl gwaith hoffech chi daflu?"
+
+#~ msgid "Generating ..."
+#~ msgstr "Yn Cynhyrchu..."
+
+#~ msgid "Results"
+#~ msgstr "Canlyniadau"
+
+#~ msgid "Num Rolls"
+#~ msgstr "Rifer o Dafliadau"
+
+#~ msgid "Total"
+#~ msgstr "Cyfanswm"
+
+#~ msgid "Net_work Game"
+#~ msgstr "Gêm _Rhwydwaith"
+
+#~ msgid "_Player list"
+#~ msgstr "_Rhestr chwaraewyr"
+
+#~ msgid "_Chat Window"
+#~ msgstr "Ffenest _Sgwrsio"
+
+#~ msgid "_Leave Game"
+#~ msgstr "_Gadael y Gêm"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid "A disk flipping game derived from Reversi."
+#~ msgstr "Gêm wrth-droi disgiau yn tarddu o Reversi."
+
+#~ msgid "Invalid move."
+#~ msgstr "Symudiad anhysbys."
+
+#~ msgid "Dark:"
+#~ msgstr "Tywyll:"
+
+#~ msgid "Light:"
+#~ msgstr "Golau:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Croeso i Iagno!"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Eich tro chi yw hi i osod darn lliw tywyll"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Eich tro chi yw hi i osod darn lliw golau"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Wrthi'n disgwyl i %s symud"
+
+#~ msgid "Dark's move"
+#~ msgstr "Tro Tywyll"
+
+#~ msgid "Light's move"
+#~ msgstr "Tro Golau"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Cipio'r bwrdd mewn gêm safonol o Reversi"
+
+#~ msgid "Game over"
+#~ msgstr "Gêm drosodd"
+
+# EFALLAI (darnau?)
+#~ msgid "Piece flipping"
+#~ msgstr "Cnithio darnau"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Mae'r chwaraewr golau yn ennill!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Mae'r chwaraewr tywyll yn ennill!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Roedd y gêm yn gyfartal."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Rhaid i Golau basio, tro Tywyll"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Rhaid i Dywyll basio, tro Golau"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Hoffterau Iagno"
+
+#~ msgid "Players"
+#~ msgstr "Chwaraewyr"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "_Defnyddio symudiadau cyflym"
+
+#~ msgid "Animation"
+#~ msgstr "Animeiddiad"
+
+#~ msgid "Partial"
+#~ msgstr "Rhannol"
+
+#~ msgid "Complete"
+#~ msgstr "Cyflawn"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "Bylchu gwrthdroadau"
+
+#~ msgid "S_how grid"
+#~ msgstr "_Dangos grid"
+
+# EFALLAI (cnithio?)
+#~ msgid "_Flip final results"
+#~ msgstr "_Gwrthdroi'r canlyniadau terfynol"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_Set deils:"
+
+#~ msgid "List of players:"
+#~ msgstr "Rhestr chwaraewyr:"
+
+#~ msgid "Card Style"
+#~ msgstr "Arddull Cerdyn"
+
+#~ msgid "There was an error accessing GConf: %s"
+#~ msgstr "Roedd gwall wrth gyrchu GConf: %s"
+
+#~ msgid "The default configuration values could not be retrieved correctly."
+#~ msgstr "Methwyd cyrchu'r gwerthoedd cyfluniad rhagosodedig yn gywir."
+
+#~ msgid ""
+#~ "Please check your GConf configuration, specifically that the schemas have "
+#~ "been installed correctly."
+#~ msgstr ""
+#~ "Gwiriwch eich sefydliad GConf os gwelwch yn dda, yn benodol fod eich "
+#~ "sgemâu wedi eu sefydlu'n gywir."
+
+#~ msgid "Image rendering failed."
+#~ msgstr "Methwyd rendro delwedd."
+
+#~ msgid "Enter fullscreen mode"
+#~ msgstr "Mynd i'r modd sgrin lawn"
+
+#~ msgid "Network game mode"
+#~ msgstr "Modd gêm rhwydwaith"
+
+#~ msgid "The game server"
+#~ msgstr "Y gweinydd gêm"
+
+#~ msgid "The identifier for the game"
+#~ msgstr "Y dynodydd ar gyfer y gêm"
+
+#~ msgid ""
+#~ "The mode of network game to use. 1 = Server, 2 = LAN Host, 3 = LAN Client."
+#~ msgstr ""
+#~ "Y modd gêm rhwydwaith i'w ddefnyddio. 1 = Gweinydd, 2 = Gwesteiwr LAN, 3 "
+#~ "= Cleient LAN."
+
+#~ msgid "The player's nickname"
+#~ msgstr "Llysenw'r chwaraewr"
+
+#~ msgid "The player's nickname."
+#~ msgstr "Llysenw'r chwaraewr."
+
+#~ msgid ""
+#~ "This string identifies the default game to connect to or create "
+#~ "(depending on mode)."
+#~ msgstr ""
+#~ "Mae'r llinyn yn dynodi'r gêm ragosodedig i'w chysylltu â hi neu i'w chreu "
+#~ "(yn dibynnu ar y modd)."
+
+#~ msgid ""
+#~ "When using server mode, which game server to contact. This accepts the "
+#~ "usual hostname or dotted quad notation."
+#~ msgstr ""
+#~ "Wrth ddefnyddio modd gweinydd, pa weinydd gêm i'w gysylltu ag ef. Mae hwn "
+#~ "yn derbyn y nodiant arferol - enw gwesteiwr neu bedwar rhif â dotiau."
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Methodd y thema a ddewiswyd rendro'n iawn.\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Gwiriwch fod Mahjongg wedi ei sefydlu'n gywir."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Methu canfod ffeil:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Gwiriwch fod Mahjongg wedi ei sefydlu'n gywir."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "The default tile set will be loaded instead."
+#~ msgstr ""
+#~ "Methu canfod ffeil:\n"
+#~ "%s'\n"
+#~ "\n"
+#~ "Bydd y set deils rhagosodedig yn cael ei lwytho yn lle hyn."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Methu rendro'r ffeil:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Gwiriwch fod Mahjongg wedi ei sefydlu'n gywir."
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Methu llwytho'r set deils"
+
+# "neu ddechrau cychwyn"?
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr ""
+#~ "A ydych am orffen y gêm gyfredol neu ddechrau cychwyn gyda'r map newydd "
+#~ "ar unwaith?"
+
+#~ msgid ""
+#~ "If you choose to finish with the old map then the next game will use the "
+#~ "new map."
+#~ msgstr ""
+#~ "Os ydych chi'n dewis gorffen gyda'r hen fap, yna fe fydd y gêm nesaf yn "
+#~ "defnyddio'r map newydd."
+
+#~ msgid "_Finish"
+#~ msgstr "_Gorffen"
+
+#~ msgid "Shuffle"
+#~ msgstr "Cymysgu"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Sgoriau Mahjongg"
+
+#~ msgid "Map:"
+#~ msgstr "Map:"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Hoffterau Mahjongg"
+
+#~ msgid "Tiles"
+#~ msgstr "Teils"
+
+#~ msgid "Maps"
+#~ msgstr "Mapiau"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Dewiswch fap:"
+
+#~ msgid "Maps:"
+#~ msgstr "Mapiau:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Teils:"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "A matching game played with Mahjongg tiles."
+#~ msgstr "Gêm paru teils, chwaraeir gyda theils Mahjongg."
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "Mae'n flin gen i, methais i ganfod cyfluniad gellir ei chwarae."
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Teils ar ôl: "
+
+#~ msgid "Moves Left:"
+#~ msgstr "Symudiadau ar ôl: "
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Tynnu'r parau o deils sy'r un fath."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Datgymalu pentwr o deils gan dynnu parau sy'n cyd-fynd"
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 200 pixels high."
+#~ msgstr ""
+#~ "Uchder gofynnol y brif ffenest mewn picseli. Nodir fod y teclynnau yn y "
+#~ "ffenest o leia 200 picsel o uchder."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 320 pixels wide."
+#~ msgstr ""
+#~ "Lled ofynnol y brif ffenest mewn picseli. Nodir fod y teclynnau yn y "
+#~ "ffenest o leia 320 picsel o led."
+
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Hawdd"
+
+#~ msgid "The Ziggurat"
+#~ msgstr "Y Ziggurat"
+
+#~ msgid "Four Bridges"
+#~ msgstr "Pedwar Pont"
+
+#~ msgid "Cloud"
+#~ msgstr "Cwmwl"
+
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Tic-Tac-To"
+
+#~ msgid "Red Dragon"
+#~ msgstr "Draig Goch"
+
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Muriau'r Pyramid"
+
+#~ msgid "Confounding Cross"
+#~ msgstr "Croes Gythreulig"
+
+#~ msgid "Difficult"
+#~ msgstr "Anodd"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "1000 pwynt ychwanegol am glirio'r bwrdd!"
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "Canolig"
+
+#~ msgid "Set the theme"
+#~ msgstr "Gosod y thema"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "Er mwyn ôl-gytundeb"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Maint y gêm (1=bach, 3=mawr)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "Clirio'r sgrin gan dynnu grwpiau o beli lliw"
+
+#~ msgid "Same GNOME"
+#~ msgstr "GNOME Tebyg"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Uchder y bwrdd addasedig"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Mae gosod hwn yn FFALS yn peri i'r darnau gwympo'n araf, ond yn "
+#~ "osgeiddig. Mae gosod hwn yn WIR yn peri i'r darnau gwympo'n gyflym a "
+#~ "herciog."
+
+#~ msgid "The board size"
+#~ msgstr "Maint y bwrdd"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Enw'r ffeil thema i'w ddefnyddio."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Maint y bwrdd addasedig, 101 &gt; uchder &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "Maint y bwrdd i'w ddefnyddio. 1 = Addasedig, 2 = Bach, 3 = Canolig, 4 = "
+#~ "Mawr."
+
+#~ msgid "The theme to use"
+#~ msgstr "Y thema i'w defnyddio"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Lled y bwrdd, 101 &gt; lled &gt; 3."
+
+#~ msgid "The window height"
+#~ msgstr "Uchder ffenest"
+
+#~ msgid "The window width"
+#~ msgstr "Lled ffenest"
+
+#~ msgid "Use fast animation"
+#~ msgstr "Defnyddio animeiddio cyflym"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Lled y bwrdd addasedig"
+
+#~ msgid "No points"
+#~ msgstr "Dim pwyntiau"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d pwynt"
+#~ msgstr[1] "%d pwynt"
+#~ msgstr[2] "%d bwynt"
+#~ msgstr[3] "%d pwynt"
+
+#~ msgid "Score: %d"
+#~ msgstr "Sgôr: %d"
+
+# Eep. This is a direct quote from me (Telsa) years and years ago.
+# Google for "whirly-round" for context. I have done my best!
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!"
+#~ msgstr ""
+#~ "Dwi moyn chwarae'r gêm 'na! Ti'n gwybod, maen nhw i gyd yn mynd rownd a "
+#~ "rownd, a rwyt ti'n clicio arnyn nhw, a maen nhw'n diflannu!"
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Sgoriau Same GNOME"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "Yn anffodus, wnaeth eich sgôr chi ddim cyrraedd y deg uchaf."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Thema Same GNOME"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Thema..."
+
+#~ msgid "_Fast Animation"
+#~ msgstr "_Animeiddio Cyflym"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Methwyd canfod unrhyw ddata thema."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Mae'n amhosib chwarae'r gêm. Sicrhewch fod y gêm wedi ei gosod yn gywir, "
+#~ "cyn ceisio eto."
+
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Dafydd Harries <daf@parnassus.ath.cx>\n"
+#~ "Telsa Gwynne <hobbit@aloss.ukuu.org.uk>\n"
+#~ "Rhys Jones <rhys@sucs.org>"
+
+#, fuzzy
+#~ msgid "Upgrage Game"
+#~ msgstr "Gêm y Pobydd"
+
+#, fuzzy
+#~ msgid "<b>Game to Join</b>"
+#~ msgstr "<b>Buddugoliaethau</b>"
+
+#, fuzzy
+#~ msgid "<b>White Player</b>"
+#~ msgstr "<b>Buddugoliaethau</b>"
+
+#, fuzzy
+#~ msgid "Di_fficulty:"
+#~ msgstr "Anodd"
+
+#, fuzzy
+#~ msgid "Local chess player"
+#~ msgstr "Lefel y chwaraewr gwyn"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "Enw"
+
+#, fuzzy
+#~ msgid "Typ_e:"
+#~ msgstr "Amser:"
+
+#, fuzzy
+#~ msgid "_Difficulty:"
+#~ msgstr "Anodd"
+
+#, fuzzy
+#~ msgid "_Join"
+#~ msgstr "Wedi Ymuno"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr "Enw"
+
+#, fuzzy
+#~ msgid "_Type:"
+#~ msgstr "Amser:"
+
+#, fuzzy
+#~ msgid "Waiting For Players"
+#~ msgstr "Aros am y robotiaid"
+
+#, fuzzy
+#~ msgid "_Black player:"
+#~ msgstr "Chwaraewr"
+
+#, fuzzy
+#~ msgid "_Ready"
+#~ msgstr "Coch"
+
+#, fuzzy
+#~ msgid "_White player:"
+#~ msgstr "Chwaraewr"
+
+#, fuzzy
+#~ msgid "<b>Chess Pieces</b>"
+#~ msgstr "<b>Buddugoliaethau</b>"
+
+#, fuzzy
+#~ msgid "<b>Initial Game</b>"
+#~ msgstr "<b>Amser</b>"
+
+# EFALLAI
+#, fuzzy
+#~ msgid "Graphics"
+#~ msgstr "Graffigion:"
+
+#, fuzzy
+#~ msgid "Human versus AI"
+#~ msgstr "Chwaraewyr Dynol"
+
+#, fuzzy
+#~ msgid "Models:"
+#~ msgstr "Symudiadau: %d"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "Enw"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "Dechrau gêm newydd"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "Statws"
+
+#, fuzzy
+#~ msgid "_High Scores"
+#~ msgstr "_Sgorau"
+
+#~ msgid "No moves available"
+#~ msgstr "Dim awgrym ar gael"
+
+#~ msgid "Variation on game rules"
+#~ msgstr "Amrywiad ar reolau'r gêm"
+
+#~ msgid "Based on code from Iagno by Ian Peters"
+#~ msgstr "Yn seiliedig ar god o Iagno gan Ian Peters"
+
+#~ msgid "Ataxx"
+#~ msgstr "Ataxx"
+
+#~ msgid "A disk-flipping game where you attempt to dominate the board."
+#~ msgstr "Gêm cnithio disgiau lle rydych chi'n ceisio rheoli'r bwrdd."
+
+#~ msgid "Compete to dominate the board in a Reversi-like game"
+#~ msgstr "Cystadlu i reoli'r bwrdd mewn gêm sy'n debyg i Reversi"
+
+#~ msgid "Level of black player"
+#~ msgstr "Lefel y chwaraewr du"
+
+#~ msgid "The name of the theme to use."
+#~ msgstr "Enw'r thema i'w defnyddio."
+
+#~ msgid "Tileset (obsolete)"
+#~ msgstr "Set Deils (wedi'i oroesi)."
+
+#~ msgid "Tileset to use (obsolete)."
+#~ msgstr "Set deils i'w defnyddio (wedi'i oroesi)."
+
+#~ msgid "Whether or not to use quick moves."
+#~ msgstr "A ddylid defnyddio symudiadau cyflym ai peidio."
+
+#~ msgid ""
+#~ "Zero corresponds to no animations, one is partial animations, two is "
+#~ "complete animations."
+#~ msgstr ""
+#~ "Mae sero yn golygu dim animeiddiad, un yn golygu animeiddiad rhannol, a "
+#~ "dau yn golygu animeiddiad cyflawn."
+
+#~ msgid "Squares and Diamonds"
+#~ msgstr "Sgwariau a Diemwntau"
+
+#~ msgid "Ataxx Preferences"
+#~ msgstr "Hoffterau Ataxx"
+
+#~ msgid "_Quick moves"
+#~ msgstr "_Symudiadau Cyflym"
+
+#~ msgid "Shortens the time a computer waits before doing a move"
+#~ msgstr "Lleihau'r amser bydd y cyfrifiadur yn aros cyn symud"
+
+#~ msgid "Very easy"
+#~ msgstr "Hawdd iawn"
+
+#~ msgid "gataxx|Easy"
+#~ msgstr "Hawdd"
+
+#~ msgid "gataxx|Medium"
+#~ msgstr "Canolig"
+
+#~ msgid "Flip the pieces with some visual effects"
+#~ msgstr "Cnithio'r disgiau gydag effeithiau gweledol"
+
+#~ msgid "The appearance of the pieces"
+#~ msgstr "Ymddangosiad y cardiau"
+
+#~ msgid "%s..."
+#~ msgstr "%s..."
+
+#~ msgid "Invalid game data"
+#~ msgstr "Data gêm annilys"
+
+#~ msgid "Peer introduction complete"
+#~ msgstr "Cyflwyniad gwesteiwr yn gyflawn"
+
+#~ msgid "New game ready to be started"
+#~ msgstr "Gêm newydd yn barod i'w gychwyn"
+
+#~ msgid "windows"
+#~ msgstr "ffenestri"
+
+#~ msgid "Play a puzzle game matching tiles together"
+#~ msgstr "Chwarae pos cydweddu teils â'i gilydd"
+
+#~ msgid "Solve puzzles by sliding blocks"
+#~ msgstr "Datrys posau gan lithro blociau"
+
+#~ msgid "Calculate random die throws (debug)"
+#~ msgstr "Cyfrifo tafliadau dis ar hap (datnamu)"
+
+#~ msgid "Iagno server to use"
+#~ msgstr "Gweinydd Iagno i'w ddefnyddio"
+
+#~ msgid "Play a game of Reversi"
+#~ msgstr "Chwarae gêm o Reversi"
+
+#~ msgid "Invalid game data (set_peer)"
+#~ msgstr "Data gêm annilys (set_peer)"
+
+#~ msgid "Invalid game data (move)"
+#~ msgstr "Data gêm annilys (move)"
+
+#~ msgid "Select a nickname and connection method then click Connect."
+#~ msgstr "Dewiswch lysenw a modd cysylltu, yna cliciwch Cysylltu."
+
+#~ msgid "Connection Method"
+#~ msgstr "Modd Cysylltu"
+
+#~ msgid "Host local game"
+#~ msgstr "Cartrefu Gêm Leol"
+
+#~ msgid "Identification"
+#~ msgstr "Adnabyddiaeth"
+
+#~ msgid "_Nickname:"
+#~ msgstr "_Llysenw:"
+
+#~ msgid "Please supply a nickname."
+#~ msgstr "Rhowch lysenw."
+
+#~ msgid "No local game selected."
+#~ msgstr "Dim gêm leol wedi ei dewis"
+
+#~ msgid "A new gnome games server was successfully started."
+#~ msgstr "Dechreuwyd gweinydd gnome-games newydd yn llwyddiannus."
+
+#~ msgid "Network initialization complete."
+#~ msgstr "Mae cychwyn y rhwydwaith yn gyflawn."
+
+#~ msgid "Network shutdown in progress."
+#~ msgstr "Gorffeniad rhwydwaith yn digwydd."
+
+#~ msgid "The remote player disconnected"
+#~ msgstr "Datgysylltodd y chwaraewr pell"
+
+#~ msgid "Error occurred during connect attempt."
+#~ msgstr "Gwall wrth geisio cysylltu."
+
+#~ msgid "Connection succeeded, waiting for opponent"
+#~ msgstr "Llwyddwyd y cysylltiad, yn aros am y chwaraewr arall"
+
+#~ msgid "Error occurred during write."
+#~ msgstr "Digwyddodd gwall wrth ysgrifennu."
+
+#~ msgid "Cleaning up connection"
+#~ msgstr "Yn glanhau’r cysylltiad i fyny"
+
+#~ msgid "Connection in progress..."
+#~ msgstr "Wrthi'n cysylltu..."
+
+#~ msgid "No game server defined"
+#~ msgstr "Dim gweinydd gemau wedi ei ddiffinio"
+
+#~ msgid ""
+#~ "Local Area Network game could not be started. \n"
+#~ "Try running mDNSResponder."
+#~ msgstr ""
+#~ "Methwyd dechrau gêm Rhwydwaith Ardal Leol. \n"
+#~ "Ceisiwch redeg mDNSResponder."
+
+#~ msgid "Remove groups of balls to try and clear the screen"
+#~ msgstr "Tynnu grwpiau o beli a cheisio clirio'r sgrin"
+
+#~ msgid "Congratulations."
+#~ msgstr "Llongyfarchiadau."
+
+#, fuzzy
+#~ msgid " next to the "
+#~ msgstr "Gosod y thema"
+
+#, fuzzy
+#~ msgid "Place something on to the empty tableau slot"
+#~ msgstr "Rhowch rywbeth ar y bwlch Bwrdd gwag"

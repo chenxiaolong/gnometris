@@ -1,0 +1,5308 @@
+# translation of gnome-games.HEAD.or.po to Oriya
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games.HEAD.or\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2009-03-11 04:34+0530\n"
+"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
+"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
+"Language: or\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "ସାମୟିକ ବିରାମ ନେଉଛି"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "ଖେଳ ଶେଷହୋଇଛି"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "ଜେନୋମେଟ୍ରିକ୍ସ"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "ୟୋଗ୍ଯ ଏକତ୍ର ପଡୁଥିବା ପଥର"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "ବର୍ଗଗୁଡିକୁ ଅଂକନ କରିବା ନିମନ୍ତେ ଉପୟୋଗ କରିବା ପାଇଁ ଚିତ୍ର"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "ବର୍ଗଗୁଡିକୁ ଅଂକନ କରିବା ନିମନ୍ତେ ଉପୟୋଗ କରିବା ପାଇଁ ଚିତ୍ର"
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "ବର୍ଗଗୁଡିକୁ ପ୍ରତ୍ଯାର୍ପଣ କରିବା ନିମନ୍ତେ ଉପୟୋଗ ହେଇଥିବା ଥିମ"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "ପୃଷ୍ଠଭୂମି ଏବଂ ବର୍ଗଗୁଡିକୁ ପ୍ରତ୍ଯାର୍ପଣ କରିବା ନିମନ୍ତେ ଉପୟୋଗ ହେଉଥିବା ଥିମର ନାମ ୤"
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "ସହିତ ଆରମ୍ଭ କରିବା ପାଇଁ ସ୍ତର"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "ସହିତ ଆରମ୍ଭ କରିବା ପାଇଁ ସ୍ତର"
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "ପୃଷ୍ଠଚିତ୍ର ଉପୟୋଗ କରାୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr "ପୃଷ୍ଠଭୂମି ରଙ୍ଗ ଉପରେ ପୃଷ୍ଠଭୂମି ଚିତ୍ର ଅଂକନ କରାୟିବ କି ନାହିଁ ଏହା ମନୋନୀତ କରେ ୤"
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "ପୃଷ୍ଠଭୂମି ରଙ୍ଗ"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "ପୃଷ୍ଠଭୂମି ରଙ୍ଗ, ଗୋଟିଏ ଫର୍ମାଟରେ gdk_ରଙ୍ଗ_ପାର୍ସ ବୁଝେ ୤"
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "ପରବର୍ତ୍ତୀ ବର୍ଗକୁ ପୂର୍ବଦୃଶ୍ଯ କରାୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "ପରବର୍ତ୍ତୀ ବର୍ଗକୁ ପୂର୍ବଦୃଶ୍ଯ କରାୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "ଗୋଟିଏ ଲକ୍ଷ୍ଯ ୟୋଗାଇ ଦିଆୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+"ୟେଉଁଠାରେ ବର୍ଗ ଓଲ୍ହାଇବ ତାର ଗୋଟିଏ ଗ୍ରାଫିକ ସମ୍ବନ୍ଧୀଯ ପୁନଃ ଉପସ୍ଥାପନା ୟୋଗାଇ ଦିଆୟିବ କି ନାହିଁ ୤"
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "ବର୍ଗଗୁଡିକୁ ୟଦୃଚ୍ଛାକ୍ରମରେ ରଙ୍ଗ ଦିଆୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "ବର୍ଗଗୁଡିକୁ ୟଦୃଚ୍ଛାକ୍ରମରେ ରଙ୍ଗ ଦିଆୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "ଘଣ୍ଟାକଣ୍ଟାର ବିପରୀତ ଦିଗରେ ଘୁରାୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "ଘଣ୍ଟାକଣ୍ଟାର ବିପରୀତ ଦିଗରେ ଘୁରାୟିବ କି ନାହିଁ"
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "ପୁରଣ ହେବା ପାଇଁ ଧାଡିଗୁଡିକର ସଂଖ୍ଯା"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "ଖେଳର ଆରମ୍ଭରେ ୟଦୃଚ୍ଛାକ୍ରମରେ ବର୍ଗଗୁଡିକ ସହିତ ପୁରଣ ହୋଇଥିବା ଧାଡିଗୁଡିକର ସଂଖ୍ଯା୤"
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "ପୁରଣ ହୋଇଥିବା ଧାଡିଗୁଡିକର ଘନତା"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"ଧାଡି ଗୁଡିକରେ ବର୍ଗ ଗୁଡିକର ଘନତା ଖେଳର ଆରମ୍ଭରେ ପୁରଣ ହୋଇଥାଏ ୤ ମୂଲ୍ଯ ୦ (କୌଣସି ବର୍ଗ ନାହିଁ) ଏବଂ 10 "
+"( ଏକ ସଂପୂର୍ଣ୍ଣ ଭାବରେ ପୁରଣ ଧାଡି ପାଇଁ ) "
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "ବାମପାଖକୁ   ଘୁଞ୍ଚାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "ବାମକୁ ଘୁଞ୍ଚିବା ପାଇଁ କି ଦବାଅ ୤"
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "ଡାହାଣପାଖକୁ   ଘୁଞ୍ଚାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "ଡାହାଣକୁ ଘୁଞ୍ଚିବା ପାଇଁ କି ଦବାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "ତଳକୁ ଘୁଞ୍ଚାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "ତଳକୁ ଘୁଞ୍ଚିବା ପାଇଁ କି ଦବାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "ପକାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "ପକାଇବା ପାଇଁ କି ଦବାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "ଘୁରାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "ଘୁରେଇବା ପାଇଁ କି ଦବାଅ"
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "ଅଟକାନ୍ତୁ"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "ବିରାମ ପାଇଁ କି ଦବାଅ"
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "ପ୍ରାରମ୍ଭିକ ସ୍ତର ସ୍ଥିର କର( ୧ କିମ୍ବା ଅଧିକ)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "LEVEL"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "ସାଧା"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "ୟୋଗଦେଲେ"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "ସ୍କୋର:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "ରେଖା:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "ସ୍ତର:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "ଖେଳ (_G)"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "ବିନ୍ଯାସ (_S)"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "ସହାୟତା (_H)"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "ଜେନୋମାଟ୍ରିକ୍ସ ପସନ୍ଦଗୁଡିକ"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "ଖେଳ"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "ସେଟଅପ"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "_ପୂର୍ବରୁ ପୁରଣ ଧାଡିଗୁଡିକର ସଂଖ୍ଯା:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_ ଗୋଟିଏ ପୁର୍ବରୁ ପୁରଣ ଧାଡିରେ ବର୍ଗ ଗୁଡିକର ଘନତା :"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_ପ୍ରାରମ୍ଭିକ ସ୍ତର :"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "ଚାଳନା"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_ଧ୍ବନୀ ସକ୍ଷମ କର"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_ ପରବର୍ତ୍ତୀ ବର୍ଗ ପୂର୍ବଦୃଶ୍ଯ କର"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "_ ୟଦୃଚ୍ଛା ବର୍ଗ ରଙ୍ଗ ଉପୟୋଗ କର"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "_ ବର୍ଗଗୁଡିକୁ ଘଣ୍ଟାକଣ୍ଟାର ବିପରୀତ ଦିଗରେ ଘୁରାଅ"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "ବର୍ଗ ଗୁଡିକ_ କେଉଁଠାରେ ଓଲ୍ହାଇବେ ଦେଖାଅ"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "ଥିମ"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "ନିୟନ୍ତ୍ରଣ"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "କିବୋର୍ଡ ନିଯନ୍ତ୍ରଣ ଗୁଡିକ"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "ବର୍ଗ ଶୈଳୀ"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr "ଶୁଭ୍ରାଂଶୁ ବେହେରା <arya_subhransu@yahoo.co.in>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "ଜେନୋମେଟ୍ରିକ୍ସ ସ୍କୋର"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "ଫାଇଲଟି ଗୋଟିଏ ବୈଧ .desktop ଫାଇଲ ନୁହଁ"
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "ଅଚିହ୍ନା ଡେସ୍କଟପ ଫାଇଲ ସଂସ୍କରଣ '%s'"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "%sକୁ ଆରମ୍ଭ କରୁଅଛି"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "ନିର୍ଦ୍ଦେଶ ନାମାରେ ପ୍ରୟୋଗ ଦଲିଲ ଗ୍ରହଣ କରେନାହିଁ"
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "ଅଚିହ୍ନା ଆରମ୍ଭ ବିକଳ୍ପ: %d"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "ଦଲିଲ URI ଗୁଡ଼ିକୁ 'Type=Link' ଡେସ୍କଟପ ଭରଣ ମଧ୍ଯଦେଇ ପାସ କରିହେବ ନାହିଁ"
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "ଗୋଟିଏ ଆରମ୍ଭଯୋଗ୍ୟ ବସ୍ତୁ ନୁହଁ"
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "ଅଧିବେଶନ ପରିଚାଳକଙ୍କ ସହ ସମ୍ପର୍କ ବନ୍ଦ କରିଦିଅନ୍ତୁ"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "ସଂରକ୍ଷିତ ବିନ୍ୟାସ ଧାରଣ କରିଥିବା ଫାଇଲକୁ ଉଲ୍ଲେଖ କରନ୍ତୁ"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "ଅଧିବେଶନ ପରିଚାଳନା ID ଉଲ୍ଲେଖ କରନ୍ତୁ"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "ଅଧିବେଶନ ପରିଚାଳନା ବିକଳ୍ପଗୁଡ଼ିକ:"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "ଅଧିବେଶନ ପରିଚାଳନା ବିକଳ୍ପଗୁଡ଼ିକୁ ଦର୍ଶାନ୍ତୁ"
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "କୌଣସି କି ନାହିଁ"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<ଗୋଟିଏ କି ଦବାଅ>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "ଅଜ୍ଞାତ ଆଦେଶ"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr "ସହାୟତା ଫାଇଲ ଖୋଲିବାରେ ଅସମର୍ଥ"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "ସମୟ"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "ସ୍କୋର"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "ନୂଆ ଖେଳ"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "ନାମ"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "ଏହି ଖେଳ ପାଇଁ ସାହାୟ୍ୟ ଦର୍ଶାଅ"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "ସାମ୍ପ୍ରତିକ ଖେଳକୁ ବନ୍ଦ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:47
+#, fuzzy
+msgid "Toggle fullscreen mode"
+msgstr "ପୂର୍ଣ୍ମପରଦା ଧାରା ଅଦଳବଦଳ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "ଆପଣଙ୍କର ପରବର୍ତ୍ତୀ ଗୋଟିଏ ଆଭାସ ପାଆନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "ସମ୍ପୂର୍ଣ୍ଣ ପରଦା ଅବସ୍ଥାକୁ ଛାଡନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:50
+#, fuzzy
+msgid "Start a new multiplayer network game"
+msgstr "ଗୋଟିଏ ନୂଆ ବହୁବିଧ ସ୍ତରର ନେଟବାର୍କ ଖେଳ ଆରମ୍ଭ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "ଚଳିତ ନେଟବାର୍କ ଖେଳକୁ ସମାପ୍ତ କର ଏବଂ ନେଟବାର୍କ ସରଭରକୁ ଫେର"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "ଗୋଟିଏ ନୂତନ ଖେଳ ଆରମ୍ଭ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "ଖେଳକୁ କିଛି ସମୟ ପାଇଁ ବନ୍ଦ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "ନେଟବାର୍କ ଖେଳରେ ଖେଳାଳୀମାନଙ୍କର ଗୋଟିଏ ତାଲିକା ଦେଖାଅ "
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "ବାତିଲ କରାଯାଇଥିବା ପଦକ୍ଷେପକୁ ପୁନର୍ବାର କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "ଖେଳକୁ ପୁନଃପ୍ରାରମ୍ଭ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "ବିରାମ ହୋଇଥିବା ଖେଳରୁ ଆରମ୍ଭ କର"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "ସ୍କୋରକୁ ଦେଖାନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "ଶେଷ ପଦକ୍ଷେପକୁ ବାତିଲ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "ଏହି ଖେଳ ବିଷଯରେ"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "ଏହି ୱିଣ୍ଡୋକୁ ବନ୍ଦ କରନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "ଖେଳକୁ କନଫିଗର କର"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "ଏହି ଖେଳକୁ ପରିତ୍ଯାଗ କର"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "ସୂଚୀପତ୍ର (_C)"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "ସମ୍ପୂର୍ଣ ପରଦା (_F)"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "ଆଭାସ (_H)"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "ନୂତନ (_N)"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "ନୂତନ ଖେଳ (_N)"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "ପଦକ୍ଷେପକୁ ପୁନର୍ବାର ନିଅନ୍ତୁ (_R)"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_ପୁନଃସ୍ଥିରକର"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "ପୁନଃ ଚାଳନ କରନ୍ତୁ (_R)"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "ପଦକ୍ଷେପକୁ ବାତିଲ କରନ୍ତୁ (_U)"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "ପୂର୍ଣ୍ଣ ପରଦା ଧାରା ଛାଡ଼ନ୍ତୁ (_L)"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "ନେଟବାର୍କ ଖେଳ (_G)"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "ଖେଳ_ଛାଡିୟାଆନ୍ତୁ"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "ଖେଳାଳୀ _ତାଲିକା"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_ବିରାମ"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "ପୁନଃ _ଆରମ୍ଭକର"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_ ସ୍କୋରଗୁଡିକ"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "ଖେଳ ବନ୍ଦ କରନ୍ତୁ (_E)"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s ବିତରଣ କରାୟାଇଛି ଏହି ଆଶାରେ ୟେ ଏହା ଉପୟୋଗୀ ହେବ, କିନ୍ତୁ WITHOUT ANY WARRANTY; ଏମିତି କି "
+"MERCHANTABILITY କିମ୍ବା FITNESS FOR A PARTICULAR PURPOSE ବିନା ୤  ଅଧିକ ବିବରଣୀ ପାଇଁ "
+"GNU ସାଧାରଣ ସର୍ବଜନୀନ ଲାଇସେନସ୍ ଦେଖନ୍ତୁ ୤"
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+" GNU ସାଧାରଣ ସର୍ବଜନୀନ ଲାଇସେନ୍ସର ଗୋଟିଏ ପ୍ରତିଲିପି %s ସହିତ ଆପଣ ପ୍ରାପ୍ତ କରିବା ଉଚିତ; ୟଦି ସେମିତି "
+"ହୋଇ ନାହିଁ, ତେବେ ମୁକ୍ତ ସଫ୍ଟବେଯାର ଫାଉଣ୍ଡେସନ୍, ଇଂକ., 51 ଫ୍ରାଙ୍କଲିନ ସ୍ଟ୍ରିଟ , ପଞ୍ଚମ ମହଲା, "
+"ବୋଷ୍ଟନ, MA  02110-1301  USAକୁ ଲେଖନ୍ତୁ ୤"
+
+#~ msgid "Player Chat"
+#~ msgstr "ଖେଳାଳୀ ଚାଟ"
+
+#~ msgid "Occupied"
+#~ msgstr "ବ୍ଯବହୃତହେଉଛି"
+
+#~ msgid "Empty"
+#~ msgstr "ଖାଲି"
+
+#~ msgid "Bot"
+#~ msgstr "ବୋଟ"
+
+#~ msgid "Reserved"
+#~ msgstr "ସୁରକ୍ଷିତ ଅଛି"
+
+#~ msgid "Abandoned"
+#~ msgstr "ପରିତ୍ଯାଗ କରାୟାଇଛି"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "ଦର୍ଶକ"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "ଅବସ୍ଥିତି"
+
+#~ msgid "Player List"
+#~ msgstr "ଖେଳାଳୀ ତାଲିକା"
+
+#~ msgid "Info"
+#~ msgstr "ସୂଚନା"
+
+#~ msgid "Boot player"
+#~ msgstr "ଖେଳାଳୀଙ୍କୁ ବୁଟକର"
+
+#~ msgid "Sit here"
+#~ msgstr "ଏଠାରେ ବସ"
+
+#~ msgid "Move here"
+#~ msgstr "ଏଠାରେ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Play with bot"
+#~ msgstr "ବୋଟ ସହିତ ଖେଳ"
+
+#, fuzzy
+#~ msgid "Drop reservation"
+#~ msgstr "ସଂରକ୍ଷଣ ପକାଅ"
+
+#~ msgid "Remove bot"
+#~ msgstr "ବୋଟ ହଟାଅ"
+
+#~ msgid "X Padding"
+#~ msgstr "X ପ୍ୟାଡିଙ୍ଗ"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "ଓସାର ପରିସ୍ଥାପନାକୁ ୟୋଗ କରିବା ପାଇଁ ଅତିରିକ୍ତ ସ୍ଥାନ"
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "ଉଚ୍ଚତା ପରିସ୍ଥାପନକୁ ୟୋଗ କରିବା ପାଇଁ ଅତିରିକ୍ତ ସ୍ଥାନ"
+
+#~ msgid "Width Multiple"
+#~ msgstr "ଓସାରର ଗୁଣିତକ"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "ଓସାରକୁ  ଆବଦ୍ଧ କରିବା ପାଇଁ କୋଉ ଗୁଣିତକ  ୤"
+
+#~ msgid "Height Multiple"
+#~ msgstr "ଉଚ୍ଚତା ଗୁଣିତକ"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "ଉଚ୍ଚତାକୁ  ଆବଦ୍ଧ କରିବା ପାଇଁ କୋଉ ଗୁଣିତକ  ୤"
+
+#~ msgid "X align"
+#~ msgstr "X ପଂକ୍ତି"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "ଦିଗବଳୀଯ ପଂକ୍ତିକରଣ,  0 ଠାରୁ (ବାମ)  1 ପର୍ୟ୍ଯନ୍ତ (ଡାହାଣ)"
+
+#~ msgid "Y align"
+#~ msgstr "Y ପଂକ୍ତି"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "ଦଣ୍ଡରୂପୀ ପଂକ୍ତିକରଣ,  0 ଠାରୁ (ଉପର) 1 ପର୍ୟ୍ଯନ୍ତ (ତଳ)"
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "ସ୍ଟ୍ରିଙ୍ଗ ଗୁଡିକର ତାଲିକା ୟାହାକି ଗୋଟିଏ ପାଞ୍ଚଗୁଣ ଗଠନରେ ଆସେ: ନାମ, ବିଜଯଗୁଡିକ, ଖେଳାୟାଇଥିବା "
+#~ "ସର୍ବମୋଟ ଖେଳ, ଉତ୍ତମ ସମଯ (ସେକେଣ୍ଡରେ) ଏବଂ ସବୁଠାରୁ ମନ୍ଦ ଖେଳ (ତା ମଧ୍ୟ ସେକେଣ୍ଡରେ) ୤ "
+#~ "ଖେଳାୟାଇ ନଥିବା ଖେଳକୁ ଉପସ୍ଥାପିତ କରିବାକୁ ଦରକାର ପଡେ ନାହିଁ ୤"
+
+#~| msgid "Animation"
+#~ msgid "Animations"
+#~ msgstr "ଜୀବନ୍ତଚିତ୍ରଗୁଡିକ "
+
+#~ msgid "Select the style of control"
+#~ msgstr "ନିଯନ୍ତ୍ରଣର ଶୈଳୀ ମନୋନୀତ କର"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "କାର୍ଡଗୁଡିକୁ ଟଣାୟିବ କିମ୍ବା ଥରେ ମୂଳରେ ଏବଂ ପରେ ଗନ୍ତବ୍ଯରେ କେବଳ କ୍ଲିକ କରାୟିବ, ମନୋନୀତ କର ୤"
+
+#~ msgid "Sound"
+#~ msgstr "ଶବ୍ଦ"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "ଖେଳାୟାଇଥିବା ଖେଳର ପରିସଂଖ୍ଯାନ"
+
+#~ msgid "The game file to use"
+#~ msgstr "ଉପୟୋଗକରିବା ପାଇଁ ଖେଳ ଫାଇଲ"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "କାର୍ଡଗୁଡିକ ପାଇଁ ଗ୍ରାଫିକ୍ସ ସହିତ ଫାଇଲର ନାମ "
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "ୟୋଜନା ଫାଇଲର ନାମ ୟେଉଁଥିରେ ଖେଳିବା ପାଇଁ ସଲିଟେଯର ଖେଳ ରହିଥାଏ ୤"
+
+#~ msgid "Theme file name"
+#~ msgstr "ଥିମ ଫାଇଲ ନାମ"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "ଘଟଣା ଧ୍ବନୀ ଖେଳାୟିବ କି ନାହିଁ ୤"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "ଟୁଲବାର ଦର୍ଶାୟିବ କି ନାହିଁ "
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "ମୁକ୍ତକୋଷ ସଲିଟେଯାର"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "ଲୋକପ୍ରିଯ ମୁକ୍ତ କୋଷ କାର୍ଡ ଖେଳ ଖେଳନ୍ତୁ "
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "ଆଇଜଲେରିଓଟ ଆପଣ ଖେଲିଥିବା ଶେଷ ଖେଳକୁ ଖୋଜି ପାଇପାରିବ ନାହିଁ ୤"
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "ଏହା ସାଧାରଣତଃ ସେତେବେଳେ ଘଟିଥାଏ ୟେବେ ଆପଣ ଆଇଜଲେରିଓଟର ପୁରୁଣା ଭାଷାନ୍ତରକୁ ଚଳାନ୍ତି ୟେଉଁଥିରେ "
+#~ "ଆପଣ ଖେଲିଥିବା ଶେଷ ଖେଳ ନଥାଏ ୤ ଡିଫଲ୍ଟ ଖେଳ, କ୍ଲୋନଡାଇକ, ତା ପରିବର୍ତ୍ତେ  ଆରମ୍ଭ ହୋଇଥାଏ ୤"
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "ଏହି ଖେଳରେ କୌଣସି ସୂଚନା ସମର୍ଥନ ଏୟାଏଁ ନାହିଁ ୤"
+
+#~ msgid "Move %s onto %s."
+#~ msgstr " %s କୁ %s ଘୁଞ୍ଚାଅ"
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "ଆପଣ ଗୋଟିଏ %s ପାଇଁ ତଦନ୍ତ କରୁଛନ୍ତି ୤"
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "ଏହି ଖେଳ ଗୋଟିଏ ସୂଚନା ଦେବାକୁ ଅସମର୍ଥ"
+
+#~ msgid "Error"
+#~ msgstr "ତ୍ରୁଟି"
+
+#~ msgid "NAME"
+#~ msgstr "ନାମ"
+
+#~| msgid "Select Game"
+#~ msgid "Select the game number"
+#~ msgstr "ଖେଳ କ୍ରମ ସଂଖ୍ୟା ଚୟନ କରନ୍ତୁ"
+
+#~ msgid "NUMBER"
+#~ msgstr "ସଂଖ୍ଯା"
+
+#~ msgid "AisleRiot"
+#~ msgstr "ଆଇଜଲେରିଓଟ"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "ଆଇଜଲେରିଓଟ ସିଲିଟେଯର"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "ଅନେକ ଭିନ୍ନ ଭିନ୍ନ ସଲିଟେଯାର ଖେଳ ଗୁଡିକୁ ଖେଳ"
+
+#~ msgid "Unknown color"
+#~ msgstr "ଅଜ୍ଞାତ ରଙ୍ଗ"
+
+#~ msgid "Unknown suit"
+#~ msgstr "ଅଜ୍ଞାତ ସୁଇଟ"
+
+#~ msgid "Unknown value"
+#~ msgstr "ଅଜ୍ଞାତ ମୂଲ୍ଯ"
+
+#~ msgid "ace"
+#~ msgstr "ଏକା"
+
+#~ msgid "black joker"
+#~ msgstr "କଳା ଜୋକର"
+
+#~ msgid "clubs"
+#~ msgstr "ଚିଡିପାନ(ଚିଡିଆ)"
+
+#~ msgid "diamonds"
+#~ msgstr "ଠିକିରି"
+
+#~ msgid "eight"
+#~ msgstr "ଆଠ"
+
+#~ msgid "five"
+#~ msgstr "ପଞ୍ଜା"
+
+#~ msgid "four"
+#~ msgstr "ଚାରି"
+
+#~ msgid "hearts"
+#~ msgstr "ପାନଗୁଡିକ"
+
+#~ msgid "jack"
+#~ msgstr "ଗୁଲାମ"
+
+#~ msgid "king"
+#~ msgstr "ରାଜା"
+
+#~ msgid "nine"
+#~ msgstr "ନକା"
+
+#~ msgid "queen"
+#~ msgstr "ରାଣୀ"
+
+#~ msgid "red joker"
+#~ msgstr "ଲାଲ ଜୋକର"
+
+#~ msgid "seven"
+#~ msgstr "ସାତ"
+
+#~ msgid "six"
+#~ msgstr "ଛକା"
+
+#~ msgid "spades"
+#~ msgstr "କଳାପାନଗୁଡିକ"
+
+#~ msgid "ten"
+#~ msgstr "ଦଶ"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "ଚିଡିଆ ଗୁଡିକର ଏକା"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "ଠିକିରିଗୁଡିକର ଏକା"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "ନାଲିପାନ ଗୁଡିକର ଏକା"
+
+#~ msgid "the ace of spades"
+#~ msgstr "କାଳିପାନ ଗୁଡିକର ଏକା"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "ଚିଡିପାନଗୁଡିକର ଆଠ"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "ଠିକିରିଗୁଡିକର ଆଠ"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "ନାଲିପାନଗୁଡିକର ଆଠ"
+
+#~ msgid "the eight of spades"
+#~ msgstr "କାଳିପାନର ଆଠ"
+
+#~ msgid "the five of clubs"
+#~ msgstr "ଚିଡିପାନର ପାଞ୍ଚ"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "ଠିକିରିର ପାଞ୍ଚ"
+
+#~ msgid "the five of hearts"
+#~ msgstr "ନାଲିପାନର ପାଞ୍ଚ"
+
+#~ msgid "the five of spades"
+#~ msgstr "କାଳିପାନର ପାଞ୍ଚ"
+
+#~ msgid "the four of clubs"
+#~ msgstr "ଚିଡିପାନର ଚୌକା"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "ଠିକିରିର ଚୌକା"
+
+#~ msgid "the four of hearts"
+#~ msgstr "ନାଲିପାନର ଚୌକା"
+
+#~ msgid "the four of spades"
+#~ msgstr "କାଳିପାନର ଚୌକା"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "ଚିଡିପାନର ଗୁଲାମ"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "ଠିକିରିର ଗୁଲାମ"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "ନାଲିପାନର ଗୁଲାମ"
+
+#~ msgid "the jack of spades"
+#~ msgstr "କାଳିପାନର ଗୁଲାମ"
+
+#~ msgid "the king of clubs"
+#~ msgstr "ଚିଡିପାନର ରାଜା"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "ଠିକିରିର ରଜା"
+
+#~ msgid "the king of hearts"
+#~ msgstr "ନାଲିପାନର ରଜା"
+
+#~ msgid "the king of spades"
+#~ msgstr "କାଳିପାନର ରଜା"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "ଚିଡିପାନର ନକା"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "ଠିକିରିର ନକା"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "ନାଲିପାନର ନକା"
+
+#~ msgid "the nine of spades"
+#~ msgstr "କାଳିପାନର ନକା"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "ଚିଡିପାନର ନକା"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "ଠିକିରିର ରାଣୀ"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "ନାଲିପାନର ରାଣୀ"
+
+#~ msgid "the queen of spades"
+#~ msgstr "କଳିପାନର ରାଣୀ"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "ଚିଡିପାନର ସାତ"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "ଠିକିରିର ସାତ"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "ନାଲିପାନର ସାତ"
+
+#~ msgid "the seven of spades"
+#~ msgstr "କଳିପାନର ସାତ"
+
+#~ msgid "the six of clubs"
+#~ msgstr "ଚିଡିପାନର ଛକା"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "ଠିକିରିର ଛକା"
+
+#~ msgid "the six of hearts"
+#~ msgstr "ନାଲିପାନର ଛକା"
+
+#~ msgid "the six of spades"
+#~ msgstr "କାଳିପାନର ଛକା"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "ଚିଡିପାନର ଦଶ"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "ଠିକିରିର ଦଶ"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "ନାଲିପାନର ଦଶ"
+
+#~ msgid "the ten of spades"
+#~ msgstr "କାଳିପାନର ଦଶ"
+
+#~ msgid "the three of clubs"
+#~ msgstr "ଚିଡିପାନର ତିନି"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "ଠିକିରିର ତିନି"
+
+#~ msgid "the three of hearts"
+#~ msgstr "ନାଲିପାନର ତିନି"
+
+#~ msgid "the three of spades"
+#~ msgstr "କାଳିପାନର ତିନି"
+
+#~ msgid "the two of clubs"
+#~ msgstr "ଚିଡିପାନର ଦୁଇ"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "ଠିକିରିର ଦୁଇ"
+
+#~ msgid "the two of hearts"
+#~ msgstr "ନାଲିପାନର ଦୁଇ"
+
+#~ msgid "the two of spades"
+#~ msgstr "କାଳିପାନର ଦୁଇ"
+
+#~ msgid "the unknown card"
+#~ msgstr "ଅଜ୍ଞାତ ତାସ"
+
+#~ msgid "three"
+#~ msgstr "ତିନି"
+
+#~ msgid "two"
+#~ msgstr "ଦୁଇ"
+
+#~ msgid "Wins:"
+#~ msgstr "ବିଜଯଗୁଡିକ:"
+
+#~ msgid "Total:"
+#~ msgstr "ସର୍ବମୋଟ:"
+
+#~ msgid "Percentage:"
+#~ msgstr "ଶତକଡା:"
+
+#~ msgid "Wins"
+#~ msgstr "Wins"
+
+#~ msgid "Best:"
+#~ msgstr "ଉତ୍ତମ:"
+
+#~ msgid "Worst:"
+#~ msgstr "ସବୁଠାରୁ ମନ୍ଦ:"
+
+#~ msgid "Statistics"
+#~ msgstr "ପରିସଂଖ୍ଯାନ"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "N/A"
+#~ msgstr "ଦରକାର ନାହିଁ"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "Agnes"
+#~ msgstr "ଏଜେନସ"
+
+#~ msgid "Athena"
+#~ msgstr "ଏଥେନା"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "ଆଉଡ ଲାଙ୍ଗ ସିନ"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "ଆଣ୍ଟ ମେରୀ"
+
+#~ msgid "Backbone"
+#~ msgstr "ବ୍ଯାକବୋନ"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "ବେକରସ ଡଜନ"
+
+#~ msgid "Bakers Game"
+#~ msgstr "ବେକରସ ଖେଳ"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "ଅବରୋଧିତ ରାଜ ମହଲ"
+
+#~ msgid "Block Ten"
+#~ msgstr "ଦଶ ଅବରୋଧ କର"
+
+#~ msgid "Bristol"
+#~ msgstr "ବ୍ରିଷ୍ଟଲ"
+
+#~ msgid "Camelot"
+#~ msgstr "କ୍ଯାମେଲୋଟ"
+
+#~ msgid "Canfield"
+#~ msgstr "କ୍ଯାନଫିଲ୍ଡ"
+
+#~ msgid "Carpet"
+#~ msgstr "ଗାଲିଚା"
+
+#~ msgid "Chessboard"
+#~ msgstr "ଚେସବୋର୍ଡ"
+
+#~ msgid "Clock"
+#~ msgstr "ଘଣ୍ଟା"
+
+#~ msgid "Cover"
+#~ msgstr "ଆବୃତ"
+
+#~ msgid "Cruel"
+#~ msgstr "ନିଷ୍ଠୁର"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "ହିରା ଖଣି"
+
+#~ msgid "Doublets"
+#~ msgstr "ଦ୍ବିଗୁଣିତ"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "ଇଗଲ ପକ୍ଷ"
+
+#~ msgid "Easthaven"
+#~ msgstr "ଇଷ୍ଟାଭେନ"
+
+#~ msgid "Eight Off"
+#~ msgstr "ଆଠ ବାହର"
+
+#~ msgid "Elevator"
+#~ msgstr "ଏଲେଭେଟର"
+
+#~ msgid "Escalator"
+#~ msgstr "ଏସ୍କାଲେଟର"
+
+#~ msgid "First Law"
+#~ msgstr "ପ୍ରଥମ ନିଯମ"
+
+#~ msgid "Fortress"
+#~ msgstr "ଦୁର୍ଗ"
+
+#~ msgid "Fortunes"
+#~ msgstr "ଭାଗ୍ଯ"
+
+#~ msgid "Fourteen"
+#~ msgstr "ଚଉଦ"
+
+#~ msgid "Freecell"
+#~ msgstr "ମୁକ୍ତକୋଷ"
+
+#~ msgid "Gaps"
+#~ msgstr "ଅନ୍ତରଗୁଡିକ"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "ଗେ ଗୋର୍ଡନସ"
+
+#~ msgid "Glenwood"
+#~ msgstr "ଗ୍ଲେନଉଡ"
+
+#~ msgid "Golf"
+#~ msgstr "ଗଲଫ"
+
+#~ msgid "Gypsy"
+#~ msgstr "ୟାୟାବର"
+
+#~ msgid "Helsinki"
+#~ msgstr "ହେଲସିଙ୍କି"
+
+#~ msgid "Hopscotch"
+#~ msgstr "ହପସ୍କଚ"
+
+#~ msgid "Isabel"
+#~ msgstr "ଇସାବେଲ"
+
+#~ msgid "Jamestown"
+#~ msgstr "ଜେମ୍ସଟାଉନ"
+
+#~ msgid "Jumbo"
+#~ msgstr "ଜମ୍ବୋ"
+
+#~ msgid "Kansas"
+#~ msgstr "କାଂସାସ"
+
+#~ msgid "King Albert"
+#~ msgstr "ରାଜା ଆଲବର୍ଟ"
+
+#~ msgid "Kings Audience"
+#~ msgstr "ରାଜାଙ୍କର ଦର୍ଶକ"
+
+#~ msgid "Klondike"
+#~ msgstr "କ୍ଲୋଣ୍ଡାଇକ"
+
+#~ msgid "Labyrinth"
+#~ msgstr "ଗୋଲକ ଧନ୍ଦା"
+
+#~ msgid "Lady Jane"
+#~ msgstr "ମହାଶଯା ଜେନ"
+
+#~ msgid "Maze"
+#~ msgstr "ମେଜ"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "ମଣ୍ଟେକାର୍ଲୋ"
+
+#~ msgid "Neighbor"
+#~ msgstr "ପଡୋସୀ"
+
+#~ msgid "Odessa"
+#~ msgstr "ଓଡେସା"
+
+#~ msgid "Osmosis"
+#~ msgstr "ଓସମୋସିସ( କମ ଘନ ତରଳର ଅଧିକ ଘନ ତରଳ ସହିତ ମିଶିବା)"
+
+#~ msgid "Peek"
+#~ msgstr "ଶୀଘ୍ର ଦେଖିବା"
+
+#~ msgid "Pileon"
+#~ msgstr "ପିଲିଓନ"
+
+#~ msgid "Plait"
+#~ msgstr "ପ୍ଲେଏଟ"
+
+#~ msgid "Poker"
+#~ msgstr "ପୋକର"
+
+#~ msgid "Quatorze"
+#~ msgstr "କ୍ବାଟୋର୍ଜ"
+
+#~ msgid "Royal East"
+#~ msgstr "ରାଜକୀଯ ପୂର୍ବ"
+
+#~ msgid "Saratoga"
+#~ msgstr "ସାରାଟୋଗା"
+
+#~ msgid "Scorpion"
+#~ msgstr "ବିଚ୍ଛା"
+
+#~ msgid "Scuffle"
+#~ msgstr "ସ୍କଫଲ"
+
+#~ msgid "Seahaven"
+#~ msgstr "ସିହେଭେନ"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "ସର୍ ଟୋମୀ"
+
+#~ msgid "Spider"
+#~ msgstr "ସ୍ପାଇଡର"
+
+#~ msgid "Spiderette"
+#~ msgstr "ସ୍ପାଇଡରେଟ"
+
+#~ msgid "Straight Up"
+#~ msgstr "ସିଧା ଉପର"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "ସାହି ଏବଂ ଗଳି ଗୁଡିକ"
+
+#~ msgid "Template"
+#~ msgstr "ଛାଞ୍ଚ"
+
+#~ msgid "Ten Across"
+#~ msgstr "ଆରପାଖ ଦଶ"
+
+#~ msgid "Terrace"
+#~ msgstr "ଟେରେସ"
+
+#~ msgid "Thieves"
+#~ msgstr "ଚୋରଗୁଡିକ"
+
+#~ msgid "Thirteen"
+#~ msgstr "ତେର"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "ଥମ୍ବ ଏବଂ ପାଉଚ"
+
+#~ msgid "Treize"
+#~ msgstr "ଟ୍ରେଇଜ"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "ତିନିଗୁଣ ଶୃଙ୍ଗଗୁଡିକ"
+
+#~ msgid "Union Square"
+#~ msgstr "ଏକତ୍ର ବର୍ଗକ୍ଷେତ୍ର"
+
+#~ msgid "Valentine"
+#~ msgstr "ଭେଲେଣ୍ଟାଇନ"
+
+#~ msgid "Westhaven"
+#~ msgstr "ବେଷ୍ଟହେଭେନ"
+
+#~ msgid "Whitehead"
+#~ msgstr "ହ୍ବାଇଟହେଡ"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "ବିଲ ଓ ଦି ହ୍ବିସ୍ପ"
+
+#~ msgid "Yield"
+#~ msgstr "ଉତ୍ପାଦନ"
+
+#~ msgid "Yukon"
+#~ msgstr "ଯୁକୋନ"
+
+#~ msgid "Zebra"
+#~ msgstr "ଜେବ୍ରା"
+
+#~ msgid "Select Game"
+#~ msgstr "ଖେଳ ଚୟନ କରନ୍ତୁ"
+
+#~| msgid "Select Game"
+#~ msgid "_Select"
+#~ msgstr "ଚୟନ କରନ୍ତୁ (_S)"
+
+#~ msgid "Main game:"
+#~ msgstr "ମୂଖ୍ଯ ଖେଳ:"
+
+#~ msgid "Card games:"
+#~ msgstr "କାର୍ଡ ଖେଳଗୁଡିକ:"
+
+#~ msgid "_Report"
+#~ msgstr "ବିବରଣୀ (_R)"
+
+#~ msgid "_View"
+#~ msgstr "ଦ୍ରୁଶ୍ଯ (_V)"
+
+#~ msgid "_Control"
+#~ msgstr "ନିୟନ୍ତ୍ରଣ (_C)"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_ଖେଳ ମନୋନୀତ କର..."
+
+#~ msgid "Play a different game"
+#~ msgstr "ଗୋଟିଏ ଭିନ୍ନ ଖେଳ ଖେଳ"
+
+#~ msgid "S_tatistics"
+#~ msgstr "ପରି_ସଂଖ୍ଯାନଗୁଡିକ"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "ଖେଳାୟାଇଥିବା ଖେଳର ପରିସଂଖ୍ଯାନ ଦର୍ଶାଅ"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "ଆଇଜଲେରିଓଟ ପାଇଁ ସାହାୟ୍ଯ ଦର୍ଶାଅ"
+
+#~ msgid "_Toolbar"
+#~ msgstr "ସାଧନ ପଟି (_T)"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁକ୍କାୟିତ କରନ୍ତୁ"
+
+#~| msgid "Status"
+#~ msgid "_Statusbar"
+#~ msgstr "ଅବସ୍ଥିତି ପଟି (_S)"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide statusbar"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁକ୍କାୟିତ କରନ୍ତୁ"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_ଘୁଞ୍ଚାଇବା ପାଇଁ କ୍ଲିକ କର"
+
+#~| msgid "Sound"
+#~ msgid "_Sound"
+#~ msgstr "ଧ୍ୱନି (_S)"
+
+#~| msgid "Animation"
+#~ msgid "_Animations"
+#~ msgstr "ଜୀବନାୟନ (_A)"
+
+#~ msgid "Time:"
+#~ msgstr "ସମୟ:"
+
+#~| msgid "Restart the game"
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "ଖେଳ “%s”କୁ ପୁନଃପ୍ରାରମ୍ଭ କରିହେବ ନାହିଁ"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "ଆଧାର ତାସ: ଏକା"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "ଆଧାର ତାସ: ଗୁଲାମ"
+
+#~ msgid "Base Card: King"
+#~ msgstr "ଆଧାର ତାସ: ରାଜା"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "ଆଧାର ତାସ: ରାଣୀ"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "ଆଧାର ତାସ: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "ଅଧିକ ତାସ ବାଣ୍ଟ"
+
+#~ msgid "Stock left:"
+#~ msgstr "ସ୍ଟକ ରହିଥିବା:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "ରହିଥିବା ସ୍ଟକ: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "ତାସଗୁଡିକୁ ପୁନଃବ୍ଯବସ୍ଥା କରିବାକୁ ଚେଷ୍ଟାକର"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ମୁଳ ରାଶି"
+
+#~ msgid "Three card deals"
+#~ msgstr "ତିନିଟି ତାସ ବଣ୍ଟନଗୁଡିକ"
+
+#~ msgid "Deal another round"
+#~ msgstr "ଆଉ ଗୋଟିଏ ଚାଲ ବାଣ୍ଟ"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "ଡେକରୁ ଗୋଟିଏ ନୂଆ ତାସ ବାଣ୍ଟ"
+
+#~ msgid "Redeals left:"
+#~ msgstr "ପୁନଃବଣ୍ଟନ ବାକିଥିବା:"
+
+#~ msgid "an empty foundation"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ମୂଳ"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ତଳ ସ୍ଥାନ"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି କୋଣ ସ୍ଥାନ"
+
+#~ msgid "an empty left slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ବାମ ସ୍ଥାନ"
+
+#~ msgid "an empty right slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ଡାହାଣ ସ୍ଥାନ"
+
+#~ msgid "an empty slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ସ୍ଥାନ"
+
+#~ msgid "an empty top slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ଉପର ସ୍ଥାନ"
+
+#~ msgid "itself"
+#~ msgstr "ସ୍ବତଃ"
+
+#~ msgid "Base Card: "
+#~ msgstr "ଆଧାର ତାସ: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "ସ୍ଟକକୁ ଅନୁପୟୋଗୀଗୁଡିକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Reserve left:"
+#~ msgstr "ବାମ ସଂରକ୍ଷିତ କର:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "ମୂଳରେ ଖାଲି ସ୍ଥାନ"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "ଟେବୁଲରେ ଗୋଟିଏ ଖାଲି ସ୍ଥାନ"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "ମୂଳକୁ ଗୋଟିଏ ତାସ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "ଖାଲି ଟେବୁଲ ସ୍ଥାନକୁ କିଛି ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Consistency is key"
+#~ msgstr "ସାମଞ୍ଜସ୍ଯ କୁଞ୍ଚି ଅଟେ"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "ଜାଲର ତାର ଦାନ୍ତ ସଫା କରିବା ପାଇଁ ଖରାପ ଅଟେ"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "ଆପଣ ସାହାୟ୍ଯ ଫାଇଲକୁ ପଢିଛନ୍ତି କି ?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "ବର୍ତ୍ତମାନ ମୁଁ ଗୋଟିଏ ପଛଘସିବା ଉପୟୋଗ କରିପାରନ୍ତି ..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr ""
+#~ "ୟଦି କେବେ ଆପଣ ଜଙ୍ଗଲରେ ହଜିୟାଆନ୍ତି ଏବଂ ଏକା ରହିୟାଆନ୍ତି ତେବେ ଗୋଟିଏ ଗଛକୁ ଆଲିଙ୍ଗନ କରନ୍ତୁ "
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "ଗୋଟିଏ ଛକଛକ ଚଲାରାସ୍ତା, ଏକ ହପସ୍କଚ ବୋର୍ଡ ପରି ଦେଖାୟାଏ ଏହାର ଅର୍ଥ ନୁହେଁ ୟେ ଏହା ଏକ ଅଟେ"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "ରାସ୍ତାର ଆରପାଖକୁ ପାର ହେବା ପୂର୍ବରୁ ରାସ୍ତାର ଉଭଯ ପଟକୁ ଦେଖନ୍ତୁ"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "ମନିଟର ଗୁଡିକ ଆପଣଙ୍କୁ ଭିଟାମିନ D ଦେଇପାରିବେ ନାହିଁ -- କିନ୍ତୁ ସୂର୍ୟ୍ଯ କିରଣ ଦେଇପାରିବ ..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "କେବେ କୁକୁରର କାନରେ ଫୁଙ୍କମାରନ୍ତୁ ନାହିଁ"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "ଓଡେଶା ଗୋଟିଏ ଭଲ ଖେଳ ୤ ପ୍ରକୃତରେ ୤"
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "ଟୋରନିକ୍ବେଟଗୁଡିକ ସୁପାରିଶ କରାୟାଏ ନାହିଁ ୟେଉଁପର୍ୟ୍ଯନ୍ତ ଜରୁରୀ ଅବସ୍ଥା ହୋଇନାହିଁ ୤"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "ୟେବେ ଗୋଟିଏ ସ୍ଟେପଲର ବିନା, ଗୋଟିଏ ସ୍ଟେପଲ ଏବଂ ଗୋଟିଏ ରୁଲର କାମ କରିବ "
+
+#~ msgid "Redeal."
+#~ msgstr "ପୁଣି ବାଣ୍ଟ"
+
+#~ msgid "the foundation pile"
+#~ msgstr "ମୂଳ ରାଶି"
+
+#~ msgid "Deal a card"
+#~ msgstr "ଗୋଟିଏ ତାସ ବାଣ୍ଟ"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "ଘୁଞ୍ଚାଅ ~a ଗୋଟିଏ ଖାଲି ମୁଳକୁ"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "ଟେବୁଲରେ ଗୋଟିଏ ଖାଲି ସ୍ଥାନ"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "ଗୋଟିଏ ରାଜାକୁ ଖାଲି ଟେବୁଲ ସ୍ଥାନକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "No hint available right now"
+#~ msgstr "ବର୍ତ୍ତମାନ କୌଣସି ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ସ୍ଥାନକୁ କିଛି ଘୁଞ୍ଚାଅ"
+
+#~ msgid "an empty tableau"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ଟେବୁଲ"
+
+#~ msgid "I'm not sure"
+#~ msgstr "ମୁଁ ନିଶ୍ଚିତ ନୁହେଁ"
+
+#~ msgid "Remove the aces"
+#~ msgstr "ଏକାଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the eights"
+#~ msgstr "ଆଠଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the fives"
+#~ msgstr "ପାଞ୍ଚଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the fours"
+#~ msgstr "ଚାରିଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "ଗୁଲାମଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the kings"
+#~ msgstr "ରାଜାଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the nines"
+#~ msgstr "ନକାଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the queens"
+#~ msgstr "ରାଣୀଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "ସାତଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "ଛକାଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the tens"
+#~ msgstr "ଦଶଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the threes"
+#~ msgstr "ତିକାଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Remove the twos"
+#~ msgstr "ଦୁକାଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "ଷ୍ଟକକୁ ତାସଗୁଡିକୁ ଫେରାଅ"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ସ୍ଥାନକୁ କିଛି ଘୁଞ୍ଚାଇବା ପାଇଁ ବିଚାର କର"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "ଘୁଞ୍ଚାଅ ~a ବୋର୍ଡ ବାହାରକୁ"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "କୌଣସି ଚାଲ ସମ୍ଭବ ନୁହେଁ ୤ ଅନାବୃତ୍ତି କର କିମ୍ବା ପୁଣିଥରେ ଆରମ୍ଭ କର ୤"
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "ଖେଳର କୌଣସି ସମାଧାନ ନାହିଁ ୤ ଅନାବୃତ୍ତି କର କିମ୍ବା ପୁଣି ଆରମ୍ଭ କର ୤"
+
+#~ msgid "an empty reserve"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ସଂରକ୍ଷିତ ସ୍ଥାନ"
+
+#~ msgid "an open tableau"
+#~ msgstr "ଗୋଟିଏ ଖୋଲା ଟେବୁଲ"
+
+#~ msgid "the foundation"
+#~ msgstr "ମୂଳ"
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "ପୁନଃବାଣ୍ଟିବା ପାଇଁ କୋଉ ବି ତାସକୁ ଦୁଇଥର କ୍ଲିକ କର"
+
+#~ msgid "No hint available."
+#~ msgstr "କୌଣସି ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ"
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "ପୁନଃବଣ୍ଟନରେ ଅନ୍ତରଗୁଡିକ ବିନା କ୍ରମରେ ସ୍ଥାପିତ ହୋଇଅଛି"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "ଗୋଟିଏ ତାସକୁ ସଂରକ୍ଷିତରୁ ଖାଲି ଟେବୁଲ ସ୍ଥାନକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "ପ୍ରଥମ ମୂଳ ରାଶି ପାଇଁ ସଂରକ୍ଷିତରୁ ଗୋଟିଏ ତାସ ମନୋନୀତ କର"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "ଖାଲି ଟେବୁଲ ସ୍ଥାନକୁ"
+
+#~ msgid "Deal another card"
+#~ msgstr "ଆଉ ଗୋଟିଏ ତାସ ବାଣ୍ଟ"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "ବାମ ସ୍ଟକ: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "ଅନ୍ଯ ଗୋଟିଏ ହାତ ବାଣ୍ଟ"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "ଗୋଟିଏ ତାସ କିମ୍ବା ତାସର ରାଶିକୁ ଖାଲି ସ୍ଥାନକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Move card from waste"
+#~ msgstr "ପରିତ୍ଯକ୍ତରୁ ତାସ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "ପରିତ୍ଯକ୍ତରୁ ସ୍ଟକକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ଟେବୁଲ ସ୍ଥାନ"
+
+#~ msgid "Deal a new card"
+#~ msgstr "ଗୋଟିଏ ନୂଆ ତାସ ବାଣ୍ଟ"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "ମୂଳରୁ ତାସଗୁଡିକୁ ତଳକୁ ଘୁଞ୍ଚାଇବାକୁ ଚେଷ୍ଟାକର"
+
+#~ msgid "Base Card:"
+#~ msgstr "ଆଧାର ତାସ:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "ୟୋଗ୍ଯଗୁଡିକୁ କ୍ରମରେ ସ୍ଥାପିତ କରିବା ଉଦ୍ଦେଶ୍ଯ ୟାହାକି ଚଳିତ ବିରଚନାକୁ ଅତ୍ଯନ୍ତ ପ୍ରାକୃତିକ ଭାବରେ ୟୋଗ୍ଯ "
+#~ "ରହେ ୤"
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "ଡେକରୁ ନୂଆ ତାସଗୁଡିକୁ ବାଣ୍ଟ"
+
+#~ msgid "something"
+#~ msgstr "କିଛି"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "ଘୁ଼ଞ୍ଚାଅ ~a ସ୍ଟକରୁ ଗୋଟିଏ ଖାଲି ଧାର କିମ୍ବା ଟେବୁଲ ସ୍ଥାନକୁ "
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "ଘୁଞ୍ଚାଅ ~a ଗୋଟିଏ ଖାଲି କ୍ଷେତ୍ରକୁ"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "ପୋକର ହାତରୁ ତାସଗୁଡିକୁ ଟେବୁଲରେ ସ୍ଥାପିତ କର"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "ବିଶ୍ରୁଙ୍ଖଳିତ ଧାରା"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "ଗୋଟିଏ ଖାଲି ଟେବୁଲ ରାଶି"
+
+#~ msgid "Deal the cards"
+#~ msgstr "ତାସକୁ ବାଣ୍ଟ"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "ତାସଗୁଡିକୁ ପୁଣି ଥକେ ଫେଣ୍ଟ"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "ପରିତ୍ଯକ୍ତକୁ ଗୋଟିଏ ସଂରକ୍ଷିତ ସ୍ଥାନକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "empty foundation"
+#~ msgstr "ଖାଲି ମୂଳ"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "ଖାଲି ସ୍ଥାନରେ କିଛି ସ୍ଥାପିତ କର"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "ଖାଲି ରାଶିକୁ ପ୍ରଥମେ ଦଯାକରି ପୁରଣ କରନ୍ତୁ"
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "ଆଖପାଖରେ ତାସ ରାଶି ଗୁଡିକୁ ଘୁଞ୍ଚାଇବାକୁ ଚେଷ୍ଟାକର"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "ଅସ୍ଥାଯୀ ବିନ୍ଦୁ ଗୁଡିକର ଉପୟୋଗ ସ୍ବୀକୃତି ଦିଅ"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "ଗୋଟିଏ ତାସକୁ ଏକ ଖାଲି ଅସ୍ଥାଯୀ ସ୍ଥାନକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "No hint available"
+#~ msgstr "କୌଣସି ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ"
+
+#~ msgid "General Patience"
+#~ msgstr "ସାଧାରଣ ଧୈର୍ଯ୍ୟ"
+
+#~ msgid "Wood"
+#~ msgstr "କାଠ"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "ଡେକରୁ ଗୋଟିଏ ତାସ ବାଣ୍ଟ"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "ପରିତ୍ଯକ୍ତର ଉପର ଦୁଇଟି ତାସକୁ ମେଳ କର"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "ଉପୟୁକ୍ତ ମୂଳ ରାଶି"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "ତାସଗୁଡିକର ଗୋଟିଏ ଗଠନକୁ ଖାଲି ଟେବୁଲ ସ୍ଥାନକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "ଉପୟୁକ୍ତ ମୂଳ ରାଶି"
+
+#~ msgid "Blackjack"
+#~ msgstr "କଳାଗୁଲାମ"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "କାସିନୋ ତାସ ଖେଳ କଳାଗୁଲାମ ଖେଳ"
+
+#~ msgid "Display probabilities"
+#~ msgstr "ସମ୍ଭାବିତଗୁଡିକୁ ପ୍ରଦର୍ଶନ କର"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "ପ୍ରତ୍ଯେକ ବଣ୍ଟାୟାଇଥିବା ହାତର ଫଳାଫଳର ସମ୍ଭାବନାଗୁଡିକ ଏବଂ ଆପଣଙ୍କର ହାତର ଅପେକ୍ଷିତ ମୁଲ୍ଯକୁ "
+#~ "ପ୍ରଦର୍ଶନ କର ୤"
+
+#~ msgid "Never take insurance"
+#~ msgstr "ଜୀବନ ବୀମା କେବେ ନିଅନ୍ତୁ ନାହିଁ"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "ଗୋଟିଏ ଏକା ଦେଖାଉଥିବା ଜଣେ ଖେଳାଳୀ ସହିତ ଜୀବନବିମା ନିଅନ୍ତୁ ନାହିଁ ୤"
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "ଆପଣଙ୍କର ବ୍ଯାଙ୍କରେ ଟଙ୍କାର ପରିମାଣ"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "ଆପଣଙ୍କର ବ୍ଯାଙ୍କରେ ଟଙ୍କାର ପରିମାଣ"
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "ଖେଳିବା ପାଇଁ ନିଯମ ଗୁଡିକର ବିଭିନ୍ନ ପ୍ରକାର ରହିଥିବା ନିଯମଫାଇଲର ନାମ ୤"
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "ଉପୟୋଗ କରିବା ପାଇଁ ଭିନ୍ନ ପ୍ରକାର ନିଯମ ଫାଇଲ"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "ଗୋଟିଏ ଅତିଶୀଘ୍ର ବଣ୍ଟନ ଉପୟୋଗ କର"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "ପ୍ରତି ତାସ ମଧ୍ଯରେ କିଛି ବିଳମ୍ବ ନଥାଇ ଗୋଟିଏ ଅତିଶୀଘ୍ର ବଣ୍ଟନ ଉପୟୋଗ କର ୤"
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "ଟୁଲବାରକୁ ଦର୍ଶାୟିବ କି ନାହିଁ ୤"
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "କଳାଗୁଲାମ  - %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "ଚଳିତ ଖେଳକୁ ପୁଣିଥରେ ଆରମ୍ଭ କର"
+
+#~ msgid "Show a hint"
+#~ msgstr "ଗୋଟିଏ ସୂଚନା ଦର୍ଶାଅ"
+
+#~ msgid "D_eal"
+#~ msgstr "ବା_ଣ୍ଟ"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "ଗୋଟିଏ ନୂଆ ଖେଳ ବାଣ୍ଟ"
+
+#~ msgid "_Hit"
+#~ msgstr "_ଲାଗିଗଲା"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "ହାତକୁ ଗୋଟିଏ ତାସ ୟୋଗ କର"
+
+#~ msgid "_Stand"
+#~ msgstr "_ ଠିଆହୁଅ"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "ହାତକୁ ତାସ ୟୋଗ କରିବା ବନ୍ଦ କର"
+
+#~ msgid "S_urrender"
+#~ msgstr "ଆତ୍ମ_ସମର୍ପଣ କର"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "ଆପଣଙ୍କର ଅଧା ବେଟ ପାଇଁ ଏହି ହାତକୁ ଜବତ୍ କର"
+
+#~ msgid "_Double down"
+#~ msgstr "_ତଳକୁ ଦ୍ବିଗୁଣ"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "ଗୋଟିଏ ଏକମାତ୍ର ହିଟ ପାଇଁ ଆପଣଙ୍କର ବେଟକୁ ଦ୍ବିଗୁଣ କର ୤"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "ହାତକୁ_ବିଭକ୍ତ କର"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "ତାସଗୁଡିକୁ ଦୁଇ ହାତକୁ ବିଭକ୍ତ କର"
+
+#~ msgid "Show toolbar"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ"
+
+#~ msgid "Cards left:"
+#~ msgstr "ବାକି ରହିଥିବା ତାସଗୁଡିକ:"
+
+#~ msgid "Wager:"
+#~ msgstr "ବେଟ:"
+
+#~ msgid "Balance:"
+#~ msgstr "ବଳକାରହିଥିବା:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "ଆପଣଙ୍କର ବେଟ ସ୍ଥାପିତ କର କିମ୍ବା ଗୋଟିଏ ହାତ ବାଣ୍ଟ"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "ଉପୟୋଗ କରିବା ପାଇଁ କଳା ଗୁଲାମ ନିଯମ ସ୍ଥିର ହୋଇଛି ୤"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "ଆପଣ ବିମା କରେଇବେ କି ?"
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "ଆପଣଙ୍କର ବେଟ ସ୍ଥିର କରନ୍ତୁ ଏବଂ ଗୋଟିଏ ନୂଆ ହାତ ବାଣ୍ଟିବା ପାଇଁ ଧଳା ବାହ୍ଯ ରେଖାରେ କ୍ଲିକ କରନ୍ତୁ ୤"
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "ଆପଣଙ୍କର ବେଟ ସ୍ଥିର କର କିମ୍ବା ଗୋଟିଏ ନୂଆ ହାତ ବାଣ୍ଟିବା ପାଇଁ ତାସଗୁଡିକ ଉପରେ କ୍ଲିକ କର ୤"
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "କଳାଗୁଲାମ ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr " _ହାତ ସମ୍ଭାବନା ଗୁଡିକୁ ପ୍ରଦର୍ଶନ କର"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "_ଶୀଘ୍ର ବଣ୍ଟନଗୁଡିକ (ପ୍ରିତି ତାସ ମଧ୍ଯରେ କିଛି ବିଳମ୍ବ ହୁଏନି)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "_କେବେ ବି ବିମା ନିଅ ନାହିଁ"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "_ ବଳକା ରାଶି ପୁନଃସ୍ଥିରକର"
+
+#~ msgid "Rules"
+#~ msgstr "ନିଯମଗୁଡିକ"
+
+#~ msgid "Decks"
+#~ msgstr "ଡେକ"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "ହିଟ ସଫ୍ଟ 17"
+
+#~ msgid "Double Any Total"
+#~ msgstr "କୌଣସି ସର୍ବମୋଟକୁ ଦ୍ବିଗୁଣିତ କରିଦିଏ"
+
+#~ msgid "Double 9"
+#~ msgstr "ଦ୍ବିଗୁଣ 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "ଦ୍ବିଗୁଣ ସଫ୍ଟ"
+
+#~ msgid "Double After Hit"
+#~ msgstr "ହିଟ ପରେ ଦ୍ବିଗୁଣ କର"
+
+#~ msgid "Double After Split"
+#~ msgstr "ବିଚ୍ଛେଦ ପରେ ଦ୍ବିଗୁଁଣ କର"
+
+#~ msgid "Resplit"
+#~ msgstr "ପୁନଃ ବିଭକ୍ତ କର"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "ଏକା ଗୁଡିକୁ ପୁନଃ ବିଚ୍ଛେଦ କର"
+
+#~ msgid "Surrender"
+#~ msgstr "ଆତ୍ମସମର୍ପଣ କର"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "ବାଣ୍ଟନକାରୀ ଗତି"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "ଆପଣଙ୍କର ବେଟକୁ ଦ୍ବିଗୁଣ କରିବା ପାଇଁ କ୍ଲିକ କର"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "ଆପଣଙ୍କର ବେଟକୁ ବଢାଇବା ପାଇଁ %.2fରେ ଦୁଇଥର କ୍ଲିକ କର"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "ଆପଣଙ୍କର ବେଟକୁ ହ୍ରାସ କରିବା ପାଇଁ %.2fରେ ଦୁଇଥର କ୍ଲିକ କର"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "ଅନ୍ଯ ତାସ ବଣ୍ଟନ ପାଇଁ କ୍ଲିକ କର : ତାସକୁ ଟାଣ ୟୁଗଳକୁ ବିଭକ୍ତ କରିବା ପାଇଁ "
+
+#~ msgid "Click to deal another card"
+#~ msgstr "ଅନ୍ଯ ଗୋଟିଏ ତାସ ବାଣ୍ଟିବା ପାଇଁ କ୍ଲିକ କର"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "ଆପଣଙ୍କର ହାତକୁ ତାସଗୁଡିକ ୟୋଗକରିବା ଶେଷ କରିବା ପାଇଁ ଶେଷରେ କ୍ଲିକ  କର"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "ଗୋଟିଏ ନୂଆ ହାତ ବାଣ୍ଟିବା ପାଇଁ କ୍ଲିକ କର"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "କଳାଗୁଲାମ, ଅନୁରୋଧିତ ଫାଇଲକୁ ଲୋଡ କରିପାରିବ ନାହିଁ"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "ଦଯାକରି ଆପଣଙ୍କର କଳାଗୁଲାମ ପ୍ରତିଷ୍ଠାପନକୁ ୟାଞ୍ଚ କର"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "ଉତ୍ତମ ବିକଳ୍ପ ହେଉଛି, ଠିଆ ରହିବା"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ଠିଆ ରହିବା ଅର୍ଥାତ୍ ଆପଣଙ୍କର ହାତକୁ ଆଉ ଅଧିକ ତାସ ୟୋଗ କରିବା ବନ୍ଦ କରିବା ୤ ଏହାକୁ ଆପଣ ବଣ୍ଟନର "
+#~ "ତାସଉପରେ କ୍ଲିକ କରି କିମ୍ବା ନିଯନ୍ତ୍ରଣ ମେନୁରୁ ବିକଳ୍ପ ମନୋନୀତ କରି କରନ୍ତୁ ୤"
+
+#~ msgid "The best option is to hit"
+#~ msgstr "ହିଟ କରିବା ସବୁଠାରୁ ଉତ୍ତମ ବିକଳ୍ପ"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ହିଟ କରିବା ଅର୍ଥ ଆପଣଙ୍କର ହାତକୁ ଆଉ ଗୋଟିଏ ତାସ ୟୋଗ କରିବା ୤ ଏହାକୁ ଆପଣଙ୍କର ତାସଗୁଡିକ ଉପରେ "
+#~ "କ୍ଲିକ କରି କିମ୍ବା ନିଯନ୍ତ୍ରଣ ମେନୁରୁ ବିକଳ୍ପ ମନୋନୀତ କରି କରନ୍ତୁ ୤"
+
+#~ msgid "The best option is to double down"
+#~ msgstr "ଉତ୍ତମ ବିକଳ୍ପ ହେଉଛି ଡବଲ ଡାଉନ"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ଡବଲ ଡାଉନ କରିବା ଅର୍ଥ ପ୍ରାରମ୍ଭିକ ବେଟକୁ ଦ୍ବିଗୁଣ କରିବା ଏବଂ ସଠିକ ଭାବରେ ଗୋଟିଏ ତାସ ଅଧିକ ପ୍ରାପ୍ତ "
+#~ "କରିବା ୤ ଏହାକୁ କରିବା ପାଇଁ ଉଇଣ୍ଡୋର ତଳେ ଥିବା ଚିପ୍ସରେ ଥରେ କ୍ଲିକ କର କିମ୍ବା ନିଯନ୍ତ୍ରଣ ମେନୁରୁ "
+#~ "ବିକଳ୍ପ ମନୋନୀତ କର ୤"
+
+#~ msgid "The best option is to split"
+#~ msgstr "ଉତ୍ତମ ବିକଳ୍ପ ହେଉଛି ବିଚ୍ଛେଦ କରିବା"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ବିଚ୍ଚେଦ କରିବା ଅର୍ଥ ଆପଣଙ୍କର ଚଳିତ ହାତର ତାସକୁ ଦୁଇଟି ପୃଥକ ହାତରେ ବିଭକ୍ତ କରିବା ୤ ଏହା କରିବା "
+#~ "ପାଇଁ ଆପଣଙ୍କର ଗୋଟିଏ ତାସକୁ ଟାଣି ତାହାକୁ ଗୋଟିଏ ପାଖରେ ପକେଇଦିଅନ୍ତୁ କିମ୍ବା ନିଯନ୍ତ୍ରଣ ମେନୁରୁ ବିକଳ୍ପ "
+#~ "ମନୋନୀତ କରନ୍ତୁ ୤"
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "ଉତ୍ତମ ବିକଳ୍ପ ହେଉଛି ସମର୍ପଣ କରିବା "
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ସମର୍ପଣ କରିବା ଅର୍ଥ ଆପଣଙ୍କର ବେଟର ଅଧା ଛାଡିଦେବା ଏବଂ ହାତକୁ ସଂପୂର୍ଣ୍ଣ ନକରିବା ୤ ଏହା ନିଯନ୍ତ୍ରଣ "
+#~ "ମେନୁରୁ ବିକଳ୍ପକୁ ମନୋନୀତ କରି କରନ୍ତୁ ୤"
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "ମୌଳିକ କୌଶଳ ଗଣନାକରୁଛି ..."
+
+#~ msgid "Bust"
+#~ msgstr "ବକ୍ଷ"
+
+#~ msgid "Blackjack!"
+#~ msgstr "କଳା ଗୁଲାମ!"
+
+#~ msgid "Soft"
+#~ msgstr "କୋମଳ"
+
+#~ msgid "Win"
+#~ msgstr "ବିଜଯ"
+
+#~ msgid "Push"
+#~ msgstr "ଧକ୍କାଦିଅ"
+
+#~ msgid "Lose"
+#~ msgstr "ପରାଜଯ"
+
+#~ msgid "Player expected values"
+#~ msgstr "ଖେଳାଳୀ ଅପେକ୍ଷୀତ ମୂଲ୍ଯ"
+
+#~ msgid "Stand"
+#~ msgstr "ସ୍ଟାଣ୍ଡ"
+
+#~ msgid "Hit"
+#~ msgstr "ହିଟ"
+
+#~ msgid "Double"
+#~ msgstr "ଦ୍ବିଗୁଣିତ"
+
+#~ msgid "Split"
+#~ msgstr "ସ୍ପ୍ଲିଟ"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "ବଣ୍ଟାନକାରୀ ହାତ ସମ୍ଭାବନାଗୁଡିକ"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "ସରଭରକୁ ସଂୟୋଗ କରିବାରେ ତ୍ରୁଟି: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "ଆପଣଙ୍କର ନୂଆ ଗୁପ୍ତଶବ୍ଦ %s ଅଟେ"
+
+#~ msgid "New password"
+#~ msgstr "ନୂଆ ଗୁପ୍ତଶବ୍ଦ"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "ସରଭରରେ ଖେଳାଳୀ ମାନେ: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "ଚଳିତ କକ୍ଷ: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "ଆପଣ କକ୍ଷରେ ୟୋଗ ଦେଇଛନ୍ତି \"%s\"୤"
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "କକ୍ଷରେ ୟୋଗ ଦେବାରେ ତ୍ରୁଟି: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ ଖେଳିବା ପ୍ରାନ୍ତ"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "ଗୋଟିଏ କକ୍ଷରେ ନଥିବା ବେଳେ ଆପଣ ଚାଟ କରିପାରିବେ ନାହିଁ ୤"
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "ଏଠାରେ ଚାଟ କରିବା ପାଇଁ ଆପଣଙ୍କ ପାଖରେ ଅନୁମତି ନାହିଁ ୤"
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "ଗୋଟିଏ ଟେବୁଲରେ କୌଣସି ବ୍ଯକ୍ତିଗତ ଚାଟ କରିବା ନାହିଁ!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "ସେହି ଖେଳାଳୀ କକ୍ଷରେ ନାହାଁନ୍ତି !"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "ଚାଟ ପଠାଇବା ବେଳେ ଗୋଟିଏ ତ୍ରୁଟି ଘଟିଛି ୤"
+
+#~ msgid "You're not at a table."
+#~ msgstr "ଆପଣ ଗୋଟିଏ ଟେବୁଲରେ ନାହାଁନ୍ତି ୤"
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "ଚାଟ ବିଫଳ ହେଲା: %s ୤"
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "ଟେବୁଲ ପ୍ରାରମ୍ଭ କରିବାରେ ତ୍ରୁଟି: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "ଆପଣ ଟେବୁଲରେ ୟୋଗ ଦେଇଛନ୍ତି %d ୤"
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "ଟେବୁଲରେ ୟୋଗ ଦେବାରେ ତ୍ରୁଟି: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr " %s ଦ୍ବାରା ଆପଣ ଟେବୁଲରୁ ବୁଟ ହୋଇଛନ୍ତି ୤"
+
+#~ msgid "You have left the table."
+#~ msgstr "ଆପଣ ଟେବୁଲ ଛାଡି ୟାଇଛନ୍ତି"
+
+#~ msgid "The game is over."
+#~ msgstr "ଖେଳ ସମାପ୍ତ ହୋଇଛି"
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "ଖେଳ ସରଭର ସହିତ ଗୋଟିଏ ତ୍ରୁଟି ଘଟିଛି ୤"
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "ଟେବୁଲ ଛାଡିୟିବାରେ ତ୍ରୁଟି: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "ଚଳିତ କକ୍ଷ:"
+
+#~ msgid "**none**"
+#~ msgstr "**କିଛି ନୁହଁ**"
+
+#~ msgid "Offline"
+#~ msgstr "ଅଫଲାଇନ"
+
+#~ msgid "Connecting"
+#~ msgstr "ସଂଯୋଗ କରୁଅଛି"
+
+#~ msgid "Reconnecting"
+#~ msgstr "ପୁନଃସଂଯୋଗ କରୁଅଛି"
+
+#~ msgid "Online"
+#~ msgstr "ଅନ ଲାଇନ"
+
+#~ msgid "Logging In"
+#~ msgstr "ରେ ଲଗକରୁଛି"
+
+#~ msgid "Logged In"
+#~ msgstr "ରେ ଲଗ କରିଛି"
+
+#~ msgid "--> Room"
+#~ msgstr "--> କକ୍ଷ"
+
+#~ msgid "Chatting"
+#~ msgstr "ଚାଟକରୁଛି"
+
+#~ msgid "--> Table"
+#~ msgstr "--> ଟେବୁଲ"
+
+#~ msgid "Playing"
+#~ msgstr "ଚାଲୁଅଛି"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- ଟେବୁଲ"
+
+#~ msgid "Logging Out"
+#~ msgstr "ଲଗ-ଆଉଟକରୁଛି"
+
+#~ msgid "Server error: %s"
+#~ msgstr "ସରଭର ତ୍ରୁଟି: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "ସରଭରରୁ ସଂୟୋଗ ଛିନ୍ନ ହୋଇଛି ୤"
+
+#~ msgid "Login"
+#~ msgstr "ଲଗଇନ"
+
+#~ msgid "That username is already in use."
+#~ msgstr "ସେହି ଉପୟୋଗକର୍ତ୍ତା ନାମ ପୂର୍ବରୁ ଉପୟୋଗରେ ଅଛି ୤"
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "ପ୍ରମାଣିତ କରଣ ବିଫଳ ହେଲା ୤\n"
+#~ "ଦଯାକରି ସଠିକ ଗୁପ୍ତଶବ୍ଦ ୟୋଗାଇ ଦିଅ"
+
+#~ msgid "The username is too long!"
+#~ msgstr "ଉପୟୋଗକର୍ତ୍ତା ନାମ ବହୁତ ଲମ୍ବା ଅଟେ"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "ଅମାନ୍ଯ ଉପୟୋଗକର୍ତ୍ତା ନାମ, ବିଶେଷ ଅକ୍ଷରଗୁଡିକୁ ଉପୟୋଗକର ନାହିଁ !"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "ଅଜ୍ଞାତ କାରଣ ୟୋଗୁଁ ଲଗ-ଇନ ବିଫଳ ହେଲା : %s"
+
+#~ msgid "Network Game"
+#~ msgstr "ନେଟୱର୍କ ଖେଳ"
+
+#~ msgid "Server Profile"
+#~ msgstr "ସରଭର ରୂପରେଖ"
+
+#~ msgid "Profile:"
+#~ msgstr "ପ୍ରୋଫାଇଲ:"
+
+#~ msgid "Server:"
+#~ msgstr "ସର୍ଭର:"
+
+#~ msgid "Port:"
+#~ msgstr "ସଂଯୋଗିକୀ:"
+
+#~ msgid "User Information"
+#~ msgstr "ଉପୟୋଗକର୍ତ୍ତା ସୂଚନା"
+
+#~ msgid "Username:"
+#~ msgstr "ଚାଳକ ନାମ:"
+
+#~ msgid "Password:"
+#~ msgstr "ପ୍ରବେଶ ସଙ୍କେତ:"
+
+#~ msgid "Email:"
+#~ msgstr "ଇ-ମେଲ:"
+
+#~ msgid "Normal Login"
+#~ msgstr "ସାମାନ୍ଯ ଲଗଇନ"
+
+#~ msgid "Guest Login"
+#~ msgstr "ଅତିଥି ଲଗଇନ"
+
+#~ msgid "First-time Login"
+#~ msgstr "ପ୍ରଥମଥର ଲଗଇନ"
+
+#~ msgid "Connect"
+#~ msgstr "ସଂଯୋଗ କରନ୍ତୁ"
+
+#~ msgid "Wizard"
+#~ msgstr "ୱିଜାର୍ଡ"
+
+#~ msgid "Deity"
+#~ msgstr "ଦେବାତା"
+
+#~ msgid "Sentinel"
+#~ msgstr "ସେଣ୍ଟିନେଲ"
+
+#~ msgid "Captain"
+#~ msgstr "ଅଧିନାଯକ"
+
+#~ msgid "Knight"
+#~ msgstr "ବୀରୟୋଦ୍ଧା"
+
+#~ msgid "Angel"
+#~ msgstr "ପରୀ"
+
+#~ msgid "Silverlord"
+#~ msgstr "ସିଲଭରଲର୍ଡ"
+
+#~ msgid "Eagle"
+#~ msgstr "ଇଗଲ"
+
+#~ msgid "Vampire"
+#~ msgstr "ଭାମ୍ପାଯାର(ପିଶାଚ)"
+
+#~ msgid "Chief"
+#~ msgstr "ମୁଖିଆ"
+
+#~ msgid "Colonel"
+#~ msgstr "କଲୋନେଲ"
+
+#~ msgid "General"
+#~ msgstr "ସାଧାରଣ"
+
+#~ msgid "Major"
+#~ msgstr "ମେଜର"
+
+#~ msgid "Scout"
+#~ msgstr "ସ୍କାଉଟ"
+
+#~ msgid "Lieutenant"
+#~ msgstr "ଲିଉଟେନାଣ୍ଟ"
+
+#~ msgid "Stalker"
+#~ msgstr "ଚତୁରଶିକାରୀ"
+
+#~ msgid "Scientist"
+#~ msgstr "ବୌଜ୍ଞାନିକ"
+
+#~ msgid "Scholar"
+#~ msgstr "ଜ୍ଞାନୀ"
+
+#~ msgid "Entity"
+#~ msgstr "ଅସ୍ତିତ୍ବ"
+
+#~ msgid "Creator"
+#~ msgstr "ସୃଷ୍ଟିକର୍ତ୍ତା"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ ସମାଜ (ଦ୍ରୁତ)"
+
+#~ msgid "Local developer server"
+#~ msgstr "ସ୍ଥାନୀଯବିକାଶକର୍ତ୍ତା ସରଭର"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "ଏହି ପ୍ରଥମ ଥର ଆପଣ GTK+ GGZ ଖେଳିବା ପ୍ରାନ୍ତ ଗ୍ରାହକ ଚଳାଉଛନ୍ତି ୤ ଆପଣ କେତେକ ଡିଫଲ୍ଟ ସରଭର "
+#~ "ପ୍ରୋଫାଇଲ ସୃଷ୍ଟି କରିବାକୁ ଚାହିଁବେ କି ?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <ଉପୟୋଗକର୍ତ୍ତାନାମ> <ସଂଦେଶ>  ୤  ବ୍ଯକ୍ତିଗତ ସଂଦେଶ ଜଣେ ଖେଳାଳୀ"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/ଟେବୁଲ <ସଂଦେଶ> ..........ଆପଣଙ୍କର ଟେବୁଲକୁ ସଂଦେଶ"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/ଉଆଲ <ସଂଦେଶ> ........... ପ୍ରଶାସକ ଆଦେଶ"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/ବିପ୍ <ଉପୟୋଗକର୍ତ୍ତାନାମ> .......... ଜଣେ ଖେଳାଳୀକୁ ବିପ୍ କର"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/ସାହାୟ୍ଯ ..................... ସାହାୟ୍ଯ ପ୍ରାପ୍ତ କର"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/ସାଙ୍ଗମାନେ .................. ଆପଣଙ୍କର ସାଙ୍ଗମାନଙ୍କୁ ତାଲିକାଭୂକ୍ତକର"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ଅବହେଳାକର................... ଆପଣ ଅବହେଳା କରୁଥିବା ଲୋକଙ୍କୁ ତାଲକାଭୂକ୍ତ କର"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr ""
+#~ "/ଧକ୍କାଦିଅ <ଉପୟୋଗକର୍ତ୍ତାନାମ> .......... କକ୍ଷରୁ ଜଣେ ଖେଳାଳୀଙ୍କୁ ଧକ୍କାଦେଇ ବାହାର କର"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr ""
+#~ "/ମୁହଁବନ୍ଦକର <ଉପୟୋଗକର୍ତ୍ତାନାମ> ........... ଜଣେ ଖେଳାଳୀଙ୍କର ମୁହଁବନ୍ଦ କର ସେମାନଙ୍କୁ "
+#~ "କଥାହେବାରୁ ବାଧା ଦେବା ପାଇଁ"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ମୁହଁଖୋଲ <ଉପୟୋଗକର୍ତ୍ତାନାମ> ......... ଜଣେ ଖେଳାଳୀଙ୍କୁ କଥା ହେବାକୁ ସ୍ବୀକୃତି ଦେବା ପାଇଁ "
+#~ "ମୁହଁବନ୍ଦ କାର୍ୟ୍ଯକୁ ବିପରୀତ କର"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ନିଷେଧକର <ଉପୟୋଗକର୍ତ୍ତାନାମ> ........... ସରଭରରୁ ଜଣେ ଖେଳାଳୀଙ୍କୁ ନିଷେଧକର"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr " %s ଠାରୁ ଆପଣ ଏକ ଅଜ୍ଞାତ ସଂଦେଶ ପ୍ରାପ୍ତ କରିଛନ୍ତି "
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "%s ଦ୍ବାରା ଆପଣ ବିପ୍ ହୋଇଛନ୍ତି"
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "ଉପୟୋଗୀତା: /msg <ଉପୟୋଗକର୍ତ୍ତାନାମ> <ସଂଦେଶ>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "ନେଟବାର୍କରେ ଜଣେ ଉପୟୋଗକର୍ତ୍ତାକୁ ଏକ ବ୍ଯକ୍ତିଗତ ସଂଦେଶ ପଠାଏ ୤"
+
+#~ msgid "Beep sent to %s."
+#~ msgstr " %sକୁ ବିପ୍ ପଠାଗଲା"
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (ଲଗଅନ ହେଲା)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (ଲଗ ଅଫ ହେଲା)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "ଚାଟ ଆଦେଶଗୁଡିକ"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <କାର୍ୟ୍ଯ> .............. ଗୋଟିଏ କାର୍ୟ୍ଯ ପଠାଅ"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "ଆପଣଙ୍କର ବନ୍ଧୁ ତାଲିକାରେ %s ୟୋଗ ହେଲା"
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "ଆପଣଙ୍କର ବନ୍ଧୁ ତାଲିକାରୁ %s ହଟେଇ ଦିଆଗଲା ୤"
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "ଆପଣଙ୍କର ଅବହେଳା ତାଲିକାରେ %s ୟୋଗ ହେଲା ୤"
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "ଆପଣଙ୍କର ଅବହେଳା ତାଲିକାରୁ %s ହଟେଇ ଦିଆଗଲା ୤"
+
+#~ msgid "People currently your friends"
+#~ msgstr "ବର୍ତ୍ତମାନ ଲୋକ ଆପଣଙ୍କର ବନ୍ଧୁ ଅଟନ୍ତି "
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "ବର୍ତ୍ତମାନ ଆପଣ ଅବହେଳା କରୁଥିବା ଲୋକମାନେ "
+
+#~ msgid "Multiple matches:"
+#~ msgstr "ବହୁଗୁଣ ମେଳଗୁଡିକ:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "ଆପଣଙ୍କ ପାଖରେ ଏହି ଖେଳ ପ୍ରତିଷ୍ଠାପିତ ହୋଇନାହିଁ ୤ ଆପଣ ଏହାକୁ\n"
+#~ " %s ଠାରୁ ଡାଉନଲୋଡ କରିପାରିବେ ୤"
+
+#~ msgid "Launch Error"
+#~ msgstr "ପ୍ରାରମ୍ଭ କରିବାରେ ତ୍ରୁଟି"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "ଖେଳ ମୋଡ୍ଯୁଲକୁ କାର୍ୟ୍ଯକାରୀ କରିବାରେ ବିଫଳ ହେଲା ୤\n"
+#~ "ପ୍ରାରମ୍ଭ କରିବା ନିଷ୍ଫଳ ହେଲା"
+
+#~ msgid "Launched game"
+#~ msgstr "ପ୍ରାରମ୍ଭ ହୋଇଥିବା ଖେଳ"
+
+#~ msgid "Launch failed"
+#~ msgstr "ପ୍ରାରମ୍ଭ କରିବା ବିଫଳହେଲା"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "ଆପଣ ଏକ ସମଯରେ କେବଳ ଗୋଟିଏ ଖେଳ  ଖେଳିପାରିବେ ୤"
+
+#~ msgid "Game Error"
+#~ msgstr "ଖେଳ ତ୍ରୁଟି"
+
+#~ msgid "You're still at a table."
+#~ msgstr "ଆପଣ ଏବେ ବି ଗୋଟିଏ ଟେବୁଲରେ ଅଛନ୍ତି"
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "ଗୋଟିଏ ଖେଳକୁ ପ୍ରାରମ୍ଭ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଗୋଟିଏ କକ୍ଷରେ ହେବା ଆବଶ୍ଯକ ୤\n"
+#~ "ପ୍ରାରମ୍ଭ କରିବା ନିଷ୍ଫଳହେଲା"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "ଏହି ସରଭର ନିମନ୍ତେ କୌଣସି ଖେଳ ପ୍ରକାର ବ୍ୟାଖ୍ୟା ହୋଇନ ଥିଲା ୤ \n"
+#~ "ପ୍ରାରମ୍ଭ କରିବା ନିଷ୍ଫଳ ହେଲା ୤"
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "ଖେଳ ବିଭାଜକଗୁଡିକୁ ସମର୍ଥନ କରେ ନାହିଁ ୤"
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "ଏହି ଖେଳକୁ ଖେଳିବା ପାଇଁ ଆପଣଙ୍କୁ ସିଧା GGZ \n"
+#~ "ଗ୍ରାହକ ପ୍ରାରମ୍ଭ କରିବାକୁ ହେବ ୤"
+
+#~ msgid "About"
+#~ msgstr "ବିବରଣୀ"
+
+#~ msgid "Message of the Day"
+#~ msgstr "ଆଜି ଦିନର ସଂଦେଶ"
+
+#~ msgid "None"
+#~ msgstr "କିଛି ନୁହେଁ"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "କକ୍ଷ ଫିଲ୍ଟର କରିବା ଏୟାଏଁ କାର୍ୟ୍ଯକାରୀ ହୋଇ ନାହିଁ ୤\n"
+#~ "ଆପଣ ୟଦି ସାହାୟ୍ଯ କରିବାକୁ ଚାହାଁନ୍ତି ତେବେ\n"
+#~ "http://www.ggzgamingzone.org/ କୁ ୟାଆନ୍ତୁ ୤"
+
+#~ msgid "Not Implemented"
+#~ msgstr "କାର୍ଯ୍ୟକାରୀ ହୋଇ ନାହିଁ"
+
+#~ msgid "Description"
+#~ msgstr "ବର୍ଣ୍ଣନା"
+
+#~ msgid "Web Address"
+#~ msgstr "ଉଏବ ଠିକଣା"
+
+#~ msgid "Author"
+#~ msgstr "ଲେଖକ"
+
+#~ msgid "Game Types"
+#~ msgstr "ଖେଳ ପ୍ରକାର"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "କକ୍ଷ ତାଲିକା ଫିଲ୍ଟର :"
+
+#~ msgid "Set"
+#~ msgstr "ସେଟକର"
+
+#~ msgid "Player Information"
+#~ msgstr "ଖେଳାଳୀ ସୂଚନା"
+
+#~ msgid "Player Handle:"
+#~ msgstr "ଖେଳାଳୀ ପରିଚାଳନା:"
+
+#~ msgid "Table:"
+#~ msgstr "ଟେବୁଲ:"
+
+#~ msgid "Account:"
+#~ msgstr "ଆକାଉଣ୍ଟ:"
+
+#~ msgid "Record:"
+#~ msgstr "ଅଭିଲେଖ:"
+
+#~ msgid "Rating:"
+#~ msgstr "ମୂଲ୍ଯାଙ୍କନ କରିବା :"
+
+#~ msgid "Rank:"
+#~ msgstr "ରାଙ୍କ:"
+
+#~ msgid "Message:"
+#~ msgstr "ସଂଦେଶ:"
+
+#~ msgid "Unknown"
+#~ msgstr "ଅଜଣା"
+
+#~ msgid "Registered"
+#~ msgstr "ପଞ୍ଜିକୃତହେଲା"
+
+#~ msgid "Guest"
+#~ msgstr "ଅତିଥି"
+
+#~ msgid "Host"
+#~ msgstr "ଆଧାର"
+
+#~ msgid "Administrator"
+#~ msgstr "ପ୍ରଶାସକ"
+
+#~ msgid "Friends"
+#~ msgstr "ବନ୍ଧୁମାନେ"
+
+#~ msgid "Ignore"
+#~ msgstr "ଆଗ୍ରହ୍ଯ କରିଦିଅନ୍ତୁ"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Stats"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "ଏହି ଖେଳ ଖେଳିବାକୁ କୋଉ ଗ୍ରାହକ ଆପଣ ଉପୟୋଗ କରିବାକୁ ଚାହିଁବେ ?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "ମୋତେ ପୁଣିଥରେ ପଚାର ନାହିଁ"
+
+#~ msgid "Join"
+#~ msgstr "ୟୋଗଦିଅ"
+
+#~ msgid "Leave"
+#~ msgstr "ତ୍ୟାଗକରନ୍ତୁ"
+
+#~ msgid "No description available."
+#~ msgstr "କୌଣସି ବର୍ଣ୍ଣନା ଉପଲବ୍ଧ ନାହିଁ।"
+
+#~ msgid "Seats"
+#~ msgstr "ସ୍ଥାନଗୁଡିକ"
+
+#~ msgid "Room Information"
+#~ msgstr "କକ୍ଷ ସୂଚନା"
+
+#~ msgid "Game Name:"
+#~ msgstr "ଖେଳ ନାମ:"
+
+#~ msgid "Author:"
+#~ msgstr "ଲେଖକ:"
+
+#~ msgid "Homepage:"
+#~ msgstr "ମୂଖ୍ୟ ପୃଷ୍ଠା:"
+
+#~ msgid "Room Description:"
+#~ msgstr "କକ୍ଷ ବର୍ଣ୍ଣନା:"
+
+#~ msgid "This room has no game"
+#~ msgstr "ଏହି କକ୍ଷରେ କୌଣସି ଖେଳ ନାହିଁ"
+
+#~ msgid "Unknown room"
+#~ msgstr "ଅଜ୍ଞାତ କକ୍ଷ"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "ଆପଣ ଗୋଟିଏ କକ୍ଷରେ ୟୋଗ ଦେଇପାରିବେ ନାହିଁ; ଆପଣ ଲଗ-ଇନ ହୋଇ ନହାଁନ୍ତି "
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "ଆପଣ ପୂର୍ବରୁ କକ୍ଷଗୁଡିକ ମଧ୍ଯରେ ଅଛନ୍ତି"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "ଆପଣ ଗୋଟିଏ ଖେଳ ଖେଳିବା ସମଯରେ କକ୍ଷଗୁଡିକ ମଧ୍ଯରେ ଅଦଳବଦଳ କରିପାରିବେ ନାହିଁ "
+
+#~ msgid "Unknown error"
+#~ msgstr "ଅଜଣା ତ୍ରୁଟି"
+
+#~ msgid "Error joining room"
+#~ msgstr "କକ୍ଷରେ ୟୋଗ ଦେବାରେ ତ୍ରୁଟି"
+
+#~ msgid "Other Rooms"
+#~ msgstr "ଅନ୍ଯ କକ୍ଷଗୁଡିକ"
+
+#~ msgid "Room"
+#~ msgstr "କକ୍ଷ"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "ଖେଳ ପ୍ରକାର:  %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "ଲେଖକ:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "ବର୍ଣ୍ଣନା:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "ହୋମ ପୃଷ୍ଠା:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "ଟେବୁଲ ପ୍ରାରମ୍ଭ କରିବା ପାଇଁ ବିଫଳ ହେଲା\n"
+#~ " ପ୍ରାରମ୍ଭ କରିବା ନିଷ୍ଫଳ ହେଲା ୤"
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "ବୋଟଗୁଡିକର ଅମାନ୍ଯ ସଂଖ୍ଯା ନିର୍ଦ୍ଦିଷ୍ଟ ହେଲା"
+
+#~ msgid "Error launching game module."
+#~ msgstr "ଖେଳ ମୋଡ୍ଯୁଲ ପ୍ରାରମ୍ଭ କରିବାରେ ତ୍ରୁଟି"
+
+#~ msgid "Seat Assignments"
+#~ msgstr "ସ୍ଥାନ ହସ୍ତାନ୍ତରଣଗୁଡିକ"
+
+#~ msgid "Game Type:"
+#~ msgstr "ଖେଳ ପ୍ରକାର:"
+
+#~ msgid "Number of seats"
+#~ msgstr "ସ୍ଥାନଗୁଡିକର ସଂଖ୍ଯା"
+
+#~ msgid "Description:"
+#~ msgstr "ବର୍ଣ୍ଣନା:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "ସ୍ଥାନ %d:"
+
+#~ msgid "Computer"
+#~ msgstr "କମ୍ପୁଟର"
+
+#~ msgid "Open"
+#~ msgstr "ଖୋଲନ୍ତୁ"
+
+#~ msgid "Reserved for"
+#~ msgstr "ପାଇଁ ସଂରକ୍ଷିତ"
+
+#~ msgid "Game Description   "
+#~ msgstr "ଖେଳ ବର୍ଣ୍ଣନା"
+
+#~ msgid "Launch"
+#~ msgstr "ପ୍ରାରମ୍ଭ କର"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "ଆପଣ ଛାଡିୟିବାକୁ ଚାହାଁନ୍ତି, ନିଶ୍ଚିତ କି?"
+
+#~ msgid "Quit?"
+#~ msgstr "ଛାଡିୟାଅ ?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "ସରଭର ସ୍ଥାନଗୁଡିକ ଏୟାଏଁ କାର୍ୟ୍ଯକାରୀ ହୋଇନାହିଁ ୤ ୟଦି ଆପଣ\n"
+#~ "ସାହାୟ୍ଯ କରିବାକୁ ଚାହାଁନ୍ତି ତେବେ\n"
+#~ "http://www.ggzgamingzone.org/କୁ ୟାଆନ୍ତୁ ୤"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "ଖେଳାଳୀ ସ୍ଥାନ ଗୁଡିକ ଏୟାଏଁ କାର୍ୟ୍ଯକାରୀ ହୋଇନାହିଁ ୤ ୟଦି\n"
+#~ "ଆପଣ ସାହାୟ୍ଯ କରିବାକୁ ଚାହାଁନ୍ତି ତେବେ\n"
+#~ "http://www.ggzgamingzone.org/କୁ ୟାଆନ୍ତୁ ୤"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "ଆପଣ ଗୋଟିଏ ଟେବୁଲରେ ୟୋଗ ଦେଇପାରିବା ପୂର୍ବରୁ ସେହି ଟେବୁଲକୁ ହାଇଲାଇଟ କରିବା ଆବଶ୍ଯକ ୤"
+
+#~ msgid "Error Joining"
+#~ msgstr "ୟୋଗ ଦେବାରେ ତ୍ରୁଟି"
+
+#~ msgid "That table is full."
+#~ msgstr "ସେହି ଟେବୁଲ ପୂର୍ଣ୍ଣ ଅଛି"
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "ଆପଣ ଗୋଟିଏ ଟେବୁଲକୁ ଦେଖିପାରିବା ପୂର୍ବରୁ ତାହାକୁ ହାଇଲାଇଟ କରିବା ଆବଶ୍ଯକ ୤"
+
+#~ msgid "Error Spectating"
+#~ msgstr "ଦେଖିବାରେ ତ୍ରୁଟି"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "ଟେବୁଲରେ ୟୋଗ ଦେବାକୁ ବିଫଳ ହେଲା ୤\n"
+#~ "ୟୋଗ ଦେବା ନିଷ୍ଫଳ ହେଲା ୤"
+
+#~ msgid "Join Error"
+#~ msgstr "ୟୋଗଦେବା ତ୍ରୁଟି"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "GGZ ଖେଳ ପ୍ରାନ୍ତ ସରଭରରୁ ସଂୟୋଗ ଛିନ୍ନ କର"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "ଗୋଟିଏ ନୂଆ ଟେବୁଲରେ ଖେଳ ଖେଳିବା ଆରମ୍ଭ କର"
+
+#~ msgid "Join an existing game"
+#~ msgstr "ଗୋଟିଏ ବିଦ୍ଯମାନ ଖେଳରେ ୟୋଗ ଦିଅ"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "ଗୋଟିଏ ବିଦ୍ଯମାନ ଖେଳକୁ ଦେଖ -ଟେବୁଲର ଜଣେ ଦର୍ଶକ ହୁଅ"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "ଆପଣ ବର୍ତ୍ତମାନ ଖେଳୁଥିବା ଖେଳ ଛାଡିୟାଆନ୍ତୁ "
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "ଗ୍ରାହକ ସେଟିଙ୍ଗଗୁଡିକୁ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ବିଶେଷତାଗୁଡିକ ଡାଏଲଗକୁ ଦେଖାଅ"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "ଚଳିତ କକ୍ଷର ଖେଳ ପ୍ରକାର ପାଇଁ ଖେଳ ଆରମ୍ଭକୁ ଦର୍ଶାଅ"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr " GGZ ଗ୍ରାହକ ପ୍ରଯୋଗରୁ ପ୍ରସ୍ଥାନ କର"
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "ଡିବଗ୍ କରିବା ସହିତ ସଂକଳିତହେଲା"
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "ସଂଯୋଗ ବିଚ୍ଛିନ୍ନ ହୋଇଛି"
+
+#~ msgid "Quit"
+#~ msgstr "ବିଦାୟ ନିଅନ୍ତୁ"
+
+#~ msgid "Watch"
+#~ msgstr "ନିରୀକ୍ଷଣ"
+
+#~ msgid "Edit"
+#~ msgstr "ସମ୍ପାଦନ କରନ୍ତୁ"
+
+#~ msgid "Properties"
+#~ msgstr "ବିଶେଷତାଗୁଡିକ"
+
+#~ msgid "View"
+#~ msgstr "ଦୃଶ୍ଯ"
+
+#~ msgid "Room List"
+#~ msgstr "କକ୍ଷତାଲିକା"
+
+#~ msgid "Server Stats"
+#~ msgstr "ସରଭର ସ୍ଟାଟସ"
+
+#~ msgid "Player Stats"
+#~ msgstr "ଖେଳାଳୀ ସ୍ଟାଟସ"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "ସହାୟତା"
+
+#~| msgid "_Contents"
+#~ msgid "Contents"
+#~ msgstr "ସୂଚୀପତ୍ରଗୁଡିକ"
+
+#~ msgid "Send"
+#~ msgstr "ପଠାନ୍ତୁ"
+
+#~ msgid "Properties Updated"
+#~ msgstr "ବିଶେଷତାଗୁଡିକ ଅପଡେଟହେଲା"
+
+#~ msgid "Confirm:"
+#~ msgstr "ନିଶ୍ଚିତ କରନ୍ତୁ:"
+
+#~ msgid "Modify"
+#~ msgstr "ପରିବର୍ତ୍ତନ କର"
+
+#~ msgid "Servers"
+#~ msgstr "ସେବକ ମାନେ"
+
+#~ msgid "Chat Font:"
+#~ msgstr "ଚାଟ ଫଣ୍ଟ:"
+
+#~ msgid "Change"
+#~ msgstr "ପରିବର୍ତ୍ତନକରନ୍ତୁ"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "ୟୋଗଦେବା ଅବହେଳା କର/ସଂଦେଶଗୁଡିକ ଭାଗ"
+
+#~ msgid "Play Sounds"
+#~ msgstr "ଧ୍ବନୀ ବଜାଅ"
+
+#~ msgid "Auto Indent"
+#~ msgstr "ସ୍ବଯଂଚାଳିତ ଇଣ୍ଡେଣ୍ଟ"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "ସମଯଷ୍ଟାମ୍ପ ଚାଟଗୁଡିକ"
+
+#~ msgid "Word Wrap"
+#~ msgstr "ଶବ୍ଦଆବୃତ"
+
+#~ msgid "Chat Color"
+#~ msgstr "ଚାଟ ରଙ୍ଗ"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "ଆପଣଙ୍କର ବନ୍ଧୁମାନଙ୍କୁ ଦିଆୟାଇଥିବା ଡିଫଲ୍ଟ ଚାଟ ରଙ୍ଗ "
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "ୟେବେ ଆପଣଙ୍କର ନାମ ଟାଇପ ହେଲା ଚାଟ ରଙ୍ଗ ଉପୟୋଗ ହେଲା"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "ଅନ୍ଯ ସବୁ ଚାଟଗୁଡିକ ପାଇଁ ଚାଟ ରଙ୍ଗ ଉପୟୋଗ ହେଲା"
+
+#~ msgid "Normal Color"
+#~ msgstr "ସାମାନ୍ଯରଙ୍ଗ"
+
+#~ msgid "Highlight Color"
+#~ msgstr "ହାଇଲାଇଟ ରଙ୍ଗ"
+
+#~ msgid "Friend Color"
+#~ msgstr "ବନ୍ଧୁ ରଙ୍ଗ"
+
+#~ msgid "Black Background"
+#~ msgstr "କଳା ପୃଷ୍ଠଭୂମି"
+
+#~ msgid "White Background"
+#~ msgstr "ଧଳା ପୃଷ୍ଠଭୂମି ରଙ୍ଗ"
+
+#~ msgid "Chat"
+#~ msgstr "ଚାଟ"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "ନିମ୍ନଲିଖିତ ସମସ୍ତ ସୂଚନା ବୈକଳ୍ପିକ ଅଟେ ୤"
+
+#~ msgid "Name:"
+#~ msgstr "ନାମ:"
+
+#~ msgid "City:"
+#~ msgstr "ମହାନଗର:"
+
+#~ msgid "State:"
+#~ msgstr "ସ୍ଥିତି:"
+
+#~ msgid "Country:"
+#~ msgstr "ଦେଶ:"
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "ଏକାମାତ୍ର କ୍ଲିକ କକ୍ଷ ପ୍ରବେଶ"
+
+#~ msgid "Display All"
+#~ msgstr "ସବୁ ପ୍ରଦର୍ଶନ କର"
+
+#~ msgid "Display New"
+#~ msgstr "ନୂଆ ପ୍ରଦର୍ଶନ କର"
+
+#~ msgid "Display Important"
+#~ msgstr "ମହତ୍ବପୂର୍ଣ୍ଣ ପ୍ରଦର୍ଶନ କର"
+
+#~ msgid "Display None"
+#~ msgstr "କିଛି ବି ପ୍ରଦର୍ଶନ କରନାହିଁ"
+
+#~ msgid "Options"
+#~ msgstr "ବିକଲ୍ପ"
+
+#~ msgid "Select Font"
+#~ msgstr "ଅକ୍ଷରରୂପ ଚୟନ କରନ୍ତୁ"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: ବିକଳ୍ପ `%s' ଅସ୍ପଷ୍ଟ ଅଟେ\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: ବିକଳ୍ପ `--%s' ଗୋଟିଏ ୟୁକ୍ତିକୁ ସ୍ବୀକୃତି ଦିଏ ନାହିଁ \n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: ବିକଳ୍ପ`%c%s' ଗୋଟିଏ ୟୁକ୍ତିକୁ ସ୍ବୀକୃତି ଦିଏ ନାହିଁ \n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: ବିକଳ୍ପ `%s' ଗୋଟିଏ ୟୁକ୍ତି ଆବଶ୍ଯକ କରେ\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: ଅଚିହ୍ନିତ ବିକଳ୍ପ `--%s'\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: ଅଚିହ୍ନିତ ବିକଳ୍ପ `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: ଅବୌଧ ବିକଳ୍ପ -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: ଅମାନ୍ଯ ବିକଳ୍ପ -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: ବିକଳ୍ପ ଗୋଟିଏ ୟୁକ୍ତି ଆବଶ୍ଯକ କରେ -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s:ବିକଳ୍ପ `-W %s' ଅସ୍ପଷ୍ଟ ଅଟେ\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: ବିକଳ୍ପ `-W %s' ଗୋଟିଏ ୟୁକ୍ତିକୁ ସ୍ବୀକୃତି ଦିଏ ନାହିଁ\n"
+
+#, fuzzy
+#~| msgid "Leave fullscreen mode"
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "ସମ୍ପୂର୍ଣ୍ଣ ପରଦା ଅବସ୍ଥାକୁ ଛାଡନ୍ତୁ"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁକ୍କାୟିତ କରନ୍ତୁ"
+
+#~ msgid "The height of the window"
+#~ msgstr "ଉଇଣ୍ଡୋର ଉଚ୍ଚତା"
+
+#~ msgid "The width of the window"
+#~ msgstr "ଉଇଣ୍ଡୋର ଓସାର"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "ଚେସ ଖେଳକୁ ସଂରକ୍ଷଣ କରନ୍ତୁ"
+
+#~ msgid "Communication:"
+#~ msgstr "ଯୋଗଯୋଗ:"
+
+#~ msgid "Executable:"
+#~ msgstr "ନିଷ୍ପାଦନଯୋଗ୍ୟ:"
+
+#~ msgid "Playing as:"
+#~ msgstr "ପରି ଖେଳୁଅଛି:"
+
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>ସର୍ଭର</b>"
+
+#~ msgid "Add Account"
+#~ msgstr "ଆକାଉଣ୍ଟ ୟୋଗ କର"
+
+#~ msgid "Join Game"
+#~ msgstr "ଖେଳରେ ୟୋଗଦିଅନ୍ତୁ"
+
+#~ msgid "User _Name:"
+#~ msgstr "ଚାଳକ ନାମ (_N):"
+
+#~ msgid "_Host:"
+#~ msgstr "ଆଧାର (_H):"
+
+#~ msgid "_Join"
+#~ msgstr "ଯୋଗଦାନ କରନ୍ତୁ (_J)"
+
+#~ msgid "_Leave"
+#~ msgstr "ତ୍ୟାଗ କରନ୍ତୁ (_L)"
+
+#~ msgid "_Port:"
+#~ msgstr "ସଂଯୋଗିକୀ (_P):"
+
+#~ msgid "_Profile:"
+#~ msgstr "ରୂପରେଖ (_P):"
+
+#~ msgid "_Server:"
+#~ msgstr "ସର୍ଭର (_S):"
+
+#~ msgid "Preferences"
+#~ msgstr "ପସନ୍ଦ"
+
+#~ msgid "Show _History"
+#~ msgstr "ପୁରୁଣା ତଥ୍ୟ ଦର୍ଶାନ୍ତୁ (_H)"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "ସାଧନ ପଟିକୁ ପ୍ରଦର୍ଶନ କରନ୍ତୁ (_T)"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁକ୍କାୟିତ କରନ୍ତୁ"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁକ୍କାୟିତ କରନ୍ତୁ"
+
+#, fuzzy
+#~| msgid "_Move"
+#~ msgid "_Move Hints"
+#~ msgstr "ଘୁଞ୍ଚାନ୍ତୁ (_M)"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "ଚେସ ଖେଳ ଲୋଡ କର"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "ପୂର୍ଣ୍ଣ ପରଦା ଛାଡ଼ନ୍ତୁ (_F)"
+
+#~ msgid "Load a saved game"
+#~ msgstr "ଗୋଟିଏ ସଂଚିତ ଖେଳକୁ ଧାରଣ କରନ୍ତୁ"
+
+#, fuzzy
+#~ msgid "Rewind to the game start"
+#~ msgstr "ଖେଳର ଆରମ୍ଭ ପର୍ୟ୍ଯନ୍ତ ରିବାଇଣ୍ଡକର"
+
+#, fuzzy
+#~ msgid "Save the current game"
+#~ msgstr "ଚଳିତ ଖେଳକୁ ସଂଚଯ କର"
+
+#, fuzzy
+#~ msgid "Show _Logs"
+#~ msgstr "ସାଧନ ପଟିକୁ ଦେଖାନ୍ତୁ"
+
+#, fuzzy
+#~ msgid "Show the current move"
+#~ msgstr "ଚଳିତ ଘୁଞ୍ଚାଇବାକୁ ଦେଖାଅ"
+
+#, fuzzy
+#~ msgid "Show the next move"
+#~ msgstr "ପରବର୍ତ୍ତୀ ଚାଲକୁ ଦେଖାଅ"
+
+#, fuzzy
+#~ msgid "Show the previous move"
+#~ msgstr "ପୂର୍ବବର୍ତ୍ତୀ ଘୁଞ୍ଚାଇବା ଦେଖାଅ"
+
+#, fuzzy
+#~| msgid "_Undo Move"
+#~ msgid "Undo Move"
+#~ msgstr "ପଦକ୍ଷେପକୁ ବାତିଲ କରନ୍ତୁ (_U)"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>ଅସୁବିଧା</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>ଖେଳ ବିଶେଷତାଗୁଡିକ</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>ଖେଳଳୀମାନେ</b>"
+
+#, fuzzy
+#~ msgid "B_lack:"
+#~ msgstr "କ_ଳା:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "ଏହି ଖେଳ ପାଇଁ ଶୀର୍ଷକ ପ୍ରବିଷ୍ଟ କର"
+
+#, fuzzy
+#~| msgid "Time:"
+#~ msgid "Move _Time:"
+#~ msgstr "ଚାଲ ଚଳେଇବା _ସମଯ:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr "ଖେଳ ଆରମ୍ଭ କର ୤ ଥରେ ସବୁ କ୍ଷେତ୍ର ଗୁଡିକ ସଂପୂର୍ଣ୍ଣ ହେବା ପରେ ଖେଳ ଆରମ୍ଭ ହୋଇପାରିବ ୤"
+
+#~ msgid "W_hite:"
+#~ msgstr "ଧ_ଳା:"
+
+#, fuzzy
+#~ msgid "_Black:"
+#~ msgstr "_କଳା:"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "_ଖେଳ ନାମ:"
+
+#, fuzzy
+#~ msgid "_Start"
+#~ msgstr "_ଆରମ୍ଭ କର"
+
+#~ msgid "_White:"
+#~ msgstr "_ଧଳା:"
+
+#~ msgid "Chess"
+#~ msgstr "ଚେସ"
+
+#~ msgid "Unlimited"
+#~ msgstr "ଅସୀମିତ"
+
+#~ msgid "One minute"
+#~ msgstr "ଗୋଟିଏ ମିନିଟ"
+
+#~ msgid "Five minutes"
+#~ msgstr "ପାଞ୍ଚ ମିନିଟ"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 ମିନିଟ"
+
+#~ msgid "One hour"
+#~ msgstr "ଗୋଟିଏ ଘଣ୍ଟା"
+
+#~ msgid "Custom"
+#~ msgstr "ଇଚ୍ଛାରୂପଣ"
+
+#~ msgid "seconds"
+#~ msgstr "ସେକେଣ୍ଡ"
+
+#, fuzzy
+#~ msgid "minutes"
+#~ msgstr "ମିନିଟ"
+
+#~ msgid "hours"
+#~ msgstr "ଘଣ୍ଟା"
+
+#~ msgid "Easy"
+#~ msgstr "ସହଜ"
+
+#~ msgid "Normal"
+#~ msgstr "ସାଧାରଣ"
+
+#~ msgid "Hard"
+#~ msgstr "କଠିନ"
+
+#~ msgid "White"
+#~ msgstr "ଧଳା"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "କଳା"
+
+#~ msgid "All files"
+#~ msgstr "ସମସ୍ତ ଫାଇଲ"
+
+#, fuzzy
+#~ msgid "Unabled to save game"
+#~ msgstr "ଗୋଟିଏ ନୂତନ ଖେଳ ଆରମ୍ଭ କରନ୍ତୁ"
+
+#~ msgid "Human"
+#~ msgstr "ମଣିଷ"
+
+#, fuzzy
+#~ msgid "Black Side"
+#~ msgstr "ଘଣ୍ଟା"
+
+#~ msgid "Game Start"
+#~ msgstr "ଖେଳ ଆରମ୍ଭ"
+
+#, fuzzy
+#~ msgid "No comment"
+#~ msgstr "ସମାପ୍ତ"
+
+#, fuzzy
+#~ msgid "Game is drawn"
+#~ msgstr "ଖେଳ (_G)"
+
+#, fuzzy
+#~ msgid "Disconnected"
+#~ msgstr "ଅସଂଯୋଜିତ"
+
+#~ msgid "New profile..."
+#~ msgstr "ନୂଆ ପ୍ରୋଫାଇଲ୍‌..."
+
+#, fuzzy
+#~ msgid "Table"
+#~ msgstr "ଟେବୁଲ"
+
+#, fuzzy
+#~ msgid "Seat"
+#~ msgstr "ଅବସ୍ଥିତି"
+
+#~ msgid "Player"
+#~ msgstr "ଖେଳାଳୀ"
+
+#~ msgid "glChess"
+#~ msgstr "glଚେସ"
+
+#~| msgid ""
+#~| "%s is free software; you can redistribute it and/or modify it under the "
+#~| "terms of the GNU General Public License as published by the Free "
+#~| "Software Foundation; either version 2 of the License, or (at your "
+#~| "option) any later version."
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%sଏକ ମୁକ୍ତ ସଫର୍ଟବେଯାର ଅଟେ; GNU ସାଧାରଣ ସର୍ବଜନୀନ ଲାଇସେନ୍ସ ଅଧିନରେ ଥିବା ସର୍ତ୍ତ ଗୁଡିକ "
+#~ "ଅନୁସାରେ ମୁକ୍ତ ସଫ୍ଟବେଯାର ଫାଉଣ୍ଡେସନ ଦ୍ବାରା ପ୍ରକାଶିତ ହୋଇଥିବା ପରି ଆପଣ ଏହାକୁ ପୁନଃ ବିତରଣ/"
+#~ "କିମ୍ବା ପରିବର୍ତ୍ତନ  କରିପାରିବେ ; ଲାଇସେନସ୍ ର ଭାଷାନ୍ତର  2 ,କିମ୍ବା (ଆପଣଙ୍କର ବିକଳ୍ପ ଅନୁସାରେ) "
+#~ "କୌଣସି ପରବର୍ତ୍ତୀ ଭାଷାନ୍ତରକୁ ମଧ୍ଯ କରିପାରିବେ ୤"
+
+#~ msgid "Incorrect password"
+#~ msgstr "ଅଶୁଦ୍ଧ ଗୁପ୍ତଶବ୍ଦ"
+
+#, fuzzy
+#~ msgid "No description"
+#~ msgstr "କୌଣସି ବର୍ଣ୍ଣନା ନାହିଁ"
+
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "ଛୋଟ"
+
+#, fuzzy
+#~| msgid "Medium"
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "ମଧ୍ଯମ"
+
+#, fuzzy
+#~| msgid "Large"
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "ବଡ"
+
+#~ msgid "Could not load theme"
+#~ msgstr "ଥିମ ଲୋଡ କରିପାରିଲା ନାହିଁ"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "ଫାଇଲର ସ୍ଥାନ ନିର୍ଧାରଣ କରିବାକୁ ଅସମର୍ଥ:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ପରିବର୍ତ୍ତେ ଡିଫଲ୍ଟ ଥିମ ଲୋଡ ହୋଇୟିବ ୤"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "ଫାଇଲର ସ୍ଥାନ ନିର୍ଧାରଣ କରିବାକୁ ଅସମର୍ଥ:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ଦଯାକରି ୟାଞ୍ଚ କରନ୍ତୁ ୟେ ପାଞ୍ଚଟି କିମ୍ବା ଅଧିକ ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଅଛି ୤"
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "ସ୍କୋର କରିବା ପାଇଁ ଗୋଟିଏ ଧାଡିରେ ସମାନ ପ୍ରକାରର ପାଞ୍ଚଟି ବସ୍ତୁକୁ ମେଳକର !"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME ପାଞ୍ଚ କିମ୍ବା ଆଧିକ"
+
+#~ msgid "Game Over!"
+#~ msgstr "ଖେଳ ଶେଷ !"
+
+#~ msgid "You can't move there!"
+#~ msgstr "ଆପଣ ସେଠିକୁ ଘୁଞ୍ଚିପାରିବେ ନାହିଁ !"
+
+#~ msgid "Five or More"
+#~ msgstr "ପାଞ୍ଚ କିମ୍ବା ଅଧିକ"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "ପାଞ୍ଚ କିମ୍ବା ଅଧିକ ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Themes"
+#~ msgstr "ପ୍ରସଙ୍ଗ"
+
+#~ msgid "_Image:"
+#~ msgstr "ପ୍ରତିଛବି (_I):"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "ପୃଷ୍ଠ_ଭୂମି ରଙ୍ଗ:"
+
+#~ msgid "Board Size"
+#~ msgstr "ବୋର୍ଡ ଆକାର"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "ସାଧାରଣ"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "_ଦ୍ରୁତ ଘୁଞ୍ଚାଇବା ଉପୟୋଗ କର"
+
+#~ msgid "Next:"
+#~ msgstr "ପରବର୍ତ୍ତୀ :"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "ରେଖା ଗଠନ କରିବା ଦ୍ବାରା ବୋର୍ଡରୁ ରଙ୍ଗ ବଲଗୁଡିକୁ ହଟାଅ"
+
+#~ msgid "Background color"
+#~ msgstr "ପୃଷ୍ଠଭୂମି ରଙ୍ଗ"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "ପୃଷ୍ଠଭୂମି ରଙ୍ଗ ୤ ପୃଷ୍ଠଭୂମି ରଙ୍ଗର ହେକ୍ସ ବିଶେଷତା"
+
+#~ msgid "Ball style"
+#~ msgstr "ବଲ ଶୌଳୀ"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "ବଲ ଶୈଳୀ ୤ ବଲଗୁଡିକ ପାଇଁ ଉପୟୋଗ ହେବାକୁ ଥିବା ଚିତ୍ରଗୁଡିକର ଫାଇଲ ନାମ ୤"
+
+#~ msgid "Game field"
+#~ msgstr "ଖେଳ କ୍ଷେତ୍ର"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "ଶେଷ ଅଧିବେଶନରୁ ସଂଚିତ ଖେଳ କ୍ଷେତ୍ର ୤"
+
+#~ msgid "Game preview"
+#~ msgstr "ଖେଳ ପୂର୍ବଦୃଶ୍ଯ"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "ଶେଷ ସଂଚିତ ଅଧିବେଶନରୁ ଖେଳ ପୂର୍ବଦୃଶ୍ଯ"
+
+#~ msgid "Game score"
+#~ msgstr "ଖେଳର ସ୍କୋର"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "ଶେଷ ଅଧିବେଶନରୁ ସଂଚିତ ଖେଳର ସ୍କୋର"
+
+#~ msgid "Playing field size"
+#~ msgstr "ଖେଳିବା କ୍ଷେତ୍ର ଆକାର"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr "ଖେଳିବା କ୍ଷେତ୍ର ଆକାର 1=ଛୋଟ, 2=ମଧ୍ୟମ, 3=ବଡ ୤ ଅନ୍ଯ କୌଣସି ମୂଲ୍ଯ ଅମାନ୍ଯ ଅଟେ ୤ "
+
+#~ msgid "Time between moves"
+#~ msgstr "ଘୁଞ୍ଚାଇବା ମଧ୍ଯରେ ସମଯ"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "ଘୁଞ୍ଚାଇବା ମଧ୍ଯରେ ସମଯ ମିଲିସେକେଣ୍ଡରେ ୤"
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "ଚାରିଟି-ଗୋଟିଏ-ଧାଡି-ରେ"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "ଜିତିବା ପାଇଁ ସମାନ ରଙ୍ଗର ରେଖାଗୁଡିକୁ ତିଆରି କର"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "ପସନ୍ଦ ଥିମକୁ ନିଦ୍ଧିଷ୍ଟ କରିବା ପାଇଁ ସଂଖ୍ଯା"
+
+#~ msgid "Animate"
+#~ msgstr "ଚଳଚିତ୍ର"
+
+#~ msgid "Drop marble"
+#~ msgstr "ମାର୍ବଲ ପକାଅ"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "ଗୋଟିଏ ମାର୍ବଲକୁ ପକାଇବା ପାଇଁ କି ଦବାଅ ୤"
+
+#~ msgid "Level of Player One"
+#~ msgstr "ଖେଳାଳୀ ଏକର ସ୍ତର"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "ଖେଳାଳୀ ଦୁଇ ସ୍ତର"
+
+#~ msgid "Theme ID"
+#~ msgstr "ବିଷଯ ID"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "ଚଳଚିତ୍ର ଉପୟୋଗ କରାୟିବ କି ନାହିଁ"
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr "ଶୂନ୍ଯ ମଣିଷ ଅଟେ; ତିନି ଦେଇ ଏକ କମ୍ପ୍ଯୁଟର ଖେଳାଳୀର ସ୍ତର ଅନୁରୂପ ୤"
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ଚିତ୍ର ଲୋଡ କରିବାକୁ ଅସମର୍ଥ:\n"
+#~ "%s"
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "ଜଣେ ବିପକ୍ଷ ଖେଳାଳୀକୁ ଖେଳରେ ୟୋଗ ଦେବାକୁ ଅପେକ୍ଷା କରିଛନ୍ତି ୤"
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr " %sର ଗୋଟିଏ ନେଟବାର୍କ ଖେଳକୁ ସ୍ବାଗତ"
+
+#~ msgid "It's a draw!"
+#~ msgstr "ଖେଳ ଡ୍ର ହୋଇଛି!"
+
+#~ msgid "You win!"
+#~ msgstr "ଆପଣ ଜିତିଗଲେ !"
+
+#~ msgid "It is your move."
+#~ msgstr "ଆପଣଙ୍କର ଚାଲ (ଘୁଞ୍ଚାଇବା)"
+
+#~ msgid "I win!"
+#~ msgstr "ମୁଁ ଜିତିଛି!"
+
+#~ msgid "Thinking..."
+#~ msgstr "ଚିନ୍ତା କରୁଛି..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s ବିଜଯୀ ହୁଏ!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr " %s ଘୁଞ୍ଚିବା ପାଇଁ ଅପେକ୍ଷା କରୁଛି"
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "ସୂଚନା: ସ୍ତମ୍ଭ %d"
+
+#~ msgid "You:"
+#~ msgstr "ତୁମେ:"
+
+#~ msgid "Me:"
+#~ msgstr "ମୁଁ:"
+
+#~ msgid "Scores"
+#~ msgstr "ସ୍କୋରଗୁଡିକ"
+
+#~ msgid "Drawn:"
+#~ msgstr "ଡ୍ର ହୋଇଛି:"
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ଖେଳାଳୀ ଏକ:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ଖେଳାଳୀ ଦୁଇ:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "ସ୍ତର ଏକ"
+
+#~ msgid "Level two"
+#~ msgstr "ସ୍ତର ଦୁଇ"
+
+#~ msgid "Level three"
+#~ msgstr "ସ୍ତର ତିନି"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "ଚାରିଟି- ଗୋଟିଏ - ଧାଡିରେ ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Appearance"
+#~ msgstr "ସାଦ୍ରୁଶ୍ଯ"
+
+#~ msgid "_Theme:"
+#~ msgstr "ପ୍ରସଙ୍ଗ (_T):"
+
+#~ msgid "Enable _animation"
+#~ msgstr "ଚଳନ୍ତି ଚିତ୍ର _ସକ୍ଷମ କର"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "ଧ୍ବନୀଗୁଡିକୁ_ସକ୍ଷମ କର"
+
+#~ msgid "Classic"
+#~ msgstr "ଚିରପ୍ରତିଷ୍ଠିତ"
+
+#~ msgid "Red"
+#~ msgstr "ଲାଲ"
+
+#~ msgid "Yellow"
+#~ msgstr "ହଳଦିଆ"
+
+#~ msgid "High Contrast"
+#~ msgstr "ଅଧିକ ପ୍ରଭେଦ"
+
+#~ msgid "Light"
+#~ msgstr "ହାଲୁକା"
+
+#~ msgid "Dark"
+#~ msgstr "ଗାଢ"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "ଅଧିକ ପ୍ରଭେଦ ବିପରୀତ"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "ଦୁଧିଆରଙ୍ଗର ମାର୍ବଲଗୁଡିକ"
+
+#~ msgid "Blue"
+#~ msgstr "ନୀଳ"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "କାଚ ମାର୍ବଲଗୁଡିକ"
+
+#~ msgid "Nightfall"
+#~ msgstr "ରାତ୍ରିଆରମ୍ଭ"
+
+#~ msgid "Blocks"
+#~ msgstr "ବ୍ଲକଗୁଡିକ"
+
+#~ msgid "Orange"
+#~ msgstr "ନାରଙ୍ଗ"
+
+#, fuzzy
+#~ msgid "%s joined the game.\n"
+#~ msgstr "%s ଖେଳରେ ୟୋଗ ଦେଲେ ୤\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "ଖେଳ ସମାପ୍ତ ହେଲା କାରଣ ହୋଷ୍ଟ %s ଖେଳ ଛାଡି ଚାଲିଗଲେ ୤\n"
+
+#, fuzzy
+#~ msgid "%s left the game.\n"
+#~ msgstr "ଖେଳକୁ କିଛି ସମୟ ପାଇଁ ବନ୍ଦ କରନ୍ତୁ"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "ନିବଲ୍ସ ସ୍କୋର କରେ"
+
+#~ msgid "Speed:"
+#~ msgstr "ଗତି:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "ଅଭିନନ୍ଦନ!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "ଆପଣଙ୍କର ସ୍କୋର ସର୍ବୋତ୍କୃଷ୍ଟ ଦଶସ୍ଥାନ ମଧ୍ଯରେ ପହଞ୍ଚିଛି"
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "ଗୋଟିଏ କୀଟକୁ ଏକ ମକାକ୍ଷେତର ଚାରିପଟେ ପଥପ୍ରଦର୍ଶନ କର"
+
+#~ msgid "Nibbles"
+#~ msgstr "ନିବ୍ଲସ"
+
+#~ msgid "Gnibbles"
+#~ msgstr "Gnibbles"
+
+#~ msgid "Color to use for worm"
+#~ msgstr "କୀଟ ପାଇଁ ଉପୟୋଗ କରିବା ନିମନ୍ତେ ରଙ୍ଗ"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "କୀଟ ପାଇଁ ଉପୟୋଗ କରିବା ନିମନ୍ତେ ରଙ୍ଗ"
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "ମିଥ୍ଯା ଲାଭାଂଶ ସକ୍ଷମ କର"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "ମିଥ୍ଯା ଲାଭାଂଶ ସକ୍ଷମ କର"
+
+#~ msgid "Enable sounds"
+#~ msgstr "ଧ୍ବନୀଗୁଡିକୁ ସକ୍ଷମ କର"
+
+#~ msgid "Enable sounds."
+#~ msgstr "ଧ୍ବନୀଗୁଡିକୁ ସକ୍ଷମ କର"
+
+#~ msgid "Game level to start on"
+#~ msgstr "ଆରମ୍ଭ କରିବା ପାଇଁ ଖେଳର ସ୍ତର"
+
+#~ msgid "Game level to start on."
+#~ msgstr "ଆରମ୍ଭ କରିବା ପାଇଁ ଖେଳର ସ୍ତର"
+
+#~ msgid "Game speed"
+#~ msgstr "ଖେଳର ଗତି"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "ଖେଳର ଗତି(1=ଦ୍ରୁତ, 4=ଧୀର) ୤"
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "ତଳକୁ ଗତିକରିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କି"
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "ବାମକୁ ଗତି କରିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କି"
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "ଡାହାଣକୁ ଗତି କରିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କି"
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "ଉପରକୁ ଗତି କରିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କି"
+
+#~ msgid "Move up"
+#~ msgstr "ଉପରକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "Number of AI players"
+#~ msgstr "AI ଖେଳାଳୀମାନଙ୍କର ସଂଖ୍ଯା"
+
+#~ msgid "Number of AI players."
+#~ msgstr " AI ଖେଳାଳୀମାନଙ୍କର ସଂଖ୍ଯା"
+
+#~ msgid "Number of human players"
+#~ msgstr "ମଣିଷ ଖେଳାଳୀମାନଙ୍କର ସଂଖ୍ଯା"
+
+#~ msgid "Number of human players."
+#~ msgstr "ମଣିଷ ଖେଳାଳୀମାନଙ୍କର ସଂଖ୍ଯା"
+
+#~ msgid "Play levels in random order"
+#~ msgstr "ସ୍ତରଗୁଡିକୁ ୟଦୃଚ୍ଛା କ୍ରମରେ ଖେଳ"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "ସ୍ତରଗୁଡିକୁ ୟଦୃଚ୍ଛା କ୍ରମରେ ଖେଳ"
+
+#~ msgid "Size of game tiles"
+#~ msgstr "ଖେଳ ଟାଇଲଗୁଡିକର ଆକାର"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "ଖେଳ ଟାଇଲଗୁଡିକର ଆକାର"
+
+#~ msgid "Use relative movement"
+#~ msgstr "ସମ୍ବନ୍ଧୀତ ପନ୍ଥା ଉପୟୋଗକର"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "ସମ୍ବନ୍ଧୀତ ପନ୍ଥା ଉପୟୋଗ କର (ଅର୍ଥାତ୍ କେବଳ ବାମ କିମ୍ବା ଡାହାଣ)୤"
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner"
+#~ msgstr "ପ୍ରବର୍ତକ"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "ମନ୍ଥର"
+
+#, fuzzy
+#~| msgid "Medium"
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "ମଧ୍ଯମ"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "ଦ୍ରୁତ"
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner with Fakes"
+#~ msgstr "ମିଥ୍ଯା ସହିତ ନୂଆଶିଖାଳୀ"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow with Fakes"
+#~ msgstr "ଧୀର ମିଥ୍ଯାସହିତ"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium with Fakes"
+#~ msgstr "ମିଥ୍ଯାଗୁଡିକ ସହିତ ମଧ୍ଯମ"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast with Fakes"
+#~ msgstr "ମିଥ୍ଯାଗୁଡିକ ସହିତ ଦ୍ରୁତ"
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "ଖେଳ ଶେଷ ହୋଇଛି! ଏହି ଖେଳ %s ଜିତିଛନ୍ତି!"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr " GNOME ପାଇଁ ଗୋଟିଏ କୀଟ ଖେଳ"
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "ନିବ୍ଲସ ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Speed"
+#~ msgstr "ଗତି"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "ନିବ୍ଲସ ନୁଯୁବି"
+
+#~ msgid "My second day"
+#~ msgstr "ମୋର ଦ୍ବିତୀଯ ଦିନ"
+
+#~ msgid "Not too shabby"
+#~ msgstr "ଅଧିକ ଜର୍ଜର ନୁହେଁ"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "ହାତକୁ ଛୁଇଁଲା ପରି ଭଲ"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_ ସ୍ତରଗୁଡିକୁ ୟଦୃଚ୍ଛା କ୍ରମରେ ଖେଳ"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "_ ମିଥ୍ଯା ଲାଭାଂଶଗୁଡିକୁ ସକ୍ଷମ କର"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "ମଣିଷ ଖେଳାଳୀ _ମାନଙ୍କର ସଂଖ୍ଯା :"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "AI  _ଖେଳାଳୀ ମାନଙ୍କର ସଂଖ୍ଯା:"
+
+#~ msgid "Worm"
+#~ msgstr "କୀଟ"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "_ସମ୍ବନ୍ଧୀତ ପନ୍ଥା ଉପୟୋଗକର"
+
+#~ msgid "_Worm color:"
+#~ msgstr "_କୀଟର ରଙ୍ଗ:"
+
+#~ msgid "Green"
+#~ msgstr "ସବୁଜ"
+
+#~ msgid "Cyan"
+#~ msgstr "ସିଆନ"
+
+#~ msgid "Purple"
+#~ msgstr "ବାଇଗଣୀ"
+
+#~ msgid "Gray"
+#~ msgstr "ଧୂସର"
+
+#~ msgid "Worm %d:"
+#~ msgstr "କୀଟ %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "ଖେଳ ସମାପ୍ତ !"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "ଉତ୍ତମ କାର୍ୟ୍ଯ, କିନ୍ତୁ ଦୁର୍ଭାଗ୍ଯବଶତଃ ଆପଣଙ୍କର ସ୍କୋର ପ୍ରଥମ ଦଶରେ ପହଞ୍ଚି ପାରି ନାହିଁ ୤"
+
+#~ msgid "Map:"
+#~ msgstr "ମ୍ଯାପ:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "ଅଭିନନ୍ଦନ, ଆପଣ ରବୋଟଗୁଡିକୁ ପରାଜିତ କରିଛନ୍ତି!! \n"
+#~ "କିନ୍ତୁ ଏହାକୁ ପୁଣି ଥରେ କରିପାରିବେ କି?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "କୌଣସି ଟେଲେପୋର୍ଟ ଅବସ୍ଥାନ ବାକି ନାହିଁ !!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "କୁ ଟେଲେପୋର୍ଟ କରିବା ପାଇଁ କୌଣସି ସୁରକ୍ଷିତ ଅବସ୍ଥାନ ବାକି ନାହିଁ!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "ଖେଳ ଦୃଶ୍ଯ ବିବରଣୀ ସ୍ଥିର କର"
+
+#~ msgid "Set game configuration"
+#~ msgstr "ଖେଳ କନଫିଗରେସନ ସ୍ଥିର କର"
+
+#~ msgid "Initial window position"
+#~ msgstr "ପ୍ରାରମ୍ଭିକ ଉଇଣ୍ଡୋ ସ୍ଥାନ"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Robots"
+#~ msgstr "ରୋବଟଗୁଡିକ"
+
+#~ msgid "No game data could be found."
+#~ msgstr "କୌଣସି ଖେଳ ତଥ୍ଯ ମିଳିଲା ନାହିଁ"
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "ପ୍ରୋଗ୍ରାମ ରୋବୋଟ ଗୁଡିକ କୌଣସି ମାନ୍ଯ ଖେଳ କନଫିଗରେସନ ଫାଇଲକୁ ଖୋଜି ପାଇପାରିଲେ ନାହିଁ ୤ ଦଯାକରି "
+#~ "ୟାଞ୍ଚ କରନ୍ତୁ ୟେ ପ୍ରୋଗ୍ରାମ ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି ୤"
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "କେତେକ ଗ୍ରାଫିକ୍ସ ଫାଇଲ ଅନୁପସ୍ଥିତ ଅଛି କିମ୍ବା ଦୂଷିତ ହୋଇଛି ୤"
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "ପ୍ରୋଗ୍ରାମ ରୋବଟ ଗୁଡିକ ସମସ୍ତ ଆବଶ୍ଯକ ଗ୍ରାଫିକ୍କ ଫାଇଲକୁ ଲୋଡ କରିବା ପାଇଁ ଅସମର୍ଥ ହୋଇଛି ୤ ଦଯାକରି "
+#~ "ୟାଞ୍ଚ କରନ୍ତୁ ୟେ ପ୍ରୋଗ୍ରାମ ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି ୤"
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "ରୋବଟଗୁଡିକୁ ବାଦ ଦିଏ ଏବଂ ସେମାନଙ୍କୁ ପରସ୍ପର ମଧ୍ଯରେ ଧକ୍କା ହେବାକୁ ଦିଅ ୤"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "ଖେଳ ଧ୍ବନୀ ଗୁଡିକୁ ସକ୍ଷମ କର"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr "ଖେଳ ଧ୍ବନୀଗୁଡିକୁ ସକ୍ଷମ କର ୤ ଖେଳ ସାରା ବିବିଧ ଘଟଣା ପାଇଁ ଧ୍ବନୀ ବଜାଅ ୤"
+
+#~ msgid "Enable splats"
+#~ msgstr "ପାଣି ଛିଟିକାଇବା ଧ୍ବନୀ ସକ୍ଷମ କର"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr ""
+#~ "ପାଣି ଛିଟିକାଇବା ଧ୍ବନୀ ସକ୍ଷମକର ୤ ଗୋଟିଏ ଧ୍ବନୀ ବଜାଅ ଏବଂ ସ୍କ୍ରିନରେ \"ପାଣି ଛିଟିକେଇବା!\" "
+#~ "ଦେଖାଅ ୤"
+
+#~ msgid "Game type"
+#~ msgstr "ଖେଳ ପ୍ରକାର"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "ଖେଳ ପ୍ରକାର ୤ ଉପୟୋଗ କରିବା ପାଇଁ ଖେଳ ପରିବର୍ତ୍ତନଶୀଳର ନାମ ୤"
+
+#~ msgid "Key to hold"
+#~ msgstr "ଧରିରଖିବା ପାଇଁ କି"
+
+#~ msgid "Key to move E"
+#~ msgstr " E କୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move N"
+#~ msgstr "N କୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move NE"
+#~ msgstr " NE କୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move NW"
+#~ msgstr "NW କୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move S"
+#~ msgstr "Sକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move SE"
+#~ msgstr "SEକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move SW"
+#~ msgstr "SWକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to move W"
+#~ msgstr "Wକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ କି"
+
+#~ msgid "Key to teleport"
+#~ msgstr "ଟେଲେପୋର୍ଟ କରିବା ପାଇଁ କି"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "ୟଦୃଚ୍ଛା କ୍ରମରେ ଟେଲେପୋର୍ଟ କରିବା ପାଇଁ କି"
+
+#~ msgid "Key to wait"
+#~ msgstr "ଅପେକ୍ଷା କରିବା ପାଇଁ କି"
+
+#~ msgid "Robot image theme"
+#~ msgstr "ରୋବଟ ଚିତ୍ର ଥିମ"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "ରୋବଟ ଚିତ୍ର ଥିମ ୤ ରୋବଟଗୁଡିକ ପାଇଁ ଉପୟୋଗ କରିବା ନିମନ୍ତେ ଚିତ୍ରଗୁଡିକର ଥିମ ୤"
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "ଟୁଲବାର ଦେଖାଅ ୤ ଟୁଲବାର ପାଇଁ ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ ବିକଳ୍ପ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr "ସ୍ଥିର ଧରିରଖିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "ପୂର୍ବକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "ଉତ୍ତର-ପୂର୍ବକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "ଉତ୍ତର-ପଶ୍ଚିମକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ "
+#~ "୤"
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "ଉତ୍ତରକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "ଦକ୍ଷିଣ-ପୂର୍ବକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "ଦକ୍ଷିଣ-ପଶ୍ଚିମକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ "
+#~ "୤"
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "ଦକ୍ଷିଣକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "ପଶ୍ଚିମକୁ ଘୁଞ୍ଚାଇବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "ୟଦୃଚ୍ଛା କ୍ରମରେ ଟେଲେପୋର୍ଟ କରିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଗୋଟିଏ "
+#~ "ଷ୍ଟାଣ୍ଡାର୍ଡ X କି ନାମ ୤"
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "ସୁରକ୍ଷିତ ଭାବରେ ଟେଲେପୋର୍ଟ ହେବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ (ୟଦି ସମ୍ଭବ) ୤ ନାମ ହେଉଛି ଏକ "
+#~ "ଷ୍ଟାଣ୍ଡାର୍ଡ Xକି ନାମ ୤"
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr "ଅପେକ୍ଷା କରିବା ପାଇଁ ଉପୟୋଗ ହେଉଥିବା କିର ନାମ ୤ ନାମ ହେଉଛି ଏକ ଷ୍ଟାଣ୍ଡାର୍ଡ Xକି ନାମ ୤"
+
+#~ msgid "Use safe moves"
+#~ msgstr "ସୁରକ୍ଷିତ ଚାଲ ଉପୟୋଗକର"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "ସୁରକ୍ଷିତ ଚାଲଗୁଡିକୁ ଉପୟୋଗ କରନ୍ତୁ ୤ ସୁରକ୍ଷିତ ଚାଲ ବିକଳ୍ପ ଆପଣଙ୍କୁ ଭୂଲରେ ମରିବାରୁ ବାଧା ଦେବାରେ "
+#~ "ସାହାୟ୍ଯକରିବ ୤ ୟଦି ଆପଣ ଗୋଟିଏ ଚାଲ ଚଳେଇବେ ୟାହା ଦ୍ବାରା ଆପଣଙ୍କର ମୃତ୍ଯୁହୋଇୟାଏ ୟେବେ କି "
+#~ "ଗୋଟିଏ ସୁରକ୍ଷିତ ଚାଲ ଉପଲବ୍ଧ ଥାଏ ତେବେ ଆପଣଙ୍କୁ ଅଗ୍ରସର ହେବାକୁ ସ୍ବୀକୃତି ଦିଆୟିବ ନାହିଁ ୤ "
+
+#~ msgid "Use super safe moves"
+#~ msgstr "ଉତ୍ତମ ସୁରକ୍ଷିତ ଚାଲ ଉପୟୋଗ କର"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "ଉତ୍ତମ ସୁରକ୍ଷିତ ଚାଲ ଉପୟୋଗ କର ୤ ୟେବେ କୌଣସି ସୁରକ୍ଷିତ ଚାଲ ରହେ ନାହିଁ ଖେଳାଳୀଙ୍କୁ ସାବଧାନ "
+#~ "କରିଦିଆୟାଏ ଏବଂ କେବଳ ଏକମାତ୍ର ବିକଳ୍ପ ଟେଲେପୋର୍ଟ ବାକି ରହିୟାଏ ୤"
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr " '%s' ପିକ୍ସମ୍ଯାପ ଫାଇଲ ଖୋଜିପାଇଲା ନାହିଁ \n"
+
+#~ msgid "_Move"
+#~ msgstr "ଘୁଞ୍ଚାନ୍ତୁ (_M)"
+
+#~ msgid "_Teleport"
+#~ msgstr "_ଟେଲେପୋର୍ଟ"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "ଟେଲେପୋର୍ଟ, ସୁରକ୍ଷିତ ଭାବରେ ୟଦି ସମ୍ଭବ"
+
+#~ msgid "_Random"
+#~ msgstr "_ୟଦୃଚ୍ଛା କ୍ରମରେ"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "ୟଦୃଚ୍ଛା କ୍ରମରେ ଟେଲେପୋର୍ଟ"
+
+#~ msgid "_Wait"
+#~ msgstr "_ଅପେକ୍ଷା କର"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "ରୋବଟଗୁଡିକ ପାଇଁ ଅପେକ୍ଷା କର"
+
+#~ msgid "classic robots"
+#~ msgstr "ସର୍ବୋତ୍କୃଷ୍ଟ ରୋବଟଗୁଡିକ"
+
+#~ msgid "robots2"
+#~ msgstr "ରୋବର୍ଟଗୁଡିକ 2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "ରୋବର୍ଟଗୁଡିକ2 ସହଜ"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "ରୋବର୍ଟଗୁଡିକ ସୁରକ୍ଷିତ ଟେଲିପୋର୍ଟ ସହିତ"
+
+#~ msgid "nightmare"
+#~ msgstr "ଦୁଃସ୍ବପ୍ନ"
+
+#~ msgid "robots"
+#~ msgstr "ରୋବର୍ଟଗୁଡିକ"
+
+#~ msgid "cows"
+#~ msgstr "ଗାଈଗୁଡିକ"
+
+#~ msgid "eggs"
+#~ msgstr "ଅଣ୍ଡାଗୁଡିକ"
+
+#~ msgid "gnomes"
+#~ msgstr "ଜିନୋମଗୁଡିକ"
+
+#~ msgid "mice"
+#~ msgstr "ମୁଷାଗୁଡିକ"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "ରୋବର୍ଟଗୁଡିକର ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Game Type"
+#~ msgstr "ଖେଳ ପ୍ରକାର"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "_ ସୁରକ୍ଷିତ ଚାଲ ଉପୟୋଗକର"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "କେତେକ ଅକ୍ସମାତ୍ ଚାଲକୁ ବାଦ ଦିଅ ୟାହାକି ମୃତ୍ଯୁରେ ପରିଣତ ହୋଇଥାଏ ୤"
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "_ ଉତ୍ତମ ସୁରକ୍ଷିତ ଚାଲ ଉପୟୋଗ କର"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "ସମସ୍ତ ଚାଲକୁ ବାଦ ଦିଅ ୟାହାକି ମୃତ୍ଯୁରେ ପରିଣତ ହୋଇଥାଏ ୤"
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "ଗୋଟିଏ ସ୍ତର ଜିତିବା ଏବଂ ମରିବା ପରି ଘଟଣା ପାଇଁ ଧ୍ବନୀ ବଜାଅ ୤"
+
+#~ msgid "E_nable splats"
+#~ msgstr "ପାଣି ଛିଟିକେଇବା_ସକ୍ଷମ କର"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "ଅତି ସାଧାରଣ, ଏବଂ ଅଧିକ ବିରକ୍ତି କର ଧ୍ବନୀ ବଜାଅ"
+
+#~ msgid "Graphics Theme"
+#~ msgstr "ଗ୍ରାଫିକ୍ସ ଥିମ"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_ଚିତ୍ର ଥିମ :"
+
+#~ msgid "_Background color:"
+#~ msgstr "ପ୍ରୁଷ୍ଠଭୂମି ରଙ୍ଗ (_B):"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_ଡିଫଲ୍ଟଗୁଡିକୁ ପୂର୍ବସ୍ଥିତିକୁ ଆଣ"
+
+#~ msgid "Keyboard"
+#~ msgstr "କି-ବୋର୍ଡ"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "ସୁରକ୍ଷିତ ଟେଲେପୋର୍ଟଗୁଡିକ:"
+
+#~ msgid "Remaining:"
+#~ msgstr "ବାକିରହିଛି:"
+
+#~ msgid "Sudoku"
+#~ msgstr "ସୁଡୋକୁ"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">ଖେଳଗୁଡିକୁ ମୁଦ୍ରଣକର</span>"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "ସୁଡୋକୁ ଗୁଡିକୁ ମୁଦ୍ରଣ କର "
+
+#, fuzzy
+#~ msgid "_Easy"
+#~ msgstr "_ସହଜ"
+
+#~ msgid "_Hard"
+#~ msgstr "_କଠିନ"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "_ ମୁଦ୍ରଣ କରିବା ପାଇଁ ଆପଣ ପୂର୍ବରୁ ଖେଳିଥିବା ଖେଳଗୁଡିକୁ ତାଲିକାରେ ଅନ୍ତର୍ଭୂକ୍ତ କରନ୍ତୁ ୤"
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "_ ଖେଳଗୁଡିକୁ ଖେଳାୟାଇଛି ବୋଲି ଚିହ୍ନିତ କରନ୍ତୁ, ଥରେ ସେଗୁଡିକୁ ମୁଦ୍ରଣ କରିବା ପରେ  ୤"
+
+#~ msgid "_Medium"
+#~ msgstr "_ମଧ୍ଯମ"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "_ମୁଦ୍ରଣ କରିବା ପାଇଁ ସୁକୋଡୁର ସଂଖ୍ଯା: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "_ପ୍ରତି ପୃଷ୍ଠାରେ ସୁକୋଡୁ: "
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>ଗୋଲକଧନ୍ଦାର ସଂଖ୍ଯା</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>ସହଜ:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>କଠିନ:</i>"
+
+#, fuzzy
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>ମଧ୍ଯମ:</i>"
+
+#, fuzzy
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "ମଦ୍ଧ୍ଯମ"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">ଗୋଲକ ଧନ୍ଦା ଉତ୍ପାଦକ</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "ନିଯମ :"
+
+#, fuzzy
+#~ msgid "Generate Policy"
+#~ msgstr "ନୀତି ଉତ୍ପାଦନକର"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr " _ ଲକ୍ଷ୍ଯକୁ ପହଞ୍ଚିବା ପର୍ୟ୍ଯନ୍ତ ସୃଷ୍ଟି କରି ଚାଲିଥାଅ ୤"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "ଗୋଲକଧନ୍ଦା ଉତ୍ପାଦକ"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "ଲକ୍ଷ୍ଯ _ସୁକୋଡୁର ସଂଖ୍ଯା:"
+
+#, fuzzy
+#~ msgid "_Generate"
+#~ msgstr "ସ୍ରୁଷ୍ଟି କରନ୍ତୁ (_G)"
+
+#~ msgid "Clear _Others"
+#~ msgstr "ଅନ୍ଯମାନଙ୍କର _ପରିଷ୍କାର କର"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "_ଟ୍ରାକର ୟୋଗ କର"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_ଟ୍ରାକର ପରିଷ୍କାର କର"
+
+#~ msgid "_Trackers"
+#~ msgstr "_ଟ୍ରାକର ଗୁଡିକ"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME ସୁଡୋକୁ"
+
+#, fuzzy
+#~ msgid "No Space"
+#~ msgstr "ନାମ"
+
+#~ msgid "Track moves"
+#~ msgstr "ଟ୍ରାକ ଘୁଞ୍ଚାଇବାଗୁଡିକ"
+
+#, fuzzy
+#~ msgid "Full Screen"
+#~ msgstr "ସମ୍ପୁର୍ଣ୍ଣ ପରଦା ପ୍ରଦର୍ଶନ"
+
+#, fuzzy
+#~ msgid "New game"
+#~ msgstr "ନୂଆ ଖେଳ"
+
+#, fuzzy
+#~ msgid "Print current game"
+#~ msgstr "ଚଳିତ ଖେଳକୁ ମୁଦ୍ରଣ କର"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "ବହୁବିଧ _ସୁଡୋକୁ ମୁଦ୍ରଣ କର"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "ଏକ ସମଯରେ ଏକରୁ ଅଧିକ ସୁଡୋକୁ ମୁଦ୍ରଣ କର ୤"
+
+#, fuzzy
+#~| msgid "_Toolbar"
+#~ msgid "_Tools"
+#~ msgstr "ସାଧନ (_T)"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "ଚଳିତ ବର୍ଗକ୍ଷେତ୍ରରେ କୋଉ ସଂଖ୍ଯା ୟିବ ଦେଖାଅ ୤"
+
+#~ msgid "_Fill"
+#~ msgstr "ପୁରଣ କରନ୍ତୁ (_F)"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "ୟଦି ସମ୍ଭବ ସ୍ବଯଂଚାଳିତ ଭାବରେ ଚଳିତ ବର୍ଗରେ ପୁରଣ କର ୤"
+
+#~ msgid "Fill _all squares"
+#~ msgstr "ସବୁ ବର୍ଗକ୍ଷେତ୍ରଗୁଡିକୁ _ପୁରଣ କର"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "ସମସ୍ତ ବର୍ଗକ୍ଷେତ୍ରକୁ ସ୍ବଯଂଚାଳିତ ଭାବରେ ପୁରଣ କରେ ୟାହାପାଇଁ କେବଳ ଗୋଟିଏ ମାନ୍ଯ ମୂଲ୍ଯ ରହିଥାଏ ୤"
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "ଗୋଲକଧନ୍ଦା _ପରିସଂଖ୍ଯାନଗୁଡିକ"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "ଚଳିତ ଗୋଲକଧନ୍ଦା ବିଷଯରେ ପରିସଂଖ୍ଯାନ ଦର୍ଶାଅ"
+
+#~ msgid "_Always show hint"
+#~ msgstr "_ସର୍ବଦା ସୂଚନା ଦେଖାଅ"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "ଗୋଟିଏ ବର୍ଗକ୍ଷେତ୍ରରେ ସଂଭାବିତ ସଂଖ୍ଯାଗୁଡିକୁ ଦେଖାଅ"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "ପୁରଣ ଅୟୋଗ୍ଯ_ବର୍ଗକ୍ଷେତ୍ରଗୁଡିକ ବିଷଯରେ ଚେତାବନୀ ଦିଅ"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "ଗୋଟିଏ ଚାଲ ଦ୍ବାରା ପୁରଣ ଅୟୋଗ୍ଯ ହୋଇଥିବା ବର୍ଗକ୍ଷେତ୍ର ଗୁଡିକ ବିଷଯରେ ଚେତାବନୀ ଦିଅ "
+
+#~ msgid "_Track additions"
+#~ msgstr "_ଟ୍ରାକ ୟୋଗ"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr ""
+#~ "ନୂଆ ୟୋଗ ହୋଇଥିବାଗୁଡିକୁ ଭିନ୍ନ ରଙ୍ଗରେ ଚିହ୍ନିତ କରନ୍ତୁ ୟଦ୍ବାରା ଆପଣ ସେଗୁଡିକର ଚିହ୍ନ ରଖିପାରିବେ ୤"
+
+#~ msgid "_Highlighter"
+#~ msgstr "_ହାଇଲାଇଟକାରୀ"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "ଚଳିତ ଧାଡି, ସ୍ତମ୍ଭ ଏବଂ ବକ୍ସଗୁଡିକୁ ହାଇଲାଇଟ କର"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "ଆପଣ ଖେଳିବା ବେଳେ _ ନୂଆ ଗୋଲକଧନ୍ଦାଗୁଡିକୁ ଉତ୍ପାଦନ କର"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "ଆପଣ ଖେଳିବା ବେଳେ ନୂଆ ଗୋଲକଧନ୍ଦାଗୁଡିକୁ ପୃଷ୍ଠଭୂମିରେ ଉତ୍ପାଦନ କର ୤ ଏହା ସ୍ବଯଂଚାଳିତ ଭାବରେ ବିରାମ "
+#~ "ହୁଏ ୟେବେ ଖେଳ ପୃଷ୍ଠଭୂମିକୁ ଚାଲିୟାଏ ୤"
+
+#, fuzzy
+#~| msgid "_Hint"
+#~ msgid "_Edit"
+#~ msgstr "ସମ୍ପାଦନ କରନ୍ତୁ (_E)"
+
+#, fuzzy
+#~ msgid "_Undo"
+#~ msgstr "ପଦକ୍ଷେପ ବାତିଲ କରନ୍ତୁ (_U)"
+
+#, fuzzy
+#~ msgid "Undo last action"
+#~ msgstr "ଶେଷ ପଦକ୍ଷେପକୁ ଅନାବୃତ୍ତିକର"
+
+#, fuzzy
+#~ msgid "_Redo"
+#~ msgstr "ପୁଣି କରନ୍ତୁ (_R)"
+
+#~ msgid "Redo last action"
+#~ msgstr "ଶେଷ କାର୍ୟ୍ଯକୁ ପୁନଃ କର"
+
+#~ msgid "_Clear"
+#~ msgstr "ସଫା କରନ୍ତୁ (_C)"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "ଆପଣ ପୁରଣ କରିଥିବା ପ୍ରବେଶଗୁଡିକୁ ପରିଷ୍କାର କର"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "ଟିପ୍ପଣୀଗୁଡିକୁ _ପରିଷ୍କାରକର"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "ସୂଚନା ଏବଂ ଟିପ୍ପଣୀଗୁଡିକୁ ପରିଷ୍କାର କର"
+
+#~ msgid "No Tracker"
+#~ msgstr "କୌଣସି ଚିହ୍ନଟକାରୀ ନାହିଁ"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "_ ନୂଆ ଗୋଲକଧନ୍ଦାଗୁଡିକୁ ଉତ୍ପାଦନକର"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "ନୂଆ ଗୋଲକଧନ୍ଦାଗୁଡିକୁ ଉତ୍ପାଦନକର"
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "ବ୍ଯବସ୍ଥାପିତ ଗ୍ରିଡକୁ ପ୍ରବେଶକରୁଛି ..."
+
+#~ msgid "_Play game"
+#~ msgstr "_ ଖେଳକୁ ଖେଳ"
+
+#, fuzzy
+#~| msgid "_End Game"
+#~ msgid "_Abandon game"
+#~ msgstr "ଖେଳ ବନ୍ଦ କରନ୍ତୁ (_E)"
+
+#~ msgid "Puzzle Information"
+#~ msgstr "ଗୋଲକଧନ୍ଦାବିଷଯରେ ସୂଚନା"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "କୌଣସି ଚଳିତ ଗୋଲକଧନ୍ଦା ନାହିଁ"
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "ଗଣିତହୋଇଥିବା କଠିନତା:"
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "ନିଷ୍କାସନ ଦ୍ବାରା ତ୍ବରିତ ପୁରଣୟୋଗ୍ଯ ଚାଲଗୁଡିକର ସଂଖ୍ଯା: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "ପୁରଣଗୁଡିକ ଦ୍ବାରା ତ୍ବରିତ ପୁରଣୟୋଗ୍ଯ ଚାଲଗୁଡିକର ସଂଖ୍ଯା: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "ସମାଧାନ କରିବା ପାଇଁ ଚେଷ୍ଟା ଏବଂ ତ୍ରୁଟିଗୁଡିକ ଆବଶ୍ଯକ ପରିମାଣ:"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "ମନୋନୀତ ଚିହ୍ନଟକାରୀ ଦ୍ବାରା ଚିହ୍ନିତ ହୋଇଥିବା ସମସ୍ତ ଚାଲକୁ ପରିଷ୍କାର କର ୤"
+
+#~ msgid "_Clear Others"
+#~ msgstr "_ଅନ୍ଯଗୁଡିକୁ ପରିଷ୍କାର କର"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "ମନୋନୀତ ଚିହ୍ନଟକାରୀ ଦ୍ବାରା ଚିହ୍ନିତ ହୋଇ ନଥିବା ସମସ୍ତ ଚାଲକୁ ପରିଷ୍କାର କର ୤"
+
+#~ msgid "Tracker %s"
+#~ msgstr "ଚିହ୍ନଟକାରୀ %s"
+
+#~ msgid "Print Preview"
+#~ msgstr "ମୁଦ୍ରଣ ପୂର୍ବଦୃଶ୍ଯ"
+
+#~ msgid "Working..."
+#~ msgstr "କାମକରୁଛି ..."
+
+#, fuzzy
+#~ msgid "Stopped"
+#~ msgstr "ଅଟକିଛି"
+
+#~ msgid "Very Hard"
+#~ msgstr "ଅତି କଠିନ"
+
+#~ msgid "Medium"
+#~ msgstr "ମଦ୍ଧ୍ଯମ"
+
+#~ msgid "_Stop"
+#~ msgstr "ବିରାମ କରନ୍ତୁ (_S)"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "ମୋତେ ପୁଣିଥରେ ଏହା ପଚାର ନାହିଁ"
+
+#~ msgid " and "
+#~ msgstr " ଏବଂ "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " "
+#~ msgstr " "
+
+#, fuzzy
+#~ msgid "Today %R %p"
+#~ msgstr "ସର୍ବମୋଟ"
+
+#~ msgid "Mines"
+#~ msgstr "ମାଇନଗୁଡିକ"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "ଇଚ୍ଛାରୂପଣ"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "ପତାକାଗୁଡିକ: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "ମାଇନ ଗୁଡିକ ପରିଷ୍କାର ହୋଇଛି !"
+
+#~ msgid "Mines Scores"
+#~ msgstr "ମାଇନସ ସ୍କୋର"
+
+#~ msgid "Size:"
+#~ msgstr "ଆକାର:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "ଗୋଟିଏ ବର୍ଗକ୍ଷେତ୍ରକୁ, ୟେ କୌଣସି ବର୍ଗକ୍ଷେତ୍ରକୁ କ୍ଲିକ କର "
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "ହୁଏତ ସେଗୁଡିକ ସବୁ ମୋର ହୋଇପାରନ୍ତି ..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "ପୁନଃଆକାର ଦିଆୟାଉଛି ଏବଂ SVG ସମର୍ଥନ:"
+
+#~ msgid "Faces:"
+#~ msgstr "ମୁହଁ ଗୁଡିକ:"
+
+#~ msgid "Graphics:"
+#~ msgstr "ଗ୍ରାଫିକ୍ସଗୁଡିକ:"
+
+#~ msgid "Field Size"
+#~ msgstr "କ୍ଷେତ୍ର ଆକାର"
+
+#~ msgid "Custom Size"
+#~ msgstr "ବ୍ଯବସ୍ଥାପିତ ଆକାର"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_ମାଇନଗୁଡିକର ସଂଖ୍ଯା:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_ଦିଗବଳୀଯ:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_ଦଣ୍ଡରୂପୀ:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "_ \"ମୁଁ ନିଶ୍ଚିତ ନୁହେଁ\" ପତାକାଗୁଡିକୁ ଉପୟୋଗକର"
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "_ \"ଅତ୍ଯଧିକ ପତାକା\" ଚେତାବନୀ ଉପୟୋଗ କର"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "ମାଇନ ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Width of grid"
+#~ msgstr "ଗ୍ରିଡର ଓସାର"
+
+#~ msgid "Height of grid"
+#~ msgstr "ଗ୍ରିଡର ଉଚ୍ଚତା"
+
+#~ msgid "Number of mines"
+#~ msgstr "ମାଇନ ଗୁଡିକର ସଂଖ୍ଯା"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "ବୋର୍ଡର ଆକାର (0-2 = ଛୋଟ-ବଡ, 3=ବ୍ଯବସ୍ଥାପିତ)"
+
+#~ msgid "X location of window"
+#~ msgstr "X ଉଇଣ୍ଡୋର ଅବସ୍ଥାନ"
+
+#~ msgid "Y location of window"
+#~ msgstr "Y ଉଇଣ୍ଡୋର ଅବସ୍ଥାନ"
+
+#~ msgid "Press to Resume"
+#~ msgstr "ପୁନଃଆରମ୍ଭ କରିବା ପାଇଁ ଦବାଅ"
+
+#~ msgid "Time: "
+#~ msgstr "ସମଯ:"
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "ଗୋଟିଏ ମାଇନ କ୍ଷେତ୍ରରୁ ଲୁକ୍କାଯୀତ ମାଇନ ଗୁଡିକୁ ପରିଷ୍କାର କର"
+
+#~ msgid "Board size"
+#~ msgstr "ବୋର୍ଡର ଆକାର"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "ପତାକାଗୁଡିକର ସ୍ବଯଂଚାଳିତ ସ୍ଥାପନାକୁ ସକ୍ଷମ କର "
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "ଗୋଟିଏ ବ୍ଯବସ୍ଥାପିତ ଖେଳରେ ସ୍ତମ୍ଭଗୁଡିକର ସଂଖ୍ଯା"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "ଗୋଟିଏ ବ୍ଯବସ୍ଥାପିତ ଖେଳରେ ଧାଡି ଗୁଡିକର ସଂଖ୍ଯା"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "ସିତ୍ଯକୁ ସ୍ଥିର କର ବର୍ଗକ୍ଷେତ୍ରଗୁଡିକୁ ଅଜ୍ଞାତ ଚିହ୍ନିତ କରିବା ପାଇଁ ସମର୍ଥ ହେବା ନିମନ୍ତେ ୤"
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "ସିତ୍ଯକୁ ସ୍ଥିର କର, ଚେତାବନୀ ଆଇକନଗୁଡିକୁ ସକ୍ଷମ କରିବା ପାଇଁ ୟେବେ ଅତ୍ଯଧିକ ପତାକାଗୁଡିକ ସ୍ଥାପିତ "
+#~ "ହୋଇଥାଆନ୍ତି ୤"
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "ସତ୍ଯକୁ ସ୍ଥିର କର ଜେନୋମାଇନକୁ ସ୍ବଯଂଚାଳିତଭାବରେ ମାଇନ ବୋଲି ବର୍ଗକ୍ଷେତ୍ରଗୁଡିକୁ ପତାକା ଚିହ୍ନିତ କରିବା "
+#~ "ପାଇଁ ୟେବେ ୟଥେଷ୍ଟ ବର୍ଗକ୍ଷେତ୍ରଗୁଡିକ ପ୍ରକାଶିତ ହୋଇଥାଆନ୍ତି ୤"
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "ଗୋଟିଏ ବ୍ଯବସ୍ଥାପିତ ଖେଳରେ ମାଇନ ଗୁଡିକର ସଂଖ୍ଯା"
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "ଅଜ୍ଞାତ ପତାକା ଉପୟୋଗ କର"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "ଅତ୍ଯଧିକ ପତାକା ବିଷଯରେ ଚୋତାବନୀ"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "ଆବଶ୍ଯକ ଚିତ୍ରଗୁଡକ ଖୋଜିବାକୁ ଅସମର୍ଥ ୤\n"
+#~ "\n"
+#~ "ଦଯାକରି ଜେନୋମ-ଖେଳ ପ୍ରତିଷ୍ଠାପନକୁ ୟାଞ୍ଚ କରନ୍ତୁ ୤"
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "ଆବଶ୍ଯକ ଚିତ୍ରଗୁଡିକ ମିଳିଛି, କିନ୍ତୁ ଲୋଡ କରିବା ପାଇଁ ଅସ୍ବୀକୃତ ହେଲା ୤\n"
+#~ "\n"
+#~ "ଦଯାକରି ଆପଣଙ୍କର ଜେନୋମ-ଖେଳ ଏବଂ ଏହାର ନିର୍ଭରଶୀଳଗୁଡିକୁ ୟାଞ୍ଚ କରନ୍ତୁ ୤"
+
+#~ msgid "Could not load images"
+#~ msgstr "ଚିତ୍ରଗୁଡିକୁ ଲୋଡ କରିପାରିଲା ନାହିଁ"
+
+#~ msgid "Tetravex"
+#~ msgstr "ଟେଟ୍ରାଭେକ୍ସ"
+
+#, fuzzy
+#~| msgid "0"
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "୦"
+
+#, fuzzy
+#~| msgid "1"
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "୧"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "୨"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "୪"
+
+#, fuzzy
+#~| msgid "5"
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "୫"
+
+#, fuzzy
+#~| msgid "6"
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "୬"
+
+#, fuzzy
+#~| msgid "7"
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "୭"
+
+#, fuzzy
+#~| msgid "8"
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "୮"
+
+#, fuzzy
+#~| msgid "9"
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "୯"
+
+#~ msgid "2×2"
+#~ msgstr "୨x୨"
+
+#~ msgid "3×3"
+#~ msgstr "୩x୩"
+
+#~ msgid "4×4"
+#~ msgstr "୪x୪"
+
+#~ msgid "5×5"
+#~ msgstr "୫x୫"
+
+#~ msgid "6×6"
+#~ msgstr "୬x୬"
+
+#~ msgid "_Size"
+#~ msgstr "ଆକାର (_S)"
+
+#~ msgid "Sol_ve"
+#~ msgstr "ସମା_ଧାନକର"
+
+#~ msgid "Solve the game"
+#~ msgstr "ଖେଳ ସମାଧାନ କର"
+
+#~ msgid "_Up"
+#~ msgstr "ଉପରେ (_U)"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "ଖଣ୍ଡଗୁଡିକୁ ଉପରକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "_Left"
+#~ msgstr "ବାମ (_L):"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "ଖଣ୍ଡଗୁଡିକୁ ବାମକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "_Right"
+#~ msgstr "_ଡାହାଣ"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "ଖଣ୍ଡଗୁଡିକୁ ଡାହାଣକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "_Down"
+#~ msgstr "ତଳେ (_D)"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "ଖଣ୍ଡଗୁଡିକୁ ତଳକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "ଗୋଟିଏ 2×2 ବୋର୍ଡରେ ଖେଳ"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "ଗୋଟିଏ 3×3 ବୋର୍ଡରେ ଖେଳ"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "ଗୋଟିଏ 4×4 ବୋର୍ଡରେ ଖେଳ"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "ଗୋଟିଏ 5×5 ବୋର୍ଡରେ ଖେଳ"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "ଗୋଟିଏ 6×6 ବୋର୍ଡରେ ଖେଳ"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "ଟାଇଲ _ରଙ୍ଗଗୁଡିକ"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "ବୋର୍ଡର ଆକାର (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "ଗୋଲକଧନ୍ଦା ସମାଧାନ ହେଲା ! ଉତ୍ତମ କାର୍ୟ୍ଯ !"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "ଗୋଲକଧନ୍ଦା ସମାଧାନ ହେଲା !"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "ଟେଟ୍ରାଭେକ୍ସ ସ୍କୋର"
+
+#~ msgid "Game paused"
+#~ msgstr "ଖେଳ ବିରାମହେଲା"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "ଖେଳିବା %d×%d ବୋର୍ଡ"
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "ସଂଖ୍ଯା ଦିଆୟାଇଥିବା ଟାଇଲଗୁଡିକୁ ମେଳ କରିବା ଦ୍ବାରା ଗୋଲକଧନ୍ଦାକୁ ସଂପୂର୍ଣ କର "
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "ରଙ୍ଗୀନ ଟାଇଲଗୁଡିକୁ ସକ୍ଷମ କରିବା ପାଇଁ ଗୋଟିଏ ପତାକା ଦିଅ"
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "ରଙ୍ଗୀନ ଟାଇନଗୁଡିକୁ ନିଯନ୍ତ୍ରଣ କର"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr "ଟାଇଲଗୁଡିକୁ ଟଣାୟିବ କିମ୍ବା ମୂଳରେ ତାପରେ ଗନ୍ତବ୍ଯରେ କ୍ଲିକ କରାୟିବ ମନୋନୀତ କର ୤"
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "ଖେଳିବା ଗ୍ରିଡର ଆକାର"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "ଏହି କିର ମୂଲ୍ଯ ଖେଳିବା ଗ୍ରିଡର ଆକାରକୁ ନିଶ୍ଚିତ କରିବା ପାଇଁ ଉପୟୋଗ ହୋଇଥାଏ ୤ ମନ୍ଯ ମୂଲ୍ଯ ଗୁଡିକ 2 ରୁ 8 "
+#~ "ଭିତରେ ରହିଥାଏ, ଅନ୍ଯକୌଣସି ମୂଲ୍ଯ 3କୁ ସେଟ ହୋଇଥାଏ ୤"
+
+#~ msgid "Klotski"
+#~ msgstr "କ୍ଲୋଟସ୍କି"
+
+#~ msgid "Daisy"
+#~ msgstr "ଡାଏସି"
+
+#~ msgid "Violet"
+#~ msgstr "ବାଇଗଣି"
+
+#~ msgid "Poppy"
+#~ msgstr "ପୋପୀ"
+
+#~ msgid "Pansy"
+#~ msgstr "ପାନସୀ"
+
+#~ msgid "Snowdrop"
+#~ msgstr "ସ୍ନୋ ଡ୍ରପ"
+
+#~ msgid "Red Donkey"
+#~ msgstr "ରେଡ ଡଙ୍କି"
+
+#~ msgid "Trail"
+#~ msgstr "ପାଦଚିହ୍ନ"
+
+#~ msgid "Ambush"
+#~ msgstr "ଅତର୍କିତ ଆକ୍ରମଣ"
+
+#~ msgid "Agatka"
+#~ msgstr "ଆଗଟ୍କା"
+
+#~ msgid "Success"
+#~ msgstr "ସଫଳତା"
+
+#~ msgid "Bone"
+#~ msgstr "ହାଡ"
+
+#~ msgid "Fortune"
+#~ msgstr "ଭବିଷ୍ଯତ"
+
+#~ msgid "Fool"
+#~ msgstr "ମୂର୍ଖ"
+
+#~ msgid "Solomon"
+#~ msgstr "ସୋଲେମନ"
+
+#~ msgid "Cleopatra"
+#~ msgstr "କ୍ଲେଓପାଟ୍ରା"
+
+#~ msgid "Shark"
+#~ msgstr "ସାର୍କ"
+
+#~ msgid "Rome"
+#~ msgstr "ରୋମ"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "କ୍ଷୁଦ୍ର ପତାକା ଗୋଲକଧନ୍ଦା"
+
+#~ msgid "Ithaca"
+#~ msgstr "ଇଥାକା"
+
+#~ msgid "Pelopones"
+#~ msgstr "ପେଲୋପୋନସ୍"
+
+#~ msgid "Transeuropa"
+#~ msgstr "ଟ୍ରାନସିଉରୋପା"
+
+#~ msgid "Lodzianka"
+#~ msgstr "ଲୋଡଜିଆନଙ୍କା"
+
+#~ msgid "Polonaise"
+#~ msgstr "ପୋଲୋନଇଜ"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "ବାଲଟିକ ସମୁଦ୍ର"
+
+#~ msgid "American Pie"
+#~ msgstr "ଆମେରିକୀଯ ପାଇ"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "ଟ୍ରାଫିକ ଜାମ"
+
+#~ msgid "Sunshine"
+#~ msgstr "ସୂର୍ୟ୍ଯ କିରଣ"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "କେବଳ 18 ସେପାନଗୁଡିକ"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "ହୁଆରଙ୍ଗ ପଦଚିହ୍ନ ଅନୁସରଣକର"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "ଆହ୍ବାନ ପ୍ଯାକ"
+
+#~ msgid "Skill Pack"
+#~ msgstr "କୌଶଳ ପ୍ଯାକ"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_ ଗୋଲକଧନ୍ଦା ପୁନମଃଆରମ୍ଭ କର"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "ପରବର୍ତ୍ତୀ ଗୋଲକଧନ୍ଦା"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "ପୂର୍ବବର୍ତ୍ତୀ ଗୋଲକଧନ୍ଦା"
+
+#~ msgid "Level completed."
+#~ msgstr "ସ୍ତର ସଂପୂର୍ଣ୍ଣ ହେଲା"
+
+#, fuzzy
+#~ msgid "Klotski Scores"
+#~ msgstr "ସ୍କୋର"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "ଏହି ଖେଳ ପାଇଁ ଥିମ ପ୍ରଦାନ କରିବାକୁ ବିଫଳ ହେଲା ୤\n"
+#~ "\n"
+#~ "ଦଯାକରି Klotski ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି କି ନାହିଁ ୟାଞ୍ଚ କରନ୍ତୁ ୤"
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "ଚିତ୍ର ମିଳିଲା ନାହିଁ :\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ଦଯାକରି Klotski ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି କି ନାହିଁ ୟାଞ୍ଚ କରନ୍ତୁ ୤"
+
+#~ msgid "Moves: %d"
+#~ msgstr "ଚାଲ ଗୁଡିକ: %d"
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "ଗୋଲକଧନ୍ଦାକୁ ସମାଧାନ କରିବା ପାଇଁ ବର୍ଗଗୁଡିକୁ ଘୁଞ୍ଚାଅ"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "ଖେଳାୟାଇଥିବା ଗୋଲକଧନ୍ଦାଗୁଡିକର ସଂଖ୍ଯା"
+
+#~ msgid "The puzzle in play"
+#~ msgstr "ଗୋଲକଧନ୍ଦା ଖେଳାୟାଉଛି"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "ପୂର୍ବରୁ ଉପୟୋଗ ହୋଇଛି ! କେଉଁଠାରେ ଆପଣ ତାହାକୁ ରଖିବାକୁ ଚାହାଁନ୍ତି ?"
+
+#~ msgid "Score: %d"
+#~ msgstr "ସ୍କୋର: %d"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "ଗୋଟିଏ ପୋକର ପରି ପଶା ଖେଳରେ ବିଷମଗୁଡିକୁ ହରାଅ ୤"
+
+#~ msgid "Tali"
+#~ msgstr "ଟାଲି"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "କମ୍ପ୍ଯୁଟରର ପଶା କାଟି ଗଡିବା ସମଯ ମଧ୍ଯରେ ଗୋଟିଏ ବିଳମ୍ବକୁ ଭର୍ତ୍ତି କରାୟିବ କି ନାହିଁ ବଛନ୍ତୁ , ୟଦ୍ବାରା "
+#~ "ଖେଳାଳୀ ଏହା କଣ କରୁଛି ଅନୁସରଣ କରିପାରିବେ ୤"
+
+#~ msgid "Delay between rolls"
+#~ msgstr "ପଶା ପଡିବା ମଧ୍ଯରେ ବିଳମ୍ବ"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "କମ୍ପ୍ଯୁଟରର ବିଚାର ପ୍ରଦର୍ଶନ କର"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr "ୟଦି ସତ୍ଯକୁ ସେଟହୁଏ, AIର କାମର ଗୋଟିଏ ଫିଙ୍ଗିବା ଷ୍ଟାଣ୍ଡାର୍ଡ ଆଉଟ ପୁଟ ହୋଇୟିବ ୤"
+
+#~ msgid "Regular"
+#~ msgstr "ନିଯମିତ"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[ମନୁଷ୍ଯ,ବିଲବେର,ବିଲ,ମୋନିକା,କେନେଥ,ଜେନେଟ]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "କମ୍ପ୍ଯୁଟରର ଚାଲ ଗୁଡିକୁ ବିଳମ୍ବ କର"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "କମ୍ପ୍ଯୁଟରର ବିଚାର ଗୁଡିକୁ ବିଳମ୍ବ କର"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "କମ୍ପ୍ଯୁଟରର ବିପକ୍ଷରେ ଥିବା ବିରୋଧୀଙ୍କର ସଂଖ୍ଯା"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "ବିରୋଧୀ ମନୁଷ୍ଯଙ୍କର ସଂଖ୍ଯା"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "ଖେଳ ପସନ୍ଦ କର : ନିଯମିତ କିମ୍ବା ରଙ୍ଗୀନ"
+
+#~ msgid "STRING"
+#~ msgstr "STRING"
+
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "ନିଯମିତ"
+
+#, fuzzy
+#~| msgid "Colors"
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "ରଙ୍ଗ"
+
+#~ msgid "Roll all!"
+#~ msgstr "ସବୁକୁ ଗଡାଅ !"
+
+#~ msgid "Roll!"
+#~ msgstr "ଗଡାଅ!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "ଖେଳ ଡ୍ର ହେଲା !"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "ଟାଲି ସ୍କୋର"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "କମ୍ପ୍ଯୁଟର %s ପାଇଁ ଖେଳୁଛି"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- ଆପଣ ଉପରେ"
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "ଗଡେଇବା ପାଇଁ ଗୋଟିଏ ପଶାକାଠି ମନୋନୀତ କର କିମ୍ବା ଗୋଟିଏ ସ୍କୋର ସ୍ଥାନ ବାଛ ୤"
+
+#~ msgid "Roll"
+#~ msgstr "ଗଡାଅ"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "ଆପଣଙ୍କୁ କେବଳ ତିନି ଥର ଗଡେଇବା ପାଇଁ ସ୍ବୀକୃତି ଦିଆୟାଇଛି ୤ ଗୋଟିଏ ସ୍କୋର ସ୍ଥାନ ବାଛନ୍ତୁ ୤"
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "GNOME ଭାଷାନ୍ତର (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "କନସୋଲ ଭାଷାନ୍ତର (1992):"
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "ଚଳିତ ଖେଳ ମୂଳ ଖେଳାଳୀ ସଂଖ୍ଯା ସହିତ ସଂପୂର୍ଣ୍ଣ ହେବ ୤"
+
+#~ msgid "Tali Preferences"
+#~ msgstr "ଟାଲି ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Human Players"
+#~ msgstr "ମନୁଷ୍ଯ ଖେଳାଳୀ"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_ଖେଳାଳୀ ମାନଙ୍କର ସଂଖ୍ଯା:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "କମ୍ପ୍ଯୁଟରର ବିରୋଧୀ ପକ୍ଷ"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_ଗଡିବା ଗୁଡିକ ମଧ୍ଯରେ ବିଳମ୍ବ"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "ବିରୋଧୀ ମାନଙ୍କର_ ସଂଖ୍ଯା :"
+
+#, fuzzy
+#~| msgid "Easy"
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "ସହଜ"
+
+#, fuzzy
+#~| msgid "Medium"
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "ମଧ୍ଯମ"
+
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "କଠିନ"
+
+#~ msgid "Player Names"
+#~ msgstr "ଖେଳାଳୀ ନାମଗୁଡିକ"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1ଟି [ 1ର ସର୍ବମୋଟ]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2ଟି [ 2ଟିର ସର୍ବମୋଟ]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3ଟି [ 3ଟିର ସର୍ବମୋଟ]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4ଟି [4ଟିର ସର୍ବମୋଟ]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5ଟି [5ଟିର ସର୍ବମୋଟ]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6ଟି [6ଟିର ସର୍ବମୋଟ]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "ଏକ ପ୍ରକାରର 3ଟି [ସର୍ବମୋଟ]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "ଏକ ପ୍ରକାରର 4ଟି( ସର୍ବମୋଟ )"
+
+#~ msgid "Full House [25]"
+#~ msgstr "ପୂର୍ଣ୍ଣ ଘର [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "ଛୋଟ ସରଳରେଖା [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "ବଡ ସରଳରେଖା[40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "ଏକ ପ୍ରକାରର 5ଟି  [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "ସୁୟୋଗ (ସର୍ବମୋଟ)"
+
+#~ msgid "Lower Total"
+#~ msgstr "କମ ସର୍ବମୋଟ"
+
+#~ msgid "Grand Total"
+#~ msgstr "ସର୍ବମୋଟ"
+
+#~ msgid "Upper total"
+#~ msgstr "ଅଧିକ ସର୍ବମୋଟ"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "ୟଦି >62 ଅତିରିକ୍ତ ଲାଭାଂଶ"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 ୟୋଡି ସମାନ ରଙ୍ଗ [ସର୍ବମୋଟ]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "ପୂର୍ଣ୍ଣ ଘର [15 + ସର୍ବମୋଟ]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "ପୂର୍ଣ୍ଣ ହାଉସ ସମାନ ରଙ୍ଗର [20 + ସର୍ବମୋଟ ]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "ଫ୍ଲସ (ସବୁ ସମାନ ରଙ୍ଗର) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "ଏକ ପ୍ରକାରର 4ଟି  [25 + ସର୍ବମୋଟ]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "ଏକ ପ୍ରକାରର 5ଟି  [50 + ସର୍ବମୋଟ]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "ଗୋଟିଏ ସ୍କୋର ସ୍ଥାନ ବାଛ"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid "Invalid move."
+#~ msgstr "ଅମାନ୍ଯ ଚାଲ"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "ଗୋଟିଏ ଗାଢରଙ୍ଗର ଖଣ୍ଡକୁ ରଖିବା ପାଳି ଆପଣଙ୍କର"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "ଗୋଟିଏ ଫିକାରଙ୍ଗର ଖଣ୍ଡକୁ ରଖିବା ପାଳି ଆପଣଙ୍କର"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "ଘୁଞ୍ଚାଇବା  %s ପାଇଁ ଅପେକ୍ଷା କରୁଛି"
+
+#~ msgid "Dark's move"
+#~ msgstr "ଗାଢରଙ୍ଗର ଚାଲ"
+
+#~ msgid "Light's move"
+#~ msgstr "ଫିକାରଙ୍ଗର ଚାଲ"
+
+#~ msgid "Dark:"
+#~ msgstr "ଗାଢରଙ୍ଗ:"
+
+#~ msgid "Light:"
+#~ msgstr "ଫିକା:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr " Iagno କୁ ସ୍ବାଗତ!"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "ରିଭର୍ସିର ଗୋଟିଏ ସର୍ବୋତ୍କୃଷ୍ଟ ଭାଷାନ୍ତରରେ ବୋର୍ଡରେ ଆଧିପତ୍ଯ ବିସ୍ତାର କର"
+
+#~ msgid "Light player wins!"
+#~ msgstr "ଫିକାରଙ୍ଗର ଖେଳାଳୀ ଜିତିଛନ୍ତି !"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "ଗାଢରଙ୍ଗର ଖେଳାଳୀ ଜିତିଛନ୍ତି !"
+
+#~ msgid "The game was a draw."
+#~ msgstr "ଖେଳ ଡ୍ର ଥିଲା !"
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "ଫିକାରଙ୍ଗ ପାସ କରିବା ଆବଶ୍ଯକ, ଗାଢରଙ୍ଗର ଚାଲ"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "ଗାଢ ରଙ୍ଗ ପାସ କରିବା ଆବଶ୍ଯକ, ଫିକାରଙ୍ଗର ଚାଲ"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "ଆଏଗ୍ଲୋ ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "_ ଅତିଶୀଘ୍ର ଚାଲ ଉପୟୋଗ କର"
+
+#~ msgid "Animation"
+#~ msgstr "ଜୀବନାୟନ"
+
+#~ msgid "Partial"
+#~ msgstr "ଆଶିଂକ"
+
+#~ msgid "Complete"
+#~ msgstr "ସମାପ୍ତ"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "_ ଛୁରି ଓଲଟବଦଳ କରିବା"
+
+#~ msgid "S_how grid"
+#~ msgstr "ଗ୍ରୀଡ _ଦେଖାଅ"
+
+#~ msgid "_Flip final results"
+#~ msgstr "_ ଶେଷ ଫଳାଫଳକୁ ଓଲଟବଦଳ କର"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_ ଟାଇଲ ସେଟ:"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "୨"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "୪"
+
+#, fuzzy
+#~| msgid "5"
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "୫"
+
+#, fuzzy
+#~| msgid "6"
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "୬"
+
+#, fuzzy
+#~| msgid "7"
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "୭"
+
+#, fuzzy
+#~| msgid "8"
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "୮"
+
+#, fuzzy
+#~| msgid "9"
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "୯"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#, fuzzy
+#~| msgid "1"
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "୧"
+
+#~ msgid "Card Style"
+#~ msgstr "କାର୍ଡ ଶୈଳୀ"
+
+#, fuzzy
+#~| msgid "_Help"
+#~ msgid "_Deal"
+#~ msgstr "ସହାୟତା (_H)"
+
+#~ msgid "_About"
+#~ msgstr "ବିବରଣୀ (_A)"
+
+#, fuzzy
+#~ msgid "_Cancel"
+#~ msgstr "ବାତିଲ କରନ୍ତୁ (_C)"
+
+#, fuzzy
+#~| msgid "Colors"
+#~ msgid "_Close"
+#~ msgstr "ବନ୍ଦ କରନ୍ତୁ (_C)"
+
+#~ msgid "_OK"
+#~ msgstr "ଠିକ ଅଛି (_O)"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "ମନୋନୀତ ଥିମ ପ୍ରତ୍ଯାର୍ପଣ କରିବା ପାଇଁ ବିଫଳ ହେଲା ୤\n"
+#~ "\n"
+#~ " Mahjongg ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି କି ନାହିଁ ଦଯାକରି ୟାଞ୍ଚ କରନ୍ତୁ ୤"
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "ଫାଇଲ ପ୍ରତ୍ଯାର୍ପଣ କରିବା ପାଇଁ ଅସମର୍ଥ:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ " Mahjongg ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି କି ନାହିଁ ଦଯାକରି ୟାଞ୍ଚ କରନ୍ତୁ ୤"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "ଟାଇଲ ସେଟ ଲୋଡ କରିପାରିଲା ନାହିଁ "
+
+#~ msgid "There are no more moves."
+#~ msgstr "ଆଉ ଅଧିକ ଚାଲ ନାହିଁ ୤"
+
+#, fuzzy
+#~ msgid "_New game"
+#~ msgstr "ନୂତନ ଖେଳ (_N)"
+
+#, fuzzy
+#~| msgid "Shuffle mode"
+#~ msgid "_Shuffle"
+#~ msgstr "ବିଶ୍ରୁଙ୍ଖଳିତ ଧାରା"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Mahjongg ସ୍କୋରଗୁଡିକ"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Mahjongg ପସନ୍ଦଗୁଡିକ"
+
+#~ msgid "Tiles"
+#~ msgstr "ଟାଇଲଗୁଡିକ"
+
+#~ msgid "Maps"
+#~ msgstr "ମାନଚିତ୍ରଗୁଡିକ"
+
+#~ msgid "_Select map:"
+#~ msgstr "_ମ୍ଯାପ ମନୋନୀତ କର:"
+
+#~ msgid "Colors"
+#~ msgstr "ରଙ୍ଗ"
+
+#~ msgid "Maps:"
+#~ msgstr "ମ୍ଯାପଗୁଡିକ:"
+
+#~ msgid "Tiles:"
+#~ msgstr "ଟାଇଲଗୁଡିକ:"
+
+#~ msgid "Redo the last move"
+#~ msgstr "ଏହି ଶେଷ ଘୁ଼ଞ୍ଚାଇବାକୁ ପୁନର୍ବାର କର"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "ଟାଇଲ ବାମ:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "ବାମକୁ ଘୁଞ୍ଚେ:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "ମେଳ ଖାଉଥିବା ଟାଇଲର ୟୋଡିକୁ ହଟାଅ ୤"
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "ମେଳଖାଉଥିବା ୟୋଡିକୁ ହଚାଇ ଟାଇଲଗୁଡିକର ରାଶିକୁ ବିଶୃଙ୍ଖଳ କର ୤"
+
+#, fuzzy
+#~| msgid "Easy"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "ସହଜ"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "ଝିଗୁରାଟ"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "ଚାରିଟି ବ୍ରିଜ"
+
+#, fuzzy
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "ମେଘ"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "ଟିକ-ଟାକ-ଟୋ"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "ଲାଲ ଡ୍ରାଗନ"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "ପିରାମିଡର ପ୍ରାଚୀର"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "ଅପ୍ରତିଭ କରୁଥିବା କ୍ରଶ"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "ଜଟିଳ"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "ବୋର୍ଡକୁ ପରିଷ୍କାର କରିବା ପାଇଁ 1000 ପଏଣ୍ଟ ଅତିରିକ୍ତ ଲାଭାଂଶ!"
+
+#~ msgid "Set the theme"
+#~ msgstr "ଥିମ ସ୍ଥିର କର"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "ପଶ୍ଚାତ୍ଗତି ଅନୁରୂପୟୋଗ୍ଯତା ପାଇଁ"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "ଖେଳ ଆକାର(1=ଛୋଟ, 3=ବଡ)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "ରଙ୍ଗୀନ ବଲଗୁଡିକର ସମୂହକୁ ହଟାଇ ସ୍କ୍ରିନକୁ ପରିଷ୍କାର କର"
+
+#~ msgid "Same GNOME"
+#~ msgstr "ସମାନ GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "ବ୍ଯବସ୍ଥାପିତ ବୋର୍ଡର ଉଚ୍ଚତା"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "ଏହାକୁ FALSE କୁ ସେଟ କରିବା ଅର୍ଥ ଖଣ୍ଡଗୁଡିକ ଧୀରେ ପଡେ, କିନ୍ତୁ ମର୍ୟ୍ଯଦାର ସହିତ ୤  TRUE କୁ ସେଟ "
+#~ "କରିବା ଦ୍ବାରା ଖଣ୍ଡଗୁଡିକ ଅତିଶୀଘ୍ର ପଡେ ଏବଂ କମ୍ପନ ସହିତ ୤"
+
+#~ msgid "The board size"
+#~ msgstr "ବୋର୍ଡର ଆକାର"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "ଉପୟୋଗ କରିବା ପାଇଁ ଥିମର ଫାଇଲ ନାମ"
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "ବ୍ଯବସ୍ଥାପିତ ବୋର୍ଡର ଉଚ୍ଚତା, 101 &gt; ଉଚ୍ଚତା &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr "ଉପୟୋଗ କରିବା ପାଇଁ ବୋର୍ଡର ଆକାର 1 = ବ୍ଯବସ୍ଥାପିତ, 2 = ଛୋଟ, 3 = ମଧ୍ଯମ, 4 = ବଡ"
+
+#~ msgid "The theme to use"
+#~ msgstr "ଉପୟୋଗ କରିବା ପାଇଁ ଥିମ"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "ବ୍ଯବସ୍ଥାପିତ ବୋର୍ଡର ଓସାର 101 &gt; ଓସାର &gt; 3."
+
+#~ msgid "Use fast animation"
+#~ msgstr "ଦ୍ରୁତ ଚଳଚିତ୍ର ଉପୟୋଗକର"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "ବ୍ଯବସ୍ଥାପିତ ବୋର୍ଡର ଓସାର"
+
+#~ msgid "No points"
+#~ msgstr "କୌଣସି ପଏଣ୍ଟ ନାହିଁ"
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "ସମାନ GNOME ସ୍କୋର ଗୁଡିକ"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "ଦୁର୍ଭାଗ୍ଯବଶତଃ ଆପଣଙ୍କର ସ୍କୋର ପ୍ରଥମ ଦଶରେ ଆସିଲା ନାହିଁ ୤"
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "ସମାନ GNOME ଥିମ"
+
+#~ msgid "_Theme..."
+#~ msgstr "_ଥିମ ..."
+
+#~ msgid "_Small"
+#~ msgstr "_ଛୋଟ"
+
+#~ msgid "_Large"
+#~ msgstr "_ବଡ"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "_ଦ୍ରୁତ ଚଳଚିତ୍ର"
+
+#~ msgid "No theme data was found."
+#~ msgstr "କୌଣସି ଥିମ ତଥ୍ଯ ମିଳିଲା ନାହିଁ"
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "ଏହି ଖେଳ ଖେଲିବା ସମ୍ଭବ ଅଟେ ୤ ଦଯାକରି ୟାଞ୍ଚ କରନ୍ତୁ ୟେ ଖେଳ ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହୋଇଛି "
+#~ "ଏବଂ ପୁଣିଥରେ ଚେଷ୍ଟା କରନ୍ତୁ ୤"

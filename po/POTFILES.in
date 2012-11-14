@@ -1,0 +1,20 @@
+# List of source files containing translatable strings.
+# Please keep this file in alphabetical order.
+[encoding: UTF-8]
+gnometris/field-noclutter.cpp
+gnometris/gnometris.desktop.in.in
+gnometris/gnometris.schemas.in
+gnometris/main.cpp
+gnometris/renderer-noclutter.cpp
+gnometris/scoreframe.cpp
+gnometris/tetris.cpp
+gnometris/highscores.cpp
+libgames-support/eggdesktopfile.c
+libgames-support/eggsmclient.c
+libgames-support/eggsmclient-xsmp.c
+libgames-support/games-controls.c
+libgames-support/games-files.c
+libgames-support/games-help.c
+libgames-support/games-scores-dialog.c
+libgames-support/games-sound.c
+libgames-support/games-stock.c

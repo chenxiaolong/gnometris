@@ -1,0 +1,1260 @@
+# translation of gnome-games.gnome-2-12.po to Kurdish
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER.
+# Erdal Ronahi <erdal.ronahi@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games.gnome-2-12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2008-01-02 06:03+0100\n"
+"Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin@lists.sourceforge.net>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= n != 1\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Hatiye sekinandin"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr ""
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr ""
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+#, fuzzy
+msgid "Move down"
+msgstr "Berjêr"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+#, fuzzy
+msgid "Drop"
+msgstr "Dev jê berde"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+#, fuzzy
+msgid "Rotate"
+msgstr "Bizivirîne"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+#, fuzzy
+msgid "Pause"
+msgstr "Navber"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:32
+#, fuzzy
+msgid "Joined"
+msgstr "Tune"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:57
+#, fuzzy
+msgid "Lines:"
+msgstr "Xêz"
+
+#: ../gnometris/scoreframe.cpp:68
+#, fuzzy
+msgid "Level:"
+msgstr "Ast:"
+
+#: ../gnometris/tetris.cpp:119
+#, fuzzy
+msgid "_Game"
+msgstr "_Listîk"
+
+#: ../gnometris/tetris.cpp:120
+#, fuzzy
+msgid "_Settings"
+msgstr "_Mîheng"
+
+#: ../gnometris/tetris.cpp:121
+#, fuzzy
+msgid "_Help"
+msgstr "_Alîkarî"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:632
+#, fuzzy
+msgid "Game"
+msgstr "Leyistîk"
+
+#: ../gnometris/tetris.cpp:635
+#, fuzzy
+msgid "Setup"
+msgstr "Sazkirin"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr ""
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr ""
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#, fuzzy
+msgid "Theme"
+msgstr "Dirb"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1390
+#, fuzzy
+msgid "translator-credits"
+msgstr "Spasiya wergêran"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_Mîheng"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "FILE"
+msgstr "NAVÊ DOSIYÊ"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr ""
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:114
+#, fuzzy
+msgid "Time"
+msgstr "Dem"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Skor"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Leyîstika Nû"
+
+#: ../libgames-support/games-scores-dialog.c:538
+#, fuzzy
+msgid "Name"
+msgstr "Nav"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:50
+#, fuzzy
+msgid "Start a new multiplayer network game"
+msgstr "Listîkeke nû bide dest pê kirin"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+#, fuzzy
+msgid "Start a new game"
+msgstr "Listîkeke nû bide dest pê kirin"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:58
+#, fuzzy
+msgid "View the scores"
+msgstr "Skoran bibîne"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:295
+#, fuzzy
+msgid "_Contents"
+msgstr "_Naverok"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr ""
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+#, fuzzy
+msgid "_New"
+msgstr "_Nû"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+#, fuzzy
+msgid "_New Game"
+msgstr "_Listîka nû"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr ""
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr ""
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+#, fuzzy
+msgid "_Restart"
+msgstr "_Ji nû ve bide dest pê kirin"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:309
+#, fuzzy
+msgid "Network _Game"
+msgstr "_Listîka nû"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "_Listîka nû"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Bisekinîne"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr ""
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "Rewş"
+
+#, fuzzy
+#~ msgid "Move here"
+#~ msgstr "Berjor"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#, fuzzy
+#~ msgid "_View"
+#~ msgstr "_Dîtin"
+
+#, fuzzy
+#~ msgid "Restart the current game"
+#~ msgstr "Listîkeke nû bide dest pê kirin"
+
+#, fuzzy
+#~ msgid "_Toolbar"
+#~ msgstr "_Darika amûran"
+
+#, fuzzy
+#~ msgid "Redeal."
+#~ msgstr "Sor"
+
+#~ msgid "Time:"
+#~ msgstr "Dem:"
+
+#, fuzzy
+#~ msgid "NAME"
+#~ msgstr "NAV"
+
+#~ msgid "eight"
+#~ msgstr "heyşt"
+
+#~ msgid "five"
+#~ msgstr "pênc"
+
+#~ msgid "four"
+#~ msgstr "çar"
+
+#~ msgid "nine"
+#~ msgstr "neh"
+
+#~ msgid "seven"
+#~ msgstr "heft"
+
+#~ msgid "six"
+#~ msgstr "şeş"
+
+#~ msgid "ten"
+#~ msgstr "deh"
+
+#~ msgid "three"
+#~ msgstr "sê"
+
+#~ msgid "two"
+#~ msgstr "du"
+
+#~ msgid "<b>Time</b>"
+#~ msgstr "<b>Dem</b>"
+
+#, fuzzy
+#~ msgid "Statistics"
+#~ msgstr "Statîstîk"
+
+#, fuzzy
+#~ msgid "Clock"
+#~ msgstr "Demjimêr"
+
+#, fuzzy
+#~ msgid "Fortunes"
+#~ msgstr "Kumar"
+
+#, fuzzy
+#~ msgid "Kansas"
+#~ msgstr "Qansas"
+
+#, fuzzy
+#~ msgid "Template"
+#~ msgstr "Şablon"
+
+#, fuzzy
+#~ msgid "Show toolbar"
+#~ msgstr "Darikê amûran nîşan bide"
+
+#, fuzzy
+#~ msgid "Double"
+#~ msgstr "Du"
+
+#~ msgid "Error"
+#~ msgstr "Çewtî"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "_Girêbide"
+
+#, fuzzy
+#~ msgid "Reconnecting"
+#~ msgstr "_Girêbide"
+
+#~ msgid "Login"
+#~ msgstr "Têketin"
+
+#~ msgid "Sorry!"
+#~ msgstr "Biborîne!"
+
+#, fuzzy
+#~ msgid "Server:"
+#~ msgstr "Ast:"
+
+#, fuzzy
+#~ msgid "Connect"
+#~ msgstr "_Girêbide"
+
+#, fuzzy
+#~ msgid "Knight"
+#~ msgstr "_Rast"
+
+#, fuzzy
+#~ msgid "Eagle"
+#~ msgstr "Nirx"
+
+#, fuzzy
+#~ msgid "Colonel"
+#~ msgstr "Reng"
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "Giştî"
+
+#, fuzzy
+#~ msgid "Scout"
+#~ msgstr "Skor"
+
+#, fuzzy
+#~ msgid "Scholar"
+#~ msgstr "Skor"
+
+#, fuzzy
+#~ msgid "Launch failed"
+#~ msgstr "Girêdan serneket"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "Tune"
+
+#, fuzzy
+#~ msgid "Set"
+#~ msgstr "Sazkirin"
+
+#, fuzzy
+#~ msgid "Record:"
+#~ msgstr "Sor"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Rewş"
+
+#, fuzzy
+#~ msgid "Leave"
+#~ msgstr "Ast:"
+
+#, fuzzy
+#~ msgid "Seats"
+#~ msgstr "Rewş"
+
+#, fuzzy
+#~ msgid "Homepage:"
+#~ msgstr "_Wêne:"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "_Girêbide"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "_Dîtin"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "_Alîkarî"
+
+#, fuzzy
+#~ msgid "GGZ Help"
+#~ msgstr "_Alîkarî"
+
+#, fuzzy
+#~ msgid "Game Help"
+#~ msgstr "Leyistîk"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "Deng"
+
+#, fuzzy
+#~ msgid "Play Sounds"
+#~ msgstr "Deng"
+
+#, fuzzy
+#~ msgid "Chat Color"
+#~ msgstr "Reng"
+
+#, fuzzy
+#~ msgid "Black Background"
+#~ msgstr "Rengê zemînê"
+
+#, fuzzy
+#~ msgid "White Background"
+#~ msgstr "Rengê zemînê"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "Nav"
+
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "Rewş"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "Vebijêrk"
+
+#, fuzzy
+#~ msgid "Save Chess Game"
+#~ msgstr "Listîkeke nû bide dest pê kirin"
+
+#, fuzzy
+#~ msgid "Load Chess Game"
+#~ msgstr "Listîkeke nû bide dest pê kirin"
+
+#, fuzzy
+#~ msgid "End Game"
+#~ msgstr "Leyistîk"
+
+#, fuzzy
+#~ msgid "Join Game"
+#~ msgstr "Leyistîk"
+
+#, fuzzy
+#~ msgid "Load a saved game"
+#~ msgstr "Listîkeke nû bide dest pê kirin"
+
+#, fuzzy
+#~ msgid "_Join Game"
+#~ msgstr "_Listîk"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "Demjimêr"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "Nav"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "_Listîka nû"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr "Nav"
+
+#, fuzzy
+#~ msgid "_Start"
+#~ msgstr "_Ji nû ve bide dest pê kirin"
+
+#, fuzzy
+#~ msgid "_Ready"
+#~ msgstr "Sor"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr "Biçûk"
+
+#, fuzzy
+#~ msgid "glines|Medium"
+#~ msgstr "Navîn"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "Mezin"
+
+#, fuzzy
+#~ msgid "Preferences"
+#~ msgstr "Vebijêrk"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "Dirb"
+
+#, fuzzy
+#~ msgid "_Image:"
+#~ msgstr "_Wêne:"
+
+#~ msgid "_Medium"
+#~ msgstr "_Navîn"
+
+#, fuzzy
+#~ msgid "Background color"
+#~ msgstr "Rengê zemînê"
+
+#, fuzzy
+#~ msgid "Sound"
+#~ msgstr "Deng"
+
+#~ msgid "Player"
+#~ msgstr "Lîstikvan"
+
+#, fuzzy
+#~ msgid "Appearance"
+#~ msgstr "Rûxsar"
+
+#, fuzzy
+#~ msgid "Red"
+#~ msgstr "Sor"
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Hêşîn"
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "Berjor"
+
+#, fuzzy
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Vebijêrk"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Kesk"
+
+#, fuzzy
+#~ msgid "X"
+#~ msgstr "X"
+
+#, fuzzy
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#, fuzzy
+#~ msgid "_Move"
+#~ msgstr "_Tevbigere"
+
+#, fuzzy
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Darika amûran nîşan bide an veşêre"
+
+#, fuzzy
+#~ msgid "_Background color:"
+#~ msgstr "_Rengê zemînê:"
+
+#, fuzzy
+#~ msgid "Keyboard"
+#~ msgstr "Klavye"
+
+#, fuzzy
+#~ msgid "<none>"
+#~ msgstr "<tune>"
+
+#, fuzzy
+#~ msgid "High Scores"
+#~ msgstr "Skor"
+
+#~ msgid "<i>Easy</i>"
+#~ msgstr "<i>Hesan</i>"
+
+#~ msgid "<i>Hard</i>"
+#~ msgstr "<i>Zehmet</i>"
+
+#~ msgid "_Details"
+#~ msgstr "_Hûragahî"
+
+#~ msgid "_Play"
+#~ msgstr "_Bileyîze"
+
+#~ msgid "_Game List"
+#~ msgstr "_Lîsteya Leyîstokan"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Hesan:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Zehmet:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Navîn:</i>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Krîter:"
+
+#, fuzzy
+#~ msgid "Generate Policy"
+#~ msgstr "Giştî"
+
+#~ msgid "Very Hard"
+#~ msgstr "Gelek Zehmet"
+
+#~ msgid "_Easy"
+#~ msgstr "_Hesan"
+
+#, fuzzy
+#~ msgid "_Generate"
+#~ msgstr "Giştî"
+
+#~ msgid "_Hard"
+#~ msgstr "_Zehmet"
+
+#~ msgid "Difficulty"
+#~ msgstr "Zehmetî"
+
+#, fuzzy
+#~ msgid "Started"
+#~ msgstr "Bizivirîne"
+
+#~ msgid "Date"
+#~ msgstr "Dîrok"
+
+#~ msgid "Hard"
+#~ msgstr "Zehmet"
+
+#~ msgid "Medium"
+#~ msgstr "Navîn"
+
+#~ msgid "Easy"
+#~ msgstr "Hesan"
+
+#~ msgid "_Stop"
+#~ msgstr "_Bi dawî bide"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Careke din nepirse."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s sal"
+#~ msgstr[1] "%(n)s sal"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s meh"
+#~ msgstr[1] "%(n)s meh"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s hefte"
+#~ msgstr[1] "%(n)s hefte"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s saet"
+#~ msgstr[1] "%(n)s saet"
+
+#~ msgid " and "
+#~ msgstr " û "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Today"
+#~ msgstr "Îro"
+
+#, fuzzy
+#~ msgid "New game"
+#~ msgstr "_Listîka nû"
+
+#, fuzzy
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "Statîstîk"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "_Darika Amûran Nîşan bide"
+
+#, fuzzy
+#~ msgid "_Black background"
+#~ msgstr "_Rengê zemînê:"
+
+#, fuzzy
+#~ msgid "_Redo"
+#~ msgstr "Sor"
+
+#~ msgid "Statistics for %s"
+#~ msgstr "Statîstîkên ji bo %s"
+
+#, fuzzy
+#~ msgid "translator_credits"
+#~ msgstr "Spasiya wergêran"
+
+#, fuzzy
+#~ msgid "gnomine|Medium"
+#~ msgstr "Navîn"
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr "Eyarên zîraw"
+
+#, fuzzy
+#~ msgid "Size:"
+#~ msgstr "Mezinahî:"
+
+#, fuzzy
+#~ msgid "0"
+#~ msgstr "0"
+
+#, fuzzy
+#~ msgid "1"
+#~ msgstr "1"
+
+#, fuzzy
+#~ msgid "2"
+#~ msgstr "2"
+
+#, fuzzy
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~ msgid "4"
+#~ msgstr "4"
+
+#, fuzzy
+#~ msgid "5"
+#~ msgstr "5"
+
+#, fuzzy
+#~ msgid "6"
+#~ msgstr "6"
+
+#, fuzzy
+#~ msgid "7"
+#~ msgstr "7"
+
+#, fuzzy
+#~ msgid "8"
+#~ msgstr "8"
+
+#, fuzzy
+#~ msgid "9"
+#~ msgstr "9"
+
+#, fuzzy
+#~ msgid "_Size"
+#~ msgstr "_Mezinahî"
+
+#, fuzzy
+#~ msgid "_Up"
+#~ msgstr "_Jor"
+
+#, fuzzy
+#~ msgid "_Left"
+#~ msgstr "_Çep"
+
+#, fuzzy
+#~ msgid "_Right"
+#~ msgstr "_Rast"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "Reng"
+
+#, fuzzy
+#~ msgid "Tetravex Scores"
+#~ msgstr "Skoran bibîne"
+
+#, fuzzy
+#~ msgid "Success"
+#~ msgstr "Serketîye"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "Skor"
+
+#, fuzzy
+#~ msgid "Tali Preferences"
+#~ msgstr "Vebijêrk"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "Reng"
+
+#, fuzzy
+#~ msgid "Results"
+#~ msgstr "Encam"
+
+#, fuzzy
+#~ msgid "Total"
+#~ msgstr "Hemû"
+
+#, fuzzy
+#~ msgid "Net_work Game"
+#~ msgstr "_Listîka nû"
+
+#, fuzzy
+#~ msgid "_Leave Game"
+#~ msgstr "_Listîka nû"
+
+#, fuzzy
+#~ msgid "Shuffle"
+#~ msgstr "Têkilhev"
+
+#, fuzzy
+#~ msgid "Cloud"
+#~ msgstr "Demjimêr"
+
+#~ msgid ""
+#~ "<span size=\"large\" style=\"italic\" weight=\"bold\">You win!</span>"
+#~ msgstr "Tu serkeftî!"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "Nav"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "Listîkeke nû bide dest pê kirin"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "Rewş"
+
+#, fuzzy
+#~ msgid "New"
+#~ msgstr "Nû"
+
+#, fuzzy
+#~ msgid "Yes"
+#~ msgstr "Erê"
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "Na"
+
+#, fuzzy
+#~ msgid "Device"
+#~ msgstr "Amûr"
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "Neçalak"

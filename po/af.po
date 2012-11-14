@@ -1,0 +1,2097 @@
+# Gnome-games in Afrikaans.
+# Copyright (C) 2007 Samuel Murray
+# This file is distributed under the same license as the Gnome-games package.
+# Samuel Murray <afrikaans@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome-games GNOME TRUNK\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2007-09-06 12:44+0200\n"
+"Last-Translator: Samuel Murray <afrikaans@gmail.com>\n"
+"Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1\n"
+"X-Generator: Translate Toolkit 1.0.1\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr ""
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Speletjie verby"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr ""
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Telling:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Speletjie"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr ""
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr ""
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr ""
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Aktiveer klanke"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "GNOME Games-webwerf"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Samuel Murray\n"
+"Translate.org.za"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, fuzzy, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "%s: nieherkende opsie `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, fuzzy, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "%s: nieherkende opsie `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Geen sleutel nie"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Druk 'n sleutel>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Onbekende bevel"
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr "Kon nie koppel nie"
+
+#: ../libgames-support/games-scores-dialog.c:114
+#, fuzzy
+msgid "Time"
+msgstr "Tyd:"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Telling"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Nuwe speletjie"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Naam"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Bekyk hulp vir hierdie speletjie"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "Beëindig die huidige speletjie"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr "Wissel na volskermmodus"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Kry 'n wenk vir jou volgende skuif"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Verlaat volskermmodus"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Begin 'n nuwe veelspeler-netwerkspeletjie"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "Beëindig die huidige netwerkspeletjie en keer terug na netwerkbediener"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Begin 'n nuwe speletjie"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Laat die speletjie wag"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "Wys 'n lys spelers in die netwerkspeletjie"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Herdoen die ongedane skuif"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Herbegin die speletjie"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "Hervat die wagtende speletjie"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Bekyk die tellings"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Ontdoen die vorige skuif"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Aangaande hierdie speletjie"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "Sluit hierdie venster"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Stel die speletjie op"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Sluit hierdie speletjie af"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Inhoud"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "_Volskerm"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Wenk"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Nuwe"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "_Nuwe speletjie"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "_Herdoen skuif"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Terugstel"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "_Herbegin"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "_Ontdoen skuif"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "_Verlaat volskerm"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "Netwerk_speletjie"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "V_erlaat speletjie"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "Speler_lys"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Laat wag"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "Her_vat"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Tellings"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "_Beëindig speletjie"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, fuzzy, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s is vrye sagteware; jy kan dit herversprei en/of dit wysig ingevolge die "
+"bepalings van die GNU Algemene Publieke Lisensie wat deur die Stigting vir "
+"Vrye Sagteware gepubliseer is, hetsy weergawe 2 van die lisensie of (as jy "
+"wil) enige latere weergawe daarvan."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s word versprei in die hoop dat dit nuttig sal wees, maar SONDER ENIGE "
+"WAARBORG, ja, sonder selfs die geïmpliseerde waarborg van VERHANDELBAARHEID "
+"of GESKIKTHEID VIR 'N SPESIFIEKE DOEL.  Kyk die GNU Algmene Publieke "
+"Lisensie vir meer details."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Daar behoort 'n afskrif van die GNU Algemene Publieke Lisensie saam met %s "
+"versprei te word, maar indien nie, skryf in Engels aan die Stigting vir Vrye "
+"Sagteware by Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor, Boston, MA 02110-1301, Verenigde State van Amerika"
+
+#~ msgid "Player Chat"
+#~ msgstr "Spelergeselsies"
+
+#~ msgid "Occupied"
+#~ msgstr "Beset"
+
+#~ msgid "Empty"
+#~ msgstr "Onbeset"
+
+#~ msgid "Bot"
+#~ msgstr "Bot"
+
+#~ msgid "Reserved"
+#~ msgstr "Gereserveer"
+
+#~ msgid "Abandoned"
+#~ msgstr "Verlate"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "Toekyker"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Player List"
+#~ msgstr "Spelerlys"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Boot player"
+#~ msgstr "Skop speler"
+
+#~ msgid "Sit here"
+#~ msgstr "Sit hier"
+
+#~ msgid "Move here"
+#~ msgstr "Skuif hier"
+
+#~ msgid "Play with bot"
+#~ msgstr "Speel met bot"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Laat reservering verval"
+
+#~ msgid "Remove bot"
+#~ msgstr "Verwyder bot"
+
+#~ msgid "X Padding"
+#~ msgstr "X-kantlyngrootte"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Ekstra ruimte om by die wydtetoewysing te voeg."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Ekstra ruimte om by die hoogtetoewysing te voeg."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Wydte-veelvoud"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "Tot watter veelvoud om die wydte te beperk."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Hoogte-veelvoud"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "Tot watter veelvoud om die hoogte te beperk."
+
+#~ msgid "X align"
+#~ msgstr "X-belyning"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Die horisontale belyning, van 0 (links) tot 1 (regs)"
+
+#~ msgid "Y align"
+#~ msgstr "Y-belyning"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Die vertikale belyning, van 0 (bo) tot 1 (onder)"
+
+#~ msgid "Main game:"
+#~ msgstr "Hoofspeletjie:"
+
+#~ msgid "Card games:"
+#~ msgstr "Kaartspeletjies:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Kaarttemas:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Aangaande FreeCell-patience"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Aangaande AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot is 'n reëlgebaseerde patience-kaartenjin waarop heelwat "
+#~ "verskillende speletjies gespeel kan word.\n"
+#~ "\n"
+#~ "AisleRiot is 'n deel van GNOME Games."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Hierdie speletjie se wenke werk nog nie."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Skuif %s na %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Jy soek tans vir 'n %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Hierdie speletjie kan nie 'n wenk gee nie."
+
+#~ msgid "Play \"%s\""
+#~ msgstr "Speel \"%s\""
+
+#~ msgid "Display cards with \"%s\" card theme"
+#~ msgstr "Wys kaarte met \"%s\"-kaarttema"
+
+#~ msgid "score|%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "'n Skemauitsondering het voorgekom"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Rapporteer seblief hierdie fout aan die ontwikkelaars."
+
+#~ msgid "_Don't report"
+#~ msgstr "_Moenie rapporteer nie"
+
+#~ msgid "_Report"
+#~ msgstr "_Rapporteer"
+
+#~ msgid "_View"
+#~ msgstr "_Aansig"
+
+#~ msgid "_Control"
+#~ msgstr "_Kontrole"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Kies speletjie..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Speel 'n ander speletjie"
+
+#~ msgid "_Recently Played"
+#~ msgstr "_Onlangs gespeel"
+
+#~ msgid "S_tatistics"
+#~ msgstr "S_tatistiek"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Wys speletjie-statistiek"
+
+#~ msgid "_Deal"
+#~ msgstr "_Uitdeel"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Deel volgende kaart of kaarte uit"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Bekyk hulp vir Aisleriot"
+
+#~ msgid "_Card Style"
+#~ msgstr "_Kaartstyl"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Nutsbalk"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Wys of verskuil die nutsbalk"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Kliek om te skuif"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Tel kaarte op en laat los deur te kliek"
+
+#~ msgid "Cannot start the game \"%s\""
+#~ msgstr "Kan nie die speletjie \"%s\" begin nie"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Basiskaart: Aas"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Basiskaart: Boer"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Basiskaart: Heer"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Basiskaart: Dame"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Basiskaart: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Deel nóg kaarte uit"
+
+#~ msgid "Stock left:"
+#~ msgstr "Voorraad oor:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Voorraad oor: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Probeer die kaarte herrangskik"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "'n leë fondasie-stapel"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Deel 'n nuwe kaart uit uit die pak"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Geen wenk tans beskikbaar nie"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Heruitdele oor:"
+
+#~ msgid "Three card deals"
+#~ msgstr "Driekaart-uitdele"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Probeer die kaarte van die fondasie af afwaarts beweeg"
+
+#~ msgid "an empty slot"
+#~ msgstr "'n leë ruimte"
+
+#~ msgid "Deal another round"
+#~ msgstr "Deel nog 'n rondte uit"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "'n leë ruimte op die fondasie"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "'n leë ruimte op die tableau"
+
+#~ msgid "an empty foundation"
+#~ msgstr "'n leë fondasie"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Skuif iets na 'n leë reserwe"
+
+#~ msgid "an empty tableau"
+#~ msgstr "'n leë tableau"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "'n leë onderste ruimte"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "'n leë hoekruimte"
+
+#~ msgid "an empty left slot"
+#~ msgstr "'n leë linkerruimte"
+
+#~ msgid "an empty right slot"
+#~ msgstr "'n leë regterruimte"
+
+#~ msgid "an empty top slot"
+#~ msgstr "'n leë boonste ruimte"
+
+#~ msgid "itself"
+#~ msgstr "homself"
+
+#~ msgid "Base Card: "
+#~ msgstr "Basiskaart: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Skuif afval terug na voorraad"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Reserwe oor:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "leë ruimte op fondasie"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "leë ruimte op tableau"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Skuif 'n kaart na die fondasie"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Skuif iets na die leë tableau-ruimte"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Konsekwentheid is die geheim"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Kaarte oor: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Deel weer uit."
+
+#~ msgid "the foundation pile"
+#~ msgstr "die fondasie-stapel"
+
+#~ msgid "Deal a card"
+#~ msgstr "Deel 'n kaart uit"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Skuif ~a na 'n leë fondasie"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "'n leë ruimte op tableau"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Skuif 'n heer na die leë tableau-ruimte"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Ek is nie seker nie"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Verwyder die ase"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Verwyder die agts"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Verwyder die vywe"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Verwyder die viere"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Verwyder die boere"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Verwyder die here"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Verwyder die neges"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Verwyder die dames"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Verwyder die sewes"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Verwyder die sesse"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Verwyder die tiene"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Verwyder die drieë"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Verwyder die twees"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Sit kaarte terug op voorraad"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Oorweeg dit om iets na 'n leë ruimte te skuif"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Skuif ~a van die bord af"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Geen skuiwe moontlik nie. Ontdoen of begin oor."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Die speletjie het geen oplossing nie. Ontdoen of begin oor."
+
+#~ msgid "an empty reserve"
+#~ msgstr "'n leë reserwe"
+
+#~ msgid "an open tableau"
+#~ msgstr "'n oop tableau"
+
+#~ msgid "the foundation"
+#~ msgstr "die fondasie"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Voeg by die reeks in ry ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Dubbelkliek enige kaart om weer uit te deel."
+
+#~ msgid "No hint available."
+#~ msgstr "Geen wenk beskikbaar nie."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Plaas 'n twee in die linkerste ruimte van ry ~a."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Plaas die ~a langs 'n ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Lukraak gapings tydens heruitdeel"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Skuif 'n kaart uit die reserwe na die leë tableau-ruimte"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Kies 'n kaart uit die reserwe vir eerste fondasie-stapel"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "na die leë tableau-ruimte"
+
+#~ msgid "Deal another card"
+#~ msgstr "Deel nog 'n kaart uit"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Voorraad oor: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Deel nog 'n hand uit"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Skuif 'n kaart of bousel kaarte na die leë ruimte"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Skuif kaart uit afval"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Skuif afval na voorraad"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "'n leë tableau-ruimte"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Deel 'n nuwe kaart uit"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Voorraad oor: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Geen heruitdele nie"
+
+#~ msgid "Single card deals"
+#~ msgstr "Enkelkaart-uitdele"
+
+#~ msgid "Base Card:"
+#~ msgstr "Basiskaart:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Probeer om die klede in die volgorde te plaas wat die natuurlikste by die "
+#~ "huidige uitleg pas."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Deel nuwe kaarte uit uit die pak"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Heruitdele oor: ~a"
+
+#~ msgid "something"
+#~ msgstr "iets"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Skuif ~a uit die voorraad na die leë rand of tableau-ruimte"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Skuif ~a na 'n leë veld"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Plaas kaarte op die tableau om pokerhande te vorm"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Skommelmodus"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "'n leë tableau-stapel"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Deel die kaarte uit"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Herskommel kaarte"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Skuif afval na 'n reserwe-ruimte"
+
+#~ msgid "empty foundation"
+#~ msgstr "leë fondasie"
+
+#~ msgid "Four Suits"
+#~ msgstr "Vier klede"
+
+#~ msgid "One Suit"
+#~ msgstr "Een kleed"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Plaas iets op leë ruimte"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Vul seblief eers leë stapel in."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Probeer kaart-stapels rond beweeg"
+
+#~ msgid "Two Suits"
+#~ msgstr "Twee klede"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Laat tydelike ruimtes toe"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Skuif 'n kaart of 'n leë tydelike ruimte"
+
+#~ msgid "No hint available"
+#~ msgstr "Geen wenk beskikbaar nie"
+
+#~ msgid "and all cards below it"
+#~ msgstr "en alle kaarte onder dit"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "leë ruimte(s)"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Deel 'n nuwe uit uit die pak"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Pas die twee boonste kaarte van die afval."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Telling volgens maler"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Progressiewe rondtes"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "geskikte fondasie-stapel"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Skuif 'n bousel kaarte na die leë tableau-ruimte"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "die geskikte fondasie-stapel"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Kon nie aan bediener koppel nie: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Jou nuwe wagwoord is %s"
+
+#~ msgid "New password"
+#~ msgstr "Nuwe wagwoord"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Spelers op bediener: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Huidige kamer: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Jy't aangesluit by kamer \"%s\"."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Kon nie by kamer aansluit nie: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ Gaming Zone"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Jy kan nie gesels as jy nie in 'n kamer is nie."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Jy het nie toestemming om hier te gesels nie."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Geen private geselsies by die tafel nie!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Daardie speler is nie in die kamer nie!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Kon nie die geselsie stuur nie."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Jy is nie by 'n tafel nie."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Geselsie het misluk: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "Kon nie tafel laat loop nie: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Jy het by die tafel %d aangesluit."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Kon nie by tafel aansluit nie: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "Jy is deur %s van die tafel geskop."
+
+#~ msgid "You have left the table."
+#~ msgstr "Jy het die tafel verlaat."
+
+#~ msgid "The game is over."
+#~ msgstr "Die speletjie is verby."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "Daar was fout met die speletjiesbediener."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Kon nie tafel verlaat nie: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Huidige kamer:"
+
+#~ msgid "**none**"
+#~ msgstr "**geen**"
+
+#~ msgid "Offline"
+#~ msgstr "Aflyn"
+
+#~ msgid "Connecting"
+#~ msgstr "Koppel tans"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Herkoppel tans"
+
+#~ msgid "Online"
+#~ msgstr "Aanlyn"
+
+#~ msgid "Logging In"
+#~ msgstr "Meld tans aan"
+
+#~ msgid "Logged In"
+#~ msgstr "Aangemeld"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Kamer"
+
+#~ msgid "Chatting"
+#~ msgstr "Gesels tans"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Tafel"
+
+#~ msgid "Playing"
+#~ msgstr "Speel tans"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Tafel"
+
+#~ msgid "Logging Out"
+#~ msgstr "Meld tans af"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Bedienerfout: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Van bediener ontkoppel."
+
+#~ msgid "Login"
+#~ msgstr "Aanmeld"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Daardie gebruikernaam word reeds gebruik."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Stawing het misluk.\n"
+#~ "Gee seblief die regte wagwoord."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Die gebruikernaam is te lank!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Ongeldige gebruikernaam, moenie spesiale karakters gebruik nie!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Aanmeld het om onbekende rede misluk: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "Netwerkspeletjie"
+
+#~ msgid "Server Profile"
+#~ msgstr "Bedienerprofiel"
+
+#~ msgid "Profile:"
+#~ msgstr "Profiel:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "Redigeer profiele"
+
+#~ msgid "Server:"
+#~ msgstr "Bediener:"
+
+#~ msgid "Port:"
+#~ msgstr "Poort:"
+
+#~ msgid "User Information"
+#~ msgstr "Gebruikerinligting"
+
+#~ msgid "Username:"
+#~ msgstr "Gebruikernaam:"
+
+#~ msgid "Password:"
+#~ msgstr "Wagwoord:"
+
+#~ msgid "Email:"
+#~ msgstr "E-pos:"
+
+#~ msgid "Authentication type"
+#~ msgstr "Stawingtipe"
+
+#~ msgid "Normal Login"
+#~ msgstr "Gewone aanmelding"
+
+#~ msgid "Guest Login"
+#~ msgstr "Gasteaanmelding"
+
+#~ msgid "First-time Login"
+#~ msgstr "Toetreeaanmelding"
+
+#~ msgid "Connect"
+#~ msgstr "Koppel"
+
+#~ msgid "Wizard"
+#~ msgstr "Slimmerd"
+
+#~ msgid "Deity"
+#~ msgstr "Allesweet"
+
+#~ msgid "Sentinel"
+#~ msgstr "Brandwag"
+
+#~ msgid "Captain"
+#~ msgstr "Kaptein"
+
+#~ msgid "Knight"
+#~ msgstr "Ridder"
+
+#~ msgid "Angel"
+#~ msgstr "Engel"
+
+#~ msgid "Silverlord"
+#~ msgstr "Silwerheer"
+
+#~ msgid "Eagle"
+#~ msgstr "Arend"
+
+#~ msgid "Vampire"
+#~ msgstr "Vampier"
+
+#~ msgid "Chief"
+#~ msgstr "Stamhoof"
+
+#~ msgid "Colonel"
+#~ msgstr "Kolonel"
+
+#~ msgid "General"
+#~ msgstr "Generaal"
+
+#~ msgid "Major"
+#~ msgstr "Majoor"
+
+#~ msgid "Scout"
+#~ msgstr "Skout"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Luitenant"
+
+#~ msgid "Stalker"
+#~ msgstr "Bekruiper"
+
+#~ msgid "Scientist"
+#~ msgstr "Wetenskaplike"
+
+#~ msgid "Scholar"
+#~ msgstr "Slimkop"
+
+#~ msgid "Entity"
+#~ msgstr "Entiteit"
+
+#~ msgid "Creator"
+#~ msgstr "Skepper"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ-gemeenskap (vinnig)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Plaaslike ontwikkelaarbediener"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Dit is die eerste keer wat jy die GTK+ GGZ Gaming Zone-kliënt laat loop. "
+#~ "Wil jy graag 'n paar verstek-bedienerprofiele skep?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <gebruikernaam> <boodskap> . Por 'n speler privaat"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <boodskap> .......... Boodskap aan jou tafel"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <boodskap> ........... Admin-bevel"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <gebruikernaam> .......... Biep 'n speler"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... Kry hulp"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. Kry lys van jou vriende"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... Lys van mense wat jy ignoreer"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <gebruikernaam> .......... Skop 'n speler uit die kamer"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr ""
+#~ "/gag <gebruiker> ........... Muilband 'n speler om te voorkom dat hulle "
+#~ "praat"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <gebruiker> ......... Haal die muilband af sodat 'n speler kan "
+#~ "praat"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <gebruikernaam> ........... Verban 'n speler uit die kamer"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Jy het 'n onbekende boodskap van %s ontvang."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "Jy is deur %s gebiep."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Gebruik: /msg <gebruikernaam> <boodskap>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Stuur 'n private boodskap aan 'n gebruiker op die netwerk."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Biep gestuur aan %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (aangemeld)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (afgemeld)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Geselsiebevele"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <aksie> .............. Stuur 'n aksie"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "Het %s by jou vriendelys gevoeg."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "Het %s van jou vriendelys verwyder."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "Het %s by jou ignoreerlys gevoeg."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "Het %s van jou ignoreerlys verwyder."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Mense wat tans jou vriende is"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Mense wat jy tans ignoreer"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Meer as een passing:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Jy het nie hierdie speletjie nie. Jy kan dit aflaai\n"
+#~ "van %s af."
+
+#~ msgid "Launch Error"
+#~ msgstr "Kon nie laat loop nie"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Kon nie speletjiemodule uitvoer nie.\n"
+#~ " Laatloop gestaak."
+
+#~ msgid "Launched game"
+#~ msgstr "Het speletjie laat loop"
+
+#~ msgid "Launch failed"
+#~ msgstr "Kon nie laat loop nie"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Jy kan net een speletjie op 'n slag speel."
+
+#~ msgid "Game Error"
+#~ msgstr "Spelfout"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Jy is steeds by 'n tafel nie."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Jy moet in 'n kamer wees om 'n speletjie te laat loop.\n"
+#~ "Laatloop gestaak"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Geen tipes speletjies vir hierdie bediener gedefinieer nie.\n"
+#~ "Laatloop gestaak."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Hierdie speletjie werk nie met toekyker nie."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Jy moet die GGZ-kliënt direk laat loop om\n"
+#~ "hierdie speletjie te kan speel."
+
+#~ msgid "About"
+#~ msgstr "Aangaande"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Boodskap van die dag"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Kamerfiltering werk nog nie. Indien\n"
+#~ "jy hulp verlang, roer jou riete na\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Werk nog nie"
+
+#~ msgid "Description"
+#~ msgstr "Beskrywing"
+
+#~ msgid "Web Address"
+#~ msgstr "Webadres"
+
+#~ msgid "Author"
+#~ msgstr "Outeur"
+
+#~ msgid "Game Types"
+#~ msgstr "Speletjiestipes"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Kamerlys-filter:"
+
+#~ msgid "Set"
+#~ msgstr "Stel"
+
+#~ msgid "Player Information"
+#~ msgstr "Spelerinligting"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Spelervatsel:"
+
+#~ msgid "Table:"
+#~ msgstr "Tafel:"
+
+#~ msgid "Account:"
+#~ msgstr "Rekening:"
+
+#~ msgid "Record:"
+#~ msgstr "Rekord:"
+
+#~ msgid "Rating:"
+#~ msgstr "Gradering:"
+
+#~ msgid "Rank:"
+#~ msgstr "Rang:"
+
+#~ msgid "Message:"
+#~ msgstr "Boodskap:"
+
+#~ msgid "Unknown"
+#~ msgstr "Onbekend"
+
+#~ msgid "Registered"
+#~ msgstr "Geregistreer"
+
+#~ msgid "Guest"
+#~ msgstr "Gas"
+
+#~ msgid "Host"
+#~ msgstr "Gasheer"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrateur"
+
+#~ msgid "Friends"
+#~ msgstr "Vriende"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignoreer"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Statistiek"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Met watter kliënt wil jy graag hierdie speletjie speel?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Moenie weer vra nie."
+
+#~ msgid "Join"
+#~ msgstr "Sluit aan"
+
+#~ msgid "Leave"
+#~ msgstr "Verlaat"
+
+#~ msgid "No description available."
+#~ msgstr "Geen beskrywing beskikbaar nie."
+
+#~ msgid "Seats"
+#~ msgstr "Sitplekke"
+
+#~ msgid "Room Information"
+#~ msgstr "Kamerinligting"
+
+#~ msgid "Game Name:"
+#~ msgstr "Speletjienaam:"
+
+#~ msgid "Author:"
+#~ msgstr "Outeur:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Tuisblad:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Kamerbeskrywing:"
+
+#~ msgid "This room has no game"
+#~ msgstr "Hierdie kamer het geen speletjie nie"
+
+#~ msgid "Unknown room"
+#~ msgstr "Onbekende kamer"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Jy kan nie by 'n kamer aansluit nie; jy's nie aangemeld nie"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Jy's reeds tussen kamers"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Jy kan nie van kamer verwissel terwyl jy 'n speletjie speel nie"
+
+#~ msgid "Unknown error"
+#~ msgstr "Onbekende fout"
+
+#~ msgid "Error joining room"
+#~ msgstr "Kon nie by kamer aansluit nie"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Ander kamers"
+
+#~ msgid "Room"
+#~ msgstr "Kamer"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Tipe speletjie:  %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Outeur:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Beskrywing:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Tuisblad:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Kon nie tafel laat loop nie.\n"
+#~ " Laatloop gestaak."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Ongeldige getal botte gespesifiseer"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Kon nie spelmodule laat loop nie."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Sitplektoewysing"
+
+#~ msgid "Game Type:"
+#~ msgstr "Tipe speletjie:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Getal sitplekke"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrywing:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Sitplek %d:"
+
+#~ msgid "Computer"
+#~ msgstr "Rekenaar"
+
+#~ msgid "Open"
+#~ msgstr "Onbeset"
+
+#~ msgid "Reserved for"
+#~ msgstr "Gereserveer vir"
+
+#~ msgid "Game Description   "
+#~ msgstr "Spelbeskrywing   "
+
+#~ msgid "Launch"
+#~ msgstr "Laat loop"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Is jy seker jy wil afsluit?"
+
+#~ msgid "Quit?"
+#~ msgstr "Afsluit?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Bedienerstatistiek werk nog nie. Indien\n"
+#~ "jy wil help, roer jou riete na\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Spelerstatistiek werk nog nie. Indien\n"
+#~ "jy wil help, roer jou riete na\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Jy moet 'n tafel merk voor jy daarby kan aansluit."
+
+#~ msgid "Error Joining"
+#~ msgstr "Kon nie aansluit nie"
+
+#~ msgid "That table is full."
+#~ msgstr "Daardie tafel is vol."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Jy moet 'n tafel merk voor jy dit kan dophou."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Kon nie toekyk nie"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Kon nie by tafel aansluit nie.\n"
+#~ "Aansluit gestaak."
+
+#~ msgid "Join Error"
+#~ msgstr "Aansluitfout"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Ontkoppel van die GGZ Gaming Zone-bediener"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Begin 'n nuwe speletjie by 'n nuwe tafel speel"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Sluit aan by 'n bestaande speletjie"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Hou 'n bestaande speletjie dop - word 'n toekyker by die tafel"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Verlaat die speletjie wat jy tans speel"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "Wys die eienskappedialoog om die kliëntinstellings te verander"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "Wys die speletjiestatistiek vir die huidige kamer se tipe speletjie"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Sluit die GGZ-kliënt af."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Saamgestel met ontfouting."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Ontkoppel"
+
+#~ msgid "Quit"
+#~ msgstr "Afsluit"
+
+#~ msgid "Watch"
+#~ msgstr "Dophou"
+
+#~ msgid "Edit"
+#~ msgstr "Redigeer"
+
+#~ msgid "Properties"
+#~ msgstr "Eienskappe"
+
+#~ msgid "View"
+#~ msgstr "Bekyk"
+
+#~ msgid "Room List"
+#~ msgstr "Kamerlys"
+
+#~ msgid "Server Stats"
+#~ msgstr "Bedienerstatistiek"
+
+#~ msgid "Player Stats"
+#~ msgstr "Spelerstatistiek"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "Hulp"
+
+#~ msgid "Contents"
+#~ msgstr "Inhoud"
+
+#~ msgid "Send"
+#~ msgstr "Stuur"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Eienskappe bygewerk"
+
+#~ msgid "Confirm:"
+#~ msgstr "Bevestig:"
+
+#~ msgid "Modify"
+#~ msgstr "Wysig"
+
+#~ msgid "Servers"
+#~ msgstr "Bediener"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Geselsiefont:"
+
+#~ msgid "Change"
+#~ msgstr "Verander"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Ignoreer aansluit/weggaan-boodskappe"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Spletjieklanke"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Outo-inkeep"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Tydstempel geselsies"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Reëlvou"
+
+#~ msgid "Chat Color"
+#~ msgstr "Geselsiekleur"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Verstekgeselsiekleur vir aan jou vriende"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Geselsiekleur vir wanneer jou naam getik word"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Geselsiekleur vir alle ander geselsies"
+
+#~ msgid "Normal Color"
+#~ msgstr "Gewone kleur"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Merkkleur"
+
+#~ msgid "Friend Color"
+#~ msgstr "Vriendkleur"
+
+#~ msgid "Black Background"
+#~ msgstr "Swart agtergrond"
+
+#~ msgid "White Background"
+#~ msgstr "Wit agtergrond"
+
+#~ msgid "Chat"
+#~ msgstr "Gesels"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "Al die volgende inligting is opsioneel."
+
+#~ msgid "Name:"
+#~ msgstr "Naam:"
+
+#~ msgid "City:"
+#~ msgstr "Stad:"
+
+#~ msgid "State:"
+#~ msgstr "Provinsie:"
+
+#~ msgid "Country:"
+#~ msgstr "Land:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Kommentaar, stokperdjies, ens."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Enkelkliek-kamerbinnekom"
+
+#~ msgid "Display All"
+#~ msgstr "Wys alles"
+
+#~ msgid "Display New"
+#~ msgstr "Wys nuwes"
+
+#~ msgid "Display Important"
+#~ msgstr "Wys belangrikes"
+
+#~ msgid "Display None"
+#~ msgstr "Wys geen"
+
+#~ msgid "Options"
+#~ msgstr "Opsies"
+
+#~ msgid "Select Font"
+#~ msgstr "Kies font"
+
+#~ msgid "Unknown negotiation"
+#~ msgstr "Onbekende onderhandeling"
+
+#~ msgid "Already logged in"
+#~ msgstr "Reeds aangemeld"
+
+#~ msgid "The password was incorrect"
+#~ msgstr "Die wagwoord is verkeerd"
+
+#~ msgid "Name is already taken"
+#~ msgstr "Naam is reeds geneem"
+
+#~ msgid "This name is already registered so cannot be used by a guest"
+#~ msgstr ""
+#~ "Hierdie naam is reeds geregistreer, en kan dus nie deur 'n gas gebruik "
+#~ "word nie"
+
+#~ msgid "No such name was found"
+#~ msgstr "Daardie naam is nie gevind nie"
+
+#~ msgid "Name too long"
+#~ msgstr "Naam te lank"
+
+#~ msgid "Name contains forbidden ASCII characters"
+#~ msgstr "Naam bevat verbode ASCII-karakters"
+
+#~ msgid "Missing password or other bad options."
+#~ msgstr "Vermiste wagwoord of ander slegte opsies."
+
+#~ msgid "Unknown login error"
+#~ msgstr "Onbekende aanmeldfout"
+
+#~ msgid "Room full"
+#~ msgstr "Kamer vol"
+
+#~ msgid "Can't change rooms while at a table"
+#~ msgstr "Kan nie van kamers verwissel terwyl by 'n tafel nie"
+
+#~ msgid "Can't change rooms while joining/leaving a table"
+#~ msgstr ""
+#~ "Kan nie van kamers verwissel terwyl by 'n tafel aansluit of dit verlaat "
+#~ "nie"
+
+#~ msgid "Bad room number"
+#~ msgstr "Slegte kamernommer"
+
+#~ msgid "Insufficient permissions, room access is restricted"
+#~ msgstr "Onvoldoende toestemming, kamertoegang is beperk"
+
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Onbekende kameraansluitfout"
+
+#~ msgid "Protocol mismatch"
+#~ msgstr "Protokols pas nie"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: opsie `%s' is dubbelsinnig\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: opsie `--%s' laat nie 'n argument toe nie\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: opsie `%c%s' laat nie 'n argument toe nie\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: opsie `%s' vereis 'n argument\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: nieherkende opsie `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: onwettige opsie -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: ongeldige opsie -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: opsie vereis 'n argument -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: opsie `-W %s' is dubbelsinnig\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: opsie `-W %s' laat nie 'n argument toe nie\n"
+
+#~ msgid "List of players:"
+#~ msgstr "Lys van spelers:"
+
+#~ msgid "Card Style"
+#~ msgstr "Kaartstyl"
+
+#~ msgid "Error playing sound: %s\n"
+#~ msgstr "Kon nie klank speel nie: %s\n"
+
+#~ msgid "_About"
+#~ msgstr "_Aangaande"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Kanselleer"
+
+#~ msgid "_Close"
+#~ msgstr "_Sluit"
+
+#~ msgid "_OK"
+#~ msgstr "_Oukei"

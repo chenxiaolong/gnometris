@@ -1,0 +1,3 @@
+gnometris/gnometris.desktop.in
+gnometris/blockops.cpp
+gnometris/renderer.cpp

@@ -1,0 +1,5923 @@
+# Indonesian translation for gnome-sudoku
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the gnome-sudoku package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-sudoku\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2007-04-21 08:34+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=(0);\n"
+"X-Rosetta-Export-Date: 2007-04-23 05:58:10+0000\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Istirahat"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Permainan Usai"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Paskan blok jatuh bersamaan"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "Gambar blok"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "Gambar blok."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "Tema yang digunakan untuk menggambar blok"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Nama tema yang digunakan untuk menggambar blok dan latar belakang."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Tingkatan untuk mulai"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Tingkatan untuk mulai."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "Apakah menggunakan gambar latar"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+"Ini memilih apakah menggambar latar belakang di atas warna latar belakang."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "Warna latar belakang"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Warna latar belakang, dalam bentuk yang dimengerti gdk_color_parse."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "Lihat blok selanjutnya atau tidak"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "Lihat blok selanjutnya atau tidak."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "Apakah menyediakan target"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+"Apakah menyediakan penjelasan grafis di mana sebuah blok akan mendarat."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "Gunakna warna acak pada blok atau tidak"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "Gunakan warna acak pada blok atau tidak."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "Berlawanan jarum jam atau tidak"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "Berlawanan jarum jam atau tidak."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "Jumlah baris yang diisi"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+"Jumlah baris yang sudah diisikan dengan balok-balok pada awal permainan."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "Kerapatan baris yang sudah diisikan"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Kerapatan blok pada baris yang sudah diisikan pada awal permainan. Angka "
+"bernilai antara 0 (tidak ada blok) hingga 10 (baris sudah komplit diisi)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Pindah kiri"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Tekan untuk pindah ke kiri."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Pindah kanan"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Tekan untuk pindah ke kanan."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Pindah bawah"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Tekan untuk pindah ke bawah."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Jatuh"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Tekan tombol untuk menjatuhkan"
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+#, fuzzy
+msgid "Rotate"
+msgstr "Dimulai"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Tekan tombol untuk berputar."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+#, fuzzy
+msgid "Pause"
+msgstr "Istirahat"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Tekan tombol untuk istirahat."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "Tentukan tingkat mulai (1 atau lebih)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "TINGKAT"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+#, fuzzy
+msgid "Plain"
+msgstr "Sedang bermain "
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Gabung"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+#, fuzzy
+msgid "Score:"
+msgstr "Nilai"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Jalur:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Level:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Permainan"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Seting"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "Bantuan"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Pengaturan Gnometris"
+
+#: ../gnometris/tetris.cpp:632
+#, fuzzy
+msgid "Game"
+msgstr "_Permainan"
+
+#: ../gnometris/tetris.cpp:635
+#, fuzzy
+msgid "Setup"
+msgstr "_Stop"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "_Jumlah baris yang sudah diisikan:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Kerapatan blok pada baris yang sudah diisikan:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_Tingkatan awal:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Operasi"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Aktifkan suara"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_Lihat blok selanjutnya"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "G_unakan warna acak pada blok"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "Puta_r blok berlawanan jarum jam"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "Tampilkan _di mana blok akan mendarat"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Tema"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Kendali"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Kendali Keyboard"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Gaya Block"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+#, fuzzy
+msgid "GNOME Games web site"
+msgstr "Server permainan GNOME"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Mohammad DAMT <mdamt@bisnisweb.com>\n"
+"Ahmad Riza H Nst  <rizahnst@gnome.org>\n"
+"http://id.gnome.org/"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Perolehan Angka Gnometris"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_Seting"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "Pilih konfigurasi permainan"
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "FILE"
+msgstr "NAMAFILE"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+#, fuzzy
+msgid "No key"
+msgstr "Tidak Ada Penjejak"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Tekan Tombol>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Perintah tidak diketahui"
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr ""
+"Tidak bisa membaca gambar:\n"
+"%s"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Waktu"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Nilai"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Permainan Baru"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Nama"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Tampilkan bantuan untuk gim ini"
+
+#: ../libgames-support/games-stock.c:46
+#, fuzzy
+msgid "End the current game"
+msgstr "Cetak permainan yang sedang berjalan"
+
+#: ../libgames-support/games-stock.c:47
+#, fuzzy
+msgid "Toggle fullscreen mode"
+msgstr "Tinggalkan mode layar penuh"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Petunjuk untuk langkah berikutnya"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Tinggalkan mode layar penuh"
+
+#: ../libgames-support/games-stock.c:50
+#, fuzzy
+msgid "Start a new multiplayer network game"
+msgstr "Mulai gim baru"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Mulai gim baru"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Istirahat sebentar"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Jadikan lagi langkah terakhir"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Ulangi gim"
+
+#: ../libgames-support/games-stock.c:57
+#, fuzzy
+msgid "Resume the paused game"
+msgstr "Melanjutkan permainan yang sebelumnya telah disimpan."
+
+#: ../libgames-support/games-stock.c:58
+#, fuzzy
+msgid "View the scores"
+msgstr "Nilai Tertinggi"
+
+#: ../libgames-support/games-stock.c:59
+#, fuzzy
+msgid "Undo the last move"
+msgstr "Batalkan langkah terakhir"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Tentang permainan ini"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Konfigurasikan permainan"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Keluar game ini"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Isi"
+
+#: ../libgames-support/games-stock.c:296
+#, fuzzy
+msgid "_Fullscreen"
+msgstr "Layar Penuh"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "Petunjuk"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+#, fuzzy
+msgid "_New"
+msgstr "_Tampil"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+#, fuzzy
+msgid "_New Game"
+msgstr "Permainan Baru"
+
+#: ../libgames-support/games-stock.c:302
+#, fuzzy
+msgid "_Redo Move"
+msgstr "_Ulangi"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Ulangi"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "_Restart"
+
+#: ../libgames-support/games-stock.c:307
+#, fuzzy
+msgid "_Undo Move"
+msgstr "_Batal"
+
+#: ../libgames-support/games-stock.c:308
+#, fuzzy
+msgid "_Leave Fullscreen"
+msgstr "Layar Penuh"
+
+#: ../libgames-support/games-stock.c:309
+#, fuzzy
+msgid "Network _Game"
+msgstr "Permainan Baru"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "Permainan Baru"
+
+#: ../libgames-support/games-stock.c:311
+#, fuzzy
+msgid "Player _List"
+msgstr "Pemain"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Istirahat"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "Lanj_utkan"
+
+#: ../libgames-support/games-stock.c:314
+#, fuzzy
+msgid "_Scores"
+msgstr "Nilai"
+
+#: ../libgames-support/games-stock.c:315
+#, fuzzy
+msgid "_End Game"
+msgstr "_Permainan"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Player Chat"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "Reserved"
+#~ msgstr "tujuh"
+
+#, fuzzy
+#~ msgid "Spectator"
+#~ msgstr "Elevator"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Player List"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Sit here"
+#~ msgstr "tiga"
+
+#, fuzzy
+#~ msgid "Move here"
+#~ msgstr "Pindah kiri"
+
+#, fuzzy
+#~ msgid "Drop reservation"
+#~ msgstr "Operasi"
+
+#, fuzzy
+#~ msgid "Remove bot"
+#~ msgstr "Buang semua as"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Ruang tambahan untuk menambah alokasi lebar."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Ruang lebih untuk ditambahkan ke alokasi tinggi"
+
+#~ msgid "X align"
+#~ msgstr "Batas X"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Batas datar, dari 0 (kiri) ke 1 (kanan)"
+
+#~ msgid "Y align"
+#~ msgstr "Batas Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Batas tegak, dari 0 (atas) ke 1 (bawah)"
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Daftar kata yang dalam bentuk quintuple: nama, menang, total  permainan, "
+#~ "waktu terbaik (dalam detik) dan waktu terburuk (juga dalam detik). Game "
+#~ "yang tidak dimainkan tidak ditampilkan."
+
+#, fuzzy
+#~ msgid "Recently Played Games"
+#~ msgstr "Nama Pemain"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Pilih gaya pengendalian"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Pilih apakah ingin menyeret kartu atau meng-klik pada sumber baru "
+#~ "kemudian ke tujuan."
+
+#, fuzzy
+#~ msgid "Statistics of games played"
+#~ msgstr "Statistik untuk %s"
+
+#~ msgid "The game file to use"
+#~ msgstr "File gim yang akan dimainkan"
+
+#~ msgid "The height of the main window."
+#~ msgstr "Tinggi jendela utama."
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Nama berkas dengan grafis untuk kartu."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Nama file skema yang berisi permainan solitaire."
+
+#~ msgid "The width of the main window."
+#~ msgstr "Lebar jendela utama."
+
+#~ msgid "Theme file name"
+#~ msgstr "Nama berkas tema"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Apakah akan menampilkan panel  alat"
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Apakah akan menampilkan panel  alat."
+
+#~ msgid "Window height"
+#~ msgstr "Tinggi jendela"
+
+#~ msgid "Window width"
+#~ msgstr "Lebar jendela"
+
+#, fuzzy
+#~ msgid ""
+#~ "A scheme exception occurred and we were unable to create a temporary file "
+#~ "to report it:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Pengecualian skema terjadi dan kita tidak bisa membuat berkas sementara "
+#~ "untuk melaporkannya:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Congratulations!!!"
+#~ msgstr "Selamat!!!"
+
+#~ msgid "You have won."
+#~ msgstr "Anda menang."
+
+#~ msgid "There are no more moves."
+#~ msgstr "Tidak ada jalan lagi."
+
+#, fuzzy
+#~ msgid "Select Game"
+#~ msgstr "Permainan Baru"
+
+#~ msgid ""
+#~ "The game is over.\n"
+#~ "No hints are available"
+#~ msgstr ""
+#~ "Permainan telah usai.\n"
+#~ "Tidak ada petunjuk yang tersedia"
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Permainan ini tidak mendukung petunjuk"
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Pindahkan %s ke %s."
+
+#~ msgid "Move %s %s."
+#~ msgstr "Pindahkan %s %s."
+
+#, fuzzy
+#~ msgid ""
+#~ "This game uses a deprecated hint method (case 3).\n"
+#~ "Please file a bug at http://bugzilla.gnome.org including this message "
+#~ "and\n"
+#~ "the name of the game you were playing (look in the title bar if you \n"
+#~ "aren't sure)."
+#~ msgstr ""
+#~ "Permainan ini menggunakan metoda bermain yang usang (kasus 3).\n"
+#~ "Silakan catatkan bug ini pada http://bugzilla.gnome.org dan isikan pesan "
+#~ "ini\n"
+#~ "serta nama permainan yang Anda mainkan (lihat pada judul jendela di atas)."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Anda mencari %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Permainan tidak dapat memberi saran."
+
+#~ msgid "AisleRiot Cards"
+#~ msgstr "Kartu AisleRiot"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Solitaire FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Mainkan permainan FreeCell  yang terkenal"
+
+#, fuzzy
+#~ msgid "Main game:"
+#~ msgstr "Mainkan permainan"
+
+#~ msgid "Card games:"
+#~ msgstr "Gim kartu:"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire\n"
+#~ "card engine that allows many different\n"
+#~ "games to be played."
+#~ msgstr ""
+#~ "AisleRiot menyediakan permainan yang\n"
+#~ "berdasarkan solitaire yang memberikan\n"
+#~ "beragam permainan berbeda untuk dimainkan."
+
+#~ msgid "_View"
+#~ msgstr "_Tampil"
+
+#~ msgid "_Control"
+#~ msgstr "_Kendali"
+
+#, fuzzy
+#~ msgid "Restart the current game"
+#~ msgstr "Cetak permainan yang sedang berjalan"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Pilih Permainan..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Mainkan permainan lain"
+
+#, fuzzy
+#~ msgid "S_tatistics"
+#~ msgstr "Statistik untuk %s"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Tampilkan statistik permainan"
+
+#~ msgid "_Cards..."
+#~ msgstr "_Kartu..."
+
+#, fuzzy
+#~ msgid "Redo the last move"
+#~ msgstr "Ulangi langkah terakhir"
+
+#~ msgid "Show a hint"
+#~ msgstr "Tampilkan petunjuk"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Tampilkan bantuan untuk Aisleriot"
+
+#, fuzzy
+#~ msgid "_Toolbar"
+#~ msgstr "Tampilkan _Toolbar"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Klik untuk Bergerak"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Kartu Dasar: As"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Kartu Dasar: Jek"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Kartu Dasar: Raja"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Kartu Dasar: Ratu"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Kartu Dasar: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Bagikan kartu"
+
+#~ msgid "Stock left:"
+#~ msgstr "Sisa stok:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Sisa stok: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Cobalah atur lagi kartunya"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "susunan kartu kosong"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Bagikan kartu baru dari tumpukan"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Tiada petunjuk tersedia sekarang"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Bagikan ulang tersisa:"
+
+#~ msgid "Three card deals"
+#~ msgstr "Bagi tiga kartu"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Coba pindah kartu dari susunan"
+
+#~ msgid "an empty slot"
+#~ msgstr "ruang kosong"
+
+#~ msgid "Deal another round"
+#~ msgstr "Bagikan ronde lain"
+
+#~ msgid "an empty foundation"
+#~ msgstr "susunan kosong"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "PIndahkan ke tempat kosong"
+
+#~ msgid "an empty tableau"
+#~ msgstr "susunan kosong"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "susunan kosong ruang bawah"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "ruang sudut kosong"
+
+#~ msgid "an empty left slot"
+#~ msgstr "ruang kiri kosong"
+
+#~ msgid "an empty right slot"
+#~ msgstr "ruang kanan kosong"
+
+#~ msgid "an empty top slot"
+#~ msgstr "ruang atas kosong"
+
+#~ msgid "itself"
+#~ msgstr "sendiri"
+
+#~ msgid "Base Card: "
+#~ msgstr "Kartu Dasar: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Pindahkan buangan ke cadangan"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "slot kosong di bawah"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "ruang kosong pada meja"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Pindahkan kartu ke Susunan"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Pindahkan sesuatu ke ruang susunan kosong"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Kuncinya adalah konsisten"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Jangan gunakan kabel pancing untuk dental floss"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Sudahkan membaca keterangan cara bermain?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Tolonglah garuk punggung saya..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr ""
+#~ "Kalau tersesat sendirian di hutan, peluk saja pohon yang paling besar"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Hanya karena crosswalk kelihatan seperti papan hopscotch bukan berarti "
+#~ "mereka sama"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Lihat kiri kanan sebelum menyeberang jalan"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Sumber Vitamin D adalah matahari, bukannya layar monitor..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Jangan pernah meniup telinga anjing"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Main Odessa saja, lebih seru!"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Ketika tak ada stapler, sebuah staple dan penggaris bisa"
+
+#, fuzzy
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Sisa:"
+
+#~ msgid "Redeal."
+#~ msgstr "Bagikan ulang."
+
+#~ msgid "the foundation pile"
+#~ msgstr "susunan kartu"
+
+#~ msgid "Deal a card"
+#~ msgstr "Bagikan kartu"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Pindahkan ~ke susunan kosong"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "ruang kosong pada susunan"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Letakkan King pada slot kosong pada susunan"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Tidak yakin"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Buang semua as"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Buang semua delapan"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Buang semua lima"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Buang semua empat"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Buang semua jack"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Buang semua raja"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Buang semua sembilan"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Buang semua ratu"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Buang semua tujuh"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Buang semua enam"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Buang semua sepuluh"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Buang semua tiga"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Buang semua dua"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Kembalikan kartu ke Stok"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Coba pindahkan satu kartu ke tempat yang kosong"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Pindahkan ~di luar papan"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Tidak ada jalan lagi. Ulangi atau mulai dari awal  lagi."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr ""
+#~ "Permainan tidak memiliki penyelesaian. Ulangi atau mulai dari awal  lagi."
+
+#~ msgid "an empty reserve"
+#~ msgstr "persediaan kosong"
+
+#~ msgid "an open tableau"
+#~ msgstr "susunan terbuka"
+
+#~ msgid "the foundation"
+#~ msgstr "susunan"
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Klik ganda kartu mana saja untuk bagikan ulang."
+
+#~ msgid "No hint available."
+#~ msgstr "Tidak ada petunjuk."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Secara Acak Tempatkan Jarak pada Bagi Ulang"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Pindahkan kartu dari tempat cadangan ke slot kosong pada meja"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Pilih kartu dari persedian untuk tumpukan pondasi pertama"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "pada ruang kosong susunan"
+
+#~ msgid "Deal another card"
+#~ msgstr "Bagi kartu lain"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Sisa stok: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Bagi tangan lain"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Pindahkan kartu atau tambahkan kartu ke ruang kosong"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Pindahkan kartu dari buangan"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Pindah buangan ke simpan"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "ruang kosong pada meja"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Bagi kartu baru"
+
+#, fuzzy
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Sisa stok: ~a"
+
+#, fuzzy
+#~ msgid "Single card deals"
+#~ msgstr "Bagi tiga kartu"
+
+#~ msgid "Base Card:"
+#~ msgstr "Kartu Dasar:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Bertujuan menempatkan setelan supaya cocok/pas dengan susunan yang paling "
+#~ "alami."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Bagikan kartu baru dari susunan"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Bagikan ulang tersisa: ~a"
+
+#~ msgid "something"
+#~ msgstr "sesuatu"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Pindahkan ~ke daerah kosong"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Tempatkan kartu pada Tableau untuk membentuk tangan poker"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Mode Kocok"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "Tumpukan tableau yang kosong"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Bagikan kartu"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Kocok kartu"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Pindahkan buangan ke ruang terpesan"
+
+#~ msgid "empty foundation"
+#~ msgstr "susunan kosong"
+
+#, fuzzy
+#~ msgid "Four Suits"
+#~ msgstr "Empat Jembatan"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Letakkan apa saja pada slot kosong"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Isikan dulu tumpukan yang masih kosong."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Coba pindahkan kartu-kartu dalam tumpukan ke tumpukan lain"
+
+#, fuzzy
+#~ msgid "Two Suits"
+#~ msgstr "Spider Two Suit"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Pindahkan kartu ke slot sementara yang masih kosong"
+
+#~ msgid "No hint available"
+#~ msgstr "Tidak ada petunjuk"
+
+#~ msgid "and all cards below it"
+#~ msgstr "dan semua kartu dibawahnya"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "slot kosong"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Bagikan kartu dari tumpukan"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Cocokkan dua kartu buangan teratas."
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "susunan kartu yang sesuai"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Pindahkan susunan kartu ke slot Tableau yang kosong"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "Susunan kartu yang sesuai"
+
+#~ msgid ""
+#~ "Aisleriot can't load the file: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Aisleriot installation"
+#~ msgstr ""
+#~ "Aisleriot tidak dapat membuka berkas:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Silakan periksa apakah program Aisleriot sudah dipasang dengan benar."
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Aisleriot tidak menemukan permainan terakhir yang anda mainkan."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Hal ini biasanya terjadi ketika anda menjalankan versi lama dari "
+#~ "Aisleriot yang tidak memiliki permainan terakhir yang telah anda mainkan, "
+#~ "Permainan awalnya, Klondike, sedang di jalankan ulang."
+
+#~ msgid "Aisleriot"
+#~ msgstr "Aisleriot"
+
+#~ msgid "Time:"
+#~ msgstr "Waktu:"
+
+#~ msgid "Select the game to play"
+#~ msgstr "Pilih permainan yang diinginkan"
+
+#~ msgid "NAME"
+#~ msgstr "NAMA"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Solitaire AisleRiot"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Mainkan bermacam permainan solitaire yang berbeda"
+
+#~ msgid "Unknown color"
+#~ msgstr "Warna tidak diketahui"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Setelan tidak dikenal"
+
+#~ msgid "Unknown value"
+#~ msgstr "Nilai tak dikenal"
+
+#~ msgid "ace"
+#~ msgstr "as"
+
+#~ msgid "black joker"
+#~ msgstr "Joker hitam"
+
+#~ msgid "clubs"
+#~ msgstr "Keriting"
+
+#~ msgid "diamonds"
+#~ msgstr "wajik"
+
+#~ msgid "eight"
+#~ msgstr "delapan"
+
+#~ msgid "five"
+#~ msgstr "lima"
+
+#~ msgid "four"
+#~ msgstr "empat"
+
+#~ msgid "hearts"
+#~ msgstr "hati"
+
+#~ msgid "jack"
+#~ msgstr "jek"
+
+#~ msgid "king"
+#~ msgstr "raja"
+
+#~ msgid "nine"
+#~ msgstr "sembilan"
+
+#~ msgid "queen"
+#~ msgstr "ratu"
+
+#~ msgid "red joker"
+#~ msgstr "Joker merah"
+
+#~ msgid "seven"
+#~ msgstr "tujuh"
+
+#~ msgid "six"
+#~ msgstr "enam"
+
+#~ msgid "spades"
+#~ msgstr "sekop"
+
+#~ msgid "ten"
+#~ msgstr "sepuluh"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "as keriting"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "as wajik"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "as hati"
+
+#~ msgid "the ace of spades"
+#~ msgstr "as sekop"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "delapan keriting"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "delapan wajik"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "delapan hati"
+
+#~ msgid "the eight of spades"
+#~ msgstr "delapan sekop"
+
+#~ msgid "the five of clubs"
+#~ msgstr "lima keriting"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "lima wajik"
+
+#~ msgid "the five of hearts"
+#~ msgstr "lima hati"
+
+#~ msgid "the five of spades"
+#~ msgstr "lima sekop"
+
+#~ msgid "the four of clubs"
+#~ msgstr "empat keriting"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "empat wajik"
+
+#~ msgid "the four of hearts"
+#~ msgstr "empat hati"
+
+#~ msgid "the four of spades"
+#~ msgstr "empat sekop"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "jack keriting"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "jack wajik"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "jack hati"
+
+#~ msgid "the jack of spades"
+#~ msgstr "jack sekop"
+
+#~ msgid "the king of clubs"
+#~ msgstr "raja keriting"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "raja wajik"
+
+#~ msgid "the king of hearts"
+#~ msgstr "raja hati"
+
+#~ msgid "the king of spades"
+#~ msgstr "raja sekop"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "sembilan keriting"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "sembilan wajik"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "sembilan hati"
+
+#~ msgid "the nine of spades"
+#~ msgstr "sembilan sekop"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "ratu keriting"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "ratu wajik"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "ratu hati"
+
+#~ msgid "the queen of spades"
+#~ msgstr "ratu sekop"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "tujuh keriting"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "tujuh wajik"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "tujuh hati"
+
+#~ msgid "the seven of spades"
+#~ msgstr "tujuh sekop"
+
+#~ msgid "the six of clubs"
+#~ msgstr "enam keriting"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "enam wajik"
+
+#~ msgid "the six of hearts"
+#~ msgstr "enam hati"
+
+#~ msgid "the six of spades"
+#~ msgstr "enam sekop"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "sepuluh keriting"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "sepuluh wajik"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "sepuluh hati"
+
+#~ msgid "the ten of spades"
+#~ msgstr "sepuluh sekop"
+
+#~ msgid "the three of clubs"
+#~ msgstr "tiga keriting"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "tiga wajik"
+
+#~ msgid "the three of hearts"
+#~ msgstr "tiga hati"
+
+#~ msgid "the three of spades"
+#~ msgstr "tiga sekop"
+
+#~ msgid "the two of clubs"
+#~ msgstr "dua keriting"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "dua wajik"
+
+#~ msgid "the two of hearts"
+#~ msgstr "dua hati"
+
+#~ msgid "the two of spades"
+#~ msgstr "dua sekop"
+
+#~ msgid "the unknown card"
+#~ msgstr "kartu tidak diketahui"
+
+#~ msgid "three"
+#~ msgstr "tiga"
+
+#~ msgid "two"
+#~ msgstr "dua"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "<b>Time</b>"
+#~ msgstr "<b>Waktu</b>"
+
+#~ msgid "<b>Wins</b>"
+#~ msgstr "<b>Menang</b>"
+
+#~ msgid "Best:"
+#~ msgstr "Terbaik:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Persentasi:"
+
+#, fuzzy
+#~ msgid "Statistics"
+#~ msgstr "Statistik untuk %s"
+
+#~ msgid "Total:"
+#~ msgstr "Total:"
+
+#, fuzzy
+#~ msgid "Wins:"
+#~ msgstr "Petunjuk"
+
+#~ msgid "Worst:"
+#~ msgstr "Terburuk:"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Bibi Mary"
+
+#~ msgid "Backbone"
+#~ msgstr "Backbone"
+
+#, fuzzy
+#~ msgid "Bakers Game"
+#~ msgstr "Permainan Baru"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Benteng Beleaguered"
+
+#~ msgid "Block Ten"
+#~ msgstr "Block Sepuluh"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Carpet"
+#~ msgstr "Karpet"
+
+#~ msgid "Chessboard"
+#~ msgstr "Chessboard"
+
+#~ msgid "Clock"
+#~ msgstr "Clock"
+
+#~ msgid "Cover"
+#~ msgstr "Cover"
+
+#~ msgid "Cruel"
+#~ msgstr "Kejam"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Tambang Permata"
+
+#~ msgid "Doublets"
+#~ msgstr "Doublets"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Sayap Elang"
+
+#~ msgid "Easthaven"
+#~ msgstr "Easthaven"
+
+#~ msgid "Eight Off"
+#~ msgstr "Eight Off"
+
+#~ msgid "Elevator"
+#~ msgstr "Elevator"
+
+#~ msgid "Escalator"
+#~ msgstr "Escalator"
+
+#~ msgid "First Law"
+#~ msgstr "First Law"
+
+#~ msgid "Fortress"
+#~ msgstr "Fortress"
+
+#~ msgid "Fortunes"
+#~ msgstr "Fortunes"
+
+#, fuzzy
+#~ msgid "Fourteen"
+#~ msgstr "Layar Penuh"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Gaps"
+#~ msgstr "Jarak"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay Gordons"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Gypsy"
+#~ msgstr "Gypsy"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Hopscotch"
+
+#~ msgid "Isabel"
+#~ msgstr "Isabel"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "King Albert"
+#~ msgstr "King Albert"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labyrinth"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+#~ msgid "Maze"
+#~ msgstr "Maze"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Neighbor"
+#~ msgstr "Neighbor"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmosis"
+
+#~ msgid "Peek"
+#~ msgstr "Peek"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#, fuzzy
+#~ msgid "Plait"
+#~ msgstr "Sedang bermain "
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Royal East"
+#~ msgstr "Royal East"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#, fuzzy
+#~ msgid "Scorpion"
+#~ msgstr "Nilai"
+
+#~ msgid "Scuffle"
+#~ msgstr "Scuffle"
+
+#~ msgid "Seahaven"
+#~ msgstr "Seahaven"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Spider"
+#~ msgstr "Spider"
+
+#~ msgid "Spiderette"
+#~ msgstr "Spiderette"
+
+#~ msgid "Straight Up"
+#~ msgstr "Straight Up"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Streets and Alleys"
+
+#~ msgid "Template"
+#~ msgstr "Template"
+
+#~ msgid "Ten Across"
+#~ msgstr "Ten Across"
+
+#~ msgid "Thieves"
+#~ msgstr "Thieves"
+
+#~ msgid "Thirteen"
+#~ msgstr "Thirteen"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Thumb and Pouch"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Tiga Puncak"
+
+#~ msgid "Union Square"
+#~ msgstr "Union Square"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#~ msgid "Westhaven"
+#~ msgstr "Westhaven"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will O The Wisp"
+
+#~ msgid "Yield"
+#~ msgstr "Yield"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#, fuzzy
+#~ msgid "Blackjack"
+#~ msgstr "Latar hitam"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Mainkan kartu kasino Blackjack"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Tampilkan peluang"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Tampilkan peluang masing-masing kemunculan dealer dan nilai yang Anda "
+#~ "harapkan"
+
+#~ msgid "Never take insurance"
+#~ msgstr "Jangan ambil ansuransi"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Jangan ambil ansuransi dengan pembagi yang menampilkan kartu as."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Jumlah uang di bank"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Jumlah uang di bank."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "Nama berkas aturan berisi variasi peraturan permainan."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Variasi peraturan yang ingin digunakan"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Pembagiannya cepat"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Kartu dibagi dengan cepat tanpa jeda waktu tiap-tiap kartu."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blackjack - %s"
+
+#, fuzzy
+#~ msgid "D_eal"
+#~ msgstr "_Detil"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Bagikan tangan baru"
+
+#, fuzzy
+#~ msgid "_Hit"
+#~ msgstr "Petunjuk"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Tambahkan kartu ke tangan"
+
+#, fuzzy
+#~ msgid "_Stand"
+#~ msgstr "Dimulai"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Hentikan tambah kartu ke tangan"
+
+#~ msgid "S_urrender"
+#~ msgstr "M_enyerah"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Kalahkan tangan ini untuk setengah dari taruhan anda"
+
+#~ msgid "_Double down"
+#~ msgstr "_Double down"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Gandakan taruhan anda untuk hit tunggal"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "Bagi tan_gan"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Bagi kartu menjadi dua tangan baru"
+
+#, fuzzy
+#~ msgid "Show toolbar"
+#~ msgstr "Tampilkan _Toolbar"
+
+#~ msgid "Cards left:"
+#~ msgstr "Sisa kartu:"
+
+#~ msgid "Wager:"
+#~ msgstr "Taruhan:"
+
+#~ msgid "Balance:"
+#~ msgstr "Saldo:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Tempatka "
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Pengaturan Blackjack yang digunakan"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Ingin asuransi?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Asuransi adalah sisi taruhan 50%% dari taruhan sebenarnya yang dimiliki "
+#~ "pembagi natural 21 (atau blackjack) yang ditawarkan ketika pembagi "
+#~ "membuka kartu sebagai as. Jika pembagi memiliki natural 21 maka pemain "
+#~ "dibayar ganda."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "Tentukan taruhan anda dan klik pada garis putih untuk membagikan tangan "
+#~ "baru."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "Tentukan taruhan anda atau klik kartu untuk membagikan tangan baru."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Pengaturan Blackjack"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "_Tampilkan kemungkinan tangan"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "_Bagi cepat (tanpa jeda waktu tiap-tiap kartu)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "Ja_ngan pernah asuransi"
+
+#, fuzzy
+#~ msgid "_Reset Balance"
+#~ msgstr "Lanjutkan permainan lama"
+
+#~ msgid "Rules"
+#~ msgstr "Peraturan"
+
+#~ msgid "Decks"
+#~ msgstr "Kartu"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Gandakan Setiap Total"
+
+#~ msgid "Double 9"
+#~ msgstr "Double 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "Soft ganda"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Double Setelah Hit"
+
+#~ msgid "Double After Split"
+#~ msgstr "Ganda Setelah Bagi"
+
+#~ msgid "Resplit"
+#~ msgstr "Bagi ulang"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Bagi ulang As"
+
+#~ msgid "Surrender"
+#~ msgstr "Menyerah"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Kecepatan Pembagian"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Klik untuk menggandakan taruhan anda"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Klik ganda untuk meningkatkan taruhan anda %.2F"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Klik ganda untuk menurunkan taruhan anda %.2f"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "Klik untuk membagi kartu lain, seret kartu untuk membagi pasangan"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Klik untuk membagi kartu lain"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Klik untuk menyelesaikan penambahan kartu ke tangan anda"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Klik untuk membagi tangan baru"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Blackjack tidak dapat membaca berkas yang diminta"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Coba periksa pemasangan Blackjack anda"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Pilihan terbaik adalah stand"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Stand maksudnya menghentikan tambahan kartu ke tangan anda.  Lakukan "
+#~ "dengan meng-klik pada kartu pembagi atau dengan memilih pilihan dari menu "
+#~ "Kendali."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Pilihan terbaik adalah hit"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Hit maksudnya menambahkan kartu lain ke tangan anda.  Lakukan dengan meng-"
+#~ "klik sekali pada kartu anda atau dengan memilih pilihan dari menu Kendali."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "Pilihan terbaik adalah double down"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Double down maksudnya menggandakan taruhan awal dan menerima tepat satu "
+#~ "kartu lagi.  Lakukan ini dengan meng-klik sekali pada chip pada bagian "
+#~ "bawah jendela atau denga memiliki pilihan dari menu Kendali."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Pilihan terbaik adalah bagi"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Bagi maksudnya membagi tangan anda sekarang menjadi dua tangan terpisah.  "
+#~ "Lakukan dengan menyeret satu dari kartu anda dan meletakkannya ke sisi "
+#~ "atau dengan memilih pilihan dari menu Kendali."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Pilihan terbaik adalah menyerah"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Menyerah berarti menyerahkan setengah taruhan anda dan tidak "
+#~ "menyelesaikan tangan.  Lakukan ini dengan memilih pilihan dari menu "
+#~ "Kendali."
+
+#~ msgid "Blackjack is a casino-style card game."
+#~ msgstr "Blackjack menyediakan permainan kartu gaya kasino."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Menhitung strategi dasar..."
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blackjack!"
+
+#~ msgid "Soft"
+#~ msgstr "Lembut"
+
+#~ msgid "Win"
+#~ msgstr "Menang"
+
+#, fuzzy
+#~ msgid "Push"
+#~ msgstr "Istirahat"
+
+#~ msgid "Lose"
+#~ msgstr "Kalah"
+
+#~ msgid "Player expected values"
+#~ msgstr "Nilai yang diharapkan pemain"
+
+#, fuzzy
+#~ msgid "Stand"
+#~ msgstr "Dimulai"
+
+#, fuzzy
+#~ msgid "Hit"
+#~ msgstr "Petunjuk"
+
+#~ msgid "Double"
+#~ msgstr "Double"
+
+#~ msgid "Split"
+#~ msgstr "Pisah"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Tampilkan peluang pembagi"
+
+#, fuzzy
+#~ msgid "Players on server: %d"
+#~ msgstr ""
+#~ "Pemain satu: \n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Pemain %s bergabung ke permainan."
+
+#, fuzzy
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Ada error saat mengakses GConf: %s"
+
+#, fuzzy
+#~ msgid "You're not at a table."
+#~ msgstr "Tidak ada petunjuk."
+
+#, fuzzy
+#~ msgid "You have joined table %d."
+#~ msgstr "Anda menang."
+
+#, fuzzy
+#~ msgid "The game is over."
+#~ msgstr "Server permainan"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "S_ambung"
+
+#, fuzzy
+#~ msgid "Reconnecting"
+#~ msgstr "S_ambung"
+
+#, fuzzy
+#~ msgid "Online"
+#~ msgstr "sembilan"
+
+#, fuzzy
+#~ msgid "Playing"
+#~ msgstr "Sedang bermain "
+
+#, fuzzy
+#~ msgid "Server:"
+#~ msgstr "Nilai:"
+
+#, fuzzy
+#~ msgid "Port:"
+#~ msgstr "Terburuk:"
+
+#, fuzzy
+#~ msgid "Username:"
+#~ msgstr "_Nama host:"
+
+#, fuzzy
+#~ msgid "Connect"
+#~ msgstr "S_ambung"
+
+#, fuzzy
+#~ msgid "Wizard"
+#~ msgstr "Sulit"
+
+#, fuzzy
+#~ msgid "Deity"
+#~ msgstr "Daisy"
+
+#, fuzzy
+#~ msgid "Sentinel"
+#~ msgstr "Valentine"
+
+#, fuzzy
+#~ msgid "Captain"
+#~ msgstr "Karpet"
+
+#, fuzzy
+#~ msgid "Knight"
+#~ msgstr "delapan"
+
+#, fuzzy
+#~ msgid "Angel"
+#~ msgstr "Agnes"
+
+#, fuzzy
+#~ msgid "Eagle"
+#~ msgstr "Sayap Elang"
+
+#, fuzzy
+#~ msgid "Colonel"
+#~ msgstr "Polonaise"
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "Siapka_n"
+
+#, fuzzy
+#~ msgid "Major"
+#~ msgstr "Mahjongg"
+
+#, fuzzy
+#~ msgid "Scout"
+#~ msgstr "Nilai"
+
+#, fuzzy
+#~ msgid "Scholar"
+#~ msgstr "Nilai"
+
+#, fuzzy
+#~ msgid "Creator"
+#~ msgstr "_Bersih"
+
+#, fuzzy
+#~ msgid "Beep sent to %s."
+#~ msgstr "Pindahkan %s ke %s."
+
+#, fuzzy
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "Buang bola berwarna dari papan dengan membentuk garis"
+
+#, fuzzy
+#~ msgid "Launched game"
+#~ msgstr "Istirahat sebentar"
+
+#, fuzzy
+#~ msgid "Launch failed"
+#~ msgstr "Koneksi gagal"
+
+#, fuzzy
+#~ msgid "Game Error"
+#~ msgstr "Permainan Usai"
+
+#, fuzzy
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Permainan ini tidak mendukung petunjuk"
+
+#, fuzzy
+#~ msgid "Opera - Existing"
+#~ msgstr "Operasi"
+
+#, fuzzy
+#~ msgid "Message of the Day"
+#~ msgstr "Pindahkan ~di luar papan"
+
+#~ msgid "None"
+#~ msgstr "Tidak ada"
+
+#, fuzzy
+#~ msgid "Not Implemented"
+#~ msgstr "Komplit"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Scorpion"
+
+#, fuzzy
+#~ msgid "Game Types"
+#~ msgstr "_Daftar Permainan"
+
+#, fuzzy
+#~ msgid "Set"
+#~ msgstr "Pengaturan"
+
+#, fuzzy
+#~ msgid "Player Information"
+#~ msgstr "Informasi Teka-teki"
+
+#, fuzzy
+#~ msgid "Player Handle:"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "Table:"
+#~ msgstr "Ubin:"
+
+#, fuzzy
+#~ msgid "Record:"
+#~ msgstr "Nilai:"
+
+#, fuzzy
+#~ msgid "Rating:"
+#~ msgstr "Sisa:"
+
+#, fuzzy
+#~ msgid "Rank:"
+#~ msgstr "Gelap:"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr "Setelan tidak dikenal"
+
+#, fuzzy
+#~ msgid "Registered"
+#~ msgstr "Kemarin"
+
+#, fuzzy
+#~ msgid "Guest"
+#~ msgstr "Peraturan"
+
+#, fuzzy
+#~ msgid "Host"
+#~ msgstr "Hopscotch"
+
+#, fuzzy
+#~ msgid "Ignore"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Don't ask me again."
+#~ msgstr "Jangan menanyakan hal ini lagi."
+
+#, fuzzy
+#~ msgid "Join"
+#~ msgstr "Gabung"
+
+#, fuzzy
+#~ msgid "Leave"
+#~ msgstr "Level:"
+
+#, fuzzy
+#~ msgid "No description available."
+#~ msgstr "Tidak ada petunjuk."
+
+#, fuzzy
+#~ msgid "Seats"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Room Information"
+#~ msgstr "Informasi Teka-teki"
+
+#, fuzzy
+#~ msgid "Game Name:"
+#~ msgstr "_Nama permainan:"
+
+#, fuzzy
+#~ msgid "Homepage:"
+#~ msgstr "_Gambar:"
+
+#, fuzzy
+#~ msgid "Unknown room"
+#~ msgstr "Warna tidak diketahui"
+
+#, fuzzy
+#~ msgid "You're already in between rooms"
+#~ msgstr "Jeda antara kocokan"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "Warna tidak diketahui"
+
+#, fuzzy
+#~ msgid "Room"
+#~ msgstr "Roma"
+
+#, fuzzy
+#~ msgid "Game Type:  %s"
+#~ msgstr "Jenis Permainan"
+
+#, fuzzy
+#~ msgid "Game Type:"
+#~ msgstr "Jenis Permainan"
+
+#, fuzzy
+#~ msgid "Number of seats"
+#~ msgstr "Jumlah ranjau"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "Scorpion"
+
+#, fuzzy
+#~ msgid "Computer"
+#~ msgstr "Komplit"
+
+#, fuzzy
+#~ msgid "Open"
+#~ msgstr "Buka Permainan"
+
+#, fuzzy
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Anda benar-benar ingin melakukan hal ini"
+
+#, fuzzy
+#~ msgid "Join an existing game"
+#~ msgstr "Gabung permainan lokal"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "S_ambung"
+
+#, fuzzy
+#~ msgid "Watch"
+#~ msgstr "_Tunggu"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "_Tampil"
+
+#, fuzzy
+#~ msgid "Room List"
+#~ msgstr "_Daftar Permainan"
+
+#, fuzzy
+#~ msgid "Player Stats"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "Bantuan"
+
+#, fuzzy
+#~ msgid "Copyright"
+#~ msgstr "Pindah kanan"
+
+#, fuzzy
+#~ msgid "GGZ Help"
+#~ msgstr "Bantuan"
+
+#, fuzzy
+#~ msgid "Game Help"
+#~ msgstr "Kotak gim"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "Kecepatan"
+
+#, fuzzy
+#~ msgid "Servers"
+#~ msgstr "Hasil"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "Oranye"
+
+#, fuzzy
+#~ msgid "Play Sounds"
+#~ msgstr "Suara"
+
+#, fuzzy
+#~ msgid "Chat Color"
+#~ msgstr "Warna"
+
+#, fuzzy
+#~ msgid "Normal Color"
+#~ msgstr "_Warna cacing:"
+
+#, fuzzy
+#~ msgid "Highlight Color"
+#~ msgstr "Penanda"
+
+#, fuzzy
+#~ msgid "Black Background"
+#~ msgstr "Latar hitam"
+
+#, fuzzy
+#~ msgid "White Background"
+#~ msgstr "Latar hitam"
+
+#, fuzzy
+#~ msgid "Chat"
+#~ msgstr "Karpet"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "Nama"
+
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "Dimulai"
+
+#, fuzzy
+#~ msgid "Country:"
+#~ msgstr "_Kendali"
+
+#, fuzzy
+#~ msgid "User Information"
+#~ msgstr "Informasi Teka-teki"
+
+#, fuzzy
+#~ msgid "Display Important"
+#~ msgstr "Tampilkan peluang"
+
+#, fuzzy
+#~ msgid "Display None"
+#~ msgstr "Tampilkan peluang"
+
+#~ msgid "Options"
+#~ msgstr "Pilihan"
+
+#, fuzzy
+#~ msgid "Select Font"
+#~ msgstr "Pilih Permainan"
+
+#, fuzzy
+#~ msgid "Unknown negotiation"
+#~ msgstr "Warna tidak diketahui"
+
+#, fuzzy
+#~ msgid "No such name was found"
+#~ msgstr "Tidak menumukan tema."
+
+#, fuzzy
+#~ msgid "Name too long"
+#~ msgstr "Gim yang ingin dimainkan"
+
+#, fuzzy
+#~ msgid "Unknown login error"
+#~ msgstr "Warna tidak diketahui"
+
+#, fuzzy
+#~ msgid "Room full"
+#~ msgstr "Roma"
+
+#, fuzzy
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Warna tidak diketahui"
+
+#, fuzzy
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Tinggalkan mode layar penuh"
+
+#, fuzzy
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Tampilkan atau sembunyikan batang alat"
+
+#, fuzzy
+#~ msgid "The board side to display"
+#~ msgstr "Ukuran papan"
+
+#, fuzzy
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "Pilih tingkat ke_sulitan untuk permainan baru."
+
+#, fuzzy
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "Pilih tingkat ke_sulitan untuk permainan baru."
+
+#, fuzzy
+#~ msgid "The format to display moves in"
+#~ msgstr "empat wajik"
+
+#, fuzzy
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Tinggi jendela yang diinginkan dalam piksel."
+
+#~ msgid "The height of the window"
+#~ msgstr "Tinggi jendela"
+
+#, fuzzy
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Lebar jendela yang diinginkan dalam piksel."
+
+#~ msgid "The width of the window"
+#~ msgstr "Lebar jendela"
+
+#, fuzzy
+#~ msgid "Communication:"
+#~ msgstr "Animasi"
+
+#, fuzzy
+#~ msgid "Playing as:"
+#~ msgstr "Sedang bermain "
+
+#, fuzzy
+#~ msgid "Save Chess Game"
+#~ msgstr "Selesaikan permainan"
+
+#, fuzzy
+#~ msgid "<b>Games</b>"
+#~ msgstr "<b>Waktu</b>"
+
+#, fuzzy
+#~ msgid "Join Game"
+#~ msgstr "Buka Permainan"
+
+#, fuzzy
+#~ msgid "_Difficulty:"
+#~ msgstr "Tingkat Kesulitan"
+
+#, fuzzy
+#~ msgid "_Server:"
+#~ msgstr "Nilai:"
+
+#, fuzzy
+#~ msgid "_Type:"
+#~ msgstr "Waktu:"
+
+#, fuzzy
+#~ msgid "Load Chess Game"
+#~ msgstr "Mulai gim baru"
+
+#, fuzzy
+#~ msgid "AI Information"
+#~ msgstr "Informasi Teka-teki"
+
+#, fuzzy
+#~ msgid "Chess _Board"
+#~ msgstr "Chessboard"
+
+#, fuzzy
+#~ msgid "End Game"
+#~ msgstr "Buka Permainan"
+
+#, fuzzy
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "Layar Penuh"
+
+#, fuzzy
+#~ msgid "Load a saved game"
+#~ msgstr "Mulai gim baru"
+
+#, fuzzy
+#~ msgid "Move _Hints"
+#~ msgstr "Pindah kanan"
+
+#, fuzzy
+#~ msgid "Rewind to the game start"
+#~ msgstr "Gim baru dimulai"
+
+#, fuzzy
+#~ msgid "Save the current game"
+#~ msgstr "Cetak permainan yang sedang berjalan"
+
+#, fuzzy
+#~ msgid "Select the games you want to save:"
+#~ msgstr "Pilih permainan yang diinginkan"
+
+#, fuzzy
+#~ msgid "Show the current move"
+#~ msgstr "Cetak permainan yang sedang berjalan"
+
+#, fuzzy
+#~ msgid "Show the next move"
+#~ msgstr "Jadikan lagi langkah terakhir"
+
+#, fuzzy
+#~ msgid "Show the previous move"
+#~ msgstr "Ulangi langkah terakhir"
+
+#, fuzzy
+#~ msgid "_AI Information"
+#~ msgstr "Informasi Teka-teki"
+
+#, fuzzy
+#~ msgid "_Black Side"
+#~ msgstr "Gambar blok"
+
+#, fuzzy
+#~ msgid "_Chess"
+#~ msgstr "Chessboard"
+
+#, fuzzy
+#~ msgid "_Current Player"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "_History"
+#~ msgstr "Petunjuk"
+
+#, fuzzy
+#~ msgid "_Human"
+#~ msgstr "Orang"
+
+#, fuzzy
+#~ msgid "_Human Side"
+#~ msgstr "Orang"
+
+#, fuzzy
+#~ msgid "_Join Game"
+#~ msgstr "_Permainan"
+
+#, fuzzy
+#~ msgid "_Knight"
+#~ msgstr "delapan"
+
+#, fuzzy
+#~ msgid "_Move Format"
+#~ msgstr "Pindah kanan"
+
+#, fuzzy
+#~ msgid "_Queen"
+#~ msgstr "ratu"
+
+#, fuzzy
+#~ msgid "_Rook"
+#~ msgstr "Roma"
+
+#, fuzzy
+#~ msgid "_White Side"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "Tingkat Kesulitan"
+
+#, fuzzy
+#~ msgid "<b>Players</b>"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "B_lack:"
+#~ msgstr "Blok"
+
+#, fuzzy
+#~ msgid "Enter the title for this game"
+#~ msgstr "Tampilkan bantuan untuk gim ini"
+
+#, fuzzy
+#~ msgid "Local chess game"
+#~ msgstr "Permainan _lokal:"
+
+#, fuzzy
+#~ msgid "Move _Time:"
+#~ msgstr "Gerak tersisa:"
+
+#, fuzzy
+#~ msgid "W_hite:"
+#~ msgstr "Whitehead"
+
+#, fuzzy
+#~ msgid "_Black:"
+#~ msgstr "Blok"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "_Permainan"
+
+#, fuzzy
+#~ msgid "_Start"
+#~ msgstr "Dimulai"
+
+#, fuzzy
+#~ msgid "_White:"
+#~ msgstr "Whitehead"
+
+#, fuzzy
+#~ msgid "Chess"
+#~ msgstr "Chessboard"
+
+#~ msgid "Human"
+#~ msgstr "Orang"
+
+#, fuzzy
+#~ msgid "Unlimited"
+#~ msgstr "Animasi"
+
+#, fuzzy
+#~ msgid "One minute"
+#~ msgstr "%s menit"
+
+#, fuzzy
+#~ msgid "30 minutes"
+#~ msgstr "%s menit"
+
+#, fuzzy
+#~ msgid "One hour"
+#~ msgstr "%s jam"
+
+#~ msgid "Custom"
+#~ msgstr "Sesuaikan"
+
+#, fuzzy
+#~ msgid "seconds"
+#~ msgstr "%s detik"
+
+#, fuzzy
+#~ msgid "minutes"
+#~ msgstr "Petunjuk"
+
+#, fuzzy
+#~ msgid "hours"
+#~ msgstr "empat"
+
+#~ msgid "Easy"
+#~ msgstr "Mudah"
+
+#, fuzzy
+#~ msgid "Normal"
+#~ msgstr "_Warna cacing:"
+
+#~ msgid "Hard"
+#~ msgstr "Sulit"
+
+#, fuzzy
+#~ msgid "Unable to find %s engine\n"
+#~ msgstr ""
+#~ "Tidak bisa membaca gambar:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Konfigurasikan permainan"
+
+#, fuzzy
+#~ msgid "White"
+#~ msgstr "Whitehead"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "Blok"
+
+#, fuzzy
+#~ msgid "Unabled to load game"
+#~ msgstr ""
+#~ "Tidak bisa membaca gambar:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Please enter a file name"
+#~ msgstr "Nama berkas tema"
+
+#, fuzzy
+#~ msgid "Unabled to save game"
+#~ msgstr "Mulai gim baru"
+
+#~ msgid "Small"
+#~ msgstr "Kecil"
+
+#, fuzzy
+#~ msgid "glines|Medium"
+#~ msgstr "Sedang"
+
+#~ msgid "Large"
+#~ msgstr "Besar"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Tidak bisa membaca tema"
+
+#~ msgid "Preferences"
+#~ msgstr "Pengaturan"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Tidak bisa menemukan berkas:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Tema awal akan digunakan."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Tidak menemukan berkas:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Periksa dulu instalasi Five or More Anda."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Cocokkan lima objek dengan warna yang sama dalam satu baris!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME Five or More"
+
+#~ msgid "Board Size:"
+#~ msgstr "Ukuran Papan:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Permainan Usai!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Tidak tidak bisa pindah ke situ!"
+
+#~ msgid "Five or More"
+#~ msgstr "Lima atau Lebih"
+
+#~ msgid "GNOME port of the once-popular Color Lines game"
+#~ msgstr "Permainan Color Lines versi GNOME"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Pengaturan Lima atau Lebih"
+
+#~ msgid "Themes"
+#~ msgstr "Tema"
+
+#~ msgid "_Image:"
+#~ msgstr "_Gambar:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "Warna l_atar:"
+
+#~ msgid "Board Size"
+#~ msgstr "Ukuran Papan"
+
+#~ msgid "_Small"
+#~ msgstr "_Kecil"
+
+#~ msgid "_Medium"
+#~ msgstr "_Sedang"
+
+#~ msgid "_Large"
+#~ msgstr "_Besar"
+
+#, fuzzy
+#~ msgid "glines|General"
+#~ msgstr "Siapka_n"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "G_unakan gerakan cepat"
+
+#~ msgid "Next:"
+#~ msgstr "Berikutnya:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Buang bola berwarna dari papan dengan membentuk garis"
+
+#, fuzzy
+#~ msgid "Background color"
+#~ msgstr "Latar hitam"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Warna latar. Warna latar dalam bentuk heksa."
+
+#~ msgid "Ball style"
+#~ msgstr "Bentuk bola"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr ""
+#~ "Bentuk bola. Nama berkas gambar yang akan digunakan untuk gambar bola."
+
+#, fuzzy
+#~ msgid "Game field"
+#~ msgstr "_Daftar Permainan"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Kotak gim dari sesi terakhir yang disimpan."
+
+#~ msgid "Game preview"
+#~ msgstr "Pratilik gim"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Gambaran terakhir permainan yang telah disimpan."
+
+#, fuzzy
+#~ msgid "Game score"
+#~ msgstr "_Daftar Permainan"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Nilai permainan yang sudah disimpan sebelumnya."
+
+#, fuzzy
+#~ msgid "Playing field size"
+#~ msgstr "Sedang bermain "
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Ukuran daerah permainan. 1=Kecil, 2=Sedang, 3=Besar. Nilai lain salah."
+
+#~ msgid "Time between moves"
+#~ msgstr "Waktu jeda setelah jalan"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Waktu jeda setelah jalan dalam milidetik"
+
+#, fuzzy
+#~ msgid "Window fullscreened"
+#~ msgstr "Masuk mode layar penuh"
+
+#, fuzzy
+#~ msgid "Window maximized"
+#~ msgstr "Lebar jendela"
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Empat-Sebaris"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Buat garis-garis dengan warna yang sama untuk menang"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "Nomor yang menentukan tema."
+
+#~ msgid "Animate"
+#~ msgstr "Animasi"
+
+#~ msgid "Drop marble"
+#~ msgstr "Buang gundu"
+
+#~ msgid "Height of the main window"
+#~ msgstr "Tinggi jendela utama"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Tekan tombol untuk meletakkan gundu"
+
+#~ msgid "Level of Player One"
+#~ msgstr "Level Pemain Satu"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Level Pemain Dua"
+
+#~ msgid "Sound"
+#~ msgstr "Suara"
+
+#~ msgid "The height of the main window, in pixels, at start-up."
+#~ msgstr "Tinggi jendela utama, dalam piksel, saat mulai."
+
+#~ msgid "The width of the main window, in pixels, at start-up."
+#~ msgstr "Lebar jendela utama, dalam piksel, saat mulai."
+
+#~ msgid "Theme ID"
+#~ msgstr "Tema ID"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Mainkan suara atau tidak."
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Gunakan animasi atau tidak."
+
+#~ msgid "Width of the main window"
+#~ msgstr "Lebar jendela utama"
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr ""
+#~ "Nol berarti orang; satu hingga tiga berarti komputer dengan level yang "
+#~ "diberikan angka tersebut."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tidak bisa membaca gambar:\n"
+#~ "%s"
+
+#~ msgid "It's a draw!"
+#~ msgstr "Seri!"
+
+#~ msgid "You win!"
+#~ msgstr "Anda menang!"
+
+#, fuzzy
+#~ msgid "It is your move."
+#~ msgstr "Anda jalan..."
+
+#~ msgid "I win!"
+#~ msgstr "Saya menang!"
+
+#, fuzzy
+#~ msgid "Thinking..."
+#~ msgstr "Memproses..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s menang!"
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Petunjuk: Kolom %d"
+
+#~ msgid "You:"
+#~ msgstr "Anda:"
+
+#~ msgid "Me:"
+#~ msgstr "Saya:"
+
+#, fuzzy
+#~ msgid "Scores"
+#~ msgstr "Nilai"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine."
+#~ msgstr ""
+#~ "Permainan \"Empat Sebaris\" GNOME, pemain komputer dikendalikan dengan "
+#~ "mesin Velena oleh Giuliano Bertoletti."
+
+#, fuzzy
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr "Dimainkan selama %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr "Dimainkan selama %s"
+
+#~ msgid "Level one"
+#~ msgstr "Level satu"
+
+#~ msgid "Level two"
+#~ msgstr "Level dua"
+
+#~ msgid "Level three"
+#~ msgstr "Level tiga"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Pengaturan Empat-Sebaris"
+
+#~ msgid "Appearance"
+#~ msgstr "Tampilan"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Aktifkan _animasi"
+
+#~ msgid "Classic"
+#~ msgstr "Klasik"
+
+#, fuzzy
+#~ msgid "Red"
+#~ msgstr "_Ulangi"
+
+#~ msgid "Yellow"
+#~ msgstr "Kuning"
+
+#, fuzzy
+#~ msgid "High Contrast"
+#~ msgstr "Nilai Tertinggi"
+
+#~ msgid "Light"
+#~ msgstr "Terang"
+
+#~ msgid "Dark"
+#~ msgstr "Gelap"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Kebalikan Kontras Tinggi"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Marmar Cream "
+
+#~ msgid "Blue"
+#~ msgstr "Biru"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Marmar Kaca"
+
+#~ msgid "Nightfall"
+#~ msgstr "Senja"
+
+#~ msgid "Blocks"
+#~ msgstr "Blok"
+
+#~ msgid "Orange"
+#~ msgstr "Oranye"
+
+#, fuzzy
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Pemain %s bergabung ke permainan."
+
+#, fuzzy
+#~ msgid "%s left the game.\n"
+#~ msgstr "Pemain %s bergabung ke permainan."
+
+#~ msgid ""
+#~ "Gnibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Gnibbles tidak menemukan berkas gambar pixmap:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Silakan periksa dulu instalasi Gnibblesnya"
+
+#~ msgid ""
+#~ "Gnibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Gnibbles tidak dapat membuka berkas level:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Silakan periksa dulu instalasi Gnibblesnya"
+
+#, fuzzy
+#~ msgid "Nibbles Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#, fuzzy
+#~ msgid "Speed:"
+#~ msgstr "Dihentikan"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Selamat!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Skor anda masuk sepuluh besar."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Pandu cacing di sekitar maze"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Warna cacing"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Warna cacing."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Aktifkan bonus palsu"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Aktifkan bonus palsu."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Aktifkan suara"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Aktifkan suara."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Level gim permulaan"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Level gim permulaan."
+
+#, fuzzy
+#~ msgid "Game speed"
+#~ msgstr "_Daftar Permainan"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Kecepatan gim (1=cepat, 4=rendah)."
+
+#~ msgid "Height of the GNibbles window"
+#~ msgstr "Tinggi jendela GNibbles"
+
+#~ msgid ""
+#~ "Height of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Tinggi jendela GNibbles, dipergunakan untuk mengembalikan ukuran jendela "
+#~ "antara sesi."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Tombol bawah."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Tombol kiri."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Tombol kanan."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Tombol atas."
+
+#~ msgid "Move up"
+#~ msgstr "Pindah atas"
+
+#, fuzzy
+#~ msgid "Number of AI players"
+#~ msgstr "Jumlah pemain"
+
+#, fuzzy
+#~ msgid "Number of AI players."
+#~ msgstr "Jumlah pemain."
+
+#, fuzzy
+#~ msgid "Number of human players"
+#~ msgstr "Jumlah pemain"
+
+#, fuzzy
+#~ msgid "Number of human players."
+#~ msgstr "Jumlah pemain."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Mainkan beragam tingkatan secara acak"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Mainkan berbagai tingkatan secara acak."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Ukuran kotak ubin permainan"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Ukuran kotak ubin permainan."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Gerakan relatif."
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Gerakan relatif (kiri atau kanan saja)."
+
+#~ msgid "Width of the GNibbles window"
+#~ msgstr "Lebar jendela GNibbles"
+
+#~ msgid ""
+#~ "Width of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Lebar jendela GNibbles, dipergunakan untuk mengembalikan ukuran jendela "
+#~ "antara sesi."
+
+#~ msgid "Bonus"
+#~ msgstr "Bonus"
+
+#~ msgid "Bonus Appears"
+#~ msgstr "Kemunculan Bonus"
+
+#~ msgid "Eat Bonus"
+#~ msgstr "Bonus Makanan"
+
+#~ msgid "Extra Life"
+#~ msgstr "Nyawa Ekstra"
+
+#~ msgid "Worm Death"
+#~ msgstr "Cacing Setan"
+
+#~ msgid "Worm Reverse"
+#~ msgstr "Cacing Terbalik"
+
+#~ msgid "Worm Teleport"
+#~ msgstr "Teleport Cacing"
+
+#~ msgid "Beginner"
+#~ msgstr "Pemula"
+
+#~ msgid "Slow"
+#~ msgstr "Lambat"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "gnibbles|Sedang"
+
+#~ msgid "Fast"
+#~ msgstr "Cepat"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Gim cacing GNOME."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Pengaturan Nibbles"
+
+#, fuzzy
+#~ msgid "Speed"
+#~ msgstr "Dihentikan"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Pemula"
+
+#, fuzzy
+#~ msgid "My second day"
+#~ msgstr "%s detik"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Jangan terlalu mudah"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Cukup mahir"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_Mainkan beragam tingkatan secara acak"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "_Aktifkan bonus palsu"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "Aktifka_n suara"
+
+#, fuzzy
+#~ msgid "Number of _human players:"
+#~ msgstr "J_umlah pemain:"
+
+#, fuzzy
+#~ msgid "Number of _AI players:"
+#~ msgstr "J_umlah pemain:"
+
+#~ msgid "Worm"
+#~ msgstr "Cacing"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "G_unakan Gerakan relatif."
+
+#~ msgid "_Worm color:"
+#~ msgstr "_Warna cacing:"
+
+#~ msgid "Green"
+#~ msgstr "Hijau"
+
+#~ msgid "Cyan"
+#~ msgstr "Biru telor asin"
+
+#, fuzzy
+#~ msgid "Purple"
+#~ msgstr "Teka-teki"
+
+#~ msgid "Gray"
+#~ msgstr "Abu-abu"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Cacing %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Selesai!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "Kerja hebat, tetapi sayangnya angka anda tidak masuk sepuluh besar."
+
+#, fuzzy
+#~ msgid "Klotski Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#~ msgid "Map:"
+#~ msgstr "Peta:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Selamat, Anda telah mengalahkan para Robot!!\n"
+#~ "Mau lagi?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Tidak ada lokasi teleport lagi!!"
+
+#~ msgid "You have run out of safe moves - the robots have won!"
+#~ msgstr "Anda telah kehabisan gerakan aman - robot menang!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Tidak ada lokasi aman untuk teleport!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Pilih skenario permainan"
+
+#~ msgid "Initial window position"
+#~ msgstr "Posisi awal jendela"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#, fuzzy
+#~ msgid "Classic robots"
+#~ msgstr "robot klasik"
+
+#, fuzzy
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah aman"
+
+#, fuzzy
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah super-aman"
+
+#, fuzzy
+#~ msgid "Nightmare"
+#~ msgstr "mimpi buruk"
+
+#, fuzzy
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah aman"
+
+#, fuzzy
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah super-aman"
+
+#, fuzzy
+#~ msgid "Robots2"
+#~ msgstr "Robots"
+
+#, fuzzy
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah aman"
+
+#, fuzzy
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah super-aman"
+
+#, fuzzy
+#~ msgid "Robots2 easy"
+#~ msgstr "robot2 mudah"
+
+#, fuzzy
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah aman"
+
+#, fuzzy
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Tipe permainan '%s' dengan langkah super-aman"
+
+#, fuzzy
+#~ msgid "Robots with safe teleport"
+#~ msgstr "robot dengan teleport aman"
+
+#, fuzzy
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "robot dengan teleport aman"
+
+#, fuzzy
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "robot dengan teleport aman"
+
+#~ msgid "Robots"
+#~ msgstr "Robots"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Tidak ada data permainan ditemukan."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Program Robots tidak bisa menemukan berkas konfigurasi permainan yang "
+#~ "benar. Coba periksa programnya telah terpasang dengan benar."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Beberapa berkas grafis hilang atau rusak."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Program Robots tidak bisa membaca seluruh berkas grafis yang diperlukan. "
+#~ "Coba periksa apakah programnya sudah terpasang dengan benar."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Hindari robot dan buat mereka saling tabrak."
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Aktifkan suara dalam gim"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr "Aktifkan suara dalam gim. Mainkan suara dalam keseluruhan gim."
+
+#~ msgid "Enable splats"
+#~ msgstr "Aktifkan ledakan"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr "Aktifkan ledakan. Bunyikan suara dan tampilkan ledakan di layar."
+
+#, fuzzy
+#~ msgid "Game type"
+#~ msgstr "_Daftar Permainan"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Jenis gim. Nama variasi gim."
+
+#~ msgid "Key to hold"
+#~ msgstr "Tombol untuk ditekan"
+
+#~ msgid "Key to move E"
+#~ msgstr "Tombol gerak T"
+
+#~ msgid "Key to move N"
+#~ msgstr "Tombol gerak U"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Tombol gerak TL"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Tombol gerak BL"
+
+#~ msgid "Key to move S"
+#~ msgstr "Tombol gerak S"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Tombol gerak TG"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Tombol gerak BD"
+
+#~ msgid "Key to move W"
+#~ msgstr "Tombol gerak B"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Tombol untuk pindah"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Tombol untuk pindah acak"
+
+#~ msgid "Key to wait"
+#~ msgstr "Tombol untuk menunggu"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Tema gambar Robot"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "Tema gambar robot."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "Tampilkan toolbar. Pilihan standard untuk toolbar."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr "Nama tombol digunakan untuk tahan. Nama adalah nama standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Nama tombol digunakan untuk pindah timur. Nama adalah nama standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Nama tombol digunakan untuk pindah timur laut. Nama adalah nama standard "
+#~ "X key."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Nama tombol digunakan untuk pindah barat laut. Nama adalah nama standard "
+#~ "X key."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Nama tombol digunakan untuk pindah utara. Nama adalah nama standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk begerak ke tenggara. Nama adalah nama "
+#~ "standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk begerak ke barat daya. Nama adalah nama "
+#~ "standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk begerak ke selatan. Nama adalah nama "
+#~ "standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk begerak ke barat. Nama adalah nama "
+#~ "standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk berpindah secara acak. Nama adalah nama "
+#~ "standard X key."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk berpindah dengan aman (jika "
+#~ "memungkinkan). Nama adalah nama standard X key."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "Nama kunci yang digunakan untuk menunggu. Nama adalah nama standard X key."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Gunakan langkah aman"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Gunakan langkah aman. Langkah aman akan menghindarkan Anda dari "
+#~ "pembunuhan yang dilakukan robot karena salah langkah. Bila Anda sekiranya "
+#~ "akan melangkah dan membahayakan diri Anda, maka langkah tersebut akan "
+#~ "dibatalkan oleh komputer."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Gunakan langkah super aman"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Gunakan langkah super aman. Pemain akan diperingatkan bila tidak ada "
+#~ "langkah yang aman dan satu-satunya jalan adalah dengan menggunakan "
+#~ "teleport."
+
+#~ msgid "Bad Move"
+#~ msgstr "Salah Jalan"
+
+#~ msgid "Level Complete"
+#~ msgstr "Level Selesai"
+
+#, fuzzy
+#~ msgid "Player Dead"
+#~ msgstr "Pemain"
+
+#~ msgid "Player Teleport"
+#~ msgstr "Telepor Pemain"
+
+#~ msgid "Robot has been Splatted!"
+#~ msgstr "Robot telah diledakkan!"
+
+#~ msgid "Victory!!"
+#~ msgstr "Menang!!"
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Berkas pixmap '%s' tidak ditemukan\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Pindahkan..."
+
+#~ msgid "_Teleport"
+#~ msgstr "_Teleport"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Pindah, secara aman jika mungkin"
+
+#, fuzzy
+#~ msgid "_Random"
+#~ msgstr "_Batal"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Berpindah secara acak"
+
+#, fuzzy
+#~ msgid "_Wait"
+#~ msgstr "Petunjuk"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Tunggu robot"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Tampilkan atau sembunyikan batang alat"
+
+#~ msgid "Based on classic BSD Robots."
+#~ msgstr "Berdasarkan Robots klasik BSD."
+
+#~ msgid "classic robots"
+#~ msgstr "robot klasik"
+
+#~ msgid "robots2"
+#~ msgstr "robot2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "robot2 mudah"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "robot dengan teleport aman"
+
+#~ msgid "nightmare"
+#~ msgstr "mimpi buruk"
+
+#~ msgid "robots"
+#~ msgstr "robot"
+
+#~ msgid "cows"
+#~ msgstr "sapi"
+
+#~ msgid "eggs"
+#~ msgstr "telur"
+
+#~ msgid "gnomes"
+#~ msgstr "orang cebol"
+
+#~ msgid "mice"
+#~ msgstr "tikus"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Pengaturan Robots"
+
+#~ msgid "Game Type"
+#~ msgstr "Jenis Permainan"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "G_unakan langkah aman"
+
+#~ msgid "Prevent some dangerous moves"
+#~ msgstr "Cegah beberapa gerakan berbahaya"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Hindari gerakan tak sengaja yang bisa membunuh."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "Gunakan langkah _super aman"
+
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "Hindari seluruh gerakan bahaya"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Hindari seluruh gerakan yang bisa membunuh."
+
+#~ msgid "Play sounds for major events"
+#~ msgstr "Mainkan suara untuk kegiatan besar"
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr ""
+#~ "Mainkan suara untuk kejadian seperti menangkan tingkatan dan mau mati."
+
+#~ msgid "E_nable splats"
+#~ msgstr "Aktifka_n ledakan"
+
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "Bunyikan suara ketika dua robot bertabrakan"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr ""
+#~ "Bunyikan suara yang paling umum, dan kemungkinan yang paling "
+#~ "menjengkelkan."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Tema Grafik"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_Gambar tema:"
+
+#, fuzzy
+#~ msgid "_Background color:"
+#~ msgstr "Latar hitam"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Kembalikan Awal"
+
+#~ msgid "Keyboard"
+#~ msgstr "Keyboard"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Teleport Aman:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Sisa:"
+
+#~ msgid "<none>"
+#~ msgstr "<Tidak ada>"
+
+#~ msgid ""
+#~ "Written for my wife, Matylda\n"
+#~ "Send comments and bug reports to: \n"
+#~ "janusz.gorycki@intel.com"
+#~ msgstr ""
+#~ "Dibuat untuk istriku, Matylda\n"
+#~ "Kirim komentar dan laporan bug ke: \n"
+#~ "janusz.gorycki@intel.com"
+
+#~ msgid "GNOME Sudoku; a logic puzzle"
+#~ msgstr "GNOME Sudoku; sebuah teka-teki logika"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "High Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#~ msgid "<i>Easy</i>"
+#~ msgstr "<i>Gampang</i>"
+
+#~ msgid "<i>Hard</i>"
+#~ msgstr "<i>Susah</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Select Game</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Pilih Game</span>"
+
+#~ msgid "Choose the _level of difficulty for your new game."
+#~ msgstr "Pilih tingkat ke_sulitan untuk permainan baru."
+
+#~ msgid "_Details"
+#~ msgstr "_Detil"
+
+#~ msgid "_Play"
+#~ msgstr "_Mainkan"
+
+#~ msgid "Choose _game"
+#~ msgstr "Pilih Permainan"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Cetak Permainan</span>"
+
+#~ msgid "Choose the _level of difficulty for games"
+#~ msgstr "Pilih tingkat ke_sulitan untuk permainan"
+
+#~ msgid "Ma_ximum Difficulty"
+#~ msgstr "Kesulitan _Maksimum"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Cetak Sudoku"
+
+#~ msgid "_Game List"
+#~ msgstr "_Daftar Permainan"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr ""
+#~ "_Ikutsertakan permainan yang telah anda mainkan ke dalam daftar permainan "
+#~ "yang akan dicetak"
+
+#~ msgid "_Label games with difficulty and name."
+#~ msgstr "Labeli permainan dengan tingkat kesulitan dan nama."
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "Tandai permainan sebagai sudah dimainkan setelah anda mencetaknya."
+
+#~ msgid "_Minimum Difficulty"
+#~ msgstr "Kesulitan Minimum"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "Cacah sudoku yang akan dicetak: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "Sudoku per halaman: "
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Cacah Teka-teki</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Gampang:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Sulit:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Sedang:</i>"
+
+#, fuzzy
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Sangat Sulit:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Pembuat Puzzle</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Kriteria:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Siapkan Kebijakan"
+
+#, fuzzy
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Siapkan teka-teki _baru sampai dihentikan"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Siapkan sampai mencapai ta_rget"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Pembuat Teka-teki"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "Target cacah sudoku:"
+
+#~ msgid "_Easy"
+#~ msgstr "Muda_h"
+
+#~ msgid "_Generate"
+#~ msgstr "Siapka_n"
+
+#~ msgid "_Hard"
+#~ msgstr "S_ulit"
+
+#, fuzzy
+#~ msgid "_Very Hard"
+#~ msgstr "Sangat Sulit"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Hapus Lainnya"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "Tambah Pelacak"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "Hapus Pelacak"
+
+#~ msgid "_Trackers"
+#~ msgstr "Pelacak"
+
+#~ msgid "Puzzle"
+#~ msgstr "Teka-teki"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player.  Sudoku is a "
+#~ "japanese logic puzzle."
+#~ msgstr ""
+#~ "GNOME Sudoku adalah sebuah pembuat dan permainan sudoku. Sudoku adalah "
+#~ "teka-teki logika dari Jepang."
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Cetak Sudoku"
+
+#~ msgid "Print Preview"
+#~ msgstr "Tampilan Pracetak"
+
+#~ msgid "Squares instantly fillable by filling: "
+#~ msgstr "Kotak yang dalam sekejap dapat diisi: "
+
+#~ msgid "Squares instantly fillable by elimination: "
+#~ msgstr "Kotak yang dalam sekejap dapat diisi dengan eliminasi: "
+
+#~ msgid "Number of trial-and-errors necessary to solve: "
+#~ msgstr "Cacah coba-coba yang diperlukan untuk menyelesaikan: "
+
+#~ msgid "Difficulty value: "
+#~ msgstr "Nilai kesulitan: "
+
+#~ msgid "Difficulty"
+#~ msgstr "Tingkat Kesulitan"
+
+#~ msgid "Started"
+#~ msgstr "Dimulai"
+
+#~ msgid "Last Played"
+#~ msgstr "Terakhir Dimainkan"
+
+#~ msgid "Printed %s ago"
+#~ msgstr "Dicetak %s yang lalu"
+
+#~ msgid "Played for %s"
+#~ msgstr "Dimainkan selama %s"
+
+#~ msgid "%s ago"
+#~ msgstr "%s yang lalu"
+
+#~ msgid "Player"
+#~ msgstr "Pemain"
+
+#~ msgid "Date"
+#~ msgstr "Tanggal"
+
+#, fuzzy
+#~ msgid "Not in database"
+#~ msgstr "Tidak ada petunjuk"
+
+#, fuzzy
+#~ msgid "Unknown difficulty"
+#~ msgstr "Setelan tidak dikenal"
+
+#~ msgid "Hints"
+#~ msgstr "Petunjuk"
+
+#~ msgid "Warnings about unfillable squares"
+#~ msgstr "Peringatan tentang kotak yang tak mungkin diisi"
+
+#~ msgid "Auto-fills"
+#~ msgstr "Pengisian otomatis"
+
+#~ msgid "Finished in"
+#~ msgstr "Diselesaikan dalam"
+
+#~ msgid "Working..."
+#~ msgstr "Memproses..."
+
+#, fuzzy
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%s teka-teki"
+
+#~ msgid "Stopped"
+#~ msgstr "Dihentikan"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "Dihasilkan %(n)s dari %(total)s teka-teki"
+
+#, fuzzy
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "Dihasilkan %s teka-teki"
+
+#~ msgid "Very Hard"
+#~ msgstr "Sangat Sulit"
+
+#~ msgid "Medium"
+#~ msgstr "Sedang"
+
+#~ msgid "_Stop"
+#~ msgstr "_Stop"
+
+#, fuzzy
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Anda benar-benar ingin melakukan hal ini"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Jangan menanyakan hal ini lagi."
+
+#, fuzzy
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%s tahun"
+
+#, fuzzy
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%s bulan"
+
+#, fuzzy
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%s minggu"
+
+#, fuzzy
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%s hari"
+
+#, fuzzy
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%s jam"
+
+#, fuzzy
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%s menit"
+
+#, fuzzy
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%s detik"
+
+#~ msgid " and "
+#~ msgstr " dan "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Today"
+#~ msgstr "Hari ini"
+
+#~ msgid "Yesterday"
+#~ msgstr "Kemarin"
+
+#~ msgid "_Clear"
+#~ msgstr "_Bersih"
+
+#~ msgid "Track moves"
+#~ msgstr "Lacak langkah-langkah"
+
+#~ msgid "Full Screen"
+#~ msgstr "Layar Penuh"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr "Isi"
+
+#~ msgid "New game"
+#~ msgstr "Permainan baru"
+
+#~ msgid "Print current game"
+#~ msgstr "Cetak permainan yang sedang berjalan"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "Cetak Banyak Sudoku"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Mencetak lebih dari satu sudoku sekaligus."
+
+#~ msgid "Close Sudoku (save game for later)"
+#~ msgstr "Tutup Sudoku (simpan permainan untuk nanti)"
+
+#~ msgid "_Enter custom game"
+#~ msgstr "Masukkan permainan kustom"
+
+#~ msgid ""
+#~ "Enter new puzzle by hand (use this to copy a puzzle from another source)."
+#~ msgstr ""
+#~ "Memasukkan teka-teki baru secara manual (gunakan ini untuk menyalin teka-"
+#~ "teki dari sumber lain)."
+
+#~ msgid "_Resume old game"
+#~ msgstr "Lanjutkan permainan lama"
+
+#~ msgid "Resume a previous saved game."
+#~ msgstr "Melanjutkan permainan yang sebelumnya telah disimpan."
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Tampilkan angka mana yang dapat diisikan ke kotak saat ini."
+
+#~ msgid "_Fill"
+#~ msgstr "Isi"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Isi kotak saat ini secara otomatis bila mungkin."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "Isi semua kotak"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Isi secara otomatis semua kotak yang hanya memiliki satu nilai yang sah."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "Statistik Teka-teki"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Tampilkan statistik tentang teka-teki saat ini"
+
+#~ msgid "High _Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#~ msgid "Show high scores or replay old games."
+#~ msgstr "Tunjukkan nilai tertinggi atau mainkan ulang permainan lama."
+
+#~ msgid "_Always show hint"
+#~ msgstr "Selalu tampilkan petunjuk"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Selalu menampilkan angka-angka yang mungkin dalam sebuah kotak"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "Peringatkan tentang kotak-kotak yang tak mungkin diisi"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr ""
+#~ "Memperingatkan tentang kotak-kotak yang menjadi tak mungkin diisi karena "
+#~ "sebuah langkah"
+
+#~ msgid "_Track additions"
+#~ msgstr "Catat tambahan-tambahan"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr ""
+#~ "Tandai tambahan baru dengan warna yang berbeda sehingga anda dapat "
+#~ "melacak mereka."
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Tampilkan _Toolbar"
+
+#~ msgid "_Black background"
+#~ msgstr "Latar hitam"
+
+#~ msgid ""
+#~ "Background of game is black; otherwise, the background will follow your "
+#~ "theme colors."
+#~ msgstr ""
+#~ "Warna latar permainan adalah hitam; jika tidak, warna latar akan "
+#~ "mengikuti warna theme anda."
+
+#~ msgid "_Highlighter"
+#~ msgstr "Penanda"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Tandai baris, kolom, dan kotak saat ini"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Persiapkan teka-teki baru ketika anda bermain"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Menyiapkan teka-teki baru di latar belakang ketika anda bermain. Proses "
+#~ "ini secara otomatis dihentikan ketika permainan berpindah ke latar "
+#~ "belakang."
+
+#, fuzzy
+#~ msgid "_Edit"
+#~ msgstr "Petunjuk"
+
+#~ msgid "_Undo"
+#~ msgstr "_Batal"
+
+#~ msgid "Undo last action"
+#~ msgstr "Batalkan langkah terakhir"
+
+#~ msgid "_Redo"
+#~ msgstr "_Ulangi"
+
+#~ msgid "Redo last action"
+#~ msgstr "Ulangi langkah terakhir"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Hapus angka-angka yang telah dimasukkan"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "Hapus Catatan"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Hapus catatan dan petunjuk"
+
+#~ msgid "No Tracker"
+#~ msgstr "Tidak Ada Penjejak"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "Siapkan teka-teki baru"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Menyiapkan teka-teki baru"
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Memasukkan grid kustom..."
+
+#~ msgid "_Play game"
+#~ msgstr "Mainkan permainan"
+
+#~ msgid "Playing "
+#~ msgstr "Sedang bermain "
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Informasi Teka-teki"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Tidak ada teka-teki yang sedang dimainkan."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Hasil hitungan tingkat kesulitan: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Cacah langkah yang dalam sekejap dapat diisi dengan eliminasi: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr ""
+#~ "Cacah langkah yang dalam sekejap dapat diisi dengan pengisian langsung: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Cacah coba-coba yang diperlukan untuk memecahkan: "
+
+#~ msgid "Statistics for %s"
+#~ msgstr "Statistik untuk %s"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "Hapus semua langkah yang dilacak oleh pelacak yang dipilih."
+
+#~ msgid "_Clear Others"
+#~ msgstr "Hapus Lainnya"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "Hapus semua langkah yang tidak dilacak oleh pelacak yang dipilih."
+
+#~ msgid "Tracker %s"
+#~ msgstr "Pelacak %s"
+
+#, fuzzy
+#~ msgid "gnomine|Medium"
+#~ msgstr "Sedang"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Bendera: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Ranjau Sudah Di Bersihkan!"
+
+#, fuzzy
+#~ msgid "Mines Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#~ msgid "Size:"
+#~ msgstr "Ukuran:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Klik petak; petak mana saja"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Mungkin mereka smua ranjau ..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Rubah ukuran dan dukungan SVG:"
+
+#~ msgid "Faces:"
+#~ msgstr "Wajah:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafis:"
+
+#, fuzzy
+#~ msgid "Mines"
+#~ msgstr "Petunjuk"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered."
+#~ msgstr ""
+#~ "Teka-teki Logika sapu ranjau yang terkenal. Bersihkan ranjauh dari papan "
+#~ "menggunakan petunjuk dari petak-petak yang telah dibuka."
+
+#~ msgid "Field Size"
+#~ msgstr "Ukuran Lapangan"
+
+#~ msgid "Custom Size"
+#~ msgstr "Ukuran Sendiri"
+
+#, fuzzy
+#~ msgid "_Number of mines:"
+#~ msgstr "Cacah sudoku yang akan dicetak: "
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Mendatar:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Tegak:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "G_unakan tanda \"Saya tidak yakin\"."
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "G_unakan peringatan \"Terlalu banyak bendera\""
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Pengaturan Mines"
+
+#~ msgid "Width of grid"
+#~ msgstr "Lebar kotak"
+
+#~ msgid "Height of grid"
+#~ msgstr "Tinggi kotak"
+
+#~ msgid "Number of mines"
+#~ msgstr "Jumlah ranjau"
+
+#~ msgid "NUMBER"
+#~ msgstr "ANGKA"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Ukuran papan (0-2 = kecil-besar, 3=sesuaikan)"
+
+#~ msgid "X location of window"
+#~ msgstr "Lokasi X dari jendela"
+
+#~ msgid "Y location of window"
+#~ msgstr "Lokasi Y dari jendela"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Tekan untuk Lanjut"
+
+#~ msgid "Time: "
+#~ msgstr "Waktu: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Bersihkan ranjau tersembunyi dari ladang ranjau"
+
+#, fuzzy
+#~ msgid "Board size"
+#~ msgstr "Ukuran Papan"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr ""
+#~ "Set ke true untuk dapat menandai kotak dengan tanda 'tidak diketahui'."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Buat jadi true supaya ada ikon peringatan ketika begitu banyak bendera "
+#~ "ditempatkan."
+
+#, fuzzy
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "Tinggi jendela yang diinginkan dalam piksel."
+
+#, fuzzy
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Jumlah baris yang diisi"
+
+#, fuzzy
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "Lebar jendela yang diinginkan dalam piksel."
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Gunakan tanda 'tidak diketahui'"
+
+#, fuzzy
+#~ msgid "Warning about too many flags"
+#~ msgstr "Peringatan tentang kotak yang tak mungkin diisi"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Gambar tidak ditemukan:\n"
+#~ "\n"
+#~ "Silakan periksa instalasi gnome-games Anda."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Gambar yang diperlukan ketemu, tapi tidak bisa dibaca.\n"
+#~ "\n"
+#~ "Coba periksa pemasangan gnome-games anda dan ketergantungannya."
+
+#~ msgid "Could not load images"
+#~ msgstr "Tidak bisa membaca gambar"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#, fuzzy
+#~ msgid "_Size"
+#~ msgstr "_Tampil"
+
+#~ msgid "Sol_ve"
+#~ msgstr "S_elesaikan"
+
+#~ msgid "Solve the game"
+#~ msgstr "Selesaikan permainan"
+
+#~ msgid "_Up"
+#~ msgstr "_Atas"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Geser ke atas"
+
+#~ msgid "_Left"
+#~ msgstr "K_iri"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Geser ke kiri"
+
+#~ msgid "_Right"
+#~ msgstr "_Kanan"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Geser ke kanan"
+
+#~ msgid "_Down"
+#~ msgstr "_Turun"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Pindahkan ke bawah"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Main di papan ukuran 2×2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Main di papan ukuran 3×3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Main di papan ukuran 4×4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Main di papan ukuran 5×5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Main di papan ukuran 6×6"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "Warna"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Ukuran papan (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Selesai! Selamat!"
+
+#, fuzzy
+#~ msgid "Puzzle solved!"
+#~ msgstr "Teka-teki"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Skor Tetravex"
+
+#~ msgid "Game paused"
+#~ msgstr "Permainan istirahat"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Main di papan ukuran %d×%d"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other."
+#~ msgstr ""
+#~ "Tetravex GNOME adalah teka-teki sederhana dimana lembaran harus "
+#~ "diposisikan dengan cara nomor yang sama saling bertemu."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Selesaikan teka-teki dengan mencocokkan ubin bernomor"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#, fuzzy
+#~ msgid "Control coloured tiles"
+#~ msgstr "Tidak bisa membaca ubin"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Pilih apakah ingin menyeret kartu atau meng-klik pada sumber baru "
+#~ "kemudian ke tujuan."
+
+#~ msgid ""
+#~ "The height of the playing window in pixels. At minimum it should be 240."
+#~ msgstr "Tinggi jendela permainan dalam piksel. Paling kecil harus 240."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Ukuran kotak permainan"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Isikan angka ukuran kotak ubin permainan. Angka bisa diisi dari 2 hingga "
+#~ "8, bila diisi dengan angka lain maka akan otomatis menjadi 3."
+
+#~ msgid ""
+#~ "The width of the playing window in pixels. At minimum it should be 320."
+#~ msgstr "Lebar jendela permainan dalam piksel. Paling kecil harus 320."
+
+#, fuzzy
+#~ msgid "Only 18 steps"
+#~ msgstr "Hanya 18 Langkah"
+
+#, fuzzy
+#~ msgid "Daisy"
+#~ msgstr "Mudah"
+
+#~ msgid "Violet"
+#~ msgstr "Ungu"
+
+#~ msgid "Poppy"
+#~ msgstr "Poppy"
+
+#, fuzzy
+#~ msgid "Pansy"
+#~ msgstr "Mudah"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Snowdrop"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Red Donkey"
+
+#~ msgid "Trail"
+#~ msgstr "Jejak"
+
+#~ msgid "Ambush"
+#~ msgstr "Penyergapan"
+
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+#~ msgid "Success"
+#~ msgstr "Sukses"
+
+#~ msgid "Bone"
+#~ msgstr "Tulang"
+
+#~ msgid "Fortune"
+#~ msgstr "Keberuntungan"
+
+#~ msgid "Fool"
+#~ msgstr "Bodoh"
+
+#~ msgid "Solomon"
+#~ msgstr "Sulaiman"
+
+#, fuzzy
+#~ msgid "Cleopatra"
+#~ msgstr "_Bersih"
+
+#~ msgid "Shark"
+#~ msgstr "Hiu"
+
+#~ msgid "Rome"
+#~ msgstr "Roma"
+
+#, fuzzy
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Dihasilkan %s teka-teki"
+
+#~ msgid "Ithaca"
+#~ msgstr "Ithaca"
+
+#~ msgid "Pelopones"
+#~ msgstr "Pelopones"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transeuropa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Polonaise"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Laut Baltic"
+
+#~ msgid "American Pie"
+#~ msgstr "American Pie"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Kemacetan Lalu-lintas"
+
+#~ msgid "Sunshine"
+#~ msgstr "Cahaya"
+
+#~ msgid "Block 10"
+#~ msgstr "Block 10"
+
+#~ msgid "Block 10 Pro"
+#~ msgstr "Block 10 Pro"
+
+#~ msgid "Climb 12"
+#~ msgstr "Climb 12"
+
+#~ msgid "Climb 12 Pro"
+#~ msgstr "Climb 12 Pro"
+
+#~ msgid "Climb 15 Winter"
+#~ msgstr "Climb 15 Dingin"
+
+#~ msgid "Climb 15 Spring"
+#~ msgstr "Climb 15 Semi"
+
+#~ msgid "Climb 15 Summer"
+#~ msgstr "Climb 15 Panas"
+
+#~ msgid "Climb 15 Fall"
+#~ msgstr "Climb 15 Gugur"
+
+#~ msgid "Climb 24 Pro"
+#~ msgstr "Climb 24 Pro"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "Hanya 18 Langkah"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "HuaRong Trail"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Challenge Pack"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Skill Pack"
+
+#~ msgid "Minoru Climb"
+#~ msgstr "Pendakian Minoru"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Ulangi Puzzle"
+
+#, fuzzy
+#~ msgid "Next Puzzle"
+#~ msgstr "Teka-teki"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Puzzle Sebelumnya"
+
+#~ msgid "Level completed."
+#~ msgstr "Level selesai."
+
+#, fuzzy
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Teka-teki"
+
+#, fuzzy
+#~ msgid "Puzzle:"
+#~ msgstr "Teka-teki"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Tema permainan ini gagal dibaca.\n"
+#~ "\n"
+#~ "Coba periksa apakah Klotski telah terpasang dengan benar."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Berkas gambar tidak dapat ditemukan:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Periksa dulu instalasi Klotski Anda"
+
+#~ msgid "Moves: %d"
+#~ msgstr "Jalan: %d"
+
+#~ msgid "Sliding Block Puzzles"
+#~ msgstr "Menggeser Blok Puzzle"
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Geser blok untuk menyelesaikan teka-teki"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Jumlah puzzle yang sedang di mainkan."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Puzzle sedang dimainkan"
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Tinggi jendela utama yang diinginkan dalam piksel. Jika tidak cukup besar "
+#~ "akan diabaikan."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Lebar jendela utama yang diinginkan dalam piksel. Jika tidak cukup besar "
+#~ "akan diabaikan."
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Itu sudah ada isinya! Mau ditaruh dimana?"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Mainkan taruhan dalam permainan dadu gaya poker"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Pilih apakah menyisipkan jeda antara perputaran dadu komputer sehingga "
+#~ "pemain dapat mengikuti apa yang terjadi."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Jeda antara kocokan"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Tampilkan pemikiran computer"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Jika true, laporan dari AI yang sedang bekerja akan dilakukan ke keluaran "
+#~ "standard."
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Jeda saat komputer jalan"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Tampilkan isi pikiran komputer"
+
+#, fuzzy
+#~ msgid "Number of computer opponents"
+#~ msgstr "Cacah sudoku yang akan dicetak: "
+
+#, fuzzy
+#~ msgid "Number of human opponents"
+#~ msgstr "Cacah sudoku yang akan dicetak: "
+
+#, fuzzy
+#~ msgid "Roll all!"
+#~ msgstr "Kocok!"
+
+#~ msgid "Roll!"
+#~ msgstr "Kocok!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Permainan berakhir seri!"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#, fuzzy
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s memenangkan permainan dengan %d poin"
+#~ msgstr[1] "%s memenangkan permainan dengan %d poin"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Komputer bermain untuk %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Giliran Anda."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Pilih dadu yang ingin dikocok, atau pilih slot nilai."
+
+#~ msgid "Roll"
+#~ msgstr "Putar"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Anda hanya boleh mengambil tiga kocokan! Pilih kotak nilai."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Versi GNOME (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Versi konsol (1992):"
+
+#~ msgid "A variation on poker with dice and less money."
+#~ msgstr "Sejenis poker dengan dadu dan sedikit uang."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "Permainan saat ini akan selesai dengan jumlah pemain asal."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Pengaturan Tali"
+
+#, fuzzy
+#~ msgid "Human Players"
+#~ msgstr "Pemain"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Jumlah pemain:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Musuh Komputer"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_Jeda antara kocokan"
+
+#, fuzzy
+#~ msgid "N_umber of opponents:"
+#~ msgstr "Cacah sudoku yang akan dicetak: "
+
+#~ msgid "Colors"
+#~ msgstr "Warna"
+
+#, fuzzy
+#~ msgid "Player Names"
+#~ msgstr "Mainkan permainan"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1s [total 1s]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2s [total 2s]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3s [total 3s]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4s [total 4s]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5s [total 5s]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6s [total 6s]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Peluang [total]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Total Bawah"
+
+#~ msgid "Grand Total"
+#~ msgstr "Total Keseluruhan"
+
+#~ msgid "Upper total"
+#~ msgstr "Total atas"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bonus bila >62"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Pilih ruang skor"
+
+#~ msgid "How many times do you wish to roll?"
+#~ msgstr "Berapa kali ingin mengocok dadu?"
+
+#, fuzzy
+#~ msgid "Generating ..."
+#~ msgstr "Siapka_n"
+
+#~ msgid "Results"
+#~ msgstr "Hasil"
+
+#~ msgid "Num Rolls"
+#~ msgstr "Jumlah Kocokan"
+
+#, fuzzy
+#~ msgid "Total"
+#~ msgstr "Hari ini"
+
+#, fuzzy
+#~ msgid "Net_work Game"
+#~ msgstr "Permainan Baru"
+
+#, fuzzy
+#~ msgid "_Player list"
+#~ msgstr "Pemain"
+
+#, fuzzy
+#~ msgid "_Leave Game"
+#~ msgstr "Permainan Baru"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid "A disk flipping game derived from Reversi."
+#~ msgstr "Permainan membalik cakram dari Reversi."
+
+#, fuzzy
+#~ msgid "Invalid move."
+#~ msgstr "Pemain mencoba mengambil jalan yang salah"
+
+#~ msgid "Dark:"
+#~ msgstr "Gelap:"
+
+#~ msgid "Light:"
+#~ msgstr "Terang:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Selamat datang di Iagno!"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#, fuzzy
+#~ msgid "Dark's move"
+#~ msgstr "Lacak langkah-langkah"
+
+#~ msgid "Light's move"
+#~ msgstr "Terang jalan"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Dominasi papan pada versi klasi Reversi"
+
+#~ msgid "Game over"
+#~ msgstr "Permainan Usai"
+
+#~ msgid "Piece flipping"
+#~ msgstr "Pembalikan koin"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Terang menang!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Gelap menang!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Permainan berakhir seri."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Terang lewat, Gelap jalan"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Gelap lewat, Terang jalan"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Pengaturan Iagno"
+
+#, fuzzy
+#~ msgid "Players"
+#~ msgstr "Pemain"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "G_unakan Gerakan cepat"
+
+#~ msgid "Animation"
+#~ msgstr "Animasi"
+
+#~ msgid "Partial"
+#~ msgstr "Parsial"
+
+#~ msgid "Complete"
+#~ msgstr "Komplit"
+
+#~ msgid "S_how grid"
+#~ msgstr "_Tampilkan garis pembantu"
+
+#~ msgid "_Flip final results"
+#~ msgstr "_Balikkan hasil akhir"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_Gambar ubin:"
+
+#, fuzzy
+#~ msgid "List of players:"
+#~ msgstr "Tunggu robot"
+
+#~ msgid "Card Style"
+#~ msgstr "Gaya Kartu"
+
+#~ msgid "There was an error accessing GConf: %s"
+#~ msgstr "Ada error saat mengakses GConf: %s"
+
+#~ msgid "The default configuration values could not be retrieved correctly."
+#~ msgstr "Konfigurasi awal tidak dapat diambil dengan benar."
+
+#~ msgid ""
+#~ "Please check your GConf configuration, specifically that the schemas have "
+#~ "been installed correctly."
+#~ msgstr ""
+#~ "Silakan periksa konfigurasi GConf, terutama apakah berkas-berkas skema "
+#~ "telah dipasang dengan benar atau tidak."
+
+#~ msgid "Image rendering failed."
+#~ msgstr "Pengambaran gambar gagal."
+
+#~ msgid "Enter fullscreen mode"
+#~ msgstr "Masuk mode layar penuh"
+
+#, fuzzy
+#~ msgid "Network game mode"
+#~ msgstr "Permainan baru"
+
+#~ msgid "The game server"
+#~ msgstr "Server permainan"
+
+#~ msgid "The identifier for the game"
+#~ msgstr "Pengenal untuk game"
+
+#~ msgid ""
+#~ "The mode of network game to use. 1 = Server, 2 = LAN Host, 3 = LAN Client."
+#~ msgstr ""
+#~ "Mode penggunaan jaringan permainan, 1 = Server, 2 = LAN Host, 3 = LAN "
+#~ "Client."
+
+#~ msgid "The player's nickname"
+#~ msgstr "Nama nick pemain"
+
+#~ msgid "The player's nickname."
+#~ msgstr "Nama nick pemain."
+
+#~ msgid ""
+#~ "This string identifies the default game to connect to or create "
+#~ "(depending on mode)."
+#~ msgstr ""
+#~ "String ini menentukan permainan awal untuk terhubung atau membuat "
+#~ "(tergantung pada mode)."
+
+#~ msgid ""
+#~ "When using server mode, which game server to contact. This accepts the "
+#~ "usual hostname or dotted quad notation."
+#~ msgstr ""
+#~ "Ketika menggunakan mode server, server game mana yang dihubungi. Menerima "
+#~ "nama host yang biasa atau yang bernotasi titik empat."
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Tema terpilih tidak bisa digambarkan.\n"
+#~ "\n"
+#~ "Periksa dulu instalasi Mahjongg nya."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Berkas gambar tidak dapat ditemukan Glines:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Periksa dulu instalasi Mahjongg Anda"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "The default tile set will be loaded instead."
+#~ msgstr ""
+#~ "Tidak menemukan berkas:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Ubin awal yang akan dibaca."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Tidak bisa membaca berkas:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Silahkan periksa apakah Mahjongg sudah terpasang dengan benar."
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Tidak bisa membaca ubin"
+
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr ""
+#~ "Anda ingin menyelesaikan permainan ini atau segera mulai dengan peta baru?"
+
+#~ msgid ""
+#~ "If you choose to finish with the old map then the next game will use the "
+#~ "new map."
+#~ msgstr ""
+#~ "Jika anda memilih selesai dengan peta lama, maka permainan baru akan "
+#~ "menggunakan peta baru."
+
+#, fuzzy
+#~ msgid "_Finish"
+#~ msgstr "Diselesaikan dalam"
+
+#~ msgid "Shuffle"
+#~ msgstr "Kocok"
+
+#, fuzzy
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Nilai Tertinggi"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Pengaturan Mahjongg"
+
+#~ msgid "Tiles"
+#~ msgstr "Ubin"
+
+#~ msgid "Maps"
+#~ msgstr "Peta"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Pilih peta:"
+
+#~ msgid "Maps:"
+#~ msgstr "Peta:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Ubin:"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "A matching game played with Mahjongg tiles."
+#~ msgstr "Permainan cocok dimainkan dengan ubin Mahjongg."
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "Maaf, konfigurasi permainan tidak dapat ditemukan."
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Sisa Ubin:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Gerak tersisa:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Buang ubin pasangan yang sama."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Bongkar susunan ubin dengan membuang pasangan yang sama"
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 200 pixels high."
+#~ msgstr ""
+#~ "Tinggi yang diminta dari jendela utama dalam piksel. Catat bahwa widget "
+#~ "jendela paling tidak harus tingginya 200 piksel."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 320 pixels wide."
+#~ msgstr ""
+#~ "Lebar yang diminta dari jendela utama dalam piksel. Catat bahwa widget "
+#~ "jendela paling tidak harus lebarnya 320 piksel."
+
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Mahjongg|Mudah"
+
+#~ msgid "The Ziggurat"
+#~ msgstr "Ziggurat"
+
+#~ msgid "Four Bridges"
+#~ msgstr "Empat Jembatan"
+
+#~ msgid "Cloud"
+#~ msgstr "Awan"
+
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Tik-Tak-Tu"
+
+#~ msgid "Red Dragon"
+#~ msgstr "Naga Merah"
+
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Dinding Pyramid"
+
+#, fuzzy
+#~ msgid "Difficult"
+#~ msgstr "Tingkat Kesulitan"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "Bonus 1000 poin untuk membersihkan papan!"
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "same-gnome|Sedang"
+
+#~ msgid "Set the theme"
+#~ msgstr "Tentukan tema"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "Untuk kompatibilitas ke belakang"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Ukuran permainan (1=kecil, 3=besar)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "Bersihkan layar dengan membuang sekelompok bola berwarna"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Same GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Tinggi papan disesuaikan"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Kalau di buat FALSE, maka lembaran akan jatuh dengan lambat, tetapi "
+#~ "dengan lembut. Kalau di buat TRUE, maka lembaran akan jatuh dengan cepat "
+#~ "dan tersentak."
+
+#~ msgid "The board size"
+#~ msgstr "Ukuran papan"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Nama berkas tema yang digunakan."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Tinggi papan disesuaikan, 101 &gt; tinggi &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "Ukuran panan digunakan. 1 = Sesuaian, 2 = Kecil, 3 = Sedang, 4 = Besar."
+
+#~ msgid "The theme to use"
+#~ msgstr "Tema yang digunakan"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Lebar jendela disesuaikan, 101 &gt; lebar &gt; 3."
+
+#~ msgid "The window height"
+#~ msgstr "Tinggi jendela"
+
+#~ msgid "The window width"
+#~ msgstr "Lebar jendela"
+
+#, fuzzy
+#~ msgid "Use fast animation"
+#~ msgstr "Batalkan langkah terakhir"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Lebar papan disesuaikan"
+
+#~ msgid "No points"
+#~ msgstr "Tanpa point"
+
+#, fuzzy
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%s bulan"
+
+#, fuzzy
+#~ msgid "Score: %d"
+#~ msgstr "Nilai"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!"
+#~ msgstr ""
+#~ "Saya ingin permainan itu! Anda tau, mereka smua berputar dan anda "
+#~ "mengklik mereka dan mereka hilang!"
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Skor Same GNOME"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "Sayangnya skor anda tidak masuk sepuluh besar."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Tema Same GNOME"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Tema"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "_Animasi Cepat"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Tidak menumukan tema."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Tidak mungkin memainkan permainan. Silahkan periksa bahwa permainan telah "
+#~ "dipasang dengan benar dan coba lagi."
+
+#, fuzzy
+#~ msgid "Upgrage Game"
+#~ msgstr "Buka Permainan"
+
+#, fuzzy
+#~ msgid "<b>Game to Join</b>"
+#~ msgstr "<b>Menang</b>"
+
+#, fuzzy
+#~ msgid "<b>White Player</b>"
+#~ msgstr "<b>Menang</b>"
+
+#, fuzzy
+#~ msgid "Di_fficulty:"
+#~ msgstr "Tingkat Kesulitan"
+
+#, fuzzy
+#~ msgid "Local chess player"
+#~ msgstr "Tingkatan pemain putih"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "Nama"
+
+#, fuzzy
+#~ msgid "Typ_e:"
+#~ msgstr "Waktu:"
+
+#, fuzzy
+#~ msgid "_Join"
+#~ msgstr "Petunjuk"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr "Nama"
+
+#, fuzzy
+#~ msgid "Waiting For Players"
+#~ msgstr "Tunggu robot"
+
+#, fuzzy
+#~ msgid "_Ready"
+#~ msgstr "_Ulangi"
+
+#, fuzzy
+#~ msgid "Game Start"
+#~ msgstr "_Daftar Permainan"
+
+#, fuzzy
+#~ msgid "Copyright (c) 2005,2006, Thomas M. Hinkle. GNU GPL"
+#~ msgstr "Hak Cipta (c) 2005, Thomas M. Hinkle. GNU GPL"
+
+#, fuzzy
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Mohammad DAMT <mdamt@bisnisweb.com>\n"
+#~ "Ahmad Riza H Nst  <rizahnst@gnome.org>\n"
+#~ "http://id.gnome.org/"
+
+#, fuzzy
+#~ msgid "<b>Chess Pieces</b>"
+#~ msgstr "<b>Menang</b>"
+
+#, fuzzy
+#~ msgid "<b>Initial Game</b>"
+#~ msgstr "<b>Waktu</b>"
+
+#, fuzzy
+#~ msgid "Graphics"
+#~ msgstr "Grafis:"
+
+#, fuzzy
+#~ msgid "Human versus AI"
+#~ msgstr "Pemain Manusia"
+
+#, fuzzy
+#~ msgid "Models:"
+#~ msgstr "Jalan: %d"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "Permainan baru"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "Mulai gim baru"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "Status"
+
+#~ msgid "_High Scores"
+#~ msgstr "Nilai _Tertinggi"
+
+#~ msgid "Set whose turn it is."
+#~ msgstr "Tentukan giliran siapa"
+
+#~ msgid "1 (Light) or 2 (Dark)"
+#~ msgstr "1 (Terang) atau 2 (Gelap)"
+
+#~ msgid "Based on code from Iagno by Ian Peters"
+#~ msgstr "Berdasarkan kode dari Iagno oleh Ian Peters"
+
+#~ msgid "Ataxx"
+#~ msgstr "Ataxx"
+
+#~ msgid "A disk-flipping game where you attempt to dominate the board."
+#~ msgstr "Permainan membalik cakratm diamana anda berusaha mendominasi papan."
+
+#~ msgid "Dominate the board in a modern variation of Reversi"
+#~ msgstr "Dominasi papan pada variasi modern Reversi"
+
+#~ msgid "Level of black player"
+#~ msgstr "Tingkatan pemain hitam"
+
+#~ msgid "The name of the theme to use."
+#~ msgstr "Nama tema yang digunakan"
+
+#~ msgid "Tileset (obsolete)"
+#~ msgstr "Ubin (usang)"
+
+#~ msgid "Tileset to use (obsolete)."
+#~ msgstr "Ubin yang digunakan (usang)."
+
+#~ msgid "Whether or not to use quick moves."
+#~ msgstr "Apakah menggunakan gerakan cepat."
+
+#~ msgid ""
+#~ "Zero corresponds to no animations, one is partial animations, two is "
+#~ "complete animations."
+#~ msgstr ""
+#~ "Nol berarti tidak menggunakan animasi, satu animasi parsial dan dua "
+#~ "adalah animasi penuh."
+
+#~ msgid "Squares and Diamonds"
+#~ msgstr "Petak dan Layang-layang"
+
+#~ msgid "Ataxx Preferences"
+#~ msgstr "Pengaturan Ataxx"
+
+#, fuzzy
+#~ msgid "_Quick moves"
+#~ msgstr "Lacak langkah-langkah"
+
+#~ msgid "Shortens the time a computer waits before doing a move"
+#~ msgstr "Perpendek waktu tunggu komputer sebelum melakukan jalan"
+
+#, fuzzy
+#~ msgid "Very easy"
+#~ msgstr "Sangat Sulit"
+
+#~ msgid "gataxx|Easy"
+#~ msgstr "gataxx|Mudah"
+
+#, fuzzy
+#~ msgid "gataxx|Medium"
+#~ msgstr "Sedang"
+
+#~ msgid "Flip the pieces with some visual effects"
+#~ msgstr "Balik lembaran dengan beberapa efek tampilan"
+
+#~ msgid "The appearance of the pieces"
+#~ msgstr "Pengaturan lembaran"
+
+#~ msgid "%s..."
+#~ msgstr "%s..."
+
+#~ msgid "Invalid game data"
+#~ msgstr "Data permainan salah"
+
+#~ msgid "Peer introduction complete"
+#~ msgstr "Pengenalan lawan selesai dilakukan"
+
+#~ msgid "New game ready to be started"
+#~ msgstr "Gim baru siap dimulai"
+
+#~ msgid "Iagno server to use"
+#~ msgstr "Server Iagno"
+
+#~ msgid "Invalid game data (set_peer)"
+#~ msgstr "Data gim salah (set_peer)"
+
+#~ msgid "Invalid game data (move)"
+#~ msgstr "Data gim salah (jalan)"
+
+#~ msgid "Select a nickname and connection method then click Connect."
+#~ msgstr "Pilih nama nick dan metode sambungan kemudian klik Sambung."
+
+#~ msgid "Connection Method"
+#~ msgstr "Metode Sambungan"
+
+#~ msgid "Host local game"
+#~ msgstr "Adakan permainan lokal"
+
+#~ msgid "Identification"
+#~ msgstr "Identifikasi"
+
+#~ msgid "_Nickname:"
+#~ msgstr "_Nama nick:"
+
+#, fuzzy
+#~ msgid "_Start Game"
+#~ msgstr "Dimulai"
+
+#~ msgid "Please supply a nickname."
+#~ msgstr "Silahkan berikan nama nick."
+
+#~ msgid "No local game selected."
+#~ msgstr "Tiada permainan lokal terpilih."
+
+#~ msgid "A new gnome games server was successfully started."
+#~ msgstr "Sebuah server permainan gnome berhasil dijalankan."
+
+#~ msgid "Network initialization complete."
+#~ msgstr "Inisialisasi jaringan selesai."
+
+#~ msgid "Network shutdown in progress."
+#~ msgstr "Jaringan sedang ditutup."
+
+#~ msgid "The remote player disconnected"
+#~ msgstr "Pemain lawan memutuskan hubungan jaringan"
+
+#~ msgid "Error occurred during connect attempt."
+#~ msgstr "Ada error saat mencoba koneksi jaringan"
+
+#~ msgid "Connection succeeded, waiting for opponent"
+#~ msgstr "Koneksi terjalin, sedang menunggu lawan"
+
+#~ msgid "Error occurred during write."
+#~ msgstr "Ada error saat menulis ke jaringan"
+
+#~ msgid "Cleaning up connection"
+#~ msgstr "Koneksi ditutup"
+
+#~ msgid "Connection in progress..."
+#~ msgstr "Koneksi dalam proses..."
+
+#~ msgid "No game server defined"
+#~ msgstr "Server gim belum ditentukan"
+
+#~ msgid ""
+#~ "Local Area Network game could not be started. \n"
+#~ "Try running mDNSResponder."
+#~ msgstr ""
+#~ "Permainan Jaringan lokal tidak bisa jalan. \n"
+#~ "Coba jalankan mDNSResponder."
+
+#~ msgid "Compete to dominate the board in a Reversi-like game"
+#~ msgstr "Berlomba menguasai papan dalam permainan mirim Reversi"
+
+#~ msgid "Play a puzzle game matching tiles together"
+#~ msgstr "Mainkan permainan puzzle menyocokkan ubin bersama"
+
+#~ msgid "Solve puzzles by sliding blocks"
+#~ msgstr "Selesaikan puzzle dengan menggeser blok"
+
+#~ msgid "Play a game of Reversi"
+#~ msgstr "Mainkan permainan Reversi"
+
+#~ msgid "Pause or continue the game"
+#~ msgstr "Istirahat atau lanjutkan permainan"
+
+#~ msgid "Remove groups of balls to try and clear the screen"
+#~ msgstr "Buang kelompok bola untuk mencoba dan membersihkan layar"
+
+#~ msgid "No moves available"
+#~ msgstr "Tidak ada jalan tersedia"
+
+#~ msgid "Variation on game rules"
+#~ msgstr "Variasi peraturan permainan"
+
+#~ msgid "windows"
+#~ msgstr "jendela"
+
+#~ msgid "Calculate random die throws (debug)"
+#~ msgstr "Hitung lemparan dadu acak (debug)"
+
+#~ msgid "Congratulations."
+#~ msgstr "Selamat."
+
+#, fuzzy
+#~ msgid "Place something on to the empty tableau slot"
+#~ msgstr "Letakkan apa saja pada slot kosong pada meja"
+
+#~ msgid "Flip final results"
+#~ msgstr "Balikkan hasil akhir"
+
+#~ msgid "Tileset"
+#~ msgstr "Ubin"
+
+#~ msgid "Whether or not to flip final results."
+#~ msgstr "Menentukan apakah hasil akhir akan dibalik atau tidak"
+
+#~ msgid "Collect all diamonds and find exit"
+#~ msgstr "Ambil semua intan dan cari jalan keluar"
+
+#~ msgid "Congratulations!!! You have won!"
+#~ msgstr "Selamat!!! Anda menang!"
+
+#~ msgid "Original Atari caves"
+#~ msgstr "Gua Atari"
+
+#~ msgid "gnome-stones:empty"
+#~ msgstr "gnome-stones:kosong"
+
+#~ msgid "Default caves"
+#~ msgstr "Gua awal"
+
+#, fuzzy
+#~ msgid "Collect diamonds while avoiding falling boulders"
+#~ msgstr "Ambil semua intan dan cari jalan keluar"
+
+#, fuzzy
+#~ msgid "Stones"
+#~ msgstr "Dihentikan"
+
+#~ msgid "Cave number to start"
+#~ msgstr "Jumlah gua untuk memulai"
+
+#~ msgid "Cave number to start."
+#~ msgstr "Jumlah gua untuk memulai."
+
+#~ msgid "Device to use for joystick control."
+#~ msgstr "Perangkat kendali joystik"
+
+#~ msgid "Enable sound support"
+#~ msgstr "Aktifkan suara"
+
+#~ msgid "Enable sound support."
+#~ msgstr "Aktifkan suara."
+
+#~ msgid "Game name"
+#~ msgstr "Nama gim"
+
+#~ msgid "Joystick device"
+#~ msgstr "Perangkat joystik"
+
+#~ msgid "Joystick switch level"
+#~ msgstr "Level tombol joystik"
+
+#~ msgid "The full path and filename of game to load."
+#~ msgstr "Path penuh dan nama berkas gim yang hendak dibuka."
+
+#~ msgid ""
+#~ "The level an analog joystick must reach to be considered \"on\" when "
+#~ "emulating a digital joystick. This takes a value between 0.0 and 1.0."
+#~ msgstr ""
+#~ "Level joystik analog yang harus dicapai sebagai nilai \"on\" apabila "
+#~ "digunakan untuk mengemulasi joystik digital. Angka berkisar antara 0.0 "
+#~ "dan 1.0."
+
+#~ msgid "Gnomekoban"
+#~ msgstr "Gnomekoban"
+
+#~ msgid "gnomekoban:empty,0"
+#~ msgstr "gnomekoban:kosong,0"
+
+#, fuzzy
+#~ msgid "The cave you are trying to load is too big for this game."
+#~ msgstr "Gua yang ingin dibuka terlalu besar"
+
+#~ msgid "The cave is corrupted: %s is missing."
+#~ msgstr "Guanya rusak: %s-nya hilang"
+
+#~ msgid ""
+#~ "The cave you are trying to load includes an object, that wasn't declared."
+#~ msgstr "Gua yang hendak dibuka berisi objek yang belum dideklarasikan."
+
+#~ msgid "This is GNOME Stones"
+#~ msgstr "Ini adalah GNOME Stones"
+
+#, fuzzy
+#~ msgid ""
+#~ "An error occurred while loading the image file \"%s\".\n"
+#~ "Please make sure that GNOME Stones is correctly installed!"
+#~ msgstr ""
+#~ "Ada error saat membuka berkas gambar \"%s\".\n"
+#~ "Silakan periksa apakah program ini sudah dipasang dengan benar!"
+
+#~ msgid "Congratulations, you win!"
+#~ msgstr "Selamat, Anda menang!"
+
+#~ msgid "Sokoban levels:"
+#~ msgstr "Level sokoban:"
+
+#~ msgid "Mine through dirt and collect gems."
+#~ msgstr "Gali tanah dan kumpulkan permata."
+
+#~ msgid "Scanning private object directory..."
+#~ msgstr "Cari direktori objek pribadi..."
+
+#~ msgid "Scanning public object directory..."
+#~ msgstr "Cari direktori objek publik..."
+
+#~ msgid "Scanning private game directory..."
+#~ msgstr "Memeriksa direktori gim pribadi..."
+
+#~ msgid "Scanning public game directory..."
+#~ msgstr "Memeriksa direktori gim publik..."
+
+#~ msgid "Restoring preferences..."
+#~ msgstr "Mengembalikan isi pengaturan..."
+
+#~ msgid "You gained an extra life!"
+#~ msgstr "Anda mendapatkan nyawa ekstra!"
+
+#~ msgid "Neither your chosen game nor the default game could be loaded."
+#~ msgstr "Gim yang Anda pilih atau gim utama tidak dapat dibuka."
+
+#~ msgid "Please make sure that GNOME Stones is correctly installed."
+#~ msgstr "Periksa apakah program GNOME Stones sudah dipasang dengan benar."
+
+#~ msgid ""
+#~ "You may be able to select a different game from the preferences dialog."
+#~ msgstr "Anda dapat memilih jenis gim yang lain pada dialog Pengaturan."
+
+#~ msgid "GNOME Stones Preferences"
+#~ msgstr "Pengaturan GNOME Stones"
+
+#~ msgid "Caves"
+#~ msgstr "Gua"
+
+#~ msgid "Device"
+#~ msgstr "Perangkat"
+
+#, fuzzy
+#~ msgid "_Joystick device:"
+#~ msgstr "Perangkat Joystik: "
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "tidak ada"
+
+#, fuzzy
+#~ msgid "Digital Joystick Emulation"
+#~ msgstr "Emulasi joystik digital"
+
+#, fuzzy
+#~ msgid "_Switch level:"
+#~ msgstr "Level switch:"
+
+#, fuzzy
+#~ msgid "Joystick"
+#~ msgstr "_Joystik"
+
+#~ msgid "Enable sound"
+#~ msgstr "Nyalakan suara"
+
+#~ msgid "_Sound"
+#~ msgstr "_Suara"
+
+#~ msgid "Diamonds:"
+#~ msgstr "Permata:"
+
+#~ msgid "Cave:"
+#~ msgstr "Gua:"
+
+#~ msgid "Lives:"
+#~ msgstr "Nyawa:"
+
+#~ msgid "Tutorial caves"
+#~ msgstr "Gua latihan"
+
+#, fuzzy
+#~ msgid "Whether to use sound"
+#~ msgstr "Gunakan animasi atau tidak."
+
+#, fuzzy
+#~ msgid "Whether to use sound."
+#~ msgstr "Gunakan animasi atau tidak."
+
+#~ msgid ""
+#~ "Could not find the theme: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your gnome-games installation"
+#~ msgstr ""
+#~ "Tema tidak ditemukan: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Silakan periksa instalasi gnome-games Anda"
+
+#~ msgid ""
+#~ "Can't load the image: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your gnome-games installation"
+#~ msgstr ""
+#~ "Gambar tidak ditemukan:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Silakan periksa instalasi gnome-games Anda"
+
+#~ msgid ""
+#~ "<span size=\"large\" style=\"italic\" weight=\"bold\">You win!</span>"
+#~ msgstr ""
+#~ "<span size=\"large\" style=\"italic\" weight=\"bold\">Anda menang!</span>"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"

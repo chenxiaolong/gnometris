@@ -1,0 +1,4927 @@
+# translation of te.po to Telugu
+# Telugu translation of gnome-games.
+# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the gnome-games package.
+#
+# Bharat Kumar Jonnalagadda <bharath@swecha.net>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: te\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2009-05-07 20:09+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "విరామపర్చిన"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "ఆట అయిపోయింది"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "గ్నోమెట్రిస్"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "భాగాలను గీయుటకు ఉపయోగించాల్సిన ప్రతిరూపం"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "భాగాలను గీయుటకు ఉపయోగించిన ప్రతిరూపం"
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "ప్రారంభించాల్సిన స్థాయి"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "ప్రారంభించాల్సిన స్థాయి."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "పూర్వరంగం వర్ణము"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "నింపుటకు అడ్డపట్టీల సంఖ్య"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "ఎడమకు జరుగు"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "ఎడమవైపుకు జరుగుటకు మీటను నొక్కుము"
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "కుడికి జరుగుము"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "కుడివైపుకు జరుగుటకు మీటను నొక్కుము"
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "కిందకి జరుపు"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "పరిభ్రమణం"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "విరామము"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "స్థాయి"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "సమమైన"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "చేరినది"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "స్కోర్:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "గీతలు:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "స్థాయి:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "ఆట (_G)"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "అమరికలు (_S)"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "సహాయం (_H)"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "గ్నోమెట్రిస్ అభీష్టాలు"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "ఆట"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "అమర్చు"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr ""
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr ""
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "ప్రారంభ స్థాయి (_S):"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "కార్యం"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "ధ్వనులను క్రియాశీలీకరించు (_E)"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "తరువాతి భాగాన్ని ఉపదర్శనంచేయుము (_P)"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "భిన్నమైన భాగాల రంగులను ఉపయోగించు (_U)"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "వైవిద్యాంశం"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "నియంత్రణలు"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "మీటపలకం నియంత్రణలు"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "భాగం శైలి"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "గ్నోమ్ ఆటల మహాతలప్రదేశం"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr "Bharat Kumar Jonnalagadda <bharath@swecha.net>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "గ్నోమెట్రిస్ స్కోర్లు"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "ఫైలు చెల్లునటువంచి .desktop ఫైలు కాదు"
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "గుర్తించబడని డెస్కుటాపు ఫైలు వర్షన్ '%s'"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "%s ప్రారంభిస్తోంది"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "ఆదేశవరుస నందు అనువర్తనములు పత్రములను ఆంగీకరించవు"
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "గుర్తించబడని ప్రారంభ ఐచ్చికము: %d"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "పత్రము URIలను Type=Link' desktop entry కు పంపలేదు."
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "దించదగిన అంశము కాదు"
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "సెషన్ నిర్వాహికకు అనుసంధానమును అచేతనము చేయుము"
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "దాచివున్న ఆకృతీకరణను కలిగివున్న ఫైలు తెలుపుము"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "సెషన్ నిర్వహణా IDను తెలుపుము"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr "ఐడి"
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "సెషన్ నిర్వహణా ఐచ్చికములు:"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "సెషన్ నిర్వహణా ఐచ్చికములను చూపుము"
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "మీట లేదు"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<మీటను నొక్కుము>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "అపరిచిత వ్యాఖ్యా"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr "సహాయ ఫైలు తెరువలేకపోయింది"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "సమయం"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "స్కోర్"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "కొత్త ఆట"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "నామం"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "ఈ ఆటకు సహాయమును దర్శించుము"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "ప్రస్తుత ఆటను పూర్తిచేయుము"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "తర్వాతి ఎత్తు నుండి ఒక సూచనను పొందు"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "నిండుతెర సంవిధానము విడిచిపెట్టు"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "కొత్త బహు ఆటగాళ్ళ అల్లిక ఆటను ప్రారంభించు"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "ప్రస్తుత అల్లిక ఆటను మూసి అల్లిక సేవికకు తిరిగిరండి"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "కొత్త ఆటను ప్రారంభించు"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "ఆటను విరామంలో ఉంచుము"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "అల్లిక ఆటలో ఆటగాళ్ళ జాబితాను చూపుము"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "వదిలివేయబడినదాన్ని మళ్ళీచేయి"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "ఆటను పున:ప్రారంభించుము"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "స్కోర్లను దర్శించుము"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "చివరి ఎత్తుని రద్దుచేయు"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "ఈ ఆట గురించి"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "ఈ గవాక్షాన్ని మూయుము"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "ఆటను రూపకరణం చేయుము"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "ఈ ఆటను త్యజించుము"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "సారాలు (_C)"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "నిండుతెర (_F)"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "సూచన (_H)"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "కొత్త (_N)"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "కొత్త ఆట (_N)"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "వేసిన ఎత్తుని మళ్ళీచేయు (_R)"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "మళ్ళీ అమర్చు (_R)"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "పున:ప్రారంభించు (_R)"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "వేసిన ఎత్తుని రద్దుచేయు (_U)"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "నిండుతెరను వదులుము (_L)"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "అల్లికలో ఆట (_G)"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "ఆటను వదులుము (_e)"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "ఆటగాళ్ళ జాబితా (_L)"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "నిలుపువేయు (_P)"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "స్కోర్లు (_S)"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "ఆటను పూర్తిచేయు (_E)"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#~ msgid "Player Chat"
+#~ msgstr "ఆటగాడి మాటామంతి"
+
+#~ msgid "Empty"
+#~ msgstr "ఖాళీ"
+
+#~ msgid "Bot"
+#~ msgstr "బాట్"
+
+#~ msgid "Abandoned"
+#~ msgstr "త్యజించబడిన"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "చూపరుడు"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "సుస్థితి"
+
+#~ msgid "Player List"
+#~ msgstr "ఆటగాళ్ళ జాబితా"
+
+#~ msgid "Info"
+#~ msgstr "సమాచారం"
+
+#~ msgid "Sit here"
+#~ msgstr "ఇక్కడ కూర్చోడి"
+
+#~ msgid "Move here"
+#~ msgstr "ఇక్కడకి జరుగుము"
+
+#~ msgid "X align"
+#~ msgstr "X వరుసలోనుండుట"
+
+#~ msgid "Y align"
+#~ msgstr "Y సర్దుబాటు"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "0 (పైన) నుండి 1 (క్రింది) వరకు, నిలువు సర్దుబాటు"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "ఇటీవల ఆడిన ఆటల జాబితా."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "అయిదింటి రూపములో వచ్చే స్ట్రింగ్సు జాబితా. నామము, విజయాలు, మొత్తం ఆడిన ఆటలు, మంచి సమయం "
+#~ "(సెకనులలో) మరియు చెడ్డ సమయం (సెకనులలో). ఆడని ఆటలు చూపించవలసిన అవసరములేదు."
+
+#~| msgid "Animation"
+#~ msgid "Animations"
+#~ msgstr "యానిమేషన్స్"
+
+#~ msgid "Recently played games"
+#~ msgstr "ఇంతకుముందే ఆడిన ఆటలు"
+
+#~ msgid "Select the style of control"
+#~ msgstr "నియంత్రణ శైలిని ఎంచుకొనుము"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr "కార్డులను లాగవలెనంటే యెంపికచేయుము లేదా మూలముపైన నొక్కి తరువాత గమ్యముపై నొక్కుము."
+
+#~ msgid "Sound"
+#~ msgstr "ధ్వని"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "ఆడిన ఆటల గణాంకాలు"
+
+#~ msgid "The game file to use"
+#~ msgstr "వాడాల్సిన ఆట దస్త్రము"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "పేకలుకొరకు ఉన్న చిత్రాల దస్త్రనామము "
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "సొలెటైర్ పేకాట ఆడుటకు  ఉన్న పథకదస్త్రము నామము"
+
+#~ msgid "Theme file name"
+#~ msgstr "వైవిధ్యాంశ దస్త్రనామము"
+
+#~| msgid "Whether or not to play event sounds."
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "కార్డుల కదలికలను యానిమేట్ చేయాలా వద్దా."
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "ఆడుతున్నపుడు కదలికల శ్రవణాన్ని మోగించాలా"
+
+#~| msgid "Whether or not to show the toolbar"
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "స్థితి పట్టీ చూపాలావద్దా"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "పనిముట్ల పట్టీని చూపించాలా... లేదా..."
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "ఫ్రీసెల్ సొలిటైర్ పేకాట"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "సుపరిచితమైన ఫ్రీసెల్ పేకాటను ఆడు"
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr "ఐస్లేరియట్ దస్త్రము “%s”ను లోడుచేయలేదు. దయచేసి మీ ఐస్లేరియట్ సంస్థాపనను పరిశీలించండి."
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "ఐస్లేరియట్ మీరు ఆడిన ఆఖరి ఆటను కనుగొనలేక పోయింది."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "మీరు చివరిగా ఆడిన ఆట లేనటువంటి పాత ఐస్లేరియట్ వర్షన్‌ను మీరు నడిపినప్పుడు యిది సాదారణంగా "
+#~ "సంభవిస్తుంది. బదులుగా, అప్రమేయపు ఆట, క్లోండికే ప్రారంభించబడింది."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "ఈ ఆటకు ఇప్పటికీ సూచన సహకారం లేదు "
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "%sను %sపైనకు కదుపుము."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "ఒక %s కొరకు మీరు వెతుకుతున్నారు"
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "ఈ ఆట సూచన ఇవ్వలేదు"
+
+#~ msgid "Could not show link"
+#~ msgstr "జోడికను చూపలేకపోయింది"
+
+#~ msgid "Help file \"%s.%s\" not found"
+#~ msgstr "సహాయపు దస్త్రము \"%s.%s\" కనబడలేదు"
+
+#~ msgid "Error"
+#~ msgstr "దోషము"
+
+#~| msgid "Could not show help for \"%s\""
+#~ msgid "Could not show help for “%s”"
+#~ msgstr "“%s” కు సహాయం చూపలేకపోయింది"
+
+#~ msgid "Could not show Aisleriot help"
+#~ msgstr "ఐస్లేరియట్ సహాయం చూపలేక పోయింది"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "ఆడేందుకు ఆట రకాన్నిఎంచుకొనుము "
+
+#~ msgid "NAME"
+#~ msgstr "నామము"
+
+#~ msgid "Select the game number"
+#~ msgstr "ఆట సంఖ్యను ఎంచుకొనుము"
+
+#~ msgid "NUMBER"
+#~ msgstr "సంఖ్య"
+
+#~ msgid "AisleRiot"
+#~ msgstr "ఆయ్సిల్రియట్ "
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "ఆయ్సిల్రియట్ సొలటైర్"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "రకరకాలైన సాల్టైర్ ఆటలను ఆడుము"
+
+#~ msgid "Unknown color"
+#~ msgstr "అపరిచిత రంగు"
+
+#~ msgid "Unknown suit"
+#~ msgstr "తెలియని సూటు"
+
+#~ msgid "Unknown value"
+#~ msgstr "అపరిచిత విలువ"
+
+#~ msgid "ace"
+#~ msgstr "ఆసు"
+
+#~ msgid "black joker"
+#~ msgstr "నలుపు జోకరు"
+
+#~ msgid "clubs"
+#~ msgstr "కళావరులు"
+
+#~ msgid "diamonds"
+#~ msgstr "డైమండ్స్"
+
+#~ msgid "eight"
+#~ msgstr "ఎనిమిది"
+
+#~ msgid "five"
+#~ msgstr "ఐదు"
+
+#~ msgid "four"
+#~ msgstr "నాలుగు"
+
+#~ msgid "hearts"
+#~ msgstr "ఆటిన్ లు"
+
+#~ msgid "jack"
+#~ msgstr "జాకీ"
+
+#~ msgid "king"
+#~ msgstr "రాజు"
+
+#~ msgid "nine"
+#~ msgstr "తొమ్మిది"
+
+#~ msgid "queen"
+#~ msgstr "రాణి"
+
+#~ msgid "red joker"
+#~ msgstr "ఎరుపు జోకరు"
+
+#~ msgid "seven"
+#~ msgstr "ఏడు"
+
+#~ msgid "six"
+#~ msgstr "ఆరు"
+
+#~ msgid "spades"
+#~ msgstr "స్పేడ్లు"
+
+#~ msgid "ten"
+#~ msgstr "పది"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "కళావరు ఆసులు"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "డైమండ్ ఆసులు"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "ఆటిన్ ఆసులు"
+
+#~ msgid "the ace of spades"
+#~ msgstr "స్పేడ్ ఆసులు"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "కళావరుల యొక్క ఎనిమిది"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "డైమండ్ల యొక్క ఎనిమిది"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క ఎనిమిది"
+
+#~ msgid "the eight of spades"
+#~ msgstr "స్పేడ్ల యొక్క ఎనిమిది"
+
+#~ msgid "the five of clubs"
+#~ msgstr "కళావరుల యొక్క ఐదు"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "డైమండ్ల యొక్క ఐదు"
+
+#~ msgid "the five of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క ఐదు"
+
+#~ msgid "the five of spades"
+#~ msgstr "స్పేడ్ల యొక్క ఐదు"
+
+#~ msgid "the four of clubs"
+#~ msgstr "కళావరుల యొక్క నాలుగు"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "డైమండ్ల యొక్క నాలుగు"
+
+#~ msgid "the four of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క నాలుగు"
+
+#~ msgid "the four of spades"
+#~ msgstr "స్పేడ్ల యొక్క నాలుగు"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "కళావరుల యొక్క జాకీ"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "డైమండ్ల యొక్క జాకీ"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క జాకీ"
+
+#~ msgid "the jack of spades"
+#~ msgstr "స్పేడ్ల యొక్క జాకీ"
+
+#~ msgid "the king of clubs"
+#~ msgstr "కళావరుల యొక్క రాజు"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "డైమండ్ల యొక్క రాజు"
+
+#~ msgid "the king of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క రాజు"
+
+#~ msgid "the king of spades"
+#~ msgstr "స్పేడ్ల యొక్క రాజు"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "కళావరుల యొక్క తొమ్మిది"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "డైమండ్ల యొక్క తొమ్మిది"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క తొమ్మిది"
+
+#~ msgid "the nine of spades"
+#~ msgstr "స్పేడ్ల యొక్క తొమ్మిది"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "కళావరుల యొక్క రాణి"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "డైమండ్ల యొక్క రాణి"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క రాణి"
+
+#~ msgid "the queen of spades"
+#~ msgstr "స్పేడ్ల యొక్క రాణి"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "కళావరుల యొక్క ఏడు"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "డైమండ్ల యొక్క ఏడు"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క ఏడు"
+
+#~ msgid "the seven of spades"
+#~ msgstr "స్పేడ్ల యొక్క ఏడు"
+
+#~ msgid "the six of clubs"
+#~ msgstr "కళావరుల యొక్క ఆరు"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "డైమండ్ల యొక్క ఆరు"
+
+#~ msgid "the six of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క ఆరు"
+
+#~ msgid "the six of spades"
+#~ msgstr "స్పేడ్ల యొక్క ఆరు"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "కళావరుల యొక్క పది"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "డైమండ్ల యొక్క పది"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క పది"
+
+#~ msgid "the ten of spades"
+#~ msgstr "స్పేడ్ల యొక్క పది"
+
+#~ msgid "the three of clubs"
+#~ msgstr "కళావరుల యొక్క మూడు"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "డైమండ్ల యొక్క మూడు"
+
+#~ msgid "the three of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క మూడు"
+
+#~ msgid "the three of spades"
+#~ msgstr "స్పేడ్ల యొక్క మూడు"
+
+#~ msgid "the two of clubs"
+#~ msgstr "కళావరుల యొక్క రెండు"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "డైమండ్ల యొక్క రెండు"
+
+#~ msgid "the two of hearts"
+#~ msgstr "ఆటిన్ల్ యొక్క రెండు"
+
+#~ msgid "the two of spades"
+#~ msgstr "స్పేడ్ల యొక్క రెండు"
+
+#~ msgid "the unknown card"
+#~ msgstr "అపరిచిత పేక"
+
+#~ msgid "three"
+#~ msgstr "మూడు"
+
+#~ msgid "two"
+#~ msgstr "రెండు"
+
+#~ msgid "Wins:"
+#~ msgstr "గెలుపులు:"
+
+#~ msgid "Total:"
+#~ msgstr "మొత్తం:"
+
+#~ msgid "Percentage:"
+#~ msgstr "శాతం:"
+
+#~ msgid "Wins"
+#~ msgstr "గెలుపులు"
+
+#~ msgid "Best:"
+#~ msgstr "మంచి:"
+
+#~ msgid "Worst:"
+#~ msgstr "చెడ్డ:"
+
+#~ msgid "Statistics"
+#~ msgstr "గణాంకాలు"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~| msgid "Scorpion"
+#~ msgid "Accordion"
+#~ msgstr "ఎకార్డియన్"
+
+#~ msgid "Agnes"
+#~ msgstr "ఆగ్నెస్"
+
+#~ msgid "Athena"
+#~ msgstr "ఎతెనా"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "ఆల్డ్ లాంగ్ సైన్"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "ఆంట్ మేరీ"
+
+#~ msgid "Backbone"
+#~ msgstr "బాక్బోన్ "
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "బేకర్స్ డజన్"
+
+#~ msgid "Bakers Game"
+#~ msgstr "బేకర్స్ ఆట"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "బిలీగ్వర్డ్ కాస్టల్"
+
+#~ msgid "Block Ten"
+#~ msgstr "బ్లాక్ టెన్"
+
+#~ msgid "Bristol"
+#~ msgstr "బ్రిస్టల్"
+
+#~ msgid "Camelot"
+#~ msgstr "కామెలాట్"
+
+#~ msgid "Canfield"
+#~ msgstr "కాన్ఫీల్డ్ "
+
+#~ msgid "Carpet"
+#~ msgstr "కార్పెట్"
+
+#~ msgid "Chessboard"
+#~ msgstr "చదరంగం పలకం"
+
+#~ msgid "Clock"
+#~ msgstr "గడియారం"
+
+#~ msgid "Cover"
+#~ msgstr "కవర్"
+
+#~ msgid "Cruel"
+#~ msgstr "క్రూరత్వం"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "డైమండ్ మైన్"
+
+#~ msgid "Doublets"
+#~ msgstr "డబులెట్స్"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "ఈగల్ వింగ్"
+
+#~ msgid "Easthaven"
+#~ msgstr "ఈస్తావెన్"
+
+#~ msgid "Eight Off"
+#~ msgstr "ఎయిట్ ఆఫ్"
+
+#~ msgid "Elevator"
+#~ msgstr "ఎలివేటర్"
+
+#~ msgid "Escalator"
+#~ msgstr "ఎస్కలేటర్"
+
+#~ msgid "First Law"
+#~ msgstr "మొదటి చట్టం"
+
+#~ msgid "Fortress"
+#~ msgstr "ఫోర్టరెస్"
+
+#~ msgid "Fortunes"
+#~ msgstr "ఫార్ట్యూంస్"
+
+#~| msgid "Thieves"
+#~ msgid "Forty Thieves"
+#~ msgstr "నలభై దొంగలు"
+
+#~ msgid "Fourteen"
+#~ msgstr "పదనాలుగు"
+
+#~ msgid "Freecell"
+#~ msgstr "ఫ్రీసెల్"
+
+#~ msgid "Gaps"
+#~ msgstr "గాప్స్"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "గే గార్డంస్"
+
+#~ msgid "Glenwood"
+#~ msgstr "గ్లెన్ వుడ్"
+
+#~| msgid "Diamond Mine"
+#~ msgid "Gold Mine"
+#~ msgstr "బంగారపు గని"
+
+#~ msgid "Golf"
+#~ msgstr "గోల్ఫ్"
+
+#~ msgid "Gypsy"
+#~ msgstr "జిప్సీ"
+
+#~ msgid "Helsinki"
+#~ msgstr "హెల్సింకీ"
+
+#~ msgid "Hopscotch"
+#~ msgstr "హాప్స్కాచ్"
+
+#~ msgid "Isabel"
+#~ msgstr "ఇసాబెల్"
+
+#~ msgid "Jamestown"
+#~ msgstr "జేమ్స్ టౌన్"
+
+#~ msgid "Jumbo"
+#~ msgstr "జుంబో"
+
+#~ msgid "Kansas"
+#~ msgstr "కాన్సాస్"
+
+#~ msgid "King Albert"
+#~ msgstr "కింగ్ ఆల్బర్ట్"
+
+#~ msgid "Kings Audience"
+#~ msgstr "కింగ్స్ ఆడియన్స్\t"
+
+#~ msgid "Klondike"
+#~ msgstr "క్లాండైక్"
+
+#~| msgid "Spider Three Decks"
+#~ msgid "Klondike Three Decks"
+#~ msgstr "క్లోండైక్ త్రీ డెక్స్"
+
+#~ msgid "Labyrinth"
+#~ msgstr "లాబైరింత్"
+
+#~ msgid "Lady Jane"
+#~ msgstr "లేడీ జేన్"
+
+#~ msgid "Maze"
+#~ msgstr "మేజ్"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "మాంటె కార్లో"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "నెపోలియన్ టోంబ్"
+
+#~ msgid "Neighbor"
+#~ msgstr "నైబర్"
+
+#~ msgid "Odessa"
+#~ msgstr "ఓడెస్సా"
+
+#~ msgid "Osmosis"
+#~ msgstr "ఓస్మాసిస్"
+
+#~ msgid "Peek"
+#~ msgstr "పీక్"
+
+#~ msgid "Pileon"
+#~ msgstr "పిలియన్"
+
+#~ msgid "Plait"
+#~ msgstr "ప్లయట్"
+
+#~ msgid "Poker"
+#~ msgstr "పోకర్"
+
+#~ msgid "Quatorze"
+#~ msgstr "క్వాటార్జ్"
+
+#~ msgid "Royal East"
+#~ msgstr "రాయల్ ఈస్ట్"
+
+#~ msgid "Saratoga"
+#~ msgstr "సరాటొగా"
+
+#~ msgid "Scorpion"
+#~ msgstr "స్కార్పియన్"
+
+#~ msgid "Scuffle"
+#~ msgstr "స్కఫల్"
+
+#~ msgid "Seahaven"
+#~ msgstr "సీ హెవన్"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "సర్ టామీ"
+
+#~ msgid "Spider"
+#~ msgstr "స్పైడర్"
+
+#~ msgid "Spiderette"
+#~ msgstr "స్పైడరెట్ట్"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "స్పైడర్ త్రీ డెక్స్"
+
+#~ msgid "Straight Up"
+#~ msgstr "తిన్నగా పైకి"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "స్ట్రీట్స్ మరియు అల్లీస్"
+
+#~ msgid "Template"
+#~ msgstr "మాదిరి"
+
+#~ msgid "Ten Across"
+#~ msgstr "టెన్ ఎక్రాస్"
+
+#~| msgid "Tetravex"
+#~ msgid "Terrace"
+#~ msgstr "టేర్రస్"
+
+#~ msgid "Thieves"
+#~ msgstr "దొంగలు"
+
+#~ msgid "Thirteen"
+#~ msgstr "పదమూడు"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "ధం మరియు పౌచ్"
+
+#~ msgid "Treize"
+#~ msgstr "ట్రిజ్"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "ట్రిపల్ పీక్స్"
+
+#~ msgid "Union Square"
+#~ msgstr "యూనియన్ స్క్వేర్"
+
+#~ msgid "Valentine"
+#~ msgstr "వాలెంటైన్"
+
+#~ msgid "Westhaven"
+#~ msgstr "వెస్ట్ హావెన్"
+
+#~ msgid "Whitehead"
+#~ msgstr "వైట్ హెడ్"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "విల్లో ద విస్ప్"
+
+#~ msgid "Yield"
+#~ msgstr "ఈల్డు"
+
+#~ msgid "Yukon"
+#~ msgstr "యూకాన్"
+
+#~ msgid "Zebra"
+#~ msgstr "జీబ్రా"
+
+#~ msgid "Select Game"
+#~ msgstr "ఆటను ఎంచుకొనుము"
+
+#~| msgid "_Select map:"
+#~ msgid "_Select"
+#~ msgstr "ఎంచుకొను (_S)"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "అభినందనలు, మీరు గెలిచారు!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "ఇంకా ఏ ఎత్తులు లేవు"
+
+#~ msgid "Main game:"
+#~ msgstr "ముఖ్య ఆట:"
+
+#~ msgid "Card games:"
+#~ msgstr "పేకాటలు:"
+
+#~ msgid "Card themes:"
+#~ msgstr "పేక వైవిధ్యాంశాలు:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "ఫ్రీసెల్ సొలటైర్ గురించి"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "ఆసిల్రియట్ గురించి "
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "ఐస్లేరియట్ అనునది నియమ-రూపక సోల్టైర్ కార్డు యింజన్ అందిస్తుంది అది చాలా రకాలైన ఆటలను ఆడుకొనుటకు "
+#~ "అనుమతినిస్తుంది.\n"
+#~ "ఐస్లేరియట్ అనునది GNOME ఆటలనందు వొక భాగము."
+
+#~| msgid "Play \"%s\""
+#~ msgid "Play “%s”"
+#~ msgstr "“%s” ఆడుము"
+
+#~| msgid "Display cards with \"%s\" card theme"
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "“%s” కార్డు థీమ్‌తో కార్డులను ప్రదర్శించుము"
+
+#~| msgid "%d"
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "ఒక ముఖ్యాంశ సూచిక మినహాయింపు వచ్చినది"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "దయచేసి ఈ దోషమును అభివృధ్ధిపరులకు నివేదించండి "
+
+#~ msgid "_Don't report"
+#~ msgstr "నివేదన ఇవ్వకు (_D)"
+
+#~ msgid "_Report"
+#~ msgstr "నివేదన (_R)"
+
+#~ msgid "_View"
+#~ msgstr "దర్శనం (_V)"
+
+#~ msgid "_Control"
+#~ msgstr "నియంత్రణ (_C)"
+
+#~ msgid "_Select Game..."
+#~ msgstr "ఆటను ఎంచుకొనుము... (_S)"
+
+#~ msgid "Play a different game"
+#~ msgstr "భిన్నమైన ఆటను ఆడుము"
+
+#~ msgid "_Recently Played"
+#~ msgstr "ఇంతకుముందు ఆడినది (_R)"
+
+#~ msgid "S_tatistics"
+#~ msgstr "గణాంకాలు (_t)"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "ఆటఆడు గణాంకాలను చూపుము"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "తరువాతి కార్డును లేదా కార్డులను డీల్ చేయుము"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "ఆసిల్రయట్ కు సహాయమును దర్శించుము"
+
+#~ msgid "Install card themes…"
+#~ msgstr "కార్డు థీమ్సును సంస్థాపించుము..."
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr "పంపణిచేసినవాని ప్యాకీజీల రిపోజిటరీలనుండి కొత్త కార్డు థీమ్సును సంస్థాపించుము"
+
+#~ msgid "_Card Style"
+#~ msgstr "పేక శైలి (_C)"
+
+#~ msgid "_Toolbar"
+#~ msgstr "పనిముట్లపట్టా (_T)"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "పనిముట్లపట్టాని చూపుము లేదా దాయుము"
+
+#~| msgid "Status"
+#~ msgid "_Statusbar"
+#~ msgstr "స్థితిపట్టీ (_S)"
+
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide statusbar"
+#~ msgstr "స్థితి పట్టీను చూపుము లేదా మరుగుపరచుము"
+
+#~ msgid "_Click to Move"
+#~ msgstr "జరుగుటకు నొక్కండి (_C)"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "నొక్కుట ద్వారా కార్డులను యెత్తుము మరియు వేయుము"
+
+#~| msgid "Sound"
+#~ msgid "_Sound"
+#~ msgstr "ధ్వని (_S)"
+
+#~| msgid "Whether or not to play event sounds."
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "ఘటనల శబ్ధములు మ్రోగవలెనా లేదా"
+
+#~| msgid "Animation"
+#~ msgid "_Animations"
+#~ msgstr "సచేతనం (_A)"
+
+#~| msgid "Whether or not to play event sounds."
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "కార్డుల కదలికలు యానిమేట్ కావలెనా లేదా"
+
+#~ msgid "Time:"
+#~ msgstr "సమయం:"
+
+#~| msgid "Cannot start the game \"%s\""
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "ఆట “%s”ను ప్రారంభించలేక పోయింది"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "మూలం పేక: ఆసు"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "మూలం పేక: జాకీ"
+
+#~ msgid "Base Card: King"
+#~ msgstr "మూలం పేక: రాజు"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "మూలం పేక: రాణి"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "మూలం పేక: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "మరిన్ని కార్డులను డీల్ చేయుము"
+
+#~ msgid "Stock left:"
+#~ msgstr "మిగిలిన స్టాకు:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "మిగిలిన స్టాకు: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "పేకలను పున:సవరణకు ప్రయత్నించుము"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "ఒక ఖాళీ పునాది కుప్ప"
+
+#~ msgid "Three card deals"
+#~ msgstr "మూడు ముక్కల డీల్సు"
+
+#~ msgid "Deal another round"
+#~ msgstr "మరియొక రౌండు డీల్ చేయుము"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "డెక్‌నుండి కొత్త కార్డును డీల్ చేయుము"
+
+#~ msgid "Redeals left:"
+#~ msgstr "మిగిలిన రీడీల్స్:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "పునాది నందు ఖాళీ స్లాట్"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "టాబ్లెయూ పై ఖాళీ స్లాట్"
+
+#~ msgid "an empty foundation"
+#~ msgstr "ఖాళీ పునాది"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "ఒక ఖాళీ క్రింది స్లాట్"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "ఒక ఖాళీ మూల స్లాట్"
+
+#~ msgid "an empty left slot"
+#~ msgstr "ఒక ఖాళీ ఎడమ స్లాట్"
+
+#~ msgid "an empty right slot"
+#~ msgstr "ఒక ఖాళీ కుడి స్లాట్"
+
+#~ msgid "an empty slot"
+#~ msgstr "ఒక ఖాళీ స్లాట్"
+
+#~ msgid "an empty top slot"
+#~ msgstr "ఒక ఖాళీ పై స్లాట్"
+
+#~ msgid "itself"
+#~ msgstr "తనంతటతనే"
+
+#~ msgid "Base Card: "
+#~ msgstr "మూలమైన పేక:"
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "వ్యర్దాన్ని స్టాకునకు కదుల్చుము"
+
+#~ msgid "Reserve left:"
+#~ msgstr "మిగిలివున్న నిల్వ:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "పునాదినందు ఖాళీ స్లాట్"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "టాబ్లెయూ పై ఖాళీ జాగా"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "కార్డును పునాదికు కదుపుము"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "ఖాళీ టాబ్లూ స్లాట్‌నకు యేదో వొకటి కదుపుము"
+
+#~ msgid "Consistency is key"
+#~ msgstr "నిలకడితనమే ప్రదానపట్టు"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "చేపలుపట్టు తీగ చెడ్డ డెంటల్ ఫ్లాస్‌ను చేస్తుంది"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "మీరు సహాయపు దస్త్రమును చదివినారా?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "నేను ఖచ్చితంగా యిప్పటినుండే బ్యాక్‌రబ్‌ను వుపయోగించగలను..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "మీర యెప్పుడూ కొయ్యలమద్య వొంటరిగా లేకపోతే, ఒక చెట్టును కౌగలించుకొనుము"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "వీధిని దాటేముందు ఇరువైపుల చూడండి"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "దర్శినిలు విటమిన్ D లు ఇవ్వవు-------కాని సూర్యరష్మి ఇస్తుంది...."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "ఎప్పుడు కుక్క చెవిలో ఊదకు"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "ఒడిస్సా ఉత్తమమైన ఆట...నిజంగా."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "మరీ అవసరమైతే తప్పించి టౌర్నిక్వెస్ట్స్ వుపయోగించకూడదు"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "స్టాప్లర్ లేనప్పుడు, స్టాపిల్ మరియు రూలర్ పనిచేస్తాయి"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "మిగిలివున్న పేకలు: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "మరలాడీల్ వేయుము"
+
+#~ msgid "the foundation pile"
+#~ msgstr "పునాది కుప్ప"
+
+#~ msgid "Deal a card"
+#~ msgstr "కొత్త కార్డును డీల్ వేయుము"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "~aను ఖాళీ పునాదికు కదుల్చుము"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "టాబ్లూ పైన ఖాళీ స్లాట్"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "ఖాళీ టాబ్లూ స్లాట్‌పైనకు రాజును కదుల్చుము"
+
+#~ msgid "No hint available right now"
+#~ msgstr "ప్రస్తుతానికి మాత్రం ఏ సూచన అందుబాటులో లేదు"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "ఏదోవొక దానిని ఖాళీ రిజర్వునకు మార్చుము"
+
+#~ msgid "an empty tableau"
+#~ msgstr "ఒక ఖాళీ టాబ్లూ"
+
+#~ msgid "I'm not sure"
+#~ msgstr "నేను నిశ్చయముకాదు"
+
+#~ msgid "Remove the aces"
+#~ msgstr "ఆసులను తొలగించుము"
+
+#~ msgid "Remove the eights"
+#~ msgstr "ఎనిమిదులను తొలగించుము"
+
+#~ msgid "Remove the fives"
+#~ msgstr "ఐదులను తొలగించుము"
+
+#~ msgid "Remove the fours"
+#~ msgstr "నాలుగులను తొలగించుము"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "జాకీలను తొలగించుము"
+
+#~ msgid "Remove the kings"
+#~ msgstr "రాజులను తొలగించుము"
+
+#~ msgid "Remove the nines"
+#~ msgstr "తొమ్మిదులను తొలగించుము"
+
+#~ msgid "Remove the queens"
+#~ msgstr "రాణులను తొలగించుము"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "ఏడులను తొలగించుము"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "ఆరులను తొలగించుము"
+
+#~ msgid "Remove the tens"
+#~ msgstr "పదులను తొలగించుము"
+
+#~ msgid "Remove the threes"
+#~ msgstr "మూడులను తొలగించుము"
+
+#~ msgid "Remove the twos"
+#~ msgstr "రెండులను తొలగించుము"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "కార్డులను స్టాకునకు తిప్పిపంపుము"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "ఏదోవొకటి ఖాళీ స్లాటునకు కదుల్చుము"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "~aను బోర్డునుండి కదుల్చుము"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "బగ్! తప్పైన కదలికనందు మేక్-హింట్ పిలువబడింది."
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "స్టాక్‌నుండి కార్డును డీల్ వేయుము"
+
+#~ msgid "an empty space"
+#~ msgstr "ఒక ఖాళీ జాగా"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "ఏ ఎత్తులు సాధ్యము కావు. ఏమీ చేయకు లేదా మళ్ళీ ప్రారంభించు."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "ఆట యెటువంటి పరిష్కారమును కలిగిలేదు. చేసింది రద్దుచేయుము లేదా మరలా ప్రారంభించుము."
+
+#~ msgid "an empty reserve"
+#~ msgstr "ఒక ఖాళీ నిల్వ"
+
+#~ msgid "an open tableau"
+#~ msgstr "ఒక తెరిచిన టాబ్లూ"
+
+#~ msgid "the foundation"
+#~ msgstr "పునాది"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "~a అడ్డువరుస నందు వరుసక్రమమునకు జతచేయుము"
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "మరలా డీల్‌వేయుటకు ఏదేని కార్డును రెండుసార్లు నొక్కుము."
+
+#~ msgid "No hint available."
+#~ msgstr "ఏ సూచన అందుబాటులో లేదు."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "ఎడమచివరి అడ్డువరుస ~a నందు రెంటిని వుంచుము."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "~aను ~aకు తర్వాత వుంచుము."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "తిరిగి డీల్ వేయునప్పుడు యాదృచ్చికంగా వుంచిన ఖాళీలు"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "నిల్వనుండి కార్డును ఖాళీ టాబ్లూ స్లాట్ పైనకు కదుల్చుము"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "మొదటి పునాది కుప్పకు కార్డును నిల్వనుండి యెంపికచేయుము"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "ఖాళీ టాబ్లూ స్లాట్ పైనకు"
+
+#~ msgid "Deal another card"
+#~ msgstr "వేరొక కార్డును డీల్ వేయుము"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "మిగిలిన స్టాక్: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "వేరొక హాండ్‌ను డీల్ వేయుము"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "ఖాళీ స్లాటు పైనకు కార్డును లేదా కార్డుల బుల్డును కదుల్చుము"
+
+#~ msgid "Move card from waste"
+#~ msgstr "వ్యర్ధమునుండి కార్డును కదుల్చుము"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "వ్యర్ధమును స్టాకునకు కదుల్చుము"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "ఒక ఖాళీ టాబ్లూ స్లాటు"
+
+#~ msgid "Deal a new card"
+#~ msgstr "కొత్త కార్డును డీల్ వేయుము"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "మిగిలివున్న స్టాకు: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "ఎటువంటి రీడీల్సు లేవు"
+
+#~ msgid "Single card deals"
+#~ msgstr "వొంటరి కార్డు డీల్సు"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "పునాదినుండి కార్డులను క్రిందకు కదుల్చుటకు ప్రయత్నించుము"
+
+#~ msgid "Base Card:"
+#~ msgstr "మూలం పేక:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr "ప్రస్తుత నమూనాకు సరిగ్గాసరిపోలునట్లు సూట్లను వుంచుటకు దృష్టిపెట్టుము."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "డెక్ నుండి కొత్త కార్డులను డీల్ చేయుము"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "ఎడమవైపు మరలాడీల్ చేయుము: ~a"
+
+#~ msgid "something"
+#~ msgstr "ఏదోవొకటి"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "~aను స్టాక్‌నుండి ఖాళీ అంచునకు లేదా టాబ్లూ స్లాట్‌నకు కదుల్చుము"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "~aను ఖాళీ క్షేత్రమునకు కదుల్చుము"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "పోకర్ చేతులను ఏర్పరచుటకు కార్డులను టాబ్లూ పైన వుంచుము"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "గుళకరించు తీరు"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "ఒక ఖాళీ టాబ్లూ కుప్ప"
+
+#~ msgid "Deal the cards"
+#~ msgstr "కార్డులను డీల్ చేయుము"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "కార్డులను మరలా గుళకరించుము"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "వ్యర్ధాన్ని నిల్వ స్లాటునకు కదుల్చుము"
+
+#~ msgid "empty foundation"
+#~ msgstr "ఖాళీ పునాది"
+
+#~ msgid "Four Suits"
+#~ msgstr "నాలుగు సూట్లు"
+
+#~ msgid "One Suit"
+#~ msgstr "ఒక సూటు"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "ఖాళీ స్లాటుపైన ఏదోవొకటి వుంచుము"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "దయచేసి ఖాళీ కుప్పలో మొదట నింపుము."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "కార్డు కుప్పలను కదుల్చుటకు ప్రయత్నించుము"
+
+#~ msgid "Two Suits"
+#~ msgstr "రెండు సూట్లు"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "తాత్కాలిక స్థానముల వుపయోగాన్ని అనుమతించుము"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "కార్డును ఖాళీ తాత్కాలిక స్లాటునకు కదుల్చుము"
+
+#~ msgid "No hint available"
+#~ msgstr "ఏ సూచన అందుబాటులో లేదు"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "బ్లాండ్స్ మరియు బర్నెట్సు"
+
+#~ msgid "Falling Stars"
+#~ msgstr "రాలుతున్న నక్షత్రాలు"
+
+#~| msgid "General"
+#~ msgid "General Patience"
+#~ msgstr "సాదారణ సహనము"
+
+#~ msgid "Redheads"
+#~ msgstr "రె‍డ్‌హెడ్స్"
+
+#~| msgid "Ignore"
+#~ msgid "Signora"
+#~ msgstr "సిగ్నోరా"
+
+#~ msgid "Wood"
+#~ msgstr "చెక్క"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "డెక్‌నుండి వొక కార్డును డీల్ వేయుము"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "వ్యర్దముయొక్క పై రెండు కార్డులను సరిపోల్చుము"
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "గుణిజం స్కోరు"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "పురోగమిస్తున్న రౌండ్లు"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "సరియగు పునాది కుప్ప"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "కార్డుల కట్టను ఖాళీ టాబ్లూ స్లాటుపైనకు కదుపుము"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "సరియగు పునాది కుప్ప"
+
+#~ msgid "Blackjack"
+#~ msgstr "బ్లాక్ జాక్"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "కసీనో పేక ఆటైన బ్లాక్ జాక్ ను ఆడుము"
+
+#~ msgid "Display probabilities"
+#~ msgstr "సంభావ్యతలను ప్రదర్శించుము"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr "ప్రతి డీలర్ చేయనుండి వచ్చే సంభావ్యతలను మరియు మీ చేయి కొరునటువంటి విలువను ప్రదర్శించుము."
+
+#~ msgid "Never take insurance"
+#~ msgstr "భీమాను ఎప్పుడూ తీసుకొనవద్దు"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "ఆసును చూపుతున్న డీలర్‌తో ఎప్పుడూ భీమాను తీసుకొనవద్దు."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "మీ బ్యాంక్ లో మొత్తం డబ్బు"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "మీ బ్యాంక్ లో మొత్తం డబ్బు."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "ఆడుటకు నియమాలనందు గల తేడాను కలిగివున్న నియమాల దస్త్రము యొక్క నామము."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "నియమాల దస్త్రము యొక్క తేడా"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "త్వరిత డీల్ వుపయోగించుము"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "ప్రతి కార్డుమద్యన యెటువంటి ఆలస్యం లేకుండా త్వరిత డీల్ వుపయోగించండి."
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "పనిముట్ల పట్టీని చూపించాలా... లేదా."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "బ్లాక్ జాక్ - %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "ప్రస్తుత ఆటను పునఃప్రారంభించండి"
+
+#~ msgid "Show a hint"
+#~ msgstr "ఒక సూచనను చూపుము"
+
+#~ msgid "D_eal"
+#~ msgstr "డీల్ (_e)"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "కొత్త చేయిను డీల్ వేయుము"
+
+#~ msgid "_Hit"
+#~ msgstr "తాటించు (_H)"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "చేతిలో ఒక పేకను జతచేయుము"
+
+#~ msgid "_Stand"
+#~ msgstr "నిలుపు (_S)"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "చేతికి పేకలను జతచేయుట ఆపుము"
+
+#~ msgid "S_urrender"
+#~ msgstr "లొంగిపోవు (_u)"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "నీ పందెములో సగభాగము కొరకు ఈ చేయి కోల్పోవుము"
+
+#~ msgid "_Double down"
+#~ msgstr "రెండు దించు (_D)"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "ఓకసారి తాటించుటకు మీ పందెమును రెట్టింపుచేయుము"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "చేయిను విభజించుము (_p)"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "రెండు కొత్త చేతులలోనికి కార్డులను విభజించుము"
+
+#~ msgid "Show toolbar"
+#~ msgstr "పనిముట్ల పట్టాని చూపుము"
+
+#~ msgid "Cards left:"
+#~ msgstr "మిగిలిన పేకలు:"
+
+#~ msgid "Wager:"
+#~ msgstr "పందెము:"
+
+#~ msgid "Balance:"
+#~ msgstr "సమతుల్యం:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "మీ పందెమును వుంచండి లేదా ఒక చేయిను డీల్ వేయండి."
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "బ్లాక్‌జాక్ నియమాల సమితి"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "మీరు భీమా చేయాలని అనుకొనుచున్నారా?"
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr "మీ పందెమును పెట్టి కొత్త చేయిను డీల్ వేయుటకు తెల్ల గీతనందు నొక్కుము."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "మీ పందెమును పెట్టి కొత్త చేయిను డీల్ వేయుటకు కార్డులపైన నొక్కుము."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "బ్లాక్ జాక్ అభీష్టాలు"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "చేయి సంభావ్యతలను ప్రదర్శించుము (_D)"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "త్వరిత డీల్సు (ప్రతి కార్డుకుకార్డుకు మధ్య ఆలస్యంలేదు) (_Q)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "భీమాను యెప్పుడూ తీసుకొనవద్దు (_N)"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "మిగులును తిరిగివుంచుము (_R)"
+
+#~ msgid "Rules"
+#~ msgstr "నిబంధనలు"
+
+#~ msgid "Decks"
+#~ msgstr "డెక్స్"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "సాప్ట్ 17 తాటించుము"
+
+#~ msgid "Double Any Total"
+#~ msgstr "ఏదేని మెత్తం రెట్టింపు"
+
+#~ msgid "Double 9"
+#~ msgstr "రెట్టింపు 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "రెట్టింపు సాఫ్టు"
+
+#~ msgid "Double After Hit"
+#~ msgstr "తాటించిన తర్వాత రెట్టింపు"
+
+#~ msgid "Double After Split"
+#~ msgstr "విభజించిన తర్వాత రెట్టింపు"
+
+#~ msgid "Resplit"
+#~ msgstr "పునఃవిభజన"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "ఆసులను పునఃవిభజించు"
+
+#~ msgid "Surrender"
+#~ msgstr "లొంగుబాటు"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "డీలర్ వేగము"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "మీ పందెమును రెట్టింపు చేయుటకు నొక్కుము"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "మీ పందెమును %.2f పెంచుటకు రెండుసార్లు నొక్కుము"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "మీ పందెమును %.2f తగ్గించుటకు రెండుసార్లు నొక్కుము"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "వేరొక కార్డును డీల్ వేయుటకు నొక్కుము; జంటను విడదీయుటకు కార్డును లాగుము"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "వేరొక కార్డును డీల్ వేయుటకు నొక్కుము"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "పేకలను చేతిలోకి జతచేయుటను పూర్తిచేయుటకు నొక్కండి"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "కొత్త చేయిను డీల్ వేయుటకు నొక్కుము"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "కోరిన దస్త్రమును బ్లాక్ జాక్ నింపలేకపోయింది"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "బ్లాక్ జాక్ ప్రతిష్టను దయచేసి సరిచేసుకోండి"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "నిలబడుటక మంచి ఐచ్చికము"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "నిలబటుట అంటే అర్ధం మీ చేయికు కార్డులను జతచేయుట ఆపుట. దీనిని చేయుటకు డీలర్స్ కార్డులపై నొక్కండి "
+#~ "లేదా నియంత్రణ మెనూనుండి ఈ ఐచ్చికాన్ని యెంచుకొనండి."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "తాటించుట మంచి ఐచ్చికము"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "తాటించుట అంటే అర్ధం మీ చేయికు మరియొక కార్డును జతచేయుట. ఇది చేయుటకు మీ కార్డులపైన వొకసారి నొక్కండి "
+#~ "లేదా ఈ ఐచ్చికాన్ని నియంత్రణ మెనూనుండి యెంచుకొనండి."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "రెట్టింపు దింపదల మంచి ఐచ్చికము"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "రెట్టింపు దింపుదల అంటే అర్ధము ప్రాధమిక పందెమును రెట్టింపుచేసి మరియు సరిగ్గా వొక కార్డు మాత్రమే "
+#~ "స్వీకరించుటకు.  ఇది చేయుటకు విండో క్రిందనవున్న చిప్సుపై వొకసారి నొక్కండి లేదా ఈ ఐచ్చికాన్ని నియంత్రణ "
+#~ "మెనూనుండి యెంచుకొనండి."
+
+#~ msgid "The best option is to split"
+#~ msgstr "విభజించుట మంచి ఐచ్చికము"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "విభజించుటకు అంటే అర్ధము మీ ప్రస్తుత చేయిను రెండు చేయిలుగా విడదీయుట.  దీనిని చేయుటకు మీ కార్డులలో "
+#~ "వొకదానిని లాగి ప్రక్కనపడవేయండి లేదా ఈ ఐచ్చికాన్ని నియంత్రణ మెనూనుండి యెంచుకొనండి."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "లొంగిపోవుట మంచి ఐచ్చికము"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "లొంగిపోవుట అంటే మీ పందెములో సగంయిచ్చి చేయి ముగియకుండా వుండుట.  దీనిని చేయుటకు ఈ ఐచ్చికాన్ని "
+#~ "నియంత్రణ మెనూనుండి యెంపికచేయుము."
+
+#~| msgid "Blackjack is a casino-style card game."
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "బ్లాక్‌జాక్ అనునది కాసినో-శైలి కార్డు ఆట.\n"
+#~ "\n"
+#~ "బ్లాక్‌జాక్ అనునది GNOME ఆటలలో వొక భాగము."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "ప్రాధమిక తంత్రమును లెక్కిస్తున్నది..."
+
+#~ msgid "Bust"
+#~ msgstr "బస్ట్"
+
+#~ msgid "Blackjack!"
+#~ msgstr "బ్లాక్ జాక్!"
+
+#~ msgid "Soft"
+#~ msgstr "సాఫ్ట్"
+
+#~ msgid "Win"
+#~ msgstr "గెలుపు"
+
+#~ msgid "Push"
+#~ msgstr "త్రోయు"
+
+#~ msgid "Lose"
+#~ msgstr "ఓటమి"
+
+#~ msgid "Player expected values"
+#~ msgstr "ఆటగాడు ఊహించిన విలువలు"
+
+#~ msgid "Stand"
+#~ msgstr "నిలుచు"
+
+#~ msgid "Hit"
+#~ msgstr "తాటించు"
+
+#~ msgid "Double"
+#~ msgstr "రెట్టింపు"
+
+#~ msgid "Split"
+#~ msgstr "విడదీయు"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "డీలర్ చేయి సంభావ్యతలు"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "%s సేవికకు బంధము ఏర్పడుటలో దోషము"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "మీ కొత్త రహస్యపదము %s"
+
+#~ msgid "New password"
+#~ msgstr "కొత్త రహస్యపదం"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "%d సేవిక పైన ఆటగాళ్ళు"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "ప్రస్తుత గది: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "మీరు \"%s\".గదిలో చేరారు."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "%s గదిలోకి చేరుటలో దోషము"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ ఆట ప్రాంగణము"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "మీరు గది లో లేనప్పుడు మాటామంతి చేయుటకు కుదరదు"
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "మీకు ఇక్కడ మాటామంతి చేయడానికి అనుమతి లేదు."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "పట్టిక వద్ద యెటువంచి వ్యక్తిగత చాటింగ్ లేదు!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "ఆ ఆటగాడు గదిలో లేడు!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "మాటామంతిని పంపించుటలో దోషము వుంది."
+
+#~ msgid "You're not at a table."
+#~ msgstr "మీరు పట్టిక దగ్గర లేరు."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "మాటామంతి విఫలమైనది: %s"
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "పట్టికను ప్రయోగించుటలో దోషము: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "మీరు %d పట్టికలో చేరారు."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "పట్టికను చేరుటలో దోషము: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "మీరు పట్టికనుండి %s ద్వారా బూటైనారు."
+
+#~ msgid "You have left the table."
+#~ msgstr "మీరు పట్టిక ను విడిచిపెట్టారు"
+
+#~ msgid "The game is over."
+#~ msgstr "ఆట అయిపోయింది."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "ఆట సేవిక తో ఒక దోషము ఉన్నది."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "పట్టికను విడిచిపెట్టుటలో దోషము: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "ప్రస్తుత గది:"
+
+#~ msgid "**none**"
+#~ msgstr "**ఏదీకాదు**"
+
+#~ msgid "Offline"
+#~ msgstr "లైనువెలుపల"
+
+#~ msgid "Connecting"
+#~ msgstr "అనుసంధానమవుతున్నది"
+
+#~ msgid "Reconnecting"
+#~ msgstr "మళ్ళీ అనుసంధానమవుతున్నది"
+
+#~ msgid "Online"
+#~ msgstr "లైనులోపల"
+
+#~ msgid "Logging In"
+#~ msgstr "లోపలికి ప్రవేశిస్తున్నది"
+
+#~ msgid "Logged In"
+#~ msgstr "లోపలికి ప్రవేశించినది"
+
+#~ msgid "--> Room"
+#~ msgstr "--> గది"
+
+#~ msgid "Chatting"
+#~ msgstr "చాటింగ్"
+
+#~ msgid "--> Table"
+#~ msgstr "--> పట్టిక"
+
+#~ msgid "Playing"
+#~ msgstr "ఆడుతున్నది"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- పట్టిక"
+
+#~ msgid "Logging Out"
+#~ msgstr "నిష్క్రమిస్తున్నది"
+
+#~ msgid "Server error: %s"
+#~ msgstr "సేవిక దోషము: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "సేవిక నుండి బంధం తెంచబడినది."
+
+#~ msgid "Login"
+#~ msgstr "ప్రవేశించు"
+
+#~ msgid "That username is already in use."
+#~ msgstr "ఆ వినియోగదారునిపేరు ఇంతకు ముందే ఉపయోగములో ఉంది."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "ప్రామాణీకరణ విఫలమయినది.\n"
+#~ "సరయిన రహస్యపదాన్ని ఇవ్వండి."
+
+#~ msgid "The username is too long!"
+#~ msgstr "వినియోగదారుని నామము చాలా పెద్దగా వుంది!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "నిస్సారమైన వినియోగదారుని నామము, ప్రత్యేక అక్షరాలను ఉపయోగించకండి!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "తెలియని కారణముచేత ప్రవేశము విఫలమయినది: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "ఆల్లికలో ఆట"
+
+#~ msgid "Server Profile"
+#~ msgstr "సేవిక స్థూలవివరం"
+
+#~ msgid "Profile:"
+#~ msgstr "స్థూల వివరం:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "స్థూల వివరాలను సరిచేయుము"
+
+#~ msgid "Server:"
+#~ msgstr "సేవిక:"
+
+#~ msgid "Port:"
+#~ msgstr "పోర్టు:"
+
+#~ msgid "User Information"
+#~ msgstr "వినియోగదారుని సమాచారము"
+
+#~ msgid "Username:"
+#~ msgstr "వినియోగదారుడి నామము:"
+
+#~ msgid "Password:"
+#~ msgstr "రహస్యపదం:"
+
+#~ msgid "Email:"
+#~ msgstr "ఈ మెయిల్:"
+
+#~ msgid "Authentication type"
+#~ msgstr "ప్రామాణీకరణ రకం"
+
+#~ msgid "Normal Login"
+#~ msgstr "సాధారణ ప్రవేశము"
+
+#~ msgid "Guest Login"
+#~ msgstr "అతిధి ప్రవేశము"
+
+#~ msgid "First-time Login"
+#~ msgstr "మొదటిసారి ప్రవేశము"
+
+#~ msgid "Connect"
+#~ msgstr "కలుపుట"
+
+#~ msgid "Wizard"
+#~ msgstr "విజార్డ్"
+
+#~ msgid "Deity"
+#~ msgstr "డైటీ"
+
+#~ msgid "Sentinel"
+#~ msgstr "సెంటినెల్"
+
+#~ msgid "Captain"
+#~ msgstr "కెప్టెన్"
+
+#~ msgid "Knight"
+#~ msgstr "గుర్రం"
+
+#~ msgid "Angel"
+#~ msgstr "ఏంజల్"
+
+#~ msgid "Silverlord"
+#~ msgstr "సిల్వర్ లార్డ్"
+
+#~ msgid "Eagle"
+#~ msgstr "ఈగల్"
+
+#~ msgid "Vampire"
+#~ msgstr "వాంపైర్"
+
+#~ msgid "Chief"
+#~ msgstr "చీఫ్"
+
+#~ msgid "Colonel"
+#~ msgstr "కలనల్"
+
+#~ msgid "General"
+#~ msgstr "జెనెరల్"
+
+#~ msgid "Major"
+#~ msgstr "మేజర్"
+
+#~ msgid "Scout"
+#~ msgstr "స్కౌట్"
+
+#~ msgid "Lieutenant"
+#~ msgstr "లెఫటనంట్"
+
+#~ msgid "Stalker"
+#~ msgstr "స్టాల్కర్"
+
+#~ msgid "Scientist"
+#~ msgstr "శాస్త్రవేత"
+
+#~ msgid "Scholar"
+#~ msgstr "స్కాలర్"
+
+#~ msgid "Entity"
+#~ msgstr "ఎంటిటీ"
+
+#~ msgid "Creator"
+#~ msgstr "సృష్టికర్త"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ సంఘం (వేగము)"
+
+#~ msgid "Local developer server"
+#~ msgstr "స్థానికంగా అభివృధ్ధిపర్చు సేవిక"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "మీరు మొదటిసారి GTK+ GGZ ఆట ప్రాంగణ కక్షిదారిని నడుపుచున్నారు. మీరు కొన్ని అప్రమేయ సేవిక "
+#~ "ప్రొఫైల్సును సృష్టించాలని అనుకొనుచున్నారా?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <username> <message> . ప్లేయర్ వ్యక్తిగత సందేశము"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <message> .......... మీ పట్టికకు సందేశము"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <message> ........... నిర్వాహకుని ఆదేశము"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <username> .......... ప్లేయర్ బీప్"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/సహాయం .................. సహాయము పొందుము"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/స్నేహితులు............... మీ స్నేహితులను జాబితాపర్చు"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... మీరు పట్టించుకోని వ్యక్తుల జాబితా"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <username> .......... ప్లేయర్‌ను గదినుండి బయటకు గెంటివేయుము"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr "/gag <username> ........... మాట్లాడకుండా వుంచుటకు ప్లేయర్ నోరుకట్టివేయును"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr "/ungag <username> ......... ప్లేయర్ మాట్లాడుటకు అనుమతించును"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <username> ........... సేవికనుండి ప్లేయర్‌ను నిషేధించును"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "మీరు %s నుండి ఒక అపరిచిత సందేశము వచ్చినది."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "మీరు %s ద్వారా బీప్ చేయబడినారు."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "వినియోగము: /msg <username> <message>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr ".....అల్లికలోని వినియోగదారునికి ఒక సొంత సందేశాన్ని పంపిస్తున్నది."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "బీప్ %sకు పంపబడింది."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (ప్రవేశించివున్నది"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (నిష్క్రమించివున్నది)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "మాటామంతి వ్యాఖ్యలు"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/నేను <క్రియ> .............. ఒక చర్య ను పంపుము"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s ను మీ స్నేహితుల జాబితాకు జతపర్చినది."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s ను మీ స్నేహితుల జాబితానుండి తొలగించబడినది."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s అనునది మీరు వదిలివేసినవాటి జాబితాకు జతచేయబడింది."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s అనునది మీరు వదిలివేసినవాటి జాబితానుండి తీసివేయబడింది."
+
+#~ msgid "People currently your friends"
+#~ msgstr "ప్రస్తుత్తం మీకున్న స్నేహితులు"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "మీరు ప్రస్తుతం వదిలివేయుచున్న ప్రజలు"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "బహుళ సరిజోడీలు:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr "మీకు ఈ ఆట ప్రతిష్టించి లేదు. మీరు దీన్ని %s నుండి దిగుమతి చేసుకోవచ్చు."
+
+#~ msgid "Launch Error"
+#~ msgstr "ప్రయోగ దోషము"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "ఆట మాడ్యూల్ నిర్వర్తించుటలో విఫలమైంది.\n"
+#~ " ఆరంభం అర్దాంతరంగా ఆపివేయబడింది."
+
+#~ msgid "Launched game"
+#~ msgstr "ప్రయోగించబడిన ఆట"
+
+#~ msgid "Launch failed"
+#~ msgstr "ప్రయోగము విఫలమయినది"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "మీరు ఒక్క సమయములో ఒకే ఆటను ఆడగలతారు"
+
+#~ msgid "Game Error"
+#~ msgstr "ఆట దోషము"
+
+#~ msgid "You're still at a table."
+#~ msgstr "మీరు ఇంకా టేబుల్ దగ్గరే ఉన్నారు"
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "ఆటను ఆరంభించుటకు మీరు తప్పక వొక గదిలో వుండాలి.\n"
+#~ "అరంభం అర్దాంతరంగా నిలిపివేయబడింది"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "ఏ ఆట రకాలు ఈ సేవికకు నిర్వచించబడలేదు.\n"
+#~ "ప్రయోగము నిలిపివేయడమైనది."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "ఈ ఆట ప్రేక్షకలను మద్దతించదు."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "ఈ ఆట ఆడగల్గుటకు మీరు GGZ కక్షిదారిని నేరుగా\n"
+#~ "ఆరంభించవలసి వుంది."
+
+#~ msgid "About"
+#~ msgstr "గురించి"
+
+#~ msgid "Message of the Day"
+#~ msgstr "ఈ రోజు సందేశము"
+
+#~ msgid "None"
+#~ msgstr "ఏదీకాదు"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "గది ఫిల్టరింగ్ యింకా అభివృద్దిపరచబడిలేదు. మీరు\n"
+#~ "సహాయపడవలెనని అనుకుంటే దీనివంక చూడండి\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "అమలు చేయలేదు"
+
+#~ msgid "Description"
+#~ msgstr "వివరణ"
+
+#~ msgid "Web Address"
+#~ msgstr "మహాతల చిరునామా"
+
+#~ msgid "Author"
+#~ msgstr "మూలకర్త"
+
+#~ msgid "Game Types"
+#~ msgstr "ఆట రకాలు"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "గది జాబితా వడపోత(ఫిల్టర్):"
+
+#~ msgid "Set"
+#~ msgstr "అమర్చు"
+
+#~ msgid "Player Information"
+#~ msgstr "ఆటగాడి సమాచారము"
+
+#~ msgid "Player Handle:"
+#~ msgstr "ప్లేయర్ సంభాలిక:"
+
+#~ msgid "Table:"
+#~ msgstr "పట్టిక:"
+
+#~ msgid "Account:"
+#~ msgstr "ఖాతా:"
+
+#~ msgid "Record:"
+#~ msgstr "రికార్డు:"
+
+#~ msgid "Rating:"
+#~ msgstr "విలువకట్టు:"
+
+#~ msgid "Rank:"
+#~ msgstr "విశిష్ట స్థానం:"
+
+#~ msgid "Message:"
+#~ msgstr "సందేశం:"
+
+#~ msgid "Unknown"
+#~ msgstr "అపరిచిత"
+
+#~ msgid "Registered"
+#~ msgstr "నమోదైన"
+
+#~ msgid "Guest"
+#~ msgstr "అతిధి"
+
+#~ msgid "Host"
+#~ msgstr "ఆతిధ్య"
+
+#~ msgid "Administrator"
+#~ msgstr "నిర్వాహకి"
+
+#~ msgid "Friends"
+#~ msgstr "స్నేహితులు"
+
+#~ msgid "Ignore"
+#~ msgstr "తొలగించు"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "గణాంకాలు"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "ఈ ఆటను ఆడుటకు ఏ కక్షిదారిని వుపయోగించుటకు మీరు యిష్టపడతారు?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "నన్ను మళ్ళీ అడగవద్దు"
+
+#~ msgid "Join"
+#~ msgstr "చేరుము"
+
+#~ msgid "Leave"
+#~ msgstr "వదిలిపెట్టుము"
+
+#~ msgid "No description available."
+#~ msgstr "ఏ వివరణ అందుబాటులో లేదు"
+
+#~ msgid "Seats"
+#~ msgstr "సీట్లు"
+
+#~ msgid "Room Information"
+#~ msgstr "గది సమాచారం"
+
+#~ msgid "Game Name:"
+#~ msgstr "ఆట నామము:"
+
+#~ msgid "Author:"
+#~ msgstr "మూలకర్త:"
+
+#~ msgid "Homepage:"
+#~ msgstr "నివాసపుట"
+
+#~ msgid "Room Description:"
+#~ msgstr "గది వివరణ:"
+
+#~ msgid "This room has no game"
+#~ msgstr "ఈ గదిలో ఏ ఆట లేదు"
+
+#~ msgid "Unknown room"
+#~ msgstr "అపరిచిత గది"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "మీరు గదిలో చేరలేరు; మీరు ప్రవేశించి లేరు"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "మీరు ఇదివరకే గదుల మధ్య ఉన్నారు"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "ఆటను ఆడుతున్నప్పుడు మీరు గదులను మార్చలేరు"
+
+#~ msgid "Unknown error"
+#~ msgstr "అపరిచిత దోషము"
+
+#~ msgid "Error joining room"
+#~ msgstr "గదులలో చేరుటలో దోషము"
+
+#~ msgid "Other Rooms"
+#~ msgstr "ఇతర గదులు"
+
+#~ msgid "Room"
+#~ msgstr "గది"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "ఆట రకం: %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "మూలకర్త: %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "వివరణ: %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "నివాస పుట: %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "టేబుల్ ను ప్రయోగించుట విఫలమైనది.\n"
+#~ "ప్రయోగము నిలిపివేయబడినది."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "చెల్లని సంఖ్యలో బాట్లు తెలుపబడినవి"
+
+#~ msgid "Error launching game module."
+#~ msgstr "ఆట మాడ్యూల్ దించుటలో దోషము."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "సీటు అప్పగింతలు"
+
+#~ msgid "Game Type:"
+#~ msgstr "ఆట రకం:"
+
+#~ msgid "Number of seats"
+#~ msgstr "సీట్ల సంఖ్య"
+
+#~ msgid "Description:"
+#~ msgstr "వివరణ:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "సీట్ %d:"
+
+#~ msgid "Computer"
+#~ msgstr "కంప్యూటర్"
+
+#~ msgid "Open"
+#~ msgstr "తెరువుము"
+
+#~ msgid "Reserved for"
+#~ msgstr "దీనికొరకు నిల్వవుంచబడింది"
+
+#~ msgid "Game Description   "
+#~ msgstr "ఆట వివరణ..."
+
+#~ msgid "Launch"
+#~ msgstr "ప్రయోగము"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "మీరు నిజంగా త్యజించదల్చుకున్నారా?"
+
+#~ msgid "Quit?"
+#~ msgstr "త్యజించు?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "సేవిక గణాంకాలు యింకా అభివృద్దిపరచబడిలేవు.\n"
+#~ "మీరు సహాయపడవలెనని అనుకుంటే దీనివంక చూడండి.\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "ప్లేయర్ గణాంకాలు యింకా అభివృద్దిపరచబడిలేవు.\n"
+#~ "మీరు సహాయపడవలెనని అనుకుంటే దీనివంక చూడండి.\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "మీరు పట్టికను జేర్చుటకు ముందుగా దానిని ఉద్దీపనం చేయాలి."
+
+#~ msgid "Error Joining"
+#~ msgstr "చేరుటలో దోషము"
+
+#~ msgid "That table is full."
+#~ msgstr "టేబుల్ నిండిపోయింది."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "మీరు పట్టికను గమనించుటకు ముందుగా దానిని ఉద్దీపనం చేయాలి."
+
+#~ msgid "Error Spectating"
+#~ msgstr "చూపబడుతున్న దోషము"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "టేబుల్ లో చేరుట విఫలమైనది.\n"
+#~ "చేరుట నిలిపివెయడమైనది."
+
+#~ msgid "Join Error"
+#~ msgstr "చేరుటలో దోషము"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "GGZ ఆట ప్రాంగణము సేవికనుండి అననుసంధానించుము"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "కొత్త టేబుల్ పన ఆడటం మొదలు పెట్టండి"
+
+#~ msgid "Join an existing game"
+#~ msgstr "ఉన్న ఆటలో చేరండి"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "ఉన్న ఆటను వీక్షించుము - పట్టికకు ప్రేక్షకుడివి అవ్వు"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "మీరు ప్రస్తుతం ఆడుతున్న ఆడను విడిచిపెట్టుము"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "కక్షిదారి అమరికలను మార్చుటకు లక్షణముల డైలాగును చూపుము"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "ప్రస్తుత గదియొక్క ఆట రకముకు ఆట గణాంకాలను చూపుము"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "GGZ కక్షిదారి అనువర్తనమును నిష్క్రమించుము."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "డీబగ్గింగ్‌తో నిర్వర్తించబడింది."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "తెంచు"
+
+#~ msgid "Quit"
+#~ msgstr "త్యజించు"
+
+#~ msgid "Watch"
+#~ msgstr "చూడుము"
+
+#~ msgid "Edit"
+#~ msgstr "సరిచేయు"
+
+#~ msgid "Properties"
+#~ msgstr "లక్షణాలు"
+
+#~ msgid "View"
+#~ msgstr "దర్శనం"
+
+#~ msgid "Room List"
+#~ msgstr "గది జాబితా"
+
+#~ msgid "Server Stats"
+#~ msgstr "సేవిక గణాంకాలు"
+
+#~ msgid "Player Stats"
+#~ msgstr "ఆటగాడి గణాంకాలు"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "సహాయం"
+
+#~ msgid "Contents"
+#~ msgstr "సారాలు"
+
+#~ msgid "Send"
+#~ msgstr "పంపుము"
+
+#~ msgid "Properties Updated"
+#~ msgstr "లక్షణాలు తాజాపర్చబడినవి"
+
+#~ msgid "Confirm:"
+#~ msgstr "ధృవేకరించు:"
+
+#~ msgid "Modify"
+#~ msgstr "మర్చు"
+
+#~ msgid "Servers"
+#~ msgstr "సేవికలు"
+
+#~ msgid "Chat Font:"
+#~ msgstr "మాటామంతి యొక్క అక్షరశైలి:"
+
+#~ msgid "Change"
+#~ msgstr "మార్చుము"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "జాయిన్/పార్ట్ సందేశములను వదిలివేయుము"
+
+#~ msgid "Play Sounds"
+#~ msgstr "ధ్వనులను ఆడించుము"
+
+#~ msgid "Auto Indent"
+#~ msgstr "స్వయంచాలక గంటు"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "టైమ్‌స్టాంప్ చాట్లు"
+
+#~ msgid "Word Wrap"
+#~ msgstr "పదము మడుచుట"
+
+#~ msgid "Chat Color"
+#~ msgstr "చాట్ రంగు"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "మీ స్నేహితులకు అప్రమేయంగా వుండవలసిన చాట్ రంగు"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "మీ నామము టైపు చేయబడినప్పుడు వుపయోగించవలసిన చాట్ రంగు"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "అన్ని యితర చాట్లకు వుపయోగించవలసిన చాట్ రంగు"
+
+#~ msgid "Normal Color"
+#~ msgstr "సాదారణ రంగు"
+
+#~ msgid "Highlight Color"
+#~ msgstr "ఉద్దీపనంచేయు రంగు"
+
+#~ msgid "Friend Color"
+#~ msgstr "స్నేహితుడు/స్నేహితురాలు రంగు"
+
+#~ msgid "Black Background"
+#~ msgstr "నలుపు పూర్వరంగం"
+
+#~ msgid "White Background"
+#~ msgstr "తెలుపు పూర్వరంగం"
+
+#~ msgid "Chat"
+#~ msgstr "మాటామంతి"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "ఈ క్రింది సమాచారము మొత్తము ఇష్టానుసారం."
+
+#~ msgid "Name:"
+#~ msgstr "పేరు:"
+
+#~ msgid "City:"
+#~ msgstr "నగరం:"
+
+#~ msgid "State:"
+#~ msgstr "రాష్టం:"
+
+#~ msgid "Country:"
+#~ msgstr "దేశం:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "వ్యాఖ్యానములు, అలవాట్లు, మొదలగు."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "ఒకే నొక్కు గది ప్రవేశము"
+
+#~ msgid "Display All"
+#~ msgstr "అన్నింటిని ప్రదర్శించు"
+
+#~ msgid "Display New"
+#~ msgstr "కొత్త వాటిని ప్రదర్శించు"
+
+#~ msgid "Display Important"
+#~ msgstr "ముఖ్యమైనవాటిని ప్రదర్శించు"
+
+#~ msgid "Display None"
+#~ msgstr "వేటిని ప్రదర్శించవద్దు"
+
+#~ msgid "Options"
+#~ msgstr "ఇచ్ఛాపూర్వకాలు"
+
+#~ msgid "Select Font"
+#~ msgstr "అక్షర శైలిని ఎంచుకొనుము"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: ఐచ్చికము `%s' సందిగ్దముగావుంది\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: ఐచ్చికము `--%s' ఆర్గుమెంటును అనుమతించదు\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: ఐచ్చికము `%c%s' ఆర్గుమెంటును అనుమతించదు\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: ఐచ్చికము `%s' ఒక ఆర్గుమెంటు అవసరము\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: గుర్తింపులేని ఐచ్చికము `--%s'\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: గుర్తింపులేని ఐచ్చికము `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: చెల్లని ఐచ్చికము -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: చెల్లని ఐచ్చికము -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: ఐచ్చికానికి వొక ఆర్గుమెంటు అవసరము -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: ఐచ్చికము `-W %s' సందిగ్దముగా వుంది\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: ఐచ్చికము `-W %s' ఆర్గుమెంటును అనుమతించదు\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "కొత్త ఆటలను వీక్షించుటకు దూరస్థ ప్లేయర్లను అనుమతించుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "3D రీతిని చేతనము చేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "బోర్డు సంఖ్యీకరణను చేతనముచేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "పూర్తితెర తీరును చేతనముచేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "పెద్దిదిచేయు తీరును చేతనము చేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "హింట్లను కదుల్చుట చేతనముచేయుటకు వొక ఫ్లాగ్"
+
+#~| msgid "Welcome to a network game of %s."
+#~ msgid "A flag to enable network game support"
+#~ msgstr "నెట్వర్కు ఆట మద్దతును చేతనము చేయుటకు వొక జెండా"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "చరిత్ర అన్వేషణిని కదుల్చుట చేతనము చేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "సాదనపట్టీ చేతనముచేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "కదుల్చు వ్యాఖ్యానములను చూపుటకు వొక ఫ్లాగ్"
+
+#~ msgid "A flag to smooth (anti-alias) the 3D display"
+#~ msgstr "3D ప్రదర్శనను స్మూత్ (యాంటి-ఎలియాస్) చేయుటకు వొక ఫ్లాగ్"
+
+#~ msgid "The board side to display"
+#~ msgstr "ప్రదర్శించుటకు బోర్డు సైడు"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "కొత్త ఆటనందు నలుపు కొరకు అప్రమేయ ప్లేయర్ సంక్లిష్టత"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "కొత్త ఆటనందు తెలుపు కొరకు అప్రమేయ ప్లేయర్ సంక్లిష్టత"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "కొత్త ఆటనందు నలుపు కొరకు అప్రమేయ ప్లేయర్ రకము"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "కొత్త ఆటనందు తెలుపు కొరకు అప్రమేయ ప్లేయర్ రకము"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "ఆట లోడు డైలాగును తెరుచుటకు డైరెక్టరీ"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "ఆట దాయు డైలాగును తెరుచుటకు డైరెక్టరీ"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "కదలికలను ప్రదర్శించవలసిన ఫార్మాట్"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "కదలికలను ప్రదర్శించవలసిన ఫార్మాట్, 'మానవీయ' (మనిషి చదువగలిగిన), 'lan' (లాంగ్ ఆల్జీబ్రిక్ నొటేషన్) "
+#~ "లేదా 'san' (స్టాండర్డ్ ఆల్జీబ్రిక్ నొటేషన్) ఏదైనా కాగలదు"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "ముఖ్య విండోయొక్క ఎత్తు పిగ్జెల్సులో."
+
+#~ msgid "The height of the window"
+#~ msgstr "గవాక్షపు ఎత్తు"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "బటులకు కల్పించవలసిన వున్నతి అవకాశము"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr ""
+#~ "మానవ ప్లేయర్ బటుడిని పై చివరకు కదిల్చినప్పుడు కల్పించవలసిన స్థానము. వీటిలో వొకటి కాగలదు: 'రాణి', "
+#~ "'గుర్రము', 'ఏనుగు', 'శకటం'."
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player) or 'human' (the side of the current human "
+#~ "player)"
+#~ msgstr ""
+#~ "ఫోర్‌గ్రౌండ్ నందు గల బోర్డుయొక్క సైడు, 'తెలుపు', 'నలుపు', 'ప్రస్తుత' (ప్రస్తుత ప్లేయర్) లేదా "
+#~ "'మనిషి' (ప్రస్తుత మానవ ప్లేయర్ సైడు) వీటిలో ఏదైనా కాగలదు"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "ముఖ్య విండోయొక్క వెడల్పు పిగ్జెల్సులో."
+
+#~ msgid "The width of the window"
+#~ msgstr "గవాక్షపు వెడెల్పు"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "చదరంగం ఆటను దాయుము"
+
+#~ msgid "Communication:"
+#~ msgstr "సంప్రదింపు:"
+
+#~ msgid "Executable:"
+#~ msgstr "నిర్వర్తించదగిన:"
+
+#~ msgid "Playing as:"
+#~ msgstr "ఇలా ఆడుతున్నది:"
+
+#~| msgid "<b>Games</b>"
+#~ msgid "<b>Game</b>"
+#~ msgstr "<b>ఆట</b>"
+
+#~| msgid "<b>Games</b>"
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "<b>గదులు</b>"
+
+#~| msgid "<b>Players</b>"
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>సేవిక</b>"
+
+#~| msgid "<b>Status/Chat</b>"
+#~ msgid "<b>Status/_Chat</b>"
+#~ msgstr "<b>సుస్థితి/మాటామంతి (_C)</b>"
+
+#~| msgid "Account:"
+#~ msgid "Add Account"
+#~ msgstr "ఖాతా జతచేయుము"
+
+#~ msgid "Join Game"
+#~ msgstr "ఆటలో చేరుము"
+
+#~| msgid "Username:"
+#~ msgid "User _Name:"
+#~ msgstr "వినియోగదారుడి నామము (_N):"
+
+#~| msgid "Account:"
+#~ msgid "_Add Account"
+#~ msgstr "ఖాతా (_A):"
+
+#~| msgid "Host"
+#~ msgid "_Host:"
+#~ msgstr "ఆతిధ్య (_H):"
+
+#~| msgid "Join"
+#~ msgid "_Join"
+#~ msgstr "చేరుము (_J)"
+
+#~| msgid "Leave"
+#~ msgid "_Leave"
+#~ msgstr "వదిలిపెట్టుము (_L)"
+
+#~| msgid "_Report"
+#~ msgid "_Port:"
+#~ msgstr "పోర్ట్ (_P):"
+
+#~ msgid "_Profile:"
+#~ msgstr "స్థూల వివరం (_P):"
+
+#~| msgid "Server:"
+#~ msgid "_Server:"
+#~ msgstr "సేవిక (_S):"
+
+#~| msgid "_Chess"
+#~ msgid "3_D Chess View"
+#~ msgstr "3_D చదరంగపు దర్శనం"
+
+#~| msgid "_Board size:"
+#~ msgid "Board Orientation:"
+#~ msgstr "పలక పరిమాణం:"
+
+#~| msgid "Move right"
+#~ msgid "Move Format:"
+#~ msgstr "కదలిక ఫార్మాట్:"
+
+#~ msgid "Preferences"
+#~ msgstr "అభీష్టాలు"
+
+#~ msgid "Promotion Type:"
+#~ msgstr "ప్రోత్సాహకం(ప్రమోషన్) రకము:"
+
+#~| msgid "_History"
+#~ msgid "Show _History"
+#~ msgstr "చరిత్ర (_H)"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "పనిముట్లపట్టాని చూపుము (_T)"
+
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "చదరంగపు పటముపైన సంఖ్యీకరణను చూపుము లేదా మరుగుపరచుము"
+
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "ఆట చరిత్ర ప్యానల్‌ను చూపుము లేదా మరుగుపరచుము"
+
+#~ msgid "Shows hints during chess games"
+#~ msgstr "చదరంగం ఆటల మద్యలో మెళుకువలను చూపుము"
+
+#~ msgid "Smooth edges of the 3D elements (anti-alias)"
+#~ msgstr "3D మూలకములయొక్క సున్నిత అంచులు (యాంటి-ఎలియాసింగ్)"
+
+#~ msgid ""
+#~ "View the chess board by default in 2D mode, or optionally in 3D mode "
+#~ "using OpenGL."
+#~ msgstr ""
+#~ "చదరంగపు పటమును అప్రమేయంగా 2D రీతిలో దర్శించండి, లేదా ఐచ్చికముగా OpenGL వుపయోగించి 3D "
+#~ "రీతినందు దర్శించండి."
+
+#~ msgid "_Board Numbering"
+#~ msgstr "పటము సంఖ్యీకరణ (_B)"
+
+#~| msgid "Move _Hints"
+#~ msgid "_Move Hints"
+#~ msgstr "సూచనలను జరుపుము (_M)"
+
+#~ msgid "_Smooth Display"
+#~ msgstr "నున్నితమైన ప్రదర్శన (_S)"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "చదరంగం ఆటను నింపుము"
+
+#~ msgid "Claim _Draw"
+#~ msgstr "డ్రా ప్రస్తావించుము (_D)"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "నిండుతెర సంవిధానాన్ని మూయుము (_F)"
+
+#~ msgid "Load a saved game"
+#~ msgstr "దాచిన ఆటను చూపుము"
+
+#~| msgid "Lose"
+#~ msgid "Logs"
+#~ msgstr "లాగ్స్"
+
+#~ msgid "Resign"
+#~ msgstr "వదులుకొనుము"
+
+#~ msgid "Save the current game"
+#~ msgstr "ప్రస్తుత ఆటను దాయుము"
+
+#~| msgid "Show _Toolbar"
+#~ msgid "Show _Logs"
+#~ msgstr "పనిముట్లపట్టాని చూపుము (_L)"
+
+#~ msgid "Show the current move"
+#~ msgstr "ప్రస్తుత ఎత్తును చూపుము"
+
+#~ msgid "Show the next move"
+#~ msgstr "తరువాతి ఎత్తును చూపుము"
+
+#~ msgid "Show the previous move"
+#~ msgstr "పూర్వపు ఎత్తును చూపుము"
+
+#, fuzzy
+#~| msgid "There are no more moves."
+#~ msgid "There are no active logs."
+#~ msgstr "ఇంకా ఏ ఎత్తులు లేవు"
+
+#~| msgid "_Undo Move"
+#~ msgid "Undo Move"
+#~ msgstr "వేసిన ఎత్తుని రద్దుచేయు"
+
+#~| msgid "_Right"
+#~ msgid "_Resign"
+#~ msgstr "కుడి (_R)"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>కష్టము</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>ఆట లక్షణాలు</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>ఆటగాళ్ళు</b>"
+
+#~ msgid "B_lack:"
+#~ msgstr "నలుపు (_l):"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "ఈ ఆటకు శీర్షికను రాయుము"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr "ఆటను మొదలుపెట్టు. ఒక్కసారి అన్ని క్షేత్రాలు పూర్తయిన తర్వాత ఆటను ప్రారంభించవచ్చు"
+
+#~ msgid "W_hite:"
+#~ msgstr "తెలుపు (_h):"
+
+#~ msgid "_Black:"
+#~ msgstr "నలుపు (_B):"
+
+#~ msgid "_Game name:"
+#~ msgstr "ఆట నామము (_G):"
+
+#~ msgid "_Start"
+#~ msgstr "ప్రారంభం (_S)"
+
+#~ msgid "_White:"
+#~ msgstr "తెలుపు (_W):"
+
+#~ msgid "Chess"
+#~ msgstr "చదరంగం"
+
+#~ msgid "One minute"
+#~ msgstr "ఒక నిమిషం"
+
+#~ msgid "Five minutes"
+#~ msgstr "ఐదు నిమిషాలు"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 నిమిషాలు"
+
+#~ msgid "One hour"
+#~ msgstr "ఒక గంట"
+
+#~ msgid "Custom"
+#~ msgstr "మలచుకొనిన"
+
+#~ msgid "seconds"
+#~ msgstr "క్షణాలు"
+
+#~ msgid "minutes"
+#~ msgstr "నిమిషాలు"
+
+#~ msgid "hours"
+#~ msgstr "గంటలు"
+
+#~ msgid "Easy"
+#~ msgstr "సులభం"
+
+#~ msgid "Normal"
+#~ msgstr "సాధారణ"
+
+#~ msgid "Hard"
+#~ msgstr "కష్టం"
+
+#~ msgid "White"
+#~ msgstr "తెలుపు"
+
+#~ msgid "Black"
+#~ msgstr "నలుపు"
+
+#, fuzzy
+#~| msgid "Nibbles"
+#~ msgid "PGN files"
+#~ msgstr "నిబ్బల్స్"
+
+#~ msgid "All files"
+#~ msgstr "అన్ని దస్త్రాలు"
+
+#~ msgid "Human"
+#~ msgstr "మానవుడు"
+
+#~| msgid "_White Side"
+#~ msgid "White Side"
+#~ msgstr "తెలుపు పక్కన"
+
+#~| msgid "_Black Side"
+#~ msgid "Black Side"
+#~ msgstr "నలుపు పక్కన"
+
+#~| msgid "_Human Side"
+#~ msgid "Human Side"
+#~ msgstr "మానవుడి పక్కన"
+
+#~| msgid "_Current Player"
+#~ msgid "Current Player"
+#~ msgstr "ప్రస్తుత ఆటగాడు"
+
+#, fuzzy
+#~| msgid "If you don't save, all your changes will be permanently lost"
+#~ msgid "If you don't save the changes to this game will be permanently lost"
+#~ msgstr "మీరు దాయకపోతే, చేసిన మార్పులు అన్ని శాశ్వతంగా పోతాయి"
+
+#, fuzzy
+#~| msgid ""
+#~| "Unable to load image:\n"
+#~| "%s"
+#~ msgid "Unable to claim draw"
+#~ msgstr ""
+#~ "ప్రతిరూపాన్ని నింపలేకపోయింది:\n"
+#~ "%s"
+
+#~ msgid "Unable to display help: %s"
+#~ msgstr "సహాయాన్ని ప్రదర్శించలేకపోయింది:%s"
+
+#~ msgid "Game Start"
+#~ msgstr "ఆట మొదలు"
+
+#~ msgid "No comment"
+#~ msgstr "వ్యాఖ్య వద్దు"
+
+#~ msgid "%s wins"
+#~ msgstr "%s గెలిచింది"
+
+#~ msgid "Game is drawn"
+#~ msgstr "ఆట డ్రా అయింది"
+
+#, fuzzy
+#~| msgid "Disconnected from server."
+#~ msgid "Disconnected"
+#~ msgstr "తెంచబడినది"
+
+#~ msgid "Table"
+#~ msgstr "పట్టిక"
+
+#, fuzzy
+#~| msgid "Set"
+#~ msgid "Seat"
+#~ msgstr "అమర్చు"
+
+#~ msgid "Player"
+#~ msgstr "ఆటగాడు"
+
+#, fuzzy
+#~| msgid "Server error: %s"
+#~ msgid "Reserved for %s"
+#~ msgstr "సేవిక దోషము: %s"
+
+#, fuzzy
+#~| msgid "Human Players"
+#~ msgid "Human versus %s"
+#~ msgstr "మానవ ఆటగాళ్ళు"
+
+#~ msgid "glChess"
+#~ msgstr "జీఎల్ చదరంగం"
+
+#, fuzzy
+#~| msgid "New password"
+#~ msgid "Incorrect password"
+#~ msgstr "కొత్త రహస్యపదం"
+
+#, fuzzy
+#~| msgid "Account:"
+#~ msgid "Account in use"
+#~ msgstr "ఖాతా:"
+
+#, fuzzy
+#~| msgid "Error connecting to server: %s"
+#~ msgid "Connection closed: %s"
+#~ msgstr "%s సేవికకు బంధము ఏర్పడుటలో దోషము"
+
+#, fuzzy
+#~| msgid "Disconnected from server."
+#~ msgid "Disconnected from server"
+#~ msgstr "సేవిక నుండి బంధం తెంచబడినది."
+
+#~ msgid "No description"
+#~ msgstr "వివరణ లేదు"
+
+#, fuzzy
+#~| msgid "Small"
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "చిన్న"
+
+#, fuzzy
+#~| msgid "_Medium"
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "మీడియం"
+
+#, fuzzy
+#~| msgid "Large"
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "పెద్ద"
+
+#~ msgid "Could not load theme"
+#~ msgstr "వాటిని నింపలేకపోయింది"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "గ్నోం ఫైవ్ ఆర్ మోర్"
+
+#~ msgid "_Board size:"
+#~ msgstr "పలక పరిమాణం (_B):"
+
+#~ msgid "Game Over!"
+#~ msgstr "ఆట అయిపోయింది!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "మీరు అక్కడకు జరపలేరు!"
+
+#~ msgid "Five or More"
+#~ msgstr "ఐదు లేదా ఎక్కువ"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "ఫైవ్ ఆర్ మోర్ ఆట అభీష్టాలు"
+
+#~ msgid "Themes"
+#~ msgstr "వైవిధ్యాంశాలు"
+
+#~ msgid "_Image:"
+#~ msgstr "ప్రతిరూపం (_I):"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "పూర్వరంగం వర్ణము (_a):"
+
+#~ msgid "Board Size"
+#~ msgstr "పలకం పరిమాణం"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "సాధారణ"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "వేగవంతమైన జరుపులను ఉపయోగించుము (_U)"
+
+#~ msgid "Next:"
+#~ msgstr "తరువాత:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "గీతలు ఏర్పర్చుకుంటూ పలకం పైనుండి రంగుల బంతులను తొలగించుంము"
+
+#~ msgid "Background color"
+#~ msgstr "పూర్వరంగం వర్ణము"
+
+#~ msgid "Ball style"
+#~ msgstr "బంతి శైలి"
+
+#~ msgid "Game field"
+#~ msgstr "ఆట క్షేత్రము"
+
+#~ msgid "Game preview"
+#~ msgstr "ఆట ఉపదర్శనం"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "ఇంతకుముందు దాచిన సమక్కుర్పు నుండి ఆట ఉపదర్శనం."
+
+#~ msgid "Game score"
+#~ msgstr "ఆట స్కోర్"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "చివరిగా దాచిన సమకూర్పు నుండి ఆట స్కోరు."
+
+#~ msgid "Playing field size"
+#~ msgstr "ఆదుతున్న క్షేత్ర పరిమాణం"
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "ఫోర్-ఇన్-ఎ-రో"
+
+#~ msgid "Level of Player One"
+#~ msgstr "మొదటి ఆటగాడి యొక్క స్థాయి"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "రెండవ ఆటగాడి యొక్క స్థాయి"
+
+#~ msgid "Theme ID"
+#~ msgstr "వైవిధ్యాంశ ID"
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ప్రతిరూపాన్ని నింపలేకపోయింది:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "ఒక అల్లిక దోషము వచ్చినది."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "ప్రత్యర్ధి ఆటలో చేరుటకు నిరీక్షిస్తున్నది"
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "%s యొక్క అల్లిక ఆటకు స్వాగతం"
+
+#~ msgid "It's a draw!"
+#~ msgstr "ఇది ఒక డ్రా!"
+
+#~ msgid "You win!"
+#~ msgstr "నువ్వు గెలిచావ్!"
+
+#~ msgid "It is your move."
+#~ msgstr "ఇది మీ ఎత్తు"
+
+#~ msgid "I win!"
+#~ msgstr "నేను గెలిచా!"
+
+#~ msgid "Thinking..."
+#~ msgstr "ఆలోచిస్తున్నది..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s గెలిచింది!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "%s ను జరుపుటకు వేచిస్తున్నది"
+
+#~ msgid "You:"
+#~ msgstr "నువ్వు:"
+
+#~ msgid "Me:"
+#~ msgstr "నేను:"
+
+#~ msgid "Scores"
+#~ msgstr "స్కోర్లు"
+
+#~ msgid "Drawn:"
+#~ msgstr "డ్రా అయినది:"
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "మొదటి ఆటగాడు:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "రెండవ ఆటగాడు:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "ఒకటవ స్థాయి"
+
+#~ msgid "Level two"
+#~ msgstr "రెండవ స్థాయి"
+
+#~ msgid "Level three"
+#~ msgstr "మూడవ స్థాయి"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "ఫోర్-ఇన్-ఎ-రో అభీష్టాలు"
+
+#~ msgid "Appearance"
+#~ msgstr "రూపం"
+
+#~ msgid "_Theme:"
+#~ msgstr "వైవిధ్యాంశము (_T):"
+
+#~ msgid "Enable _animation"
+#~ msgstr "సచేతనాన్ని క్రియాశీలీకరించు (_a)"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "ధ్వనులను క్రియాశీలీకరించు (_n)"
+
+#~ msgid "Classic"
+#~ msgstr "సాంప్రదాయక"
+
+#~ msgid "Red"
+#~ msgstr "ఎరుపు"
+
+#~ msgid "Yellow"
+#~ msgstr "ఆకుపచ్చ"
+
+#~ msgid "High Contrast"
+#~ msgstr "అధిక కాంట్రాస్టు"
+
+#~ msgid "Light"
+#~ msgstr "లేత"
+
+#~ msgid "Dark"
+#~ msgstr "ముదురు"
+
+#~ msgid "Blue"
+#~ msgstr "నీలం"
+
+#~ msgid "Blocks"
+#~ msgstr "భాగాలు"
+
+#~ msgid "Orange"
+#~ msgstr "నారింజపండు రంగు"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "%s ఆటలో చేరినది.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "%s ఆటను విడిచిపెట్టినది.\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "Unable to find required images.\n"
+#~| "\n"
+#~| "Please check your gnome-games installation."
+#~ msgid ""
+#~ "Nibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "కావలసిన ప్రతిరూపాలని కనిపెట్టలేకపోయింది.\n"
+#~ "\n"
+#~ "దయచేసి గ్నోం ఆటల ప్రతిష్టను చూసుకొనుము."
+
+#, fuzzy
+#~| msgid ""
+#~| "Unable to find required images.\n"
+#~| "\n"
+#~| "Please check your gnome-games installation."
+#~ msgid ""
+#~ "Nibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "కావలసిన ప్రతిరూపాలని కనిపెట్టలేకపోయింది.\n"
+#~ "\n"
+#~ "దయచేసి గ్నోం ఆటల ప్రతిష్టను చూసుకొనుము."
+
+#, fuzzy
+#~| msgid ""
+#~| "Unable to find required images.\n"
+#~| "\n"
+#~| "Please check your gnome-games installation."
+#~ msgid ""
+#~ "Level file appears to be damaged:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "కావలసిన ప్రతిరూపాలని కనిపెట్టలేకపోయింది.\n"
+#~ "\n"
+#~ "దయచేసి గ్నోం ఆటల ప్రతిష్టను చూసుకొనుము."
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "నిబ్బిల్స్ స్కోర్లు"
+
+#~ msgid "Speed:"
+#~ msgstr "వేగం:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "అభినందనలు!"
+
+#~ msgid "Nibbles"
+#~ msgstr "నిబ్బల్స్"
+
+#, fuzzy
+#~| msgid "Nibbles"
+#~ msgid "Gnibbles"
+#~ msgstr "గ్నిబ్బిల్స్"
+
+#~ msgid "Enable sounds"
+#~ msgstr "ధ్వనులను క్రియాశీలీకరించుము"
+
+#~ msgid "Enable sounds."
+#~ msgstr "ధ్వనులను క్రియాశీలీకరించు"
+
+#~ msgid "Game level to start on"
+#~ msgstr "ప్రారంభించాల్సిన ఆట స్థాయి."
+
+#~ msgid "Game level to start on."
+#~ msgstr "ప్రారంభించాల్సిన ఆట స్థాయి."
+
+#~ msgid "Game speed"
+#~ msgstr "ఆట వేగం"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "ఆట వేగము (1=తొందరగా, 4=నెమ్మదిగా)"
+
+#~ msgid "Move up"
+#~ msgstr "పైకి జరుపు"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Al ఆటగాళ్ళ సంఖ్య"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Al ఆటగాళ్ళ సంఖ్య"
+
+#~ msgid "Number of human players"
+#~ msgstr "మానవ ఆటగాళ్ళ సంఖ్య "
+
+#~ msgid "Number of human players."
+#~ msgstr "మానవ ఆటగాళ్ళ సంఖ్య"
+
+#~ msgid "Play levels in random order"
+#~ msgstr "భిన్నమైన క్రమములో స్థాయిలను ఆడుము"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "భిన్నమైన క్రమములో స్థాయిలను ఆడుము"
+
+#~ msgid "Size of game tiles"
+#~ msgstr "ఆట పెంకుల పరిమాణం"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "ఆట పెంకుల పరిమాణం"
+
+#, fuzzy
+#~| msgid "Slow"
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "నెమ్మదిగా"
+
+#, fuzzy
+#~| msgid "_Medium"
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "మీడియం"
+
+#, fuzzy
+#~| msgid "Fast"
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "తొందరగా"
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "నిబ్బల్స్ అభీష్టాలు"
+
+#~ msgid "Speed"
+#~ msgstr "వేగము"
+
+#~ msgid "My second day"
+#~ msgstr "నా రెండవ రోజు"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "స్థాయిలను భిన్నమైన క్రమములో ఆడుము (_P)"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "మానవ ఆటగాళ్ళ సంఖ్య (_h):"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "_AI ఆటగాళ్ళ సంఖ్య:"
+
+#~ msgid "Green"
+#~ msgstr "ఆకుపచ్చ"
+
+#~ msgid "Cyan"
+#~ msgstr "ఆకుపచ్చ నీలము"
+
+#~ msgid "Purple"
+#~ msgstr "ఊదా రంగు"
+
+#~ msgid "Gray"
+#~ msgstr "బూడిద రంగు"
+
+#~ msgid "Game over!"
+#~ msgstr "ఆట పూర్తయింది!"
+
+#~ msgid "Map:"
+#~ msgstr "పటం:"
+
+#~ msgid "Set game scenario"
+#~ msgstr "ఆట దృశ్యవిభాగాన్ని అమర్చుము"
+
+#~ msgid "Set game configuration"
+#~ msgstr "ఆట రూపకరణ ను అమర్చు"
+
+#~ msgid "Initial window position"
+#~ msgstr "ప్రారంభ గవాక్ష స్థానము"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "No game data could be found."
+#~ msgstr "ఏ ఆట దత్తాంశం కనబడలేదు."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "కొన్ని చిత్రరూప దస్త్రాలు కనుపడుటలేదు లేదా పాడయినవి"
+
+#~ msgid "Game type"
+#~ msgstr "ఆట రకం"
+
+#~ msgid "Key to move E"
+#~ msgstr "తూర్పు వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move N"
+#~ msgstr "ఉత్తరం వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move NE"
+#~ msgstr "ఈశాన్యం వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move NW"
+#~ msgstr "వాయువ్యం వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move S"
+#~ msgstr "దక్షిణం వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move SE"
+#~ msgstr "ఆగ్నేయం వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move SW"
+#~ msgstr "నైరుతి వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Key to move W"
+#~ msgstr "పడమర వైపుకు జరుగుటకు నొక్కవలసిన మీట"
+
+#~ msgid "Use safe moves"
+#~ msgstr "భద్రమైన ఎత్తులను ఉపయోగించుము"
+
+#~ msgid "_Move"
+#~ msgstr "జరుపు (_M)"
+
+#~ msgid "_Random"
+#~ msgstr "భిన్నమైన (_R)"
+
+#~ msgid "_Wait"
+#~ msgstr "ఆగుము (_W)"
+
+#~ msgid "robots"
+#~ msgstr "రోబోలు"
+
+#~ msgid "cows"
+#~ msgstr "ఆవులు"
+
+#~ msgid "eggs"
+#~ msgstr "గుడ్లు"
+
+#~ msgid "gnomes"
+#~ msgstr "గ్నోంలు"
+
+#~ msgid "ufo"
+#~ msgstr "యు ఎఫ్ ఓ"
+
+#~ msgid "boo"
+#~ msgstr "బూ"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "రోబోలు ఆట అభీష్టాలు"
+
+#~ msgid "Game Type"
+#~ msgstr "ఆట రకం"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "భద్రమైన ఎత్తులను ఉపయోగించుము (_U)"
+
+#~ msgid "Graphics Theme"
+#~ msgstr "చిత్రాల వైవిధ్యాంశం"
+
+#~ msgid "_Image theme:"
+#~ msgstr "ప్రతిరూపం వైవిధ్యాంశం (_I):"
+
+#~ msgid "_Background color:"
+#~ msgstr "పూర్వరంగం వర్ణము (_B):"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "అప్రమేయాలను మళ్ళీదాయుము (_R)"
+
+#~ msgid "Keyboard"
+#~ msgstr "మీట పలకం"
+
+#~ msgid "Remaining:"
+#~ msgstr "మిగిలివున్న:"
+
+#~ msgid "Sudoku"
+#~ msgstr "సుడోకు"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "సుడోకూలను ముద్రించు"
+
+#~ msgid "_Easy"
+#~ msgstr "సులభం (_E)"
+
+#~ msgid "_Hard"
+#~ msgstr "కష్టం (_H)"
+
+#~ msgid "_Medium"
+#~ msgstr "నడుమ (_M)"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "ముద్రణకు సుడోకూల సంఖ్య (_N):"
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "ఒక్క పుటకు సుడోకూలు (_S):"
+
+#~ msgid "_Very Hard"
+#~ msgstr "చాలా కష్టం (_V)"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>సులభం:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>కష్టం:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>చాలా కష్టం:</i"
+
+#~ msgid "Criteria:"
+#~ msgstr "ప్రమాణము:"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "గ్నోమ్ సుడోకు"
+
+#~ msgid "Full Screen"
+#~ msgstr "నిండు తెర"
+
+#~ msgid "New game"
+#~ msgstr "కొత్త ఆట"
+
+#~ msgid "Print current game"
+#~ msgstr "ప్రస్తుత ఆటను ముద్రించు"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "అనేక సుడోకూలను ముద్రించుము (_M)"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "ఒకేసారి ఒక్క సుడోకూ కన్న ఎక్కువ వాటిని ముద్రించు."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "సుడోకూను మూయుము"
+
+#~ msgid "_Tools"
+#~ msgstr "పనిముట్లు (_T)"
+
+#~ msgid "_Fill"
+#~ msgstr "నింపు (_F)"
+
+#~ msgid "_Always show hint"
+#~ msgstr "సూచనను ఎల్లప్పుడు చూపుము (_A)"
+
+#~ msgid "_Edit"
+#~ msgstr "సరిచేయు (_E)"
+
+#~ msgid "_Undo"
+#~ msgstr "చేసింది రద్దు (_U)"
+
+#~ msgid "Undo last action"
+#~ msgstr "చివరి చర్యను రద్దు చేయు"
+
+#~ msgid "_Redo"
+#~ msgstr "మళ్ళీచేయు (_R)"
+
+#~ msgid "Redo last action"
+#~ msgstr "చివరి చర్యను మళ్ళీచేయు"
+
+#~ msgid "_Clear"
+#~ msgstr "శుభ్రపర్చు (_C)"
+
+#~ msgid "_Play game"
+#~ msgstr "ఆటను ఆడుము (_P)"
+
+#, fuzzy
+#~ msgid "You got %(n)s hint"
+#~ msgid_plural "You got %(n)s hints"
+#~ msgstr[0] "%(n)s నిమిషం"
+#~ msgstr[1] "%(n)s నిమిషం"
+
+#~| msgid "Abandoned"
+#~ msgid "_Abandon game"
+#~ msgstr "త్యజించబడిన (_A)"
+
+#, fuzzy
+#~| msgid "Statistics"
+#~ msgid "Puzzle Statistics"
+#~ msgstr "గణాంకాలు"
+
+#, fuzzy
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "సుడోకూను ముద్రించు"
+#~ msgstr[1] "సుడోకూను ముద్రించు"
+
+#~ msgid "Print Preview"
+#~ msgstr "ముద్రణ ఉపదర్శనం"
+
+#, fuzzy
+#~| msgid "Last Played"
+#~ msgid "Last Played %(timeAgo)s"
+#~ msgstr "చివరిగా ఆడిన"
+
+#, fuzzy
+#~| msgid "Played for %s"
+#~ msgid "Played for %(duration)s"
+#~ msgstr "%s కొరకు ఆడినది"
+
+#~ msgid "Working..."
+#~ msgstr "పనిచేస్తున్నది..."
+
+#~ msgid "Stopped"
+#~ msgstr "ఆపబడినది"
+
+#~ msgid "Very Hard"
+#~ msgstr "చాలా కష్టం"
+
+#~ msgid "Medium"
+#~ msgstr "మీడియం"
+
+#~ msgid "_Stop"
+#~ msgstr "ఆపుము (_S)"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "మీరు నిజంగా దీన్ని చేయాలనుకుంటున్నారా?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "దీన్ని మళ్ళీ నన్ను అడగవద్దు."
+
+#, fuzzy
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s సంవత్సరం"
+#~ msgstr[1] "%(n)s సంవత్సరం"
+
+#, fuzzy
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s నెల"
+#~ msgstr[1] "%(n)s నెల"
+
+#, fuzzy
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s వారం"
+#~ msgstr[1] "%(n)s వారం"
+
+#, fuzzy
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s రోజు"
+#~ msgstr[1] "%(n)s రోజు"
+
+#, fuzzy
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s గంట"
+#~ msgstr[1] "%(n)s గంట"
+
+#, fuzzy
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s నిమిషం"
+#~ msgstr[1] "%(n)s నిమిషం"
+
+#, fuzzy
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s క్షణం"
+#~ msgstr[1] "%(n)s క్షణం"
+
+#~ msgid " and "
+#~ msgstr "మరియు"
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#, fuzzy
+#~| msgid ", "
+#~ msgid " "
+#~ msgstr " "
+
+#, fuzzy
+#~| msgid "Today"
+#~ msgid "Today %R %p"
+#~ msgstr "ఈ రోజు"
+
+#, fuzzy
+#~| msgid "Yesterday"
+#~ msgid "Yesterday %R %p"
+#~ msgstr "నిన్న"
+
+#~ msgid "%A %H:%M"
+#~ msgstr "%A %H:%M"
+
+#, fuzzy
+#~ msgid "%(n)s minute ago"
+#~ msgid_plural "%(n)s minutes ago"
+#~ msgstr[0] "%(n)s నిమిషం"
+#~ msgstr[1] "%(n)s నిమిషం"
+
+#, fuzzy
+#~ msgid "%(n)s second ago"
+#~ msgid_plural "%(n)s seconds ago"
+#~ msgstr[0] "%(n)s క్షణం"
+#~ msgstr[1] "%(n)s క్షణం"
+
+#~ msgid "Mines"
+#~ msgstr "గనులు"
+
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "మలచుకొనిన"
+
+#~ msgid "Mines Scores"
+#~ msgstr "గనుల స్కోర్లు"
+
+#~ msgid "Size:"
+#~ msgstr "పరిణామం:"
+
+#~ msgid "Faces:"
+#~ msgstr "ఫేసెస్:"
+
+#~ msgid "Graphics:"
+#~ msgstr "చిత్రాలు:"
+
+#~ msgid "Field Size"
+#~ msgstr "క్షేత్ర పరిమాణం"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "గనుల సంఖ్య (_N):"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "సమతలంగా (_H):"
+
+#~ msgid "_Vertical:"
+#~ msgstr "నిలువు (_V):"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "గనుల అభీష్టాలు"
+
+#~ msgid "Number of mines"
+#~ msgstr "గనుల సంఖ్య"
+
+#~ msgid "X location of window"
+#~ msgstr "గవాక్షము యొక్క X స్థానము"
+
+#~ msgid "Y location of window"
+#~ msgstr "గవాక్షము యొక్క Y స్థానము"
+
+#~ msgid "Time: "
+#~ msgstr "సమయం:"
+
+#~ msgid "Board size"
+#~ msgstr "పలకం పరిమాణం"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "కావలసిన ప్రతిరూపాలని కనిపెట్టలేకపోయింది.\n"
+#~ "\n"
+#~ "దయచేసి గ్నోం ఆటల ప్రతిష్టను చూసుకొనుము."
+
+#~ msgid "Could not load images"
+#~ msgstr "ప్రతిరూపాలని నింపలేకపోయింది"
+
+#~ msgid "Tetravex"
+#~ msgstr "టెట్రావెక్స్"
+
+#, fuzzy
+#~| msgid "0"
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "0"
+
+#, fuzzy
+#~| msgid "1"
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "1"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "2"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "4"
+
+#, fuzzy
+#~| msgid "5"
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "5"
+
+#, fuzzy
+#~| msgid "6"
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "6"
+
+#, fuzzy
+#~| msgid "7"
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "7"
+
+#, fuzzy
+#~| msgid "8"
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "8"
+
+#, fuzzy
+#~| msgid "9"
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "పరిమాణం (_S)"
+
+#~ msgid "Sol_ve"
+#~ msgstr "పరిష్కరించు (_v)"
+
+#~ msgid "Solve the game"
+#~ msgstr "ఆటను పరిష్కరించు"
+
+#~ msgid "_Up"
+#~ msgstr "పైన (_U)"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "ముక్కలను పైకి జరుపు"
+
+#~ msgid "_Left"
+#~ msgstr "ఎడమ (_L)"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "ముక్కలను ఎడమకు జరుపు"
+
+#~ msgid "_Right"
+#~ msgstr "కుడి (_R)"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "ముక్కలను కుడివైపుకు జరుపు"
+
+#~ msgid "_Down"
+#~ msgstr "కింద (_D)"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "ముక్కలను కిందకి జరుపుము"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "2×2 పలకం పై ఆడుము"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "౩×3 పలకం పై ఆడుము"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "4×4 పలకం పై ఆడుము"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "5×5 పలకం పై ఆడుము"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "6×6 పలకం పై ఆడుము"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "పెంకు రంగులు (_C)"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "పలక పరిమాణం (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "పరిమాణం"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "టెట్రావెక్స్ స్కోర్లు"
+
+#~ msgid "Game paused"
+#~ msgstr "ఆటను లిలుపువేయబడినది"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "%d×%d పలకాన్ని ఆడుతున్నది"
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "రంగుల పెంకులను నియంత్రించండి"
+
+#~ msgid "Klotski"
+#~ msgstr "క్లోట్స్కీ"
+
+#~ msgid "Only 18 steps"
+#~ msgstr "18 మెట్లు మాత్రమే"
+
+#~ msgid "Daisy"
+#~ msgstr "డైసీ"
+
+#~ msgid "Violet"
+#~ msgstr "వంకాయ రంగు"
+
+#~ msgid "Poppy"
+#~ msgstr "పాప్పీ"
+
+#~ msgid "Pansy"
+#~ msgstr "పాన్సీ"
+
+#~ msgid "Snowdrop"
+#~ msgstr "స్నో డ్రాప్"
+
+#~ msgid "Red Donkey"
+#~ msgstr "రెడ్ డాంకీ"
+
+#~ msgid "Trail"
+#~ msgstr "ట్రయల్"
+
+#~ msgid "Ambush"
+#~ msgstr "ఆంబుష్"
+
+#~ msgid "Agatka"
+#~ msgstr "అగాట్క"
+
+#~ msgid "Success"
+#~ msgstr "విజయం"
+
+#~ msgid "Bone"
+#~ msgstr "బోన్"
+
+#~ msgid "Fool"
+#~ msgstr "ఫూల్"
+
+#~ msgid "Solomon"
+#~ msgstr "సాల్మన్"
+
+#~ msgid "Cleopatra"
+#~ msgstr "క్లియోపాత్ర"
+
+#~ msgid "Shark"
+#~ msgstr "షార్క్"
+
+#~ msgid "Rome"
+#~ msgstr "రోమ్"
+
+#~ msgid "Ithaca"
+#~ msgstr "ఇథాక"
+
+#~ msgid "Pelopones"
+#~ msgstr "పిలోపోన్స్"
+
+#~ msgid "Transeuropa"
+#~ msgstr "ట్రాన్స్య్రొపా"
+
+#~ msgid "Lodzianka"
+#~ msgstr "లాడ్జియాంకా"
+
+#~ msgid "Polonaise"
+#~ msgstr "పోలోనైస్"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "బాల్టిక్ సముద్రం"
+
+#~ msgid "American Pie"
+#~ msgstr "అమరికన్ పయ్"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "ట్రాఫిక్ జామ్"
+
+#~ msgid "Sunshine"
+#~ msgstr "సన్ షైన్"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "18 మెట్లు మాత్రమే"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "హోరాంగ్ ట్రయల్"
+
+#~ msgid "Skill Pack"
+#~ msgstr "స్కిల్ ప్యాక్"
+
+#~ msgid "Level completed."
+#~ msgstr "స్థాయి పూర్తయినది."
+
+#~ msgid "Klotski Scores"
+#~ msgstr "క్లోట్స్కి స్కోర్లు"
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "ప్రతిరూపాన్ని కనిపెట్టలేకపోయింది:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "క్లోట్స్కీ సరిగ్గా ప్రతిష్టబడినదో లేదో సరిగ్గా చూసుకోండి."
+
+#~ msgid "Moves: %d"
+#~ msgstr "చిత్రాలు: %d"
+
+#~ msgid "Score: %d"
+#~ msgstr "స్కోర్: %d"
+
+#, fuzzy
+#~| msgid "Field Size"
+#~ msgid "Field used"
+#~ msgstr "క్షేత్ర పరిమాణం"
+
+#~ msgid "Tali"
+#~ msgstr "తాలి"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "కంప్యూటర్ ఆలోచనలను ప్రదర్శించుము"
+
+#~ msgid "Regular"
+#~ msgstr "క్రమబద్దమైన"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "కంప్యూటర్ ఎత్తులను ఆలస్యపర్చు"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "కంప్యూటర్ ఆలోచనలను ప్రదర్శించుము"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "కంప్యూటర్ ప్రత్యర్ధుల సంఖ్య"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "మానవ ప్రత్యర్ధుల సంఖ్య"
+
+#~ msgid "STRING"
+#~ msgstr "పదబంధం"
+
+#, fuzzy
+#~| msgid "Regular"
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "క్రమబద్దమైన"
+
+#, fuzzy
+#~| msgid "Colors"
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "రంగులు"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "ఆట డ్రా అయింది!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "తాలి స్కోర్లు"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "%s కొరకు కంప్యూటర్ ఆడుతుంది"
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "గ్నోమ్ వివరణం (1998):"
+
+#~ msgid "Tali Preferences"
+#~ msgstr "తాలి అభీష్టాలు"
+
+#~ msgid "Human Players"
+#~ msgstr "మానవ ఆటగాళ్ళు"
+
+#~ msgid "_Number of players:"
+#~ msgstr "ఆటగాళ్ళ సంఖ్య (_N):"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "కంప్యూటర్ ప్రత్యర్ధి"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "ప్రత్యర్ధుల సంఖ్య (_u):"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "కష్టం (_D):"
+
+#, fuzzy
+#~| msgid "Easy"
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "సులభం"
+
+#, fuzzy
+#~| msgid "_Medium"
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "మీడియం"
+
+#, fuzzy
+#~| msgid "Hard"
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "కష్టం"
+
+#~ msgid "Player Names"
+#~ msgstr "ఆటగాళ్ళ పేర్లు"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1లు [మొత్తం 1లు]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2లు [మొత్తం 2లు]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3లు [మొత్తం 3లు]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4లు [మొత్తం 4లు]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5లు [మొత్తం 5లు]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6లు [మొత్తం 6లు]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "నిండు గది [25]"
+
+#~ msgid "Grand Total"
+#~ msgstr "గుత్త  మొత్తం"
+
+#~ msgid "Iagno"
+#~ msgstr "లాగ్నో"
+
+#~ msgid "Invalid move."
+#~ msgstr "నిస్సారమైన ఎత్తు"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "నల్ల పావుని పెట్టుటకు ఇప్పుడు మీ వంతు"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "తెల్ల పావుని పెట్టుటకు ఇప్పుడు మీ వంతు"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "%s ను జరుపుటకు వేచిస్తున్నది"
+
+#~ msgid "Dark's move"
+#~ msgstr "నలుపుదాన్ని ఎత్తు"
+
+#~ msgid "Light's move"
+#~ msgstr "లేతరంగుదాన్ని ఎత్తు"
+
+#~ msgid "Dark:"
+#~ msgstr "ముదురు రంగు:"
+
+#~ msgid "Light:"
+#~ msgstr "లేత రంగు:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "లాగ్నో కు స్వాగతం!"
+
+#~ msgid "Light player wins!"
+#~ msgstr "లేత రంగు ఆటగాడు గెలిచాడు!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "ముదురు రంగు ఆటగాడు గెలిచాడు!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "ఆట డ్రాగా ముగిసినది"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "లాగ్నో అభీష్టాలు"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "వేగమైన ఎత్తులను ఉపయోగించుము (U)"
+
+#~ msgid "Animation"
+#~ msgstr "సచేతనం"
+
+#~ msgid "Partial"
+#~ msgstr "పూర్తికాని"
+
+#~ msgid "Complete"
+#~ msgstr "పూర్తి"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "2"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "4"
+
+#, fuzzy
+#~| msgid "5"
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "5"
+
+#, fuzzy
+#~| msgid "6"
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "6"
+
+#, fuzzy
+#~| msgid "7"
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#, fuzzy
+#~| msgid "8"
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "8"
+
+#, fuzzy
+#~| msgid "9"
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "9"
+
+#, fuzzy
+#~| msgid "1"
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Card Style"
+#~ msgstr "పలక శైలి"
+
+#~ msgid "_About"
+#~ msgstr "గురించి (_A)"
+
+#~ msgid "_Cancel"
+#~ msgstr "రద్దుచేయి (_C)"
+
+#~ msgid "_Close"
+#~ msgstr "మూయుము (_C)"
+
+#~ msgid "_OK"
+#~ msgstr "సరే (_O)"
+
+#, fuzzy
+#~| msgid "Eight Off"
+#~ msgid "Lights Off"
+#~ msgstr "ఎయిట్ ఆఫ్"
+
+#~ msgid "Mahjongg"
+#~ msgstr "మహజంగ్గ్"
+
+#, fuzzy
+#~| msgid ""
+#~| "If you choose to finish with the old map then the next game will use the "
+#~| "new map."
+#~ msgid "If you continue playing the next game will use the new map."
+#~ msgstr "మీరు పాత పట్టాని పూర్తిచేయాలని కోరుకుంటే తరువతటి ఆట కొత్త పట్టాని ఉపయోగిస్తుంది."
+
+#~| msgid "Computer playing for %s"
+#~ msgid "_Continue playing"
+#~ msgstr "%s కొరకు కంప్యూటర్ ఆడుతుంది (C)"
+
+#~ msgid "There are no more moves."
+#~ msgstr "ఇంకా ఏ ఎత్తులు లేవు"
+
+#~| msgid "New game"
+#~ msgid "_New game"
+#~ msgstr "కొత్త ఆట (_N)"
+
+#~| msgid "Scuffle"
+#~ msgid "_Shuffle"
+#~ msgstr "స్కఫల్ (S)"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "మహజంగ్గ్ స్కోర్లు"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "మహజంగ్గ్ అభీష్టాలు"
+
+#~ msgid "Tiles"
+#~ msgstr "పెంకులు"
+
+#~ msgid "Maps"
+#~ msgstr "పటాలు"
+
+#~ msgid "_Select map:"
+#~ msgstr "పట్టాను ఎంచుకొనుము (_S):"
+
+#~ msgid "Colors"
+#~ msgstr "రంగులు"
+
+#~ msgid "Maps:"
+#~ msgstr "పటాలు:"
+
+#~ msgid "Tiles:"
+#~ msgstr "పెంకులు:"
+
+#, fuzzy
+#~| msgid "Mahjongg"
+#~ msgid "Mahjongg - %s"
+#~ msgstr "మహజంగ్గ్"
+
+#~ msgid "Redo the last move"
+#~ msgstr "చివరి ఎత్తుని మళ్ళీచేయుము"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "మిగిలివున్న పెంకులు:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "ఎడమకు జరుగుతుంది:"
+
+#, fuzzy
+#~| msgid "Easy"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "సులభం"
+
+#, fuzzy
+#~| msgid "The Ziggurat"
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "జిగ్గురాట్"
+
+#, fuzzy
+#~| msgid "Four Bridges"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "నాలుగు బ్రిడ్జులు"
+
+#, fuzzy
+#~| msgid "Cloud"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "మేఘము"
+
+#, fuzzy
+#~| msgid "Tic-Tac-Toe"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "టిక్-టాక్-టో"
+
+#, fuzzy
+#~| msgid "Red Dragon"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "రెడ్ డ్రాగన్"
+
+#, fuzzy
+#~| msgid "Pyramid's Walls"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "పిరమిడ్ ల గోడలు"
+
+#, fuzzy
+#~| msgid "Confounding Cross"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "కౌన్ఫౌండింగ్ క్రాస్"
+
+#, fuzzy
+#~| msgid "Difficult"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "కష్టమైన"
+
+#~ msgid "Set the theme"
+#~ msgstr "వైవిధ్యాంశాన్ని అమర్చుము"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "ఆట పరిమాణం(1=చిన్నది, 3=పెద్దది)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "రంగుల బంతుల గ్రూపులను తొలగించడంద్వారా తెరను శుభ్రపర్చుము"
+
+#~ msgid "Same GNOME"
+#~ msgstr "ఒకే గ్నోమ్"
+
+#~ msgid "The board size"
+#~ msgstr "పలక పరిమాణం"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "వాడాల్సిన వైవిధ్యాంశం యొక్క దస్త్రనామము"
+
+#~ msgid "The theme to use"
+#~ msgstr "వాడాల్సిన వైవిధ్యాంశం"
+
+#~ msgid "Use fast animation"
+#~ msgstr "వేగమైన సచేతనాన్ని వాడుము"
+
+#, fuzzy
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d స్థానం"
+#~ msgstr[1] "%d స్థానం"
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "ఒకే గ్నోమ్ స్కోర్లు "
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "దురదృష్టముచేత మీ స్కోర్ మొదటి పది స్థానాలలో చోటు లభించలేదు."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "ఒకే గ్నోమ్ వైవిధ్యాంశము"
+
+#~ msgid "_Theme..."
+#~ msgstr "వైవిధ్యాంశం... (_T)"
+
+#~ msgid "_Small"
+#~ msgstr "చిన్న (_S)"
+
+#~ msgid "_Large"
+#~ msgstr "పెద్ద (_L)"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "వేగమైన సచేతనం (_F)"
+
+#~ msgid "No theme data was found."
+#~ msgstr "ఏ వైవిధ్యాంశ దత్తాంశం కనబడలేదు."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "ఆటను ఆడటం సాధ్యం కాదు. దయచేసి ఆట సరిగ్గా ప్రవేశపెట్టబడినదో లేదో చూసుకొని మరలా ప్రయత్నించండి."

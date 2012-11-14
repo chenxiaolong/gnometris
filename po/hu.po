@@ -1,0 +1,7001 @@
+# Hungarian translation of gnome-games.
+# Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-games package.
+#
+# sakk szakkifejezés-ügyi kisokos: http://mek.oszk.hu/00000/00056/html/141.htm
+#
+# Szabolcs Ban <shooby@gnome.hu>, 1999, 2000, 2001.
+# Gergely Nagy <greg@gnome.hu>, 2001.
+# Emese Kovacs <emese@gnome.hu>, 2002.
+# Andras Timar <timar@gnome.hu>, 2002, 2003.
+# Laszlo Dvornik <dvornik@gnome.hu>, 2004.
+# Szabolcs Varga <shirokuma@shirokuma.hu>, 2005.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2005, 2006, 2007, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games.HEAD.hu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2009-02-10 20:04+0100\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome@fsf.hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Szüneteltetve"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Vége a játéknak"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Lehulló blokkok egymáshoz illesztése"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "A blokkok rajzolásához használt kép"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "A blokkok rajzolásához használt kép."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "A blokkok rajzolásához használt kép"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "A blokkok és a háttér rajzolására használt téma neve."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Kezdőszint"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Kezdőszint."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "Használjon-e háttérképet?"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+"Ezzel kiválasztható, hogy a háttérszínre kirajzolásra kerüljön-e a háttérkép."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "A háttérszín"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "A háttérszín olyan formátumban, amelyet a gdk_color_parse megért."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "Lehessen-e előre látni a következő blokkot"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "Lehessen-e előre látni a következő blokkot."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "Biztosítsunk-e célt?"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "Megjelenjen-e a blokk várható helye grafikusan?"
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "Legyen-e véletlenszerű színe a blokkoknak"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "Legyen-e véletlenszerű színe a blokkoknak."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "A forgatás az óramutató járásával ellentétes irányba történjen-e"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "A forgatás az óramutató járásával ellentétes irányba történjen-e."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "A feltöltendő sorok száma"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+"A sorok száma, amelyek a játék indításakor véletlenszerű blokkokkal kerülnek "
+"feltöltésre."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "A feltöltött sorok sűrűsége"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"A blokkok sűrűsége a feltöltött sorokban a játék indításakor. Az érték 0 "
+"(nincs blokk) és 10 (teljesen feltöltött sor) között változhat."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Lépés balra"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Billentyű a balra mozgáshoz."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Lépés jobbra"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Billentyű a jobbra mozgáshoz."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Lefelé mozgatás"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Billentyű a lefelé mozgáshoz."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Ejtés"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Billentyű a leejtéshez."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "Forgatás"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Billentyű a forgatáshoz."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Szünet"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Billentyű a szüneteltetéshez."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "A kezdő pálya beállítása (1 vagy nagyobb)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "SZINT"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Egyszerű"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Csatolt"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr "Sima Tango"
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr "Árnyékolt Tango"
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Pont:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Vonalak:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Szint:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Játék"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Beállítások"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Gnometris beállítások"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Játék"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Beállítás"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "Az előre _kitöltött sorok száma:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "A blokkok _sűrűsége az előre feltöltött sorokban:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_Kezdőszint:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Művelet"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Hangok bekapcsolása"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "A következő blokk _előnézete"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "Véletlen blokks_zínek használata"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "Blokkok _forgatása az óramutató járásával ellentétes irányba"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "A blokk _várható helyének megjelenítése"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Téma"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Vezérlés"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Billentyűzetes vezérlés"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Blokkstílus"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+"A klasszikus, leeső téglákat egymáshoz illesztős játék.\n"
+"\n"
+"A Gnometris a GNOME játékok része."
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "A GNOME játékok weboldala"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Bán Szabolcs <shooby@gnome.hu>\n"
+"Dvornik László <dvornik@gnome.hu>\n"
+"Kelemen Gábor <kelemeng@gnome.hu>\n"
+"Kovács Emese <emese@gnome.hu>\n"
+"Nagy Gergely <greg@gnome.hu>\n"
+"Tímár András <timar@gnome.hu>\n"
+"Varga Szabolcs <shirokuma@shirokuma.hu>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Gnometris pontszámok"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "A fájl nem egy érvényes .desktop fájl"
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Ismeretlen .desktop fájl verzió: „%s”"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "%s indítása"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Az alkalmazás nem fogad el dokumentumokat a parancssorban"
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Ismeretlen indítási kapcsoló: %d"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nem futtatható elem"
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "A munkamenet-kezelőhöz való csatlakozás tiltása"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "A mentett beállításokat tartalmazó fájl megadása"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr "FÁJL"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "A munkamenet-kezelő azonosítójának megadása"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr "AZONOSÍTÓ"
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Munkamenet-kezelés kapcsolói:"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Munkamenet-kezelési kapcsolók megjelenítése"
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Nincs billentyű"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Nyomjon meg egy billentyűt>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Ismeretlen parancs"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr "A súgófájl nem nyitható meg"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Idő"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Pontszámok"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dp %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Új játék"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Név"
+
+# aisleriot/menu.c:125
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Súgó megjelenítése ehhez a játékhoz"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "A jelenlegi játék befejezése"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr "Teljes képernyős üzemmód"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Javaslat a következő lépéshez"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Teljes képernyős mód elhagyása"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Új többjátékosos hálózati játék indítása"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+"A jelenlegi hálózati játék befejezése és visszatérés a hálózati kiszolgálóhoz"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Új játék indítása"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "A játék szüneteltetése"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "A játékosok listájának megjelenítése a hálózati játékban"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "A visszavont lépés ismételt végrehajtása"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "A játék újraindítása"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "A szüneteltetett játék folytatása"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "A pontok megtekintése"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Az utolsó lépés visszavonása"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "A játék névjegye"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "A jelenlegi ablak bezárása"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "A játék beállítása"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Kilépés a játékból"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Tartalom"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "_Teljes képernyő"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Javaslat"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "Ú_j"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "Ú_j játék"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "Mo_zgatás megismétlése"
+
+# aisleriot/dialog.c:112
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Visszaállítás"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "Ú_jraindítás"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "Mozgatás _visszavonása"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "T_eljes képernyő elhagyása"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "_Hálózati játék"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "Játék _elhagyása"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "_Játékoslista"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Szünet"
+
+# aisleriot/dialog.c:112
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "_Folytatás"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Pontszámok"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "Játék be_fejezése"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"A(z) %s szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software "
+"Foundation által kiadott GNU General Public License %d. (vagy bármely "
+"későbbi) változatában foglaltak alapján."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"A(z) %s programot abban a reményben terjesztjük, hogy hasznos lesz, de nem "
+"vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program "
+"alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További "
+"részletekért tanulmányozza a GNU GPL licencet."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"A(z) %s programhoz a GNU General Public License egy példánya is jár, ha nem "
+"kapta meg, írjon a Free Software Foundation Inc.-nek. Levélcímük: 51 "
+"Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+
+#~ msgid "Player Chat"
+#~ msgstr "Csevegés játékosokkal"
+
+#~ msgid "Occupied"
+#~ msgstr "Elfoglalt"
+
+#~ msgid "Empty"
+#~ msgstr "Üres"
+
+#~ msgid "Bot"
+#~ msgstr "Bot"
+
+#~ msgid "Reserved"
+#~ msgstr "Fenntartva"
+
+#~ msgid "Abandoned"
+#~ msgstr "Elhagyott"
+
+#~ msgid "-"
+#~ msgstr "–"
+
+#~ msgid "Spectator"
+#~ msgstr "Néző"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Állapot"
+
+#~ msgid "Player List"
+#~ msgstr "Játékoslista"
+
+#~ msgid "Info"
+#~ msgstr "Információ"
+
+#~ msgid "Boot player"
+#~ msgstr "Játékos kirúgása"
+
+#~ msgid "Sit here"
+#~ msgstr "Leülök ide"
+
+#~ msgid "Move here"
+#~ msgstr "Ide lépek"
+
+#~ msgid "Play with bot"
+#~ msgstr "Játék egy bottal"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Foglalás lemondása"
+
+#~ msgid "Remove bot"
+#~ msgstr "Bot eltávolítása"
+
+#~ msgid "X Padding"
+#~ msgstr "X Padding"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Kiegészítő terület a szélességmegadáshoz."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Kiegészítő terület a magasságmegadáshoz."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Szélesség többszörös"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "Milyen többszörösre legyen korlátozva a szélesség."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Magasság többszörös"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "Milyen többszörösre legyen korlátozva a magasság."
+
+#~ msgid "X align"
+#~ msgstr "X igazítás"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "A vízszintes igazítás, 0 (balra) és 1 (jobbra) között"
+
+#~ msgid "Y align"
+#~ msgstr "Y igazítás"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "A függőleges igazítás, 0 (felül) és 1 (alul) között"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "Legutóbb játszott játékok listája."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Karaktersorozatok ötös csoportosítású listája: név, győzelmek, összes "
+#~ "lejátszott játék, legjobb idő (másodpercben) és legrosszabb idő (szintén "
+#~ "másodpercben. A le nem játszott játékoknak nem kell megjelenniük."
+
+#~| msgid "Animation"
+#~ msgid "Animations"
+#~ msgstr "Animációk"
+
+#~ msgid "Recently played games"
+#~ msgstr "Legutóbb játszott játékok"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Válassza ki a vezérlés stílusát"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Válassza ki, hogy húzni kívánja a kártyákat vagy kattintani szeretne a "
+#~ "forrásra és aztán a célra."
+
+#~ msgid "Sound"
+#~ msgstr "Hang"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Lejátszott játékok statisztikája"
+
+#~ msgid "The game file to use"
+#~ msgstr "A használandó játékfájl"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "A kártyákhoz használt grafika fájlneve."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "A játszandó pasziánszjátékot tartalmazó scheme fájl neve."
+
+#~ msgid "Theme file name"
+#~ msgstr "Témafájl neve"
+
+#~| msgid "Whether or not to use animation."
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "A lapmozgások animáltak legyenek-e?"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Legyen-e az eseményeknek hangjuk."
+
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "Megjelenjen-e az eszköztár"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Megjelenjen-e az eszköztár"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "FreeCell pasziánsz"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "A népszerű FreeCell kártyajáték"
+
+#~| msgid ""
+#~| "Aisleriot cannot load the file \"%s\". Please check your Aisleriot "
+#~| "installation."
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "Az AisleRiot nem tudja betölteni a(z) „%s” fájlt. Ellenőrizze az "
+#~ "AisleRiot telepítést."
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Az Aisleriot nem találja az utoljára játszott játékot."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Ez általában akkor történik, ha az Aisleriot egy régebbi verzióját "
+#~ "futtatja, amely nem rendelkezik az utoljára játszott játékkal. Ehelyett "
+#~ "az alapértelmezett játék, a Klondike kerül elindításra."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Ebben a játékban nincs javaslat. Egyelőre."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Rakja a(z) %s lapot a következőre: %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Ön egy %s lapot keres."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Ebben a játékban nincs javaslat."
+
+#~ msgid "Could not show link"
+#~ msgstr "Nem lehet megjeleníteni a hivatkozást"
+
+#~ msgid "Help file \"%s.%s\" not found"
+#~ msgstr "A(z) „%s.%s” súgófájl nem található"
+
+#~ msgid "Error"
+#~ msgstr "Hiba"
+
+#~| msgid "Could not show help for \"%s\""
+#~ msgid "Could not show help for “%s”"
+#~ msgstr "Nem jeleníthető meg a(z) „%s” súgója"
+
+#~ msgid "Could not show Aisleriot help"
+#~ msgstr "Nem jeleníthető meg az Aisleriot súgója"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "A játéktípus kiválasztása"
+
+#~ msgid "NAME"
+#~ msgstr "NÉV"
+
+#~ msgid "Select the game number"
+#~ msgstr "A játék számának kiválasztása"
+
+#~ msgid "NUMBER"
+#~ msgstr "SZÁM"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot pasziánsz"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Sok különféle pasziánszjáték"
+
+#~ msgid "Unknown color"
+#~ msgstr "Ismeretlen szín"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Ismeretlen szín"
+
+#~ msgid "Unknown value"
+#~ msgstr "Ismeretlen érték"
+
+#~ msgid "ace"
+#~ msgstr "ász"
+
+#~ msgid "black joker"
+#~ msgstr "fekete joker"
+
+#~ msgid "clubs"
+#~ msgstr "treff"
+
+#~ msgid "diamonds"
+#~ msgstr "káró"
+
+#~ msgid "eight"
+#~ msgstr "nyolcas"
+
+#~ msgid "five"
+#~ msgstr "ötös"
+
+#~ msgid "four"
+#~ msgstr "négyes"
+
+#~ msgid "hearts"
+#~ msgstr "kőr"
+
+#~ msgid "jack"
+#~ msgstr "bubi"
+
+#~ msgid "king"
+#~ msgstr "király"
+
+#~ msgid "nine"
+#~ msgstr "kilences"
+
+#~ msgid "queen"
+#~ msgstr "vezér"
+
+#~ msgid "red joker"
+#~ msgstr "piros joker"
+
+#~ msgid "seven"
+#~ msgstr "hetes"
+
+#~ msgid "six"
+#~ msgstr "hatos"
+
+#~ msgid "spades"
+#~ msgstr "pikk"
+
+#~ msgid "ten"
+#~ msgstr "tízes"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "treff ász"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "káró ász"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "kőr ász"
+
+#~ msgid "the ace of spades"
+#~ msgstr "pikk ász"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "treff nyolcas"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "káró nyolcas"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "kőr nyolcas"
+
+#~ msgid "the eight of spades"
+#~ msgstr "pikk nyolcas"
+
+#~ msgid "the five of clubs"
+#~ msgstr "treff ötös"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "káró ötös"
+
+#~ msgid "the five of hearts"
+#~ msgstr "kőr ötös"
+
+#~ msgid "the five of spades"
+#~ msgstr "pikk ötös"
+
+#~ msgid "the four of clubs"
+#~ msgstr "treff négyes"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "káró négyes"
+
+#~ msgid "the four of hearts"
+#~ msgstr "kőr négyes"
+
+#~ msgid "the four of spades"
+#~ msgstr "pikk négyes"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "treff bubi"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "káró bubi"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "kőr bubi"
+
+#~ msgid "the jack of spades"
+#~ msgstr "pikk bubi"
+
+#~ msgid "the king of clubs"
+#~ msgstr "treff király"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "káró király"
+
+#~ msgid "the king of hearts"
+#~ msgstr "kőr király"
+
+#~ msgid "the king of spades"
+#~ msgstr "pikk király"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "treff kilences"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "káró kilences"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "kőr kilences"
+
+#~ msgid "the nine of spades"
+#~ msgstr "pikk kilences"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "treff dáma"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "káró dáma"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "kőr dáma"
+
+#~ msgid "the queen of spades"
+#~ msgstr "pikk dáma"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "treff hetes"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "káró hetes"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "kőr hetes"
+
+#~ msgid "the seven of spades"
+#~ msgstr "pikk hetes"
+
+#~ msgid "the six of clubs"
+#~ msgstr "treff hatos"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "káró hatos"
+
+#~ msgid "the six of hearts"
+#~ msgstr "kőr hatos"
+
+#~ msgid "the six of spades"
+#~ msgstr "pikk hatos"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "treff tízes"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "káró tízes"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "kőr tízes"
+
+#~ msgid "the ten of spades"
+#~ msgstr "pikk tízes"
+
+#~ msgid "the three of clubs"
+#~ msgstr "treff hármas"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "káró hármas"
+
+#~ msgid "the three of hearts"
+#~ msgstr "kőr hármas"
+
+#~ msgid "the three of spades"
+#~ msgstr "pikk hármas"
+
+#~ msgid "the two of clubs"
+#~ msgstr "treff kettes"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "káró kettes"
+
+#~ msgid "the two of hearts"
+#~ msgstr "kőr kettes"
+
+#~ msgid "the two of spades"
+#~ msgstr "pikk kettes"
+
+#~ msgid "the unknown card"
+#~ msgstr "az ismeretlen kártya"
+
+#~ msgid "three"
+#~ msgstr "hármas"
+
+#~ msgid "two"
+#~ msgstr "kettes"
+
+#~ msgid "Wins:"
+#~ msgstr "Győzelem:"
+
+#~ msgid "Total:"
+#~ msgstr "Összesen:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Százalék:"
+
+#~ msgid "Wins"
+#~ msgstr "Győzelem"
+
+#~ msgid "Best:"
+#~ msgstr "Legjobb:"
+
+#~ msgid "Worst:"
+#~ msgstr "Legrosszabb:"
+
+#~ msgid "Statistics"
+#~ msgstr "Statisztika"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d.%02d"
+
+#~| msgid "Scorpion"
+#~ msgid "Accordion"
+#~ msgstr "Accordion"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Régi szép idők"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Mary néni"
+
+#~ msgid "Backbone"
+#~ msgstr "Backbone"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Bakers Dozen"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Bakers Game"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Beleaguered Castle"
+
+#~ msgid "Block Ten"
+#~ msgstr "Block Ten"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Carpet"
+#~ msgstr "Szőnyeg"
+
+#~ msgid "Chessboard"
+#~ msgstr "Sakktábla"
+
+#~ msgid "Clock"
+#~ msgstr "Óra"
+
+#~ msgid "Cover"
+#~ msgstr "Borító"
+
+#~ msgid "Cruel"
+#~ msgstr "Cruel"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Gyémántbánya"
+
+# aisleriot/dialog.c:112
+#~ msgid "Doublets"
+#~ msgstr "Doublets"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Sasszárny"
+
+#~ msgid "Easthaven"
+#~ msgstr "Easthaven"
+
+#~ msgid "Eight Off"
+#~ msgstr "Eight off"
+
+#~ msgid "Elevator"
+#~ msgstr "Lift"
+
+#~ msgid "Escalator"
+#~ msgstr "Mozgólépcső"
+
+#~ msgid "First Law"
+#~ msgstr "Első törvény"
+
+#~ msgid "Fortress"
+#~ msgstr "Erőd"
+
+#~ msgid "Fortunes"
+#~ msgstr "Fortunes"
+
+#~ msgid "Forty Thieves"
+#~ msgstr "Negyven tolvaj"
+
+#~ msgid "Fourteen"
+#~ msgstr "Tizennégy"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Gaps"
+#~ msgstr "Rések"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay Gordons"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Aranybánya"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Gypsy"
+#~ msgstr "Gypsy"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Hopscotch"
+
+#~ msgid "Isabel"
+#~ msgstr "Isabel"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "King Albert"
+#~ msgstr "Albert király"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Királyi kihallgatás"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~| msgid "Spider Three Decks"
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Hárompaklis klondike"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labirintus"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+#~ msgid "Maze"
+#~ msgstr "Útvesztő"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Napóleon sírja"
+
+#~ msgid "Neighbor"
+#~ msgstr "Szomszéd"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Ozmózis"
+
+#~ msgid "Peek"
+#~ msgstr "Peek"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Plait"
+#~ msgstr "Copf"
+
+#~ msgid "Poker"
+#~ msgstr "Póker"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Royal East"
+#~ msgstr "Royal East"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Scorpion"
+#~ msgstr "Skorpió"
+
+#~ msgid "Scuffle"
+#~ msgstr "Scuffle"
+
+#~ msgid "Seahaven"
+#~ msgstr "Seahaven"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Spider"
+#~ msgstr "Pók"
+
+#~ msgid "Spiderette"
+#~ msgstr "Pókasszony"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Hárompaklis pók"
+
+#~ msgid "Straight Up"
+#~ msgstr "Egyenesen fel"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Streets And Alleys"
+
+#~ msgid "Template"
+#~ msgstr "Sablon"
+
+#~ msgid "Ten Across"
+#~ msgstr "Ten Across"
+
+#~| msgid "Tetravex"
+#~ msgid "Terrace"
+#~ msgstr "Terasz"
+
+#~ msgid "Thieves"
+#~ msgstr "Tolvajok"
+
+#~ msgid "Thirteen"
+#~ msgstr "Tizenhárom"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Thumb And Pouch"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Triple Peaks"
+
+#~ msgid "Union Square"
+#~ msgstr "Union Square"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#~ msgid "Westhaven"
+#~ msgstr "Westhaven"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will O The Wisp"
+
+#~ msgid "Yield"
+#~ msgstr "Yield"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Select Game"
+#~ msgstr "Játék kiválasztása"
+
+#~ msgid "_Select"
+#~ msgstr "_Kiválasztás"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Gratulálok, Ön nyert!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "Nincs több lépés"
+
+#~ msgid "Main game:"
+#~ msgstr "Fő játék:"
+
+#~ msgid "Card games:"
+#~ msgstr "Kártyajátékok:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Kártyatémák:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "A FreeCell pasziánsz névjegye"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Az AisleRiot névjegye"
+
+#~| msgid ""
+#~| "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~| "different games to be played.\n"
+#~| "\n"
+#~| "AisleRiot is a part of GNOME Games."
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "Az AisleRiot egy meghatározott szabályokon alapuló pasziánsz-motor, amely "
+#~ "sok különböző játékra ad lehetőséget.\n"
+#~ "Az AisleRiot a GNOME játékok része."
+
+#~| msgid "Play \"%s\""
+#~ msgid "Play “%s”"
+#~ msgstr "„%s” játék"
+
+#~| msgid "Display cards with \"%s\" card theme"
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "A kártyák megjelenítése „%s” kártyatémával"
+
+#~| msgid "%d"
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "Scheme kivétel történt"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Jelentse ezt a hibát (angolul) a fejlesztőknek."
+
+#~ msgid "_Don't report"
+#~ msgstr "_Nem jelentem"
+
+#~ msgid "_Report"
+#~ msgstr "_Jelentem"
+
+#~ msgid "_View"
+#~ msgstr "_Nézet"
+
+#~ msgid "_Control"
+#~ msgstr "_Vezérlés"
+
+#~ msgid "_Select Game..."
+#~ msgstr "Játék _kiválasztása…"
+
+#~ msgid "Play a different game"
+#~ msgstr "Másik játék indítása"
+
+#~ msgid "_Recently Played"
+#~ msgstr "_Legutóbb játszott"
+
+#~ msgid "S_tatistics"
+#~ msgstr "_Statisztika"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Játékstatisztikák megjelenítése"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Következő kártyák osztása"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Az Aisleriot súgójának megjelenítése"
+
+#~ msgid "Install card themes…"
+#~ msgstr "Kártyatémák telepítése…"
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr "Új kártyatémák telepítése a disztribúció csomagtárolóiból"
+
+#~ msgid "_Card Style"
+#~ msgstr "_Kártyastílus"
+
+#~ msgid "_Toolbar"
+#~ msgstr "Eszköz_tár"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Eszköztár megjelenítése vagy elrejtése"
+
+#~ msgid "_Statusbar"
+#~ msgstr "Á_llapotsor"
+
+#~ msgid "Show or hide statusbar"
+#~ msgstr "Az állapotsor megjelenítése vagy elrejtése"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Kattintás a lépéshez"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Kattintással vegyen fel és dobjon el kártyákat"
+
+#~| msgid "Sound"
+#~ msgid "_Sound"
+#~ msgstr "_Hang"
+
+#~| msgid "Whether or not to play event sounds."
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "Legyen-e az eseményeknek hangjuk"
+
+#~| msgid "Animation"
+#~ msgid "_Animations"
+#~ msgstr "_Animációk"
+
+#~| msgid "Whether or not to use animation."
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "A lapmozgások animációja"
+
+#~ msgid "Time:"
+#~ msgstr "Idő:"
+
+#~| msgid "Cannot start the game \"%s\""
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "A(z) „%s” játék nem indítható"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Kiinduló kártya: Ász"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Kiinduló kártya: Bubi"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Kiinduló kártya: Király"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Kiinduló kártya: Dáma"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Kiinduló kártya: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Több kártya osztása"
+
+#~ msgid "Stock left:"
+#~ msgstr "Hátralévő lapok:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Hátralévő lap: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Próbálja újrarendezni a kártyákat"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "egy üres alap oszlop"
+
+#~ msgid "Three card deals"
+#~ msgstr "Hármasával oszt"
+
+#~ msgid "Deal another round"
+#~ msgstr "Osszon következő kört"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Osszon egy új lapot a pakliból"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Hátralévő újraosztások:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "egy üres hely az alapon"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "egy üres hely a táblán"
+
+#~ msgid "an empty foundation"
+#~ msgstr "egy üres alap"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "egy üres alsó hely"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "egy üres sarok hely"
+
+#~ msgid "an empty left slot"
+#~ msgstr "egy üres bal hely"
+
+#~ msgid "an empty right slot"
+#~ msgstr "egy üres jobb hely"
+
+#~ msgid "an empty slot"
+#~ msgstr "egy üres hely"
+
+#~ msgid "an empty top slot"
+#~ msgstr "egy üres felső hely"
+
+#~ msgid "itself"
+#~ msgstr "saját maga"
+
+#~ msgid "Base Card: "
+#~ msgstr "Kiinduló kártya: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Szemétdombon lévő kártya visszatétele a pakliba"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Tartalék:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "egy üres hely az alapon"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "egy üres hely a tablón"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Mozgasson egy kártyát az Alapra"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Rakjon valamit az üres Tablóhelyre"
+
+#~ msgid "Consistency is key"
+#~ msgstr "A konzisztencia a kulcs"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "A horgászzsinór rossz fogselyem"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Olvasta a súgó fájlt?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Most jól esne egy kis hátmasszírozás…"
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Ha eltévedt, és egyedül van az erdőben, öleljen meg egy fát"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Attól, hogy a gyalogátkelőhely úgy néz ki, mint egy ugróiskola, nem az"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Mindkét oldalra nézzen szét, mielőtt átmegy az úton"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "A monitor nem ad önnek D vitamint, de a napfény igen…"
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Soha ne fújjon egy kutya fülébe"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Az Odessa jobb játék. Tényleg."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Az érszorító nem ajánlott, csak közvetlen veszélyben"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Ha nincs tűzőgépe, jó lesz egy tűzőkapocs és egy vonalzó is"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Hátralévő kártyák: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Újraosztás."
+
+#~ msgid "the foundation pile"
+#~ msgstr "az alap pakli"
+
+#~ msgid "Deal a card"
+#~ msgstr "Osszon egy kártyát"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Rakja a(z) ~a lapot egy üres alapra"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "egy üres hely a táblán"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Rakjon egy Királyt az üres tabló helyre"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Nincs javaslat"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Helyezzen át valamit egy üres helyre"
+
+#~ msgid "an empty tableau"
+#~ msgstr "egy üres tabló"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Nem vagyok benne biztos"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Ászok eltávolítása"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Nyolcasok eltávolítása"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Ötösök eltávolítása"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Négyesek eltávolítása"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Bubik eltávolítása"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Királyok eltávolítása"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Kilencesek eltávolítása"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Dámák eltávolítása"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Hetesek eltávolítása"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Hatosok eltávolítása"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Tízesek eltávolítása"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Hármasok eltávolítása"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Kettesek eltávolítása"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Kártyákat vissza a pakliba"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Próbáljon meg valamit egy üres helyre mozgatni"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Rakja le a(z) ~a lapot a tábláról"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "Hiba! A make-hint érvénytelen lépést javasolt."
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "Osszon egy lapot a pakliból"
+
+#~ msgid "an empty space"
+#~ msgstr "egy üres hely"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Nincs több lépés. Vonja vissza vagy kezdje újra."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "A játéknak nincs megoldása. Vonja vissza vagy kezdje újra."
+
+#~ msgid "an empty reserve"
+#~ msgstr "egy üres hely"
+
+#~ msgid "an open tableau"
+#~ msgstr "egy üres tabló"
+
+#~ msgid "the foundation"
+#~ msgstr "az alap"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "A következő sorban lévő sorozathoz adás: ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Kattintson kétszer bármely kártyán az újraosztáshoz."
+
+#~ msgid "No hint available."
+#~ msgstr "Nem érhető el javaslat."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Egy kettes elhelyezése a következő sor legbaloldalibb helyére: ~a."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "A(z) ~a elhelyezése a(z) ~a mellé."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Véletlenszerűen elhelyezett rések újraosztáskor"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Helyezzen át egy kártyát a tartalékból az üres tablóhelyre"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Válasszon ki egy kártyát a tartalékból az első alap oszlopba"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "az üres tablóhelyre"
+
+#~ msgid "Deal another card"
+#~ msgstr "Osszon másik lapot"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Hátralévő lap: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Osszon másik lapot"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Helyezzen át egy kártyát vagy összeállítást az üres helyre"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Kártya levétele a szemétdombról"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Helyezze át a szemétdombot a pakliba"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "egy üres tablóhely"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Új kártya osztása"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Hátralévő lap: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Nincs újraosztás"
+
+#~ msgid "Single card deals"
+#~ msgstr "Egyesével oszt"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Próbáljon levenni kártyákat az alapról"
+
+#~ msgid "Base Card:"
+#~ msgstr "Kiinduló kártya:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "A cél az, hogy úgy rendezze el a készletet, amely a legtermészetesebben "
+#~ "megfelel az aktuális elrendezésnek."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Osszon új lapokat a pakliból"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Hátralévő újraosztások: ~a"
+
+#~ msgid "something"
+#~ msgstr "valami"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Mozgatás a pakliból egy üres szél- vagy tablóhelyre"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Mozgatás egy üres mezőre"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr ""
+#~ "Helyezze a kártyákat úgy a tablóra, hogy pókerleosztásokat képezzenek"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Véletlenszerű mód"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "egy üres tablóoszlop"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Keverje meg a kártyákat"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Keverje újra a kártyákat"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Mozgassa át a szemétdombot egy tartalék helyre"
+
+#~ msgid "empty foundation"
+#~ msgstr "üres alap"
+
+#~ msgid "Four Suits"
+#~ msgstr "Négy szín"
+
+#~ msgid "One Suit"
+#~ msgstr "Egy szín"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Rakjon valamit az üres helyre"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Előbb az üres oszlopot töltse meg."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Próbálja meg áthelyezni a kártyaoszlopokat"
+
+#~ msgid "Two Suits"
+#~ msgstr "Két szín"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Engedélyezze az ideiglenes helyek használatát"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Mozgasson át egy kártyát egy üres ideiglenes helyre"
+
+#~ msgid "No hint available"
+#~ msgstr "Nincs elérhető javaslat"
+
+#~ msgid "and all cards below it"
+#~ msgstr "és minden alatta lévő kártyát"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "üres hely(ek)"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "Szőkék és barnák"
+
+#~ msgid "Falling Stars"
+#~ msgstr "Hullócsillagok"
+
+#~| msgid "Generate Policy"
+#~ msgid "General Patience"
+#~ msgstr "Türelem tábornok"
+
+#~| msgid "Redeal."
+#~ msgid "Redheads"
+#~ msgstr "Vörösök"
+
+#~| msgid "Ignore"
+#~ msgid "Signora"
+#~ msgstr "Kisasszony"
+
+#~ msgid "Wood"
+#~ msgstr "Fa"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Osszon egy lapot a pakliból"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Párosítsa össze a szemétdomb két felső lapját."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Több játékos pontozása"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Progresszív körök"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "megfelelő alap sor"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Mozgasson át egy kártya-összeállítást egy üres Tabló helyre"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "a megfelelő Alap sor"
+
+#~ msgid "Blackjack"
+#~ msgstr "Blackjack"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Blackjack, a kaszinós kártyajáték"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Lehetőségek megjelenítése"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Megjeleníti az egyes osztó leosztásának kimenetelének valószínűségét és "
+#~ "az Ön leosztásának várható értékét."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Ne legyen biztosítás"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Ne legyen biztosítás, ha az osztónál ász van."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "A bankjában levő pénzösszeg"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "A bankjában levő pénzösszeg."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "A játék szabályvariációit tartalmazó szabályfájl neve."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "A használandó szabályfájl variációja"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Gyors osztás használata"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr ""
+#~ "Gyors osztás használata (nincs késleltetés az egyes kártyák között)."
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Megjelenjen-e az eszköztár."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blackjack – %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Jelenlegi játék újraindítása"
+
+#~ msgid "Show a hint"
+#~ msgstr "Tipp megjelenítése"
+
+#~ msgid "D_eal"
+#~ msgstr "_Osztás"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Új leosztás"
+
+#~ msgid "_Hit"
+#~ msgstr "Ü_tés"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Kártya hozzáadása a leosztáshoz"
+
+#~ msgid "_Stand"
+#~ msgstr "Megállá_s"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Kártyák hozzáadásának leállítása"
+
+#~ msgid "S_urrender"
+#~ msgstr "Be_dobás"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Ezen osztás elvesztése a tét feléért"
+
+#~ msgid "_Double down"
+#~ msgstr "_Duplázás"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "A tét megduplázása egyetlen lapért"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "Le_osztás szétválasztása"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Kártyák szétválasztása két leosztásba"
+
+#~ msgid "Show toolbar"
+#~ msgstr "Eszköztár megjelenítése"
+
+#~ msgid "Cards left:"
+#~ msgstr "Hátralévő lapok:"
+
+#~ msgid "Wager:"
+#~ msgstr "Tét:"
+
+#~ msgid "Balance:"
+#~ msgstr "Mérleg:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Helyezze el a tétet vagy osszon"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "A Blackjack használandó szabálykészlete"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Szeretne biztosítást?"
+
+#~| msgid ""
+#~| "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~| "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~| "up card is an ace. If the dealer has a natural 21 then the player is "
+#~| "paid double."
+#~ msgid ""
+#~ "Insurance is a side wager of 50% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "A biztosítás az eredeti tét 50 százalékáért egy póttét, olyankor, amikor "
+#~ "az osztó felfordított lapja egy ász. Arról szól a fogadás, hogy az "
+#~ "osztónak természetes 21-e (blackjackje) van, és ha tényleg, akkor a "
+#~ "játékos dupla összeget kap."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "Tegye meg tétjét, és kattintson a fehér körvonalra egy új leosztás "
+#~ "kéréséhez."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr ""
+#~ "Tegye meg a tétet, vagy kattintson a kártyákra egy új leosztás kéréséhez."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "A Blackjack beállításai"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "Leosztás _valószínűségeinek megjelenítése"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "_Gyors osztás (nincs késleltetés az egyes kártyák között)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "_Ne legyen biztosítás"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "Mérleg _visszaállítása"
+
+# aisleriot/dialog.c:112
+#~ msgid "Rules"
+#~ msgstr "Szabályok"
+
+#~ msgid "Decks"
+#~ msgstr "Pakli"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "Puha 17 elérése"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Bármilyen összeg megduplázása"
+
+# aisleriot/dialog.c:112
+#~ msgid "Double 9"
+#~ msgstr "Dupla 9"
+
+# aisleriot/dialog.c:112
+#~ msgid "Double Soft"
+#~ msgstr "Dupla puha"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Duplázás ütés után"
+
+#~ msgid "Double After Split"
+#~ msgstr "Duplázás szétválasztás után"
+
+#~ msgid "Resplit"
+#~ msgstr "Újra szétválasztás"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Ászok szétválasztása"
+
+#~ msgid "Surrender"
+#~ msgstr "Bedobás"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Osztás sebessége"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Kattintson a tét megduplázásához"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Kattintson a tét növeléséhez %.2f értékkel"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Kattintson kétszer a tét csökkentéséhez %.2f értékkel"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr ""
+#~ "Kattintson egy másik kártya osztásához, kártya húzásához, vagy pár "
+#~ "szétválasztásához"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Kattintson egy másik lap osztásához"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Kattintson a lapfelvétel leállításához"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Kattintson az új leosztás kéréséhez"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "A Blackjack nem tudja betölteni a kért fájlt"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Ellenőrizze a Blackjack telepítést"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "A legjobb, ha megáll"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "A megállás azt jelenti, hogy nem vesz fel több kártyát a leosztáshoz. Ezt "
+#~ "vagy az osztó lapjaira kattintva teheti meg, vagy a Vezérlés menü "
+#~ "megfelelő pontjának kiválasztásával."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "A legjobb, ha üt"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Az ütés azt jelenti, hogy felvesz egy másik kártyát a leosztáshoz. Ezt a "
+#~ "saját kártyáira kattintva teheti meg, vagy a Vezérlés menü megfelelő "
+#~ "pontjának kiválasztásával."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "A legjobb lehetőség a duplázás"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "A duplázás azt jelenti, hogy megduplázza az eredeti tétet, és felvesz "
+#~ "pontosan egy kártyát. Ezt az ablak alján található zsetonokra kattintva "
+#~ "teheti meg, vagy a Vezérlés menü megfelelő pontjának kiválasztásával."
+
+#~ msgid "The best option is to split"
+#~ msgstr "A legjobb lehetőség a szétválasztás"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "A szétválasztás azt jelenti, hogy az aktuális leosztást két külön "
+#~ "leosztásra szedi szét. Ezt úgy teheti meg, ha kihúz egyet a kártyái "
+#~ "közül, és leejti oldalra, vagy a Vezérlés menü megfelelő pontjának "
+#~ "kiválasztásával."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "A legjobb, amit tehet, a bedobás"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "A bedobás azt jelenti, hogy feladja a tét felét és nem egészíti ki a "
+#~ "leosztást. Ezt a Vezérlés menü megfelelő pontjának kiválasztásával teheti "
+#~ "meg."
+
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "A Blackjack egy kaszinó-stílusú kártyajáték.\n"
+#~ "\n"
+#~ "A Blackjack a GNOME játékok része."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Alapstratégia kiszámítása…"
+
+#~ msgid "Bust"
+#~ msgstr "Csőd"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blackjack!"
+
+#~ msgid "Soft"
+#~ msgstr "Puha"
+
+#~ msgid "Win"
+#~ msgstr "Győzelem"
+
+#~ msgid "Push"
+#~ msgstr "Döntetlen"
+
+#~ msgid "Lose"
+#~ msgstr "Vereség"
+
+#~ msgid "Player expected values"
+#~ msgstr "A játékos várható értékei"
+
+#~ msgid "Stand"
+#~ msgstr "Megállás"
+
+#~ msgid "Hit"
+#~ msgstr "Ütés"
+
+# aisleriot/dialog.c:112
+#~ msgid "Double"
+#~ msgstr "Duplázás"
+
+#~ msgid "Split"
+#~ msgstr "Szétválasztás"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Osztó lehetőségei"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Hiba a kiszolgálóhoz csatlakozás közben: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Az új jelszava: %s"
+
+#~ msgid "New password"
+#~ msgstr "Új jelszó"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Játékosok a kiszolgálón: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Jelenlegi szoba: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Csatlakozott ehhez a szobához: „%s”."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Hiba a szobához csatlakozás közben: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ játékzóna"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Nem cseveghet, ha nincs egy szobában."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Nincs jogosultsága itt csevegni."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Nincs privát csevegés a táblánál!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "A játékos nincs a szobában!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Hiba történt a csevegés elküldése közben."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Nincs a táblánál."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Csevegés meghiúsult: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "hiba a tábla indításakor: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Csatlakozott a(z) %d. táblához."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Hiba a következő táblához csatlakozáskor: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "%s kirúgta a tábláról."
+
+#~ msgid "You have left the table."
+#~ msgstr "Elhagyta a táblát."
+
+#~ msgid "The game is over."
+#~ msgstr "A játéknak vége."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "Hiba történt a játékkiszolgálón."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Hiba a tábla elhagyásakor: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Jelenlegi szoba:"
+
+#~ msgid "**none**"
+#~ msgstr "**nincs**"
+
+#~ msgid "Offline"
+#~ msgstr "Kilépett"
+
+#~ msgid "Connecting"
+#~ msgstr "Kapcsolódás"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Újrakapcsolódás"
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "Logging In"
+#~ msgstr "Bejelentkezés"
+
+#~ msgid "Logged In"
+#~ msgstr "Bejelentkezve"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Szoba"
+
+#~ msgid "Chatting"
+#~ msgstr "Csevegés"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Asztal"
+
+#~ msgid "Playing"
+#~ msgstr "Játék"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Asztal"
+
+#~ msgid "Logging Out"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Kiszolgálóhiba: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "A kapcsolat bontva a kiszolgálóval."
+
+#~ msgid "Login"
+#~ msgstr "Bejelentkezés"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Ez a felhasználónév már használatban van."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "A hitelesítés meghiúsult.\n"
+#~ "Adja meg a helyes jelszót."
+
+#~ msgid "The username is too long!"
+#~ msgstr "A felhasználónév túl hosszú!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Érvénytelen felhasználónév, ne használjon különleges karaktereket!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "A bejelentkezés ismeretlen okból meghiúsult: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "Hálózati játék"
+
+#~ msgid "Server Profile"
+#~ msgstr "Kiszolgálóprofil"
+
+#~ msgid "Profile:"
+#~ msgstr "Profil:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "Profilok szerkesztése"
+
+#~ msgid "Server:"
+#~ msgstr "Kiszolgáló:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User Information"
+#~ msgstr "Felhasználói információk"
+
+#~ msgid "Username:"
+#~ msgstr "Felhasználónév:"
+
+#~ msgid "Password:"
+#~ msgstr "Jelszó:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Authentication type"
+#~ msgstr "Hitelesítési típus"
+
+#~ msgid "Normal Login"
+#~ msgstr "Normális bejelentkezés"
+
+#~ msgid "Guest Login"
+#~ msgstr "Vendég bejelentkezés"
+
+#~ msgid "First-time Login"
+#~ msgstr "Első bejelentkezés"
+
+#~ msgid "Connect"
+#~ msgstr "Kapcsolódás"
+
+#~ msgid "Wizard"
+#~ msgstr "Varázsló"
+
+#~ msgid "Deity"
+#~ msgstr "Istennő"
+
+#~ msgid "Sentinel"
+#~ msgstr "Őrszem"
+
+#~ msgid "Captain"
+#~ msgstr "Kapitány"
+
+#~ msgid "Knight"
+#~ msgstr "Lovag"
+
+#~ msgid "Angel"
+#~ msgstr "Angyal"
+
+# fixme: valami jobbat költeni
+#~ msgid "Silverlord"
+#~ msgstr "Ezüstúr"
+
+#~ msgid "Eagle"
+#~ msgstr "Sas"
+
+#~ msgid "Vampire"
+#~ msgstr "Vámpír"
+
+#~ msgid "Chief"
+#~ msgstr "Vezér"
+
+#~ msgid "Colonel"
+#~ msgstr "Ezredes"
+
+#~ msgid "General"
+#~ msgstr "Tábornok"
+
+#~ msgid "Major"
+#~ msgstr "Őrnagy"
+
+#~ msgid "Scout"
+#~ msgstr "Járőr"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Hadnagy"
+
+#~ msgid "Stalker"
+#~ msgstr "Vadász"
+
+#~ msgid "Scientist"
+#~ msgstr "Tudós"
+
+#~ msgid "Scholar"
+#~ msgstr "Tanító"
+
+#~ msgid "Entity"
+#~ msgstr "Entitás"
+
+#~ msgid "Creator"
+#~ msgstr "Létrehozó"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ közösség (gyors)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Helyi fejlesztői kiszolgáló"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Első alkalommal futtatja a GTK+ GGZ játékzónaklienst. Létre kíván hozni "
+#~ "néhány alapértelmezett kiszolgálóprofilt?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <felhasználónév> <üzenet> . Magánüzenet egy játékosnak"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <üzenet> .……… Üzenet a táblának"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <üzenet> ..……… Adminisztrátori parancs"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <felhasználónév> .……… Játékos csipogtatása"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ………………… Segítségkérés"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends ……………… Barátok felsorolása"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore .……………… Figyelmen kívül hagyott emberek felsorolása"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <felhasználónév> .……… Játékos kirúgása a szobából"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr "/gag <felhasználónév> ..……… Játékos megszólalási jogának elvétele"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <felhasználónév> ……… Játékos megszólalási jogának visszaadása"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <felhasználónév> ..……… Játékos kitiltása a kiszolgálóról"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Ismeretlen üzenetet kapott a következőről: %s."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "%s megcsipogtatta."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Használat: /msg <felhasználónév> <üzenet>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Magánüzenetet küld a hálózat egy felhasználójának."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Csipogtatás elküldve a következőnek: %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (bejelentkezve)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (kijelentkezve)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Csevegőparancsok"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <tevékenység> ..………… Elküld egy tevékenységet"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s felvéve a barátok listájára."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s eltávolítva a barátok listájáról."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s felvéve a figyelmen kívül hagyási listájára."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s eltávolítva a figyelmen kívül hagyási listájáról."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Jelenlegi barátai"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Jelenleg figyelmen kívül hagyva"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Több találat:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Ez a játék nincs telepítve. Letöltheti a\n"
+#~ "következő helyről: %s."
+
+#~ msgid "Launch Error"
+#~ msgstr "Indítási hiba"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "A játékmodul indítása meghiúsult.\n"
+#~ " Az indítás megszakítva."
+
+#~ msgid "Launched game"
+#~ msgstr "A játék elindítva"
+
+#~ msgid "Launch failed"
+#~ msgstr "Az indítás meghiúsult"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Egyszerre csak egy játékot játszhat."
+
+#~ msgid "Game Error"
+#~ msgstr "Játékhiba"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Még mindig a táblán van."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Egy szobában kell lennie játék indításához.\n"
+#~ "Az indítás megszakítva."
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Nincsenek játéktípusok megadva ehhez a kiszolgálóhoz.\n"
+#~ "Az indítás megszakítva."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "A játék nem támogatja a nézőket."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "A játék használatához közvetlenül a GGZ\n"
+#~ "klienst kell elindítania."
+
+#~ msgid "About"
+#~ msgstr "Névjegy"
+
+#~ msgid "Message of the Day"
+#~ msgstr "A nap üzenete"
+
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "A szobaszűrés még nincs megvalósítva. Ha segíteni szeretne, akkor keresse "
+#~ "fel a http://www.ggzgamingzone.org/ címet."
+
+#~ msgid "Not Implemented"
+#~ msgstr "Nincs megvalósítva"
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid "Web Address"
+#~ msgstr "Webcím"
+
+#~ msgid "Author"
+#~ msgstr "Szerző"
+
+#~ msgid "Game Types"
+#~ msgstr "Játéktípusok"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Szobalistaszűrő:"
+
+#~ msgid "Set"
+#~ msgstr "Beállítás"
+
+#~ msgid "Player Information"
+#~ msgstr "Játékosinformációk"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Játékos beceneve:"
+
+#~ msgid "Table:"
+#~ msgstr "Tábla:"
+
+#~ msgid "Account:"
+#~ msgstr "Felhasználói fiók:"
+
+#~ msgid "Record:"
+#~ msgstr "Rekord:"
+
+#~ msgid "Rating:"
+#~ msgstr "Értékelés:"
+
+#~ msgid "Rank:"
+#~ msgstr "Rangsor:"
+
+#~ msgid "Message:"
+#~ msgstr "Üzenet:"
+
+#~ msgid "Unknown"
+#~ msgstr "Ismeretlen"
+
+#~ msgid "Registered"
+#~ msgstr "Regisztrálva"
+
+#~ msgid "Guest"
+#~ msgstr "Vendég"
+
+#~ msgid "Host"
+#~ msgstr "Gép"
+
+#~ msgid "Administrator"
+#~ msgstr "Adminisztrátor"
+
+#~ msgid "Friends"
+#~ msgstr "Barátok"
+
+#~ msgid "Ignore"
+#~ msgstr "Mellőzés"
+
+#~ msgid "#%d"
+#~ msgstr "%d."
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Statisztika"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Melyik klienst szeretné használni ehhez a játékhoz?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Ne kérdezze újra."
+
+#~ msgid "Join"
+#~ msgstr "Csatlakozás"
+
+#~ msgid "Leave"
+#~ msgstr "Kilépés"
+
+#~ msgid "No description available."
+#~ msgstr "Nem áll rendelkezésre leírás."
+
+#~ msgid "Seats"
+#~ msgstr "Helyek"
+
+#~ msgid "Room Information"
+#~ msgstr "Szobainformációk"
+
+#~ msgid "Game Name:"
+#~ msgstr "Játék neve:"
+
+#~ msgid "Author:"
+#~ msgstr "Szerző:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Honlap:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Szobaleírás:"
+
+#~ msgid "This room has no game"
+#~ msgstr "A szobában nincs játék"
+
+#~ msgid "Unknown room"
+#~ msgstr "Ismeretlen szoba"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Nem csatlakozhat szobához amíg nem jelentkezett be"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Már két szoba között van"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Nem válthat szobát játék közben"
+
+#~ msgid "Unknown error"
+#~ msgstr "Ismeretlen hiba"
+
+#~ msgid "Error joining room"
+#~ msgstr "Hiba a szobához csatlakozás közben"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Egyéb szobák"
+
+#~ msgid "Room"
+#~ msgstr "Szoba"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Játéktípus: %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Szerző: %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Leírás: %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Honlap: %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "A tábla indítása meghiúsult.\n"
+#~ " Az indítás megszakítva."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "A botok megadott száma érvénytelen"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Hiba a játékmodul indítása közben."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Helykiosztás"
+
+#~ msgid "Game Type:"
+#~ msgstr "Játéktípus:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Helyek száma"
+
+#~ msgid "Description:"
+#~ msgstr "Leírás:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "%d. hely:"
+
+#~ msgid "Computer"
+#~ msgstr "Számítógép"
+
+#~ msgid "Open"
+#~ msgstr "Megnyitás"
+
+#~ msgid "Reserved for"
+#~ msgstr "Fenntartva"
+
+#~ msgid "Game Description   "
+#~ msgstr "Játékleírás   "
+
+#~ msgid "Launch"
+#~ msgstr "Indítás"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Biztos, hogy ki szeretne lépni?"
+
+#~ msgid "Quit?"
+#~ msgstr "Kilép?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "A kiszolgálóstatisztika még nincs megvalósítva. Ha segíteni szeretne, "
+#~ "akkor keresse fel a http://www.ggzgamingzone.org/ címet."
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "A játékosstatisztika még nincs megvalósítva. Ha segíteni szeretne, akkor "
+#~ "keresse fel a http://www.ggzgamingzone.org/ címet."
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Ki kell jelölnie egy táblát, mielőtt csatlakozhatna hozzá."
+
+#~ msgid "Error Joining"
+#~ msgstr "Csatlakozási hiba"
+
+#~ msgid "That table is full."
+#~ msgstr "Ez a tábla tele van."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Ki kell jelölnie egy táblát ahhoz, hogy nézhesse."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Hiba a megtekintésben"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Nem sikerült csatlakozni a táblához.\n"
+#~ "A csatlakozás megszakítva."
+
+#~ msgid "Join Error"
+#~ msgstr "Csatlakozási hiba"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Leválás a GGZ játékzóna kiszolgálóról"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Játék indítása új táblán"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Csatlakozás meglévő játékhoz"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Meglévő játék figyelése - a tábla nézőjeként"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "A jelenlegi játék elhagyása"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr ""
+#~ "A tulajdonságok párbeszédablak megjelenítése és a kliens beállításainak "
+#~ "módosítása"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr ""
+#~ "A jelenlegi szoba játéktípusához tartozó játékstatisztika megjelenítése"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Kilépés a GGZ kliensalkalmazásból."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Hibakeresési támogatással fordítva."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Bontás"
+
+#~ msgid "Quit"
+#~ msgstr "Kilépés"
+
+#~ msgid "Watch"
+#~ msgstr "Figyelés"
+
+#~ msgid "Edit"
+#~ msgstr "Szerkesztés"
+
+#~ msgid "Properties"
+#~ msgstr "Tulajdonságok"
+
+#~ msgid "View"
+#~ msgstr "Nézet"
+
+#~ msgid "Room List"
+#~ msgstr "Szobalista"
+
+#~ msgid "Server Stats"
+#~ msgstr "Kiszolgálóstatisztika"
+
+#~ msgid "Player Stats"
+#~ msgstr "Játékosstatisztika"
+
+#~ msgid "MOTD"
+#~ msgstr "A nap üzenete"
+
+#~ msgid "Help"
+#~ msgstr "Súgó"
+
+#~ msgid "Contents"
+#~ msgstr "Tartalom"
+
+#~ msgid "Send"
+#~ msgstr "Küldés"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Tulajdonságok frissítve"
+
+#~ msgid "Confirm:"
+#~ msgstr "Megerősítés:"
+
+#~ msgid "Modify"
+#~ msgstr "Módosítás"
+
+#~ msgid "Servers"
+#~ msgstr "Kiszolgálók"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Csevegés betűkészlete:"
+
+#~ msgid "Change"
+#~ msgstr "Módosítás"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Csatlakozás/kilépés üzenetek mellőzése"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Hangok lejátszása"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Automatikus behúzás"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Időpecsét a csevegésben"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Szavak tördelése"
+
+#~ msgid "Chat Color"
+#~ msgstr "Csevegés színei"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "A csevegés barátaihoz társított alapértelmezett színe"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Csevegés színe, ha leírják az Ön nevét"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Az összes többi csevegéshez használt szín"
+
+#~ msgid "Normal Color"
+#~ msgstr "Normál szín"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Kiemelés színe"
+
+#~ msgid "Friend Color"
+#~ msgstr "Barátok színe"
+
+#~ msgid "Black Background"
+#~ msgstr "Fekete háttér"
+
+#~ msgid "White Background"
+#~ msgstr "Fehér háttér"
+
+#~ msgid "Chat"
+#~ msgstr "Csevegés"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "A következő információk egyike sem kötelező."
+
+#~ msgid "Name:"
+#~ msgstr "Név:"
+
+#~ msgid "City:"
+#~ msgstr "Város:"
+
+#~ msgid "State:"
+#~ msgstr "Állam:"
+
+#~ msgid "Country:"
+#~ msgstr "Ország:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Megjegyzés, hobbik, stb."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Belépés a szobákba egy kattintással"
+
+#~ msgid "Display All"
+#~ msgstr "Összes megjelenítése"
+
+#~ msgid "Display New"
+#~ msgstr "Újak megjelenítése"
+
+#~ msgid "Display Important"
+#~ msgstr "Fontosak megjelenítése"
+
+#~ msgid "Display None"
+#~ msgstr "Ne jelenjen meg"
+
+#~ msgid "Options"
+#~ msgstr "Beállítások"
+
+#~ msgid "Select Font"
+#~ msgstr "Betűkészlet kiválasztása"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: a(z) „%s” kapcsoló nem egyértelmű\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: a(z) „--%s” kapcsoló nem enged meg argumentumot\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: a(z) „%c%s” kapcsoló nem enged meg argumentumot\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: a(z) „%s” kapcsolóhoz argumentum szükséges\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: a(z) „--%s” kapcsoló ismeretlen\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: a(z) „%c%s” kapcsoló ismeretlen\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: illegális kapcsoló -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: érvénytelen kapcsoló -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: a kapcsoló egy argumentumot igényel -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: a „-W %s” kapcsoló nem egyértelmű\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: a „-W %s” kapcsoló nem enged meg argumentumot\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "A távoli játékosok nézhetik az új játékokat"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "3D mód engedélyezése"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "A tábla számozásának engedélyezése"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Teljes képernyős mód engedélyezése"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "A teljes méretű mód engedélyezése"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "Lépéstippek engedélyezése"
+
+#~ msgid "A flag to enable network game support"
+#~ msgstr "Hálózati játék támogatásának engedélyezése"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "Mozgások előzményeinek böngészése"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Eszköztár engedélyezése"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "Lépésmegjegyzések engedélyezése"
+
+#~ msgid "A flag to smooth (anti-alias) the 3D display"
+#~ msgstr "A 3D megjelenítést élsimítása"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Új játékban az egyes játékosoknak ennyi idejük van lépni"
+
+#~ msgid "The board side to display"
+#~ msgstr "A tábla megjelenítendő oldala"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "A sötét alapértelmezett nehézségi szintje új játékokban"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "A világos alapértelmezett nehézségi szintje új játékokban"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "A sötét alapértelmezett játékostípusa új játékokban"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "A világos alapértelmezett játékostípusa új játékokban"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "A megnyitás párbeszédablak megnyitása ebben a könyvtárban"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "A mentés párbeszédablak megnyitása ebben a könyvtárban"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Lépések megjelenítésének formátuma"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "A lépések leírására használt formátum, lehetséges értékek: „human” (ember "
+#~ "által olvasható), „lan” (hosszú algebrai jelölés) és „san” (szabványos "
+#~ "algebrai jelölés)"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "A főablak magassága képpontokban."
+
+#~ msgid "The height of the window"
+#~ msgstr "Az ablak magassága"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "A gyalogok előléptetése"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr ""
+#~ "Az a bábu, amellyé az emberi játékos gyalogja a legtávolabbi sorba "
+#~ "lépésekor előléptetésre kerül. A lehetséges értékek: „queen” (vezér), "
+#~ "„knight” (huszár), „rook” (bástya), „bishop” (futó)."
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player) or 'human' (the side of the current human "
+#~ "player)"
+#~ msgstr ""
+#~ "A tábla előtérben lévő oldala, a következők egyike: „white” (világos), "
+#~ "'black” (sötét), „current” (az aktuális játékos) vagy „human” (az "
+#~ "aktuális emberi játékos oldala)"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "A főablak szélessége képpontokban."
+
+#~ msgid "The width of the window"
+#~ msgstr "Az ablak szélessége"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Játék mentése"
+
+#~ msgid "Communication:"
+#~ msgstr "Kommunikáció:"
+
+#~ msgid "Executable:"
+#~ msgstr "Végrehajtható fájl:"
+
+#~ msgid "Playing as:"
+#~ msgstr "Játék mint:"
+
+#~ msgid "<b>Game</b>"
+#~ msgstr "<b>Játék</b>"
+
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "<b>Szobák</b>"
+
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>Kiszolgáló</b>"
+
+#~| msgid "<b>Status/Chat</b>"
+#~ msgid "<b>Status/_Chat</b>"
+#~ msgstr "<b>Állapot/_csevegés</b>"
+
+#~| msgid "Account:"
+#~ msgid "Add Account"
+#~ msgstr "Fiók készítése"
+
+#~ msgid "Join Game"
+#~ msgstr "Csatlakozás játékhoz"
+
+#~| msgid "Username:"
+#~ msgid "User _Name:"
+#~ msgstr "_Felhasználónév:"
+
+#~| msgid "Account:"
+#~ msgid "_Add Account"
+#~ msgstr "Fió_k készítése"
+
+#~| msgid "Host"
+#~ msgid "_Host:"
+#~ msgstr "Gé_p:"
+
+#~| msgid "Join"
+#~ msgid "_Join"
+#~ msgstr "_Csatlakozás"
+
+#~| msgid "Leave"
+#~ msgid "_Leave"
+#~ msgstr "Tá_vozás"
+
+#~| msgid "Port:"
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#~| msgid "Server:"
+#~ msgid "_Server:"
+#~ msgstr "_Kiszolgáló:"
+
+#~ msgid "3_D Chess View"
+#~ msgstr "3_D sakknézet"
+
+#~ msgid "Board Orientation:"
+#~ msgstr "Tábla tájolása:"
+
+#~ msgid "Move Format:"
+#~ msgstr "Lépés formátuma:"
+
+#~ msgid "Preferences"
+#~ msgstr "Beállítások"
+
+#~ msgid "Promotion Type:"
+#~ msgstr "Előléptetés típusa:"
+
+#~ msgid "Show _History"
+#~ msgstr "_Előzmények megjelenítése"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Es_zköztár megjelenítése"
+
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "A sakktábla számozásának megjelenítése vagy elrejtése"
+
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "A játék előzménypaneljének megjelenítése vagy elrejtése"
+
+#~ msgid "Shows hints during chess games"
+#~ msgstr "Tippek mutatása a sakkpartik alatt"
+
+#~ msgid "Smooth edges of the 3D elements (anti-alias)"
+#~ msgstr "3D elemek széleinek simítása"
+
+#~ msgid ""
+#~ "View the chess board by default in 2D mode, or optionally in 3D mode "
+#~ "using OpenGL."
+#~ msgstr ""
+#~ "A sakktábla megjelenítése az alapértelmezett 2D módban, vagy 3D módban "
+#~ "OpenGL használatával."
+
+#~ msgid "_Board Numbering"
+#~ msgstr "Tá_blaszámozás"
+
+#~ msgid "_Move Hints"
+#~ msgstr "_Lépéstippek"
+
+#~| msgid "Boot player"
+#~ msgid "_Smooth Display"
+#~ msgstr "_Megjelenítés simítása"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Játék betöltése"
+
+#~ msgid "Claim _Draw"
+#~ msgstr "_Remi"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "T_eljes képernyő elhagyása"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Mentett játék betöltése"
+
+#~ msgid "Logs"
+#~ msgstr "Naplók"
+
+#~ msgid "Resign"
+#~ msgstr "Feladás"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Vissza a játék kezdetére"
+
+#~ msgid "Save the current game"
+#~ msgstr "A jelenlegi játék mentése"
+
+#~ msgid "Show _Logs"
+#~ msgstr "_Naplók megjelenítése"
+
+#~ msgid "Show the current move"
+#~ msgstr "A jelenlegi lépés megjelenítése"
+
+#~ msgid "Show the next move"
+#~ msgstr "A következő lépés megjelenítése"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Az előző lépés megjelenítése"
+
+#~ msgid "There are no active logs."
+#~ msgstr "Nincsenek aktív naplók."
+
+#~| msgid "_Undo Move"
+#~ msgid "Undo Move"
+#~ msgstr "Lépés visszavonása"
+
+#~ msgid "_Resign"
+#~ msgstr "_Feladás"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Nehézség</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Játék tulajdonságai</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Játékosok</b>"
+
+#~ msgid "B_lack:"
+#~ msgstr "Sö_tét:"
+
+# aisleriot/menu.c:125
+#~ msgid "Enter the title for this game"
+#~ msgstr "Adja meg a játék címét"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Lépési_dő:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr "A játék indítása. A játék a mezők kitöltése után indítható."
+
+#~ msgid "W_hite:"
+#~ msgstr "_Világos:"
+
+#~ msgid "_Black:"
+#~ msgstr "Sö_tét:"
+
+#~ msgid "_Game name:"
+#~ msgstr "_Játék neve:"
+
+#~ msgid "_Start"
+#~ msgstr "In_dítás"
+
+#~ msgid "_White:"
+#~ msgstr "_Világos:"
+
+#~ msgid "Chess"
+#~ msgstr "Sakk"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "A klasszikus kétszemélyes sakk játék"
+
+#~ msgid "Chess incorrectly installed"
+#~ msgstr "A sakk telepítése hibás"
+
+#~ msgid ""
+#~ "Chess is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "A sakk nem indítható, mivel a szükséges programfájlok nincsenek "
+#~ "telepítve. Ha jelenleg frissíti a rendszerét, akkor várjon a frissítés "
+#~ "befejeződéséig."
+
+#~ msgid "Unlimited"
+#~ msgstr "Korlátlan"
+
+#~ msgid "One minute"
+#~ msgstr "Egy perc"
+
+#~ msgid "Five minutes"
+#~ msgstr "Öt perc"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 perc"
+
+#~ msgid "One hour"
+#~ msgstr "Egy óra"
+
+#~ msgid "Custom"
+#~ msgstr "Egyéni"
+
+#~ msgid "seconds"
+#~ msgstr "másodperc"
+
+#~ msgid "minutes"
+#~ msgstr "perc"
+
+#~ msgid "hours"
+#~ msgstr "óra"
+
+#~ msgid "Easy"
+#~ msgstr "Könnyű"
+
+#~ msgid "Normal"
+#~ msgstr "Normál"
+
+#~ msgid "Hard"
+#~ msgstr "Nehéz"
+
+#~| msgid "Unable to find %s engine\n"
+#~ msgid "Unable to find %s engine"
+#~ msgstr "A(z) %s motor nem található"
+
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "A betöltött játék beállítása (%i lép)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "A játék beállításai módosultak"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s a(z) %(black)s ellen"
+
+#~ msgid "White"
+#~ msgstr "világos"
+
+#~ msgid "Black"
+#~ msgstr "sötét"
+
+#~| msgid "Nibbles"
+#~ msgid "PGN files"
+#~ msgstr "PGN fájlok"
+
+#~ msgid "All files"
+#~ msgstr "Minden fájl"
+
+#~ msgid "Please select a file to load"
+#~ msgstr "Válassza ki a betöltendő fájlt"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "Nem lehet betölteni a játékot"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "Adjon meg egy fájlnevet"
+
+#~ msgid "Unabled to save game"
+#~ msgstr "A játék nem menthető"
+
+#~ msgid "Human"
+#~ msgstr "Ember"
+
+#~ msgid "Standard Algebraic"
+#~ msgstr "Szabványos algebrai"
+
+#~ msgid "Figurine"
+#~ msgstr "Figura"
+
+#~ msgid "Long Algebraic"
+#~ msgstr "Hosszú algebrai"
+
+#~ msgid "White Side"
+#~ msgstr "Világos oldal"
+
+#~ msgid "Black Side"
+#~ msgstr "Sötét oldal"
+
+#~ msgid "Human Side"
+#~ msgstr "Emberi oldal"
+
+#~ msgid "Current Player"
+#~ msgstr "Jelenlegi játékos"
+
+#~ msgid "chess-piece|Queen"
+#~ msgstr "Vezér"
+
+#~ msgid "chess-piece|Knight"
+#~ msgstr "Huszár"
+
+#~ msgid "chess-piece|Rook"
+#~ msgstr "Bástya"
+
+#~ msgid "chess-piece|Bishop"
+#~ msgstr "Futó"
+
+#~ msgid "Chess - *%(game_name)s"
+#~ msgstr "Sakk – *%(game_name)s"
+
+#~ msgid "Chess - %(game_name)s"
+#~ msgstr "Sakk – %(game_name)s"
+
+#~ msgid "∞"
+#~ msgstr "∞"
+
+#~ msgid "If you don't save the changes to this game will be permanently lost"
+#~ msgstr "Ha nem menti a módosításokat, a játék véglegesen elvész"
+
+#~ msgid "Close _without saving"
+#~ msgstr "Bezárás mentés _nélkül"
+
+#~ msgid "Unable to enable 3D mode"
+#~ msgstr "A 3D mód nem engedélyezhető"
+
+#~ msgid ""
+#~ "You are unable to play in 3D mode due to the following problems:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Please contact your system administrator to resolve these problems, until "
+#~ "then you will be able to play chess in 2D mode."
+#~ msgstr ""
+#~ "A következő probléma miatt nem játszhat 3D módban:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "A probléma megoldása érdekében keresse meg a rendszergazdát; addig 2D "
+#~ "módban sakkozhat."
+
+#~ msgid "Unable to claim draw"
+#~ msgstr "Nem lehet kihirdetni a döntetlent"
+
+#~ msgid ""
+#~ "You may claim a draw when:\n"
+#~ "a) The board has been in the same state three times (Three fold "
+#~ "repetition)\n"
+#~ "b) Fifty moves have occured where no pawn has moved and no piece has been "
+#~ "captured (50 move rule)"
+#~ msgstr ""
+#~ "Akkor hirdethet döntetlent, ha:\n"
+#~ "a, A tábla három alkalommal azonos állapotban volt (háromszoros "
+#~ "ismétlés)\n"
+#~ "b, Ötven olyan lépés történt, amely során nem lépett gyalog és nem "
+#~ "történt ütés (50 lépéses szabály)"
+
+#~ msgid "Unable to display help: %s"
+#~ msgstr "Nem lehet megjeleníteni a súgót: %s"
+
+#~ msgid "No Python OpenGL support"
+#~ msgstr "Nincs Python OpenGL támogatás"
+
+#~ msgid "No Python GTKGLExt support"
+#~ msgstr "Nincs Python GTKGLExt támogatás"
+
+#~ msgid "OpenGL libraries do not support required display mode"
+#~ msgstr ""
+#~ "Az OpenGL programkönyvtárak nem támogatják a szükséges megjelenítési módot"
+
+#~ msgid "Game Start"
+#~ msgstr "Játék indítása"
+
+#~ msgid "No comment"
+#~ msgstr "Nincs megjegyzés"
+
+#~| msgid "%(move)s White castles long"
+#~ msgid "White castles long"
+#~ msgstr "Világos hosszan sáncol"
+
+#~| msgid "%(move)s Black castles long"
+#~ msgid "Black castles long"
+#~ msgstr "Sötét hosszan sáncol"
+
+#~| msgid "%(move)s White castles short"
+#~ msgid "White castles short"
+#~ msgstr "Világos röviden sáncol"
+
+#~| msgid "%(move)s Black castles short"
+#~ msgid "Black castles short"
+#~ msgstr "Sötét röviden sáncol"
+
+#~| msgid "%(move)s White %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "White pawn moves from %(start)s to %(end)s"
+#~ msgstr "Világos gyalog lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White pawn at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "Világos gyalog a(z) %(start)s mezőn üti a sötét gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White pawn at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "Világos gyalog a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White pawn at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "Világos gyalog a(z) %(start)s mezőn üti a sötét huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White pawn at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "Világos gyalog a(z) %(start)s mezőn üti a sötét futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White pawn at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "Világos gyalog a(z) %(start)s mezőn üti a sötét vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s White %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "White rook moves from %(start)s to %(end)s"
+#~ msgstr "Világos bástya lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White rook at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "Világos bástya a(z) %(start)s mezőn üti a sötét gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White rook at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "Világos bástya a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White rook at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "Világos bástya a(z) %(start)s mezőn üti a sötét huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White rook at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "Világos bástya a(z) %(start)s mezőn üti a sötét futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White rook at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "Világos bástya a(z) %(start)s mezőn üti a sötét vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s White %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "White knight moves from %(start)s to %(end)s"
+#~ msgstr "Világos huszár lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White knight at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "Világos huszár a(z) %(start)s mezőn üti a sötét gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White knight at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "Világos huszár a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White knight at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "Világos huszár a(z) %(start)s mezőn üti a sötét huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White knight at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "Világos huszár a(z) %(start)s mezőn üti a sötét futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White knight at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "Világos huszár a(z) %(start)s mezőn üti a sötét vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s White %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "White bishop moves from %(start)s to %(end)s"
+#~ msgstr "Világos futó lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White bishop at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "Világos futó a(z) %(start)s mezőn üti a sötét gyalogot a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White bishop at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "Világos futó a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White bishop at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "Világos futó a(z) %(start)s mezőn üti a sötét huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White bishop at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "Világos futó a(z) %(start)s mezőn üti a sötét futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White bishop at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "Világos futó a(z) %(start)s mezőn üti a sötét vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s White %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "White queen moves from %(start)s to %(end)s"
+#~ msgstr "Világos vezér lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White queen at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "Világos vezér a(z) %(start)s mezőn üti a sötét gyalogot a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White queen at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "Világos vezér a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White queen at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "Világos vezér a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White queen at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "Világos vezér a(z) %(start)s mezőn üti a sötét futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White queen at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "Világos vezér a(z) %(start)s mezőn üti a sötét vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s White %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "White king moves from %(start)s to %(end)s"
+#~ msgstr "Világos király lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White king at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "Világos király a(z) %(start)s mezőn üti a sötét gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White king at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "Világos király a(z) %(start)s mezőn üti a sötét bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White king at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "Világos király a(z) %(start)s mezőn üti a sötét huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White king at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "Világos király a(z) %(start)s mezőn üti a sötét futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "White king at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "Világos király a(z) %(start)s mezőn üti a sötét vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s Black %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "Black pawn moves from %(start)s to %(end)s"
+#~ msgstr "Sötét gyalog lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black pawn at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "Sötét gyalog a(z) %(start)s mezőn üti a világos gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black pawn at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "Sötét gyalog a(z) %(start)s mezőn üti a világos bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black pawn at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "Sötét gyalog a(z) %(start)s mezőn üti a világos huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black pawn at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "Sötét gyalog a(z) %(start)s mezőn üti a világos futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black pawn at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "Sötét gyalog a(z) %(start)s mezőn üti a világos vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s Black %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "Black rook moves from %(start)s to %(end)s"
+#~ msgstr "Sötét bástya lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black rook at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "Sötét bástya a(z) %(start)s mezőn üti a világos gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black rook at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "Sötét bástya a(z) %(start)s mezőn üti a világos bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black rook at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "Sötét bástya a(z) %(start)s mezőn üti a világos huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black rook at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "Sötét bástya a(z) %(start)s mezőn üti a világos futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black rook at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "Sötét bástya a(z) %(start)s mezőn üti a világos vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s Black %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "Black knight moves from %(start)s to %(end)s"
+#~ msgstr "Sötét huszár lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black knight at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "Sötét huszár a(z) %(start)s mezőn üti a világos gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black knight at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "Sötét huszár a(z) %(start)s mezőn üti a világos bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black knight at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "Sötét huszár a(z) %(start)s mezőn üti a világos huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black knight at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "Sötét huszár a(z) %(start)s mezőn üti a világos futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black knight at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "Sötét huszár a(z) %(start)s mezőn üti a világos vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s Black %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "Black bishop moves from %(start)s to %(end)s"
+#~ msgstr "Sötét futó lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black bishop at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "Sötét futó a(z) %(start)s mezőn üti a világos gyalogot a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black bishop at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "Sötét futó a(z) %(start)s mezőn üti a világos bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black bishop at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "Sötét futó a(z) %(start)s mezőn üti a világos huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black bishop at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "Sötét futó a(z) %(start)s mezőn üti a világos futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black bishop at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "Sötét futó a(z) %(start)s mezőn üti a világos vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s Black %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "Black queen moves from %(start)s to %(end)s"
+#~ msgstr "Sötét vezér lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black queen at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "Sötét vezér a(z) %(start)s mezőn üti a világos gyalogot a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black queen at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "Sötét vezér a(z) %(start)s mezőn üti a világos bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black queen at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "Sötét vezér a(z) %(start)s mezőn üti a világos huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black queen at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "Sötét vezér a(z) %(start)s mezőn üti a világos futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black queen at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "Sötét vezér a(z) %(start)s mezőn üti a világos vezért a(z) %(end)s mezőn"
+
+#~| msgid "%(move)s Black %(piece)s moves from %(start)s to %(end)s"
+#~ msgid "Black king moves from %(start)s to %(end)s"
+#~ msgstr "Sötét király lép: %(start)s -> %(end)s"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black king at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "Sötét király a(z) %(start)s mezőn üti a világos gyalogot a(z) %(end)s "
+#~ "mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black king at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "Sötét király a(z) %(start)s mezőn üti a világos bástyát a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black king at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "Sötét király a(z) %(start)s mezőn üti a világos huszárt a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black king at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "Sötét király a(z) %(start)s mezőn üti a világos futót a(z) %(end)s mezőn"
+
+#~| msgid ""
+#~| "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s "
+#~| "at %(end)s"
+#~ msgid "Black king at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "Sötét király a(z) %(start)s mezőn üti a világos vezért a(z) %(end)s mezőn"
+
+#~ msgid "%(movenum)2iw. %(description)s (Check)"
+#~ msgstr "%(movenum)2iV. %(description)s (Sakk)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2iV. %(description)s (Sakk-matt)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2iV. %(description)s (patt)"
+
+#~| msgid "%(movenum)2iw."
+#~ msgid "%(movenum)2iw. %(description)s"
+#~ msgstr "%(movenum)2iV. %(description)s"
+
+#~ msgid "%(movenum)2ib. %(description)s (Check)"
+#~ msgstr "%(movenum)2iS. %(description)s (Sakk)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2iS. %(description)s (Sakk-matt)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2iS. %(description)s (patt)"
+
+# fixme a w-b lehet hogy fordul?
+#~| msgid "%(movenum)2ib."
+#~ msgid "%(movenum)2ib. %(description)s"
+#~ msgstr "%(movenum)2iS. %(description)s"
+
+#~ msgid "%s wins"
+#~ msgstr "%s nyert"
+
+#~ msgid "Game is drawn"
+#~ msgstr "Az eredmény döntetlen"
+
+#~ msgid "Opponent is in check and cannot move (checkmate)"
+#~ msgstr "Az ellenfél sakkban van és nem tud lépni (sakk-matt)"
+
+#~ msgid "Opponent cannot move (stalemate)"
+#~ msgstr "Az ellenfél nem tud lépni (patt)"
+
+#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
+#~ msgstr ""
+#~ "Az utolsó ötven lépésben nem lépett gyalog és nem ütöttek le egy figurát "
+#~ "sem"
+
+#~ msgid "Opponent has run out of time"
+#~ msgstr "Az ellenfél ideje elfogyott"
+
+#~ msgid "The same board state has occured three times (three fold repetition)"
+#~ msgstr ""
+#~ "Ugyanaz a táblaállapot háromszor is előállt (háromszoros ismétlődés)"
+
+#~ msgid "Neither player can cause checkmate (insufficient material)"
+#~ msgstr "Egyik játékos sem képes sakk-mattot adni (hiányzó feltételek)"
+
+#~ msgid "The black player has resigned"
+#~ msgstr "A sötét játékos megadta magát"
+
+#~ msgid "The white player has resigned"
+#~ msgstr "A világos játékos megadta magát"
+
+#~| msgid "Game over! The game has been won by %s!"
+#~ msgid "The game has been abandoned"
+#~ msgstr "A játék elhagyva"
+
+#~ msgid "One of the players has died"
+#~ msgstr "Az egyik játékos meghalt"
+
+#~ msgid "Disconnected"
+#~ msgstr "Bontva"
+
+#~ msgid "New profile..."
+#~ msgstr "Új profil…"
+
+#~ msgid "Table"
+#~ msgstr "Tábla"
+
+#~ msgid "Seat"
+#~ msgstr "Hely"
+
+#~ msgid "Player"
+#~ msgstr "Játékos"
+
+#~ msgid "Reserved for %s"
+#~ msgstr "Fenntartva %s számára"
+
+#~ msgid "Seat empty"
+#~ msgstr "A hely üres"
+
+#~ msgid "AI (%s)"
+#~ msgstr "MI (%s)"
+
+#~ msgid "chess-file|a"
+#~ msgstr "a"
+
+#~ msgid "chess-file|b"
+#~ msgstr "b"
+
+#~ msgid "chess-file|c"
+#~ msgstr "c"
+
+#~ msgid "chess-file|d"
+#~ msgstr "d"
+
+#~ msgid "chess-file|e"
+#~ msgstr "e"
+
+#~ msgid "chess-file|f"
+#~ msgstr "f"
+
+#~ msgid "chess-file|g"
+#~ msgstr "g"
+
+#~ msgid "chess-file|h"
+#~ msgstr "h"
+
+#~ msgid "chess-rank|1"
+#~ msgstr "1"
+
+#~ msgid "chess-rank|2"
+#~ msgstr "2"
+
+#~ msgid "chess-rank|3"
+#~ msgstr "3"
+
+#~ msgid "chess-rank|4"
+#~ msgstr "4"
+
+#~ msgid "chess-rank|5"
+#~ msgstr "5"
+
+#~ msgid "chess-rank|6"
+#~ msgstr "6"
+
+#~ msgid "chess-rank|7"
+#~ msgstr "7"
+
+#~ msgid "chess-rank|8"
+#~ msgstr "8"
+
+#~ msgid "chess-notation|P"
+#~ msgstr "G"
+
+#~ msgid "chess-notation|N"
+#~ msgstr "H"
+
+#~ msgid "chess-notation|B"
+#~ msgstr "F"
+
+#~ msgid "chess-notation|R"
+#~ msgstr "B"
+
+#~ msgid "chess-notation|Q"
+#~ msgstr "V"
+
+#~ msgid "chess-notation|K"
+#~ msgstr "K"
+
+#~ msgid "'%(name)s' in '%(game)s'"
+#~ msgstr "„%(name)s” ebben: „%(game)s”"
+
+#~ msgid "Application Log"
+#~ msgstr "Alkalmazás naplója"
+
+#~ msgid "Usage: %s [game]"
+#~ msgstr "Használat: %s [játék]"
+
+#~ msgid "Human versus %s"
+#~ msgstr "Ember %s ellen"
+
+#~| msgid ""
+#~| "glChess has crashed. Please report this bug to http://bugzilla.gnome.org"
+#~ msgid ""
+#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org\n"
+#~ "Debug output:"
+#~ msgstr ""
+#~ "A glChess összeomlott. Jelentse ezt a hibát a http://bugzilla.gnome.org "
+#~ "oldalon. Hibakeresési kimenet:"
+
+#~ msgid "Save game before closing?"
+#~ msgstr "Menti a játékot kilépés előtt?"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
+#~ msgstr "Copyright 2005-2008 Robert Ancell (és a közreműködők)"
+
+#~ msgid ""
+#~ "The 2D/3D chess game for GNOME. \n"
+#~ "\n"
+#~ "glChess is a part of GNOME Games."
+#~ msgstr ""
+#~ "A GNOME 2D/3D sakkjátéka.\n"
+#~ "\n"
+#~ "A glChess a GNOME játékok része."
+
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "A(z) %s szabad szoftver, terjesztheti és/vagy módosíthatja a Free "
+#~ "Software Foundation által kiadott GNU General Public License második "
+#~ "(vagy bármely későbbi) változatában foglaltak alapján."
+
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "Nem hozható létre a(z) %(dir)s adatkönyvtár: %(error)s"
+
+#~| msgid "New password"
+#~ msgid "Incorrect password"
+#~ msgstr "Helytelen jelszó"
+
+#~| msgid "Account:"
+#~ msgid "Account in use"
+#~ msgstr "A felhasználói fiók használatban van"
+
+#~| msgid "Error connecting to server: %s"
+#~ msgid "Connection closed: %s"
+#~ msgstr "Kapcsolat lezárva: %s"
+
+#~ msgid "A password is required"
+#~ msgstr "Jelszó szükséges"
+
+#~| msgid "Disconnected from server."
+#~ msgid "Disconnected from server"
+#~ msgstr "Kapcsolat bontva a kiszolgálóval"
+
+#~ msgid "No description"
+#~ msgstr "Nincs leírás"
+
+#~| msgid "Small"
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "Kicsi"
+
+#~| msgid "Medium"
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "Közepes"
+
+#~| msgid "Large"
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "Nagy"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Nem lehet betölteni a témát"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "A következő fájl nem található meg:\n"
+#~ "„%s”\n"
+#~ "\n"
+#~ "Helyette az alapértelmezett téma kerül betöltésre."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "A következő fájl nem található meg:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ellenőrizze, hogy az Öt vagy több megfelelően van-e telepítve."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Helyezzen el öt egyszínű objektumot egy sorba!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME Öt vagy több"
+
+#~ msgid "_Board size:"
+#~ msgstr "A tábla _mérete:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Vége a játéknak!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Nem léphet oda!"
+
+#~ msgid "Five or More"
+#~ msgstr "Öt vagy több"
+
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr ""
+#~ "A népszerű Color Lines játék GNOME-átirata.\n"
+#~ "\n"
+#~ "Az Öt vagy több a GNOME játékok része."
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Öt vagy több beállításai"
+
+#~ msgid "Themes"
+#~ msgstr "Témák"
+
+#~ msgid "_Image:"
+#~ msgstr "Ké_p:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "_Háttérszín:"
+
+#~ msgid "Board Size"
+#~ msgstr "A tábla mérete"
+
+#~| msgid "General"
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "_Gyors mozgások használata"
+
+#~ msgid "Next:"
+#~ msgstr "Következő:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Színes labdák leszedése a tábláról azok egymás mellé helyezésével"
+
+#~ msgid "Background color"
+#~ msgstr "Háttérszín"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Háttérszín. A háttérszín hexa specifikációja."
+
+#~ msgid "Ball style"
+#~ msgstr "Labdastílus"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Labdastílus. A labdákhoz használt képek fájlneve."
+
+#~ msgid "Game field"
+#~ msgstr "Játékmező"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Az utolsó mentett menet játékmezője."
+
+#~ msgid "Game preview"
+#~ msgstr "Játék előkép"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Az utolsó mentett menet játék előképe."
+
+#~ msgid "Game score"
+#~ msgstr "Játék pontszám"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Az utolsó mentett menet játékállása."
+
+#~ msgid "Playing field size"
+#~ msgstr "Játékmező mérete"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Játékmező mérete. 1=Kicsi, 2=Közepes, 3=Nagy. Bármely más érték "
+#~ "érvénytelen."
+
+#~ msgid "Time between moves"
+#~ msgstr "Mozgások közötti idő"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Mozgások közötti idő ezredmásodpercben."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Négyet egy sorba"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Alkosson azonos színű sorokat a győzelemhez"
+
+#~ msgid "Connect four tiles in a row"
+#~ msgstr "Kössön össze négy korongot egy sorban"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "A kedvelt témát megadó szám."
+
+#~ msgid "Animate"
+#~ msgstr "Animáció"
+
+#~ msgid "Drop marble"
+#~ msgstr "Üveggolyó leejtése"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Billentyű az üveggolyó leejtéséhez."
+
+#~ msgid "Level of Player One"
+#~ msgstr "Első játékos szintje"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Második játékos szintje"
+
+#~ msgid "Theme ID"
+#~ msgstr "Témaazonosító"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Legyen-e animáció."
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr ""
+#~ "A nulla az ember, az egytől háromig terjedő értékek a számítógépes "
+#~ "játékos szintjét jelentik."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nem lehet betölteni a következő képet:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "Hálózati hiba történt."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Várakozás ellenfelek csatlakozására a játékhoz."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Üdvözöljük a hálózati %s játékban."
+
+#~ msgid "It's a draw!"
+#~ msgstr "Döntetlen!"
+
+#~ msgid "You win!"
+#~ msgstr "Ön nyert!"
+
+#~ msgid "It is your move."
+#~ msgstr "Ön jön."
+
+#~ msgid "I win!"
+#~ msgstr "Én nyertem!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Gondolkodom…"
+
+#~ msgid "%s wins!"
+#~ msgstr "%s nyert!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "%s jön."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Javaslat: %d. oszlop"
+
+#~ msgid "You:"
+#~ msgstr "Ön:"
+
+#~ msgid "Me:"
+#~ msgstr "Én:"
+
+#~ msgid "Scores"
+#~ msgstr "Pontszámok"
+
+#~ msgid "Drawn:"
+#~ msgstr "Döntetlen:"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "„Négyet egy sorba” játék a GNOME-hoz. A számítógép által vezérelt "
+#~ "játékost Giuliano Bertoletti Velena alrendszere működteti.\n"
+#~ "\n"
+#~ "A „négyet egy sorba” a GNOME játékok része."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "1. játékos:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "2. játékos:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "Első szint"
+
+#~ msgid "Level two"
+#~ msgstr "Második szint"
+
+#~ msgid "Level three"
+#~ msgstr "Harmadik szint"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "A Négyet egy sorba játék beállításai"
+
+#~ msgid "Appearance"
+#~ msgstr "Megjelenés"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Téma:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "_Animáció bekapcsolása"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "Ha_ngok bekapcsolása"
+
+#~ msgid "Classic"
+#~ msgstr "Klasszikus"
+
+#~ msgid "Red"
+#~ msgstr "Vörös"
+
+#~ msgid "Yellow"
+#~ msgstr "Sárga"
+
+#~ msgid "High Contrast"
+#~ msgstr "Nagy kontraszt"
+
+#~ msgid "Light"
+#~ msgstr "Világos"
+
+#~ msgid "Dark"
+#~ msgstr "Sötét"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Inverz nagy kontraszt"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Krémes golyók"
+
+#~ msgid "Blue"
+#~ msgstr "Kék"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Üveggolyók"
+
+#~ msgid "Nightfall"
+#~ msgstr "Szürkület"
+
+#~ msgid "Blocks"
+#~ msgstr "Tömbök"
+
+#~ msgid "Orange"
+#~ msgstr "Narancs"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "%s csatlakozott a játékhoz.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "A játék befejeződött, mivel a kiszolgáló %s elhagyta a játékot.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "%s játékos elhagyta a játékot.\n"
+
+#~| msgid ""
+#~| "Gnibbles couldn't find pixmap file:\n"
+#~| "%s\n"
+#~| "\n"
+#~| "Please check your Gnibbles installation"
+#~ msgid ""
+#~ "Nibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "A Kukacok nem találta a következő képfájlt:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ellenőrizze a Kukacok telepítést"
+
+#~| msgid ""
+#~| "Gnibbles couldn't load level file:\n"
+#~| "%s\n"
+#~| "\n"
+#~| "Please check your Gnibbles installation"
+#~ msgid ""
+#~ "Nibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "A Kukacok nem találta a következő szintfájlt:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ellenőrizze a Kukacok telepítést"
+
+#~| msgid ""
+#~| "Gnibbles couldn't load level file:\n"
+#~| "%s\n"
+#~| "\n"
+#~| "Please check your Gnibbles installation"
+#~ msgid ""
+#~ "Level file appears to be damaged:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "A szintfájl sérültnek tűnik:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ellenőrizze a Kukacok telepítést"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Kukacok pontszámok"
+
+#~ msgid "Speed:"
+#~ msgstr "Sebesség:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Gratulálok!"
+
+#~| msgid "Your score has made the top ten."
+#~ msgid "Your score is the best!"
+#~ msgstr "Pontszáma a legjobb!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Pontszáma benne van az első tízben."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Kukac irányítása egy labirintusban"
+
+#~ msgid "Nibbles"
+#~ msgstr "Kukacok"
+
+#~ msgid "Gnibbles"
+#~ msgstr "Kukacok"
+
+#~ msgid "Gnibbles is a worms game for GNOME."
+#~ msgstr "Egy kukacos játék a GNOME-hoz."
+
+#~ msgid "Color to use for worm"
+#~ msgstr "A kukachoz használandó szín"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "A kukachoz használandó szín."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Hamis bónuszok bekapcsolása"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Hamis bónuszok bekapcsolása."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Hangok bekapcsolása"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Hangok bekapcsolása."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Kezdőszint"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Kezdőszint."
+
+#~ msgid "Game speed"
+#~ msgstr "Játéksebesség"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Játéksebesség (1=gyors, 4=lassú)."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Billentyű a lefelé mozgáshoz."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Billentyű a balra mozgáshoz."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Billentyű a jobbra mozgáshoz."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Billentyű a felfelé mozgáshoz."
+
+#~ msgid "Move up"
+#~ msgstr "Felfelé mozgatás"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Gépi játékosok száma"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Gépi játékosok száma."
+
+#~ msgid "Number of human players"
+#~ msgstr "Emberi játékosok száma"
+
+#~ msgid "Number of human players."
+#~ msgstr "Emberi játékosok száma."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Szintek játszása véletlen sorrendben"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Szintek játszása véletlen sorrendben."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Játékkockák mérete"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Játékkockák mérete."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Relatív mozgatás használata"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Relatív mozgatás használata (vagyis csak balra vagy jobbra)."
+
+#~| msgid "Beginner"
+#~ msgctxt "game speed"
+#~ msgid "Beginner"
+#~ msgstr "Kezdő"
+
+#~| msgid "Slow"
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "Lassú"
+
+#~| msgid "Medium"
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "Közepes"
+
+#~| msgid "Fast"
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "Gyors"
+
+#~| msgid "Beginner with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Kezdő hamisítványokkal"
+
+#~| msgid "Slow with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Slow with Fakes"
+#~ msgstr "Lassú hamisítványokkal"
+
+#~| msgid "Medium with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Medium with Fakes"
+#~ msgstr "Közepes hamisítványokkal"
+
+#~| msgid "Fast with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Fast with Fakes"
+#~ msgstr "Gyors hamisítványokkal"
+
+#~ msgid ""
+#~ "A worm game for GNOME.\n"
+#~ "\n"
+#~ "Nibbles is a part of GNOME Games."
+#~ msgstr ""
+#~ "Egy kukacos játék a GNOME-hoz.\n"
+#~ "\n"
+#~ "A Kukacok a GNOME játékok része."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Vége a játéknak! %s nyert!"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Egy kukacos játék a GNOME-hoz."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Kukacok beállításai"
+
+#~ msgid "Speed"
+#~ msgstr "Sebesség"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Kukacok kezdő"
+
+#~ msgid "My second day"
+#~ msgstr "Második napom"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Nem túl kopott"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Viszket az ujjam, olyan jó"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_Szintek játszása véletlen sorrendben"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "_Hamis bónuszok bekapcsolása"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "_Emberi játékosok száma:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "Gé_pi játékosok száma:"
+
+#~ msgid "Worm"
+#~ msgstr "Kukac"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "Relatív _mozgatás használata"
+
+#~ msgid "_Worm color:"
+#~ msgstr "K_ukac színe:"
+
+#~ msgid "Green"
+#~ msgstr "Zöld"
+
+#~ msgid "Cyan"
+#~ msgstr "Ciánkék"
+
+#~ msgid "Purple"
+#~ msgstr "Bíbor"
+
+#~ msgid "Gray"
+#~ msgstr "Szürke"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Kukac %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Vége a játéknak!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "Remek munka, de a pontszáma sajnos nincs benne az első tízben."
+
+#~ msgid "Robots Scores"
+#~ msgstr "Robotok pontszámok"
+
+#~ msgid "Map:"
+#~ msgstr "Térkép:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Gratulálok, legyőzte a robotokat!\n"
+#~ "De meg tudja-e csinálni még egyszer?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Nem maradt több teleport hely!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Nincs több biztonságos teleport hely!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Játékszituáció beállítása"
+
+#~ msgid "Set game configuration"
+#~ msgstr "A játék beállítása"
+
+#~ msgid "Initial window position"
+#~ msgstr "Kezdeti ablakpozíció"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "Klasszikus robotok"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Klasszikus robotok biztonságos mozgásokkal"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Klasszikus robotok tuti-biztos mozgásokkal"
+
+#~ msgid "Nightmare"
+#~ msgstr "Rémálom"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Rémálom biztonságos mozgásokkal"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Rémálom tuti-biztos mozgásokkal"
+
+#~ msgid "Robots2"
+#~ msgstr "Robotok 2"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Robotok 2 biztonságos mozgásokkal"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Robotok 2 tuti-biztos mozgásokkal"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "Könnyű Robotok 2"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Könnyű Robotok 2 biztonságos mozgásokkal"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Könnyű Robotok 2 tuti-biztos mozgásokkal"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "Robotok biztonságos teleporttal"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "Robotok biztonságos teleporttal biztonságos mozgásokkal"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "Robotok biztonságos teleporttal tuti-biztos mozgásokkal"
+
+#~ msgid "Robots"
+#~ msgstr "Robotok"
+
+#~ msgid "No game data could be found."
+#~ msgstr "A játékadatok nem találhatók meg."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "A Robotok program nem talált érvényes játékbeállítás-fájlt. Ellenőrizze, "
+#~ "hogy a program megfelelően van-e telepítve."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Néhány grafikus fájl hiányzik vagy sérült."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "A Robotok program nem tudta betölteni az összes szükséges grafikus fájlt. "
+#~ "Ellenőrizze, hogy a program megfelelően van-e telepítve."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Kerülje el a robotokat és ütköztesse egymásnak őket"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Hang bekapcsolása"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr ""
+#~ "Hang bekapcsolása. Hangok lejátszása különböző eseményekhez a játék alatt."
+
+#~ msgid "Enable splats"
+#~ msgstr "Kilapítás bekapcsolása"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr ""
+#~ "Kilapítás engedélyezése. Hang lejátszása, és egy „Splat!” megjelenítése a "
+#~ "képernyőn."
+
+#~ msgid "Game type"
+#~ msgstr "Játék típusa"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Játék típusa. A használandó játékváltozat neve."
+
+#~ msgid "Key to hold"
+#~ msgstr "Nyomva tartandó billentyű"
+
+#~ msgid "Key to move E"
+#~ msgstr "Billentyű a keleti irányba mozgáshoz"
+
+#~ msgid "Key to move N"
+#~ msgstr "Billentyű az északi irányba mozgáshoz"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Billentyű az északkeleti irányba mozgáshoz"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Billentyű az északnyugati irányba mozgáshoz"
+
+#~ msgid "Key to move S"
+#~ msgstr "Billentyű a déli irányba mozgáshoz"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Billentyű a délkeleti irányba mozgáshoz"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Billentyű a délnyugati irányba mozgáshoz"
+
+#~ msgid "Key to move W"
+#~ msgstr "Billentyű a nyugati irányba mozgáshoz"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Billentyű a teleporthoz"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Billentyű a véletlenszerű teleporthoz"
+
+#~ msgid "Key to wait"
+#~ msgstr "Billentyű a várakozáshoz"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Robotkép-téma"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "Robotkép-téma. A rendszer a képek témáját használja a robotokhoz."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "Eszköztár mutatása. Egy szabvány lehetőség eszköztárakhoz."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "A mozdulatlanság fenntartásához használt billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "A keleti irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Az északkeleti irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Az északnyugati irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Az északi irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "A délkeleti irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "A délnyugati irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "A déli irányba mozgáshoz használandó billentyű neve. A név egy szabványos "
+#~ "X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "A nyugati irányba mozgáshoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "A véletlenszerű teleporthoz használandó billentyű neve. A név egy "
+#~ "szabványos X billentyűnév."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "A biztonságos teleporthoz (ha lehetséges) használandó billentyű neve. A "
+#~ "név egy szabványos X billentyűnév."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "A várakozáshoz használandó billentyű neve. A név egy szabványos X "
+#~ "billentyűnév."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Biztonságos lépések használata"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Használjon biztonságos lépéseket. A biztonságos lépések használata segít "
+#~ "abban, hogy ne haljon meg egy hiba következtében. Ha olyan lépést próbál "
+#~ "tenni, amely a halálához vezetne, amikor van biztonságos lépés, akkor a "
+#~ "rendszer ezt nem fogja engedni."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Tutibiztos lépések használata"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Használja a tutibiztos lépéseket. A rendszer figyelmeztetést küld, ha "
+#~ "nincs biztonságos lépés, és az egyetlen lehetőség kiteleportálni."
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "A(z) „%s” pixmap fájl nem található\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Mozgatás"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Teleport"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Teleportálás, ha lehet, biztonságosan"
+
+#~ msgid "_Random"
+#~ msgstr "_Véletlenszerű"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Teleportálás véletlenszerűen"
+
+#~ msgid "_Wait"
+#~ msgstr "Vá_rakozás"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Várakozás a robotokra"
+
+#~ msgid ""
+#~ "Based on classic BSD Robots.\n"
+#~ "\n"
+#~ "Robots is a part of GNOME Games."
+#~ msgstr ""
+#~ "A klasszikus BSD robotok alapján.\n"
+#~ "\n"
+#~ "A Robotok a GNOME játékok része."
+
+#~ msgid "classic robots"
+#~ msgstr "klasszikus robotok"
+
+#~ msgid "robots2"
+#~ msgstr "robotok2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "robotok2 könnyű"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "robotok biztonságos teleporttal"
+
+#~ msgid "nightmare"
+#~ msgstr "rémálom"
+
+#~ msgid "robots"
+#~ msgstr "robotok"
+
+#~ msgid "cows"
+#~ msgstr "bocik"
+
+#~ msgid "eggs"
+#~ msgstr "tojások"
+
+#~ msgid "gnomes"
+#~ msgstr "törpék"
+
+#~ msgid "mice"
+#~ msgstr "egerek"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "A Robotok beállításai"
+
+#~ msgid "Game Type"
+#~ msgstr "Játéktípus"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "_Biztonságos lépések használata"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Halálhoz vezető véletlen lépések megelőzése."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "_Tutibiztos lépések használata"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Minden halálhoz vezető lépés megelőzése."
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "Hangok lejátszása győzelem vagy halál esetén."
+
+#~ msgid "E_nable splats"
+#~ msgstr "_Kilapítás bekapcsolása"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "A legáltalánosabb és a lehető legunalmasabb hang lejátszása."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Grafikus téma"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_Képtéma:"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Háttérszín:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "Alapértelmezések vissz_aállítása"
+
+#~ msgid "Keyboard"
+#~ msgstr "Billentyűzet"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Biztonságos teleportok:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Hátra van:"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "Test your logic skills in this number grid puzzle"
+#~ msgstr "Tesztelje logikai képességeit ezzel a számrács-fejtörővel"
+
+#~ msgid "<b><i>Details</i></b>"
+#~ msgstr "<b><i>Részletek</i></b>"
+
+#~ msgid "<b><i>Levels of difficulty to print</i></b>"
+#~ msgstr "<b><i>Nyomtatandó szintek nehézsége</i></b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Játékok nyomtatása</span>"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Sudokuk nyomtatása"
+
+#~ msgid "_Easy"
+#~ msgstr "Kö_nnyű"
+
+#~ msgid "_Hard"
+#~ msgstr "Ne_héz"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "A _már játszott játékok felvétele a nyomtatandó játékok listájára"
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "Játékok megjelölése nyomtatás _után játszottként."
+
+#~ msgid "_Medium"
+#~ msgstr "Kö_zepes"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "_Nyomtatandó sudokuk száma: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "Sudokuk száma _oldalanként: "
+
+#~ msgid "_Very Hard"
+#~ msgstr "Nag_yon nehéz"
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Fejtörők száma</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Könnyű:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Nehéz:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Közepes:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Nagyon nehéz:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Fejtörők előállítása</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Feltétel:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Előállítás módja"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Új _fejtörők előállítása leállításig"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Előállítás a _cél eléréséig"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Fejtörők előállítása"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "Sudokuk kívánt s_záma:"
+
+#~ msgid "_Generate"
+#~ msgstr "_Előállítás"
+
+#~ msgid "<b><span size=\"large\">_New Game</span></b>"
+#~ msgstr "<b><span size=\"large\">Ú_j játék</span></b>"
+
+#~ msgid "<b><span size=\"large\">_Saved Games</span></b>"
+#~ msgstr "<b><span size=\"large\">Me_ntett játékok</span></b>"
+
+#~ msgid "Clear _Others"
+#~ msgstr "A tö_bbi törlése"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "Kö_vető felvétele"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "Követő _törlése"
+
+#~ msgid "_Trackers"
+#~ msgstr "_Követők"
+
+#~ msgid "Sudoku incorrectly installed"
+#~ msgstr "A Sudoku telepítése hibás"
+
+#~ msgid ""
+#~ "Sudoku is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "A Sudoku nem indítható, mivel a szükséges programfájlok nincsenek "
+#~ "telepítve. Ha jelenleg frissíti a rendszerét, akkor várjon a frissítés "
+#~ "befejeződéséig."
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player. Sudoku is a "
+#~ "japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "A GNOME Sudoku egy egyszerű Sudoku játék és fejtörő-előállító. A Sudoku "
+#~ "egy népszerű ál-japán logikai fejtörő.\n"
+#~ "\n"
+#~ "A GNOME Sudoku a GNOME játékok része."
+
+#~ msgid "No Space"
+#~ msgstr "Nincs hely"
+
+#~ msgid "No space left on disk"
+#~ msgstr "Nincs hely a lemezen"
+
+#~ msgid "Sudoku is unable to created data folder %(path)s."
+#~ msgstr "A Sudoku nem képes az adatmappát (%(path)s) létrehozni."
+
+#~ msgid "There is no disk space left!"
+#~ msgstr "Nincs több hely a lemezen!"
+
+#~ msgid "Sudoku was unable to create data folder %(path)s."
+#~ msgstr "A Sudoku nem képes az adatmappát (%(path)s) létrehozni."
+
+#~ msgid "Error %(errno)s: %(error)s"
+#~ msgstr "Hiba %(errno)s: %(error)s"
+
+#~ msgid "Sudoku unable to save game."
+#~ msgstr "A Sudoku nem képes menteni a játékot."
+
+#~ msgid "Unable to save file %(filename)s."
+#~ msgstr "A fájl (%(filename)s) nem menthető."
+
+#~ msgid "Sudoku unable to mark game as finished."
+#~ msgstr "A Sudoku nem tudja befejezettként megjelölni a játékot."
+
+#~ msgid "Track moves"
+#~ msgstr "Lépések követése"
+
+#~ msgid "Full Screen"
+#~ msgstr "Teljes képernyő"
+
+#~ msgid "New game"
+#~ msgstr "Új játék"
+
+#~ msgid "Print current game"
+#~ msgstr "Jelenlegi játék nyomtatása"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "_Több sudoku nyomtatása"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Egyszerre több sudoku nyomtatása."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "A Sudoku bezárása"
+
+#~ msgid "_Tools"
+#~ msgstr "_Eszközök"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Az aktuális négyzetbe beírható számok megjelenítése."
+
+#~ msgid "_Fill"
+#~ msgstr "K_itöltés"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "A jelenlegi négyzet automatikus kitöltése, ha lehetséges."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "Min_den négyzet kitöltése"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Az összes négyzet automatikus kitöltése, amelyekhez csak egy érvényes "
+#~ "érték van."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "Fejtörő-_statisztika"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "A jelenlegi fejtörő statisztikájának megjelenítése"
+
+#~ msgid "_Always show hint"
+#~ msgstr "Mindig mutasson _tippet"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Mindig mutassa a négyzetben lehetséges számokat"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "_Figyelmeztessen a kitölthetetlen négyzetekre"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "Figyelmeztessen a lépés által kitölthetetlenné tett négyzetekre"
+
+#~ msgid "_Track additions"
+#~ msgstr "_Módosítások követése"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "Új elemek követése eltérő színnel, így követheti azokat."
+
+#~ msgid "_Highlighter"
+#~ msgstr "Kie_melő"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Kiemeli az aktuális sort, oszlopot és dobozt"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Új fejtörők _előállítása játék közben"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Új fejtörők előállítása a háttérben játék közben. Ez automatikusan fel "
+#~ "lesz függesztve, ha a játék a háttérbe kerül."
+
+#~ msgid "_Edit"
+#~ msgstr "S_zerkesztés"
+
+#~ msgid "_Undo"
+#~ msgstr "_Visszavonás"
+
+#~ msgid "Undo last action"
+#~ msgstr "Utolsó lépés visszavonása"
+
+#~ msgid "_Redo"
+#~ msgstr "Új_ra"
+
+#~ msgid "Redo last action"
+#~ msgstr "Az utolsó lépés ismétlése"
+
+#~ msgid "_Clear"
+#~ msgstr "_Törlés"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Kitöltött bejegyzések törlése"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "_Megjegyzések törlése"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Megjegyzések és tippek törlése"
+
+#~ msgid "No Tracker"
+#~ msgstr "Nincs követő"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "Új _fejtörők előállítása"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Új fejtörők előállítása."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Egyéni rács megadása…"
+
+#~ msgid "_Play game"
+#~ msgstr "_Játék indítása"
+
+#~ msgid "You completed the puzzle in %(totalTime)s (%(activeTime)s active)"
+#~ msgstr "A fejtörőt %(totalTime)s (%(activeTime)s aktív) alatt oldotta meg"
+
+#~ msgid "You got %(n)s hint"
+#~ msgid_plural "You got %(n)s hints"
+#~ msgstr[0] "%(n)s tippet kapott"
+#~ msgstr[1] "%(n)s tippet kapott"
+
+#~ msgid "You had %(n)s impossibility pointed out."
+#~ msgid_plural "You had %(n)s impossibilities pointed out."
+#~ msgstr[0] "%(n)s lehetetlen helyzetre mutatott rá."
+#~ msgstr[1] "%(n)s lehetetlen helyzetre mutatott rá."
+
+#~ msgid "You used the auto-fill %(n)s time"
+#~ msgid_plural "You used the auto-fill %(n)s times"
+#~ msgstr[0] "Az automatikus kitöltést %(n)s alkalommal használta"
+#~ msgstr[1] "Az automatikus kitöltést %(n)s alkalommal használta"
+
+#~ msgid "Save this game before starting new one?"
+#~ msgstr "Menti a játékot egy új elkezdése előtt?"
+
+#~ msgid "_Save game for later"
+#~ msgstr "A játék _mentése"
+
+#~ msgid "_Abandon game"
+#~ msgstr "_Játék elhagyása"
+
+#~ msgid "Playing %(difficulty)s puzzle."
+#~ msgstr "Játék %(difficulty)s fejtörővel."
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Fejtörő-információk"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Nincs fejtörő."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Számított nehézség: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Eliminációval azonnal kitölthető lépések száma: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Kitöltéssel azonnal kitölthető lépések száma: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "A megoldáshoz szükséges próbálgatás mennyisége: "
+
+#~ msgid "Puzzle Statistics"
+#~ msgstr "Fejtörő-statisztika"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "A kijelölt követő által követett összes lépés törlése."
+
+#~ msgid "_Clear Others"
+#~ msgstr "_Többi törlése"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "A kijelölt követő által nem követett összes lépés törlése."
+
+#~ msgid "Tracker %s"
+#~ msgstr "%s követő"
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Sudoku nyomtatása"
+#~ msgstr[1] "Sudokuk nyomtatása"
+
+#~ msgid "Print Preview"
+#~ msgstr "Nyomtatási kép"
+
+#~ msgid "Last Played %(timeAgo)s"
+#~ msgstr "Utoljára játszva: %(timeAgo)s"
+
+#~ msgid "%(level)s puzzle"
+#~ msgstr "%(level)s fejtörő"
+
+#~ msgid "Played for %(duration)s"
+#~ msgstr "Játszva %(duration)s ideig"
+
+#~ msgid "Working..."
+#~ msgstr "Dolgozom…"
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s fejtörő"
+#~ msgstr[1] "%(n)s fejtörő"
+
+#~ msgid "Stopped"
+#~ msgstr "Leállítva"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "%(total)s fejtörőből %(n)s előállítva"
+#~ msgstr[1] "%(total)s fejtörőből %(n)s előállítva"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "%(n)s fejtörő előállítva"
+#~ msgstr[1] "%(n)s fejtörő előállítva"
+
+#~ msgid "Very Hard"
+#~ msgstr "Nagyon nehéz"
+
+#~ msgid "Medium"
+#~ msgstr "Közepes"
+
+#~ msgid "_Stop"
+#~ msgstr "_Leállítás"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Valóban ezt szeretné tenni?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Ne kérdezze újra."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s év"
+#~ msgstr[1] "%(n)s év"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s hónap"
+#~ msgstr[1] "%(n)s hónap"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s hét"
+#~ msgstr[1] "%(n)s hét"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s nap"
+#~ msgstr[1] "%(n)s nap"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s óra"
+#~ msgstr[1] "%(n)s óra"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s perc"
+#~ msgstr[1] "%(n)s perc"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s másodperc"
+#~ msgstr[1] "%(n)s másodperc"
+
+#~ msgid " and "
+#~ msgstr " és "
+
+#~ msgid ", "
+#~ msgstr " "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Today %R %p"
+#~ msgstr "Ma %k.%M"
+
+#~ msgid "Yesterday %R %p"
+#~ msgstr "Tegnap %k.%Mp"
+
+#~ msgid "%A %H:%M"
+#~ msgstr "%A %k.%M"
+
+#~ msgid "%A %B %d %R %p"
+#~ msgstr "%B %e. %A %k.%M"
+
+#~ msgid "%(n)s minute ago"
+#~ msgid_plural "%(n)s minutes ago"
+#~ msgstr[0] "%(n)s perce"
+#~ msgstr[1] "%(n)s perce"
+
+#~ msgid "%(n)s second ago"
+#~ msgid_plural "%(n)s seconds ago"
+#~ msgstr[0] "%(n)s másodperce"
+#~ msgstr[1] "%(n)s másodperce"
+
+#~ msgid "at %I:%M %p"
+#~ msgstr "ekkor: %k.%M"
+
+#~ msgid "yesterday at %I:%M %p"
+#~ msgstr "tegnap %k.%M"
+
+#~ msgid "%A %I:%M %p"
+#~ msgstr "%A %k.%M"
+
+#~ msgid "%B%e"
+#~ msgstr "%B %e."
+
+#~ msgid "Mines"
+#~ msgstr "Aknakereső"
+
+#~| msgid "Custom"
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "Egyéni"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Zászlók: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Az aknamező megtisztítva!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "Aknakereső pontszámok"
+
+#~ msgid "Size:"
+#~ msgstr "Méret:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Kattintson egy négyzetre; bármelyik négyzetre"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Lehet, hogy mindegyik akna…"
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Átméretezés és SVG-támogatás:"
+
+#~ msgid "Faces:"
+#~ msgstr "Arcok:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafika:"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered.\n"
+#~ "\n"
+#~ "Mines is a part of GNOME Games."
+#~ msgstr ""
+#~ "A népszerű aknakereső játék. Tisztítsa meg a táblát az aknáktól a már "
+#~ "felderített négyzetek tippjei alapján.\n"
+#~ "\n"
+#~ "Az Aknakereső a GNOME játékok része."
+
+#~ msgid "Field Size"
+#~ msgstr "Mező mérete"
+
+#~ msgid "Custom Size"
+#~ msgstr "Egyéni méret"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_Aknák száma:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Vízszintes:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Függőleges:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "„Nem vagyok benne biztos” _zászlók használata"
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "A „Túl sok zászló” _figyelmeztetés használata"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Aknakereső beállításai"
+
+#~ msgid "Width of grid"
+#~ msgstr "Rács szélessége"
+
+#~ msgid "Height of grid"
+#~ msgstr "Rács magassága"
+
+#~ msgid "Number of mines"
+#~ msgstr "Aknák száma"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "A tábla mérete (0-2 = kicsi - nagy, 3 = egyéni)"
+
+#~ msgid "X location of window"
+#~ msgstr "Az ablak X koordinátája"
+
+#~ msgid "Y location of window"
+#~ msgstr "Az ablak Y koordinátája"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Kattintson a folytatáshoz"
+
+#~ msgid "Time: "
+#~ msgstr "Idő: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Elrejtett aknák eltávolítása az aknamezőről"
+
+#~ msgid "Board size"
+#~ msgstr "A tábla mérete"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Zászlók automatikus elhelyezésének engedélyezése"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Oszlopok száma egyéni játékban"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Sorok száma egyéni játékban"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr ""
+#~ "Állítsa igaz értékre, hogy képes legyen a négyzeteket ismeretlenként "
+#~ "megjelölni."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Állítsa igazra a figyelmeztető ikonok engedélyezéséhez, ha túl sok "
+#~ "zászlót helyezett el."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Igazra állítva a gnomine automatikusan aknaként jelöli a négyzeteket, ha "
+#~ "elég négyzet van felfedve"
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Aknák száma egyéni játékban"
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Ismeretlen zászló használata"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Figyelmeztetés a túl sok zászlóról"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "A szükséges fájlokat nem lehet megtalálni. \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ellenőrizze a gnome-games telepítést."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "A szükséges képek megvannak, de nem tölthetők be.\n"
+#~ "\n"
+#~ "Kérjük, ellenőrizze a telepített gnome-games programot és annak "
+#~ "függőségeit."
+
+#~ msgid "Could not load images"
+#~ msgstr ""
+#~ "Nem lehet betölteni a következő képeket:\n"
+#~ "%s"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~| msgid "0"
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "0"
+
+#~| msgid "1"
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~| msgid "2"
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~| msgid "3"
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~| msgid "4"
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~| msgid "5"
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~| msgid "6"
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~| msgid "7"
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~| msgid "8"
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~| msgid "9"
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "_Méret"
+
+#~ msgid "Sol_ve"
+#~ msgstr "M_egoldás"
+
+#~ msgid "Solve the game"
+#~ msgstr "A feladat megoldása"
+
+#~ msgid "_Up"
+#~ msgstr "_Fel"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Az elemek felfelé mozgatása"
+
+#~ msgid "_Left"
+#~ msgstr "_Balra"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Az elemek balra mozgatása"
+
+#~ msgid "_Right"
+#~ msgstr "_Jobbra"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Az elemek jobbra mozgatása"
+
+#~ msgid "_Down"
+#~ msgstr "_Le"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Az elemek lefelé mozgatása"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Játék 2×2-es táblán"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Játék 3×3-as táblán"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Játék 4×4-es táblán"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Játék 5×5-ös táblán"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Játék 6×6-os táblán"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "_Csempeszínek"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "A tábla mérete (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "MÉRET"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Ezt kirakta! Kiváló!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Ezt kirakta!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Tetravex pontszámok"
+
+#~ msgid "Game paused"
+#~ msgstr "Játék szüneteltetve"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "A tábla mérete: %d×%d"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other.\n"
+#~ "\n"
+#~ "Tetravex is a part of GNOME Games."
+#~ msgstr ""
+#~ "A GNOME Tetravex egy egyszerű fejtörő, amelyben a darabokat úgy kell "
+#~ "összeilleszteni, hogy az azonos számok összeérjenek.\n"
+#~ "\n"
+#~ "A Tetravex a GNOME játékok része."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Oldja meg a fejtörőt az egyező számok összeillesztésével"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "Színes lapok engedélyezése."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Színes lapok vezérlése"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Válassza ki, hogy húzni kívánja a lapokat vagy kattintani szeretne a "
+#~ "forrásra és aztán a célra."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "A játékrács mérete"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Ennek az értéke határozza meg a játékrács méretét. Az érvényes értékek: 2 "
+#~ "- 8, bármi más megadása esetén 3 kerül beállításra."
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Only 18 steps"
+#~ msgstr "Csak 18 lépés"
+
+#~ msgid "Daisy"
+#~ msgstr "Százszorszép"
+
+#~ msgid "Violet"
+#~ msgstr "Viola"
+
+#~ msgid "Poppy"
+#~ msgstr "Pipacs"
+
+#~ msgid "Pansy"
+#~ msgstr "Árvácska"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Hóvirág"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Vörös csacsi"
+
+#~ msgid "Trail"
+#~ msgstr "Ösvény"
+
+#~ msgid "Ambush"
+#~ msgstr "Csapda"
+
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+#~ msgid "Success"
+#~ msgstr "Siker"
+
+#~ msgid "Bone"
+#~ msgstr "Csont"
+
+#~ msgid "Fortune"
+#~ msgstr "Szerencse"
+
+#~ msgid "Fool"
+#~ msgstr "Bolond"
+
+#~ msgid "Solomon"
+#~ msgstr "Salamon"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Kleopátra"
+
+#~ msgid "Shark"
+#~ msgstr "Cápa"
+
+#~ msgid "Rome"
+#~ msgstr "Róma"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Zászló"
+
+#~ msgid "Ithaca"
+#~ msgstr "Itaka"
+
+#~ msgid "Pelopones"
+#~ msgstr "Peloponész"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transzeurópa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Lengyel"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Balti tenger"
+
+#~ msgid "American Pie"
+#~ msgstr "Amerikai pite"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Dugó"
+
+#~ msgid "Sunshine"
+#~ msgstr "Napfény"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "Csak 18 lépés"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "HuaRong ösvény"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Kihíváscsomag"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Szakértői csomag"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Feladvány újraindítása"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Következő feladvány"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Előző feladvány"
+
+#~ msgid "Level completed."
+#~ msgstr "Szint teljesítve."
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Ezt megoldotta!"
+
+#~ msgid "Klotski Scores"
+#~ msgstr "Klotski pontszámok"
+
+#~ msgid "Puzzle:"
+#~ msgstr "Fejtörő:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Ezen játék témájának megjelenítése sikertelen.\n"
+#~ "\n"
+#~ "Ellenőrizze, hogy a Klotski megfelelően van-e telepítve."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Nem található a képfájl:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ellenőrizze, hogy a Klotski megfelelően van-e telepítve."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Lépések: %d"
+
+#~ msgid ""
+#~ "Sliding Block Puzzles\n"
+#~ "\n"
+#~ "Klotski is a part of GNOME Games."
+#~ msgstr ""
+#~ "Blokkcsúsztatós fejtörők\n"
+#~ "\n"
+#~ "A Klotski a GNOME játékok része."
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Csúsztassa el az elemeket a fejtörő megoldásához"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "A játszott feladvány száma."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "A játszott feladvány"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Már fel van használva. Hova szeretné tenni?"
+
+#~ msgid "Score: %d"
+#~ msgstr "Pontszám: %d"
+
+#~ msgid "Field used"
+#~ msgstr "Használt mező"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Győzze le az esélyeket egy póker stílusú kockajátékban"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Válassza ki, hogy legyen-e késleltetés a számítógép kockadobásai előtt "
+#~ "(így a játékos követheti, mi történik)."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Dobások közötti késleltetés"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "A számítógép gondolatainak megjelenítése"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Ha igaz értékre van állítva, az AI működése kiírásra kerül a standard "
+#~ "kimenetre."
+
+#~ msgid "Regular"
+#~ msgstr "Normál"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Játékos,Wilber,Bill,Monica,Kenneth,Janet]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "A számítógép lépéseinek késleltetése"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "A számítógép gondolatainak megjelenítése"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Számítógépes ellenfelek száma"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Élő ellenfelek száma"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Játék választása: Regular (Normál) vagy Colors (színes)"
+
+#~ msgid "STRING"
+#~ msgstr "KARAKTERLÁNC"
+
+#~ msgid "Number of computer-only games to play"
+#~ msgstr "A lejátszandó, csak számítógépes játékok száma"
+
+#~ msgid "Number of trials for each roll for the computer"
+#~ msgstr "A számítógép próbálkozásainak száma minden dobáshoz"
+
+#~| msgid "Regular"
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "Normál"
+
+#~| msgid "Colors"
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "Színes"
+
+#~ msgid "Roll all!"
+#~ msgstr "Dobás minddel!"
+
+#~ msgid "Roll!"
+#~ msgstr " Dobás!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Az eredmény döntetlen!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "Pontszámok"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s nyerte a játékot %d ponttal"
+#~ msgstr[1] "%s nyerte a játékot %d ponttal"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "A számítógép %s helyett játszik"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Ön jön!"
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Válasszon kockát a dobáshoz, vagy válasszon egy pontszámmezőt."
+
+#~ msgid "Roll"
+#~ msgstr "Dobás"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Csak három dobása van! Válasszon pontszámmezőt."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "GNOME verzió (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Konzol verzió (1992):"
+
+#~ msgid "Colors game and multi-level AI (2006):"
+#~ msgstr "Színes játék és többszintű mesterséges intelligencia (2006):"
+
+#~ msgid ""
+#~ "A variation on poker with dice and less money.\n"
+#~ "\n"
+#~ "Tali is a part of GNOME Games."
+#~ msgstr ""
+#~ "Egy pókerváltozat dobókockával és kevesebb pénzzel.\n"
+#~ "\n"
+#~ "A Tali a GNOME játékok része."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "A mostani játék az eredeti számú játékossal fog befejeződni."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "A Tali beállításai"
+
+#~ msgid "Human Players"
+#~ msgstr "Élő játékosok"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Játékosok száma:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Számítógépes ellenfelek"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_Dobások közötti késleltetés"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "_Ellenfelek száma:"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "_Nehézség:"
+
+#~| msgid "Easy"
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "Könnyű"
+
+#~| msgid "Medium"
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "Közepes"
+
+#~| msgid "Hard"
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "Nehéz"
+
+#~ msgid "Player Names"
+#~ msgstr "Játékosok neve"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "egyesek [összes egyes]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "kettesek [összes kettes]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "hármasok [összes hármas]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "négyesek [összes négyes]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "ötösök [összes ötös]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "hatosok [összes hatos]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "három egyforma [összes]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "négy egyforma [összes]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Full [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Kis sor [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Nagy sor [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "öt egyforma [ötven]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Esély [összes]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Alsó összeg"
+
+#~ msgid "Grand Total"
+#~ msgstr "Összeg"
+
+#~ msgid "Upper total"
+#~ msgstr "Felső összeg"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bónusz, ha nagyobb, mint 62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 pár azonos szín [összes]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Full house [15 + összes]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Azonos színű full house [20 + összes]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Flush (mind azonos szín) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "Négy egyforma [25 + összes]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "Öt egyforma [50 + összes]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Válasszon egy pontszámmezőt."
+
+#~ msgid "5 of a Kind [total]"
+#~ msgstr "öt egyforma [összes]"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid ""
+#~ "A disk flipping game derived from Reversi.\n"
+#~ "\n"
+#~ "Iagno is a part of GNOME Games."
+#~ msgstr ""
+#~ "A Reversiből származtatott korongfordítgatós játék.\n"
+#~ "\n"
+#~ "Az Iagno a GNOME játékok része."
+
+#~ msgid "Invalid move."
+#~ msgstr "Érvénytelen lépés."
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Most elhelyezhet egy sötét korongot"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Most elhelyezhet egy világos korongot"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Várakozás %s lépésére"
+
+#~ msgid "Dark's move"
+#~ msgstr "A sötét lép"
+
+#~ msgid "Light's move"
+#~ msgstr "A világos lép"
+
+#~ msgid "Dark:"
+#~ msgstr "Sötét:"
+
+#~ msgid "Light:"
+#~ msgstr "Világos:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Üdvözli az Iagno!"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Uralja a táblát a Reversi klasszikus változatában"
+
+#~ msgid ""
+#~ "The GNOME version of Reversi. The goal is to control the most disks on "
+#~ "the board."
+#~ msgstr ""
+#~ "A Reversi GNOME változata. A játék célja a legtöbb korongot birtokolni a "
+#~ "táblán."
+
+#~ msgid "Light player wins!"
+#~ msgstr "A világos nyert!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "A sötét nyert!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Döntetlen az eredmény."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "A világos nem tud lépni, a sötét jön"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "A sötét nem tud lépni, a világos jön"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Az Iagno beállításai"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "_Gyors lépések használata"
+
+#~ msgid "Animation"
+#~ msgstr "Animáció"
+
+#~ msgid "Partial"
+#~ msgstr "Részleges"
+
+#~ msgid "Complete"
+#~ msgstr "Teljes"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "_Imbolygó átfordítások"
+
+#~ msgid "S_how grid"
+#~ msgstr "_Rács megjelenítése"
+
+#~ msgid "_Flip final results"
+#~ msgstr "A vé_geredmény rendezése"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_Cserépkészlet:"
+
+#~ msgid "List of players:"
+#~ msgstr "Játékosok listája:"
+
+#~ msgctxt "card symbol"
+#~ msgid "JOKER"
+#~ msgstr "JOKER"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#~| msgid "2"
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~| msgid "3"
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~| msgid "4"
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~| msgid "5"
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~| msgid "6"
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~| msgid "7"
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~| msgid "8"
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~| msgid "9"
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~| msgid "1"
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Card Style"
+#~ msgstr "Kártyastílus"
+
+#~ msgid "_Deal"
+#~ msgstr "_Osztás"
+
+#~ msgid "_About"
+#~ msgstr "_Névjegy"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Mégse"
+
+#~ msgid "_Close"
+#~ msgstr "_Bezárás"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~| msgid "Eight Off"
+#~ msgid "Lights Off"
+#~ msgstr "Fények le"
+
+#~ msgid "Turn off all the lights"
+#~ msgstr "Kapcsolja le az összes lámpát"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "A kijelölt téma megjelenítése sikertelen.\n"
+#~ "\n"
+#~ "Ellenőrizze, hogy a Mahjongg megfelelően van-e telepítve."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "A következő fájl nem jeleníthető meg:\n"
+#~ "„%s”\n"
+#~ "\n"
+#~ "Ellenőrizze, hogy a Mahjongg megfelelően van-e telepítve."
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Nem lehet betölteni az elemkészletet"
+
+#~ msgid "Do you want to start a new game with this map?"
+#~ msgstr "Új játékot kíván indítani ezzel a térképpel?"
+
+#~| msgid ""
+#~| "If you choose to finish with the old map then the next game will use the "
+#~| "new map."
+#~ msgid "If you continue playing the next game will use the new map."
+#~ msgstr ""
+#~ "Ha folytatja a játékot, akkor a következő játék az új térképet fogja "
+#~ "használni."
+
+#~| msgid "Computer playing for %s"
+#~ msgid "_Continue playing"
+#~ msgstr "Játék f_olytatása"
+
+#~ msgid "Use _new map"
+#~ msgstr "Új _térkép használata"
+
+#~ msgid "There are no more moves."
+#~ msgstr "Nincs több lépés."
+
+#~| msgid "New game"
+#~ msgid "_New game"
+#~ msgstr "Ú_j játék"
+
+#~| msgid "Shuffle"
+#~ msgid "_Shuffle"
+#~ msgstr "Ke_verés"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Mahjongg pontszámok"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "A Mahjongg beállításai"
+
+#~ msgid "Tiles"
+#~ msgstr "Elemek"
+
+#~ msgid "Maps"
+#~ msgstr "Térképek"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Válasszon térképet:"
+
+#~ msgid "Colors"
+#~ msgstr "Színek"
+
+#~ msgid "Maps:"
+#~ msgstr "Térképek:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Elemek:"
+
+#~ msgid ""
+#~ "A matching game played with Mahjongg tiles.\n"
+#~ "\n"
+#~ "Mahjongg is a part of GNOME Games."
+#~ msgstr ""
+#~ "Párkereső játék Mahjongg téglákkal.\n"
+#~ "\n"
+#~ "A Mahjongg a GNOME játékok része."
+
+#~ msgid "Mahjongg - %s"
+#~ msgstr "Mahjongg – %s"
+
+#~ msgid "Redo the last move"
+#~ msgstr "Az utolsó lépés ismétlése"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Hátralévő elemek:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Hátralévő lépések:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Távolítsa el az összeillő téglapárokat."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Elemcsoportok leszedése egyező párok eltávolításával"
+
+#~| msgid "Easy"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "Könnyű"
+
+#~| msgid "The Ziggurat"
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "Zikkurat"
+
+#~| msgid "Four Bridges"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "Négy híd"
+
+#~| msgid "Cloud"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "Felhő"
+
+#~| msgid "Tic-Tac-Toe"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Tic-Tac-Toe"
+
+#~| msgid "Red Dragon"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "Vörös sárkány"
+
+#~| msgid "Pyramid's Walls"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Piramisfal"
+
+#~| msgid "Confounding Cross"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "Zavarba ejtő kereszt"
+
+#~| msgid "Difficult"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "Nehéz"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "A tábla teljes kiürítéséért 1000 pont jutalom!"
+
+#~ msgid "Set the theme"
+#~ msgstr "A téma beállítása"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "A visszamenőleges kompatibilitás érdekében"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "A tábla mérete (1=kicsi, 3=nagy)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr ""
+#~ "Tisztítsa meg a képernyőt az egyező színű golyócsoportok eltávolításával"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Same GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Az egyéni tábla magassága"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Ennek hamisra állítása hatására a darabok lassan, de elegánsan esnek. "
+#~ "Igaz érték hatására a darabok gyorsan és egyenetlenül esnek."
+
+#~ msgid "The board size"
+#~ msgstr "A tábla mérete"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "A használandó téma neve."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Az egyéni tábla magassága, 101 &gt; height &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "A használandó tábla mérete: 1 = egyéni, 2 = kicsi, 3 = közepes, 4 = nagy."
+
+#~ msgid "The theme to use"
+#~ msgstr "A használandó téma"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Az egyéni tábla szélessége, 101 &gt; width &gt; 3."
+
+#~ msgid "Use fast animation"
+#~ msgstr "Gyors animáció használata"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Az egyéni tábla szélessége"
+
+#~ msgid "No points"
+#~ msgstr "Nincs pont"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d pont"
+#~ msgstr[1] "%d pont"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!\n"
+#~ "\n"
+#~ "Same GNOME is a part of GNOME Games."
+#~ msgstr ""
+#~ "Akarok játszani ezzel! Forognak körbe, az ember rákattint és eltűnnek!\n"
+#~ "\n"
+#~ "A Same GNOME a GNOME játékok része."
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Same GNOME pontszám"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "Pontszáma sajnos nincs benne az első tízben."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Same GNOME téma"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Téma…"
+
+#~ msgid "_Small"
+#~ msgstr "Kic_si"
+
+#~ msgid "_Large"
+#~ msgstr "_Nagy"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "G_yors animáció"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Nem találok témaadatokat."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Nem lehet játszani a játékkal. Kérjük, ellenőrizze, hogy a játék helyesen "
+#~ "van-e telepítve, és próbálja meg újra."

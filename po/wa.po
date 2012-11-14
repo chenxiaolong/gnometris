@@ -1,0 +1,2950 @@
+#
+# Translation into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avans co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2000
+# Lorint Hendschel <LorintHendschel@skynet.be> 2002
+# Pablo Saratxaga <pablo@walon.org>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games 1.3.90\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2003-08-03 15:17+0200\n"
+"Last-Translator: Lorint Hendschel <LorintHendschel@skynet.be>\n"
+"Language-Team: Walon <linux-wa@chanae.alphanet.ch>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Djoké"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Li djeu est houte"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+#, fuzzy
+msgid "The background color"
+msgstr "Coleur do fond"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+#, fuzzy
+msgid "Move down"
+msgstr "Bodjî viè l' bas li pîce tchoezeye"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+#, fuzzy
+msgid "Rotate"
+msgstr "Renonder"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Djoker"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+#, fuzzy
+msgid "Set starting level (1 or greater)"
+msgstr "Diner l' livea po cmincî (1-10)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "LIVEA"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+#, fuzzy
+msgid "Plain"
+msgstr "Djoker"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+#, fuzzy
+msgid "Joined"
+msgstr "Nole"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Ponts:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Royes:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Livea:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Djeu"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:121
+#, fuzzy
+msgid "_Help"
+msgstr "Aidance"
+
+#: ../gnometris/tetris.cpp:611
+#, fuzzy
+msgid "Gnometris Preferences"
+msgstr "Preferinces di Gnome tetrisse"
+
+#: ../gnometris/tetris.cpp:632
+#, fuzzy
+msgid "Game"
+msgstr "_Djeu"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Apontyî"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+#, fuzzy
+msgid "_Number of pre-filled rows:"
+msgstr "Nombe di royes pre-rimpleyes:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+#, fuzzy
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "Nombe di royes pre-rimpleyes:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+#, fuzzy
+msgid "_Starting level:"
+msgstr "Livea po cmincî: "
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Operåcion"
+
+#: ../gnometris/tetris.cpp:705
+#, fuzzy
+msgid "_Enable sounds"
+msgstr "Mete en alaedje li son"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:723
+#, fuzzy
+msgid "_Use random block colors"
+msgstr "Blocs di coleur a l' astcheyance"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Tinme"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:793
+#, fuzzy
+msgid "Block Style"
+msgstr "Ôrlodje"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+#, fuzzy
+msgid "GNOME Games web site"
+msgstr "Nou sierveu d' djeus di defini"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Pablo Saratxaga <pablo@mandrakesoft.com>\n"
+"Lorint Hendschel <LorintHendschel@skynet.be>"
+
+#: ../gnometris/highscores.cpp:52
+#, fuzzy
+msgid "Gnometris Scores"
+msgstr "Ponts"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "Livea po cmincî: "
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "Apontiaedje pol djeu"
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "FILE"
+msgstr "NOFITCHÎ"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+#, fuzzy
+msgid "No key"
+msgstr "Nole"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:332
+#, fuzzy
+msgid "Unknown Command"
+msgstr "Coleur nén cnoxhowe"
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr "Avoz léjhou li fitchî d' aidance?"
+
+#: ../libgames-support/games-scores-dialog.c:114
+#, fuzzy
+msgid "Time"
+msgstr "Tins:"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Ponts"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Novea Djeu"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "No"
+
+#: ../libgames-support/games-stock.c:45
+#, fuzzy
+msgid "View help for this game"
+msgstr "Candjî les tchuzes po ci djeu chal"
+
+#: ../libgames-support/games-stock.c:46
+#, fuzzy
+msgid "End the current game"
+msgstr "Renonder l' livea do moumint"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Dimander ene racsegne pol côp ki vént"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:50
+#, fuzzy
+msgid "Start a new multiplayer network game"
+msgstr "Enonder on novea djeu"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Enonder on novea djeu"
+
+#: ../libgames-support/games-stock.c:53
+#, fuzzy
+msgid "Pause the game"
+msgstr "Djoker l' djeu"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Rifé li dierin movmint disfé"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Renonder l' djeu"
+
+#: ../libgames-support/games-stock.c:57
+#, fuzzy
+msgid "Resume the paused game"
+msgstr "Renonder l' djeu"
+
+#: ../libgames-support/games-stock.c:58
+#, fuzzy
+msgid "View the scores"
+msgstr "Diner les cåtes"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Disfé li dierin movmint"
+
+#: ../libgames-support/games-stock.c:60
+#, fuzzy
+msgid "About this game"
+msgstr "Rataker ç' djeu ci"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:63
+#, fuzzy
+msgid "Quit this game"
+msgstr "Rataker ç' djeu ci"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:296
+#, fuzzy
+msgid "_Fullscreen"
+msgstr "Forrimpli li purnea"
+
+#: ../libgames-support/games-stock.c:297
+#, fuzzy
+msgid "_Hint"
+msgstr "Racsegne"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+#, fuzzy
+msgid "_New"
+msgstr "Novea"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+#, fuzzy
+msgid "_New Game"
+msgstr "Novea Djeu"
+
+#: ../libgames-support/games-stock.c:302
+#, fuzzy
+msgid "_Redo Move"
+msgstr "_Bodjî"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+#, fuzzy
+msgid "_Reset"
+msgstr "_Rîles"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+#, fuzzy
+msgid "_Restart"
+msgstr "Renonder"
+
+#: ../libgames-support/games-stock.c:307
+#, fuzzy
+msgid "_Undo Move"
+msgstr "_Bodjî"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:309
+#, fuzzy
+msgid "Network _Game"
+msgstr "Novea djeu _rantoele"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "Novea Djeu"
+
+#: ../libgames-support/games-stock.c:311
+#, fuzzy
+msgid "Player _List"
+msgstr "Djoweus"
+
+#: ../libgames-support/games-stock.c:312
+#, fuzzy
+msgid "_Pause"
+msgstr "Djoker"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:314
+#, fuzzy
+msgid "_Scores"
+msgstr "Ponts"
+
+#: ../libgames-support/games-stock.c:315
+#, fuzzy
+msgid "_End Game"
+msgstr "_Djeu"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Player Chat"
+#~ msgstr "Nos des djoweus"
+
+#, fuzzy
+#~ msgid "Reserved"
+#~ msgstr "set"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "Avançmint do djeu"
+
+#, fuzzy
+#~ msgid "Player List"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Sit here"
+#~ msgstr "troes"
+
+#, fuzzy
+#~ msgid "Move here"
+#~ msgstr "_Bodjî"
+
+#, fuzzy
+#~ msgid "Drop reservation"
+#~ msgstr "Operåcion"
+
+#, fuzzy
+#~ msgid "Remove bot"
+#~ msgstr "Bodjî les as"
+
+#, fuzzy
+#~ msgid "Recently Played Games"
+#~ msgstr "Nos des djoweus"
+
+#, fuzzy
+#~ msgid "Statistics of games played"
+#~ msgstr "Rataker ç' djeu ci"
+
+#~ msgid "The game file to use"
+#~ msgstr "Li fitchî d' djeu a-z eployî"
+
+#, fuzzy
+#~ msgid "Theme file name"
+#~ msgstr "Fitchî tinme"
+
+#, fuzzy
+#~ msgid "Congratulations!!!"
+#~ msgstr "Complumints."
+
+#, fuzzy
+#~ msgid "You have won."
+#~ msgstr "Vos wangnîz!!!"
+
+#~ msgid "There are no more moves."
+#~ msgstr "I gn a pus d' movmints possibes."
+
+#~ msgid "Select Game"
+#~ msgstr "Tchoezi on Djeu"
+
+#~ msgid ""
+#~ "The game is over.\n"
+#~ "No hints are available"
+#~ msgstr ""
+#~ "Li djeu est foû.\n"
+#~ "Nou copion por vos!"
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Ci djeu chal n' a nén co des copion."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Bodjî li %s so %s."
+
+#~ msgid "Move %s %s."
+#~ msgstr "Bodjî li %s %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Vos cweroz après on %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Ci djeu chal ni pout nén dner des racsegnes."
+
+#, fuzzy
+#~ msgid "AisleRiot Cards"
+#~ msgstr "AisleRiot"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Li cwårdjeu di Freecell"
+
+#~ msgid "Main game:"
+#~ msgstr "Mwaisse djeu:"
+
+#~ msgid "Card games:"
+#~ msgstr "Cwårdjeus:"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#, fuzzy
+#~ msgid "Restart the current game"
+#~ msgstr "Renonder l' djeu"
+
+#, fuzzy
+#~ msgid "_Select Game..."
+#~ msgstr "Tchoezi on Djeu"
+
+#, fuzzy
+#~ msgid "Play a different game"
+#~ msgstr "Tchoezi on djeu diferin"
+
+#, fuzzy
+#~ msgid "Redo the last move"
+#~ msgstr "Disfé li dierin movmint"
+
+#~ msgid "_Toolbar"
+#~ msgstr "Bår ås _usteyes"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Cåte di båze: As"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Cåte di båze: Valet"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Cåte di båze: Roy"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Cåte di båze: Dame"
+
+#, fuzzy
+#~ msgid "Base Card: ~a"
+#~ msgstr "Cåte di båze: "
+
+#~ msgid "Deal more cards"
+#~ msgstr "Diner co des cåtes"
+
+#~ msgid "Stock left:"
+#~ msgstr "Cåtes ki dmorèt:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Cåtes ki dmorèt: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Sayîz d' rarindjî les cåtes"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Diner 'ne novele cåte foû do djeu"
+
+#~ msgid "Deal another round"
+#~ msgstr "Ridjower ene pårt"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Metoz ene sacwè a ene plaece vude"
+
+#~ msgid "Base Card: "
+#~ msgstr "Cåte di båze: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Rimete les cåtes eshonne"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Les noveas ramons schovèt voltî"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Est çki nos poirtans l' lapén a måle ou est çk' on nel poite nén?"
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "C' est vos k' est mwaisse, mins l' bahut, nos l' metrans la"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr "Ça î est, c' est co todi mi k' a cassé l' pailon"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Roci, c' est come a Melri: li ci ki presse doet aler rcweri"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Les waitroûles di dnèt pont di vitamene D, mins l' solea oyi..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Vos ndè voloz nén, hazård? Non merci"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa est on meyeu djeu.  C' est l' vraiy."
+
+#, fuzzy
+#~ msgid "Redeal."
+#~ msgstr "Rodje"
+
+#~ msgid "Deal a card"
+#~ msgstr "Diner ene cåte"
+
+#, fuzzy
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Metoz ene sacwè a ene plaece vude"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Bodjî les as"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Bodjî les ûts"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Bodjî les cénks"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Bodjî les cwates"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Bodjî les valets"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Bodjî les roys"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Bodjî les noûfs"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Bodjî les dames"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Bodjî les sets"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Bodjî les shijhs"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Bodjî les dijhs"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Bodjî les troes"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Bodjî les deus"
+
+#, fuzzy
+#~ msgid "Return cards to stock"
+#~ msgstr "Rimete les cåtes eshonne"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Vos duvrîz sondjî a bodjî åk dins 'ne plaece k' est vude"
+
+#, fuzzy
+#~ msgid "an empty reserve"
+#~ msgstr "Metoz ene sacwè a ene plaece vude"
+
+#, fuzzy
+#~ msgid "No hint available."
+#~ msgstr "%s: nou tinme di disponibe\n"
+
+#~ msgid "Deal another card"
+#~ msgstr "Diner 'ne novele cåte"
+
+#, fuzzy
+#~ msgid "Stock left: ~a"
+#~ msgstr "Cåtes ki dmorèt: 0"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Diner ene novele cåte"
+
+#, fuzzy
+#~ msgid "Move card from waste"
+#~ msgstr "Prinde ene cåte foû del forcåte"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Rimete les cåtes eshonne"
+
+#, fuzzy
+#~ msgid "Deal a new card"
+#~ msgstr "Diner ene novele cåte"
+
+#~ msgid "Base Card:"
+#~ msgstr "Cåte di båze:"
+
+#, fuzzy
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Diner 'ne novele cåte foû do djeu"
+
+#~ msgid "something"
+#~ msgstr "ene sacwè"
+
+#, fuzzy
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Metoz ene sacwè a ene plaece vude"
+
+#, fuzzy
+#~ msgid "Shuffle mode"
+#~ msgstr "Xhufler les pîces"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Diner les cåtes"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Rimaxhî les cåtes"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Metoz 'ne sacwè a 'ne plaece vude"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Diner ene cåte dins l' djeu"
+
+#~ msgid "Aisleriot"
+#~ msgstr "Aisleriot"
+
+#~ msgid "Time:"
+#~ msgstr "Tins:"
+
+#, fuzzy
+#~ msgid "Select the game to play"
+#~ msgstr "Djeu a djower"
+
+#~ msgid "NAME"
+#~ msgstr "NO"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot Solitaire"
+
+#~ msgid "Unknown color"
+#~ msgstr "Coleur nén cnoxhowe"
+
+#~ msgid "Unknown value"
+#~ msgstr "Valixhance nén cnoxhowe"
+
+#~ msgid "diamonds"
+#~ msgstr "cârôs"
+
+#~ msgid "eight"
+#~ msgstr "ût"
+
+#~ msgid "five"
+#~ msgstr "cénk"
+
+#~ msgid "four"
+#~ msgstr "cwate"
+
+#~ msgid "hearts"
+#~ msgstr "cours"
+
+#~ msgid "jack"
+#~ msgstr "poirteu d' sope"
+
+#~ msgid "king"
+#~ msgstr "roy"
+
+#~ msgid "nine"
+#~ msgstr "noûf"
+
+#~ msgid "queen"
+#~ msgstr "dame"
+
+#~ msgid "seven"
+#~ msgstr "set"
+
+#~ msgid "six"
+#~ msgstr "shijh"
+
+#~ msgid "ten"
+#~ msgstr "dijh"
+
+#~ msgid "the unknown card"
+#~ msgstr "cåte nén cnoxhowe"
+
+#~ msgid "three"
+#~ msgstr "troes"
+
+#~ msgid "two"
+#~ msgstr "deus"
+
+#, fuzzy
+#~ msgid "Total:"
+#~ msgstr "Totå"
+
+#, fuzzy
+#~ msgid "Wins:"
+#~ msgstr "Royes:"
+
+#, fuzzy
+#~ msgid "Worst:"
+#~ msgstr "Halene"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnès"
+
+#, fuzzy
+#~ msgid "Athena"
+#~ msgstr "dijh"
+
+#, fuzzy
+#~ msgid "Backbone"
+#~ msgstr "Noer"
+
+#, fuzzy
+#~ msgid "Bakers Game"
+#~ msgstr "Novea Djeu"
+
+#~ msgid "Chessboard"
+#~ msgstr "Platea"
+
+#~ msgid "Clock"
+#~ msgstr "Ôrlodje"
+
+#, fuzzy
+#~ msgid "Diamond Mine"
+#~ msgstr "cârôs"
+
+#~ msgid "Fourteen"
+#~ msgstr "Catoize"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#, fuzzy
+#~ msgid "Gaps"
+#~ msgstr "Mapes"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Neighbor"
+#~ msgstr "Vejhnåve"
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Quatorze"
+#~ msgstr "Catoize"
+
+#~ msgid "Template"
+#~ msgstr "Modele"
+
+#~ msgid "Thieves"
+#~ msgstr "Hapeus"
+
+#~ msgid "Thirteen"
+#~ msgstr "Traze"
+
+#, fuzzy
+#~ msgid "Triple Peaks"
+#~ msgstr "Djeu d' pîces"
+
+#, fuzzy
+#~ msgid "Deal a new hand"
+#~ msgstr "Diner ene novele cåte"
+
+#, fuzzy
+#~ msgid "_Hit"
+#~ msgstr "Racsegne"
+
+#, fuzzy
+#~ msgid "Add a card to the hand"
+#~ msgstr "Diner ene cåte dins l' djeu"
+
+#, fuzzy
+#~ msgid "_Stand"
+#~ msgstr "_Son"
+
+#, fuzzy
+#~ msgid "S_plit the hand"
+#~ msgstr "Diner ene novele cåte"
+
+#, fuzzy
+#~ msgid "Show toolbar"
+#~ msgstr "Mostrer li bår ås usteyes"
+
+#~ msgid "Cards left:"
+#~ msgstr "Cåtes ki dmorèt:"
+
+#~ msgid "Rules"
+#~ msgstr "Rîles"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Clitchîz po dner ene novele cåte"
+
+#, fuzzy
+#~ msgid "Players on server: %d"
+#~ msgstr "Djoweu 1: %s"
+
+#, fuzzy
+#~ msgid "You're not at a table."
+#~ msgstr "%s: nou tinme di disponibe\n"
+
+#, fuzzy
+#~ msgid "The game is over."
+#~ msgstr "Nou sierveu d' djeus di defini"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "Li raloyaedje a fwait berwete"
+
+#, fuzzy
+#~ msgid "Online"
+#~ msgstr "noûf"
+
+#, fuzzy
+#~ msgid "Playing"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "Server:"
+#~ msgstr "Ponts:"
+
+#, fuzzy
+#~ msgid "Port:"
+#~ msgstr "Halene"
+
+#, fuzzy
+#~ msgid "Username:"
+#~ msgstr "No do djeu"
+
+#, fuzzy
+#~ msgid "Deity"
+#~ msgstr "ût"
+
+#, fuzzy
+#~ msgid "Sentinel"
+#~ msgstr "noûf"
+
+#, fuzzy
+#~ msgid "Knight"
+#~ msgstr "ût"
+
+#, fuzzy
+#~ msgid "Angel"
+#~ msgstr "Agnès"
+
+#, fuzzy
+#~ msgid "Eagle"
+#~ msgstr "Lådje"
+
+#, fuzzy
+#~ msgid "Colonel"
+#~ msgstr "Coleurs"
+
+#~ msgid "General"
+#~ msgstr "Djenerå"
+
+#, fuzzy
+#~ msgid "Major"
+#~ msgstr "Mahjongg"
+
+#, fuzzy
+#~ msgid "Scout"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Scholar"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Beep sent to %s."
+#~ msgstr "Bodjî li %s so %s."
+
+#, fuzzy
+#~ msgid "Launched game"
+#~ msgstr "Djoker l' djeu"
+
+#, fuzzy
+#~ msgid "Launch failed"
+#~ msgstr "Li raloyaedje a fwait berwete"
+
+#, fuzzy
+#~ msgid "Game Error"
+#~ msgstr "Li djeu est houte"
+
+#, fuzzy
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Ci djeu chal n' a nén co des copion."
+
+#, fuzzy
+#~ msgid "Opera - Existing"
+#~ msgstr "Operåcion"
+
+#~ msgid "None"
+#~ msgstr "Nole"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Operåcion"
+
+#, fuzzy
+#~ msgid "Game Types"
+#~ msgstr "Sôrtes di Djeu"
+
+#, fuzzy
+#~ msgid "Set"
+#~ msgstr "Apontyî"
+
+#, fuzzy
+#~ msgid "Upgrage Game"
+#~ msgstr "Novea Djeu"
+
+#, fuzzy
+#~ msgid "Player Information"
+#~ msgstr "Teleportåcion do djoweu"
+
+#, fuzzy
+#~ msgid "Player Handle:"
+#~ msgstr "Djoweu moirt"
+
+#, fuzzy
+#~ msgid "Table:"
+#~ msgstr "Pîces:"
+
+#, fuzzy
+#~ msgid "Record:"
+#~ msgstr "Ponts:"
+
+#, fuzzy
+#~ msgid "Rating:"
+#~ msgstr "I dmeure:"
+
+#, fuzzy
+#~ msgid "Rank:"
+#~ msgstr "Noeres:"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr "Valixhance nén cnoxhowe"
+
+#, fuzzy
+#~ msgid "Guest"
+#~ msgstr "Rîles"
+
+#, fuzzy
+#~ msgid "Host"
+#~ msgstr "Halene"
+
+#, fuzzy
+#~ msgid "Ignore"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Avançmint do djeu"
+
+#, fuzzy
+#~ msgid "Leave"
+#~ msgstr "Livea:"
+
+#, fuzzy
+#~ msgid "No description available."
+#~ msgstr "%s: nou tinme di disponibe\n"
+
+#, fuzzy
+#~ msgid "Seats"
+#~ msgstr "cours"
+
+#, fuzzy
+#~ msgid "Game Name:"
+#~ msgstr "No do djeu"
+
+#, fuzzy
+#~ msgid "Homepage:"
+#~ msgstr "Tinme des imådjes:"
+
+#, fuzzy
+#~ msgid "Unknown room"
+#~ msgstr "Coleur nén cnoxhowe"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "Coleur nén cnoxhowe"
+
+#, fuzzy
+#~ msgid "Room"
+#~ msgstr "nûtons"
+
+#, fuzzy
+#~ msgid "Game Type:  %s"
+#~ msgstr "Sôrtes di Djeu"
+
+#, fuzzy
+#~ msgid "Game Type:"
+#~ msgstr "Sôrtes di Djeu"
+
+#, fuzzy
+#~ msgid "Number of seats"
+#~ msgstr "Nombe di menes"
+
+#, fuzzy
+#~ msgid "Open"
+#~ msgstr "Operåcion"
+
+#, fuzzy
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Dedja eployî! Wice ki vos vloz mete çoula? "
+
+#, fuzzy
+#~ msgid "Watch"
+#~ msgstr "Rawårder"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "Viyolet"
+
+#, fuzzy
+#~ msgid "Player Stats"
+#~ msgstr "Nos des djoweus"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "Aidance"
+
+#, fuzzy
+#~ msgid "GGZ Help"
+#~ msgstr "Aidance"
+
+#, fuzzy
+#~ msgid "Game Help"
+#~ msgstr "Li djeu est houte"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "Roedeu"
+
+#, fuzzy
+#~ msgid "Servers"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "Orandje"
+
+#, fuzzy
+#~ msgid "Play Sounds"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Chat Color"
+#~ msgstr "Coleurs"
+
+#, fuzzy
+#~ msgid "Normal Color"
+#~ msgstr "Coleur del halene:"
+
+#, fuzzy
+#~ msgid "Black Background"
+#~ msgstr "Coleur do fond"
+
+#, fuzzy
+#~ msgid "White Background"
+#~ msgstr "Coleur do fond"
+
+#, fuzzy
+#~ msgid "Chat"
+#~ msgstr "cours"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "No"
+
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "Avançmint do djeu"
+
+#, fuzzy
+#~ msgid "User Information"
+#~ msgstr "Bodjî radmint"
+
+#, fuzzy
+#~ msgid "Display Important"
+#~ msgstr "Vey les tuzaedjes del copiutrece"
+
+#~ msgid "Options"
+#~ msgstr "Tchuzes"
+
+#, fuzzy
+#~ msgid "Select Font"
+#~ msgstr "Tchoezi on Djeu"
+
+#, fuzzy
+#~ msgid "Unknown negotation"
+#~ msgstr "Coleur nén cnoxhowe"
+
+#, fuzzy
+#~ msgid "Unknown login error"
+#~ msgstr "Coleur nén cnoxhowe"
+
+#, fuzzy
+#~ msgid "Room full"
+#~ msgstr "nûtons"
+
+#, fuzzy
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Coleur nén cnoxhowe"
+
+#, fuzzy
+#~ msgid "Communication:"
+#~ msgstr "Animåcion"
+
+#, fuzzy
+#~ msgid "Playing as:"
+#~ msgstr "Djowant e livea %s"
+
+#, fuzzy
+#~ msgid "Save Chess Game"
+#~ msgstr "Djoker l' djeu"
+
+#, fuzzy
+#~ msgid "Load Chess Game"
+#~ msgstr "Enonder on novea djeu"
+
+#, fuzzy
+#~ msgid "AI Information"
+#~ msgstr "Animåcion"
+
+#, fuzzy
+#~ msgid "End Game"
+#~ msgstr "_Djeu"
+
+#, fuzzy
+#~ msgid "Join Game"
+#~ msgstr "_Djeu"
+
+#, fuzzy
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "Forrimpli li purnea"
+
+#, fuzzy
+#~ msgid "Load a saved game"
+#~ msgstr "Enonder on novea djeu"
+
+#, fuzzy
+#~ msgid "Rewind to the game start"
+#~ msgstr "Novea djeu d' enondé"
+
+#, fuzzy
+#~ msgid "Save the current game"
+#~ msgstr "Renonder l' livea do moumint"
+
+#, fuzzy
+#~ msgid "Select the games you want to save:"
+#~ msgstr "Djeu a djower"
+
+#, fuzzy
+#~ msgid "Show the current move"
+#~ msgstr "Renonder l' livea do moumint"
+
+#, fuzzy
+#~ msgid "Show the next move"
+#~ msgstr "Rifé li dierin movmint disfé"
+
+#, fuzzy
+#~ msgid "Show the previous move"
+#~ msgstr "Disfé li dierin movmint"
+
+#, fuzzy
+#~ msgid "_AI Information"
+#~ msgstr "Animåcion"
+
+#, fuzzy
+#~ msgid "_History"
+#~ msgstr "Racsegne"
+
+#, fuzzy
+#~ msgid "_Join Game"
+#~ msgstr "_Djeu"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "Ôrlodje"
+
+#, fuzzy
+#~ msgid "Enter the title for this game"
+#~ msgstr "Candjî les tchuzes po ci djeu chal"
+
+#, fuzzy
+#~ msgid "Local chess game"
+#~ msgstr "Cwårdjeus:"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "No"
+
+#, fuzzy
+#~ msgid "Typ_e:"
+#~ msgstr "Tins:"
+
+#, fuzzy
+#~ msgid "White"
+#~ msgstr "Traze"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "No do djeu"
+
+#, fuzzy
+#~ msgid "_Join"
+#~ msgstr "Racsegne"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr "No"
+
+#, fuzzy
+#~ msgid "_Start"
+#~ msgstr "Renonder"
+
+#, fuzzy
+#~ msgid "_Type:"
+#~ msgstr "Tins:"
+
+#, fuzzy
+#~ msgid "<b>Players</b>"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "Waiting For Players"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "_Black player:"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "_Ready"
+#~ msgstr "Rodje"
+
+#, fuzzy
+#~ msgid "_White player:"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "Chess"
+#~ msgstr "Platea"
+
+#, fuzzy
+#~ msgid "Game Start"
+#~ msgstr "Tite do djeu"
+
+#~ msgid "Human"
+#~ msgstr "Ene sakî"
+
+#~ msgid "Small"
+#~ msgstr "Pitit"
+
+#, fuzzy
+#~ msgid "glines|Medium"
+#~ msgstr "Moyén"
+
+#~ msgid "Large"
+#~ msgstr "Lådje"
+
+#, fuzzy
+#~ msgid "Could not load theme"
+#~ msgstr "Dji n' trove nén li fitchî %s"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferinces"
+
+#, fuzzy
+#~ msgid "Board Size:"
+#~ msgstr "Grandeu do platea d' djeu"
+
+#~ msgid "Game Over!"
+#~ msgstr "Li djeu est houte!"
+
+#, fuzzy
+#~ msgid "You can't move there!"
+#~ msgstr "Dji n' pou m' mete chal!"
+
+#, fuzzy
+#~ msgid "Five or More Preferences"
+#~ msgstr "Preferinces di Groyes"
+
+#~ msgid "Themes"
+#~ msgstr "Tinmes"
+
+#, fuzzy
+#~ msgid "_Image:"
+#~ msgstr "Tinme des imådjes:"
+
+#, fuzzy
+#~ msgid "B_ackground color:"
+#~ msgstr "Coleur do fond"
+
+#, fuzzy
+#~ msgid "Board Size"
+#~ msgstr "Grandeu do platea d' djeu"
+
+#, fuzzy
+#~ msgid "_Small"
+#~ msgstr "Pitit"
+
+#~ msgid "_Medium"
+#~ msgstr "_Moyén"
+
+#, fuzzy
+#~ msgid "_Large"
+#~ msgstr "Lådje"
+
+#, fuzzy
+#~ msgid "_Use fast moves"
+#~ msgstr "Bodjî radmint"
+
+#~ msgid "Background color"
+#~ msgstr "Coleur do fond"
+
+#~ msgid "Game score"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Playing field size"
+#~ msgstr "Djowant e livea %s"
+
+#, fuzzy
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Djeu «cwate e roye»"
+
+#, fuzzy
+#~ msgid "Height of the main window"
+#~ msgstr "Hôteu del grile"
+
+#~ msgid "Level of Player One"
+#~ msgstr "Livea do prumî djoweu"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Livea do deujhinme djoweu"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Theme ID"
+#~ msgstr "Tinme"
+
+#, fuzzy
+#~ msgid "Player"
+#~ msgstr "Djoweus"
+
+#~ msgid "You win!"
+#~ msgstr "Vos wangnîz!"
+
+#~ msgid "I win!"
+#~ msgstr "Dji wangna!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Dji tuze..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s wangna!"
+
+#, fuzzy
+#~ msgid "You:"
+#~ msgstr "Vos"
+
+#, fuzzy
+#~ msgid "Me:"
+#~ msgstr "Mi"
+
+#, fuzzy
+#~ msgid "Scores"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Drawn:"
+#~ msgstr "Bas"
+
+#, fuzzy
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine."
+#~ msgstr ""
+#~ "Li djeu «cwate e roye» po Gnome, avou li copiutrece come djoweu eployant "
+#~ "l' indjin Velena da Guiliano Bertoletti."
+
+#, fuzzy
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr "Djoweu 1: %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr "Djoweu 1: %s"
+
+#~ msgid "Level one"
+#~ msgstr "Prumî livea"
+
+#~ msgid "Level two"
+#~ msgstr "Deujhinme livea"
+
+#~ msgid "Level three"
+#~ msgstr "Troejhinme livea"
+
+#, fuzzy
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Preferinces di «cwate e roye»"
+
+#~ msgid "Appearance"
+#~ msgstr "Rivnance"
+
+#, fuzzy
+#~ msgid "_Theme:"
+#~ msgstr "Tinme"
+
+#, fuzzy
+#~ msgid "Enable _animation"
+#~ msgstr "Animåcion en alaedje"
+
+#~ msgid "Red"
+#~ msgstr "Rodje"
+
+#~ msgid "Yellow"
+#~ msgstr "Djaene"
+
+#~ msgid "Light"
+#~ msgstr "Blankes"
+
+#~ msgid "Dark"
+#~ msgstr "Noeres"
+
+#~ msgid "Blue"
+#~ msgstr "Bleu"
+
+#, fuzzy
+#~ msgid "Blocks"
+#~ msgstr "Ôrlodje"
+
+#~ msgid "Orange"
+#~ msgstr "Orandje"
+
+#, fuzzy
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Djoker l' djeu"
+
+#, fuzzy
+#~ msgid "Nibbles Scores"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Speed:"
+#~ msgstr "Roedeu"
+
+#, fuzzy
+#~ msgid "Congratulations!"
+#~ msgstr "Complumints."
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "_Bodjî"
+
+#, fuzzy
+#~ msgid "Number of AI players"
+#~ msgstr "Nombe di djoweus"
+
+#, fuzzy
+#~ msgid "Number of AI players."
+#~ msgstr "Nombe di djoweus."
+
+#, fuzzy
+#~ msgid "Number of human players"
+#~ msgstr "Nombe di djoweus"
+
+#, fuzzy
+#~ msgid "Number of human players."
+#~ msgstr "Nombe di djoweus."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Liveas a l' astcheyance"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Djower les liveas a l' astcheyance."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Grandeu des pîces"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Grandeu des pîces."
+
+#, fuzzy
+#~ msgid "Slow"
+#~ msgstr "Djaene"
+
+#, fuzzy
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Moyén"
+
+#, fuzzy
+#~ msgid "Fast"
+#~ msgstr "Vizaedjes:"
+
+#, fuzzy
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Preferinces di Gnibbles"
+
+#~ msgid "Speed"
+#~ msgstr "Roedeu"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Apurdisse"
+
+#~ msgid "My second day"
+#~ msgstr "Mi deujhinme djoû"
+
+#, fuzzy
+#~ msgid "_Play levels in random order"
+#~ msgstr "Liveas a l' astcheyance"
+
+#, fuzzy
+#~ msgid "E_nable sounds"
+#~ msgstr "Mete en alaedje li son"
+
+#, fuzzy
+#~ msgid "Number of _human players:"
+#~ msgstr "Nombe di djoweus:"
+
+#, fuzzy
+#~ msgid "Number of _AI players:"
+#~ msgstr "Nombe di djoweus:"
+
+#~ msgid "Worm"
+#~ msgstr "Halene"
+
+#, fuzzy
+#~ msgid "_Use relative movement"
+#~ msgstr "Bodjî radmint"
+
+#, fuzzy
+#~ msgid "_Worm color:"
+#~ msgstr "Coleur del halene:"
+
+#~ msgid "Green"
+#~ msgstr "Vert"
+
+#~ msgid "Cyan"
+#~ msgstr "Cyan"
+
+#~ msgid "Purple"
+#~ msgstr "Pourpe"
+
+#~ msgid "Gray"
+#~ msgstr "Gris"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Halene %d:"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Tchoezi li sinnario"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Robots"
+#~ msgstr "Robots"
+
+#~ msgid "Game type"
+#~ msgstr "Sôre do djeu"
+
+#, fuzzy
+#~ msgid "Key to teleport"
+#~ msgstr "Teleportåcion"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Tinme d' imådjes des robots"
+
+#~ msgid "Player Dead"
+#~ msgstr "Djoweu moirt"
+
+#~ msgid "Player Teleport"
+#~ msgstr "Teleportåcion do djoweu"
+
+#~ msgid "Robot has been Splatted!"
+#~ msgstr "Li robot a stî språtchî!"
+
+#~ msgid "Victory!!"
+#~ msgstr "Victwere!!"
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Dji n' pout nén trover li fitchî pixmap «%s»\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Bodjî"
+
+#, fuzzy
+#~ msgid "_Teleport"
+#~ msgstr "Teleportåcion"
+
+#, fuzzy
+#~ msgid "Teleport randomly"
+#~ msgstr "Teleportåcion"
+
+#, fuzzy
+#~ msgid "_Wait"
+#~ msgstr "Rawårder"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Mostrer ou catchî li bår ås usteyes"
+
+#, fuzzy
+#~ msgid "Based on classic BSD Robots."
+#~ msgstr "robots classike"
+
+#~ msgid "classic robots"
+#~ msgstr "robots classike"
+
+#~ msgid "robots2"
+#~ msgstr "robots 2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "robots 2 åjhey"
+
+#~ msgid "nightmare"
+#~ msgstr "tchôde marke"
+
+#~ msgid "robots"
+#~ msgstr "robots"
+
+#~ msgid "cows"
+#~ msgstr "vatches"
+
+#~ msgid "eggs"
+#~ msgstr "oûs"
+
+#~ msgid "gnomes"
+#~ msgstr "nûtons"
+
+#~ msgid "mice"
+#~ msgstr "soris"
+
+#, fuzzy
+#~ msgid "Robots Preferences"
+#~ msgstr "Preferinces di Gnome Robots"
+
+#~ msgid "Game Type"
+#~ msgstr "Sôrtes di Djeu"
+
+#, fuzzy
+#~ msgid "_Use safe moves"
+#~ msgstr "Bodjî radmint"
+
+#, fuzzy
+#~ msgid "U_se super safe moves"
+#~ msgstr "Bodjî radmint"
+
+#, fuzzy
+#~ msgid "E_nable splats"
+#~ msgstr "Mete en alaedje li son"
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Tinme des imådjes"
+
+#, fuzzy
+#~ msgid "_Image theme:"
+#~ msgstr "Tinme des imådjes:"
+
+#, fuzzy
+#~ msgid "_Background color:"
+#~ msgstr "Coleur do fond"
+
+#, fuzzy
+#~ msgid "Keyboard"
+#~ msgstr "_Taprece"
+
+#~ msgid "Remaining:"
+#~ msgstr "I dmeure:"
+
+#, fuzzy
+#~ msgid "<none>"
+#~ msgstr "Nole"
+
+#, fuzzy
+#~ msgid ""
+#~ "Written for my wife, Matylda\n"
+#~ "Send comments and bug reports to: \n"
+#~ "janusz.gorycki@intel.com"
+#~ msgstr ""
+#~ "Sicrît po m' feme, Matylda\n"
+#~ "Evoyîz vos idêyes et rapoirts di bugs a: janusz.gorycki@intel.com"
+
+#, fuzzy
+#~ msgid "GNOME Sudoku; a logic puzzle"
+#~ msgstr "Gnome Stones"
+
+#, fuzzy
+#~ msgid "Sudoku"
+#~ msgstr "Gnome Stones"
+
+#, fuzzy
+#~ msgid "High Scores"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "_Play"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "_Game List"
+#~ msgstr "Tite do djeu"
+
+#, fuzzy
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "Nombe di menes:"
+
+#, fuzzy
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "Moyén"
+
+#, fuzzy
+#~ msgid "Generate Policy"
+#~ msgstr "Djenerå"
+
+#, fuzzy
+#~ msgid "_Easy"
+#~ msgstr "Djoker"
+
+#, fuzzy
+#~ msgid "_Generate"
+#~ msgstr "Djenerå"
+
+#, fuzzy
+#~ msgid "Puzzle"
+#~ msgstr "Pourpe"
+
+#, fuzzy
+#~ msgid "GNOME Sudoku"
+#~ msgstr "Gnome Stones"
+
+#, fuzzy
+#~ msgid "Started"
+#~ msgstr "Cåve di cminçmint"
+
+#, fuzzy
+#~ msgid "Played for %s"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "Date"
+#~ msgstr "Renonder"
+
+#, fuzzy
+#~ msgid "Hints"
+#~ msgstr "Racsegne"
+
+#, fuzzy
+#~ msgid "Working..."
+#~ msgstr "Dji tuze..."
+
+#, fuzzy
+#~ msgid "Stopped"
+#~ msgstr "Roedeu"
+
+#~ msgid "Medium"
+#~ msgstr "Moyén"
+
+#, fuzzy
+#~ msgid "_Stop"
+#~ msgstr "Apontyî"
+
+#, fuzzy
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "Mi deujhinme djoû"
+#~ msgstr[1] "Mi deujhinme djoû"
+
+#, fuzzy
+#~ msgid "Today"
+#~ msgstr "Totå"
+
+#, fuzzy
+#~ msgid "Track moves"
+#~ msgstr "C' est ås noers di djower"
+
+#, fuzzy
+#~ msgid "Full Screen"
+#~ msgstr "Forrimpli li purnea"
+
+#, fuzzy
+#~ msgid "New game"
+#~ msgstr "Novea Djeu"
+
+#, fuzzy
+#~ msgid "Print current game"
+#~ msgstr "Renonder l' livea do moumint"
+
+#, fuzzy
+#~ msgid "_Enter custom game"
+#~ msgstr "Renonder l' livea do moumint"
+
+#, fuzzy
+#~ msgid "_Resume old game"
+#~ msgstr "Renonder l' djeu"
+
+#, fuzzy
+#~ msgid "Resume a previous saved game."
+#~ msgstr "Renonder l' djeu"
+
+#, fuzzy
+#~ msgid "High _Scores"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Show _Toolbar"
+#~ msgstr "Mostrer li bår ås usteyes"
+
+#, fuzzy
+#~ msgid "_Black background"
+#~ msgstr "Coleur do fond"
+
+#, fuzzy
+#~ msgid "_Undo"
+#~ msgstr "_Bodjî"
+
+#, fuzzy
+#~ msgid "Undo last action"
+#~ msgstr "Disfé li dierin movmint"
+
+#, fuzzy
+#~ msgid "_Redo"
+#~ msgstr "Rodje"
+
+#, fuzzy
+#~ msgid "Redo last action"
+#~ msgstr "Bodjî radmint"
+
+#, fuzzy
+#~ msgid "No Tracker"
+#~ msgstr "Nole"
+
+#, fuzzy
+#~ msgid "_Play game"
+#~ msgstr "Nos des djoweus"
+
+#, fuzzy
+#~ msgid "Playing "
+#~ msgstr "Djowant e livea %s"
+
+#, fuzzy
+#~ msgid "Statistics for %s"
+#~ msgstr "Rataker ç' djeu ci"
+
+#, fuzzy
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Pablo Saratxaga <pablo@mandrakesoft.com>\n"
+#~ "Lorint Hendschel <LorintHendschel@skynet.be>"
+
+#, fuzzy
+#~ msgid "gnomine|Medium"
+#~ msgstr "Moyén"
+
+#~ msgid "Custom"
+#~ msgstr "A vosse môde"
+
+#, fuzzy
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Drapeas:"
+
+#, fuzzy
+#~ msgid "Mines Scores"
+#~ msgstr "Ponts"
+
+#, fuzzy
+#~ msgid "Size:"
+#~ msgstr "Tins:"
+
+#~ msgid "Faces:"
+#~ msgstr "Vizaedjes:"
+
+#, fuzzy
+#~ msgid "Graphics:"
+#~ msgstr "Tinme des imådjes"
+
+#~ msgid "Mines"
+#~ msgstr "Tchamp d' menes"
+
+#, fuzzy
+#~ msgid "Field Size"
+#~ msgstr "Grandeu do tchamp"
+
+#, fuzzy
+#~ msgid "Custom Size"
+#~ msgstr "Grandeu a vosse môde"
+
+#, fuzzy
+#~ msgid "_Number of mines:"
+#~ msgstr "Nombe di menes:"
+
+#, fuzzy
+#~ msgid "_Horizontal:"
+#~ msgstr "Di coûtchî:"
+
+#, fuzzy
+#~ msgid "_Vertical:"
+#~ msgstr "D' astampé:"
+
+#, fuzzy
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "Eployî les drapeas «dji balzene co»."
+
+#, fuzzy
+#~ msgid "Mines Preferences"
+#~ msgstr "Preferinces di Groyes"
+
+#~ msgid "Width of grid"
+#~ msgstr "Lårdjeu del grile"
+
+#~ msgid "Height of grid"
+#~ msgstr "Hôteu del grile"
+
+#~ msgid "Number of mines"
+#~ msgstr "Nombe di menes"
+
+#~ msgid "NUMBER"
+#~ msgstr "NOMBE"
+
+#, fuzzy
+#~ msgid "Time: "
+#~ msgstr "Tins:"
+
+#, fuzzy
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Netyîz l' tchamp d' menes"
+
+#, fuzzy
+#~ msgid "Board size"
+#~ msgstr "Grandeu do platea d' djeu"
+
+#, fuzzy
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "Hôteu del grile"
+
+#, fuzzy
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "Hôteu del grile"
+
+#, fuzzy
+#~ msgid "Could not load images"
+#~ msgstr "Dji n' trove nén li fitchî %s"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#, fuzzy
+#~ msgid "2×2"
+#~ msgstr "_2x2"
+
+#, fuzzy
+#~ msgid "3×3"
+#~ msgstr "_3x3"
+
+#, fuzzy
+#~ msgid "4×4"
+#~ msgstr "_4x4"
+
+#, fuzzy
+#~ msgid "5×5"
+#~ msgstr "_5x5"
+
+#, fuzzy
+#~ msgid "6×6"
+#~ msgstr "_6x6"
+
+#~ msgid "_Up"
+#~ msgstr "Al _Copete"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Bodjî al copete li pîce tchoezeye"
+
+#~ msgid "_Left"
+#~ msgstr "_Hintche"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Bodjî a hintche li pîce tchoezeye"
+
+#~ msgid "_Right"
+#~ msgstr "_Droete"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Bodjî a droete li pîce tchoezeye"
+
+#~ msgid "_Down"
+#~ msgstr "_Bas"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Bodjî viè l' bas li pîce tchoezeye"
+
+#, fuzzy
+#~ msgid "_2×2"
+#~ msgstr "_2x2"
+
+#, fuzzy
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Djower avou on platea di 6x6"
+
+#, fuzzy
+#~ msgid "_3×3"
+#~ msgstr "_3x3"
+
+#, fuzzy
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Djower avou on platea di 6x6"
+
+#, fuzzy
+#~ msgid "_4×4"
+#~ msgstr "_4x4"
+
+#, fuzzy
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Djower avou on platea di 4x4"
+
+#, fuzzy
+#~ msgid "_5×5"
+#~ msgstr "_5x5"
+
+#, fuzzy
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Djower avou on platea di 5x5"
+
+#, fuzzy
+#~ msgid "_6×6"
+#~ msgstr "_6x6"
+
+#, fuzzy
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Djower avou on platea di 6x6"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "Coleurs"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Grandeu do platea (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "GRANDEU"
+
+#, fuzzy
+#~ msgid "Tetravex Scores"
+#~ msgstr "Tetravex"
+
+#~ msgid "Game paused"
+#~ msgstr "Djeu djoké"
+
+#, fuzzy
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Djower avou on platea di 4x4"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#, fuzzy
+#~ msgid "Control coloured tiles"
+#~ msgstr "Dji n' trove nén li fitchî %s"
+
+#~ msgid "Violet"
+#~ msgstr "Viyolet"
+
+#, fuzzy
+#~ msgid "Poppy"
+#~ msgstr "Prôpieté"
+
+#, fuzzy
+#~ msgid "Pansy"
+#~ msgstr "Djoker"
+
+#, fuzzy
+#~ msgid "Trail"
+#~ msgstr "Tali"
+
+#, fuzzy
+#~ msgid "Agatka"
+#~ msgstr "gataxx"
+
+#, fuzzy
+#~ msgid "Bone"
+#~ msgstr "Nole"
+
+#, fuzzy
+#~ msgid "Fortune"
+#~ msgstr "Catoize"
+
+#, fuzzy
+#~ msgid "Shark"
+#~ msgstr "Noeres"
+
+#, fuzzy
+#~ msgid "Rome"
+#~ msgstr "nûtons"
+
+#, fuzzy
+#~ msgid "Sunshine"
+#~ msgstr "noûf"
+
+#, fuzzy
+#~ msgid "Block 10"
+#~ msgstr "Ôrlodje"
+
+#, fuzzy
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Renonder livea"
+
+#, fuzzy
+#~ msgid "Level completed."
+#~ msgstr "Livea fén complet. Bea djeu."
+
+#, fuzzy
+#~ msgid "Moves: %d"
+#~ msgstr "Movmints:"
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Dedja eployî! Wice ki vos vloz mete çoula? "
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#, fuzzy
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Vey les tuzaedjes del copiutrece"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Vey les tuzaedjes del copiutrece"
+
+#, fuzzy
+#~ msgid "The game is a draw!"
+#~ msgstr "Li fitchî d' djeu a-z eployî"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "Ponts"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s a wangnî avou %d pont"
+#~ msgstr[1] "%s a wangnî avou %d ponts"
+
+#~ msgid "Game over!"
+#~ msgstr "Li djeu est houte!"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Copiutrece djowant po %s"
+
+#, fuzzy
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Modêye po Curses (1992)"
+
+#, fuzzy
+#~ msgid "Console version (1992):"
+#~ msgstr "Modêye po Curses (1992)"
+
+#, fuzzy
+#~ msgid "Tali Preferences"
+#~ msgstr "Preferinces di GTali"
+
+#, fuzzy
+#~ msgid "_Number of players:"
+#~ msgstr "Nombe di djoweus:"
+
+#, fuzzy
+#~ msgid "N_umber of opponents:"
+#~ msgstr "Nombe di menes:"
+
+#~ msgid "Colors"
+#~ msgstr "Coleurs"
+
+#~ msgid "Player Names"
+#~ msgstr "Nos des djoweus"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1s [totå di 1s]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2s [totå di 2s]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3s [totå di 3s]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4s [totå di 4s]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5s [totå di 5s]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6s [totå di 6s]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "3 d' ene minme sôre [totå]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "4 d' ene minme sôre [totå]"
+
+#, fuzzy
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "3 d' ene minme sôre [totå]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Tchance [totå]"
+
+#~ msgid "Grand Total"
+#~ msgstr "Grand totå"
+
+#, fuzzy
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "4 d' ene minme sôre [totå]"
+
+#, fuzzy
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "3 d' ene minme sôre [totå]"
+
+#~ msgid "Results"
+#~ msgstr "Rizultats"
+
+#~ msgid "Total"
+#~ msgstr "Totå"
+
+#, fuzzy
+#~ msgid "Net_work Game"
+#~ msgstr "Novea djeu _rantoele"
+
+#, fuzzy
+#~ msgid "_Player list"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "_Leave Game"
+#~ msgstr "Novea Djeu"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid "Dark:"
+#~ msgstr "Noeres:"
+
+#~ msgid "Light:"
+#~ msgstr "Blankes:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Wilicome dins Iagno!"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "Dark's move"
+#~ msgstr "C' est ås noers di djower"
+
+#~ msgid "Light's move"
+#~ msgstr "C' est ås blancs di djower"
+
+#~ msgid "Game over"
+#~ msgstr "Li djeu est houte"
+
+#~ msgid "Piece flipping"
+#~ msgstr "Djower a peye ou croes"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Li djoweu avou les blankes a wangnî!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Li djoweu avou les noeres a wangnî!"
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Les blancs passèt leu tour, c' est ås noers a djower"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Les noers passèt leu tour, c' est ås blancs di djower"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Preferinces di Iagno"
+
+#~ msgid "Players"
+#~ msgstr "Djoweus"
+
+#, fuzzy
+#~ msgid "_Use quick moves"
+#~ msgstr "Bodjî radmint"
+
+#~ msgid "Animation"
+#~ msgstr "Animåcion"
+
+#, fuzzy
+#~ msgid "S_how grid"
+#~ msgstr "Mostrer l' grile"
+
+#, fuzzy
+#~ msgid "_Tile set:"
+#~ msgstr "Djeu d' pîces:"
+
+#, fuzzy
+#~ msgid "List of players:"
+#~ msgstr "Nombe di djoweus:"
+
+#~ msgid "Card Style"
+#~ msgstr "Sôre des cåtes"
+
+#, fuzzy
+#~ msgid "Network game mode"
+#~ msgstr "Novea djeu _rantoele"
+
+#, fuzzy
+#~ msgid "The game server"
+#~ msgstr "Nou sierveu d' djeus di defini"
+
+#, fuzzy
+#~ msgid "Could not load tile set"
+#~ msgstr "Dji n' trove nén li fitchî %s"
+
+#~ msgid "Shuffle"
+#~ msgstr "Xhufler les pîces"
+
+#, fuzzy
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Mahjongg"
+
+#, fuzzy
+#~ msgid "Map:"
+#~ msgstr "Mapes"
+
+#, fuzzy
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Preferinces di Iagno"
+
+#~ msgid "Tiles"
+#~ msgstr "Pîces"
+
+#~ msgid "Maps"
+#~ msgstr "Mapes"
+
+#, fuzzy
+#~ msgid "_Select map:"
+#~ msgstr "Tchoezi ene mape"
+
+#, fuzzy
+#~ msgid "Maps:"
+#~ msgstr "Mapes"
+
+#~ msgid "Tiles:"
+#~ msgstr "Pîces:"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Pîces ki dmorèt:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Movmints ki dmorèt:"
+
+#, fuzzy
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Mahjongg"
+
+#, fuzzy
+#~ msgid "Cloud"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Set the theme"
+#~ msgstr "Bodjî les troes"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Same Gnome"
+
+#, fuzzy
+#~ msgid "Height of the custom board"
+#~ msgstr "Hôteu del grile"
+
+#, fuzzy
+#~ msgid "The board size"
+#~ msgstr "Grandeu do platea d' djeu"
+
+#, fuzzy
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Li fitchî d' djeu a-z eployî"
+
+#, fuzzy
+#~ msgid "The theme to use"
+#~ msgstr "Li fitchî d' djeu a-z eployî"
+
+#, fuzzy
+#~ msgid "Use fast animation"
+#~ msgstr "Bodjî radmint"
+
+#, fuzzy
+#~ msgid "Score: %d"
+#~ msgstr "Ponts:"
+
+#, fuzzy
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Same Gnome"
+
+#, fuzzy
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Same Gnome"
+
+#, fuzzy
+#~ msgid "_Theme..."
+#~ msgstr "Tinme"
+
+#, fuzzy
+#~ msgid "_Fast Animation"
+#~ msgstr "Animåcion"
+
+#, fuzzy
+#~ msgid "Graphics"
+#~ msgstr "Tinme des imådjes"
+
+#, fuzzy
+#~ msgid "Models:"
+#~ msgstr "Movmints:"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "No"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "Enonder on novea djeu"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "Avançmint do djeu"
+
+#, fuzzy
+#~ msgid "_High Scores"
+#~ msgstr "Ponts"
+
+#~ msgid "Congratulations."
+#~ msgstr "Complumints."
+
+#, fuzzy
+#~ msgid "No moves available"
+#~ msgstr "%s: nou tinme di disponibe\n"
+
+#, fuzzy
+#~ msgid "Place something on to the empty tableau slot"
+#~ msgstr "Metoz 'ne sacwè a 'ne plaece vude"
+
+#~ msgid "Ataxx"
+#~ msgstr "Ataxx"
+
+#~ msgid "Tileset"
+#~ msgstr "Djeu d' pîces"
+
+#, fuzzy
+#~ msgid "Ataxx Preferences"
+#~ msgstr "Preferinces di Gataxx"
+
+#, fuzzy
+#~ msgid "gataxx|Easy"
+#~ msgstr "gataxx"
+
+#, fuzzy
+#~ msgid "gataxx|Medium"
+#~ msgstr "Moyén"
+
+#, fuzzy
+#~ msgid "New game ready to be started"
+#~ msgstr "Novea djeu d' enondé"
+
+#~ msgid "windows"
+#~ msgstr "purneas"
+
+#~ msgid "Congratulations!!! You have won!"
+#~ msgstr "Complumints, vos avoz wangnî!"
+
+#~ msgid "gnome-stones:empty"
+#~ msgstr "Pires di Gnome: vude"
+
+#~ msgid "Stones"
+#~ msgstr "Pires"
+
+#~ msgid "Device to use for joystick control."
+#~ msgstr "Éndjin a-z eployî pol djîsse di djeu."
+
+#~ msgid "Enable sound support"
+#~ msgstr "Permete li son"
+
+#~ msgid "Enable sound support."
+#~ msgstr "Permete li sopoirt do son."
+
+#~ msgid "Game name"
+#~ msgstr "No do djeu"
+
+#~ msgid "Joystick device"
+#~ msgstr "Éndjin pol djîsse di djeu"
+
+#~ msgid "Gnomekoban"
+#~ msgstr "Gnomekoban"
+
+#~ msgid "gnomekoban:empty,0"
+#~ msgstr "gnomekoban: vude,0"
+
+#~ msgid "This is GNOME Stones"
+#~ msgstr "Vochal Gnome-Stones"
+
+#, fuzzy
+#~ msgid ""
+#~ "An error occurred while loading the image file \"%s\".\n"
+#~ "Please make sure that GNOME Stones is correctly installed!"
+#~ msgstr ""
+#~ "Åk n' a nén stî cwand dji sayive di tcherdjî l' fitchî imådje «%s».\n"
+#~ "Verifyîz ki Gnome-Stones est astalé comifåt s' i vs plait!"
+
+#~ msgid "Congratulations, you win!"
+#~ msgstr "Complumints, vos avoz wangnî!"
+
+#~ msgid "Sokoban levels:"
+#~ msgstr "Livea di Sokoban:"
+
+#~ msgid "Seconds left: %d"
+#~ msgstr "Segondes ki restèt: %d"
+
+#~ msgid "Please make sure that GNOME Stones is correctly installed."
+#~ msgstr "Verifyîz ki Gnome-Stones est astalé comifåt s' i vs plait."
+
+#~ msgid "GNOME Stones Preferences"
+#~ msgstr "Preferinces di Gnome-Stones"
+
+#~ msgid "Caves"
+#~ msgstr "Cåves"
+
+#~ msgid "Device"
+#~ msgstr "Éndjin"
+
+#, fuzzy
+#~ msgid "_Joystick device:"
+#~ msgstr "Éndjin pol djîsse di djeu:"
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "dismetou"
+
+#, fuzzy
+#~ msgid "_Switch level:"
+#~ msgstr "Discandjî di livea:"
+
+#, fuzzy
+#~ msgid "Joystick"
+#~ msgstr "D_jîsse di djeu"
+
+#~ msgid "Enable sound"
+#~ msgstr "Mete en alaedje li son"
+
+#~ msgid "_Sound"
+#~ msgstr "_Son"
+
+#~ msgid "Cave:"
+#~ msgstr "Cåve:"
+
+#~ msgid "Lives:"
+#~ msgstr "Veyes:"
+
+#, fuzzy
+#~ msgid "Connection Method"
+#~ msgstr "Li raloyaedje a fwait berwete"
+
+#, fuzzy
+#~ msgid "_Nickname:"
+#~ msgstr "Mwaisse djeu:"
+
+#, fuzzy
+#~ msgid "_Start Game"
+#~ msgstr "Cåve di cminçmint"
+
+#, fuzzy
+#~ msgid "No local game selected."
+#~ msgstr "Nole pire di tchoezeye"
+
+#~ msgid "Cleaning up connection"
+#~ msgstr "Dji neteye li raloyaedje"
+
+#~ msgid "Connection in progress..."
+#~ msgstr "Dji fwai l' raloyaedje..."
+
+#~ msgid "No game server defined"
+#~ msgstr "Nou sierveu d' djeus di defini"

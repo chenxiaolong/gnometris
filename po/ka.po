@@ -1,0 +1,4053 @@
+# translation of gnome-games.po to Georgian
+# Georgian translation for gnome-games
+# Copyright (c) 2005 Canonical Ltd, and Rosetta Contributors 2005
+# This file is distributed under the same license as the gnome-games package.
+#
+#
+#
+# Alexander Didebulidze <didebuli@in.tum.de> ,2005 ,2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2006-04-10 12:30+0200\n"
+"Last-Translator: Alexander Didebulidze <didebuli@in.tum.de>\n"
+"Language-Team: Georgian <gnome@inet.ge>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "დაპაუზებულია"
+
+#: ../gnometris/field-noclutter.cpp:245
+#, fuzzy
+msgid "Game Over"
+msgstr "თამაში"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr ""
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+#, fuzzy
+msgid "Image to use for drawing blocks"
+msgstr "სურათი -სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+#, fuzzy
+msgid "Image to use for drawing blocks."
+msgstr "სურათი -სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+#, fuzzy
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "ის და."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+#, fuzzy
+msgid "Level to start with"
+msgstr "-სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+#, fuzzy
+msgid "Whether to use the background image"
+msgstr "-სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+#, fuzzy
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr "-სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+#, fuzzy
+msgid "Whether to preview the next block"
+msgstr "-სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+#, fuzzy
+msgid "Whether to preview the next block."
+msgstr "-სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+#, fuzzy
+msgid "Whether to provide a target"
+msgstr "-სკენ a"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+#, fuzzy
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "-სკენ a ის a."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+#, fuzzy
+msgid "Whether to give blocks random colors"
+msgstr "-სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+#, fuzzy
+msgid "Whether to give blocks random colors."
+msgstr "-სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+#, fuzzy
+msgid "Whether to rotate counter clock wise"
+msgstr "-სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+#, fuzzy
+msgid "Whether to rotate counter clock wise."
+msgstr "-სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+#, fuzzy
+msgid "The number of rows to fill"
+msgstr "რიცხვი ის ხაზი -სკენ"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+#, fuzzy
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "რიცხვი ის ხაზი ის."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+#, fuzzy
+msgid "The density of filled rows"
+msgstr "ის ხაზი"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+#, fuzzy
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr "ის დუიმი ხაზი ის არა და a."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+#, fuzzy
+msgid "Move left"
+msgstr "გადატანა მარცხენა"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+#, fuzzy
+msgid "Key press to move left."
+msgstr "გასაღები -სკენ მარცხენა."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+#, fuzzy
+msgid "Move right"
+msgstr "გადატანა მარჯვენა"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+#, fuzzy
+msgid "Key press to move right."
+msgstr "გასაღები -სკენ მარჯვენა."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+#, fuzzy
+msgid "Move down"
+msgstr "გადატანა"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+#, fuzzy
+msgid "Key press to move down."
+msgstr "გასაღები -სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+#, fuzzy
+msgid "Key press to drop."
+msgstr "გასაღები -სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:32
+#, fuzzy
+msgid "Key press to rotate."
+msgstr "გასაღები -სკენ."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "პაუზა"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+#, fuzzy
+msgid "Key press to pause."
+msgstr "გასაღები -სკენ."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:31
+#, fuzzy
+msgid "Plain"
+msgstr "გლუვი"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+#, fuzzy
+msgid "Joined"
+msgstr "არა"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:57
+#, fuzzy
+msgid "Lines:"
+msgstr "ხაზები:"
+
+#: ../gnometris/scoreframe.cpp:68
+#, fuzzy
+msgid "Level:"
+msgstr "დონე:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_თამაში"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_პარამეტრები"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_დახმარება"
+
+#: ../gnometris/tetris.cpp:611
+#, fuzzy
+msgid "Gnometris Preferences"
+msgstr "პარამეტრები"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "თამაში"
+
+#: ../gnometris/tetris.cpp:635
+#, fuzzy
+msgid "Setup"
+msgstr "ინსტალაცია"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+#, fuzzy
+msgid "_Number of pre-filled rows:"
+msgstr "ის ხაზი:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+#, fuzzy
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "სიმკვრივე ის დუიმი a:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+#, fuzzy
+msgid "_Starting level:"
+msgstr "ვრთავ:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "ხმების _ჩართვა"
+
+#: ../gnometris/tetris.cpp:714
+#, fuzzy
+msgid "_Preview next block"
+msgstr "წინასწარ ნახვა"
+
+#: ../gnometris/tetris.cpp:723
+#, fuzzy
+msgid "_Use random block colors"
+msgstr "გამოყენება"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+#, fuzzy
+msgid "Show _where the block will land"
+msgstr "ანახე"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#, fuzzy
+msgid "Theme"
+msgstr "გაფორმება"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:769
+#, fuzzy
+msgid "Keyboard Controls"
+msgstr "კლავიატურა"
+
+#: ../gnometris/tetris.cpp:793
+#, fuzzy
+msgid "Block Style"
+msgstr "ბლოკირება სტილი"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+#, fuzzy
+msgid "GNOME Games web site"
+msgstr "GNOME"
+
+#: ../gnometris/tetris.cpp:1390
+#, fuzzy
+msgid "translator-credits"
+msgstr "თარგმანი-შესრულებულია"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_პარამეტრები"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+#, fuzzy
+msgid "No key"
+msgstr "არა გასაღები"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:332
+#, fuzzy
+msgid "Unknown Command"
+msgstr "უცნობი ბრძანება"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "დრო"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr ""
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "ახალი თამაში"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "სახელი"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:46
+#, fuzzy
+msgid "End the current game"
+msgstr "დასრულება"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+#, fuzzy
+msgid "Get a hint for your next move"
+msgstr "a"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:50
+#, fuzzy
+msgid "Start a new multiplayer network game"
+msgstr "ახალი თამაშის დაწყება"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "ახალი თამაშის დაწყება"
+
+#: ../libgames-support/games-stock.c:53
+#, fuzzy
+msgid "Pause the game"
+msgstr "პაუზა"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+#, fuzzy
+msgid "Redo the undone move"
+msgstr "აღდგენა"
+
+#: ../libgames-support/games-stock.c:56
+#, fuzzy
+msgid "Restart the game"
+msgstr "გადატვირთე"
+
+#: ../libgames-support/games-stock.c:57
+#, fuzzy
+msgid "Resume the paused game"
+msgstr "გაგრძელება"
+
+#: ../libgames-support/games-stock.c:58
+#, fuzzy
+msgid "View the scores"
+msgstr "ხედი"
+
+#: ../libgames-support/games-stock.c:59
+#, fuzzy
+msgid "Undo the last move"
+msgstr "დაბრუნება"
+
+#: ../libgames-support/games-stock.c:60
+#, fuzzy
+msgid "About this game"
+msgstr "შესახებ"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+#, fuzzy
+msgid "Configure the game"
+msgstr "კონფიგურირება"
+
+#: ../libgames-support/games-stock.c:63
+#, fuzzy
+msgid "Quit this game"
+msgstr "გამოსვლა"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_შინაარსი"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "_მთელს ეკრანზე"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr ""
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_ახალი"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "_ახალი თამაში"
+
+#: ../libgames-support/games-stock.c:302
+#, fuzzy
+msgid "_Redo Move"
+msgstr "აღდგენა გადატანა"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+#, fuzzy
+msgid "_Reset"
+msgstr "_განულება"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+#, fuzzy
+msgid "_Restart"
+msgstr "_გადატვირთვა"
+
+#: ../libgames-support/games-stock.c:307
+#, fuzzy
+msgid "_Undo Move"
+msgstr "დაბრუნება გადატანა"
+
+#: ../libgames-support/games-stock.c:308
+#, fuzzy
+msgid "_Leave Fullscreen"
+msgstr "_მთელი ეკრანიდან გამოსვლა"
+
+#: ../libgames-support/games-stock.c:309
+#, fuzzy
+msgid "Network _Game"
+msgstr "ახალი ქსელის თამაში"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "_ახალი თამაში"
+
+#: ../libgames-support/games-stock.c:311
+#, fuzzy
+msgid "Player _List"
+msgstr "მოთამაშე"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_პაუზა"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "თამაშის დასრულ_ება"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Player Chat"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Reserved"
+#~ msgstr "მარცხენა:"
+
+#~ msgid "Status"
+#~ msgstr "სტატუსი"
+
+#, fuzzy
+#~ msgid "Player List"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Move here"
+#~ msgstr "გადატანა მარცხენა"
+
+#, fuzzy
+#~ msgid "Remove bot"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "X Padding"
+#~ msgstr "X შევსება"
+
+#, fuzzy
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "-სკენ -სკენ."
+
+#, fuzzy
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "-სკენ -სკენ."
+
+#, fuzzy
+#~ msgid "Width Multiple"
+#~ msgstr "სიგანე"
+
+#, fuzzy
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "-სკენ -სკენ."
+
+#, fuzzy
+#~ msgid "Height Multiple"
+#~ msgstr "სიმაღლე"
+
+#, fuzzy
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "-სკენ -სკენ."
+
+#, fuzzy
+#~ msgid "X align"
+#~ msgstr "X"
+
+#, fuzzy
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "ჰორიზონტალური მარცხენა -სკენ მარჯვენა"
+
+#, fuzzy
+#~ msgid "Y align"
+#~ msgstr "Y"
+
+#, fuzzy
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "ვერტიკალური ზემოთ -სკენ ქვემოთ"
+
+#, fuzzy
+#~ msgid "Recently Played Games"
+#~ msgstr "მოთამაშე"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "ნათამაშები თამაშების სტატისტიკა"
+
+#~ msgid "The game file to use"
+#~ msgstr "გამოსაყენები თამაშის ფაილი"
+
+#~ msgid "The height of the main window."
+#~ msgstr "მთავარი ფანჯრის სიმაღლე"
+
+#~ msgid "Theme file name"
+#~ msgstr "თემის ფაილის სახელი"
+
+#~ msgid "Window height"
+#~ msgstr "ფანჯრის სიმაღლე"
+
+#~ msgid "Window width"
+#~ msgstr "ფანჯრის სიფართოვე"
+
+#~ msgid "Congratulations!!!"
+#~ msgstr "გილოცავთ!!!"
+
+#~ msgid "You have won."
+#~ msgstr "თქვენ მოიგეთ."
+
+#~ msgid "Select Game"
+#~ msgstr "ამოირჩიეთ თამაში"
+
+#, fuzzy
+#~ msgid "Move %s %s."
+#~ msgstr "გადატანა."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "თქვენ ეძებთ %s-ს."
+
+#, fuzzy
+#~ msgid "Main game:"
+#~ msgstr "მთავარი თამაში:"
+
+#~ msgid "Card games:"
+#~ msgstr "კარტის თამაშები:"
+
+#~ msgid "_View"
+#~ msgstr "_ხედი"
+
+#~ msgid "_Control"
+#~ msgstr "_კონტროლი"
+
+#, fuzzy
+#~ msgid "Restart the current game"
+#~ msgstr "გადატვირთე"
+
+#~ msgid "_Select Game..."
+#~ msgstr "თამაშის _ამორჩევა..."
+
+#~ msgid "S_tatistics"
+#~ msgstr "ს_ტატისტიკა"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "აჩვენე თამაშის სტატისტიკა"
+
+#, fuzzy
+#~ msgid "Redo the last move"
+#~ msgstr "დაბრუნება"
+
+#, fuzzy
+#~ msgid "Base Card: Jack"
+#~ msgstr "ძირითადი კარტი"
+
+#, fuzzy
+#~ msgid "Base Card: King"
+#~ msgstr "ძირითადი კარტი"
+
+#, fuzzy
+#~ msgid "Base Card: Queen"
+#~ msgstr "ძირითადი კარტი"
+
+#, fuzzy
+#~ msgid "Base Card: ~a"
+#~ msgstr "ძირითადი კარტი a"
+
+#, fuzzy
+#~ msgid "Stock left:"
+#~ msgstr "მარცხენა:"
+
+#, fuzzy
+#~ msgid "Stock left: 0"
+#~ msgstr "მარცხენა 0"
+
+#, fuzzy
+#~ msgid "No hint available right now"
+#~ msgstr "არა მარჯვენა ახლა"
+
+#, fuzzy
+#~ msgid "Redeals left:"
+#~ msgstr "მარცხენა:"
+
+#, fuzzy
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "გადატანა -სკენ"
+
+#, fuzzy
+#~ msgid "an empty bottom slot"
+#~ msgstr "ქვემოთ"
+
+#, fuzzy
+#~ msgid "an empty left slot"
+#~ msgstr "მარცხენა"
+
+#, fuzzy
+#~ msgid "an empty right slot"
+#~ msgstr "მარჯვენა"
+
+#, fuzzy
+#~ msgid "an empty top slot"
+#~ msgstr "ზემოთ"
+
+#, fuzzy
+#~ msgid "Base Card: "
+#~ msgstr "ძირითადი კარტი "
+
+#, fuzzy
+#~ msgid "Move waste back to stock"
+#~ msgstr "გადატანა -სკენ"
+
+#, fuzzy
+#~ msgid "Reserve left:"
+#~ msgstr "მარცხენა:"
+
+#, fuzzy
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "გადატანა a -სკენ"
+
+#, fuzzy
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "გადატანა"
+
+#, fuzzy
+#~ msgid "Consistency is key"
+#~ msgstr "გასაღები"
+
+#, fuzzy
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "I a მარჯვენა ახლა."
+
+#, fuzzy
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "და დუიმი a"
+
+#, fuzzy
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr "a a"
+
+#, fuzzy
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "მონიტორები."
+
+#, fuzzy
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "არასოდეს დუიმი a"
+
+#, fuzzy
+#~ msgid "Remove the eights"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the fives"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the fours"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the jacks"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the sixes"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the tens"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the threes"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Remove the twos"
+#~ msgstr "წაშლა"
+
+#, fuzzy
+#~ msgid "Return cards to stock"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Move ~a off the board"
+#~ msgstr "გადატანა a"
+
+#, fuzzy
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "Double click any card to redeal."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "No hint available."
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "გადატანა a -სკენ"
+
+#, fuzzy
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "a"
+
+#, fuzzy
+#~ msgid "Stock left: ~a"
+#~ msgstr "მარცხენა a"
+
+#, fuzzy
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "გადატანა a ის -სკენ"
+
+#, fuzzy
+#~ msgid "Move card from waste"
+#~ msgstr "გადატანა"
+
+#, fuzzy
+#~ msgid "Move waste to stock"
+#~ msgstr "გადატანა -სკენ"
+
+#, fuzzy
+#~ msgid "Base Card:"
+#~ msgstr "ძირითადი კარტი:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr "-სკენ დუიმი."
+
+#, fuzzy
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "გადატანა a -სკენ"
+
+#, fuzzy
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "გადატანა a -სკენ"
+
+#, fuzzy
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "ადგილი -სკენ -სკენ"
+
+#, fuzzy
+#~ msgid "Shuffle mode"
+#~ msgstr "ალალბედზე დაკვრა"
+
+#, fuzzy
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "გადატანა -სკენ a"
+
+#, fuzzy
+#~ msgid "Place something on empty slot"
+#~ msgstr "ადგილი"
+
+#, fuzzy
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "დუიმი."
+
+#, fuzzy
+#~ msgid "Allow temporary spots use"
+#~ msgstr "დაუშვი"
+
+#, fuzzy
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "გადატანა a -სკენ"
+
+#, fuzzy
+#~ msgid "No hint available"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "and all cards below it"
+#~ msgstr "და ყველა"
+
+#, fuzzy
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "ზემოთ ის."
+
+#, fuzzy
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "გადატანა a ის -სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Aisleriot can't load the file: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Aisleriot installation"
+#~ msgstr "n n"
+
+#, fuzzy
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr "ვერსია ის ნაგულისხმევი."
+
+#~ msgid "Time:"
+#~ msgstr "დრო:"
+
+#, fuzzy
+#~ msgid "NAME"
+#~ msgstr "სახელი"
+
+#, fuzzy
+#~ msgid "Play many different solitaire games"
+#~ msgstr "დაკვრა"
+
+#~ msgid "Unknown color"
+#~ msgstr "უცნობი ფერი"
+
+#, fuzzy
+#~ msgid "Unknown suit"
+#~ msgstr "უცნობი"
+
+#, fuzzy
+#~ msgid "Unknown value"
+#~ msgstr "უცნობი"
+
+#, fuzzy
+#~ msgid "black joker"
+#~ msgstr "შავი"
+
+#~ msgid "five"
+#~ msgstr "ხუთი"
+
+#~ msgid "four"
+#~ msgstr "ოთხი"
+
+#~ msgid "red joker"
+#~ msgstr "წითელი ჯოკერი"
+
+#, fuzzy
+#~ msgid "the ace of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ace of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ace of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ace of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the eight of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the eight of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the eight of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the eight of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the five of clubs"
+#~ msgstr "ხუთი ის"
+
+#, fuzzy
+#~ msgid "the five of diamonds"
+#~ msgstr "ხუთი ის"
+
+#, fuzzy
+#~ msgid "the five of hearts"
+#~ msgstr "ხუთი ის"
+
+#, fuzzy
+#~ msgid "the five of spades"
+#~ msgstr "ხუთი ის"
+
+#, fuzzy
+#~ msgid "the four of clubs"
+#~ msgstr "ოთხი ის"
+
+#, fuzzy
+#~ msgid "the four of diamonds"
+#~ msgstr "ოთხი ის"
+
+#, fuzzy
+#~ msgid "the four of hearts"
+#~ msgstr "ოთხი ის"
+
+#, fuzzy
+#~ msgid "the four of spades"
+#~ msgstr "ოთხი ის"
+
+#, fuzzy
+#~ msgid "the jack of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the jack of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the jack of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the jack of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the king of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the king of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the king of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the king of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the nine of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the nine of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the nine of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the nine of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the queen of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the queen of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the queen of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the queen of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the seven of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the seven of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the seven of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the seven of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the six of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the six of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the six of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the six of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ten of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ten of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ten of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the ten of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the three of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the three of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the three of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the three of spades"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the two of clubs"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the two of diamonds"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the two of hearts"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "the two of spades"
+#~ msgstr "ის"
+
+#~ msgid "the unknown card"
+#~ msgstr "უცნობი კარტი"
+
+#~ msgid "N/A"
+#~ msgstr "არარი მოცემული"
+
+#~ msgid "<b>Time</b>"
+#~ msgstr "<b>დრო</b>"
+
+#~ msgid "Statistics"
+#~ msgstr "სტატისტიკა"
+
+#~ msgid "Total:"
+#~ msgstr "სულ:"
+
+#, fuzzy
+#~ msgid "Bakers Game"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Block Ten"
+#~ msgstr "ბლოკირება"
+
+#, fuzzy
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Clock"
+#~ msgstr "საათი"
+
+#, fuzzy
+#~ msgid "Eagle Wing"
+#~ msgstr "Eagle"
+
+#, fuzzy
+#~ msgid "Eight Off"
+#~ msgstr "გათიშ."
+
+#, fuzzy
+#~ msgid "First Law"
+#~ msgstr "პირველი"
+
+#, fuzzy
+#~ msgid "Gaps"
+#~ msgstr "რუქები"
+
+#, fuzzy
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#, fuzzy
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#, fuzzy
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#, fuzzy
+#~ msgid "Kansas"
+#~ msgstr "კანზასი"
+
+#, fuzzy
+#~ msgid "Odessa"
+#~ msgstr "ოდესა"
+
+#, fuzzy
+#~ msgid "Spider One Suit"
+#~ msgstr "ერთი"
+
+#, fuzzy
+#~ msgid "Straight Up"
+#~ msgstr "პირდაპირი"
+
+#, fuzzy
+#~ msgid "Template"
+#~ msgstr "ნიმუში"
+
+#, fuzzy
+#~ msgid "Union Square"
+#~ msgstr "კვადრატი"
+
+#, fuzzy
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#, fuzzy
+#~ msgid "Will O The Wisp"
+#~ msgstr "O"
+
+#, fuzzy
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "დაკვრა"
+
+#, fuzzy
+#~ msgid "Display probabilities"
+#~ msgstr "დისპლეი"
+
+#, fuzzy
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr "დისპლეი ის და ის."
+
+#, fuzzy
+#~ msgid "Never take insurance"
+#~ msgstr "არასოდეს"
+
+#, fuzzy
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "არასოდეს a."
+
+#, fuzzy
+#~ msgid "The amount of money in your bank"
+#~ msgstr "ის დუიმი"
+
+#, fuzzy
+#~ msgid "The amount of money in your bank."
+#~ msgstr "ის დუიმი."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "ის ის -სკენ."
+
+#, fuzzy
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "ის -სკენ"
+
+#, fuzzy
+#~ msgid "Use a quick deal"
+#~ msgstr "a"
+
+#, fuzzy
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "a არა."
+
+#, fuzzy
+#~ msgid "Deal a new hand"
+#~ msgstr "a"
+
+#, fuzzy
+#~ msgid "Add a card to the hand"
+#~ msgstr "დამატება a -სკენ"
+
+#, fuzzy
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "შეჩერება -სკენ"
+
+#, fuzzy
+#~ msgid "S_urrender"
+#~ msgstr "S"
+
+#, fuzzy
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "a"
+
+#, fuzzy
+#~ msgid "S_plit the hand"
+#~ msgstr "S"
+
+#, fuzzy
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Split დუიმი"
+
+#, fuzzy
+#~ msgid "Show toolbar"
+#~ msgstr "ანახე"
+
+#, fuzzy
+#~ msgid "Cards left:"
+#~ msgstr "მარცხენა:"
+
+#~ msgid "Balance:"
+#~ msgstr "ბალანსი:"
+
+#, fuzzy
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "ადგილი a"
+
+#, fuzzy
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr "a ის ის ორიგინალი a a double."
+
+#, fuzzy
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr "და დუიმი თეთრი -სკენ a."
+
+#, fuzzy
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "-სკენ a."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Blackjack პარამეტრები"
+
+#, fuzzy
+#~ msgid "_Display hand probabilities"
+#~ msgstr "დისპლეი"
+
+#, fuzzy
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "_Never take insurance"
+#~ msgstr "არასოდეს"
+
+#, fuzzy
+#~ msgid "_Reset Balance"
+#~ msgstr "განულება"
+
+#, fuzzy
+#~ msgid "Hit Soft 17"
+#~ msgstr "17"
+
+#, fuzzy
+#~ msgid "Double Any Total"
+#~ msgstr "სულ"
+
+#, fuzzy
+#~ msgid "Double 9"
+#~ msgstr "9"
+
+#, fuzzy
+#~ msgid "Double After Split"
+#~ msgstr "Split"
+
+#, fuzzy
+#~ msgid "Dealer Speed"
+#~ msgstr "სიჩქარე"
+
+#, fuzzy
+#~ msgid "Click to double your wager"
+#~ msgstr "-სკენ double"
+
+#, fuzzy
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "-სკენ -სკენ"
+
+#, fuzzy
+#~ msgid "Click to deal another card"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "-სკენ -სკენ"
+
+#, fuzzy
+#~ msgid "Click to deal a new hand"
+#~ msgstr "-სკენ a"
+
+#, fuzzy
+#~ msgid "The best option is to stand"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr "ვის -სკენ -სკენ Control."
+
+#, fuzzy
+#~ msgid "The best option is to hit"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr "ვის -სკენ -სკენ Control."
+
+#, fuzzy
+#~ msgid "The best option is to double down"
+#~ msgstr "-სკენ double"
+
+#, fuzzy
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr "ვის double -სკენ double და ქვემოთ ის Control."
+
+#, fuzzy
+#~ msgid "The best option is to split"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr "ვის -სკენ ის და -სკენ Control."
+
+#, fuzzy
+#~ msgid "The best option is to surrender"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr "ვის -სკენ და Control."
+
+#, fuzzy
+#~ msgid "Blackjack is a casino-style card game."
+#~ msgstr "a."
+
+#, fuzzy
+#~ msgid "Player expected values"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Split"
+#~ msgstr "Split"
+
+#, fuzzy
+#~ msgid "Players on server: %d"
+#~ msgstr ""
+#~ "პირველი მოთამაშე:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "There was an error sending the chat."
+#~ msgstr "შეცდომა"
+
+#, fuzzy
+#~ msgid "You're not at a table."
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid "You have joined table %d."
+#~ msgstr "თქვენ მოიგეთ."
+
+#, fuzzy
+#~ msgid "The game is over."
+#~ msgstr "a!"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "_შეერთება"
+
+#, fuzzy
+#~ msgid "Reconnecting"
+#~ msgstr "_შეერთება"
+
+#, fuzzy
+#~ msgid "Playing"
+#~ msgstr "გლუვი"
+
+#, fuzzy
+#~ msgid "Server:"
+#~ msgstr "დონე:"
+
+#, fuzzy
+#~ msgid "Username:"
+#~ msgstr "_ჰოსტის სახელი:"
+
+#, fuzzy
+#~ msgid "Connect"
+#~ msgstr "_შეერთება"
+
+#, fuzzy
+#~ msgid "Sentinel"
+#~ msgstr "Valentine"
+
+#, fuzzy
+#~ msgid "Knight"
+#~ msgstr "ღია"
+
+#, fuzzy
+#~ msgid "Eagle"
+#~ msgstr "Eagle"
+
+#, fuzzy
+#~ msgid "Colonel"
+#~ msgstr "ფერები"
+
+#~ msgid "General"
+#~ msgstr "საერთო"
+
+#, fuzzy
+#~ msgid "Scout"
+#~ msgstr "ხმა"
+
+#, fuzzy
+#~ msgid "Scholar"
+#~ msgstr "ანახე"
+
+#, fuzzy
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "ა"
+
+#, fuzzy
+#~ msgid "Launched game"
+#~ msgstr "პაუზა"
+
+#, fuzzy
+#~ msgid "Launch failed"
+#~ msgstr "კავშირები"
+
+#, fuzzy
+#~ msgid "Game Error"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Message of the Day"
+#~ msgstr "გადატანა a"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "Not Implemented"
+#~ msgstr "შესრულებულია"
+
+#, fuzzy
+#~ msgid "Game Types"
+#~ msgstr "თამაშის ტიპი"
+
+#, fuzzy
+#~ msgid "Set"
+#~ msgstr "ინსტალაცია"
+
+#, fuzzy
+#~ msgid "Upgrage Game"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Player Information"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Player Handle:"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Table:"
+#~ msgstr "სულ:"
+
+#, fuzzy
+#~ msgid "Record:"
+#~ msgstr "წითელი"
+
+#, fuzzy
+#~ msgid "Rating:"
+#~ msgstr "დარჩენილი დრო:"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr "უცნობი"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "სტატუსი"
+
+#, fuzzy
+#~ msgid "Join"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "Leave"
+#~ msgstr "დონე:"
+
+#, fuzzy
+#~ msgid "No description available."
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid "Seats"
+#~ msgstr "სტატუსი"
+
+#, fuzzy
+#~ msgid "Game Name:"
+#~ msgstr "_თამაშის სახელი:"
+
+#, fuzzy
+#~ msgid "Homepage:"
+#~ msgstr "_სურათი:"
+
+#, fuzzy
+#~ msgid "Unknown room"
+#~ msgstr "უცნობი ფერი"
+
+#, fuzzy
+#~ msgid "You're already in between rooms"
+#~ msgstr "დაყოვნება"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "უცნობი ფერი"
+
+#, fuzzy
+#~ msgid "Game Type:  %s"
+#~ msgstr "თამაშის ტიპი"
+
+#, fuzzy
+#~ msgid "Game Type:"
+#~ msgstr "თამაშის ტიპი"
+
+#, fuzzy
+#~ msgid "Number of seats"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Computer"
+#~ msgstr "შესრულებულია"
+
+#, fuzzy
+#~ msgid "Reserved for"
+#~ msgstr "მარცხენა:"
+
+#, fuzzy
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "-სკენ?"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "_შეერთება"
+
+#, fuzzy
+#~ msgid "Watch"
+#~ msgstr "_ლოდინი"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "_ხედი"
+
+#, fuzzy
+#~ msgid "Player Stats"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "_დახმარება"
+
+#, fuzzy
+#~ msgid "Copyright"
+#~ msgstr "გადატანა მარჯვენა"
+
+#, fuzzy
+#~ msgid "GGZ Help"
+#~ msgstr "_დახმარება"
+
+#, fuzzy
+#~ msgid "Game Help"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "სიჩქარე"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "ფორთოხლისფერი"
+
+#, fuzzy
+#~ msgid "Play Sounds"
+#~ msgstr "ხმა"
+
+#, fuzzy
+#~ msgid "Chat Color"
+#~ msgstr "ფერები"
+
+#, fuzzy
+#~ msgid "Black Background"
+#~ msgstr "ფონის ფერი"
+
+#, fuzzy
+#~ msgid "White Background"
+#~ msgstr "ფონის ფერი"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "სახელი"
+
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "სტატუსი"
+
+#, fuzzy
+#~ msgid "Country:"
+#~ msgstr "_კონტროლი"
+
+#, fuzzy
+#~ msgid "User Information"
+#~ msgstr "გამოყენება"
+
+#, fuzzy
+#~ msgid "Display Important"
+#~ msgstr "დისპლეი"
+
+#, fuzzy
+#~ msgid "Display None"
+#~ msgstr "დისპლეი"
+
+#~ msgid "Options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~ msgid "Select Font"
+#~ msgstr "ამოირჩიეთ თამაში"
+
+#, fuzzy
+#~ msgid "Unknown negotation"
+#~ msgstr "უცნობი ფერი"
+
+#, fuzzy
+#~ msgid "No such name was found"
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid "Unknown login error"
+#~ msgstr "უცნობი ფერი"
+
+#, fuzzy
+#~ msgid "Unknown room-joining error"
+#~ msgstr "უცნობი ფერი"
+
+#, fuzzy
+#~ msgid "Playing as:"
+#~ msgstr "გლუვი"
+
+#, fuzzy
+#~ msgid "Save Chess Game"
+#~ msgstr "პაუზა"
+
+#, fuzzy
+#~ msgid "Load Chess Game"
+#~ msgstr "ახალი თამაშის დაწყება"
+
+#, fuzzy
+#~ msgid "AI Information"
+#~ msgstr "_ანიმაცია"
+
+#, fuzzy
+#~ msgid "End Game"
+#~ msgstr "თამაშის დასრულ_ება"
+
+#, fuzzy
+#~ msgid "Join Game"
+#~ msgstr "თამაშის დასრულ_ება"
+
+#, fuzzy
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "_მთელი ეკრანიდან გამოსვლა"
+
+#, fuzzy
+#~ msgid "Load a saved game"
+#~ msgstr "ახალი თამაშის დაწყება"
+
+#, fuzzy
+#~ msgid "Rewind to the game start"
+#~ msgstr "დაიწყო ახალი თამაში"
+
+#, fuzzy
+#~ msgid "Save the current game"
+#~ msgstr "დასრულება"
+
+#, fuzzy
+#~ msgid "Show the current move"
+#~ msgstr "დასრულება"
+
+#, fuzzy
+#~ msgid "Show the next move"
+#~ msgstr "აღდგენა"
+
+#, fuzzy
+#~ msgid "Show the previous move"
+#~ msgstr "დაბრუნება"
+
+#, fuzzy
+#~ msgid "_AI Information"
+#~ msgstr "_ანიმაცია"
+
+#, fuzzy
+#~ msgid "_Join Game"
+#~ msgstr "თამაშის დასრულ_ება"
+
+#, fuzzy
+#~ msgid "<b>Game to Join</b>"
+#~ msgstr "<b>დრო</b>"
+
+#, fuzzy
+#~ msgid "<b>White Player</b>"
+#~ msgstr "<b>დრო</b>"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "ბალანსი:"
+
+#, fuzzy
+#~ msgid "Local chess game"
+#~ msgstr "_ლოკალური თამაშები:"
+
+#, fuzzy
+#~ msgid "Local chess player"
+#~ msgstr "ის თეთრი"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "სახელი"
+
+#, fuzzy
+#~ msgid "Typ_e:"
+#~ msgstr "დრო:"
+
+#, fuzzy
+#~ msgid "White"
+#~ msgstr "_ლოდინი"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "_თამაშის სახელი:"
+
+#, fuzzy
+#~ msgid "_Join"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr "სახელი"
+
+#, fuzzy
+#~ msgid "_Start"
+#~ msgstr "_გადატვირთვა"
+
+#, fuzzy
+#~ msgid "_Type:"
+#~ msgstr "დრო:"
+
+#, fuzzy
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>დრო</b>"
+
+#, fuzzy
+#~ msgid "Waiting For Players"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "_Black player:"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "_Ready"
+#~ msgstr "წითელი"
+
+#, fuzzy
+#~ msgid "_White player:"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Game Start"
+#~ msgstr "თამაში"
+
+#~ msgid "Small"
+#~ msgstr "პატარა"
+
+#, fuzzy
+#~ msgid "glines|Medium"
+#~ msgstr "საშუალო"
+
+#~ msgid "Large"
+#~ msgstr "დიდი"
+
+#~ msgid "Preferences"
+#~ msgstr "პარამეტრები"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr "-სკენ n n ნაგულისხმევი."
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr "-სკენ n n მეტი."
+
+#, fuzzy
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "ხუთი ის ტიპი დუიმი a -სკენ!"
+
+#, fuzzy
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME მეტი"
+
+#~ msgid "Board Size:"
+#~ msgstr "დაფის ზომა:"
+
+#, fuzzy
+#~ msgid "Game Over!"
+#~ msgstr "თამაში!"
+
+#, fuzzy
+#~ msgid "You can't move there!"
+#~ msgstr "თქვენ!"
+
+#~ msgid "Five or More"
+#~ msgstr "ხუთი ან მეტი"
+
+#, fuzzy
+#~ msgid "GNOME port of the once-popular Color Lines game"
+#~ msgstr "GNOME ის ფერი ხაზები"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "ხუთი ან მეტი პარამეტრ"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "გარეყდა"
+
+#~ msgid "_Image:"
+#~ msgstr "_სურათი:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "_ფონის ფერი:"
+
+#~ msgid "Board Size"
+#~ msgstr "დაფის ზომა"
+
+#~ msgid "_Small"
+#~ msgstr "_პატარა"
+
+#~ msgid "_Medium"
+#~ msgstr "_საშუალო"
+
+#~ msgid "_Large"
+#~ msgstr "_დიდი"
+
+#, fuzzy
+#~ msgid "_Use fast moves"
+#~ msgstr "გამოყენება"
+
+#~ msgid "Next:"
+#~ msgstr "შემდეგი:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "ა"
+
+#~ msgid "Background color"
+#~ msgstr "ფონის ფერი"
+
+#, fuzzy
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "ფონი hex ის."
+
+#, fuzzy
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "ის -სკენ."
+
+#, fuzzy
+#~ msgid "Game field"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Game field from last saved session."
+#~ msgstr "თამაში სესია."
+
+#, fuzzy
+#~ msgid "Game preview"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Game preview from last saved session."
+#~ msgstr "თამაში სესია."
+
+#, fuzzy
+#~ msgid "Game score"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Game score from last saved session."
+#~ msgstr "თამაში სესია."
+
+#, fuzzy
+#~ msgid "Playing field size"
+#~ msgstr "ვუკრავ სიდიდე"
+
+#, fuzzy
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr "ვუკრავ სიდიდე პატარა საშუალო დიდი სხვა."
+
+#, fuzzy
+#~ msgid "Time between moves"
+#~ msgstr "დრო"
+
+#, fuzzy
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "დრო დუიმი მილიწამები."
+
+#, fuzzy
+#~ msgid "Four-in-a-Row"
+#~ msgstr "დუიმი a სტრიქონი"
+
+#, fuzzy
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "-სკენ ის"
+
+#, fuzzy
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "A რიცხვი."
+
+#~ msgid "Animate"
+#~ msgstr "ანიმირება"
+
+#, fuzzy
+#~ msgid "Height of the main window"
+#~ msgstr "სიმაღლე ის"
+
+#, fuzzy
+#~ msgid "Key press to drop a marble."
+#~ msgstr "გასაღები -სკენ a."
+
+#, fuzzy
+#~ msgid "Level of Player One"
+#~ msgstr "ის მოთამაშე ერთი"
+
+#, fuzzy
+#~ msgid "Level of Player Two"
+#~ msgstr "ის მოთამაშე"
+
+#~ msgid "Sound"
+#~ msgstr "ხმა"
+
+#, fuzzy
+#~ msgid "The height of the main window, in pixels, at start-up."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "The width of the main window, in pixels, at start-up."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "Theme ID"
+#~ msgstr "გაფორმება ID"
+
+#, fuzzy
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "Whether or not to use animation."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "Width of the main window"
+#~ msgstr "სიგანე ის"
+
+#, fuzzy
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr "-სკენ ის."
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr "-სკენ n"
+
+#~ msgid "Player"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "It's a draw!"
+#~ msgstr "a!"
+
+#~ msgid "You win!"
+#~ msgstr "თქვენ მოიგეთ!"
+
+#~ msgid "I win!"
+#~ msgstr "მე მოვიგე!"
+
+#, fuzzy
+#~ msgid "Hint: Column %d"
+#~ msgstr "სვეტი"
+
+#~ msgid "You:"
+#~ msgstr "თქვენ:"
+
+#~ msgid "Me:"
+#~ msgstr "მე:"
+
+#, fuzzy
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine."
+#~ msgstr "დუიმი a სტრიქონი GNOME a."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "პირველი მოთამაშე:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "მეორე მოთამაშე:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "დუიმი a სტრიქონი პარამეტრები"
+
+#~ msgid "Appearance"
+#~ msgstr "შესახედაობა"
+
+#, fuzzy
+#~ msgid "_Theme:"
+#~ msgstr "_თემა:"
+
+#, fuzzy
+#~ msgid "Enable _animation"
+#~ msgstr "ჩართვა"
+
+#~ msgid "Classic"
+#~ msgstr "კლასიკური"
+
+#~ msgid "Red"
+#~ msgstr "წითელი"
+
+#~ msgid "Yellow"
+#~ msgstr "ყვითელი"
+
+#~ msgid "High Contrast"
+#~ msgstr "მაღალი კონტრასტი"
+
+#, fuzzy
+#~ msgid "Light"
+#~ msgstr "ღია"
+
+#, fuzzy
+#~ msgid "High Contrast Inverse"
+#~ msgstr "მაღალი კონტრასტი"
+
+#~ msgid "Blue"
+#~ msgstr "ლურჯი"
+
+#~ msgid "Orange"
+#~ msgstr "ფორთოხლისფერი"
+
+#, fuzzy
+#~ msgid "%s joined the game.\n"
+#~ msgstr "პაუზა"
+
+#, fuzzy
+#~ msgid ""
+#~ "Gnibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr "n n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Gnibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr "n n"
+
+#, fuzzy
+#~ msgid "Nibbles Scores"
+#~ msgstr "პარამეტრები"
+
+#, fuzzy
+#~ msgid "Speed:"
+#~ msgstr "სიჩქარე"
+
+#, fuzzy
+#~ msgid "Congratulations!"
+#~ msgstr "გილოცავთ!"
+
+#, fuzzy
+#~ msgid "Your score has made the top ten."
+#~ msgstr "ზემოთ."
+
+#, fuzzy
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "a a"
+
+#, fuzzy
+#~ msgid "Color to use for worm"
+#~ msgstr "ფერი -სკენ"
+
+#, fuzzy
+#~ msgid "Color to use for worm."
+#~ msgstr "ფერი -სკენ."
+
+#, fuzzy
+#~ msgid "Enable fake bonuses"
+#~ msgstr "ჩართვა"
+
+#, fuzzy
+#~ msgid "Enable fake bonuses."
+#~ msgstr "ჩართვა."
+
+#~ msgid "Enable sounds"
+#~ msgstr "ხმების ჩართვა"
+
+#~ msgid "Enable sounds."
+#~ msgstr "ხმების ჩართვა."
+
+#, fuzzy
+#~ msgid "Game level to start on"
+#~ msgstr "თამაში -სკენ"
+
+#, fuzzy
+#~ msgid "Game level to start on."
+#~ msgstr "თამაში -სკენ."
+
+#~ msgid "Game speed"
+#~ msgstr "თამაშის სიჩქარე"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "თამაშის სიჩქარე (1=ჩქარი, 4=ნელი)."
+
+#, fuzzy
+#~ msgid "Height of the GNibbles window"
+#~ msgstr "სიმაღლე ის"
+
+#, fuzzy
+#~ msgid ""
+#~ "Height of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr "სიმაღლე ის -სკენ სიდიდე."
+
+#, fuzzy
+#~ msgid "Key to use for motion down."
+#~ msgstr "გასაღები -სკენ."
+
+#, fuzzy
+#~ msgid "Key to use for motion left."
+#~ msgstr "გასაღები -სკენ მარცხენა."
+
+#, fuzzy
+#~ msgid "Key to use for motion right."
+#~ msgstr "გასაღები -სკენ მარჯვენა."
+
+#, fuzzy
+#~ msgid "Key to use for motion up."
+#~ msgstr "გასაღები -სკენ."
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "გადატანა"
+
+#, fuzzy
+#~ msgid "Number of AI players"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Number of AI players."
+#~ msgstr "ის."
+
+#, fuzzy
+#~ msgid "Number of human players"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Number of human players."
+#~ msgstr "ის."
+
+#, fuzzy
+#~ msgid "Play levels in random order"
+#~ msgstr "დაკვრა დუიმი"
+
+#, fuzzy
+#~ msgid "Play levels in random order."
+#~ msgstr "დაკვრა დუიმი."
+
+#, fuzzy
+#~ msgid "Size of game tiles"
+#~ msgstr "ზომა ის"
+
+#, fuzzy
+#~ msgid "Size of game tiles."
+#~ msgstr "ზომა ის."
+
+#, fuzzy
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "მარცხენა მარჯვენა."
+
+#, fuzzy
+#~ msgid "Width of the GNibbles window"
+#~ msgstr "სიგანე ის"
+
+#, fuzzy
+#~ msgid ""
+#~ "Width of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr "სიგანე ის -სკენ სიდიდე."
+
+#, fuzzy
+#~ msgid "Slow"
+#~ msgstr "ყვითელი"
+
+#, fuzzy
+#~ msgid "gnibbles|Medium"
+#~ msgstr "საშუალო"
+
+#, fuzzy
+#~ msgid "A worm game for GNOME."
+#~ msgstr "A GNOME."
+
+#, fuzzy
+#~ msgid "Nibbles Preferences"
+#~ msgstr "პარამეტრები"
+
+#~ msgid "Speed"
+#~ msgstr "სიჩქარე"
+
+#~ msgid "My second day"
+#~ msgstr "ჩემი მეორე დღე"
+
+#, fuzzy
+#~ msgid "_Play levels in random order"
+#~ msgstr "დაკვრა დუიმი"
+
+#, fuzzy
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "ჩართვა"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "ხმების _ჩართვა"
+
+#, fuzzy
+#~ msgid "Number of _human players:"
+#~ msgstr "მოთამაშეების _რაოდენობა:"
+
+#, fuzzy
+#~ msgid "Number of _AI players:"
+#~ msgstr "მოთამაშეების _რაოდენობა:"
+
+#~ msgid "Green"
+#~ msgstr "მწვანე"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr "თქვენ თქვენ?"
+
+#, fuzzy
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "არა მარცხენა!"
+
+#, fuzzy
+#~ msgid "You have run out of safe moves - the robots have won!"
+#~ msgstr "თქვენ ის!"
+
+#, fuzzy
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "არა -სკენ -სკენ!"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#, fuzzy
+#~ msgid "No game data could be found."
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr "პროგრამა -სკენ პროგრამა."
+
+#~ msgid "Enable game sounds"
+#~ msgstr "თამაშის ხმების ჩართვა"
+
+#, fuzzy
+#~ msgid "Enable splats"
+#~ msgstr "ჩართვა"
+
+#~ msgid "Game type"
+#~ msgstr "თამაშის ტიპი"
+
+#, fuzzy
+#~ msgid "Key to move N"
+#~ msgstr "გასაღები -სკენ N"
+
+#, fuzzy
+#~ msgid "Key to move NE"
+#~ msgstr "გასაღები -სკენ"
+
+#, fuzzy
+#~ msgid "Key to teleport"
+#~ msgstr "გასაღები -სკენ"
+
+#, fuzzy
+#~ msgid "Key to teleport randomly"
+#~ msgstr "გასაღები -სკენ"
+
+#, fuzzy
+#~ msgid "Key to wait"
+#~ msgstr "გასაღები -სკენ"
+
+#, fuzzy
+#~ msgid "Robot image theme"
+#~ msgstr "რობოტი"
+
+#, fuzzy
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "რობოტი ის -სკენ."
+
+#, fuzzy
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "ანახე A."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr "ის გასაღები -სკენ a X გასაღები."
+
+#, fuzzy
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr "-სკენ -სკენ a -სკენ a -სკენ a -სკენ."
+
+#, fuzzy
+#~ msgid "Use super safe moves"
+#~ msgstr "გამოყენება"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr "არა და -სკენ."
+
+#, fuzzy
+#~ msgid "Bad Move"
+#~ msgstr "გადატანა"
+
+#, fuzzy
+#~ msgid "Level Complete"
+#~ msgstr "შესრულებულია"
+
+#, fuzzy
+#~ msgid "Player Dead"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Player Teleport"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Robot has been Splatted!"
+#~ msgstr "რობოტი!"
+
+#, fuzzy
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "n"
+
+#, fuzzy
+#~ msgid "_Move"
+#~ msgstr "_გადატანა"
+
+#~ msgid "_Random"
+#~ msgstr "_შემთხვევითი"
+
+#~ msgid "_Wait"
+#~ msgstr "_ლოდინი"
+
+#, fuzzy
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "ანახე"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "რობოტის პარამეტრები"
+
+#~ msgid "Game Type"
+#~ msgstr "თამაშის ტიპი"
+
+#, fuzzy
+#~ msgid "_Use safe moves"
+#~ msgstr "გამოყენება"
+
+#, fuzzy
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "დუიმი."
+
+#, fuzzy
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "ყველა"
+
+#, fuzzy
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "ყველა დუიმი."
+
+#, fuzzy
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "დაკვრა a და."
+
+#, fuzzy
+#~ msgid "E_nable splats"
+#~ msgstr "E"
+
+#, fuzzy
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "დაკვრა a"
+
+#, fuzzy
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "დაკვრა და."
+
+#, fuzzy
+#~ msgid "Graphics Theme"
+#~ msgstr "გრაფიკა გაფორმება"
+
+#, fuzzy
+#~ msgid "_Image theme:"
+#~ msgstr "სურათი:"
+
+#~ msgid "_Background color:"
+#~ msgstr "_ფონის ფერი:"
+
+#, fuzzy
+#~ msgid "_Restore Defaults"
+#~ msgstr "აღდგენა ნაგულისხმები"
+
+#~ msgid "Keyboard"
+#~ msgstr "კლავიატურა"
+
+#, fuzzy
+#~ msgid "Remaining:"
+#~ msgstr "დარჩენილი დრო:"
+
+#~ msgid "<none>"
+#~ msgstr "<არაფერი>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Written for my wife, Matylda\n"
+#~ "Send comments and bug reports to: \n"
+#~ "janusz.gorycki@intel.com"
+#~ msgstr "და -სკენnjanusz.gorycki@intel.com"
+
+#, fuzzy
+#~ msgid "High Scores"
+#~ msgstr "მაღალი კონტრასტი"
+
+#, fuzzy
+#~ msgid "_Play"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "_Game List"
+#~ msgstr "_თამაში"
+
+#, fuzzy
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "ის:"
+
+#, fuzzy
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "საშუალო"
+
+#, fuzzy
+#~ msgid "Generate Policy"
+#~ msgstr "საერთო"
+
+#, fuzzy
+#~ msgid "_Easy"
+#~ msgstr "მარტივი"
+
+#, fuzzy
+#~ msgid "_Generate"
+#~ msgstr "საერთო"
+
+#, fuzzy
+#~ msgid "Puzzle"
+#~ msgstr "შემდეგი"
+
+#, fuzzy
+#~ msgid "Started"
+#~ msgstr "სტატუსი"
+
+#, fuzzy
+#~ msgid "Played for %s"
+#~ msgstr ""
+#~ "მეორე მოთამაშე:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Finished in"
+#~ msgstr "_დასრულება"
+
+#, fuzzy
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "შემდეგი"
+
+#, fuzzy
+#~ msgid "Stopped"
+#~ msgstr "სიჩქარე"
+
+#~ msgid "Medium"
+#~ msgstr "საშუალო"
+
+#~ msgid "Easy"
+#~ msgstr "მარტივი"
+
+#, fuzzy
+#~ msgid "_Stop"
+#~ msgstr "ინსტალაცია"
+
+#, fuzzy
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "ჩემი მეორე დღე"
+
+#, fuzzy
+#~ msgid "Today"
+#~ msgstr "სულ"
+
+#, fuzzy
+#~ msgid "Full Screen"
+#~ msgstr "_მთელს ეკრანზე"
+
+#, fuzzy
+#~ msgid "New game"
+#~ msgstr "ახალი თამაში"
+
+#, fuzzy
+#~ msgid "Print current game"
+#~ msgstr "დასრულება"
+
+#, fuzzy
+#~ msgid "_Enter custom game"
+#~ msgstr "დასრულება"
+
+#, fuzzy
+#~ msgid "_Resume old game"
+#~ msgstr "გაგრძელება"
+
+#, fuzzy
+#~ msgid "Resume a previous saved game."
+#~ msgstr "გაგრძელება"
+
+#, fuzzy
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "სტატისტიკა"
+
+#, fuzzy
+#~ msgid "High _Scores"
+#~ msgstr "მაღალი კონტრასტი"
+
+#, fuzzy
+#~ msgid "Show high scores or replay old games."
+#~ msgstr "ანახე და"
+
+#, fuzzy
+#~ msgid "Show _Toolbar"
+#~ msgstr "ანახე"
+
+#, fuzzy
+#~ msgid "_Black background"
+#~ msgstr "_ფონის ფერი:"
+
+#, fuzzy
+#~ msgid "_Undo"
+#~ msgstr "დაბრუნება გადატანა"
+
+#, fuzzy
+#~ msgid "Undo last action"
+#~ msgstr "დაბრუნება"
+
+#, fuzzy
+#~ msgid "_Redo"
+#~ msgstr "წითელი"
+
+#, fuzzy
+#~ msgid "Redo last action"
+#~ msgstr "გამოყენება"
+
+#, fuzzy
+#~ msgid "No Tracker"
+#~ msgstr "არა გასაღები"
+
+#, fuzzy
+#~ msgid "_Play game"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "Playing "
+#~ msgstr "გლუვი"
+
+#, fuzzy
+#~ msgid "Statistics for %s"
+#~ msgstr "სტატისტიკა"
+
+#, fuzzy
+#~ msgid "translator_credits"
+#~ msgstr "თარგმანი-შესრულებულია"
+
+#, fuzzy
+#~ msgid "gnomine|Medium"
+#~ msgstr "საშუალო"
+
+#, fuzzy
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "ზემოთ."
+
+#~ msgid "Size:"
+#~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "ყველა."
+
+#, fuzzy
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "და სუპორტი:"
+
+#~ msgid "Graphics:"
+#~ msgstr "გრაფიკა:"
+
+#, fuzzy
+#~ msgid "Field Size"
+#~ msgstr "ზომა"
+
+#~ msgid "Custom Size"
+#~ msgstr "სხვა ზომა"
+
+#, fuzzy
+#~ msgid "_Number of mines:"
+#~ msgstr "ის:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_ჰორიზონტალური:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_ვერტიკალური:"
+
+#, fuzzy
+#~ msgid "Mines Preferences"
+#~ msgstr "პარამეტრები"
+
+#, fuzzy
+#~ msgid "Width of grid"
+#~ msgstr "სიგანე ის"
+
+#, fuzzy
+#~ msgid "Height of grid"
+#~ msgstr "სიმაღლე ის"
+
+#, fuzzy
+#~ msgid "Number of mines"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "ზომა ის"
+
+#, fuzzy
+#~ msgid "X location of window"
+#~ msgstr "X ის"
+
+#, fuzzy
+#~ msgid "Y location of window"
+#~ msgstr "Y ის"
+
+#, fuzzy
+#~ msgid "Press to Resume"
+#~ msgstr "-სკენ გაგრძელება"
+
+#~ msgid "Time: "
+#~ msgstr "დრო:"
+
+#, fuzzy
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "გაწმენდა a"
+
+#, fuzzy
+#~ msgid "Board size"
+#~ msgstr "დაფის ზომა"
+
+#, fuzzy
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "-სკენ ჭეშმარიტია -სკენ -სკენ უცნობი."
+
+#, fuzzy
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "The height of the window"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "რიცხვი ის ხაზი -სკენ"
+
+#, fuzzy
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "The width of the window"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Use the unknown flag"
+#~ msgstr "უცნობი"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr "-სკენ n."
+
+#, fuzzy
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr "-სკენ n ის და."
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#, fuzzy
+#~ msgid "2×2"
+#~ msgstr "_2×2"
+
+#, fuzzy
+#~ msgid "3×3"
+#~ msgstr "_3×3"
+
+#, fuzzy
+#~ msgid "4×4"
+#~ msgstr "_4×4"
+
+#, fuzzy
+#~ msgid "5×5"
+#~ msgstr "_5×5"
+
+#, fuzzy
+#~ msgid "6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "_Size"
+#~ msgstr "_ზომა"
+
+#~ msgid "_Up"
+#~ msgstr "_მაღლა"
+
+#, fuzzy
+#~ msgid "Move the pieces up"
+#~ msgstr "გადატანა"
+
+#~ msgid "_Left"
+#~ msgstr "_მარცხენა"
+
+#, fuzzy
+#~ msgid "Move the pieces left"
+#~ msgstr "გადატანა მარცხენა"
+
+#~ msgid "_Right"
+#~ msgstr "_მარჯვენა"
+
+#, fuzzy
+#~ msgid "Move the pieces right"
+#~ msgstr "გადატანა მარჯვენა"
+
+#, fuzzy
+#~ msgid "Move the pieces down"
+#~ msgstr "გადატანა"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#, fuzzy
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "დაკვრა a"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#, fuzzy
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "დაკვრა a"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#, fuzzy
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "დაკვრა a"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#, fuzzy
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "დაკვრა a"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#, fuzzy
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "დაკვრა a"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "ფერები"
+
+#, fuzzy
+#~ msgid "Size of board (2-6)"
+#~ msgstr "ზომა ის"
+
+#, fuzzy
+#~ msgid "Tetravex Scores"
+#~ msgstr "ხედი"
+
+#, fuzzy
+#~ msgid "Game paused"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Playing %d×%d board"
+#~ msgstr "ვუკრავ"
+
+#, fuzzy
+#~ msgid ""
+#~ "The height of the playing window in pixels. At minimum it should be 240."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "The size of the playing grid"
+#~ msgstr "სიდიდე ის"
+
+#, fuzzy
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr "ის გასაღები -სკენ სიდიდე ის -სკენ -სკენ."
+
+#, fuzzy
+#~ msgid ""
+#~ "The width of the playing window in pixels. At minimum it should be 320."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "Only 18 Steps"
+#~ msgstr "მხოლოდ"
+
+#~ msgid "Violet"
+#~ msgstr "იასამნისფერი"
+
+#, fuzzy
+#~ msgid "Red Donkey"
+#~ msgstr "წითელი"
+
+#~ msgid "Success"
+#~ msgstr "წარმატება"
+
+#, fuzzy
+#~ msgid "Ithaca"
+#~ msgstr "Ithaca"
+
+#, fuzzy
+#~ msgid "Sunshine"
+#~ msgstr "მზის ნათერბა"
+
+#, fuzzy
+#~ msgid "Block 10"
+#~ msgstr "ბლოკირება 10"
+
+#, fuzzy
+#~ msgid "Block 10 Pro"
+#~ msgstr "ბლოკირება"
+
+#, fuzzy
+#~ msgid "Climb 12"
+#~ msgstr "12"
+
+#, fuzzy
+#~ msgid "_Restart Puzzle"
+#~ msgstr "გადატვირთე"
+
+#, fuzzy
+#~ msgid "Next Puzzle"
+#~ msgstr "შემდეგი"
+
+#, fuzzy
+#~ msgid "Previous Puzzle"
+#~ msgstr "წინა"
+
+#, fuzzy
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr "-სკენ n."
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr "n n."
+
+#, fuzzy
+#~ msgid "Sliding Block Puzzles"
+#~ msgstr "ბლოკირება ფაზლი"
+
+#, fuzzy
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "რიცხვი ის."
+
+#, fuzzy
+#~ msgid "The puzzle in play"
+#~ msgstr "დუიმი"
+
+#, fuzzy
+#~ msgid ""
+#~ "The requested height of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid ""
+#~ "The requested width of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr "ის დუიმი პიქსელი."
+
+#, fuzzy
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "-სკენ?"
+
+#, fuzzy
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "დაკვრა a"
+
+#, fuzzy
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr "არჩევა -სკენ a მიყევი."
+
+#, fuzzy
+#~ msgid "Delay between rolls"
+#~ msgstr "დაყოვნება"
+
+#, fuzzy
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "დისპლეი"
+
+#, fuzzy
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr "-სკენ ჭეშმარიტია a ის -სკენ."
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[ადამიანი,შაქრო,ზაქრო,თამრი,ქეთი,ჟანი]"
+
+#, fuzzy
+#~ msgid "Delay computer moves"
+#~ msgstr "დაყოვნება"
+
+#, fuzzy
+#~ msgid "Display computer thoughts"
+#~ msgstr "დისპლეი"
+
+#, fuzzy
+#~ msgid "Number of computer opponents"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "Number of human opponents"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "The game is a draw!"
+#~ msgstr "a!"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "მაღალი კონტრასტი"
+
+#, fuzzy
+#~ msgid "Game over!"
+#~ msgstr "თამაში!"
+
+#, fuzzy
+#~ msgid "Computer playing for %s"
+#~ msgstr "კომპიუტერი"
+
+#, fuzzy
+#~ msgid "%s! -- You're up."
+#~ msgstr "თქვენ."
+
+#, fuzzy
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "-სკენ a."
+
+#, fuzzy
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "თქვენ არჩევა a."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "GNOME ვერსია (1998):"
+
+#, fuzzy
+#~ msgid "Console version (1992):"
+#~ msgstr "კონსოლი ვერსია:"
+
+#, fuzzy
+#~ msgid "A variation on poker with dice and less money."
+#~ msgstr "A და."
+
+#, fuzzy
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "მიმდინარე ორიგინალი რიცხვი ის."
+
+#, fuzzy
+#~ msgid "Tali Preferences"
+#~ msgstr "პარამეტრები"
+
+#, fuzzy
+#~ msgid "_Number of players:"
+#~ msgstr "ის:"
+
+#, fuzzy
+#~ msgid "Computer Opponents"
+#~ msgstr "კომპიუტერი"
+
+#, fuzzy
+#~ msgid "_Delay between rolls"
+#~ msgstr "დაყოვნება"
+
+#, fuzzy
+#~ msgid "N_umber of opponents:"
+#~ msgstr "N ის:"
+
+#~ msgid "Colors"
+#~ msgstr "ფერები"
+
+#, fuzzy
+#~ msgid "Player Names"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "1s [total of 1s]"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "2s [total of 2s]"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "3s [total of 3s]"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "4s [total of 4s]"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "5s [total of 5s]"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "6s [total of 6s]"
+#~ msgstr "ის"
+
+#, fuzzy
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "ის a"
+
+#, fuzzy
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "ის a"
+
+#, fuzzy
+#~ msgid "Full House [25]"
+#~ msgstr "სრული"
+
+#, fuzzy
+#~ msgid "Small Straight [30]"
+#~ msgstr "პატარა პირდაპირი"
+
+#, fuzzy
+#~ msgid "Large Straight [40]"
+#~ msgstr "დიდი პირდაპირი"
+
+#, fuzzy
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "ის a"
+
+#, fuzzy
+#~ msgid "Lower Total"
+#~ msgstr "უფრო დაბლა სულ"
+
+#, fuzzy
+#~ msgid "Grand Total"
+#~ msgstr "სულ"
+
+#, fuzzy
+#~ msgid "Full House [15 + total]"
+#~ msgstr "სრული"
+
+#, fuzzy
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "ის a"
+
+#, fuzzy
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "ის a"
+
+#, fuzzy
+#~ msgid "Choose a score slot."
+#~ msgstr "არჩევა a."
+
+#, fuzzy
+#~ msgid "How many times do you wish to roll?"
+#~ msgstr "-სკენ?"
+
+#, fuzzy
+#~ msgid "Results"
+#~ msgstr "შეტყობინება"
+
+#~ msgid "Total"
+#~ msgstr "სულ"
+
+#, fuzzy
+#~ msgid "Net_work Game"
+#~ msgstr "ახალი ნეტი თამაში"
+
+#, fuzzy
+#~ msgid "_Player list"
+#~ msgstr "მოთამაშე"
+
+#, fuzzy
+#~ msgid "_Leave Game"
+#~ msgstr "_ახალი თამაში"
+
+#, fuzzy
+#~ msgid "A disk flipping game derived from Reversi."
+#~ msgstr "A."
+
+#, fuzzy
+#~ msgid "Invalid move."
+#~ msgstr "არასწორი"
+
+#, fuzzy
+#~ msgid "Light:"
+#~ msgstr "ღია:"
+
+#, fuzzy
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "მოგესალმებით -სკენ!"
+
+#, fuzzy
+#~ msgid "Light's move"
+#~ msgstr "ღია"
+
+#, fuzzy
+#~ msgid "Game over"
+#~ msgstr "თამაში"
+
+#, fuzzy
+#~ msgid "Light player wins!"
+#~ msgstr "ღია!"
+
+#, fuzzy
+#~ msgid "The game was a draw."
+#~ msgstr "a."
+
+#, fuzzy
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "ღია"
+
+#, fuzzy
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "ღია"
+
+#, fuzzy
+#~ msgid "Iagno Preferences"
+#~ msgstr "პარამეტრები"
+
+#, fuzzy
+#~ msgid "_Use quick moves"
+#~ msgstr "გამოყენება"
+
+#, fuzzy
+#~ msgid "Complete"
+#~ msgstr "შესრულებულია"
+
+#, fuzzy
+#~ msgid "S_how grid"
+#~ msgstr "S"
+
+#, fuzzy
+#~ msgid "List of players:"
+#~ msgstr "მოთამაშეების _რაოდენობა:"
+
+#~ msgid "Card Style"
+#~ msgstr "კარტის სტილი"
+
+#, fuzzy
+#~ msgid "There was an error accessing GConf: %s"
+#~ msgstr "შეცდომა"
+
+#, fuzzy
+#~ msgid "The default configuration values could not be retrieved correctly."
+#~ msgstr "ნაგულისხმევი."
+
+#, fuzzy
+#~ msgid "Image rendering failed."
+#~ msgstr "სურათი."
+
+#, fuzzy
+#~ msgid "Network game mode"
+#~ msgstr "ქსელი"
+
+#, fuzzy
+#~ msgid ""
+#~ "The mode of network game to use. 1 = Server, 2 = LAN Host, 3 = LAN Client."
+#~ msgstr "ის -სკენ სერვერი ჰოსტი."
+
+#, fuzzy
+#~ msgid ""
+#~ "This string identifies the default game to connect to or create "
+#~ "(depending on mode)."
+#~ msgstr "ნაგულისხმევი -სკენ -სკენ."
+
+#, fuzzy
+#~ msgid ""
+#~ "When using server mode, which game server to contact. This accepts the "
+#~ "usual hostname or dotted quad notation."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr "-სკენ n."
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr "-სკენ n n."
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "The default tile set will be loaded instead."
+#~ msgstr "-სკენ n n ნაგულისხმევი."
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr "-სკენ n n."
+
+#, fuzzy
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr "-სკენ დაუყოვნებლივ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you choose to finish with the old map then the next game will use the "
+#~ "new map."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "_Finish"
+#~ msgstr "_დასრულება"
+
+#, fuzzy
+#~ msgid "Mahjongg Scores"
+#~ msgstr "პარამეტრები"
+
+#~ msgid "Map:"
+#~ msgstr "რუქა:"
+
+#, fuzzy
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "პარამეტრები"
+
+#~ msgid "Maps"
+#~ msgstr "რუქები"
+
+#~ msgid "Maps:"
+#~ msgstr "რუქები:"
+
+#, fuzzy
+#~ msgid "A matching game played with Mahjongg tiles."
+#~ msgstr "A."
+
+#, fuzzy
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "I -სკენ a."
+
+#, fuzzy
+#~ msgid "Tiles Left:"
+#~ msgstr "მარცხნივ:"
+
+#, fuzzy
+#~ msgid "Moves Left:"
+#~ msgstr "მარცხნივ:"
+
+#, fuzzy
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "წაშლა ის."
+
+#, fuzzy
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "a ის"
+
+#, fuzzy
+#~ msgid ""
+#~ "The requested height of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 200 pixels high."
+#~ msgstr "ის დუიმი პიქსელი შენიშვნა პიქსელი."
+
+#, fuzzy
+#~ msgid ""
+#~ "The requested width of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 320 pixels wide."
+#~ msgstr "ის დუიმი პიქსელი შენიშვნა პიქსელი."
+
+#, fuzzy
+#~ msgid "mahjongg|Easy"
+#~ msgstr "მარტივი"
+
+#, fuzzy
+#~ msgid "Cloud"
+#~ msgstr "ღრუბელი"
+
+#, fuzzy
+#~ msgid "Red Dragon"
+#~ msgstr "წითელი"
+
+#, fuzzy
+#~ msgid "Pyramid's Walls"
+#~ msgstr "პირამიდული გრადიენტი"
+
+#, fuzzy
+#~ msgid "same-gnome|Medium"
+#~ msgstr "საშუალო"
+
+#, fuzzy
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "თამაში სიდიდე"
+
+#, fuzzy
+#~ msgid "Same GNOME"
+#~ msgstr "Same GNOME"
+
+#, fuzzy
+#~ msgid "Height of the custom board"
+#~ msgstr "სიმაღლე ის სხვა"
+
+#, fuzzy
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr "პარამეტრი -სკენ A ის -სკენ და."
+
+#, fuzzy
+#~ msgid "The board size"
+#~ msgstr "სიდიდე"
+
+#, fuzzy
+#~ msgid "The filename of the theme to use."
+#~ msgstr "ის -სკენ."
+
+#, fuzzy
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "ის სხვა&gt;&gt;."
+
+#, fuzzy
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr "სიდიდე ის -სკენ სხვა პატარა საშუალო დიდი."
+
+#, fuzzy
+#~ msgid "The theme to use"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "ის სხვა&gt;&gt;."
+
+#, fuzzy
+#~ msgid "Use fast animation"
+#~ msgstr "გამოყენება"
+
+#, fuzzy
+#~ msgid "Width of the custom board"
+#~ msgstr "სიგანე ის სხვა"
+
+#, fuzzy
+#~ msgid "No points"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!"
+#~ msgstr "I -სკენ თქვენ ყველა და და!"
+
+#, fuzzy
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Same GNOME"
+
+#, fuzzy
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "ზემოთ."
+
+#, fuzzy
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Same GNOME გაფორმება"
+
+#, fuzzy
+#~ msgid "_Theme..."
+#~ msgstr "გაფორმება."
+
+#, fuzzy
+#~ msgid "_Fast Animation"
+#~ msgstr "_სწრაფი ანომაცია"
+
+#, fuzzy
+#~ msgid "No theme data was found."
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr "-სკენ და."
+
+#, fuzzy
+#~ msgid "<b>Chess Pieces</b>"
+#~ msgstr "<b>დრო</b>"
+
+#, fuzzy
+#~ msgid "<b>Initial Game</b>"
+#~ msgstr "<b>დრო</b>"
+
+#, fuzzy
+#~ msgid "Graphics"
+#~ msgstr "გრაფიკა:"
+
+#, fuzzy
+#~ msgid "Models:"
+#~ msgstr "მე:"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "სახელი"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "ახალი თამაშის დაწყება"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "სტატუსი"
+
+#, fuzzy
+#~ msgid "_High Scores"
+#~ msgstr "მაღალი კონტრასტი"
+
+#, fuzzy
+#~ msgid "Redeals left: ~a"
+#~ msgstr "მარცხენა a"
+
+#, fuzzy
+#~ msgid "No moves available"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid "A disk-flipping game where you attempt to dominate the board."
+#~ msgstr "A -სკენ."
+
+#, fuzzy
+#~ msgid "Compete to dominate the board in a Reversi-like game"
+#~ msgstr "-სკენ დუიმი a"
+
+#, fuzzy
+#~ msgid "Level of black player"
+#~ msgstr "ის შავი"
+
+#, fuzzy
+#~ msgid "The name of the theme to use."
+#~ msgstr "ის -სკენ."
+
+#, fuzzy
+#~ msgid "Tileset to use (obsolete)."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "Whether or not to use quick moves."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid ""
+#~ "Zero corresponds to no animations, one is partial animations, two is "
+#~ "complete animations."
+#~ msgstr "-სკენ არა."
+
+#, fuzzy
+#~ msgid "Squares and Diamonds"
+#~ msgstr "და"
+
+#~ msgid "Ataxx Preferences"
+#~ msgstr "Ataxx პარამეტრები"
+
+#, fuzzy
+#~ msgid "Shortens the time a computer waits before doing a move"
+#~ msgstr "a a"
+
+#, fuzzy
+#~ msgid "gataxx|Easy"
+#~ msgstr "მარტივი"
+
+#, fuzzy
+#~ msgid "gataxx|Medium"
+#~ msgstr "საშუალო"
+
+#, fuzzy
+#~ msgid "The appearance of the pieces"
+#~ msgstr "ის"
+
+#~ msgid "%s..."
+#~ msgstr "%s..."
+
+#, fuzzy
+#~ msgid "Invalid game data"
+#~ msgstr "არასწორი"
+
+#, fuzzy
+#~ msgid "New game ready to be started"
+#~ msgstr "ახალი -სკენ"
+
+#, fuzzy
+#~ msgid "Play a puzzle game matching tiles together"
+#~ msgstr "დაკვრა a"
+
+#, fuzzy
+#~ msgid "Iagno server to use"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Play a game of Reversi"
+#~ msgstr "დაკვრა a ის"
+
+#, fuzzy
+#~ msgid "Invalid game data (set_peer)"
+#~ msgstr "არასწორი"
+
+#, fuzzy
+#~ msgid "Invalid game data (move)"
+#~ msgstr "არასწორი"
+
+#, fuzzy
+#~ msgid "Select a nickname and connection method then click Connect."
+#~ msgstr "a და დაკავშირება."
+
+#, fuzzy
+#~ msgid "Connection Method"
+#~ msgstr "კავშირები"
+
+#, fuzzy
+#~ msgid "Host local game"
+#~ msgstr "ჰოსტი"
+
+#~ msgid "_Nickname:"
+#~ msgstr "_მეტსახელი:"
+
+#, fuzzy
+#~ msgid "Please supply a nickname."
+#~ msgstr "a."
+
+#, fuzzy
+#~ msgid "No local game selected."
+#~ msgstr "არა."
+
+#, fuzzy
+#~ msgid "A new gnome games server was successfully started."
+#~ msgstr "A."
+
+#, fuzzy
+#~ msgid "Network initialization complete."
+#~ msgstr "ქსელი."
+
+#, fuzzy
+#~ msgid "Network shutdown in progress."
+#~ msgstr "ქსელი დუიმი."
+
+#, fuzzy
+#~ msgid "Error occurred during connect attempt."
+#~ msgstr "შეცდომა."
+
+#, fuzzy
+#~ msgid "Connection succeeded, waiting for opponent"
+#~ msgstr "კავშირები"
+
+#, fuzzy
+#~ msgid "Error occurred during write."
+#~ msgstr "შეცდომა."
+
+#, fuzzy
+#~ msgid "Connection in progress..."
+#~ msgstr "კავშირები დუიმი."
+
+#, fuzzy
+#~ msgid "No game server defined"
+#~ msgstr "არა"
+
+#, fuzzy
+#~ msgid ""
+#~ "Local Area Network game could not be started. \n"
+#~ "Try running mDNSResponder."
+#~ msgstr "ლოკალური ქსელი."
+
+#, fuzzy
+#~ msgid "Remove groups of balls to try and clear the screen"
+#~ msgstr "წაშლა ის -სკენ და გაწმენდა"

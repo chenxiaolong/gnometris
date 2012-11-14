@@ -1,0 +1,6780 @@
+# Czech translation of gnome-games.
+# Copyright (C) 2002, 2006, 2007, 2008 the author(s) of gnome-games.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# Copyright (C) 2006 Lukas Novotny <lukasnov@cvs.gnome.org>.
+# This file is distributed under the same license as the gnome-games package.
+# Michal Bukovjan <bukm@centrum.cz>, 2002.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
+# Petr Tomeš <ptomes@gmail.com>, 2006.
+# Lukas Novotny <lukasnov@cvs.gnome.org>, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2006, 2007.
+# Jan Parkman <parkmaj@users.sourceforge.net>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2008.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008, 2009.
+# Kamil Páral <ripper42@gmail.com>, 2008.
+# Marek Lisy <marek.lisy@centrum.cz>, 2008.
+# Petr Pulc <petrpulc@gmail.com>, 2009.
+# Andre Klapper <ak-47@gmx.net>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2009-03-12 15:47+0100\n"
+"Last-Translator: Andre Klapper <ak-47@gmx.net>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Pozastaveno"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Konec hry"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Skládat padací bloky dohromady"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "Obrázek, který používat pro kreslení kostek"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "Obrázek, který používat pro kreslení kostek."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "Motiv používaný pro vykreslování kostek"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Název motivu používaného pro vykreslování bloků a pozadí."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Počáteční úroveň"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Počáteční úroveň."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "Jestli používat obrázek na pozadí"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr "Toto určuje, jestli kreslit obrázek na pozadí přes barvu pozadí."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "Barva pozadí"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Barva pozadí ve formátu, kterému rozumí gdk_color_parse."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "Jestli zobrazovat náhled dalšího bloku"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "Jestli zobrazovat náhled dalšího bloku."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "Jestli poskytovat cíl"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "Jestli poskytovat grafické znázornění, kam blok padne."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "Jestli dávat blokům náhodné barvy"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "Jestli mají mít bloky náhodnou barvu."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "Jestli rotovat proti směru hodinových ručiček"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "Jestli rotovat proti směru hodinových ručiček."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "Počet řádků, které vyplnit"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "Počet řádků, které jsou vyplněny náhodnými bloky na začátku hry."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "Hustota vyplněných řádků"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Hustota bloků v řádcích vyplněných při startu hry. Hodnota je mezi 0 (žádné "
+"bloky) a 10 (úplně vyplněný řádek)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Pohyb doleva"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Klávesa pro přesun doleva."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Pohyb doprava"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Klávesa pro přesun doprava."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Posunout dolů"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Klávesa pro přesun dolů."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Upustit"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Klávesa pro upuštění."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "Rotovat"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Klávesa pro rotaci."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Pauza"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Klávesa pro pozastavení."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "Nastavte počáteční úroveň (1 nebo vyšší)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "ÚROVEŇ"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Jednoduché"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Spojené"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr "Oblé prosté"
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr "Oblé stínované"
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Skóre:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Řad:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Úroveň:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Hra"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Nastavení"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Nastavení Gnometris"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Hra"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Nastavení"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "_Počet předvyplněných řad:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Hustota kostek v předvyplněné řadě:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_Počáteční úroveň:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Operace"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Povolit zvuky"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_Náhled dalšího bloku"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "Používat náhodné _barvy bloků"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "_Rotovat bloky proti směru hodinových ručiček"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "Zobrazovat, _kam blok padne"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Motiv"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Ovládání"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Ovládání klávesnicí"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Styl bloků"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+"Klasická hra umisťování padajících kamenů dohromady.\n"
+"\n"
+"Gnometris je součástí her GNOME."
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "Webové stránky her GNOME"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Jirka Lébl\n"
+"Michal Bukovjan <bukm@centrum.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Petr Tomeš <ptomes@gmail.com>\n"
+"Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
+"Jakub Friedl <jfriedl@suse.cz>\n"
+"Jan Parkman <parkmaj@users.sourceforge.net>\n"
+"Petr Kovář <pknbe@volny.cz>\n"
+"Lucas Lommer <llommer@svn.gnome.org>\n"
+"Kamil Páral <ripper42@gmail.com>\n"
+"Marek Lisý <marek.lisy@centrum.cz>\n"
+"Petr Pulc <petrpulc@gmail.com>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Skóre Gnometris"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Soubor není platný .desktop soubor"
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Nerozpoznaná verze desktop souboru '%s'"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Spouští se %s"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Aplikace neakceptuje dokumenty na příkazovém řádku"
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Nerozpoznaná spouštěcí volba: %d"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Nemohu vložit URI dokumentu do vstupu 'Type=Link' pracovní plochy"
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Není spustitelnou položkou"
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Odpojit spojení se správcem sezení"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Upřesněte soubor obsahující uložené nastavení"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr "SOUBOR"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Upřesnit ID správy sezení"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Volby správy sezení"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Zobrazit volby správy sezení"
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Žádná klávesa"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Stiskněte klávesu>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Neznámý příkaz"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr "Nelze zobrazit nápovědu"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Čas"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Skóre"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Nová hra"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Název"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Zobrazit nápovědu o této hře"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "Ukončit aktuální hru"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr "Přepnout režim přes celou obrazovku"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Získat radu pro váš další tah"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Opustit režim přes celou obrazovku"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Začít novou síťovou hru"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "Ukončit současnou síťovou hru"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Začít novou hru"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Pozastavit hru"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "Zobrazit seznam hráčů síťové hry"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Zopakovat vrácený tah"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Začít hru znovu"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "Pokračovat pozastavenou hru"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Zobrazit skóre"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Vrátit poslední tah"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "O této hře"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "Zavřít okno"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Nastavit hru"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Ukončit tuto hru"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Obsah"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "_Celá obrazovka"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Rada"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Nová"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "_Nová hra"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "Tah zn_ovu"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Vynulovat"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "_Restartovat"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "Tah _zpět"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "_Opustit celou obrazovku"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "Síťová _hra"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "O_pustit hru"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "Seznam _hráčů"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Pozastavit"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "_Pokračovat"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Skóre"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "U_končit hru"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s je svobodný software; můžete jej šířit a modifikovat podle ustanovení GNU "
+"General Public License, vydávané Free Software Foundation; a to buď verze %d "
+"této licence anebo (podle svého uvážení) kterékoli pozdější verze."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Program %s je rozšiřován v naději, že bude užitečný, avšak BEZ JAKÉKOLI "
+"ZÁRUKY; neposkytují se ani odvozené záruky PRODEJNOSTI anebo VHODNOSTI PRO "
+"URČITÝ ÚČEL. Další podrobnosti hledejte v GNU General Public License."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Kopii GNU General Public License jste měli obdržet spolu s programem %s; "
+"pokud se tak nestalo, napište na adresu Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Player Chat"
+#~ msgstr "Rozhovor s hráči"
+
+#~ msgid "Occupied"
+#~ msgstr "Obsazený"
+
+#~ msgid "Empty"
+#~ msgstr "Prázdný"
+
+#~ msgid "Bot"
+#~ msgstr "Robot"
+
+#~ msgid "Reserved"
+#~ msgstr "Vyhrazeno"
+
+#~ msgid "Abandoned"
+#~ msgstr "Opuštěný"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "Divák"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Stav"
+
+#~ msgid "Player List"
+#~ msgstr "Seznam hráčů"
+
+#~ msgid "Info"
+#~ msgstr "Informace"
+
+#~ msgid "Boot player"
+#~ msgstr "Vykopnout hráče"
+
+#~ msgid "Sit here"
+#~ msgstr "Posadit se zde"
+
+#~ msgid "Move here"
+#~ msgstr "Přesunout sem"
+
+#~ msgid "Play with bot"
+#~ msgstr "Hrát s umělým protivníkem"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Zrušit rezervaci"
+
+#~ msgid "Remove bot"
+#~ msgstr "Odstranit umělého protivníka"
+
+#~ msgid "X Padding"
+#~ msgstr "Mezera X"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Další místo, které přidat k alokaci šířky."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Další místo, které přidat k alokaci výšky."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Násobek šířky"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "Na jaké násobky omezit šířku."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Násobek výšky"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "Na jaké násobky omezit výšku."
+
+#~ msgid "X align"
+#~ msgstr "Zarovnání X"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Vodorovné zarovnání od 0 (levé) do 1 (pravé)"
+
+#~ msgid "Y align"
+#~ msgstr "Zarovnání Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Svislé od 0 (levé) do 1 (pravé)"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "Seznam naposledy hraných her."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Seznam řetězců ve tvaru pětic: název, výher, celkem hraných her, nejlepší "
+#~ "čas (v sekundách) a nejhorší čas (také v sekundách). Nehrané hry nemusí "
+#~ "být reprezentovány."
+
+#~ msgid "Animations"
+#~ msgstr "Animace"
+
+#~ msgid "Recently played games"
+#~ msgstr "Naposledy hrané hry"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Zvolte styl ovládání"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Zvolte, jestli karty přetahovat nebo kliknout na zdroj a pak na cíl."
+
+#~ msgid "Sound"
+#~ msgstr "Zvuk"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Statistika hraných her"
+
+#~ msgid "The game file to use"
+#~ msgstr "Soubor hry, který používat"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Název souboru s grafikou karet."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Název souboru scheme obsahujícího hru solitaire, kterou hrát."
+
+#~ msgid "Theme file name"
+#~ msgstr "Název souboru motivu"
+
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "Jestli animovat pohyby karet."
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Jestli přehrávat zvuky k událostem."
+
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "Jestli zobrazovat lištu nástrojů"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Jestli zobrazovat lištu nástrojů"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Solitaire FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Hrát populární karetní hru FreeCell"
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "AisleRiot nemůže načíst soubor: “%s”. Zkontrolujte prosím nastavení této "
+#~ "hry."
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "AisleRiot nemůže najít poslední hru, kterou jste hráli."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "To se obvykle stává, když spustíte starší verzi Aisleriot, která nemá "
+#~ "hru, kterou jste naposledy hráli. Místo ní se spouští implicitní hra "
+#~ "Klondike."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Tato hra zatím nepodporuje rady."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Přesunout %s na %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Hledáte %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Tato hra nemůže poskytnout radu."
+
+#~ msgid "Could not show link"
+#~ msgstr "Nemohu zobrazit odkaz"
+
+#~ msgid "Help file \"%s.%s\" not found"
+#~ msgstr "Soubor nápovědy \"%s.%s\" nenalezen"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "Could not show help for “%s”"
+#~ msgstr "Nemohu zobrazit nápovědu pro “%s“"
+
+#~ msgid "Could not show Aisleriot help"
+#~ msgstr "Nemohu zobrazit nápovědu pro Aisleriot"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "Vyberte hru:"
+
+#~ msgid "NAME"
+#~ msgstr "JMÉNO"
+
+#~ msgid "Select the game number"
+#~ msgstr "Zvolte číslo hry"
+
+#~ msgid "NUMBER"
+#~ msgstr "ČÍSLO"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Solitaire AisleRiot"
+
+#
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Zahraje mnoho různých her typu solitaire"
+
+#~ msgid "Unknown color"
+#~ msgstr "Neznámá barva"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Neznámá barva"
+
+#~ msgid "Unknown value"
+#~ msgstr "Neznámá hodnota"
+
+#~ msgid "ace"
+#~ msgstr "eso"
+
+#~ msgid "black joker"
+#~ msgstr "černý žolík"
+
+#~ msgid "clubs"
+#~ msgstr "kříže"
+
+#~ msgid "diamonds"
+#~ msgstr "káry"
+
+#~ msgid "eight"
+#~ msgstr "osmička"
+
+#~ msgid "five"
+#~ msgstr "pětka"
+
+#~ msgid "four"
+#~ msgstr "čtyřka"
+
+#~ msgid "hearts"
+#~ msgstr "srdce"
+
+#~ msgid "jack"
+#~ msgstr "spodek"
+
+#~ msgid "king"
+#~ msgstr "král"
+
+#~ msgid "nine"
+#~ msgstr "devítka"
+
+#~ msgid "queen"
+#~ msgstr "dáma"
+
+#~ msgid "red joker"
+#~ msgstr "červený žolík"
+
+#~ msgid "seven"
+#~ msgstr "sedmička"
+
+#~ msgid "six"
+#~ msgstr "šestka"
+
+#~ msgid "spades"
+#~ msgstr "piky"
+
+#~ msgid "ten"
+#~ msgstr "desítka"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "křížové eso"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "kárové eso"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "srdcové eso"
+
+#~ msgid "the ace of spades"
+#~ msgstr "pikové eso"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "křížová osmička"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "kárová osmička"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "srdcová osmička"
+
+#~ msgid "the eight of spades"
+#~ msgstr "piková osmička"
+
+#~ msgid "the five of clubs"
+#~ msgstr "křížová pětka"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "kárová pětka"
+
+#~ msgid "the five of hearts"
+#~ msgstr "srdcová pětka"
+
+#~ msgid "the five of spades"
+#~ msgstr "piková pětka"
+
+#~ msgid "the four of clubs"
+#~ msgstr "křížová čtyřka"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "kárová čtyřka"
+
+#~ msgid "the four of hearts"
+#~ msgstr "srdcová čtyřka"
+
+#~ msgid "the four of spades"
+#~ msgstr "piková čtyřka"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "křížový spodek"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "kárový spodek"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "srdcový spodek"
+
+#~ msgid "the jack of spades"
+#~ msgstr "pikový spodek"
+
+#~ msgid "the king of clubs"
+#~ msgstr "křížový král"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "kárový král"
+
+#~ msgid "the king of hearts"
+#~ msgstr "srdcový král"
+
+#~ msgid "the king of spades"
+#~ msgstr "pikový král"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "křížová devítka"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "kárová devítka"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "srdcová devítka"
+
+#~ msgid "the nine of spades"
+#~ msgstr "piková devítka"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "křížová dáma"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "kárová dáma"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "srdcová dáma"
+
+#~ msgid "the queen of spades"
+#~ msgstr "piková dáma"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "křížová sedmička"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "kárová sedmička"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "srdcová sedmička"
+
+#~ msgid "the seven of spades"
+#~ msgstr "piková sedmička"
+
+#~ msgid "the six of clubs"
+#~ msgstr "křížová šestka"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "kárová šestka"
+
+#~ msgid "the six of hearts"
+#~ msgstr "srdcová šestka"
+
+#~ msgid "the six of spades"
+#~ msgstr "piková šestka"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "křížová desítka"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "kárová desítka"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "srdcová desítka"
+
+#~ msgid "the ten of spades"
+#~ msgstr "piková desítka"
+
+#~ msgid "the three of clubs"
+#~ msgstr "křížová trojka"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "kárová trojka"
+
+#~ msgid "the three of hearts"
+#~ msgstr "srdcová trojka"
+
+#~ msgid "the three of spades"
+#~ msgstr "piková trojka"
+
+#~ msgid "the two of clubs"
+#~ msgstr "křížová dvojka"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "kárová dvojka"
+
+#~ msgid "the two of hearts"
+#~ msgstr "srdcová dvojka"
+
+#~ msgid "the two of spades"
+#~ msgstr "piková dvojka"
+
+#~ msgid "the unknown card"
+#~ msgstr "neznámá karta"
+
+#~ msgid "three"
+#~ msgstr "trojka"
+
+#~ msgid "two"
+#~ msgstr "dvojka"
+
+#~ msgid "Wins:"
+#~ msgstr "Výhry:"
+
+#~ msgid "Total:"
+#~ msgstr "Celkem:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Procenta:"
+
+#~ msgid "Wins"
+#~ msgstr "Hry:"
+
+#~ msgid "Best:"
+#~ msgstr "Nejlepší:"
+
+#~ msgid "Worst:"
+#~ msgstr "Nejhorší:"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistiky"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "Accordion"
+#~ msgstr "Harmonika"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Atény"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Teta Mary"
+
+#~ msgid "Backbone"
+#~ msgstr "Páteř"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Pekařova dvanáctka"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Pekařova hra"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Obležený hrad"
+
+#~ msgid "Block Ten"
+#~ msgstr "Blok desíti"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Camelot"
+#~ msgstr "Kamelot"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Carpet"
+#~ msgstr "Koberec"
+
+#~ msgid "Chessboard"
+#~ msgstr "Šachovnice"
+
+#~ msgid "Clock"
+#~ msgstr "Hodiny"
+
+#~ msgid "Cover"
+#~ msgstr "Kryt"
+
+#~ msgid "Cruel"
+#~ msgstr "Kruté"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Diamantový důl"
+
+#~ msgid "Doublets"
+#~ msgstr "Dvojice"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Orlí křídlo"
+
+#~ msgid "Easthaven"
+#~ msgstr "Východní přístav"
+
+#~ msgid "Eight Off"
+#~ msgstr "Osm pryč"
+
+#~ msgid "Elevator"
+#~ msgstr "Výtah"
+
+#~ msgid "Escalator"
+#~ msgstr "Eskalátor"
+
+#~ msgid "First Law"
+#~ msgstr "První zákon"
+
+#~ msgid "Fortress"
+#~ msgstr "Pevnost"
+
+#~ msgid "Fortunes"
+#~ msgstr "Štěstí"
+
+#~ msgid "Forty Thieves"
+#~ msgstr "Čtyřicet loupežníků"
+
+#~ msgid "Fourteen"
+#~ msgstr "Čtrnáct"
+
+#~ msgid "Freecell"
+#~ msgstr "FreeCell"
+
+#~ msgid "Gaps"
+#~ msgstr "Mezery"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Veselé Gordony"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Zlatý důl"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Gypsy"
+#~ msgstr "Cikán"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinky"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Skákací panák"
+
+#~ msgid "Isabel"
+#~ msgstr "Izabela"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "King Albert"
+#~ msgstr "Král Albert"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Audience králů"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Tříbalíčkový Klondike"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labyrint"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+#~ msgid "Maze"
+#~ msgstr "Bludiště"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Napoleonova hrobka"
+
+#~ msgid "Neighbor"
+#~ msgstr "Soused"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmóza"
+
+#~ msgid "Peek"
+#~ msgstr "Vrcholek"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Plait"
+#~ msgstr "Cop"
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Royal East"
+#~ msgstr "Královský východ"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Scorpion"
+#~ msgstr "Škorpión"
+
+#~ msgid "Scuffle"
+#~ msgstr "Rvačka"
+
+#~ msgid "Seahaven"
+#~ msgstr "Přístav na moři"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Spider"
+#~ msgstr "Pavouk"
+
+#~ msgid "Spiderette"
+#~ msgstr "Pavouček"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Spider Three Decks"
+
+#~ msgid "Straight Up"
+#~ msgstr "Přesná"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Ulice a aleje"
+
+#~ msgid "Template"
+#~ msgstr "Šablona"
+
+#~ msgid "Ten Across"
+#~ msgstr "Deset křížem"
+
+#~ msgid "Terrace"
+#~ msgstr "Terasa"
+
+#~ msgid "Thieves"
+#~ msgstr "Zloději"
+
+#~ msgid "Thirteen"
+#~ msgstr "Třináct"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Palec a pytlík"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Trojité vrcholy"
+
+#~ msgid "Union Square"
+#~ msgstr "Union square"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentýna"
+
+#~ msgid "Westhaven"
+#~ msgstr "Západní přístav"
+
+#~ msgid "Whitehead"
+#~ msgstr "Mazánek"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Bludička"
+
+#~ msgid "Yield"
+#~ msgstr "Úroda"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Select Game"
+#~ msgstr "Vybrat hru"
+
+#~ msgid "_Select"
+#~ msgstr "_Vyberte"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Gratuluji, vyhrál jste!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "Nejsou možné žádné další tahy"
+
+#~ msgid "Main game:"
+#~ msgstr "Hlavní hra:"
+
+#~ msgid "Card games:"
+#~ msgstr "Karetní hry:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Styl karet:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "O hře FreeCell Solitaire"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "O programu AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot poskytuje na pravidlech založený karetní solitaire engine, "
+#~ "který umožňuje hrát mnoho různých her tohoto typu.\n"
+#~ "AisleRiot je součástí her GNOME."
+
+#~ msgid "Play “%s”"
+#~ msgstr "Hrát “%s“"
+
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "Použít motiv karet “%s“"
+
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "Nastala výjimka ve schématu/motivu"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Prosím nahlaste chybu vývojářům."
+
+#~ msgid "_Don't report"
+#~ msgstr "_Nehlásit"
+
+#~ msgid "_Report"
+#~ msgstr "_Nahlásit"
+
+#~ msgid "_View"
+#~ msgstr "_Zobrazit"
+
+#~ msgid "_Control"
+#~ msgstr "_Ovládání"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Vybrat hru..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Hrát jinou hru"
+
+#~ msgid "_Recently Played"
+#~ msgstr "Naposledy _hrané"
+
+#~ msgid "S_tatistics"
+#~ msgstr "_Statistiky"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Zobrazit statistiku o hraní"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Rozdat další kartu nebo karty"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Zobrazit nápovědu k Aisleriot"
+
+#~ msgid "Install card themes…"
+#~ msgstr "Instalovat motivy karet..."
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr "Nové motivy karet nainstalujte z repozitáře své distribuce"
+
+#~ msgid "_Card Style"
+#~ msgstr "Styl _karet"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Lišta nástrojů"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Zobrazit nebo skrýt lištu nástrojů"
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Stavová lišta"
+
+#~ msgid "Show or hide statusbar"
+#~ msgstr "Zobrazit nebo skrýt lištu nástrojů"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Přesouvat kliknutími"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Přesouvat karty klikáním"
+
+#~ msgid "_Sound"
+#~ msgstr "_Zvuk"
+
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "Jestli přehrávat zvuky k událostem"
+
+#~ msgid "_Animations"
+#~ msgstr "_Animace"
+
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "Jestli animovat pohyby karet"
+
+#~ msgid "Time:"
+#~ msgstr "Čas:"
+
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "Nemohu začít hru “%s“"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Základní karta: Eso"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Základní karta: Spodek"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Základní karta: Král"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Základní karta: Dáma"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Základní karta: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Rozdat více karet"
+
+#~ msgid "Stock left:"
+#~ msgstr "Na hromádce zbývá:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Na hromádce zbývá: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Zkuste znovu naaranžovat karty"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "prázdný základní balík"
+
+#~ msgid "Three card deals"
+#~ msgstr "Rozdání tří karet"
+
+#~ msgid "Deal another round"
+#~ msgstr "Rozdat další kolo"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Lízněte si novou kartu z balíku"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Zbylá rozdání:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "prázdné místo v základu"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "prázdné místo na stole"
+
+#~ msgid "an empty foundation"
+#~ msgstr "prázdný základ"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "prázdné spodní místo"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "prázdné místo v rohu"
+
+#~ msgid "an empty left slot"
+#~ msgstr "prázdné levé místo"
+
+#~ msgid "an empty right slot"
+#~ msgstr "prázdné pravé místo"
+
+#~ msgid "an empty slot"
+#~ msgstr "prázdné místo"
+
+#~ msgid "an empty top slot"
+#~ msgstr "prázdné horní místo"
+
+#~ msgid "itself"
+#~ msgstr "sebe"
+
+#~ msgid "Base Card: "
+#~ msgstr "Základní karta: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Přesunout koš zpátky na hromádku"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Zbylá rezerva:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "prázdné místo v základu"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "prázdné místo na stole"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Přesuňte kartu na základ"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Přesuňte něco na prázdné stolní místo"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Konzistence je klíčová"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Rybářský vlasec není dobrý na čištění zubů"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Četli jste nápovědu?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Docela by se teď hodila jemná masáž zad..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Pokud se ocitneš v lese sám a opuštěný, obejmi strom"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "To, že přechod pro chodce vypadá jako skákací panák, ještě neznamená, že "
+#~ "to je skákací panák"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Než přejdete ulici, podívejte se na obě strany"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Z monitoru nezískáte vitamín D -- ale ze sluníčka ano..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Nikdy nefoukejte psovi do ucha"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa je lepší hra. Opravdu."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Turnikety nejsou doporučovány, leda v případech nejvyšší nouze"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Pokud nemáte sešívačku, můžete použít sponku a pravítko"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Zbývající karty: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Znovu rozdat."
+
+#~ msgid "the foundation pile"
+#~ msgstr "základní balík"
+
+#~ msgid "Deal a card"
+#~ msgstr "Lízněte si"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Přesuňte kartu ~a na prázdný základ"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "prázdné místo na stole"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Přesuňte krále na prázdné stolní místo"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Momentálně není k dispozici žádná nápověda"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Přesunout něco na prázdnou rezervu"
+
+#~ msgid "an empty tableau"
+#~ msgstr "prázdný stůl"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Nejsem si jist(á)"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Odstranit esa"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Odstranit osmičky"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Odstranit pětky"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Odstranit čtyřky"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Odstranit spodky"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Odstranit krále"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Odstranit devítky"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Odstranit dámy"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Odstranit sedmičky"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Odstranit šestky"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Odstranit desítky"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Odstranit trojky"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Odstranit dvojky"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Vrátit karty na hromádku"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Zvažte přesun něčeho na prázdné místo"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Přesunout ~a mimo stůl"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "Chyba! make-hint zavolán na špatném tahu."
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "Rozdat kartu z balíku"
+
+#~ msgid "an empty space"
+#~ msgstr "prázdné místo"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Nejsou možné žádné další pohyby. Vraťte tah nebo hrajte novou hru."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Hra nemá řešení. Vraťte se zpět nebo začněte znovu."
+
+#~ msgid "an empty reserve"
+#~ msgstr "prázdná rezerva"
+
+#~ msgid "an open tableau"
+#~ msgstr "otevřené místo na stole"
+
+#~ msgid "the foundation"
+#~ msgstr "základní balík"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Přidat do sekvence v řádku ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Znovu rozdejte dvojitým kliknutím na libovolnou kartu."
+
+#~ msgid "No hint available."
+#~ msgstr "Žádná nápověda není k dispozici."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Umístit dvojku do slotu v řádku ~a nejvíc vlevo."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Umístit ~a vedle ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Náhodně umístěné mezery při rozdávání"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Přesunout kartu z rezervy do prázdného místa na stole"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Vyberte kartu z rezervy pro první základní balík"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "na prázdné stolní místo"
+
+#~ msgid "Deal another card"
+#~ msgstr "Lízněte si další kartu"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Na hromádce zbývá: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Rozdat další sadu"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Přesunout kartu nebo sadu karet na prázdné místo"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Přesunout kartu z koše"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Přesunout koš na hromádku"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "prázdné stolní místo"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Rozdat novou kartu"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Počet zbývajících hromádek: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Žádná rozdání"
+
+#~ msgid "Single card deals"
+#~ msgstr "Rozdání jednotlivých karet"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Zkuste přesunout karty dolů ze základu"
+
+#~ msgid "Base Card:"
+#~ msgstr "Základní karta:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Snažte se umístit barvy v pořadí, které nejpřirozeněji odpovídá "
+#~ "aktuálnímu rozložení."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Lízněte si novou kartu z balíku"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Zbylá rozdání: ~a"
+
+#~ msgid "something"
+#~ msgstr "něco"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Přesunout kartu ~a z rezervy na prázdnou hranu nebo místo na stole"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Přesunout kartu ~a na prázdné místo"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Umístěte karty na stůl a vytvořte pokerové kombinace"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Režim míchání"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "prázdný stolní balík"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Rozdat karty"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Znovu zamíchat karty"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Přesunout koš na rezervní místo"
+
+#~ msgid "empty foundation"
+#~ msgstr "prázdný základ"
+
+#~ msgid "Four Suits"
+#~ msgstr "Čtyři barvy"
+
+#~ msgid "One Suit"
+#~ msgstr "Jedna barva"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Dejte něco na prázdné místo"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Naplňte prosím nejprve prázdný balík."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Zkuste přesouvat balíky karet"
+
+#~ msgid "Two Suits"
+#~ msgstr "Dvě barvy"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Povolit použití dočasných míst"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Přesunout kartu na prázdné dočasné místo"
+
+#~ msgid "No hint available"
+#~ msgstr "Žádná nápověda není k dispozici"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "Blondýny a brunety"
+
+#~ msgid "Falling Stars"
+#~ msgstr "Padající hvězdy"
+
+#~ msgid "General Patience"
+#~ msgstr "Obecná trpělivost"
+
+#~ msgid "Redheads"
+#~ msgstr "Rusovlásky"
+
+#~ msgid "Signora"
+#~ msgstr "Slečna"
+
+#~ msgid "Wood"
+#~ msgstr "Dřevo"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Lízněte si kartu z balíku"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Spárovat dvě nejlepší karty z koše."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Vícenásobné skórování"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Progresivní kola"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "odpovídající základní hromádka"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Přesunout sadu karet na prázdné stolní místo"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "odpovídající základní hromádka"
+
+#~ msgid "Blackjack"
+#~ msgstr "Blackjack"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Hrát karetní hru Blackjack"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Zobrazovat pravděpodobnosti"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Zobrazovat pravděpodobnosti každého výsledku rozdávajícího a očekávanou "
+#~ "hodnotu vašich karet."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Nikdy nebrat pojištění"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Nikdy nebrat pojištění, když rozdávající ukazuje eso."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Peněžní částka ve vašem banku"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Peněžní částka ve vašem banku."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "Název souboru pravidel obsahujícího variaci pravidel, kterou hrát."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Soubor variace pravidel, který používat"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Použít rychlé rozdávání"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Použít rychlé rozdávání bez zpoždění mezi kartami."
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Jestli zobrazovat lištu nástrojů."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blackjack - %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Restartovat aktuální hru"
+
+#~ msgid "Show a hint"
+#~ msgstr "Zobrazit radu"
+
+#~ msgid "D_eal"
+#~ msgstr "_Rozdat"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Rozdat další sadu"
+
+#~ msgid "_Hit"
+#~ msgstr "_Hit"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Přidat ke hře kartu"
+
+#~ msgid "_Stand"
+#~ msgstr "_Stand"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Přestat ke hře přidávat karty"
+
+#~ msgid "S_urrender"
+#~ msgstr "S_urrender"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Vzdát tuto hru za polovinu sázky"
+
+#~ msgid "_Double down"
+#~ msgstr "_Double down"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Zdvojnásobte sázku na jeden hit"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "_Rozdělit hru"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Rozdělit karty do dvou nových her"
+
+#~ msgid "Show toolbar"
+#~ msgstr "Zobrazit lištu nástrojů"
+
+#~ msgid "Cards left:"
+#~ msgstr "Zbylé karty:"
+
+#~ msgid "Wager:"
+#~ msgstr "Sázka:"
+
+#~ msgid "Balance:"
+#~ msgstr "Zůstatek:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Oznamte sázku nebo rozdávejte karty"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Sada pravidel Blackjacku, která používat"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Chcete pojištění?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Pojištění je boční sázka 50% původní sázky, kdy rozdávající má přirozenou "
+#~ "21 (neboli blackjack), která se nabízí, když viditelná karta "
+#~ "rozdávajícího je eso. Pokud rozdávající má 21, hráči se zaplatí "
+#~ "dvojnásobek."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr "Nastavte svou sázku a rozdejte nové karty kliknutím na bílý obrys."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "Nastavte svou sázku nebo rozdejte nové karty kliknutím na karty."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Nastavení Blackjacku"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "Zobrazovat _pravděpodobnosti karet"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "_Rychlé rozdávání (žádné zpoždění mezi kartami)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "_Nikdy nebrat pojištění"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "_Vynulovat zůstatek"
+
+#~ msgid "Rules"
+#~ msgstr "Pravidla"
+
+#~ msgid "Decks"
+#~ msgstr "Balíky"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "Hit Soft 17"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Double Any Total"
+
+#~ msgid "Double 9"
+#~ msgstr "Double 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "Double Soft"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Double After Hit"
+
+#~ msgid "Double After Split"
+#~ msgstr "Double After Split"
+
+#~ msgid "Resplit"
+#~ msgstr "Resplit"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Resplit Aces"
+
+#~ msgid "Surrender"
+#~ msgstr "Surrender"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Rychlost rozdávajícího"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Zdvojnásobte svou sázku kliknutím"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Zvyšte svou sázku o %.2f kliknutím"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Snižte svou sázku o %.2f kliknutím"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "Lízněte si další kartu kliknutím; split pair tažením karty"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Lízněte si další kartu kliknutím"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Dokončete přidávání karet kliknutím"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Rozdejte nové karty kliknutím"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Blackjack nemůže načíst požadovaný soubor"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Zkontrolujte prosím svou instalaci Blackjack"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Nejlepší volba je stand"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Stand znamená přestat si brát další karty. Uděláte to kliknutím na karty "
+#~ "rozdávajícího nebo vybráním této možnosti z nabídky Ovládání."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Nejlepší volba je hit"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Stand znamená vzít si další kartu. Uděláte to kliknutím na vaše karty "
+#~ "nebo vybráním této možnosti z nabídky Ovládání."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "Nejlepší volba je double down"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Double down znamená zdvojnásobit původní sázku z vzít si právě jednu "
+#~ "další kartu. Uděláte to kliknutím na žetony ve spodní části okna nebo "
+#~ "vybráním této možnosti z nabídky Ovládání."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Nejlepší volba je split"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Split znamená rozdělit vaše momentální karty do dvou oddělených skupin. "
+#~ "Uděláte to přetažením jedné z vašich karet na stranu nebo vybráním této "
+#~ "možnosti z nabídky Ovládání."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Nejlepší volba je surrender"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Surrender znamená vzdát se poloviny vaší sázky a nedokončit hru. Uděláte "
+#~ "to vybráním této možnosti z nabídky Ovládání."
+
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "Blackjack je hazardní karetní hra.\n"
+#~ "\n"
+#~ "Blackjack je částí her GNOME."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Počítá se základní strategie..."
+
+#~ msgid "Bust"
+#~ msgstr "Bust"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blackjack!"
+
+#~ msgid "Soft"
+#~ msgstr "Soft"
+
+#~ msgid "Win"
+#~ msgstr "Výhra"
+
+#~ msgid "Push"
+#~ msgstr "Push"
+
+#~ msgid "Lose"
+#~ msgstr "Prohra"
+
+#~ msgid "Player expected values"
+#~ msgstr "Očekávané hodnoty hráče"
+
+#~ msgid "Stand"
+#~ msgstr "Stand"
+
+#~ msgid "Hit"
+#~ msgstr "Hit"
+
+#~ msgid "Double"
+#~ msgstr "Double"
+
+#~ msgid "Split"
+#~ msgstr "Split"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Pravděpodobnosti karet rozdávajícího"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Chyba připojování k serveru: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Vaše nové heslo jako %s"
+
+#~ msgid "New password"
+#~ msgstr "Nové heslo"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Hráči na serveru: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Aktuální místnost: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Vstoupili jste do místnosti  \"%s\"."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Chyba při vstupu do místnosti: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "Herní zóna GGZ"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Pokud nejste v místnosti, nemůžete chatovat."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Nemáte oprávnění zde chatovat."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "U stolu není povoleno soukromé chatování!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Hráč není v místnosti!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Došlo k chybě při odesílání chatu."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Nejste u stolu."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Chat selhal: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "Chyba při spouštění stolu: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Přidali jste se ke stolu %d."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Chyba při připojování ke stolu: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "%s vás vykopl od stolu."
+
+#~ msgid "You have left the table."
+#~ msgstr "Opustili jste stůl."
+
+#~ msgid "The game is over."
+#~ msgstr "Hra skončila."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "Došlo k chybě na straně herního serveru."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Chyba při opouštění stolu: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Aktuální místnost:"
+
+#~ msgid "**none**"
+#~ msgstr "**žádný**"
+
+#~ msgid "Offline"
+#~ msgstr "Offline"
+
+#~ msgid "Connecting"
+#~ msgstr "Probíhá připojování"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Znovu připojit"
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "Logging In"
+#~ msgstr "Probíhá přihlašování"
+
+#~ msgid "Logged In"
+#~ msgstr "Přihlášeno"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Místnost"
+
+#~ msgid "Chatting"
+#~ msgstr "Chatování"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Stůl"
+
+#~ msgid "Playing"
+#~ msgstr "Hraje se"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Stůl"
+
+#~ msgid "Logging Out"
+#~ msgstr "Odhlášení"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Chyba serveru: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Odpojen od serveru."
+
+#~ msgid "Login"
+#~ msgstr "Přihlášení"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Toto uživatelské jméno se již používá."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Autentizace selhala.\n"
+#~ "Zadejte prosím správné heslo."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Uživatelské jméno je příliš dlouhé!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Neplatné uživatelské jméno, nepoužívejte zvláštní znaky!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Přihlášení z neznámého důvodu selhalo: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "Síťová hra"
+
+#~ msgid "Server Profile"
+#~ msgstr "Profil serveru:"
+
+#~ msgid "Profile:"
+#~ msgstr "Profil:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "Upravit profily"
+
+#~ msgid "Server:"
+#~ msgstr "Server:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User Information"
+#~ msgstr "Informace o uživateli"
+
+#~ msgid "Username:"
+#~ msgstr "Uživatelské jméno:"
+
+#~ msgid "Password:"
+#~ msgstr "Heslo:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Authentication type"
+#~ msgstr "Způsob autentizace"
+
+#~ msgid "Normal Login"
+#~ msgstr "Normální přihlášení"
+
+#~ msgid "Guest Login"
+#~ msgstr "Přihlášení hosta"
+
+#~ msgid "First-time Login"
+#~ msgstr "První přihlášení"
+
+#~ msgid "Connect"
+#~ msgstr "Připojit"
+
+#~ msgid "Wizard"
+#~ msgstr "Průvodce"
+
+#~ msgid "Deity"
+#~ msgstr "Božstvo"
+
+#~ msgid "Sentinel"
+#~ msgstr "Hlídka"
+
+#~ msgid "Captain"
+#~ msgstr "Kapitán"
+
+#~ msgid "Knight"
+#~ msgstr "Rytíř"
+
+#~ msgid "Angel"
+#~ msgstr "Anděl"
+
+#~ msgid "Silverlord"
+#~ msgstr "Stříbrný Lord"
+
+#~ msgid "Eagle"
+#~ msgstr "Orel"
+
+#~ msgid "Vampire"
+#~ msgstr "Upír"
+
+#~ msgid "Chief"
+#~ msgstr "Náčelník"
+
+#~ msgid "Colonel"
+#~ msgstr "Plukovník"
+
+#~ msgid "General"
+#~ msgstr "Obecné"
+
+#~ msgid "Major"
+#~ msgstr "Major"
+
+#~ msgid "Scout"
+#~ msgstr "Průzkumník"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Poručík"
+
+#~ msgid "Stalker"
+#~ msgstr "Pronásledovatel"
+
+#~ msgid "Scientist"
+#~ msgstr "Vědec"
+
+#~ msgid "Scholar"
+#~ msgstr "Učenec"
+
+#~ msgid "Entity"
+#~ msgstr "Entita"
+
+#~ msgid "Creator"
+#~ msgstr "Tvůrce"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ Komunita (rychlá)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Lokální vývojářský server"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Toto je poprvé, co spouštíte GTK+ klienta GGZ Gaming Zone. Přejete si "
+#~ "vytvořit nějaké výchozí profily serveru?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <uživatel> <zpráva> . Soukromá zpráva hráči"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <zpráva> .......... Zpráva pro váš stůl"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <message> ........... Administrátorský příkaz"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <uživatel> .......... Pípnout na hráče"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... Získat nápovědu"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. Vypsat vaše přátele"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... Vypsat seznam lidí v ignoraci"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <uživatel> .......... Vyhodit hráče z místnosti"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr "/gag <username> ........... Zacpat hráči ústa roubíkem"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <username> ......... Odebrat hráči roubík a umožnit mu hovořit"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <username> ........... Zakázat hráči vstup na server"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Obdrželi jste neznámou zprávu od %s."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "Uživatel %s vám posílá pípnutí."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Použití: /msg <uživatel> <zpráva>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Odesílá soukromou zprávu uživateli v síti."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Pípnutí odesláno %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (přihlášen)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (odhlášen)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Příkazy chatu"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <akce> .............. Odeslat akci"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s byl přidán do seznamu vašich přátel."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s byl odstraněn z vašeho seznamu přátel."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s byl přidán do vašeho seznamu ignorovaných."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s byl odstraněn z vašeho seznamu ignorovaných."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Lidé, kteří jsou v současnosti vašimi přáteli"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Lidé, které v současnosti ignorujete"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Vícenásobná shoda:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Tuto hru nemáte nainstalovanou. Můžete si ji\n"
+#~ "stáhnout z %s."
+
+#~ msgid "Launch Error"
+#~ msgstr "Chyba spouštění"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Selhalo vykonání herního modulu.\n"
+#~ " Spouštění přerušeno."
+
+#~ msgid "Launched game"
+#~ msgstr "Spuštěna hra"
+
+#~ msgid "Launch failed"
+#~ msgstr "Spuštění selhalo"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Současně můžete hrát pouze jednu hru."
+
+#~ msgid "Game Error"
+#~ msgstr "Chyba hry"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Jste stále u stolu."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Pro spuštění hry musíte být v místnosti.\n"
+#~ "Spouštění přerušeno."
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Pro tento server nebyly definovány typy her.\n"
+#~ "Spouštění přerušeno."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Tato hra nepodporuje diváky."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Musíte spustit klienta GGZ přímo\n"
+#~ "abyste si mohli zahrát hru."
+
+#~ msgid "About"
+#~ msgstr "O aplikaci"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Zpráva dne"
+
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Flitr místností nebyl dosud implementován.\n"
+#~ "Chcete-li pomoci, přejděte na\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Neimplementováno"
+
+#~ msgid "Description"
+#~ msgstr "Popis"
+
+#~ msgid "Web Address"
+#~ msgstr "Webová adresa"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Game Types"
+#~ msgstr "Typy her"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Filtr seznamu místností:"
+
+#~ msgid "Set"
+#~ msgstr "Nastavit"
+
+#~ msgid "Player Information"
+#~ msgstr "Informace o hráči"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Přezdívka hráče:"
+
+#~ msgid "Table:"
+#~ msgstr "Stůl:"
+
+#~ msgid "Account:"
+#~ msgstr "Účet:"
+
+#~ msgid "Record:"
+#~ msgstr "Rekord:"
+
+#~ msgid "Rating:"
+#~ msgstr "Hodnocení:"
+
+#~ msgid "Rank:"
+#~ msgstr "Rank:"
+
+#~ msgid "Message:"
+#~ msgstr "Zpráva:"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznámý"
+
+#~ msgid "Registered"
+#~ msgstr "Registrovaný"
+
+#~ msgid "Guest"
+#~ msgstr "Host"
+
+#~ msgid "Host"
+#~ msgstr "Hostitel"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrátor"
+
+#~ msgid "Friends"
+#~ msgstr "Přátelé"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorovat"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Statistiky"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Jakého klienta chcete pro tuto hru použít?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Již se neptat."
+
+#~ msgid "Join"
+#~ msgstr "Připojit"
+
+#~ msgid "Leave"
+#~ msgstr "Odpojit"
+
+#~ msgid "No description available."
+#~ msgstr "Žádný popis není k dispozici."
+
+#~ msgid "Seats"
+#~ msgstr "Místa"
+
+#~ msgid "Room Information"
+#~ msgstr "Informace o místnosti"
+
+#~ msgid "Game Name:"
+#~ msgstr "Název hry:"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Domovská stránka:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Popis místnosti:"
+
+#~ msgid "This room has no game"
+#~ msgstr "Tato místnost neobsahuje žádnou hru"
+
+#~ msgid "Unknown room"
+#~ msgstr "Neznámá místnost"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Nemůžete vstoupit do místnosti, nejste přihlášeni"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Již jste vstoupili mezi místnosti"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Během hraní hry nelze měnit místnosti"
+
+#~ msgid "Unknown error"
+#~ msgstr "Neznámá chyba"
+
+#~ msgid "Error joining room"
+#~ msgstr "Chyba vstupování do místnosti"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Ostatní místnosti"
+
+#~ msgid "Room"
+#~ msgstr "Místnost"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Typ hry:  %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Autor:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Popis:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Domovská stránka:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Chyba spuštění stolu.\n"
+#~ " Spouštění přerušeno."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Zadán neplatný počet robotů"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Chyba spouštění herního modulu."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Označování míst"
+
+#~ msgid "Game Type:"
+#~ msgstr "Typ hry:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Počet míst"
+
+#~ msgid "Description:"
+#~ msgstr "Popis:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Místo %d:"
+
+#~ msgid "Computer"
+#~ msgstr "Počítač"
+
+#~ msgid "Open"
+#~ msgstr "Otevřít"
+
+#~ msgid "Reserved for"
+#~ msgstr "Rezervováno pro"
+
+#~ msgid "Game Description   "
+#~ msgstr "Popis hry   "
+
+#~ msgid "Launch"
+#~ msgstr "Spustit"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Opravdu chcete skončit?"
+
+#~ msgid "Quit?"
+#~ msgstr "Ukončit?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Statistiky serveru nejsou dosud implementovány.\n"
+#~ "Pokud chcete s implementací pomoci, navštivte\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Statistiky hráčů nejsou dosud implementovány.\n"
+#~ "Pokud chcete s implementací pomoci, navštivte\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Musíte zvýraznit stůl před tím, než se k němu můžete připojit."
+
+#~ msgid "Error Joining"
+#~ msgstr "Chyba při připojování"
+
+#~ msgid "That table is full."
+#~ msgstr "Tento stůl je plný."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Musíte zvýraznit stůl před tím, než ho můžete sledovat."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Chyba při sledování"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Chyba při přisedání ke stolu.\n"
+#~ "Připojení ke hře se nezdařilo."
+
+#~ msgid "Join Error"
+#~ msgstr "Chyba při připojení"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Odpojit od serveru GGZ Gaming Zone"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Začít hrát hru na novém stole"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Připojit se k existující hře"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Sledovat existující hru - stát se divákem u stolu"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Opustit hru, kterou právě hrajete"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "Zobrazit okno nastavení pro změnu vlastností klienta"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "Zobrazit statistiky hry pro herní typ aktuální místnosti"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Ukončit klientskou aplikaci GGZ."
+
+# Debug nebo ladit?
+#~ msgid "Compiled with debugging."
+#~ msgstr "Zkompilováno včetně ladění (debug)."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Odpojit"
+
+#~ msgid "Quit"
+#~ msgstr "Ukončit"
+
+#~ msgid "Watch"
+#~ msgstr "Dívat se"
+
+#~ msgid "Edit"
+#~ msgstr "Upravit"
+
+#~ msgid "Properties"
+#~ msgstr "Vlastnosti"
+
+#~ msgid "View"
+#~ msgstr "Zobrazit"
+
+#~ msgid "Room List"
+#~ msgstr "Seznam místností"
+
+#~ msgid "Server Stats"
+#~ msgstr "Statistiky serveru"
+
+#~ msgid "Player Stats"
+#~ msgstr "Statistiky hráčů"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "Nápověda"
+
+#~ msgid "Contents"
+#~ msgstr "Obsah"
+
+#~ msgid "Send"
+#~ msgstr "Odeslat"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Vlastnosti aktualizovány"
+
+#~ msgid "Confirm:"
+#~ msgstr "Potvrdit:"
+
+#~ msgid "Modify"
+#~ msgstr "Změnit"
+
+#~ msgid "Servers"
+#~ msgstr "Servery"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Písmo chatu"
+
+#~ msgid "Change"
+#~ msgstr "Změnit"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Ignorovat zprávy o připojení/odpojení ostatních"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Přehrávat zvuky"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Automatické odsazování"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Označovat rozhovory časovou známkou"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Zalamovat slova"
+
+#~ msgid "Chat Color"
+#~ msgstr "Barva chatu"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Výchozí barva chatu pro vaše přátele"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Barva chatu použitá pro vaše jméno"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Barva chatu pro ostatní text"
+
+#~ msgid "Normal Color"
+#~ msgstr "Normální barva"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Barva zvýraznění"
+
+#~ msgid "Friend Color"
+#~ msgstr "Barva přátel"
+
+#~ msgid "Black Background"
+#~ msgstr "Černé pozadí"
+
+#~ msgid "White Background"
+#~ msgstr "Bílé pozadí"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "Veškeré následující informace jsou nepovinné."
+
+#~ msgid "Name:"
+#~ msgstr "Jméno:"
+
+#~ msgid "City:"
+#~ msgstr "Město:"
+
+#~ msgid "State:"
+#~ msgstr "Stát:"
+
+#~ msgid "Country:"
+#~ msgstr "Země:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Poznámky, zájmy atd."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Vstup do místnosti jedním kliknutím"
+
+#~ msgid "Display All"
+#~ msgstr "Zobrazit vše"
+
+#~ msgid "Display New"
+#~ msgstr "Zobrazit nové"
+
+#~ msgid "Display Important"
+#~ msgstr "Zobrazit důležité"
+
+#~ msgid "Display None"
+#~ msgstr "Nezobrazit žádný"
+
+#~ msgid "Options"
+#~ msgstr "Nastavení"
+
+#~ msgid "Select Font"
+#~ msgstr "Vybrat písmo"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: volba \"%s\" je nejednoznačná\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: volba \"--%s\" nepovoluje parametr\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: volba \"%c%s\" nepovoluje parametr\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: volba \"%s\" vyžaduje parametr\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: nerozpoznaná volba `--%s'\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: nerozpoznaná volba `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: zakázaná volba -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: neplatná volba -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: volba vyžaduje argument -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: volba \"-W %s\" je nejednoznačná\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: volba `-W %s' nemůže mít parametr\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "Povolení vzdálených diváků"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "Povolení 3D módu"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "Povolení číslování políček šachovnice"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Povolení celoobrazovkového módu"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "Povolení maximalizovaného módu"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "Povolení zobrazování rad"
+
+#~ msgid "A flag to enable network game support"
+#~ msgstr "Povolit síť"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "Povolit prohlížeč historie"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Povolení zobrazení lišty nástrojů"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "Povolení zobrazení komentářů tahů"
+
+#~ msgid "A flag to smooth (anti-alias) the 3D display"
+#~ msgstr "Příznak zapínající vyhlazování (anti-aliasing) 3D obrazu"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Množství času přidělené každému hráči na začátku nové hry"
+
+#~ msgid "The board side to display"
+#~ msgstr "Zobrazená strana šachovnice"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "Výchozí obtížnost černého hráče"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "Výchozí obtížnost bílého hráče"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "Výchozí typ hráče pro černého hráče"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "Výchozí typ hráče pro bílého hráče"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "Složka, ve které otevřít dialog nahrání hry"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "Složka, ve které otevřít dialog uložení hry"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Formát zobrazení pohybů"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "Formát zobrazení pohybů, může být buď \"human\" (lidsky čitelný), \"lan"
+#~ "\" (dlouhý algebraický zápis) nebo \"san\" (standardní algebraický zápis)"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Výška hlavního okna v pixelech."
+
+#~ msgid "The height of the window"
+#~ msgstr "Výška okna"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "Část povyšující pěšáka na"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr "Povýšení pěšce na 'dámu', 'jezdce', 'věž', 'střelce'."
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player) or 'human' (the side of the current human "
+#~ "player)"
+#~ msgstr ""
+#~ "Část desky, která je v popředí, buď \"white\", \"black\", \"current"
+#~ "\" (aktuální hráč) nebo \"human\" (strana aktuálního lidského hráče)"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Šířka hlavního okna v pixelech."
+
+#~ msgid "The width of the window"
+#~ msgstr "Šířka okna"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Uložit šachovou hru"
+
+#~ msgid "Communication:"
+#~ msgstr "Komunikace:"
+
+#~ msgid "Executable:"
+#~ msgstr "Spustitelný soubor:"
+
+#~ msgid "Playing as:"
+#~ msgstr "Jednoduché"
+
+#~ msgid "<b>Game</b>"
+#~ msgstr "<b>Hra</b>"
+
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "<b>Místnosti</b>"
+
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>Servery</b>"
+
+#~ msgid "<b>Status/_Chat</b>"
+#~ msgstr "<b>Status/_chat</b>"
+
+#~ msgid "Add Account"
+#~ msgstr "Přidat účet"
+
+#~ msgid "Join Game"
+#~ msgstr "Připojit se ke hře"
+
+#~ msgid "User _Name:"
+#~ msgstr "Uživatelské jmé_no:"
+
+#~ msgid "_Add Account"
+#~ msgstr "Přid_at účet"
+
+#~ msgid "_Host:"
+#~ msgstr "_Hostitel:"
+
+#~ msgid "_Join"
+#~ msgstr "_Připojit"
+
+#~ msgid "_Leave"
+#~ msgstr "_Odpojit"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid "_Profile:"
+#~ msgstr "Pro_fil:"
+
+#~ msgid "_Server:"
+#~ msgstr "_Server:"
+
+#~ msgid "3_D Chess View"
+#~ msgstr "_3D pohled"
+
+#~ msgid "Board Orientation:"
+#~ msgstr "Orientace desky"
+
+#~ msgid "Move Format:"
+#~ msgstr "Formát pohybů:"
+
+#~ msgid "Preferences"
+#~ msgstr "Nastavení"
+
+#~ msgid "Promotion Type:"
+#~ msgstr "Typ povýšení:"
+
+#~ msgid "Show _History"
+#~ msgstr "Zobrazit _historii"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Zobrazi_t lištu nástrojů"
+
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "Zobrazit nebo skrýt číslování políček šachovnice"
+
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "Zobrazit nebo skrýt panel historie"
+
+#~ msgid "Shows hints during chess games"
+#~ msgstr "Zobrazovat typy/rady během hry"
+
+#~ msgid "Smooth edges of the 3D elements (anti-alias)"
+#~ msgstr "Vyhladit hrany prostorových prvků (anti-alias)"
+
+#~ msgid ""
+#~ "View the chess board by default in 2D mode, or optionally in 3D mode "
+#~ "using OpenGL."
+#~ msgstr ""
+#~ "Zobrazit šachovnici ve výchozím 2D módu, nebo využít 3D mód pomocí OpenGL."
+
+#~ msgid "_Board Numbering"
+#~ msgstr "Čís_lování políček"
+
+#~ msgid "_Move Hints"
+#~ msgstr "Rady jak _táhnout"
+
+#~ msgid "_Smooth Display"
+#~ msgstr "_Vyhlazené zobazení"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Načíst hru"
+
+#~ msgid "Claim _Draw"
+#~ msgstr "Požá_dat o remízu"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "_Opustit celou obrazovku"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Nahrát uloženou hru"
+
+#~ msgid "Logs"
+#~ msgstr "Záznamy"
+
+#~ msgid "Resign"
+#~ msgstr "Odstoupit"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Skočit na začátek hry"
+
+#~ msgid "Save the current game"
+#~ msgstr "Uložit aktuální hru"
+
+#~ msgid "Show _Logs"
+#~ msgstr "Zob_razit záznamy"
+
+#~ msgid "Show the current move"
+#~ msgstr "Zobrazit aktuální tah"
+
+#~ msgid "Show the next move"
+#~ msgstr "Zobrazit následující tah"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Zobrazit předcházející tah"
+
+#~ msgid "There are no active logs."
+#~ msgstr "Nejsou žádné aktivní záznamy."
+
+#~ msgid "Undo Move"
+#~ msgstr "Vrátit tah"
+
+#~ msgid "_Resign"
+#~ msgstr "Ods_toupit"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Obtížnost</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Vlastnosti hry</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Hráči</b>"
+
+#~ msgid "B_lack:"
+#~ msgstr "Če_rný:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "Zadejte název této hry"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Maximální doba _tahu"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr ""
+#~ "Spustit hru. Hra může být spuštěna, jakmile jsou všechna políčka kompletní"
+
+#~ msgid "W_hite:"
+#~ msgstr "Bí_lý:"
+
+#~ msgid "_Black:"
+#~ msgstr "Če_rný:"
+
+#~ msgid "_Game name:"
+#~ msgstr "_Název hry:"
+
+#~ msgid "_Start"
+#~ msgstr "_Start"
+
+#~ msgid "_White:"
+#~ msgstr "Bí_lý:"
+
+#~ msgid "Chess"
+#~ msgstr "Šachy"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "Hrát klasickou šachovou hru pro dva hráče"
+
+#~ msgid "Chess incorrectly installed"
+#~ msgstr "Nekorektně nainstalováno"
+
+#~ msgid ""
+#~ "Chess is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Šachy nelze spustit, protože vyžadované soubory nejsou instalovány. Pokud "
+#~ "právě aktualizujete svůj systém, vyčkejte na dokončení instalace."
+
+#~ msgid "Unlimited"
+#~ msgstr "Neomezený"
+
+#~ msgid "One minute"
+#~ msgstr "Jedna minuta"
+
+#~ msgid "Five minutes"
+#~ msgstr "Pět minut"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minut"
+
+#~ msgid "One hour"
+#~ msgstr "Jedna hodina"
+
+#~ msgid "Custom"
+#~ msgstr "Vlastní"
+
+#~ msgid "seconds"
+#~ msgstr "sekund"
+
+#~ msgid "minutes"
+#~ msgstr "minut"
+
+#~ msgid "hours"
+#~ msgstr "hodin"
+
+#~ msgid "Easy"
+#~ msgstr "Jednoduché"
+
+#~ msgid "Normal"
+#~ msgstr "Normální"
+
+#~ msgid "Hard"
+#~ msgstr "Těžké"
+
+#~ msgid "Unable to find %s engine"
+#~ msgstr "Nemohu nalézt engine %s"
+
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Nastavit nahranou hru (%i pohybů)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "Nastavení hry bylo změněno"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s proti %(black)s"
+
+#~ msgid "White"
+#~ msgstr "Bílý"
+
+#~ msgid "Black"
+#~ msgstr "Černý"
+
+#~ msgid "PGN files"
+#~ msgstr "Soubory PGN"
+
+#~ msgid "All files"
+#~ msgstr "Všechny soubory"
+
+#~ msgid "Please select a file to load"
+#~ msgstr "Vyberte prosím soubor, který chcete nahrát"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "Nemohu nahrát hru"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "Prosím zadejte název souboru"
+
+#~ msgid "Unabled to save game"
+#~ msgstr "Nelze uložit hru"
+
+#~ msgid "Human"
+#~ msgstr "Člověk"
+
+#~ msgid "Standard Algebraic"
+#~ msgstr "Standardní algebraické"
+
+#~ msgid "Figurine"
+#~ msgstr "Figurína"
+
+#~ msgid "Long Algebraic"
+#~ msgstr "Dlouhé algebraické"
+
+#~ msgid "White Side"
+#~ msgstr "Strana bílého"
+
+#~ msgid "Black Side"
+#~ msgstr "Strana černého"
+
+#~ msgid "Human Side"
+#~ msgstr "Strana člověka"
+
+#~ msgid "Current Player"
+#~ msgstr "Aktuální hráč"
+
+#~ msgid "chess-piece|Queen"
+#~ msgstr "Královna"
+
+#~ msgid "chess-piece|Knight"
+#~ msgstr "Kůň"
+
+#~ msgid "chess-piece|Rook"
+#~ msgstr "Věž"
+
+#~ msgid "chess-piece|Bishop"
+#~ msgstr "Střelec"
+
+#~ msgid "Chess - *%(game_name)s"
+#~ msgstr "Šachy - *%(game_name)s"
+
+#~ msgid "Chess - %(game_name)s"
+#~ msgstr "Šachy - %(game_name)s"
+
+#~ msgid "∞"
+#~ msgstr "∞"
+
+#~ msgid "If you don't save the changes to this game will be permanently lost"
+#~ msgstr "Pokud hru neuložíte, všechny změny budou trvale ztraceny"
+
+#~ msgid "Close _without saving"
+#~ msgstr "Zavřít bez u_kládání"
+
+#~ msgid "Unable to enable 3D mode"
+#~ msgstr "Nelze spustit 3D mód"
+
+#~ msgid ""
+#~ "You are unable to play in 3D mode due to the following problems:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Please contact your system administrator to resolve these problems, until "
+#~ "then you will be able to play chess in 2D mode."
+#~ msgstr ""
+#~ "Není možné hrát v 3D módu z následujících důvodů:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Kontaktujte správce systému za účelem vyřešení problémů, do té doby "
+#~ "můžete hrát šachy v 2D módu."
+
+#~ msgid "Unable to claim draw"
+#~ msgstr "Nemohu vynutit tah"
+
+#~ msgid ""
+#~ "You may claim a draw when:\n"
+#~ "a) The board has been in the same state three times (Three fold "
+#~ "repetition)\n"
+#~ "b) Fifty moves have occured where no pawn has moved and no piece has been "
+#~ "captured (50 move rule)"
+#~ msgstr ""
+#~ "Remízy dosáhnete pokud:\n"
+#~ "a) Šachovnice byla třikrát ve stejném stavu (třikrát opakovaná pozice)\n"
+#~ "b) Proběhlo padesát tahů bez jediného pohybu pěšáka a vyhození jakékoli "
+#~ "figurky (pravidlo 50 tahů)"
+
+#~ msgid "Unable to display help: %s"
+#~ msgstr "Nelze zobrazit nápovědu: %s"
+
+#~ msgid "No Python OpenGL support"
+#~ msgstr "Chybí podpora OpenGL v Pythonu"
+
+#~ msgid "No Python GTKGLExt support"
+#~ msgstr "Chybí podpora GTKGLExt v Pythonu"
+
+#~ msgid "OpenGL libraries do not support required display mode"
+#~ msgstr "Knihovny OpenGL nepodporují vyžadovaný mód zobrazení"
+
+#~ msgid "Game Start"
+#~ msgstr "Start hry"
+
+#~ msgid "No comment"
+#~ msgstr "Bez komentáře"
+
+#~ msgid "White castles long"
+#~ msgstr "Velká rošáda bílého"
+
+#~ msgid "Black castles long"
+#~ msgstr "Velká rošáda černého"
+
+#~ msgid "White castles short"
+#~ msgstr "Malá rošáda bílého"
+
+#~ msgid "Black castles short"
+#~ msgstr "Malá rošáda černého"
+
+#~ msgid "White pawn moves from %(start)s to %(end)s"
+#~ msgstr "Bílý pěšák táhne z %(start)s na %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Bílý pěšák z %(start)s vyhazuje černého pěšáka na %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Bílý pěšák z %(start)s vyhazuje černou věž na %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Bílý pěšák z %(start)s vyhazuje černého koně na %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Bílý pěšák z %(start)s vyhazuje černého střelce na %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Bílý pěšák z %(start)s vyhazuje černou dámu na %(end)s"
+
+#~ msgid "White rook moves from %(start)s to %(end)s"
+#~ msgstr "Bílá věž táhne z %(start)s na %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Bílá věž z %(start)s vyhazuje černého pěšáka na %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Bílá věž z %(start)s vyhazuje černou věž na %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Bílá věž z %(start)s vyhazuje černého koně na %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Bílá věž z %(start)s vyhazuje černého střelce na %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Bílá věž z %(start)s vyhazuje černou dámu na %(end)s"
+
+#~ msgid "White knight moves from %(start)s to %(end)s"
+#~ msgstr "Bílý kůň táhne z %(start)s na %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Bílý kůň z %(start)s vyhazuje černého pěšáka na %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Bílý kůň z %(start)s vyhazuje černou věž na %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Bílý kůň z %(start)s vyhazuje černého koně na %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Bílý kůň z %(start)s vyhazuje černého střelce na %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Bílý kůň z %(start)s vyhazuje černou dámu na %(end)s"
+
+#~ msgid "White bishop moves from %(start)s to %(end)s"
+#~ msgstr "Bílý střelec táhne z %(start)s na %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Bílý střelec z %(start)s vyhazuje černého pěšáka na %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Bílý střelec z %(start)s vyhazuje černou věž na %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Bílý střelec z %(start)s vyhazuje černého koně na %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Bílý střelec z %(start)s vyhazuje černého střelce na %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Bílý střelec z %(start)s vyhazuje černou dámu na %(end)s"
+
+#~ msgid "White queen moves from %(start)s to %(end)s"
+#~ msgstr "Bílá dáma táhne z %(start)s na %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Bílá dáma z %(start)s vyhazuje černého pěšáka na %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Bílá dáma z %(start)s vyhazuje černou věž na %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Bílá dáma z %(start)s vyhazuje černého koně na %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Bílá dáma z %(start)s vyhazuje černého střelce na %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Bílá dáma z %(start)s vyhazuje černou dámu na %(end)s"
+
+#~ msgid "White king moves from %(start)s to %(end)s"
+#~ msgstr "Bílý král táhne z %(start)s na %(end)s"
+
+#~ msgid "White king at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Bílý král z %(start)s vyhazuje černého pěšáka na %(end)s"
+
+#~ msgid "White king at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Bílý král z %(start)s vyhazuje černou věž na %(end)s"
+
+#~ msgid "White king at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Bílý král z %(start)s vyhazuje černého koně na %(end)s"
+
+#~ msgid "White king at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Bílý král z %(start)s vyhazuje černého střelce na %(end)s"
+
+#~ msgid "White king at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Bílý král z %(start)s vyhazuje černou dámu na %(end)s"
+
+#~ msgid "Black pawn moves from %(start)s to %(end)s"
+#~ msgstr "Černý pěšák táhne z %(start)s na %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Černý pěšák z %(start)s vyhazuje bílého pěšáka na %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Černý pěšák z %(start)s vyhazuje bílou věž na %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Černý pěšák z %(start)s vyhazuje bílého koně na %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Černý pěšák z %(start)s vyhazuje bílého střelce na %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Černý pěšák z %(start)s vyhazuje bílou dámu na %(end)s"
+
+#~ msgid "Black rook moves from %(start)s to %(end)s"
+#~ msgstr "Černá věž táhne z %(start)s na %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Černá věž z %(start)s vyhazuje bílého pěšáka na %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Černá věž z %(start)s vyhazuje bílou věž na %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Černá věž z %(start)s vyhazuje bílého koně na %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Černá věž z %(start)s vyhazuje bílého střelce na %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Černá věž z %(start)s vyhazuje bílou dámu na %(end)s"
+
+#~ msgid "Black knight moves from %(start)s to %(end)s"
+#~ msgstr "Černý kůň táhne z %(start)s na %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Černý kůň z %(start)s vyhazuje bílého pěšáka na %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Černý kůň z %(start)s vyhazuje bílou věž na %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Černý kůň z %(start)s vyhazuje bílého koně na %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Černý kůň z %(start)s vyhazuje bílého střelce na %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Černý kůň z %(start)s vyhazuje bílou dámu na %(end)s"
+
+#~ msgid "Black bishop moves from %(start)s to %(end)s"
+#~ msgstr "Černý střelec táhne z %(start)s na %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Černý střelec z %(start)s vyhazuje bílého pěšáka na %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Černý střelec z %(start)s vyhazuje bílou věž na %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Černý střelec z %(start)s vyhazuje bílého koně na %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Černý střelec z %(start)s vyhazuje bílého střelce na %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Černý střelec z %(start)s vyhazuje bílou dámu na %(end)s"
+
+#~ msgid "Black queen moves from %(start)s to %(end)s"
+#~ msgstr "Černá dáma táhne z %(start)s na %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Černá dáma z %(start)s vyhazuje bílého pěšáka na %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Černá dáma z %(start)s vyhazuje bílou věž na %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Černá dáma z %(start)s vyhazuje bílého koně na %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Černá dáma z %(start)s vyhazuje bílého střelce na %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Černá dáma z %(start)s vyhazuje bílou dámu na %(end)s"
+
+#~ msgid "Black king moves from %(start)s to %(end)s"
+#~ msgstr "Černý král táhne z %(start)s na %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Černý král z %(start)s vyhazuje bílého pěšáka na %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Černý král z %(start)s vyhazuje bílou věž na %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Černý král z %(start)s vyhazuje bílého koně na %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Černý král z %(start)s vyhazuje bílého střelce na %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Černý král z %(start)s vyhazuje bílou dámu na %(end)s"
+
+#~ msgid "%(movenum)2iw. %(description)s (Check)"
+#~ msgstr "%(movenum)2iw. %(description)s (šach)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2iw. %(description)s (šachmat)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2iw. %(description)s (pat)"
+
+#~ msgid "%(movenum)2iw. %(description)s"
+#~ msgstr "%(movenum)2iw. %(description)s"
+
+#~ msgid "%(movenum)2ib. %(description)s (Check)"
+#~ msgstr "%(movenum)2ib. %(description)s (šach)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2ib. %(description)s (šachmat)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2ib. %(description)s (pat)"
+
+#~ msgid "%(movenum)2ib. %(description)s"
+#~ msgstr "%(movenum)2ib. %(description)s"
+
+#~ msgid "%s wins"
+#~ msgstr "Vyhrává %s"
+
+#~ msgid "Game is drawn"
+#~ msgstr "Hra skončila nerozhodně"
+
+#~ msgid "Opponent is in check and cannot move (checkmate)"
+#~ msgstr "Protivník je v šachu a nemůže se hýbat (mat)"
+
+#~ msgid "Opponent cannot move (stalemate)"
+#~ msgstr "Protivník se nemůže pohnout (pat)"
+
+#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
+#~ msgstr ""
+#~ "V posledních padesáti tazích nebyl vyhozen ani jeden kámen a netáhl ani "
+#~ "jeden pěšák"
+
+#~ msgid "Opponent has run out of time"
+#~ msgstr "Protivníkovy vypršel čas"
+
+#~ msgid "The same board state has occured three times (three fold repetition)"
+#~ msgstr "Stejný tah se opakoval třikrát"
+
+#~ msgid "Neither player can cause checkmate (insufficient material)"
+#~ msgstr "Žádný hráč nemůže způsobit mat"
+
+#~ msgid "The black player has resigned"
+#~ msgstr "Černý hráč vzdal"
+
+#~ msgid "The white player has resigned"
+#~ msgstr "Bílý hráč vzdal"
+
+#~ msgid "The game has been abandoned"
+#~ msgstr "Hra byla opuštěna"
+
+#~ msgid "One of the players has died"
+#~ msgstr "Jeden z hráčů prohrál"
+
+#~ msgid "Disconnected"
+#~ msgstr "Odpojeno"
+
+#~ msgid "New profile..."
+#~ msgstr "Nový profil..."
+
+#~ msgid "Table"
+#~ msgstr "Stůl"
+
+#~ msgid "Seat"
+#~ msgstr "Místo"
+
+#~ msgid "Player"
+#~ msgstr "Hráč"
+
+#~ msgid "Reserved for %s"
+#~ msgstr "Vyhrazeno pro %s"
+
+#~ msgid "Seat empty"
+#~ msgstr "Místo volné"
+
+#~ msgid "AI (%s)"
+#~ msgstr "AI (%s)"
+
+#~ msgid "chess-file|a"
+#~ msgstr "a"
+
+#~ msgid "chess-file|b"
+#~ msgstr "b"
+
+#~ msgid "chess-file|c"
+#~ msgstr "c"
+
+#~ msgid "chess-file|d"
+#~ msgstr "d"
+
+#~ msgid "chess-file|e"
+#~ msgstr "e"
+
+#~ msgid "chess-file|f"
+#~ msgstr "f"
+
+#~ msgid "chess-file|g"
+#~ msgstr "g"
+
+#~ msgid "chess-file|h"
+#~ msgstr "h"
+
+#~ msgid "chess-rank|1"
+#~ msgstr "1"
+
+#~ msgid "chess-rank|2"
+#~ msgstr "2"
+
+#~ msgid "chess-rank|3"
+#~ msgstr "3"
+
+#~ msgid "chess-rank|4"
+#~ msgstr "4"
+
+#~ msgid "chess-rank|5"
+#~ msgstr "5"
+
+#~ msgid "chess-rank|6"
+#~ msgstr "6"
+
+#~ msgid "chess-rank|7"
+#~ msgstr "7"
+
+#~ msgid "chess-rank|8"
+#~ msgstr "8"
+
+#~ msgid "chess-notation|P"
+#~ msgstr "P"
+
+#~ msgid "chess-notation|N"
+#~ msgstr "K"
+
+#~ msgid "chess-notation|B"
+#~ msgstr "S"
+
+#~ msgid "chess-notation|R"
+#~ msgstr "V"
+
+#~ msgid "chess-notation|Q"
+#~ msgstr "D"
+
+#~ msgid "chess-notation|K"
+#~ msgstr "K"
+
+#~ msgid "'%(name)s' in '%(game)s'"
+#~ msgstr "\"%(name)s\" v \"%(game)s\""
+
+#~ msgid "Application Log"
+#~ msgstr "Záznam aplikace"
+
+#~ msgid "Usage: %s [game]"
+#~ msgstr "Použití: %s [hra]"
+
+#~ msgid "Human versus %s"
+#~ msgstr "Člověk proti %s"
+
+#~ msgid ""
+#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org\n"
+#~ "Debug output:"
+#~ msgstr ""
+#~ "Došlo k pádu glChess. Oznamte prosím tuto chybu na http://bugzilla.gnome."
+#~ "org\n"
+#~ "Výpis chyby:"
+
+#~ msgid "Save game before closing?"
+#~ msgstr "Uložit hru před ukončením?"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
+#~ msgstr "Copyright 2005-2008 Robert Ancell (a přispěvatelé)"
+
+#~ msgid ""
+#~ "The 2D/3D chess game for GNOME. \n"
+#~ "\n"
+#~ "glChess is a part of GNOME Games."
+#~ msgstr ""
+#~ "2D a 3D šachy pro GNOME. \n"
+#~ "\n"
+#~ "glChess je součástí her GNOME."
+
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%s je svobodný software; můžete jej šířit a modifikovat podle ustanovení "
+#~ "GNU General Public License, vydávané Free Software Foundation; a to buď "
+#~ "verze 2 této licence anebo (podle svého uvážení) kterékoli pozdější verze."
+
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "Nelze vytvořit datový adresář %(dir)s: %(error)s"
+
+#~ msgid "Incorrect password"
+#~ msgstr "Špatné heslo"
+
+#~ msgid "Account in use"
+#~ msgstr "Účet je již používán"
+
+#~ msgid "Connection closed: %s"
+#~ msgstr "Spojení ukončeno: %s"
+
+#~ msgid "A password is required"
+#~ msgstr "Je vyžadováno heslo"
+
+#~ msgid "Disconnected from server"
+#~ msgstr "Odpojeno od serveru"
+
+#~ msgid "No description"
+#~ msgstr "Bez popisu"
+
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "Malé"
+
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "Střední"
+
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "Velké"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Nemohu načíst motiv"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Nemohu najít soubor:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Bude místo něj načten implicitní motiv."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Nemohu najít soubor:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Zkontrolujte prosím, že je Pět nebo víc správně nainstalováno."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Seřazením pěti objektů stejného typu do řady získáte body!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME Pět nebo víc"
+
+#~ msgid "_Board size:"
+#~ msgstr "Velikost hrací _desky:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Konec hry!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Tam nemůžete táhnout!"
+
+#~ msgid "Five or More"
+#~ msgstr "Pět nebo víc"
+
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr ""
+#~ "Port kdysi oblíbené hry Barevné linie pro prostředí GNOME.\n"
+#~ "\n"
+#~ "Pět nebo víc je součástí her GNOME."
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Nastavení Pět nebo víc"
+
+#~ msgid "Themes"
+#~ msgstr "Motivy"
+
+#~ msgid "_Image:"
+#~ msgstr "_Obrázek:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "Barva _pozadí:"
+
+#~ msgid "Board Size"
+#~ msgstr "Velikost hrací desky"
+
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "Obecné"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "Používat _rychlé tahy"
+
+#~ msgid "Next:"
+#~ msgstr "Následující:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Odstraňovat barevné koule z hrací desky tvořením úseček"
+
+#~ msgid "Background color"
+#~ msgstr "Barva pozadí"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Barva pozadí. Šestnáctková specifikace barvy pozadí."
+
+#~ msgid "Ball style"
+#~ msgstr "Styl koule"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Styl koule. Název souboru obrázků, které budou použity pro koule."
+
+#~ msgid "Game field"
+#~ msgstr "Herní pole"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Herní pole z posledního uloženého sezení."
+
+#~ msgid "Game preview"
+#~ msgstr "Náhled hry"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Náhled hry z posledního uloženého sezení."
+
+#~ msgid "Game score"
+#~ msgstr "Skóre hry"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Skóre hry z posledního uloženého sezení."
+
+#~ msgid "Playing field size"
+#~ msgstr "Velikost hracího pole"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Velikost hracího pole. 1=malá, 2=střední, 3=velká. Jiné hodnoty nejsou "
+#~ "platné."
+
+#~ msgid "Time between moves"
+#~ msgstr "Čas mezi tahy"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Čas mezi tahy v milisekundách."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Čtyři-v-řadě"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Soutěžte ve tvorbě úseček ze stejné barvy"
+
+#~ msgid "Connect four tiles in a row"
+#~ msgstr "Spojte čtyři dlaždice v řadě"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "Číslo určující preferovaný motiv."
+
+#~ msgid "Animate"
+#~ msgstr "Animace"
+
+#~ msgid "Drop marble"
+#~ msgstr "Položení kamene"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Klávesa pro položení kamene."
+
+#~ msgid "Level of Player One"
+#~ msgstr "Úroveň Hráče 1"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Úroveň Hráče 2"
+
+#~ msgid "Theme ID"
+#~ msgstr "ID motivu"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Jestli se má použít animace."
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr ""
+#~ "Nula znamená člověk; jedna až tři odpovídá úrovni počítačového hráče."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nemohu načíst obrázek:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "Došlo k síťové chybě."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Čekejte, dokud se soupeř nepřipojí ke hře."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Vítejte v síťové hře %s."
+
+#~ msgid "It's a draw!"
+#~ msgstr "Je to nerozhodně!"
+
+#~ msgid "You win!"
+#~ msgstr "Vyhráli jste!"
+
+#~ msgid "It is your move."
+#~ msgstr "Jste na tahu."
+
+#~ msgid "I win!"
+#~ msgstr "Vyhrál jsem!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Přemýšlím..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s vyhrál!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "Na tahu je %s."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Rada: Sloupec %d"
+
+#~ msgid "You:"
+#~ msgstr "Vy:"
+
+#~ msgid "Me:"
+#~ msgstr "Já:"
+
+#~ msgid "Scores"
+#~ msgstr "Skóre"
+
+#~ msgid "Drawn:"
+#~ msgstr "Nerozhodně:"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "Hra \"Čtyři v řadě\" pro GNOME s počítačovým hráčem řízeným systémem "
+#~ "Velena od Giuliana Bertolettiho.\n"
+#~ "\n"
+#~ "Hra \"Čtyři v řadě\" je částí her GNOME."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hráč 1:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hráč 2:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "První úroveň"
+
+#~ msgid "Level two"
+#~ msgstr "Druhá úroveň"
+
+#~ msgid "Level three"
+#~ msgstr "Třetí úroveň"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Nastavení Čtyř-v-řadě"
+
+#~ msgid "Appearance"
+#~ msgstr "Vzhled"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Motiv:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Povolit _animace"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "Povolit _zvuky"
+
+#~ msgid "Classic"
+#~ msgstr "Klasické"
+
+#~ msgid "Red"
+#~ msgstr "Červená"
+
+#~ msgid "Yellow"
+#~ msgstr "Žlutá"
+
+#~ msgid "High Contrast"
+#~ msgstr "Vysoký kontrast"
+
+#~ msgid "Light"
+#~ msgstr "Bílé"
+
+#~ msgid "Dark"
+#~ msgstr "Černé"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Inverzní vysoký kontrast"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Smetanové kuličky"
+
+#~ msgid "Blue"
+#~ msgstr "Modrá"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Skleněné kuličky"
+
+#~ msgid "Nightfall"
+#~ msgstr "Soumrak"
+
+#~ msgid "Blocks"
+#~ msgstr "Bloky"
+
+#~ msgid "Orange"
+#~ msgstr "Oranžová"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Hráč %s se připojil ke hře.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "Hra skončila, protože zakladatel %s opustil hru.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "%s opustil hru.\n"
+
+#~ msgid ""
+#~ "Nibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Hra Červíci nemůže najít soubor pixmapy:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Zkontrolujte prosím svou instalaci hry Červíci"
+
+#~ msgid ""
+#~ "Nibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Hra Červíci nemůže načíst soubor úrovně:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Zkontrolujte prosím svou instalaci hry Červíci"
+
+#~ msgid ""
+#~ "Level file appears to be damaged:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Soubor úrovně se jeví jako poškozený:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Zkontrolujte prosím svou instalaci hry Červíci"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Skóre Červíků"
+
+#~ msgid "Speed:"
+#~ msgstr "Rychlost:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Gratuluji!"
+
+#~ msgid "Your score is the best!"
+#~ msgstr "Vaše skóre je nejlepší!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Vaše skóre se dostalo mezi deset nejlepších."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Vést červa v bludišti"
+
+#~ msgid "Nibbles"
+#~ msgstr "Červíci"
+
+#~ msgid "Gnibbles"
+#~ msgstr "Gnibbles"
+
+#~ msgid "Gnibbles is a worms game for GNOME."
+#~ msgstr "Gnibbles je hra s červem pro GNOME."
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Barva, kterou použít pro červa"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Barva, kterou použít pro červa."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Povolit falešné bonusy"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Povolit falešné bonusy."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Povolit zvuky"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Povolit zvuky."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Počáteční úroveň hry"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Počáteční úroveň hry."
+
+#~ msgid "Game speed"
+#~ msgstr "Rychlost hry"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Rychlost hry (1=rychlá, 4=pomalá)."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Klávesa, kterou použít pro pohyb dolů."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Klávesa, kterou použít pro pohyb doleva."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Klávesa, kterou použít pro pohyb doprava."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Klávesa, kterou použít pro pohyb nahoru."
+
+#~ msgid "Move up"
+#~ msgstr "Posunout nahoru"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Počet počítačových hráčů"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Počet počítačových hráčů."
+
+#~ msgid "Number of human players"
+#~ msgstr "Počet lidských hráčů"
+
+#~ msgid "Number of human players."
+#~ msgstr "Počet hráčů."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Hrát úrovně v náhodném pořadí"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Hrát úrovně v náhodném pořadí."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Velikost dlaždic hry"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Velikost dlaždic hry."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Používat relativní pohyb"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Použít relativní pohyb (tj. jen doleva nebo doprava)."
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner"
+#~ msgstr "Začátečník"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "Pomalá"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "Střední"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "Rychlá"
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Začátečník s červíkem"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow with Fakes"
+#~ msgstr "Pomalý červík"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium with Fakes"
+#~ msgstr "Rychlý červík"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast with Fakes"
+#~ msgstr "Velmi rychlý červík"
+
+#~ msgid ""
+#~ "A worm game for GNOME.\n"
+#~ "\n"
+#~ "Nibbles is a part of GNOME Games."
+#~ msgstr ""
+#~ "Hra s červem pro GNOME.\n"
+#~ "\n"
+#~ "Červíci jsou součástí her GNOME."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Hra skončila! Hru vyhrál %s!"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Hra s červem pro GNOME."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Nastavení Červíků"
+
+#~ msgid "Speed"
+#~ msgstr "Rychlost"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Nováček v Červících"
+
+#~ msgid "My second day"
+#~ msgstr "Můj druhý den"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Ne moc špatný"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Tak dobrý, že má křeč v prstech"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_Hrát úrovně v náhodném pořadí"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "Povolit _falešné bonusy"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "Počet lidských _hráčů:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "_Počet počítačových hráčů:"
+
+#~ msgid "Worm"
+#~ msgstr "Červ"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "Používat _relativní pohyb"
+
+#~ msgid "_Worm color:"
+#~ msgstr "Barva č_erva:"
+
+#~ msgid "Green"
+#~ msgstr "Zelená"
+
+#~ msgid "Cyan"
+#~ msgstr "Modrozelená"
+
+#~ msgid "Purple"
+#~ msgstr "Purpurová"
+
+#~ msgid "Gray"
+#~ msgstr "Šedá"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Červ %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Konec hry!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr ""
+#~ "Dobrá práce, ale vaše skóre se bohužel nedostalo mezi deset nejlepších."
+
+#~ msgid "Robots Scores"
+#~ msgstr "Skóre Robotů"
+
+#~ msgid "Map:"
+#~ msgstr "Mapa:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Blahopřeji, porazili jste roboty!! \n"
+#~ "Povede se vám to znovu?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Nezbývá žádné umístění teleportu!!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Neexistují bezpečná umístění, kam se teleportovat!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Nastavit scénář hry"
+
+#~ msgid "Set game configuration"
+#~ msgstr "Nastavit konfiguraci hry"
+
+#~ msgid "Initial window position"
+#~ msgstr "Počáteční poloha okna"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "Klasičtí roboti"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Klasičtí roboti s bezpečnými pohyby"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Klasičtí roboti se super-bezpečnými pohyby"
+
+#~ msgid "Nightmare"
+#~ msgstr "Noční můra"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Noční můra s bezpečnými pohyby"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Noční můra se super-bezpečnými pohyby"
+
+#~ msgid "Robots2"
+#~ msgstr "Roboti2"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Roboti2 s bezpečnými pohyby"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Roboti2 se super-bezpečnými pohyby"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "Roboti2 snadní"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Roboti2 snadní s bezpečnými pohyby"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Roboti2 snadní se super-bezpečnými pohyby"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "Roboti s bezpečným teleportem"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "Roboti s bezpečným teleportem a bezpečnými pohyby"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "Roboti s bezpečným teleportem se super-bezpečnými pohyby"
+
+#~ msgid "Robots"
+#~ msgstr "Roboti"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Nebyla nalezena data hry."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Program Robots nemohl najít platné soubory nastavení hry. Zkontrolujte "
+#~ "prosím, zda je program správně nainstalován."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Některé soubory grafiky chybí nebo jsou poškozeny."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Program Robots nemohl načíst všechny potřebné soubory s grafikou. "
+#~ "Zkontrolujte prosím, zda je program správně nainstalován."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Unikat robotům a nechat je navzájem do sebe narážet"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Povolit zvuky hry"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr "Povolit zvuky hry. Přehrávat zvuky pro různé události ve hře."
+
+#~ msgid "Enable splats"
+#~ msgstr "Povolit rozmáčknutí"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr ""
+#~ "Povolit rozmáčknutí. Přehraje zvuk a zobrazí na obrazovce \"Rozmáčknut!\"."
+
+#~ msgid "Game type"
+#~ msgstr "Typ hry"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Typ hry. Název varianty hry, kterou používat."
+
+#~ msgid "Key to hold"
+#~ msgstr "Klávesa pro stání"
+
+#~ msgid "Key to move E"
+#~ msgstr "Klávesa pro pohyb doprava"
+
+#~ msgid "Key to move N"
+#~ msgstr "Klávesa pro pohyb nahoru"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Klávesa pro pohyb doprava nahoru"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Klávesa pro pohyb doleva nahoru"
+
+#~ msgid "Key to move S"
+#~ msgstr "Klávesa pro pohyb dolů"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Klávesa pro pohyb doprava dolů"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Klávesa pro pohyb doleva dolů"
+
+#~ msgid "Key to move W"
+#~ msgstr "Klávesa pro pohyb doleva"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Klávesa pro teleport"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Klávesa pro náhodný teleport"
+
+#~ msgid "Key to wait"
+#~ msgstr "Klávesa pro čekání"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Motiv obrázků robotů"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "Motiv obrázku robotů. Motiv obrázků, které používat pro roboty."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "Zobrazovat lištu nástrojů. Standardní možnost lišt nástrojů."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro stání. Název je standardní název klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb doprava. Název je standardní název "
+#~ "klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb doprava nahoru. Název je standardní "
+#~ "název klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb doleva nahoru. Název je standardní "
+#~ "název klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb nahoru. Název je standardní název "
+#~ "klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb doprava dolů. Název je standardní název "
+#~ "klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb doleva dolů. Název je standardní název "
+#~ "klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb dolů. Název je standardní název klávesy "
+#~ "v X."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro pohyb doleva. Název je standardní název "
+#~ "klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro náhodný teleport. Název je standardní název "
+#~ "klávesy v X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro bezpečný teleport (pokud je to možné). Název "
+#~ "je standardní název klávesy v X."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "Název klávesy používané pro čekání. Název je standardní název klávesy v X."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Používat bezpečné pohyby"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Používat bezpečné pohyby. Možnost bezpečných pohybů vám pomůže zabránit "
+#~ "smrti omylem. Pokud se pokusíte provést tah, který by vedl k vaší smrti, "
+#~ "a existuje bezpečný tah, nebude vám dovoleno pokračovat."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Používat super-bezpečné pohyby"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Používat superbezpečné tahy. Hráč je upozorněn, když neexistuje bezpečný "
+#~ "tah a jediná možnost je teleportovat se pryč."
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Nelze nalézt soubor s bitmapou '%s'\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Posunout"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Teleport"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Teleportovat se, pokud možno bezpečně"
+
+#~ msgid "_Random"
+#~ msgstr "_Náhodně"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Náhodně se teleportovat"
+
+#~ msgid "_Wait"
+#~ msgstr "Č_ekat"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Čekat na roboty"
+
+#~ msgid ""
+#~ "Based on classic BSD Robots.\n"
+#~ "\n"
+#~ "Robots is a part of GNOME Games."
+#~ msgstr ""
+#~ "Založeno na klasických BSD Robotech.\n"
+#~ "\n"
+#~ "Roboti jsou součástí her GNOME."
+
+#~ msgid "classic robots"
+#~ msgstr "klasičtí roboti"
+
+#~ msgid "robots2"
+#~ msgstr "roboti2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "roboti2 snadní"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "roboti s bezpečným teleportem"
+
+#~ msgid "nightmare"
+#~ msgstr "noční můra"
+
+#~ msgid "robots"
+#~ msgstr "roboti"
+
+#~ msgid "cows"
+#~ msgstr "krávy"
+
+#~ msgid "eggs"
+#~ msgstr "vejce"
+
+#~ msgid "gnomes"
+#~ msgstr "trpaslíci"
+
+#~ msgid "mice"
+#~ msgstr "myši"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Nastavení Robots"
+
+#~ msgid "Game Type"
+#~ msgstr "Typ hry"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "Používat _bezpečné pohyby"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Bránit náhodným tahům, které způsobí smrt."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "Používat _super-bezpečné pohyby"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Bránit všem tahům, které způsobí smrt."
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "Přehrávat zvuky pro události jako výhra úrovně a smrt."
+
+#~ msgid "E_nable splats"
+#~ msgstr "Povolit _rozmáčknutí"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "Přehrávat nejčastější a potenciálně nejvíce otravný zvuk."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Motiv grafiky"
+
+#~ msgid "_Image theme:"
+#~ msgstr "Motiv _obrázků:"
+
+#~ msgid "_Background color:"
+#~ msgstr "Barva _pozadí:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Obnovit implicitní"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klávesnice"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Bezpečné teleporty:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Zbývá:"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "Test your logic skills in this number grid puzzle"
+#~ msgstr "Otestujte své logické schopnosti v této hře"
+
+#~ msgid "<b><i>Details</i></b>"
+#~ msgstr "<b><i>Detaily</i></b>"
+
+#~ msgid "<b><i>Levels of difficulty to print</i></b>"
+#~ msgstr "<b><i>Úrovně obtížnosti k tisku</i></b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Vytisknout hry</span>"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Tisk sudoku"
+
+#~ msgid "_Easy"
+#~ msgstr "J_ednoduché"
+
+#~ msgid "_Hard"
+#~ msgstr "Těž_ké"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "Zahrnout do seznamu her k vytištění i hry, které jste j_iž hráli"
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "O_značit hry za odehrané, pokud jsou vytištěny."
+
+#~ msgid "_Medium"
+#~ msgstr "_Střední"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "_Počet tisknutých sudoku: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "Počet sudoku na _stránce: "
+
+#~ msgid "_Very Hard"
+#~ msgstr "_Velmi těžké"
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Počet hádanek</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Jednoduché:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Těžké:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Střední:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Velmi těžké:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Generátor skládaček</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Kritéria:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Pravidla generátoru"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Generovat nové hádanky, dok_ud není zastaven"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Gene_rovat dokud není dosažen cíl"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Generátor hádanek"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "_Cílový počet Sudoku:"
+
+#~ msgid "_Generate"
+#~ msgstr "_Generovat"
+
+#~ msgid "<b><span size=\"large\">_New Game</span></b>"
+#~ msgstr "<b><span size=\"large\">_Nová hra</span></b>"
+
+#~ msgid "<b><span size=\"large\">_Saved Games</span></b>"
+#~ msgstr "<b><span size=\"large\">_Uložené hry</span></b>"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Vyčistit _ostatní"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "Přid_at sledování"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_Vymazat sledování"
+
+#~ msgid "_Trackers"
+#~ msgstr "Sledování _tahů"
+
+#~ msgid "Sudoku incorrectly installed"
+#~ msgstr "Sudoku není správně nainstalováno"
+
+#~ msgid ""
+#~ "Sudoku is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Nelze spustit sudoku, protože vyžadované soubory aplikace nejsou "
+#~ "nainstalovány. Aktualizujete-li právě svůj systém, vyčkejte prosím "
+#~ "dokončení aktualizace."
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player. Sudoku is a "
+#~ "japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Sudoku je jednoduchý program pro generování a hraní sudoku. Sudoku "
+#~ "je japonská logická hra.\n"
+#~ "\n"
+#~ "GNOME Sudoku je součástí her GNOME."
+
+#~ msgid "No Space"
+#~ msgstr "Žádný prostor"
+
+#~ msgid "No space left on disk"
+#~ msgstr "Nedostatek místa na disku"
+
+#~ msgid "Sudoku is unable to created data folder %(path)s."
+#~ msgstr "Sudoku nemůže vytvořit adresář %(path)s."
+
+#~ msgid "There is no disk space left!"
+#~ msgstr "Nedostatek místa na disku!"
+
+#~ msgid "Sudoku was unable to create data folder %(path)s."
+#~ msgstr "Sudoku nemohlo vytvořit adresář %(path)s."
+
+#~ msgid "Error %(errno)s: %(error)s"
+#~ msgstr "Chyba %(errno)s: %(error)s"
+
+#~ msgid "Sudoku unable to save game."
+#~ msgstr "Sudoku nemůže uložit hru."
+
+#~ msgid "Unable to save file %(filename)s."
+#~ msgstr "Nelze uložit soubor %(filename)s."
+
+#~ msgid "Sudoku unable to mark game as finished."
+#~ msgstr "Sudoku nemůže označit hru za vyřešenou."
+
+#~ msgid "Track moves"
+#~ msgstr "Sledovat tahy"
+
+#~ msgid "Full Screen"
+#~ msgstr "Celá obrazovka"
+
+#~ msgid "New game"
+#~ msgstr "Nová hra"
+
+#~ msgid "Print current game"
+#~ msgstr "Vytisknout aktuální hru"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "Vytisknout ví_ce Sudoku"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Vytisknout více sudoku najednou."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "Zavřít Sudoku"
+
+#~ msgid "_Tools"
+#~ msgstr "_Nástroje"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Zobrazí, která čísla patří do aktuálního čtverce."
+
+#~ msgid "_Fill"
+#~ msgstr "V_yplnit"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Automaticky vyplní aktuální čtverec, pokud je to možné."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "Vy_plní všechny čtverce"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Automaticky vyplní všechny čtverce, u kterých je pouze jedna platná "
+#~ "hodnota."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "_Statistiky hlavolamu"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Zobrazí statistiku aktuální hry"
+
+#~ msgid "_Always show hint"
+#~ msgstr "Vždy zobr_azovat nápovědu"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Vždy zobrazovat možná čísla ve čtverci"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "Va_rovat před nevyplnitelnými poli"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "Varovat před poli, která se tahem stanou nevyplnitelná"
+
+#~ msgid "_Track additions"
+#~ msgstr "Sledova_t tahy"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "Označit nové přídavky vlastní barvou, takže je můžete sledovat."
+
+#~ msgid "_Highlighter"
+#~ msgstr "Zvý_razňovat"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Zvýrazní aktuální řadu, sloupec a čtverec"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "_Generovat nové rébusy během hry"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Vytvářet nové hádanky v pozadí při vaší hře. Toto se automaticky "
+#~ "pozastaví, pokud se hra přesune do pozadí."
+
+#~ msgid "_Edit"
+#~ msgstr "_Upravit"
+
+#~ msgid "_Undo"
+#~ msgstr "Tah _zpět"
+
+#~ msgid "Undo last action"
+#~ msgstr "Vrátit poslední tah"
+
+#~ msgid "_Redo"
+#~ msgstr "Zrušit v_rácení"
+
+#~ msgid "Redo last action"
+#~ msgstr "Zrušit vrácení posledního tahu"
+
+#~ msgid "_Clear"
+#~ msgstr "Vy_mazat"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Vymaže čísla, která jste doplnili"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "Vymazat poz_námky"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Vymaže poznámky a nápovědu"
+
+#~ msgid "No Tracker"
+#~ msgstr "Žádné sledování"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "G_enerovat nové hry"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Generuje nové hry."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Otevírá se vlastní rozložení..."
+
+#~ msgid "_Play game"
+#~ msgstr "_Hrát"
+
+#~ msgid "You completed the puzzle in %(totalTime)s (%(activeTime)s active)"
+#~ msgstr "Splnili jste hádanku za %(totalTime)s (%(activeTime)s aktivní)"
+
+#~ msgid "You got %(n)s hint"
+#~ msgid_plural "You got %(n)s hints"
+#~ msgstr[0] "Máte %(n)s nápovědu"
+#~ msgstr[1] "Máte %(n)s nápovědy"
+#~ msgstr[2] "Máte %(n)s nápověd"
+
+#~ msgid "You had %(n)s impossibility pointed out."
+#~ msgid_plural "You had %(n)s impossibilities pointed out."
+#~ msgstr[0] "Byli jste upozorněni na %(n)s nemožné řešení."
+#~ msgstr[1] "Byli jste upozorněni na %(n)s nemožná řešení."
+#~ msgstr[2] "Byli jste upozorněni na %(n)s nemožných řešení."
+
+#~ msgid "You used the auto-fill %(n)s time"
+#~ msgid_plural "You used the auto-fill %(n)s times"
+#~ msgstr[0] "Použili jste %(n)sx automatické vyplňování"
+#~ msgstr[1] "Použili jste %(n)sx automatická vyplňování"
+#~ msgstr[2] "Použili jste %(n)sx automatických vyplňování"
+
+#~ msgid "Save this game before starting new one?"
+#~ msgstr "Uložit tuto hru před spuštěním nové?"
+
+#~ msgid "_Save game for later"
+#~ msgstr "_Uložit hru na později"
+
+#~ msgid "_Abandon game"
+#~ msgstr "U_končit hru"
+
+#~ msgid "Playing %(difficulty)s puzzle."
+#~ msgstr "Hrajete skládačku s obtížností %(difficulty)s."
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Informace o hlavolamu"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Žádný aktuální hlavolam."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Vypočítaná obtížnost: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Počet tahů okamžitě vyřešitelných díky eliminaci: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Počet tahů okamžitě vyřešitelných díky vyplňování: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Počet vyžadovaných špatných pokusů k vyřešení: "
+
+#~ msgid "Puzzle Statistics"
+#~ msgstr "Statistiky hlavolamu"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "Vymazat všechny tahy uložené ve zvoleném sledování."
+
+#~ msgid "_Clear Others"
+#~ msgstr "Vymazat _ostatní"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "Vymazat všechny tahy uložené v jiném než zvoleném sledování."
+
+#~ msgid "Tracker %s"
+#~ msgstr "Sledování %s"
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Vytisknout sudoku"
+#~ msgstr[1] "Vytisknout sudoku"
+#~ msgstr[2] "Vytisknout sudoku"
+
+#~ msgid "Print Preview"
+#~ msgstr "Náhled před tiskem"
+
+#~ msgid "Last Played %(timeAgo)s"
+#~ msgstr "Naposledy hrané %(timeAgo)s"
+
+#~ msgid "%(level)s puzzle"
+#~ msgstr "%(level)s skládačka"
+
+#~ msgid "Played for %(duration)s"
+#~ msgstr "Odehráno %(duration)s"
+
+#~ msgid "Working..."
+#~ msgstr "Pracuje se..."
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s skládačka"
+#~ msgstr[1] "%(n)s skládačky"
+#~ msgstr[2] "%(n)s skládaček"
+
+#~ msgid "Stopped"
+#~ msgstr "Zastaveno"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "Vytvořena %(n)s z celkem %(total)s skládaček"
+#~ msgstr[1] "Vytvořeny %(n)s z celkem %(total)s skládaček"
+#~ msgstr[2] "Vytvořeno %(n)s z celkem %(total)s skládaček"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "Vytvořena %(n)s skládačka"
+#~ msgstr[1] "Vytvořeny %(n)s skládačky"
+#~ msgstr[2] "Vytvořeno %(n)s skládaček"
+
+#~ msgid "Very Hard"
+#~ msgstr "Velmi těžké"
+
+#~ msgid "Medium"
+#~ msgstr "Střední"
+
+#~ msgid "_Stop"
+#~ msgstr "_Zastavit"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Jste si jisti?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Výzvu už nezobrazovat."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s rok"
+#~ msgstr[1] "%(n)s roky"
+#~ msgstr[2] "%(n)s let"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s měsíc"
+#~ msgstr[1] "%(n)s měsíce"
+#~ msgstr[2] "%(n)s měsíců"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s týden"
+#~ msgstr[1] "%(n)s týdny"
+#~ msgstr[2] "%(n)s týdnů"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s den"
+#~ msgstr[1] "%(n)s dny"
+#~ msgstr[2] "%(n)s dnů"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s hodina"
+#~ msgstr[1] "%(n)s hodiny"
+#~ msgstr[2] "%(n)s hodin"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s minuta"
+#~ msgstr[1] "%(n)s minuty"
+#~ msgstr[2] "%(n)s minut"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s sekunda"
+#~ msgstr[1] "%(n)s sekundy"
+#~ msgstr[2] "%(n)s sekund"
+
+#~ msgid " and "
+#~ msgstr " a "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Today %R %p"
+#~ msgstr "Dnes, %R"
+
+#~ msgid "Yesterday %R %p"
+#~ msgstr "Včera, %R"
+
+#~ msgid "%A %H:%M"
+#~ msgstr "%A, %H:%M"
+
+#~ msgid "%A %B %d %R %p"
+#~ msgstr "%A, %e. %B, %R"
+
+#~ msgid "%(n)s minute ago"
+#~ msgid_plural "%(n)s minutes ago"
+#~ msgstr[0] "před %(n)s minutou"
+#~ msgstr[1] "před %(n)s minutami"
+#~ msgstr[2] "před %(n)s minutami"
+
+#~ msgid "%(n)s second ago"
+#~ msgid_plural "%(n)s seconds ago"
+#~ msgstr[0] "před %(n)s sekundou"
+#~ msgstr[1] "před %(n)s sekundami"
+#~ msgstr[2] "před %(n)s sekundami"
+
+#~ msgid "at %I:%M %p"
+#~ msgstr "v %H:%M"
+
+#~ msgid "yesterday at %I:%M %p"
+#~ msgstr "včera v %H:%M"
+
+#~ msgid "%A %I:%M %p"
+#~ msgstr "%A, %H:%M"
+
+#~ msgid "%B%e"
+#~ msgstr "%B%e"
+
+#~ msgid "Mines"
+#~ msgstr "Miny"
+
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "Vlastní"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Vlaječek: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Miny byly vyčištěny!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "Skóre min"
+
+#~ msgid "Size:"
+#~ msgstr "Velikost:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Klikněte na libovolné pole"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Možná jsou to všechno miny ..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Změna velikosti a podpora SVG:"
+
+#~ msgid "Faces:"
+#~ msgstr "Tváře:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafika:"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered.\n"
+#~ "\n"
+#~ "Mines is a part of GNOME Games."
+#~ msgstr ""
+#~ "Oblíbená logická hra hledač min. Odstraňte miny z hrací desky pomocí "
+#~ "informací na již odkrytých polích.\n"
+#~ "\n"
+#~ "Mines je součástí her GNOME."
+
+#~ msgid "Field Size"
+#~ msgstr "Velikost pole"
+
+#~ msgid "Custom Size"
+#~ msgstr "Vlastní velikost"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_Počet min:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Vodorovně:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Svisle:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "Používat vlaječky \"_Nejsem si jist(á)\""
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "Po_užít varování 'Příliš mnoho vlaječek'"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Nastavení min"
+
+#~ msgid "Width of grid"
+#~ msgstr "Šířka mřížky"
+
+#~ msgid "Height of grid"
+#~ msgstr "Výška mřížky"
+
+#~ msgid "Number of mines"
+#~ msgstr "Počet min"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Velikost desky (0-2 = malá-velká, 3=vlastní)"
+
+#~ msgid "X location of window"
+#~ msgstr "Umístění X okna"
+
+#~ msgid "Y location of window"
+#~ msgstr "Umístění Y okna"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Pokračujte stisknutím"
+
+#~ msgid "Time: "
+#~ msgstr "Čas: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Vyčistit skryté miny z minového pole"
+
+#~ msgid "Board size"
+#~ msgstr "Velikost desky"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Povolení automatického umísťování vlaječek"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Počet sloupců ve vlastní hře"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Počet řádek ve vlastní hře"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "Nastavte na \"true\", abyste mohli označovat pole jako neznámé."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Nastavte na \"true\" k povolení zobrazení varování, pokud je umístěno "
+#~ "příliš mnoho vlaječek."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Nastavte na pravda (true), chcete-li, aby program automaticky umisťoval "
+#~ "vlajky na políčka s minami, je-li dostatek okolních políček odkryto"
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Počet min ve vlastní hře"
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Používat vlaječku neznámého"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Varování, když máte příliš mnoho vlaječek"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Nemohu najít požadované obrázky.\n"
+#~ "\n"
+#~ "Zkontrolujte prosím vaši instalaci gnome-games."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Požadované obrázky byly nalezeny, ale nelze je načíst.\n"
+#~ "\n"
+#~ "Zkontrolujte prosím vaši instalaci gnome-games a jejich závislostí."
+
+#~ msgid "Could not load images"
+#~ msgstr "Nemohu načíst obrázky"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "_Velikost"
+
+#~ msgid "Sol_ve"
+#~ msgstr "_Vyřešit"
+
+#~ msgid "Solve the game"
+#~ msgstr "Vyřešit hru"
+
+#~ msgid "_Up"
+#~ msgstr "Na_horu"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Posunout kousky nahoru"
+
+#~ msgid "_Left"
+#~ msgstr "Do_leva"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Posunout kousky doleva"
+
+#~ msgid "_Right"
+#~ msgstr "Do_prava"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Posunout kousky doprava"
+
+#~ msgid "_Down"
+#~ msgstr "_Dolů"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Posunout kousky dolů"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Hrát na desce o rozměrech 2×2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Hrát na desce o rozměrech 3×3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Hrát na desce o rozměrech 4×4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Hrát na desce o rozměrech 5×5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Hrát na desce o rozměrech 6×6"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "Barevné _kameny"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Velikost desky (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "VELIKOST"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Hlavolam vyřešen! Výborně!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Hlavolam vyřešen!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Tetravex skóre"
+
+#~ msgid "Game paused"
+#~ msgstr "Hra pozastavena"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Hraje se na desce %d×%d"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other.\n"
+#~ "\n"
+#~ "Tetravex is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Tetravex je jednoduchý hlavolam, ve kterém je nutno dílky uspořádat "
+#~ "tak, aby se dotýkaly stejnými čísly.\n"
+#~ "\n"
+#~ "Tetravex je součást Her pro GNOME."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Vyřešte skládačku spojováním očíslovaných dlaždic"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "Přepínač povolující zbarvené dlaždice."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Kontrolovat zbarvené kameny"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Zvolte, jestli kameny přetahovat nebo kliknout na zdroj a pak na cíl."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Velikost hracího pole"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Hodnota tohoto klíče se používá pro určení velikosti hracího pole. Platné "
+#~ "hodnoty jsou od 2 do 8, cokoli jiného způsobí nastavení na 3."
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Only 18 steps"
+#~ msgstr "Jen 18 kroků"
+
+#~ msgid "Daisy"
+#~ msgstr "Sedmikráska"
+
+#~ msgid "Violet"
+#~ msgstr "Fialka"
+
+#~ msgid "Poppy"
+#~ msgstr "Poppy"
+
+#~ msgid "Pansy"
+#~ msgstr "Pansy"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Sněhová vločka"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Červený osel"
+
+#~ msgid "Trail"
+#~ msgstr "Stopa"
+
+#~ msgid "Ambush"
+#~ msgstr "Léčka"
+
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+#~ msgid "Success"
+#~ msgstr "Úspěch"
+
+#~ msgid "Bone"
+#~ msgstr "Kost"
+
+#~ msgid "Fortune"
+#~ msgstr "Štěstí"
+
+#~ msgid "Fool"
+#~ msgstr "Hlupák"
+
+#~ msgid "Solomon"
+#~ msgstr "Šalomoun"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Kleopatra"
+
+#~ msgid "Shark"
+#~ msgstr "Žralok"
+
+#~ msgid "Rome"
+#~ msgstr "Řím"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Pennant Puzzle"
+
+#~ msgid "Ithaca"
+#~ msgstr "Ithaca"
+
+#~ msgid "Pelopones"
+#~ msgstr "Peloponés"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transeuropa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Polonéza"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Baltské moře"
+
+#~ msgid "American Pie"
+#~ msgstr "American Pie"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Dopravní zácpa"
+
+#~ msgid "Sunshine"
+#~ msgstr "Sluneční svit"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "Jen 18 kroků"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "Stezka HuaRong"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Sbírka výzev"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Sbírka dovedností"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Restartovat hádanku"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Následující hádanka"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Předchozí hádanka"
+
+#~ msgid "Level completed."
+#~ msgstr "Úroveň dokončena."
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Hlavolam byl vyřešen!"
+
+#~ msgid "Klotski Scores"
+#~ msgstr "Skóre hry Klotski"
+
+#~ msgid "Puzzle:"
+#~ msgstr "Hlavolam:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Motiv pro tuto hru se nepodařilo nakreslit.\n"
+#~ "\n"
+#~ "Zkontrolujte prosím, že je Klotski správně nainstalována."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Nemohu najít obrázek:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Zkontrolujte prosím, že je Klotski správně nainstalována."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Tahů: %d"
+
+#~ msgid ""
+#~ "Sliding Block Puzzles\n"
+#~ "\n"
+#~ "Klotski is a part of GNOME Games."
+#~ msgstr ""
+#~ "Hádanky s posouváním kamenů\n"
+#~ "\n"
+#~ "Klotski je součástí her GNOME."
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Posunujte kameny pro vyřešení hádanky"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Číslo hrané hádanky."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Hraná hádanka"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Už se používá! Kam to chcete dát?"
+
+#~ msgid "Score: %d"
+#~ msgstr "Skóre: %d"
+
+#~ msgid "Field used"
+#~ msgstr "Pole používáno"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Hrajte hru s kostkami ve stylu pokeru"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Vyberte, jestli vkládat zpoždění mezi hody počítače, aby mohl hráč "
+#~ "sledovat, co počítač dělá."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Prodleva mezi hody"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Zobrazovat myšlenky počítače"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Je-li nastaveno na true, bude na standardní výstup vypisována práce AI."
+
+#~ msgid "Regular"
+#~ msgstr "Normální"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Člověk,Josef,Pavel,Anna,Eva,Jana]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Zdržet tahy počítače"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Zobrazit myšlenky počítače"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Počet počítačových protivníků"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Počet lidských protivníků"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Volba hry: Normální nebo Barvy"
+
+#~ msgid "STRING"
+#~ msgstr "ŘETĚZEC"
+
+#~ msgid "Number of computer-only games to play"
+#~ msgstr "Počet čistě počítačových her k hraní"
+
+#~ msgid "Number of trials for each roll for the computer"
+#~ msgstr "Počet pokusů pro každý hod pro počítač"
+
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "Normální"
+
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "Barevná"
+
+#~ msgid "Roll all!"
+#~ msgstr "Házet všemi!"
+
+#~ msgid "Roll!"
+#~ msgstr "Házet!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Hra skončila nerozhodně!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "Skóre"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s vyhrává hru s %d bodem"
+#~ msgstr[1] "%s vyhrává hru s %d body"
+#~ msgstr[2] "%s vyhrává hru s %d body"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Počítač hraje pro %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Jste na řadě."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Vyberte kostku, kterou chcete házet, nebo vyberte místo s body."
+
+#~ msgid "Roll"
+#~ msgstr "Házet"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Máte povoleny pouze tři hody. Vyberte oddíl s body."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Verze pro GNOME (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Verze pro konzolu (1992):"
+
+#~ msgid "Colors game and multi-level AI (2006):"
+#~ msgstr "Barevná hra a víceúrovňová AI (2006):"
+
+#~ msgid ""
+#~ "A variation on poker with dice and less money.\n"
+#~ "\n"
+#~ "Tali is a part of GNOME Games."
+#~ msgstr ""
+#~ "Variace na poker s kostkami a méně penězi.\n"
+#~ "\n"
+#~ "Tali je součástí her GNOME."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "Současná hra bude dokončena s původním počtem hráčů."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Nastavení Tali"
+
+#~ msgid "Human Players"
+#~ msgstr "Lidští hráči"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Počet hráčů:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Počítačoví protivníci"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_Prodleva mezi hody"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "Počet _protivníků:"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "_Obtížnost:"
+
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "Jednoduché"
+
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "Střední"
+
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "Těžké"
+
+#~ msgid "Player Names"
+#~ msgstr "Jména hráčů"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "jedničky [celkem jedniček]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "dvojky [celkem dvojek]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "trojky [celkem trojek]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "čtyřky [celkem čtyřek]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "pětky [celkem pětek]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "šestky [celkem šestek]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "Trojice [celkem]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "Čtveřice [celkem]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Full House [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Malá postupka [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Velká postupka [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "Pětice [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Šance [celkem]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Nižší součet"
+
+#~ msgid "Grand Total"
+#~ msgstr "Celkový součet"
+
+#~ msgid "Upper total"
+#~ msgstr "Vyšší součet"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bonus pokud >62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 páry stejné barvy [celkem]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Full House [15 + celkem]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Full House stejné barvy [20 + celkem]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Flush (všechny stejné barvy) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "Čtveřice [25 + celkem]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "Pětice [50 + celkem]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Zvolte místo s body."
+
+#~ msgid "5 of a Kind [total]"
+#~ msgstr "Pětice [celkem]"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid ""
+#~ "A disk flipping game derived from Reversi.\n"
+#~ "\n"
+#~ "Iagno is a part of GNOME Games."
+#~ msgstr ""
+#~ "Hra s převracením kamenů odvozená z Reversi.\n"
+#~ "\n"
+#~ "Iagno je součástí her GNOME."
+
+#~ msgid "Invalid move."
+#~ msgstr "Neplatný tah."
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Jste na tahu, umístěte černý kámen"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Jste na tahu, umístěte bílý kámen"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Čekejte, až %s dokončí svůj tah"
+
+#~ msgid "Dark's move"
+#~ msgstr "Tah černého"
+
+#~ msgid "Light's move"
+#~ msgstr "Tah bílého"
+
+#~ msgid "Dark:"
+#~ msgstr "Černý:"
+
+#~ msgid "Light:"
+#~ msgstr "Bílý:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Vítejte ve hře Iagno!"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Ovládněte desku v klasické verzi hry Reversi"
+
+#~ msgid ""
+#~ "The GNOME version of Reversi. The goal is to control the most disks on "
+#~ "the board."
+#~ msgstr "Verze hry Reversi pro GNOME. Cílem je ovládnout co nejvíce kamenů."
+
+#~ msgid "Light player wins!"
+#~ msgstr "Bílý hráč vyhrává!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Černý hráč vyhrává!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Hra skončila nerozhodně."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Bílý musí vynechat, černý táhne"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Černý musí vynechat, bílý táhne"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Nastavení Iagno"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "Používat _rychlé tahy"
+
+#~ msgid "Animation"
+#~ msgstr "Animace"
+
+#~ msgid "Partial"
+#~ msgstr "Částečná"
+
+#~ msgid "Complete"
+#~ msgstr "Úplná"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "_Rovnoměrné otáčení"
+
+#~ msgid "S_how grid"
+#~ msgstr "Zobrazit _mřížku"
+
+#~ msgid "_Flip final results"
+#~ msgstr "_Převrátit konečné výsledky"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_Sada kamenů:"
+
+#~ msgctxt "card symbol"
+#~ msgid "JOKER"
+#~ msgstr "JOKER"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Card Style"
+#~ msgstr "Styl karet"
+
+#~ msgid "_Deal"
+#~ msgstr "_Rozdat"
+
+#~ msgid "_About"
+#~ msgstr "O _aplikaci"
+
+#~ msgid "_Cancel"
+#~ msgstr "Z_rušit"
+
+#~ msgid "_Close"
+#~ msgstr "_Zavřít"
+
+#~ msgid "_OK"
+#~ msgstr "_Budiž"
+
+#~ msgid "Lights Off"
+#~ msgstr "Zhasněte světla"
+
+#~ msgid "Turn off all the lights"
+#~ msgstr "Zhasněte všechna světla"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Zvolený motiv se nepodařilo nakreslit\n"
+#~ "\n"
+#~ "Zkontrolujte prosím, že je Mahjongg správně nainstalován."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Nemohu vykreslit soubor:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Zkontrolujte prosím, že je Mahjongg správně nainstalován."
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Nemohu načíst sadu kamenů"
+
+#~ msgid "Do you want to start a new game with this map?"
+#~ msgstr "Chcete začít novou hru s touto mapou?"
+
+#~ msgid "If you continue playing the next game will use the new map."
+#~ msgstr ""
+#~ "Pokud chcete pokračovat ve hře, nová mapa bude použita až na další hru."
+
+#~ msgid "_Continue playing"
+#~ msgstr "_Pokračovat ve hře"
+
+#~ msgid "Use _new map"
+#~ msgstr "Použít _novou mapu"
+
+#~ msgid "There are no more moves."
+#~ msgstr "Nejsou možné žádné další tahy."
+
+#~ msgid "_New game"
+#~ msgstr "_Nová hra"
+
+#~ msgid "_Shuffle"
+#~ msgstr "_Zamíchat"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Skóre Mahjongg"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Nastavení Mahjongg"
+
+#~ msgid "Tiles"
+#~ msgstr "Kameny"
+
+#~ msgid "Maps"
+#~ msgstr "Mapy"
+
+#~ msgid "_Select map:"
+#~ msgstr "Vybrat _mapu:"
+
+#~ msgid "Colors"
+#~ msgstr "Barvy"
+
+#~ msgid "Maps:"
+#~ msgstr "Mapy:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Kameny:"
+
+#~ msgid ""
+#~ "A matching game played with Mahjongg tiles.\n"
+#~ "\n"
+#~ "Mahjongg is a part of GNOME Games."
+#~ msgstr ""
+#~ "Párovací hra hraná s kameny Mahjongg.\n"
+#~ "\n"
+#~ "Mahjongg je součástí her GNOME."
+
+#~ msgid "Mahjongg - %s"
+#~ msgstr "Mahjongg - %s"
+
+#~ msgid "Redo the last move"
+#~ msgstr "Vrátit poslední tah"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Zbývá kamenů:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Zbývá tahů:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Odstranit odpovídající si dvojice kamenů."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Rozložit hromadu kamenů odstraňováním odpovídajících si dvojic"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "Jednoduchá"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "Zikkurat"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "Čtyři mosty"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "Mrak"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Piškvorky"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "Červený drak"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Stěny pyramidy"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "Matoucí kříž"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "Obtížná"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "Bonus 1000 bodů za vyčištění desky!"
+
+#~ msgid "Set the theme"
+#~ msgstr "Nastavit motiv"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "Pro zpětnou kompatibilitu"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Velikost hry (1=malá, 3=velká)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "Vyčisti obrazovku pomocí odstraňování skupin barevných koulí"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Stejný GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Výška vlastní desky"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Nastavení tohoto na FALSE znamená, že kameny padají pomalu, ale vznešeně. "
+#~ "Nastavení na TRUE způsobuje, že kameny padají rychle a trhaně."
+
+#~ msgid "The board size"
+#~ msgstr "Velikost desky"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Název souboru motivu, který používat."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Výška vlastní desky, 101 &gt; výška &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "Velikost desky, kterou používat. 1 = vlastní, 2 = malá 3 = střední 4 = "
+#~ "velká."
+
+#~ msgid "The theme to use"
+#~ msgstr "Motiv, který používat"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Šířka vlastní desky, 101 &gt; šířka &gt; 3."
+
+#~ msgid "Use fast animation"
+#~ msgstr "Používat rychlé animace"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Šířka vlastní desky"
+
+#~ msgid "No points"
+#~ msgstr "Žádné body"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d bod"
+#~ msgstr[1] "%d body"
+#~ msgstr[2] "%d bodů"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!\n"
+#~ "\n"
+#~ "Same GNOME is a part of GNOME Games."
+#~ msgstr ""
+#~ "Chci hrát tu hru! Víte, všechny se točí a vy na ně klikáte a ony mizí!\n"
+#~ "\n"
+#~ "Stejný GNOME je součástí her GNOME."
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Skóre pro Stejný GNOME"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "Vaše skóre se bohužel nedostalo mezi deset nejlepších."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Motiv pro Stejný GNOME"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Motiv..."
+
+#~ msgid "_Small"
+#~ msgstr "_Malá"
+
+#~ msgid "_Large"
+#~ msgstr "_Velká"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "_Rychlé animace"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Nebyla nalezena data motivu."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Nelze hrát hru. Zkontrolujte prosím, že hra byla správně nainstalována, a "
+#~ "zkuste to znovu."
+
+#~ msgid "score|%6d"
+#~ msgstr "%6d"
+
+#~ msgid "and all cards below it"
+#~ msgstr "a všechny karty pod ní"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "prázdné místo (místa)"
+
+#~ msgid "You have been disconnected from the server"
+#~ msgstr "Byli jste odpojeni od serveru"
+
+#~ msgid "glines|Medium"
+#~ msgstr "Střední"
+
+#~ msgid "glines|General"
+#~ msgstr "Obecné"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Střední"
+
+#~ msgid "gnomine|Medium"
+#~ msgstr "Střední"
+
+#~ msgid "List of players:"
+#~ msgstr "Seznam hráčů:"
+
+#~ msgid "Error playing sound: %s\n"
+#~ msgstr "Chyba při přehrávání zvuku: %s\n"
+
+#~ msgid "Error playing sound %s: %s\n"
+#~ msgstr "Chyba při přehrávání zvuku %s: %s\n"
+
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr "Chcete dokončit aktuální hru nebo hned začít hrát s novou mapou?"
+
+#~ msgid "_Finish"
+#~ msgstr "_Dokončit"
+
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "Promiňte, nepodařilo se nalézt hratelné nastavení."
+
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Snadné"
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "Střední"
+
+#~ msgid "Game Name"
+#~ msgstr "Název hry:"
+
+#~ msgid "Summary"
+#~ msgstr "Souhrn"
+
+#~ msgid "Allow remote clients to watch this game"
+#~ msgstr "Povolit vzdálené diváky"
+
+#~ msgid "Local chess game"
+#~ msgstr "Lokální šachová hra"
+
+#~ msgid "_Allow spectators"
+#~ msgstr "Povoli_t diváky"
+
+#~ msgid "Queen"
+#~ msgstr "Dáma"
+
+#~ msgid "Rook"
+#~ msgstr "Věž"
+
+#~ msgid "Bishop"
+#~ msgstr "Střelec"
+
+#~ msgid "pawn"
+#~ msgstr "pěšec"
+
+#~ msgid "rook"
+#~ msgstr "věž"
+
+#~ msgid "knight"
+#~ msgstr "jezdec"
+
+#~ msgid "bishop"
+#~ msgstr "střelec"
+
+#~ msgid "Game start"
+#~ msgstr "Start hry"
+
+#~ msgid "Check"
+#~ msgstr "Šach"
+
+#~ msgid "Checkmate"
+#~ msgstr "Šach mat"
+
+#~ msgid "Stalemate"
+#~ msgstr "Pat"
+
+#~ msgid "a"
+#~ msgstr "a"
+
+#~ msgid "b"
+#~ msgstr "b"
+
+#~ msgid "c"
+#~ msgstr "c"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "e"
+#~ msgstr "e"
+
+#~ msgid "f"
+#~ msgstr "f"
+
+#~ msgid "g"
+#~ msgstr "g"
+
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgid "Debug output:"
+#~ msgstr "Ladicí výstup:"
+
+#~ msgid "Prevent some dangerous moves"
+#~ msgstr "Bránit některým nebezpečným tahům"
+
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "Bránit všem nebezpečným tahům"
+
+#~ msgid "Play sounds for major events"
+#~ msgstr "Přehrávat zvuky pro hlavní události"
+
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "Přehrávat zvuk, když se dva roboti srazí"
+
+#~ msgid "<none>"
+#~ msgstr "<žádný>"
+
+#~ msgid "Net_work Game"
+#~ msgstr "_Síťová hra"
+
+#~ msgid "_Player list"
+#~ msgstr "_Seznam hráčů"
+
+#~ msgid "_Chat Window"
+#~ msgstr "Okno _chatu"
+
+#~ msgid "_Leave Game"
+#~ msgstr "_Opustit hru"
+
+#~ msgid "Black player is unable to cause checkmate (insufficient material)"
+#~ msgstr "Černý hráč nemůže způsobit mat"
+
+#~ msgid "White player is unable to cause checkmate (insufficient material)"
+#~ msgstr "Bílý hráč nemůže způsobit mat"
+
+#~ msgid "at %(time)s"
+#~ msgstr "za %(time)s"
+
+#~ msgid "Block 10"
+#~ msgstr "Block 10"
+
+#~ msgid "Block 10 Pro"
+#~ msgstr "Block 10 Pro"
+
+#~ msgid "Climb 12"
+#~ msgstr "Climb 12"
+
+#~ msgid "Climb 12 Pro"
+#~ msgstr "Climb 12 Pro"
+
+#~ msgid "Climb 15 Winter"
+#~ msgstr "Climb 15 zima"
+
+#~ msgid "Climb 15 Spring"
+#~ msgstr "Climb 15 jaro"
+
+#~ msgid "Climb 15 Summer"
+#~ msgstr "Climb 15 léto"
+
+#~ msgid "Climb 15 Fall"
+#~ msgstr "Climb 15 podzim"
+
+#~ msgid "Climb 24 Pro"
+#~ msgstr "Climb 24 Pro"
+
+#~ msgid "Minoru Climb"
+#~ msgstr "Minoru Climb"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"

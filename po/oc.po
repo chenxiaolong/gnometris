@@ -1,0 +1,2000 @@
+# Translation of oc.po to Occitan
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008.
+# Translation of oc.po to Occitan
+# Occitan gnome-games translation
+# Copyright (C) 2002, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-games package.#
+msgid ""
+msgstr ""
+"Project-Id-Version: oc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2008-03-04 18:49+0100\n"
+"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "En pausa"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Jòc acabat"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "La color de fons"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Bolegar cap a esquèrra"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Bolegar cap a drecha"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Bolegar cap aval"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Pausa"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "NIVÈL"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Simpla"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Marca :"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Linhas :"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Nivèl :"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Jòc"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Paramètres"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Preferéncias de Gnometris"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Jòc"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Configuracion"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr ""
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr ""
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Operacion"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Activar los sons"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Tèma"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Contraròtles"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, fuzzy, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "%s: opcion desconeguda `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_Paramètres"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, fuzzy, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "%s: opcion desconeguda `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr ""
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr "Avètz legida l'ajuda ?"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Ora"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Marca"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%d min %d seg"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Jòc novèl"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Nom"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Visualizar l'ajuda per aqueste jòc"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Visualizar una astúcia pel desplaçament que ven"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Començar una partida novèla"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Visualizar las marcas"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Anullar lo darrièra desplaçament"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "A prepaus del jòc"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "Tampar la fenèstra"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Configurar lo jòc"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Ensenhador"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "Ecran _complet"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Astúcia"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Novèl"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "_Jòc novèl"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "_Tornar far lo desplaçament"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr ""
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "To_rnar lançar"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "_Anullar lo desplaçament"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "Ecran complet"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "_Tièra de jogaires"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Pausa"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "_Contunhar"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Marcas"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "_Fin del jòc"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#~ msgid "Empty"
+#~ msgstr "Void"
+
+#~ msgid "Abandoned"
+#~ msgstr "Abandonat"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Estat"
+
+#~ msgid "Player List"
+#~ msgstr "Tièra de jogaires"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Move here"
+#~ msgstr "Desplaçar aicí"
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Una tièra de cadenas jos la forma d'un quintuplet : nom, victòrias, "
+#~ "partidas jogadas, melhor temps (en segondas) e temps pièger (en segondas "
+#~ "tanben). Las partidas non jogadas an pas mestièr d'èsser representadas."
+
+#~ msgid "Select the style of control"
+#~ msgstr "Seleccionar la mena de contraròtle"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Causir se volètz rossegar las cartas o clicar la sorça puèi la tòca."
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Estadisticas de las partidas jogadas"
+
+#~ msgid "The game file to use"
+#~ msgstr "Lo fichièr de jòc a utilizar"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Lo nom del fichièr que cap los grafismes de las cartas."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Lo nom del fichièr que cap lo jòc de solitari de jogar."
+
+#~ msgid "Theme file name"
+#~ msgstr "Nom del fichièr de tèma"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Indica se cal visualizar o non la barra d'espleches"
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Indica se cal visualizar o non la barra d'espleches."
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Solitari FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Jogatz a Freecell, lo jòc de cartas popular"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "NAME"
+#~ msgstr "NOM"
+
+#~ msgid "NUMBER"
+#~ msgstr "NUMERÒ"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Solitari AisleRiot"
+
+#~ msgid "Unknown color"
+#~ msgstr "Color desconeguda"
+
+#~ msgid "Unknown value"
+#~ msgstr "Valor desconeguda"
+
+#~ msgid "ace"
+#~ msgstr "ase"
+
+#~ msgid "black joker"
+#~ msgstr "joker negre"
+
+#~ msgid "clubs"
+#~ msgstr "flors"
+
+#~ msgid "diamonds"
+#~ msgstr "caires"
+
+#~ msgid "eight"
+#~ msgstr "uèit"
+
+#~ msgid "five"
+#~ msgstr "cinc"
+
+#~ msgid "four"
+#~ msgstr "quatre"
+
+#~ msgid "hearts"
+#~ msgstr "còrs"
+
+#~ msgid "jack"
+#~ msgstr "vailets"
+
+#~ msgid "king"
+#~ msgstr "rei"
+
+#~ msgid "nine"
+#~ msgstr "nòu"
+
+#~ msgid "queen"
+#~ msgstr "reina"
+
+#~ msgid "red joker"
+#~ msgstr "joker roge"
+
+#~ msgid "seven"
+#~ msgstr "sèt"
+
+#~ msgid "six"
+#~ msgstr "sièis"
+
+#~ msgid "spades"
+#~ msgstr "picas"
+
+#~ msgid "ten"
+#~ msgstr "dètz"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "l'ase de flor"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "l'as de caire"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "l'ase de còr"
+
+#~ msgid "the ace of spades"
+#~ msgstr "l'ase de picas"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "l'uèit de flor"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "l'uèit de caire"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "l'uèit de còr"
+
+#~ msgid "the eight of spades"
+#~ msgstr "l'uèit de picas"
+
+#~ msgid "the five of clubs"
+#~ msgstr "lo cinc de flor"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "lo cinc de caire"
+
+#~ msgid "the five of hearts"
+#~ msgstr "lo cinc de còr"
+
+#~ msgid "the five of spades"
+#~ msgstr "lo cinc de picas"
+
+#~ msgid "the four of clubs"
+#~ msgstr "lo cinc de flor"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "lo quatre de caire"
+
+#~ msgid "the four of hearts"
+#~ msgstr "lo quatre de còr"
+
+#~ msgid "the four of spades"
+#~ msgstr "lo quatre de picas"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "lo vailet de flor"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "lo vailet de caire"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "lo vailet de còr"
+
+#~ msgid "the jack of spades"
+#~ msgstr "lo vailet de picas"
+
+#~ msgid "the king of clubs"
+#~ msgstr "lo rei de flor"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "lo rei de caire"
+
+#~ msgid "the king of hearts"
+#~ msgstr "lo rei de còr"
+
+#~ msgid "the king of spades"
+#~ msgstr "lo rei de picas"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "lo nòu de flor"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "lo nòu de caire"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "lo nòu de còr"
+
+#~ msgid "the nine of spades"
+#~ msgstr "lo nòu de picas"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "la reina de flor"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "la reina de caire"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "la reina de còr"
+
+#~ msgid "the queen of spades"
+#~ msgstr "la reina de picas"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "lo sèt de flor"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "lo sèt de caire"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "lo sèt de còr"
+
+#~ msgid "the seven of spades"
+#~ msgstr "lo sèt de picas"
+
+#~ msgid "the six of clubs"
+#~ msgstr "lo sièis de flor"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "lo sièis de caire"
+
+#~ msgid "the six of hearts"
+#~ msgstr "lo sièis de còr"
+
+#~ msgid "the six of spades"
+#~ msgstr "lo sièis de picas"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "lo dètz de flor"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "lo dètz de caire"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "lo dètz de còr"
+
+#~ msgid "the ten of spades"
+#~ msgstr "lo dètz de picas"
+
+#~ msgid "the three of clubs"
+#~ msgstr "lo tres de flor"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "lo tres de caire"
+
+#~ msgid "the three of hearts"
+#~ msgstr "lo tres de còr"
+
+#~ msgid "the three of spades"
+#~ msgstr "lo tres de picas"
+
+#~ msgid "the two of clubs"
+#~ msgstr "lo dos de flor"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "los dos de caire"
+
+#~ msgid "the two of hearts"
+#~ msgstr "lo dos de còr"
+
+#~ msgid "the two of spades"
+#~ msgstr "lo dos de picas"
+
+#~ msgid "the unknown card"
+#~ msgstr "la carta desconeguda"
+
+#~ msgid "three"
+#~ msgstr "tres"
+
+#~ msgid "two"
+#~ msgstr "dos"
+
+#~ msgid "Wins:"
+#~ msgstr "Victòrias :"
+
+#~ msgid "Total:"
+#~ msgstr "Total :"
+
+#~ msgid "Percentage:"
+#~ msgstr "Percentatge :"
+
+#~ msgid "Best:"
+#~ msgstr "Melhor :"
+
+#~ msgid "Worst:"
+#~ msgstr "Pièger :"
+
+#~ msgid "Statistics"
+#~ msgstr "Estadisticas"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "Agnes"
+#~ msgstr "Anhès"
+
+#~ msgid "Athena"
+#~ msgstr "Atenà"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Tanta Maria"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Clock"
+#~ msgstr "Relòtge"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Laberint"
+
+#~ msgid "Neighbor"
+#~ msgstr "Vesin"
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Spider"
+#~ msgstr "Aranha"
+
+#~ msgid "Template"
+#~ msgstr "Modèl"
+
+#~ msgid "Yield"
+#~ msgstr "Rendement"
+
+#~ msgid "Select Game"
+#~ msgstr "Causir un jòc"
+
+#~ msgid "_Select"
+#~ msgstr "_Seleccionar"
+
+#~ msgid "Main game:"
+#~ msgstr "Jòc principal :"
+
+#~ msgid "Card games:"
+#~ msgstr "Jòcs de cartas :"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "A prepaus de FreeCell Solitaire"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "A prepaus d'AisleRiot"
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Aqueste jòc prepausa pas encara d'ajuda."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Desplaçar %s sus %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Cèrcas un %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Aqueste jòc pòt pas porgir d'ajuda."
+
+#~ msgid "_View"
+#~ msgstr "_Visualizacion"
+
+#~ msgid "_Control"
+#~ msgstr "_Contraròtle"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Seleccionar un jòc..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Jogar a una autre jòc"
+
+#~ msgid "S_tatistics"
+#~ msgstr "_Estadisticas"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Visualizar las estadisticas del jòc"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Visualizar l'ajuda d'Aisleriot"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Barra d'espleches"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Visualizar o amagar la barra d'espleches"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Clicar per desplaçar"
+
+#~ msgid "Time:"
+#~ msgstr "Temps :"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Carta de basa : ase"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Carta de basa : vailet"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Carta de base : rei"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Carta de base : reina"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Carta de base : ~a"
+
+#~ msgid "Base Card: "
+#~ msgstr "Carta de basa : "
+
+#~ msgid "No hint available right now"
+#~ msgstr "Pas de suggestion disponibla pel moment"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Soi pas segur"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Levar los ases"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Lever los 8"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Levar los 5"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Levar los 4"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Levar los vailets"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Levar los reis"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Levar los 9"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Levar las reinas"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Levar los 7"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Levar los 6"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Levar los 10"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Levar los 3"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Levar los 2"
+
+#~ msgid "Base Card:"
+#~ msgstr "Carta de basa :"
+
+#~ msgid "something"
+#~ msgstr "quicòm"
+
+#~ msgid "Blackjack"
+#~ msgstr "Blackjack"
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blackjack - %s"
+
+#~ msgid "S_urrender"
+#~ msgstr "_Abandonar"
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Preferéncias de Blackjack"
+
+#~ msgid "Rules"
+#~ msgstr "Règlas"
+
+#~ msgid "Surrender"
+#~ msgstr "Abandonar"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blackjack !"
+
+#~ msgid "Win"
+#~ msgstr "Victòria"
+
+#~ msgid "Lose"
+#~ msgstr "Desfacha"
+
+#~ msgid "Hit"
+#~ msgstr "Tocat"
+
+#~ msgid "Double"
+#~ msgstr "Doble"
+
+#~ msgid "Split"
+#~ msgstr "Dividir"
+
+#~ msgid "New password"
+#~ msgstr "Mot de pas novèl"
+
+#~ msgid "**none**"
+#~ msgstr "**pas cap**"
+
+#~ msgid "Offline"
+#~ msgstr "Desconnectat"
+
+#~ msgid "Connecting"
+#~ msgstr "Connexion"
+
+#~ msgid "Online"
+#~ msgstr "En linha"
+
+#~ msgid "Playing"
+#~ msgstr "Lectura"
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Profile:"
+#~ msgstr "Perfil :"
+
+#~ msgid "Server:"
+#~ msgstr "Servidor :"
+
+#~ msgid "Port:"
+#~ msgstr "Pòrt :"
+
+#~ msgid "User Information"
+#~ msgstr "Entresenhas sus l'utilizaire"
+
+#~ msgid "Username:"
+#~ msgstr "Nom d'utilizaire :"
+
+#~ msgid "Password:"
+#~ msgstr "Mot de pas :"
+
+#~ msgid "Email:"
+#~ msgstr "Adreça electronica :"
+
+#~ msgid "Connect"
+#~ msgstr "Se connectar"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Creator"
+#~ msgstr "Creator"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <nom d'utilizaire> <messatge> : messatge privat a un jogaire"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "About"
+#~ msgstr "A prepaus de"
+
+#~ msgid "None"
+#~ msgstr "Pas cap"
+
+#~ msgid "Description"
+#~ msgstr "Descripcion"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Set"
+#~ msgstr "Definir"
+
+#~ msgid "Account:"
+#~ msgstr "Compte :"
+
+#~ msgid "Message:"
+#~ msgstr "Messatge :"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconegut"
+
+#~ msgid "Guest"
+#~ msgstr "Invitat"
+
+#~ msgid "Host"
+#~ msgstr "Òste"
+
+#~ msgid "Friends"
+#~ msgstr "Amics"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorar"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Stats"
+
+#~ msgid "Leave"
+#~ msgstr "Sortir"
+
+#~ msgid "No description available."
+#~ msgstr "Pas cap de descripcion disponibla."
+
+#~ msgid "Author:"
+#~ msgstr "Autor :"
+
+#~ msgid "Unknown error"
+#~ msgstr "Error desconeguda"
+
+#~ msgid "Room"
+#~ msgstr "Sala"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Autor :  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Descripcion :  %s"
+
+#~ msgid "Description:"
+#~ msgstr "Descripcion :"
+
+#~ msgid "Computer"
+#~ msgstr "Ordenador"
+
+#~ msgid "Open"
+#~ msgstr "Dobrir"
+
+#~ msgid "Game Description   "
+#~ msgstr "Descripcion del jòc   "
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Sètz segur que volètz sortir ?"
+
+#~ msgid "Disconnect"
+#~ msgstr "Desconnectar"
+
+#~ msgid "Quit"
+#~ msgstr "Quitar"
+
+#~ msgid "Watch"
+#~ msgstr "Observador"
+
+#~ msgid "Edit"
+#~ msgstr "Edicion"
+
+#~ msgid "Properties"
+#~ msgstr "Propietats"
+
+#~ msgid "View"
+#~ msgstr "Visualizacion"
+
+#~ msgid "Help"
+#~ msgstr "Ajuda"
+
+#~ msgid "Contents"
+#~ msgstr "Ensenhador"
+
+#~ msgid "Send"
+#~ msgstr "Segondas"
+
+#~ msgid "Confirm:"
+#~ msgstr "Confirmar :"
+
+#~ msgid "Modify"
+#~ msgstr "Modificar"
+
+#~ msgid "Servers"
+#~ msgstr "Servidors"
+
+#~ msgid "Change"
+#~ msgstr "Cambiar"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Name:"
+#~ msgstr "Nom :"
+
+#~ msgid "City:"
+#~ msgstr "Ciutat :"
+
+#~ msgid "State:"
+#~ msgstr "Estat :"
+
+#~ msgid "Country:"
+#~ msgstr "Païs :"
+
+#~ msgid "Display All"
+#~ msgstr "Tot visualizar"
+
+#~ msgid "Options"
+#~ msgstr "Opcions"
+
+#~ msgid "Select Font"
+#~ msgstr "Seleccionar una poliça"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s : l'option '%s' es ambigüa\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s : l'option '--%s' permet pas de paramètre\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s : l'option '%c%s' permet pas de paramètre\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s : l'opcion '%s' a besonh d'un paramètre\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: opcion desconeguda `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: option illegala -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: opcion mescondrecha -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s : l'opcion a besonh d'un paramètre -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s : l'option '-W %s' es ambigüa\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s : l'opcion '-W %s' permet pas de paramètre\n"
+
+#~ msgid "The width of the window"
+#~ msgstr "La largor de la fenèstra"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Perfil :"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferéncias"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Visualizar la _barra d'espleches"
+
+#~ msgid "Summary"
+#~ msgstr "Resumit"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Dificultat</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Jogaires</b>"
+
+#~ msgid "_Black:"
+#~ msgstr "_Negre :"
+
+#~ msgid "_Game name:"
+#~ msgstr "Nom del _jòc :"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minutas"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizat"
+
+#~ msgid "seconds"
+#~ msgstr "segondas"
+
+#~ msgid "minutes"
+#~ msgstr "minutas"
+
+#~ msgid "hours"
+#~ msgstr "oras"
+
+#~ msgid "Easy"
+#~ msgstr "Aisit"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "White"
+#~ msgstr "Blanc"
+
+#~ msgid "Black"
+#~ msgstr "Negre"
+
+#~ msgid "Human"
+#~ msgstr "Uman"
+
+#~ msgid "Queen"
+#~ msgstr "Reina"
+
+#~ msgid "No comment"
+#~ msgstr "Pas cap de comentari"
+
+#~ msgid "Disconnected"
+#~ msgstr "Desconnectat"
+
+#~ msgid "Table"
+#~ msgstr "Tablèu"
+
+#~ msgid "Player"
+#~ msgstr "Jogaire"
+
+#~ msgid "a"
+#~ msgstr "a"
+
+#~ msgid "b"
+#~ msgstr "b"
+
+#~ msgid "c"
+#~ msgstr "c"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "e"
+#~ msgstr "e"
+
+#~ msgid "f"
+#~ msgstr "f"
+
+#~ msgid "g"
+#~ msgstr "g"
+
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "No description"
+#~ msgstr "Pas de descripcion"
+
+#~ msgid "Small"
+#~ msgstr "Pichon"
+
+#~ msgid "Large"
+#~ msgstr "Bèl"
+
+#~ msgid "Game Over!"
+#~ msgstr "Jòc acabat !"
+
+#~ msgid "Five or More"
+#~ msgstr "Cinc o mai"
+
+#~ msgid "Themes"
+#~ msgstr "Tèmas"
+
+#~ msgid "_Image:"
+#~ msgstr "_Imatge :"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "_Color de fons :"
+
+#~ msgid "_Small"
+#~ msgstr "_Pichòt"
+
+#~ msgid "Next:"
+#~ msgstr "Seguent :"
+
+#~ msgid "Background color"
+#~ msgstr "Color de fons"
+
+#~ msgid "Game preview"
+#~ msgstr "Previsualizacion del jòc"
+
+#~ msgid "Game score"
+#~ msgstr "Marca del jòc"
+
+#~ msgid "Animate"
+#~ msgstr "Animar"
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Impossible de cargar l'imatge :\n"
+#~ "%s"
+
+#~ msgid "You win!"
+#~ msgstr "Avètz ganat !"
+
+#~ msgid "I win!"
+#~ msgstr "Ai ganat !"
+
+#~ msgid "%s wins!"
+#~ msgstr "%s a ganat !"
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Astúcia : colomna %d"
+
+#~ msgid "You:"
+#~ msgstr "Vos :"
+
+#~ msgid "Me:"
+#~ msgstr "Ieu :"
+
+#~ msgid "Scores"
+#~ msgstr "Marcas"
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Jogaira 1 :\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Jogaire 2 :\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "Nivèl un"
+
+#~ msgid "Level two"
+#~ msgstr "Nivèl dos"
+
+#~ msgid "Level three"
+#~ msgstr "Nivèl tres"
+
+#~ msgid "Appearance"
+#~ msgstr "Aparéncia"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tèma :"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Activar _animacion"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "_Activar los sons"
+
+#~ msgid "Classic"
+#~ msgstr "Classic"
+
+#~ msgid "Red"
+#~ msgstr "Roge"
+
+#~ msgid "Yellow"
+#~ msgstr "Rossèl"
+
+#~ msgid "Light"
+#~ msgstr "Clar"
+
+#~ msgid "Dark"
+#~ msgstr "Negre"
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#~ msgid "Orange"
+#~ msgstr "Irange"
+
+#~ msgid "Speed:"
+#~ msgstr "Velocitat :"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Òsca !"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Gnibbles"
+#~ msgstr "Gnibbles"
+
+#~ msgid "Enable sounds"
+#~ msgstr "Activar los sons"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Activar los sons."
+
+#~ msgid "Game speed"
+#~ msgstr "Velocitat del jòc"
+
+#~ msgid "Move up"
+#~ msgstr "Bolegar cap amont"
+
+#~ msgid "Fast"
+#~ msgstr "Rapid"
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Preferéncias de Nibbles"
+
+#~ msgid "Speed"
+#~ msgstr "Velocitat"
+
+#~ msgid "Worm"
+#~ msgstr "Vèrm"
+
+#~ msgid "_Worm color:"
+#~ msgstr "Color del _vèrm :"
+
+#~ msgid "Green"
+#~ msgstr "Vèrd"
+
+#~ msgid "Purple"
+#~ msgstr "Violet"
+
+#~ msgid "Gray"
+#~ msgstr "Escala de grises"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Vèrm %d :"
+
+#~ msgid "Game over!"
+#~ msgstr "Jòc acabat !"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "O"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Activar los sons del jòc"
+
+#~ msgid "Game type"
+#~ msgstr "Tipe de jòc"
+
+#~ msgid "_Move"
+#~ msgstr "_Desplaçar"
+
+#~ msgid "_Wait"
+#~ msgstr "_Esperar"
+
+#~ msgid "cows"
+#~ msgstr "vacas"
+
+#~ msgid "eggs"
+#~ msgstr "uòus"
+
+#~ msgid "gnomes"
+#~ msgstr "gnomes"
+
+#~ msgid "mice"
+#~ msgstr "mirgas"
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Tèma grafic"
+
+#~ msgid "_Image theme:"
+#~ msgstr "Tèma d'_imatge :"
+
+#~ msgid "_Background color:"
+#~ msgstr "Color de _fons :"
+
+#~ msgid "Keyboard"
+#~ msgstr "Clavièr"
+
+#~ msgid "<none>"
+#~ msgstr "<pas cap>"
+
+#~ msgid "_Easy"
+#~ msgstr "_Aisit"
+
+#~ msgid "_Hard"
+#~ msgstr "_Malaisit"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Aisit :</i>"
+
+#~ msgid "_Generate"
+#~ msgstr "_Suprimir"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid "Full Screen"
+#~ msgstr "Ecran complet"
+
+#~ msgid "New game"
+#~ msgstr "Jòc novèl"
+
+#~ msgid "_Tools"
+#~ msgstr "_Espleches"
+
+#~ msgid "_Edit"
+#~ msgstr "_Edicion"
+
+#~ msgid "_Undo"
+#~ msgstr "_Anullar"
+
+#~ msgid "_Redo"
+#~ msgstr "_Tornar far"
+
+#~ msgid "_Clear"
+#~ msgstr "_Netejar"
+
+#~ msgid "Print Preview"
+#~ msgstr "Previsualizacion de l'estampatge"
+
+#~ msgid "Stopped"
+#~ msgstr "Arrestat"
+
+#~ msgid "Medium"
+#~ msgstr "Mejan"
+
+#~ msgid "_Stop"
+#~ msgstr "_Arrêter"
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s an"
+#~ msgstr[1] "%(n)s ans"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s mes"
+#~ msgstr[1] "%(n)s meses"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s setmana"
+#~ msgstr[1] "%(n)s setmanas"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s jorn"
+#~ msgstr[1] "%(n)s jorns"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s ora"
+#~ msgstr[1] "%(n)s oras"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s minuta"
+#~ msgstr[1] "%(n)s minutas"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s segonda"
+#~ msgstr[1] "%(n)s segondas"
+
+#~ msgid " and "
+#~ msgstr " e "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Size:"
+#~ msgstr "Talha :"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Orizontal :"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Vertical :"
+
+#~ msgid "Could not load images"
+#~ msgstr "Impossible de cargar los imatges"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "_Talha"
+
+#~ msgid "_Up"
+#~ msgstr "_Aval"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "SIZE"
+#~ msgstr "TALHA"
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Violet"
+#~ msgstr "Violet"
+
+#~ msgid "Success"
+#~ msgstr "Succès"
+
+#~ msgid "Score: %d"
+#~ msgstr "Marca : %d"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid "Regular"
+#~ msgstr "Regulièr"
+
+#~ msgid "STRING"
+#~ msgstr "CADENA"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s ganha la partiada amb %d punt"
+#~ msgstr[1] "%s ganha la partiada amb %d punts"
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Preferéncias de Tali"
+
+#~ msgid "Human Players"
+#~ msgstr "Jogaires umans"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Nombre de jogaires :"
+
+#~ msgid "Colors"
+#~ msgstr "Colors"
+
+#~ msgid "Player Names"
+#~ msgstr "Noms dels jogaires"
+
+#~ msgid "Grand Total"
+#~ msgstr "Soma totala"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid "_Player list"
+#~ msgstr "Tièra de _jogaires"
+
+#~ msgid "Dark:"
+#~ msgstr "Negres :"
+
+#~ msgid "Light:"
+#~ msgstr "Blancs :"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Los blancs an ganat !"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Los negres an ganat !"
+
+#~ msgid "Animation"
+#~ msgstr "Animacion"
+
+#~ msgid "Partial"
+#~ msgstr "parcial"
+
+#~ msgid "Complete"
+#~ msgstr "Complet"
+
+#~ msgid "Card Style"
+#~ msgstr "Estil de las cartas"
+
+#~ msgid "_About"
+#~ msgstr "_A prepaus"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Anullar"
+
+#~ msgid "_Close"
+#~ msgstr "_Tampar"
+
+#~ msgid "_OK"
+#~ msgstr "_Validar"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "_Finish"
+#~ msgstr "_Terminar"
+
+#~ msgid "There are no more moves."
+#~ msgstr "I a pas pus de movement possible."
+
+#~ msgid "Shuffle"
+#~ msgstr "Aleatòri"
+
+#~ msgid "Mahjongg - %s"
+#~ msgstr "Mahjongg - %s"
+
+#~ msgid "Set the theme"
+#~ msgstr "Definir lo tèma"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Same GNOME"
+
+#~ msgid "No points"
+#~ msgstr "Pas de punt"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d punt"
+#~ msgstr[1] "%d punts"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Tèma..."
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"

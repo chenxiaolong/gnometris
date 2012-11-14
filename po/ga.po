@@ -1,0 +1,2494 @@
+# Irish translations for gnome-games package.
+# Copyright (C) 1998-2008 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
+# Alan Horkan <horkan@maths.tcd.ie>, 2005.
+# Seán de Búrca <leftmostcat@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2008-01-13 17:53-0700\n"
+"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n"
+"%10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr ""
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Cluiche thart"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+#, fuzzy
+msgid "The background color"
+msgstr "Dath Cúlra"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Bog ar clé"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Bog ar deis"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Bog síos"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Sos"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "LEIBHÉAL"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+#, fuzzy
+msgid "Plain"
+msgstr "Plait"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+#, fuzzy
+msgid "Joined"
+msgstr "Tada"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Scór:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Línte:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Leibhéal:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Cluiche"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Socruithe"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "Cab_hair"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Sainroghanna Gnometris"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Cluiche"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Socrú"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+#, fuzzy
+msgid "_Number of pre-filled rows:"
+msgstr "Uimhir na Miana:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr ""
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+#, fuzzy
+msgid "_Starting level:"
+msgstr "Leibheal Sokoban:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:793
+#, fuzzy
+msgid "Block Style"
+msgstr "Block ten"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Alastair McKinstry <mckinstry@computer.org>\n"
+"Paul Duffy <dubhthach@frink.nuigalway.ie>\n"
+"Alan Horkan <horkan@maths.tcd.ie>\n"
+"Seán de Búrca <leftmostcat@gmail.com>"
+
+#: ../gnometris/highscores.cpp:52
+#, fuzzy
+msgid "Gnometris Scores"
+msgstr "Scóranna Gnect"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_Socruithe"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Gan eochair"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:332
+#, fuzzy
+msgid "Unknown Command"
+msgstr "Dath anathnid"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Am"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Scór"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Cluiche Nua"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Ainm"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:53
+#, fuzzy
+msgid "Pause the game"
+msgstr "Reitigh an cluiche"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Maidir leis an gcluiche seo"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+#, fuzzy
+msgid "Configure the game"
+msgstr "Reitigh an cluiche"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Inneachar"
+
+#: ../libgames-support/games-stock.c:296
+#, fuzzy
+msgid "_Fullscreen"
+msgstr "Ceathair Déag"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Leid"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Nua"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "Cluiche _Nua"
+
+#: ../libgames-support/games-stock.c:302
+#, fuzzy
+msgid "_Redo Move"
+msgstr "_Gluais"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Athshocraigh"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "_Atosaigh"
+
+#: ../libgames-support/games-stock.c:307
+#, fuzzy
+msgid "_Undo Move"
+msgstr "_Gluais"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:309
+#, fuzzy
+msgid "Network _Game"
+msgstr "Cluiche Nua"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "Cluiche Nua"
+
+#: ../libgames-support/games-stock.c:311
+#, fuzzy
+msgid "Player _List"
+msgstr "Imreoiri"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "S_os"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:314
+#, fuzzy
+msgid "_Scores"
+msgstr "Scór"
+
+#: ../libgames-support/games-stock.c:315
+#, fuzzy
+msgid "_End Game"
+msgstr "_Cluiche"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Player Chat"
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid "Reserved"
+#~ msgstr "seacht"
+
+#, fuzzy
+#~ msgid "Spectator"
+#~ msgstr "Elevator"
+
+#, fuzzy
+#~ msgid "Player List"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Sit here"
+#~ msgstr "trí"
+
+#, fuzzy
+#~ msgid "Move here"
+#~ msgstr "Bog ar clé"
+
+#, fuzzy
+#~ msgid "Remove bot"
+#~ msgstr "Robots"
+
+#, fuzzy
+#~ msgid "A list of recently played games."
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid "Recently played games"
+#~ msgstr "Ainmneach Imreoiri"
+
+#~ msgid "Sound"
+#~ msgstr "Fuaim"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Solitaire FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Imir an cluiche cártaí móréilimh FreeCell"
+
+#~ msgid "Error"
+#~ msgstr "Earráid"
+
+#, fuzzy
+#~ msgid "Select the game type to play"
+#~ msgstr "Reitigh an cluiche"
+
+#~ msgid "NAME"
+#~ msgstr "AINM"
+
+#, fuzzy
+#~ msgid "Select the game number"
+#~ msgstr "Reitigh an cluiche"
+
+#~ msgid "NUMBER"
+#~ msgstr "UIMHIR"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Solitaire AisleRiot"
+
+#~ msgid "Unknown color"
+#~ msgstr "Dath anaithnid"
+
+#~ msgid "Unknown value"
+#~ msgstr "Luach anaithnid"
+
+#~ msgid "ace"
+#~ msgstr "aon"
+
+#~ msgid "clubs"
+#~ msgstr "triuf"
+
+#~ msgid "diamonds"
+#~ msgstr "muileata"
+
+#~ msgid "eight"
+#~ msgstr "ocht"
+
+#~ msgid "five"
+#~ msgstr "cúig"
+
+#~ msgid "four"
+#~ msgstr "ceathair"
+
+#~ msgid "hearts"
+#~ msgstr "hart"
+
+#~ msgid "jack"
+#~ msgstr "cuireata"
+
+#~ msgid "king"
+#~ msgstr "rí"
+
+#~ msgid "nine"
+#~ msgstr "naoi"
+
+#~ msgid "queen"
+#~ msgstr "banríon"
+
+#~ msgid "seven"
+#~ msgstr "seacht"
+
+#~ msgid "six"
+#~ msgstr "sé"
+
+#~ msgid "spades"
+#~ msgstr "spéireata"
+
+#~ msgid "ten"
+#~ msgstr "deich"
+
+#~ msgid "three"
+#~ msgstr "trí"
+
+#~ msgid "two"
+#~ msgstr "dó"
+
+#~ msgid "Wins:"
+#~ msgstr "Cluichí Buaite:"
+
+#~ msgid "Total:"
+#~ msgstr "Iomlán:"
+
+#~ msgid "Wins"
+#~ msgstr "Cluichí Buaite"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "N/A"
+#~ msgstr "N/A/F"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Aunt Mary"
+
+#~ msgid "Backbone"
+#~ msgstr "Backbone"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Bakers Dozen"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Bakers Game"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Beleaguered Castle"
+
+#~ msgid "Block Ten"
+#~ msgstr "Block Ten"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Carpet"
+#~ msgstr "Carpet"
+
+#~ msgid "Chessboard"
+#~ msgstr "Chessboard"
+
+#~ msgid "Clock"
+#~ msgstr "Clock"
+
+#~ msgid "Cover"
+#~ msgstr "Cover"
+
+#~ msgid "Cruel"
+#~ msgstr "Cruel"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Diamond Mine"
+
+#~ msgid "Doublets"
+#~ msgstr "Doublets"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Eagle Wing"
+
+#~ msgid "Easthaven"
+#~ msgstr "Easthaven"
+
+#~ msgid "Eight Off"
+#~ msgstr "Eight Off"
+
+#~ msgid "Elevator"
+#~ msgstr "Elevator"
+
+#~ msgid "Escalator"
+#~ msgstr "Escalator"
+
+#~ msgid "First Law"
+#~ msgstr "First Law"
+
+#~ msgid "Fortress"
+#~ msgstr "Fortress"
+
+#~ msgid "Fortunes"
+#~ msgstr "Fortunes"
+
+#~ msgid "Fourteen"
+#~ msgstr "Fourteen"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Gaps"
+#~ msgstr "Gaps"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay Gordons"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Gold Mine"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Gypsy"
+#~ msgstr "Gypsy"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Hopscotch"
+
+#~ msgid "Isabel"
+#~ msgstr "Isabel"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "King Albert"
+#~ msgstr "King Albert"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Kings Audience"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labyrinth"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+#~ msgid "Maze"
+#~ msgstr "Maze"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Napoleons Tomb"
+
+#~ msgid "Neighbor"
+#~ msgstr "Neighbor"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmosis"
+
+#~ msgid "Peek"
+#~ msgstr "Peek"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Plait"
+#~ msgstr "Plait"
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Royal East"
+#~ msgstr "Royal East"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Scorpion"
+#~ msgstr "Scorpion"
+
+#~ msgid "Scuffle"
+#~ msgstr "Scuffle"
+
+#~ msgid "Seahaven"
+#~ msgstr "Seahaven"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Spider"
+#~ msgstr "Spider"
+
+#~ msgid "Spiderette"
+#~ msgstr "Spiderette"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Spider Three Decks"
+
+#~ msgid "Straight Up"
+#~ msgstr "Straight Up"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Streets And Alleys"
+
+#~ msgid "Template"
+#~ msgstr "Template"
+
+#~ msgid "Ten Across"
+#~ msgstr "Ten Across"
+
+#~ msgid "Thieves"
+#~ msgstr "Thieves"
+
+#~ msgid "Thirteen"
+#~ msgstr "Thirteen"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Thumb And Pouch"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Triple Peaks"
+
+#~ msgid "Union Square"
+#~ msgstr "Union Square"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#~ msgid "Westhaven"
+#~ msgstr "Iarthar"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will o the wisp"
+
+#~ msgid "Yield"
+#~ msgstr "Yield"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Select Game"
+#~ msgstr "Roghnaigh Cluiche"
+
+#~ msgid "_Select"
+#~ msgstr "_Roghnaigh"
+
+#, fuzzy
+#~ msgid "Congratulations, you have won!"
+#~ msgstr ""
+#~ "Molaim thu!\n"
+#~ "\n"
+#~ "Bua Agat!!!|"
+
+#, fuzzy
+#~ msgid "There are no more moves"
+#~ msgstr "Níl aon gluaiseann fagtha."
+
+#~ msgid "Main game:"
+#~ msgstr "Príomhchluiche:"
+
+#~ msgid "Card games:"
+#~ msgstr "Cluichí cártaí:"
+
+#, fuzzy
+#~ msgid "Card themes:"
+#~ msgstr "Cluichí Carta:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Maidir le Solitaire FreeCell"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Maidir le AisleRiot"
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Bog %s ar %s."
+
+#~ msgid "Play \"%s\""
+#~ msgstr "Imir \"%s\""
+
+#~ msgid "score|%6d"
+#~ msgstr "score|%6d"
+
+#~ msgid "_Report"
+#~ msgstr "_Tuairisc"
+
+#~ msgid "_View"
+#~ msgstr "_Amharc"
+
+#~ msgid "_Control"
+#~ msgstr "_Rialú"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Roghnaigh Cluiche..."
+
+#, fuzzy
+#~ msgid "Play a different game"
+#~ msgstr "Roghnaigh Cluiche eile"
+
+#, fuzzy
+#~ msgid "_Recently Played"
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid "_Deal"
+#~ msgstr "Cabhair"
+
+#, fuzzy
+#~ msgid "_Card Style"
+#~ msgstr "Cartai fagtha"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Barra Uirlisí"
+
+#, fuzzy
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Taispeáin no cur i bhfolach an toolbar"
+
+#~ msgid "Time:"
+#~ msgstr "Am:"
+
+#, fuzzy
+#~ msgid "Redeal."
+#~ msgstr "Dearg"
+
+#, fuzzy
+#~ msgid "No hint available."
+#~ msgstr "Níl aon nod ann"
+
+#, fuzzy
+#~ msgid "Move card from waste"
+#~ msgstr "Gluais carta as an Bruscar"
+
+#, fuzzy
+#~ msgid "Shuffle mode"
+#~ msgstr "Scuffle"
+
+#, fuzzy
+#~ msgid "Four Suits"
+#~ msgstr "Fortress"
+
+#, fuzzy
+#~ msgid "One Suit"
+#~ msgstr "Spiderette"
+
+#~ msgid "No hint available"
+#~ msgstr "Níl aon leid ar fáil"
+
+#, fuzzy
+#~ msgid "and all cards below it"
+#~ msgstr "agus gach cartai faoi sin"
+
+#~ msgid "Blackjack"
+#~ msgstr "Blackjack"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Imir an cluiche cártaí casino Blackjack"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Taispeain na staidreamh"
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "An meid airgead agat sa banc"
+
+#, fuzzy
+#~ msgid "The amount of money in your bank."
+#~ msgstr "An meid airgead agat sa banc.  "
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blackjack - %s"
+
+#, fuzzy
+#~ msgid "_Hit"
+#~ msgstr "Thit"
+
+#, fuzzy
+#~ msgid "_Stand"
+#~ msgstr "_Fuaim"
+
+#, fuzzy
+#~ msgid "_Double down"
+#~ msgstr "Doublets"
+
+#, fuzzy
+#~ msgid "Show toolbar"
+#~ msgstr "Taispeáin tool bar"
+
+#, fuzzy
+#~ msgid "Cards left:"
+#~ msgstr "Cartai fagtha"
+
+#, fuzzy
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Roghnachais Blackjack"
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Sainroghanna Blackjack"
+
+#, fuzzy
+#~ msgid "_Display hand probabilities"
+#~ msgstr "Taispeain na staidreamh"
+
+#~ msgid "Rules"
+#~ msgstr "Ceannas"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blackjack!"
+
+#~ msgid "Soft"
+#~ msgstr "Bog"
+
+#~ msgid "Win"
+#~ msgstr "Bua"
+
+#~ msgid "Hit"
+#~ msgstr "Thit"
+
+#, fuzzy
+#~ msgid "Players on server: %d"
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid "You're not at a table."
+#~ msgstr "Níl aon nod ann"
+
+#, fuzzy
+#~ msgid "The game is over."
+#~ msgstr "Cluiche nua tosnu"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "Gnect"
+
+#, fuzzy
+#~ msgid "Reconnecting"
+#~ msgstr "Gnect"
+
+#~ msgid "Online"
+#~ msgstr "Ar Líne"
+
+#, fuzzy
+#~ msgid "Playing"
+#~ msgstr "Plait"
+
+#, fuzzy
+#~ msgid "Network Game"
+#~ msgstr "Cluiche Nua"
+
+#~ msgid "Server:"
+#~ msgstr "Freastalaí:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Username:"
+#~ msgstr "Ainm Úsáideora:"
+
+#~ msgid "Connect"
+#~ msgstr "Nasc"
+
+#~ msgid "Deity"
+#~ msgstr "Diacht"
+
+#~ msgid "Sentinel"
+#~ msgstr "Fairtheoir"
+
+#~ msgid "Captain"
+#~ msgstr "Captaen"
+
+#~ msgid "Knight"
+#~ msgstr "Ridire"
+
+#~ msgid "Angel"
+#~ msgstr "Aingeal"
+
+#~ msgid "Eagle"
+#~ msgstr "Iolar"
+
+#~ msgid "Colonel"
+#~ msgstr "Coirnéal"
+
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgid "Major"
+#~ msgstr "Maor"
+
+#~ msgid "Scout"
+#~ msgstr "Scabhta"
+
+#~ msgid "Scholar"
+#~ msgstr "Scoláire"
+
+#~ msgid "Creator"
+#~ msgstr "Cruthaitheoir"
+
+#, fuzzy
+#~ msgid "Beep sent to %s."
+#~ msgstr "Gluais %s onto %s."
+
+#, fuzzy
+#~ msgid "Launched game"
+#~ msgstr "Reitigh an cluiche"
+
+#, fuzzy
+#~ msgid "Game Error"
+#~ msgstr "Cluiche thart"
+
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#, fuzzy
+#~ msgid "Not Implemented"
+#~ msgstr "Criochnaithe"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Scorpion"
+
+#, fuzzy
+#~ msgid "Game Types"
+#~ msgstr "Saghas Cluiche"
+
+#~ msgid "Set"
+#~ msgstr "Socraigh"
+
+#, fuzzy
+#~ msgid "Player Information"
+#~ msgstr "Imreoir Teleport"
+
+#, fuzzy
+#~ msgid "Player Handle:"
+#~ msgstr "Imreoir Marbh"
+
+#, fuzzy
+#~ msgid "Table:"
+#~ msgstr "Iomlán"
+
+#, fuzzy
+#~ msgid "Record:"
+#~ msgstr "Scór:"
+
+#, fuzzy
+#~ msgid "Rank:"
+#~ msgstr "Dubh:"
+
+#~ msgid "Unknown"
+#~ msgstr "Anaithnid"
+
+#, fuzzy
+#~ msgid "Guest"
+#~ msgstr "Ceannas"
+
+#, fuzzy
+#~ msgid "Host"
+#~ msgstr "Hopscotch"
+
+#, fuzzy
+#~ msgid "Ignore"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Leave"
+#~ msgstr "Leibheal"
+
+#, fuzzy
+#~ msgid "No description available."
+#~ msgstr "Níl aon nod ann"
+
+#, fuzzy
+#~ msgid "Seats"
+#~ msgstr "hartí"
+
+#, fuzzy
+#~ msgid "Game Name:"
+#~ msgstr "Ainm Cluiche:"
+
+#, fuzzy
+#~ msgid "Unknown room"
+#~ msgstr "Dath anathnid"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "Dath anathnid"
+
+#~ msgid "Room"
+#~ msgstr "Seomra"
+
+#, fuzzy
+#~ msgid "Game Type:  %s"
+#~ msgstr "Saghas Cluiche"
+
+#, fuzzy
+#~ msgid "Game Type:"
+#~ msgstr "Saghas Cluiche"
+
+#, fuzzy
+#~ msgid "Number of seats"
+#~ msgstr "Uimhir na Miana:"
+
+#~ msgid "Description:"
+#~ msgstr "Cur Síos:"
+
+#~ msgid "Computer"
+#~ msgstr "Ríomhaire"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "Gnect"
+
+#, fuzzy
+#~ msgid "Watch"
+#~ msgstr "Fan"
+
+#, fuzzy
+#~ msgid "Player Stats"
+#~ msgstr "Ainmneach Imreoiri"
+
+#~ msgid "Help"
+#~ msgstr "Cabhair"
+
+#~ msgid "Contents"
+#~ msgstr "Inneachar"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "Luas"
+
+#, fuzzy
+#~ msgid "Servers"
+#~ msgstr "Scór"
+
+#~ msgid "Change"
+#~ msgstr "Athraigh"
+
+#, fuzzy
+#~ msgid "Play Sounds"
+#~ msgstr "Fuaim"
+
+#, fuzzy
+#~ msgid "Chat Color"
+#~ msgstr "Dathanna"
+
+#, fuzzy
+#~ msgid "Black Background"
+#~ msgstr "Blackjack"
+
+#, fuzzy
+#~ msgid "White Background"
+#~ msgstr "Dath Cúlra"
+
+#, fuzzy
+#~ msgid "Chat"
+#~ msgstr "Camelot"
+
+#~ msgid "Name:"
+#~ msgstr "Ainm:"
+
+#, fuzzy
+#~ msgid "Display Important"
+#~ msgstr "Taispeain na staidreamh"
+
+#, fuzzy
+#~ msgid "Display None"
+#~ msgstr "Taispeain na staidreamh"
+
+#~ msgid "Options"
+#~ msgstr "Roghanna"
+
+#~ msgid "Select Font"
+#~ msgstr "Roghnaigh Cló"
+
+#, fuzzy
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Taispeáin no cur i bhfolach an toolbar"
+
+#, fuzzy
+#~ msgid "The board side to display"
+#~ msgstr "Méid páirce"
+
+#, fuzzy
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Airde na greille"
+
+#, fuzzy
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Airde na greille"
+
+#, fuzzy
+#~ msgid "Save Chess Game"
+#~ msgstr "Reitigh an cluiche"
+
+#, fuzzy
+#~ msgid "Communication:"
+#~ msgstr "Beochan"
+
+#, fuzzy
+#~ msgid "Playing as:"
+#~ msgstr "Ag imirt leibheal %s"
+
+#, fuzzy
+#~ msgid "<b>Game</b>"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "<b>Server</b>"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "Game Name"
+#~ msgstr "Ainm Cluiche:"
+
+#, fuzzy
+#~ msgid "Join Game"
+#~ msgstr "_Cluiche"
+
+#, fuzzy
+#~ msgid "Load Chess Game"
+#~ msgstr "Cluichí Carta:"
+
+#, fuzzy
+#~ msgid "Chess _Board"
+#~ msgstr "Clár Ficheall"
+
+#, fuzzy
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "Ceathair Déag"
+
+#, fuzzy
+#~ msgid "Move _Comments"
+#~ msgstr "Bog ar clé"
+
+#, fuzzy
+#~ msgid "Move _Hints"
+#~ msgstr "Bog ar deis"
+
+#, fuzzy
+#~ msgid "Rewind to the game start"
+#~ msgstr "Cluiche nua tosnu"
+
+#, fuzzy
+#~ msgid "Save the current game"
+#~ msgstr "Reitigh an cluiche"
+
+#, fuzzy
+#~ msgid "Show _Logs"
+#~ msgstr "Taispeáin tool bar"
+
+#, fuzzy
+#~ msgid "There are no active logs."
+#~ msgstr "Níl aon gluaiseann fagtha."
+
+#~ msgid "_3D"
+#~ msgstr "_3T"
+
+#, fuzzy
+#~ msgid "_Black Side"
+#~ msgstr "Imreoiri"
+
+#~ msgid "_Chess"
+#~ msgstr "_Ficheall"
+
+#~ msgid "_History"
+#~ msgstr "_Stair"
+
+#~ msgid "_Knight"
+#~ msgstr "_Ridire"
+
+#, fuzzy
+#~ msgid "_Move Format"
+#~ msgstr "Bog ar deis"
+
+#~ msgid "_Queen"
+#~ msgstr "_Banríon"
+
+#, fuzzy
+#~ msgid "_Resign"
+#~ msgstr "_Deis"
+
+#, fuzzy
+#~ msgid "_Rook"
+#~ msgstr "Robots"
+
+#, fuzzy
+#~ msgid "_White Side"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "<b>Players</b>"
+#~ msgstr "Imreoiri"
+
+#~ msgid "B_lack:"
+#~ msgstr "_Dubh:"
+
+#, fuzzy
+#~ msgid "Local chess game"
+#~ msgstr "Cluichí Carta:"
+
+#, fuzzy
+#~ msgid "Move _Time:"
+#~ msgstr "Gluaiseann Fagtha"
+
+#~ msgid "W_hite:"
+#~ msgstr "_Bán:"
+
+#~ msgid "_Black:"
+#~ msgstr "_Dubh:"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "Ainm Cluiche:"
+
+#~ msgid "_Start"
+#~ msgstr "_Tosaigh"
+
+#~ msgid "_White:"
+#~ msgstr "_Bán:"
+
+#~ msgid "Chess"
+#~ msgstr "Ficheall"
+
+#, fuzzy
+#~ msgid "Unlimited"
+#~ msgstr "Beochan"
+
+#, fuzzy
+#~ msgid "One minute"
+#~ msgstr "naoi"
+
+#~ msgid "Custom"
+#~ msgstr "Saincheaptha"
+
+#, fuzzy
+#~ msgid "minutes"
+#~ msgstr "Leathfhocal"
+
+#, fuzzy
+#~ msgid "hours"
+#~ msgstr "ceithre"
+
+#, fuzzy
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Reitigh an cluiche"
+
+#, fuzzy
+#~ msgid "White"
+#~ msgstr "Whitehead"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "Clog"
+
+#, fuzzy
+#~ msgid "pawn"
+#~ msgstr "Síos"
+
+#, fuzzy
+#~ msgid "knight"
+#~ msgstr "ocht"
+
+#, fuzzy
+#~ msgid "Game Start"
+#~ msgstr "Tidéal cluiche"
+
+#, fuzzy
+#~ msgid "Game start"
+#~ msgstr "Tidéal cluiche"
+
+#, fuzzy
+#~ msgid "No comment"
+#~ msgstr "Criochnaithe"
+
+#, fuzzy
+#~ msgid "Check"
+#~ msgstr "Clog"
+
+#, fuzzy
+#~ msgid "Checkmate"
+#~ msgstr "Camelot"
+
+#, fuzzy
+#~ msgid "Stalemate"
+#~ msgstr "Pioc cluiche"
+
+#, fuzzy
+#~ msgid "%s wins"
+#~ msgstr "Tá an bua agam!"
+
+#, fuzzy
+#~ msgid "Game is drawn"
+#~ msgstr "Scór an Cluiche"
+
+#, fuzzy
+#~ msgid "Player"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "Table"
+#~ msgstr "Iomlán"
+
+#, fuzzy
+#~ msgid "Seat"
+#~ msgstr "hartí"
+
+#, fuzzy
+#~ msgid "Reserved for %s"
+#~ msgstr "seacht"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "No description"
+#~ msgstr "Gan cur síos"
+
+#~ msgid "Small"
+#~ msgstr "Beag"
+
+#~ msgid "glines|Medium"
+#~ msgstr "Meán"
+
+#~ msgid "Large"
+#~ msgstr "Mór"
+
+#~ msgid "Preferences"
+#~ msgstr "Sainroghanna"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "Cúig nó Níos Mó GNOME"
+
+#, fuzzy
+#~ msgid "_Board size:"
+#~ msgstr "Méid páirce"
+
+#~ msgid "Game Over!"
+#~ msgstr "Cluiche Thart!"
+
+#~ msgid "Five or More"
+#~ msgstr "Cúig nó Níos Mó"
+
+#, fuzzy
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr "Leagan Gnome as an cluiche Linte Daite"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Sainroghanna Cúig nó Níos Mó"
+
+#, fuzzy
+#~ msgid "B_ackground color:"
+#~ msgstr "Dath Cúlra"
+
+#~ msgid "Board Size"
+#~ msgstr "Méid Chláir"
+
+#~ msgid "_Small"
+#~ msgstr "_Beag"
+
+#~ msgid "_Medium"
+#~ msgstr "_Meán"
+
+#~ msgid "_Large"
+#~ msgstr "_Mór"
+
+#~ msgid "glines|General"
+#~ msgstr "Ginearálta"
+
+#~ msgid "Background color"
+#~ msgstr "Dath cúlra"
+
+#~ msgid "Game score"
+#~ msgstr "Scór an Cluiche"
+
+#, fuzzy
+#~ msgid "Playing field size"
+#~ msgstr "Ag imirt leibheal %s"
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Four-in-a-Row"
+
+#~ msgid "Animate"
+#~ msgstr "Beochan"
+
+#~ msgid "Level of Player One"
+#~ msgstr "Leibheal Imreoir a hAon"
+
+#, fuzzy
+#~ msgid "Level of Player Two"
+#~ msgstr "Leibheal Imreoir a Do"
+
+#~ msgid "You win!"
+#~ msgstr "Tá an bua agat!"
+
+#~ msgid "I win!"
+#~ msgstr "Tá an bua agam!"
+
+#~ msgid "You:"
+#~ msgstr "Tusa:"
+
+#~ msgid "Me:"
+#~ msgstr "Mise:"
+
+#, fuzzy
+#~ msgid "Scores"
+#~ msgstr "Scór"
+
+#, fuzzy
+#~ msgid "Drawn:"
+#~ msgstr "Síos"
+
+#, fuzzy
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "Four-in-a-row for Gnome, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.  "
+
+#, fuzzy
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr "Ta an bua agat"
+
+#, fuzzy
+#~ msgid "Level one"
+#~ msgstr "Leibheal a hAon"
+
+#, fuzzy
+#~ msgid "Level two"
+#~ msgstr "Leibheal a Do"
+
+#~ msgid "Level three"
+#~ msgstr "Leibhéal a trí"
+
+#~ msgid "Appearance"
+#~ msgstr "Cuma"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Téama:"
+
+#, fuzzy
+#~ msgid "Enable _animation"
+#~ msgstr "Beochan"
+
+#~ msgid "Red"
+#~ msgstr "Dearg"
+
+#~ msgid "Yellow"
+#~ msgstr "Buí"
+
+#~ msgid "Light"
+#~ msgstr "Geal"
+
+#~ msgid "Dark"
+#~ msgstr "Dorcha"
+
+#~ msgid "Blue"
+#~ msgstr "Gorm"
+
+#, fuzzy
+#~ msgid "Blocks"
+#~ msgstr "Clog"
+
+#~ msgid "Orange"
+#~ msgstr "Oráiste"
+
+#, fuzzy
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Reitigh an cluiche"
+
+#, fuzzy
+#~ msgid "%s left the game.\n"
+#~ msgstr "Reitigh an cluiche"
+
+#, fuzzy
+#~ msgid "Nibbles Scores"
+#~ msgstr "Scóranna Gnect"
+
+#~ msgid "Speed:"
+#~ msgstr "Luas:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Comhghairdeas!"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Move up"
+#~ msgstr "Bog suas"
+
+#, fuzzy
+#~ msgid "Number of AI players"
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "Number of AI players."
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "Number of human players"
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "Number of human players."
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "Slow"
+#~ msgstr "Buí"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Meán"
+
+#, fuzzy
+#~ msgid "Fast"
+#~ msgstr "Aghaidheanna"
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Sainroghanna Nibbles"
+
+#~ msgid "Speed"
+#~ msgstr "Luas"
+
+#, fuzzy
+#~ msgid "Number of _human players:"
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "Number of _AI players:"
+#~ msgstr "Uimhir na Miana:"
+
+#~ msgid "Green"
+#~ msgstr "Glas"
+
+#~ msgid "Purple"
+#~ msgstr "Corcra"
+
+#~ msgid "Gray"
+#~ msgstr "Liath"
+
+#~ msgid "Game over!"
+#~ msgstr "Cluiche thart!"
+
+#, fuzzy
+#~ msgid "Robots Scores"
+#~ msgstr "Scóranna Gnect"
+
+#~ msgid "Map:"
+#~ msgstr "Mapa:"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Roghnaigh Cnámhscéal cluiche"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Robots2"
+#~ msgstr "Robots2"
+
+#, fuzzy
+#~ msgid "Robots2 easy"
+#~ msgstr "Robots"
+
+#~ msgid "Robots"
+#~ msgstr "Robots"
+
+#~ msgid "Game type"
+#~ msgstr "Saghas Cluiche:"
+
+#, fuzzy
+#~ msgid "Key to teleport"
+#~ msgstr "Imreoir Teleport"
+
+#~ msgid "_Move"
+#~ msgstr "_Bog"
+
+#, fuzzy
+#~ msgid "_Teleport"
+#~ msgstr "Imreoir Teleport"
+
+#~ msgid "_Wait"
+#~ msgstr "_Fan"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Sainroghanna Robots"
+
+#~ msgid "Game Type"
+#~ msgstr "Saghas Cluiche"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Dath cúlra:"
+
+#~ msgid "Keyboard"
+#~ msgstr "Mearchlár"
+
+#~ msgid "<none>"
+#~ msgstr "<neamhní>"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#, fuzzy
+#~ msgid "_Easy"
+#~ msgstr "Fan"
+
+#, fuzzy
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "Uimhir na Miana:"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Meán:</i>"
+
+#, fuzzy
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "Méan"
+
+#, fuzzy
+#~ msgid "Generate Policy"
+#~ msgstr "Gineréal"
+
+#, fuzzy
+#~ msgid "_Generate"
+#~ msgstr "Gineréal"
+
+#, fuzzy
+#~ msgid "GNOME Sudoku"
+#~ msgstr "Clocha Gnome"
+
+#, fuzzy
+#~ msgid "Track moves"
+#~ msgstr "Beart na dubh"
+
+#, fuzzy
+#~ msgid "Full Screen"
+#~ msgstr "Ceathair Déag"
+
+#~ msgid "New game"
+#~ msgstr "Cluiche nua"
+
+#~ msgid "Close Sudoku"
+#~ msgstr "Dún Sudoku"
+
+#~ msgid "_Tools"
+#~ msgstr "_Uirlisí"
+
+#, fuzzy
+#~ msgid "Show _Toolbar"
+#~ msgstr "Taispeáin tool bar"
+
+#~ msgid "_Edit"
+#~ msgstr "_Eagar"
+
+#~ msgid "_Undo"
+#~ msgstr "Cea_laigh"
+
+#~ msgid "_Redo"
+#~ msgstr "_Athfheidhmigh"
+
+#, fuzzy
+#~ msgid "No Tracker"
+#~ msgstr "Tada"
+
+#, fuzzy
+#~ msgid "_Play game"
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid "_Abandon game"
+#~ msgstr "_Cluiche"
+
+#, fuzzy
+#~ msgid "Puzzle Statistics"
+#~ msgstr "Ainmneach Imreoiri"
+
+#, fuzzy
+#~ msgid "Played for %(duration)s"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "Stopped"
+#~ msgstr "Luas"
+
+#~ msgid "Medium"
+#~ msgstr "Méan"
+
+#~ msgid "_Stop"
+#~ msgstr "+Stad"
+
+#~ msgid "Today"
+#~ msgstr "Inniu"
+
+#~ msgid "Mines"
+#~ msgstr "Mianaigh"
+
+#~ msgid "gnomine|Medium"
+#~ msgstr "Meán"
+
+#, fuzzy
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Brataí:"
+
+#, fuzzy
+#~ msgid "Mines Scores"
+#~ msgstr "Scóranna Gnect"
+
+#~ msgid "Size:"
+#~ msgstr "Méid:"
+
+#~ msgid "Faces:"
+#~ msgstr "Aghaidheanna"
+
+#, fuzzy
+#~ msgid "Field Size"
+#~ msgstr "Méid páirce"
+
+#, fuzzy
+#~ msgid "Custom Size"
+#~ msgstr "Méid féindéanta"
+
+#, fuzzy
+#~ msgid "_Number of mines:"
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "_Horizontal:"
+#~ msgstr "Cothrománach:"
+
+#, fuzzy
+#~ msgid "_Vertical:"
+#~ msgstr "Ingearach:"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Sainroghanna Mianach"
+
+#~ msgid "Width of grid"
+#~ msgstr "Leitheid na greille"
+
+#~ msgid "Height of grid"
+#~ msgstr "Airde na greille"
+
+#~ msgid "Number of mines"
+#~ msgstr "Uimhir na Miana:"
+
+#~ msgid "Time: "
+#~ msgstr "Am: "
+
+#, fuzzy
+#~ msgid "Board size"
+#~ msgstr "Méid páirce"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#, fuzzy
+#~ msgid "Sol_ve"
+#~ msgstr "Reitigh"
+
+#, fuzzy
+#~ msgid "Solve the game"
+#~ msgstr "Reitigh an cluiche"
+
+#~ msgid "_Up"
+#~ msgstr "S_uas"
+
+#, fuzzy
+#~ msgid "Move the pieces up"
+#~ msgstr "Gluais na piosai suas"
+
+#~ msgid "_Left"
+#~ msgstr "_Clé"
+
+#, fuzzy
+#~ msgid "Move the pieces left"
+#~ msgstr "Gluais na piosai ar clé"
+
+#~ msgid "_Right"
+#~ msgstr "_Deis"
+
+#, fuzzy
+#~ msgid "Move the pieces right"
+#~ msgstr "Gluais na piosai ar deis"
+
+#~ msgid "_Down"
+#~ msgstr "Sí_os"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Gluais na piosai sí_os"
+
+#~ msgid "_2×2"
+#~ msgstr "_2x2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Imir ar chlár 2×2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3x3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Imir ar chlár 3×3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4x4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Imir ar chlár 4×4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5x5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Imir ar chlár 5×5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6x6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Imir ar chlár 6x6"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "Dathanna"
+
+#~ msgid "SIZE"
+#~ msgstr "MÉID"
+
+#, fuzzy
+#~ msgid "Tetravex Scores"
+#~ msgstr "Tetravex"
+
+#~ msgid "Game paused"
+#~ msgstr "Cluiche moillithe"
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Poppy"
+#~ msgstr "Poppy"
+
+#~ msgid "Pansy"
+#~ msgstr "Pansy"
+
+#~ msgid "Trail"
+#~ msgstr "Trail"
+
+#~ msgid "Bone"
+#~ msgstr "Bone"
+
+#~ msgid "Fortune"
+#~ msgstr "Fortune"
+
+#~ msgid "Solomon"
+#~ msgstr "Solomon"
+
+#~ msgid "Shark"
+#~ msgstr "Shark"
+
+#~ msgid "Sunshine"
+#~ msgstr "Sunshine"
+
+#~ msgid "Block 10"
+#~ msgstr "Block 10"
+
+#, fuzzy
+#~ msgid "Level completed."
+#~ msgstr "Leibheal Criochnaithe "
+
+#, fuzzy
+#~ msgid "Klotski Scores"
+#~ msgstr "Scór"
+
+#, fuzzy
+#~ msgid "Puzzle:"
+#~ msgstr "Corcra"
+
+#, fuzzy
+#~ msgid "Moves: %d"
+#~ msgstr "Gluaiseanna"
+
+#, fuzzy
+#~ msgid "Score: %d"
+#~ msgstr "Scór:"
+
+#, fuzzy
+#~ msgid "Field used"
+#~ msgstr "Méid páirce"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "Scór"
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Leagan GNOME (1998):"
+
+#, fuzzy
+#~ msgid "Console version (1992):"
+#~ msgstr "Leagan Curses (1992):"
+
+#, fuzzy
+#~ msgid "Tali Preferences"
+#~ msgstr "Roghnachais GTali"
+
+#, fuzzy
+#~ msgid "_Number of players:"
+#~ msgstr "Uimhir na Miana:"
+
+#, fuzzy
+#~ msgid "N_umber of opponents:"
+#~ msgstr "Uimhir na Miana:"
+
+#~ msgid "Colors"
+#~ msgstr "Dathanna"
+
+#, fuzzy
+#~ msgid "Player Names"
+#~ msgstr "Ainmneach Imreoiri"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Seans [iomlán]"
+
+#, fuzzy
+#~ msgid "5 of a Kind [total]"
+#~ msgstr "Seans [Iomlán]"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#, fuzzy
+#~ msgid "Net_work Game"
+#~ msgstr "Cluiche Nua"
+
+#, fuzzy
+#~ msgid "_Player list"
+#~ msgstr "Imreoiri"
+
+#, fuzzy
+#~ msgid "_Leave Game"
+#~ msgstr "Cluiche Nua"
+
+#~ msgid "Dark:"
+#~ msgstr "Dorcha:"
+
+#~ msgid "Light:"
+#~ msgstr "Geal:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Fáilte go Iagno!"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "Dark's move"
+#~ msgstr "Beart na dubh"
+
+#~ msgid "Light's move"
+#~ msgstr "Beart na bán"
+
+#, fuzzy
+#~ msgid "Light player wins!"
+#~ msgstr "Ta an bua ag an imreoir ban!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Ta an bua ag an imreoir dubh"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Sainroghanna Iagno"
+
+#~ msgid "Animation"
+#~ msgstr "Beochan"
+
+#~ msgid "Complete"
+#~ msgstr "Críochnaithe"
+
+#, fuzzy
+#~ msgid "S_how grid"
+#~ msgstr "Taispeáin greille"
+
+#, fuzzy
+#~ msgid "List of players:"
+#~ msgstr "Uimhir na Miana:"
+
+#~ msgid "_About"
+#~ msgstr "_Maidir Leis Seo"
+
+#, fuzzy
+#~ msgid "_Cancel"
+#~ msgstr "Canfield"
+
+#~ msgid "_Close"
+#~ msgstr "_Dún"
+
+#~ msgid "_OK"
+#~ msgstr "_Tá go Maith"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#, fuzzy
+#~ msgid "There are no more moves."
+#~ msgstr "Níl aon gluaiseann fagtha."
+
+#, fuzzy
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Mahjongg"
+
+#, fuzzy
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Roghnachais Iagno"
+
+#~ msgid "Maps"
+#~ msgstr "Mapaí"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Roghnaigh mapa:"
+
+#~ msgid "Maps:"
+#~ msgstr "Mapaí:"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Gluaiseann Fagtha"
+
+#, fuzzy
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Mahjongg"
+
+#~ msgid "The Ziggurat"
+#~ msgstr "An Siogúrat"
+
+#~ msgid "Four Bridges"
+#~ msgstr "Four Bridges"
+
+#~ msgid "Cloud"
+#~ msgstr "Cloud"
+
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Tic-Tac-Toe"
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "Meán"
+
+#~ msgid "Set the theme"
+#~ msgstr "Socraigh an téama"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Same GNOME"
+
+#, fuzzy
+#~ msgid "Height of the custom board"
+#~ msgstr "Airde na greille"
+
+#, fuzzy
+#~ msgid "The board size"
+#~ msgstr "Méid páirce"
+
+#, fuzzy
+#~ msgid "Same GNOME Scores"
+#~ msgstr "An Gnome Céanna"
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Téama Same GNOME"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Téama..."
+
+#, fuzzy
+#~ msgid "_Fast Animation"
+#~ msgstr "Beochan"

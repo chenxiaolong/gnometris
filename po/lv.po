@@ -1,0 +1,6102 @@
+# translation of lv.po to Latvian
+# gnome-games for Latvian.
+# Copyright (C) 2002, 2006, 2007 Free Software Foundation, Inc.
+#
+# Peteris Krisjanis <peteris.krisjanis@os.lv>, 2002.
+# Raivis Dejus <orvils@gmail.com>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2007-04-01 19:08+0300\n"
+"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Poedit-Language: Latvian\n"
+"X-Poedit-Country: LATVIA\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Pauze"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Spēles beigas"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Salikt krītošos blokus kopā"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "Attēls, ko lietot zīmējot blokus"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "Attēls, ko lietot zīmējot blokus."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "Tēma, kas lietota zīmējot blokus"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Tēmas nosaukums ir lietots bloku un fona attēlu zīmēšanai."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Sākuma līmenis"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Sākuma līmenis."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "Vai lietot fona attēlu"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr "Šis nosaka vai fona attēlu zīmēt virs fona krāsas."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "Fona attēla krāsas"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Fona attēla krāsas, gdk_color parse formāta pazinēja."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "Vai pirmsapskatīt nākamo bloku"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "Vai pirmsapskatīt nākamo bloku."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "Vai pagādāt mērķi"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "Vai pagādāt grafisku attēlojumu, kur bloks nolaidīsies."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "Vai blokiem piešķirt gadījumizvēles krāsas"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "Vai blokiem piešķirt gadījumizvēles krāsas."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "Vai rotēt pretēji pulsteņa rādītāja virzienam"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "Vai rotēt pretēji pulsteņa rādītāja virzienam."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "Aizpildāmo rindu skaits"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "Skaits rindām, kas spēles sākumā aizpildītas ar gadījuma blokiem."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "Blīvums iepriekš aizpildītajās rindās"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Biezums bloku rindaas speelees sakumaa. Vertiibi jabuut starp 0 (nav bloku) "
+"un 10 (pilniigi aizpilditai rindai)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Gājiens pa kreisi"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Taustiņa nospiediens, lai pārvietotos pa kreisi."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Gājiens pa labi"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Taustiņa nospiediens, lai pārvietotos pa labi."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Pārvietotot uz leju"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Taustiņa nospiediens, lai pārvietotu lejup."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Mest"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Taustiņa nospiediens, lai mestu."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "Rotēt"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Taustiņa nospiediens, lai rotētu."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Pauze"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Taustiņa nospiediens, lai nopauzētu."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "Iestatiet sākuma līmeni (1 vai vairak)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "LĪMENIS"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Vienkāršs"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Pieslēgts"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Rezultāts:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Līnijas:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Līmenis:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Spēle"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Uzstādījumi"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Palīdzība"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Gnometris iestatījumi"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Spēle"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Uzstādījumi"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "Iepriekš aizpildīto ri_ndu skaits:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Bloku blīvums iepriekš aizpildītajās rindās:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_Sākuma līmenis:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Darbība"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Aktivizēt skaņu"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_Apskatīt nākamo bloku"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "Lietot gadīj_umizvēles bloka krāsas"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "_Rotēt pretēji pulsteņa rādītāja virzienam"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "Rādīt kur _piezemēsies bloki"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Tēma"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Vadība"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Tastatūras vadība"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Bloka stils"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Raivis Dejus <orvils@gmail.com>\n"
+"Sandra Zabarovska <sandra.zabarovska@gmail.com>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Gnometris rezultāti"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, fuzzy, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "%s: neatpazīts parametrs `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "_Uzstādījumi"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, fuzzy, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "%s: neatpazīts parametrs `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "Uzstādīt spēles konfigurāciju"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Nav taustiņa"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<nospiediet taustiņu>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Nezināma komanda"
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr "Nevar pieslegties"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Laiks"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Rezultāts"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Jauna Spēle"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Vārds"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Apskatīt šīs spēles palīdzību"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "Pārtraukt šībrīža spēli"
+
+#: ../libgames-support/games-stock.c:47
+#, fuzzy
+msgid "Toggle fullscreen mode"
+msgstr "Pamest pilnekrānu"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Palūgt padomu par jūsu nākamo gājienu"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Pamest pilnekrānu"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Sākt jaunu tīkla"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "Beigt pašreizējo tīkla spēli un atgriezties pie servera"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Sākt jaunu spēli"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Iepauzēt spēli"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "Rādīt spēlētāju skaitu tīkla spēlē"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Restaurēt atsaukto darbību"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Pārstartēt spēli"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "Turpināt iepauzēto spēli"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Apskatīt rezultātus"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Atsaukt pēdējo gājienu"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Par šo spēli"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Konfigurēt spēli"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Iziet no spēles"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Saturs"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "Pilnekrāna"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Padoms"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "Jau_ns"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "Jau_na Spēle"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "_Restaurēt darbību"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "Pā_rstartēt"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "Pā_rstartēt"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "Atsa_ukt darbību"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "Iziet no pi_lnekrāna režīma"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "Tīkla _spēle"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "Pames_t spēle"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "Spē_lētāji"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Pauze"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "T_urpināt"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "Re_zultāti"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "B_eigt spēli"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, fuzzy, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s ir brīvās programmatūras produkts; jūs varat izpaltīt un/vai modificēt to "
+"saskanā ar GNU Vispārējās Publiskās Licences 2. vai kādas vēlākas versijas "
+"noteikumiem."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s tiek izplatīts ar cerību, ka tas būs nodserīgs. Tas tiek izplatīts BEZ "
+"jebkādas garantijas vai iekļautas ražotāja atbildības par šo produktu. "
+"Sīkāku informāciju meklējiet GNU Vispārējās Publiskās Licences tekstā."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"GNU Vispārējās Publiskās Licence ir pieejama kopā ar %s instalāciju. Ja tā "
+"jums nav pieejama, jūs to varat iegūt no Free Software Foundation, Inc., 59 "
+"Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#~ msgid "Player Chat"
+#~ msgstr "Spēlētāja tērzēšana"
+
+#~ msgid "Occupied"
+#~ msgstr "Aizņemts"
+
+#~ msgid "Empty"
+#~ msgstr "Tukšs"
+
+#~ msgid "Bot"
+#~ msgstr "Robotprogramma"
+
+#~ msgid "Reserved"
+#~ msgstr "Aizņemts"
+
+#~ msgid "Abandoned"
+#~ msgstr "Pamests"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "Skatītājs"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Statuss"
+
+#~ msgid "Player List"
+#~ msgstr "Spēlētāju saraksts"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Boot player"
+#~ msgstr "Patriekt spelētāju"
+
+#~ msgid "Sit here"
+#~ msgstr "Sēdiet te"
+
+#~ msgid "Move here"
+#~ msgstr "Ejiet te"
+
+#~ msgid "Play with bot"
+#~ msgstr "Spelēt ar botu"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Atcelt rezervāciju"
+
+#~ msgid "Remove bot"
+#~ msgstr "Aizvākt botu"
+
+#~ msgid "X Padding"
+#~ msgstr "X Polsterējums"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Papildus telpa, ko pievienot izvēletajam platumam."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Papildus telpa, ko pievienot izvēletajam augstumam."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Platuma ierobežojums"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "Dubultais platums, kas ierobežotu platumu."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Augstuma ierobežojums"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "Dubultais augstums, kas ierobežotu augstumu."
+
+#~ msgid "X align"
+#~ msgstr "X centrēšana"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Horizontālais izlīdzinājums no 0 (pa kreisi) līdz 1 (pa labi)"
+
+#~ msgid "Y align"
+#~ msgstr "Y centrēšana"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Vertikālā centrēšana, no 0 (augšas) līdz 1 (apakšai)"
+
+#~ msgid ""
+#~ "A comma seperated list of recently played games. The filenames are stored "
+#~ "here, not the actual game name."
+#~ msgstr ""
+#~ "Ar komatu atdalīts nesen spēlēto spēļu saraksts. Šeit jānorāda failu "
+#~ "nevis spēļu nosaukumi."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Saraksts ar rindām, kuras nāk pa pieciniekiem: vārds, uzvaras, pavisam "
+#~ "spēlētās spēles, labākais laiks (sekundēs) un sliktākais laiks (arī "
+#~ "sekundēs). Nespēlētās spēles nav nepieciešams atspoguļot."
+
+#~ msgid "Recently Played Games"
+#~ msgstr "Nesen spēlētās spēles"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Izvelieties vadības stilu"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Izvēlieties vai pārvilksiet kārtis, vai arī klikšķināsiet no sākuma uz "
+#~ "vienas un tad uz otras kārts."
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Spēlēto spēļu statistika"
+
+#~ msgid "The game file to use"
+#~ msgstr "Izmantojamā spēles faila nosaukums"
+
+#~ msgid "The height of the main window."
+#~ msgstr "Galvenā loga augstums."
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Kāršu grafiku saturošā faila nosaukums."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Shēmas faila nosaukums, kas satur spēlējamo solitaire spēli."
+
+#~ msgid "The width of the main window."
+#~ msgstr "Galvenā loga platums."
+
+#~ msgid "Theme file name"
+#~ msgstr "Tēmas faila nosaukums"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Rādīt vai nerādīt rīkjoslu"
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Rādīt vai nerādīt rīkjoslu."
+
+#~ msgid "Window height"
+#~ msgstr "Loga augstums"
+
+#~ msgid "Window width"
+#~ msgstr "Loga platums"
+
+#~ msgid ""
+#~ "A scheme exception occurred and we were unable to create a temporary file "
+#~ "to report it:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Radusies shēma kļūdā un mēs nevarējām izveidot pagaidu failu lai to "
+#~ "noziņotu:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Congratulations!!!"
+#~ msgstr "Apsveicu!!!"
+
+#~ msgid "You have won."
+#~ msgstr "Jūs uzvarējāt."
+
+#~ msgid "There are no more moves."
+#~ msgstr "Vairs nav gājienu."
+
+#~ msgid "Select Game"
+#~ msgstr "Izvēlieties Spēli"
+
+#~ msgid ""
+#~ "The game is over.\n"
+#~ "No hints are available"
+#~ msgstr ""
+#~ "Spēle ir beigusies.\n"
+#~ "Nekādi padomi nav pieejami"
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Šai spēlei vēl nav padomu atbalsta."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Pārvietot %s uz %s."
+
+#~ msgid "Move %s %s."
+#~ msgstr "Pārvietot %s %s."
+
+#~ msgid ""
+#~ "This game uses a deprecated hint method (case 3).\n"
+#~ "Please file a bug at http://bugzilla.gnome.org including this message "
+#~ "and\n"
+#~ "the name of the game you where playing (look in the title bar if you \n"
+#~ "aren't sure)."
+#~ msgstr ""
+#~ "Šī spēle izmanto novecojušu priekšā teikšanas metodi (3. gadījums).\n"
+#~ "Lūdzu noziņojiet kļūdu sekojošajā datubāzā http://bugzilla.gnome.org "
+#~ "iekļaujot šo ziņojumu un \n"
+#~ "spēles, kuru spēlējāt, nosaukumu (ja par nosaukumu nav pārliecības - "
+#~ "apskatiet loga virsrakstu)."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Jūs meklējat %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Šī spēle nevar piedāvāt padomu."
+
+#~ msgid "AisleRiot Cards"
+#~ msgstr "AisleRiot Kārtis"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "FreeCell Solitaire"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Spēlēt populāro FreeCell kāršu spēli"
+
+#~ msgid "Main game:"
+#~ msgstr "Galvenā spēle:"
+
+#~ msgid "Card games:"
+#~ msgstr "Kāršu spēles:"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire\n"
+#~ "card engine that allows many different\n"
+#~ "games to be played."
+#~ msgstr ""
+#~ "AisleRiot piedāvā uz noteikumiem bāzētu solitaire\n"
+#~ "kāršu spēli, kas piedāvā dazādus grūtības līmeņus,\n"
+#~ "ko spēlēt."
+
+#~ msgid "_View"
+#~ msgstr "Skatīt"
+
+#~ msgid "_Control"
+#~ msgstr "Vadība"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Pārstartēt pašreizējo spēli"
+
+#~ msgid "_Select Game..."
+#~ msgstr "Izvēlieties _Spēli..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Spēlēt citu spēli"
+
+#~ msgid "Recently _Played"
+#~ msgstr "Nesen s_pēlētās"
+
+#~ msgid "S_tatistics"
+#~ msgstr "S_tatistika"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Rādīt spēles statistiku"
+
+#~ msgid "_Cards..."
+#~ msgstr "Kārtis..."
+
+#~ msgid "Redo the last move"
+#~ msgstr "Atkārtot pēdējo gājienu"
+
+#~ msgid "Show a hint"
+#~ msgstr "Parādīt padomu"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Rādīt Aisleriot palīdzību"
+
+#~ msgid "_Toolbar"
+#~ msgstr "Parādī_t rīkjoslu"
+
+#~ msgid "_Click to Move"
+#~ msgstr "Nospiediet, lai pārvietotos"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Pamatkārts: Dūzis"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Pamatkārts: Kalps"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Pamatkārts: Karalis"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Pamatkārts: Dāma"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Pamatkārts: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Izdalīt papildus kārtis"
+
+#~ msgid "Stock left:"
+#~ msgstr "Krāvumā atlicis:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Krāvumā atlicis: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Mēģiniet pārkārtot kārtis"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "tukša pamata kaudze"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Izdalīt jaunu kārti no kavas"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Patlaban nav pieejams neviens padoms"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Atlikušās pārdalīšanas:"
+
+#~ msgid "Three card deals"
+#~ msgstr "Trīs kāršu dalījumi"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Mēģiniet pārvietot kārtis lejup no pamata"
+
+#~ msgid "an empty slot"
+#~ msgstr "tukša vieta"
+
+#~ msgid "Deal another round"
+#~ msgstr "Izdalīt vēlreiz"
+
+#~ msgid "an empty foundation"
+#~ msgstr "tukšs pamats"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Novietojiet kaut ko tukšajā rezervē"
+
+#~ msgid "an empty tableau"
+#~ msgstr "tukšs galds"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "tukša apakšējā vieta"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "tukša stūra vieta"
+
+#~ msgid "an empty left slot"
+#~ msgstr "tukša kreisā vieta"
+
+#~ msgid "an empty right slot"
+#~ msgstr "tukša labā vieta"
+
+#~ msgid "an empty top slot"
+#~ msgstr "tukša augšējā vieta"
+
+#~ msgid "itself"
+#~ msgstr "tas pats"
+
+#~ msgid "Base Card: "
+#~ msgstr "Pamatkārts: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Pārvietot izlietotās atpakaļ uz krājumu"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Atlicis rezervē:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "tukša vieta pamatā"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "tukša vieta uz galda"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Pārvietot kārti uz pamatu"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Novieto kaut ko tukšajā vitā uz galda"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Konsekvence ir pamatjēga"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "No makšķerauklas nesanāk labs zobu diegs"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Vai tu izlasiji palīdzības failu?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Man tagad vajadzētu muguras masāžu..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Ja kādreiz apmaldies un esi viens pats mežā, apkamp koku"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Tikai tāpēc ka gājēju pāreja izskatās kā 'klasītes', nenozīmē, ka tāda tā "
+#~ "arī ir"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Paskaties abos virzienos pirms šķērso ielu"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Monitori tev nedos vitamīnu D - bet saule gan..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Nekad nepūt sunim ausī"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa ir labāka spēle. Patiešām."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Žņaugi netiek rekomendēti, ja vien tie nav neatlikami gadījumi"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Kad nav skavu pistoles, jāiztiek ar skavu un lineālu"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Atlikušās kārtis: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Pārdalīt."
+
+#~ msgid "the foundation pile"
+#~ msgstr "pamata kaudze"
+
+#~ msgid "Deal a card"
+#~ msgstr "Izdalīt kārti"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Pārvietot ~a uz tukšu pamatu"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "tukša vieta uz galda"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Pārvietot karali uz tukšo vietu uz galda"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Nav pārliecības"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Novākt dūžus"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Novākt astotniekus"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Novākt pieciniekus"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Novākt četrniekus"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Novākt kalpus"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Novākt karaļus"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Novākt devītniekus"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Novākt dāmas"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Novākt septītniekus"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Novākt sešiniekus"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Novākt desmitniekus"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Novākt trīniekus"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Novākt divniekus"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Atgriezt kārtis krāvumā"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Lūdzu ievieto kaut ko tukšajā vietā"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Novākt ~a no dēļa"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Neviens gājiens nav iespējams. atsauciet tos vai sāciet no jauna."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Spēlei nav atrisinajuma. Atsauciet vai sāciet no jauna."
+
+#~ msgid "an empty reserve"
+#~ msgstr "tukša rezerve"
+
+#~ msgid "an open tableau"
+#~ msgstr "atvērts galds"
+
+#~ msgid "the foundation"
+#~ msgstr "pamats"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Pievienot ~a rindas galā."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Uzspiediet dubultklikšķi uz jebkuras kārts, lai pārdalītu."
+
+#~ msgid "No hint available."
+#~ msgstr "Nav pieejams neviens padoms."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Ievietojiet divi pašā kreisajā ~a rindas vietā."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Novietojiet ~a blakus ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Nejauši izliktas atstarpes pie pārdales"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Pārvietojiet kārti no rezerves uz tukšo vietu uz galda"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Izvēlieties kārti no rezerves pirmajai pamata kaudzei"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "uz tukšo vietu uz galda"
+
+#~ msgid "Deal another card"
+#~ msgstr "Izdalīt citu kārti"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Krāvumā atlicis: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Izdalīt citas kārtis"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Pārvietot kārti vai saliktās kārtis uz tukšo vietu"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Pārvietot kārti no izlietotajām"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Pārvietot izlietotās uz kavu"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "tukša galda vieta"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Izdalīt jaunu kārti"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Krāvumā atlicis: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Bez pārdales"
+
+#~ msgid "Single card deals"
+#~ msgstr "Viena masta kārtis"
+
+#~ msgid "Base Card:"
+#~ msgstr "Pamatkārts:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Mērķēt lai izvietotu mastus tādā kārtībā, kāda šībrīža izklājumam ir "
+#~ "visdabiskākā."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Izdalīt jaunas kārtis no kavas"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Atlikušās pārdalīšanas: ~a"
+
+#~ msgid "something"
+#~ msgstr "kautkas"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Pārvietot ~a no kavas uz tukšu malu vai galda vietu"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Pārvietot ~a uz tukšu lauku"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Likt kārtis uz galdiņa, lai izveidotu pokera rokās esošās kārtis"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Sajaukšanas režīms"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "tukša galda kaudze"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Izdalīt kārtis"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Pārjaukt kārtis"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Pārvietot izlietotas atpakaļ uz rezerves vietu"
+
+#~ msgid "empty foundation"
+#~ msgstr "tukšs pamats"
+
+#~ msgid "Four Suits"
+#~ msgstr "Četras kārtis"
+
+#~ msgid "One Suit"
+#~ msgstr "Vienu kārti"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Novieto kaut ko tukšajā vietā"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Lūdzu aizpildiet tukšo kaudzīti vispirms."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Mēģiniet pārvietot kāršu čupiņas"
+
+#~ msgid "Two Suits"
+#~ msgstr "Divu zirnekļu komplekts"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Atļaut pagaidu vietas izmantošanu"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Pārvietot kārti uz tukšu pagaidu vietu"
+
+#~ msgid "No hint available"
+#~ msgstr "Neviens padoms nav pieejams"
+
+#~ msgid "and all cards below it"
+#~ msgstr "un visas kārtis zem tās"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "tukša(s) vieta(s)"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Izdalīt kārti no kavas"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Salikt divas augšējās kārtis no izlietotajām."
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "atbilstoša pamata kaudze"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Pārvietot kāršu krāvumu uz tukšu vietu uz galda"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "atbilstošā Pamata kaudze"
+
+#~ msgid ""
+#~ "Aisleriot can't load the file: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Aisleriot installation"
+#~ msgstr ""
+#~ "Aisleriot nevar ielādēt failu: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet savu Aisleriot instalāciju"
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Aisleroit nevar atrast pēdējo jūsu spēlēto spēli."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Parasti šādi notiek, ja tiek palaista vecāka Aisleriot versija, kurā nav "
+#~ "spēles, ko jūs pēdējo spēlējāt. Tā vietā tiek palaista noklusētā spēle "
+#~ "Klondaika."
+
+#~ msgid "Aisleriot"
+#~ msgstr "Aisleriot"
+
+#~ msgid "Time:"
+#~ msgstr "Laiks:"
+
+#~ msgid "Select the game to play"
+#~ msgstr "Izvēlieties spelejamo spēli"
+
+#~ msgid "NAME"
+#~ msgstr "VĀRDS"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot Solitaire"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Spēlē daudz dažādas solitaire spēles"
+
+#~ msgid "Unknown color"
+#~ msgstr "Nezināma krāsa"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Nezināms komplekts"
+
+#~ msgid "Unknown value"
+#~ msgstr "Nezināma vērtība"
+
+#~ msgid "ace"
+#~ msgstr "dūzis"
+
+#~ msgid "black joker"
+#~ msgstr "melns džokeris"
+
+#~ msgid "clubs"
+#~ msgstr "kreiči"
+
+#~ msgid "diamonds"
+#~ msgstr "kāravi"
+
+#~ msgid "eight"
+#~ msgstr "astoņi"
+
+#~ msgid "five"
+#~ msgstr "pieci"
+
+#~ msgid "four"
+#~ msgstr "četri"
+
+#~ msgid "hearts"
+#~ msgstr "erceni"
+
+#~ msgid "jack"
+#~ msgstr "kalps"
+
+#~ msgid "king"
+#~ msgstr "karalis"
+
+#~ msgid "nine"
+#~ msgstr "deviņi"
+
+#~ msgid "queen"
+#~ msgstr "dāma"
+
+#~ msgid "red joker"
+#~ msgstr "sarkans džokeris"
+
+#~ msgid "seven"
+#~ msgstr "septiņi"
+
+#~ msgid "six"
+#~ msgstr "seši"
+
+#~ msgid "spades"
+#~ msgstr "pīķi"
+
+#~ msgid "ten"
+#~ msgstr "desmit"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "kreiča dūzis"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "kārava dūzis"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "ercena dūzis"
+
+#~ msgid "the ace of spades"
+#~ msgstr "pīķa dūzis"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "kreiča astotnieks"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "kārava astoņnieks"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "ercena astoņnieks"
+
+#~ msgid "the eight of spades"
+#~ msgstr "pīķa astoņnieks"
+
+#~ msgid "the five of clubs"
+#~ msgstr "kreiča piecinieks"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "kārava piecinieks"
+
+#~ msgid "the five of hearts"
+#~ msgstr "ercena piecinieks"
+
+#~ msgid "the five of spades"
+#~ msgstr "pīķa piecinieks"
+
+#~ msgid "the four of clubs"
+#~ msgstr "kreiča četrinieks"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "kārava četrinieks"
+
+#~ msgid "the four of hearts"
+#~ msgstr "ercena četrinieks"
+
+#~ msgid "the four of spades"
+#~ msgstr "pīķa četrinieks"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "kreiča kalps"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "kārava kalps"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "ercena kalps"
+
+#~ msgid "the jack of spades"
+#~ msgstr "pīķa kalps"
+
+#~ msgid "the king of clubs"
+#~ msgstr "kreiča karalis"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "kārava karalis"
+
+#~ msgid "the king of hearts"
+#~ msgstr "ercena karalis"
+
+#~ msgid "the king of spades"
+#~ msgstr "pīķa karalis"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "kreiča devītnieks"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "kārava devītnieks"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "ercena devītnieks"
+
+#~ msgid "the nine of spades"
+#~ msgstr "pīķa devītnieks"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "kreiča dāma"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "kārava dāma"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "ercena dāma"
+
+#~ msgid "the queen of spades"
+#~ msgstr "pīķa dāma"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "kreiča septītnieks"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "kārava septītnieks"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "ercena septītnieks"
+
+#~ msgid "the seven of spades"
+#~ msgstr "pīķa septītnieks"
+
+#~ msgid "the six of clubs"
+#~ msgstr "kreiča sešinieks"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "kārava sešinieks"
+
+#~ msgid "the six of hearts"
+#~ msgstr "ercena sešinieks"
+
+#~ msgid "the six of spades"
+#~ msgstr "pīķa sešinieks"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "kreiča desmitnieks"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "kārava desmitnieks"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "ercena desmitnieks"
+
+#~ msgid "the ten of spades"
+#~ msgstr "pīķa desmitnieks"
+
+#~ msgid "the three of clubs"
+#~ msgstr "kreiča trijnieks"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "kārava trijnieks"
+
+#~ msgid "the three of hearts"
+#~ msgstr "ercena trijnieks"
+
+#~ msgid "the three of spades"
+#~ msgstr "pīķa trijnieks"
+
+#~ msgid "the two of clubs"
+#~ msgstr "kreiča divnieks"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "kārava divnieks"
+
+#~ msgid "the two of hearts"
+#~ msgstr "ercena divnieks"
+
+#~ msgid "the two of spades"
+#~ msgstr "pīķa divnieks"
+
+#~ msgid "the unknown card"
+#~ msgstr "nezināmā kārts"
+
+#~ msgid "three"
+#~ msgstr "trīs"
+
+#~ msgid "two"
+#~ msgstr "divi"
+
+#~ msgid "N/A"
+#~ msgstr "N/P"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "<b>Time</b>"
+#~ msgstr "<b>Laiks</b>"
+
+#~ msgid "<b>Wins</b>"
+#~ msgstr "<b>Uzvaras</b>"
+
+#~ msgid "Best:"
+#~ msgstr "Lābākais:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Procenti:"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistika"
+
+#~ msgid "Total:"
+#~ msgstr "Kopā:"
+
+#~ msgid "Wins:"
+#~ msgstr "Uzvaras:"
+
+#~ msgid "Worst:"
+#~ msgstr "Vissliktākais:"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Marijas tante"
+
+#~ msgid "Backbone"
+#~ msgstr "Mugurkauls"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Banķiera ducis"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Banķiera spēle"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Aplenktā pils"
+
+#~ msgid "Block Ten"
+#~ msgstr "Bloķēt desmit"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristole"
+
+#~ msgid "Camelot"
+#~ msgstr "Kamelota"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Carpet"
+#~ msgstr "Paklājs"
+
+#~ msgid "Chessboard"
+#~ msgstr "Šaha galdiņš"
+
+#~ msgid "Clock"
+#~ msgstr "Pulkstenis"
+
+#~ msgid "Cover"
+#~ msgstr "Vāks"
+
+#~ msgid "Cruel"
+#~ msgstr "Cietsirdīgs"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Dimantu šahta"
+
+#~ msgid "Doublets"
+#~ msgstr "Dublikāti"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Ērgļa spārns"
+
+#~ msgid "Easthaven"
+#~ msgstr "Austrumdebesis"
+
+#~ msgid "Eight Off"
+#~ msgstr "Astoņi nost"
+
+#~ msgid "Elevator"
+#~ msgstr "Lifts"
+
+#~ msgid "Escalator"
+#~ msgstr "Eskalators"
+
+#~ msgid "First Law"
+#~ msgstr "Pirmais likums"
+
+#~ msgid "Fortress"
+#~ msgstr "Cietoksnis"
+
+#~ msgid "Fortunes"
+#~ msgstr "Laimes"
+
+#~ msgid "Fourteen"
+#~ msgstr "Četrpatsmit"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Gaps"
+#~ msgstr "Caurumi"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gaja Gordona"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenvuda"
+
+#~ msgid "Golf"
+#~ msgstr "Golfs"
+
+#~ msgid "Gypsy"
+#~ msgstr "Čigāns"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Klasītes"
+
+#~ msgid "Isabel"
+#~ msgstr "Izabella"
+
+#~ msgid "Jamestown"
+#~ msgstr "Džeimstauna"
+
+#~ msgid "Jumbo"
+#~ msgstr "Džumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kanzasa"
+
+#~ msgid "King Albert"
+#~ msgstr "Karalis Alberts"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Audience pie karaļa"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondaika"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labirints"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lēdija Džeina"
+
+#~ msgid "Maze"
+#~ msgstr "Mudžeklis"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Karlo"
+
+#~ msgid "Neighbor"
+#~ msgstr "Kaimiņš"
+
+#~ msgid "Odessa"
+#~ msgstr "Odesa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmosis"
+
+#~ msgid "Peek"
+#~ msgstr "Palūrēšana"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileons"
+
+#~ msgid "Plait"
+#~ msgstr "Pīne"
+
+#~ msgid "Poker"
+#~ msgstr "Pokers"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze (četrpadsmit)"
+
+#~ msgid "Royal East"
+#~ msgstr "Karaliskie Austrumi"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Scorpion"
+#~ msgstr "Skorpions"
+
+#~ msgid "Scuffle"
+#~ msgstr "Kautiņš"
+
+#~ msgid "Seahaven"
+#~ msgstr "Jūras debesis"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sers Tomijs"
+
+#~ msgid "Spider"
+#~ msgstr "Zirneklis"
+
+#~ msgid "Spiderette"
+#~ msgstr "Zirneklītis"
+
+#~ msgid "Straight Up"
+#~ msgstr "Taisni augšup"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Ielas un alejas"
+
+#~ msgid "Template"
+#~ msgstr "Paraugs"
+
+#~ msgid "Ten Across"
+#~ msgstr "Desmit šķērsām"
+
+#~ msgid "Thieves"
+#~ msgstr "Zagļi"
+
+#~ msgid "Thirteen"
+#~ msgstr "Trīspatsmit"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Pāršķir un liec"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Trīskāršas virsotnes"
+
+#~ msgid "Union Square"
+#~ msgstr "Vienības laukums"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentīns"
+
+#~ msgid "Westhaven"
+#~ msgstr "Rietumdebesis"
+
+#~ msgid "Whitehead"
+#~ msgstr "Baltgalva"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Vējš vītolos"
+
+#~ msgid "Yield"
+#~ msgstr "Raža"
+
+#~ msgid "Yukon"
+#~ msgstr "Jukona"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Blackjack"
+#~ msgstr "Acīte (Blackjack)"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Spēlēt kazino kāršu spēli Acīte (Blackjack)"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Parādīt varbūtību"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Parādīt iespējamības katra dalītāja rokā esošo kāršu iznākumus un gaidāmo "
+#~ "jūsu rokā esošo kāršu vērtību."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Nekad neņemt apdrošināšanu"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Nekad neņemt apdrošināšanu, ja dalītājs rāda dūzi."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Naudas daudzums jūsu bankā"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Naudas daudzums jūsu bankā."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr ""
+#~ "Noteikumu faila, kas satur to noteikumu variāciju, ko spēlēt, nosaukums."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Noteikumu variācijas fails, ko lietot"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Izmantot ātro dalīšanu"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Izmantot ātro dalīšnau bez aiztures pēc katras kārts."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Acīte - %s"
+
+#~ msgid "D_eal"
+#~ msgstr "_Dalīt"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Izdalīt jaunu spēli"
+
+#~ msgid "_Hit"
+#~ msgstr "S_ist"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Izdalīt kārti no kavas"
+
+#~ msgid "_Stand"
+#~ msgstr "Att_urēties"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr " Pārstāt dot kārtis uz rokas"
+
+#~ msgid "S_urrender"
+#~ msgstr "Padotie_s"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Izlaist šo gājienu par pusi jūsu likmes"
+
+#~ msgid "_Double down"
+#~ msgstr "_Dubultot lejup"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Dubultot jūsu likmi vienam gājienam"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "Sadalīt rokā esošās kārtis"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Sadalīt kārtis divās kavās"
+
+#~ msgid "Show toolbar"
+#~ msgstr "Parādīt rīkjoslu"
+
+#~ msgid "Cards left:"
+#~ msgstr "Atlikušās kārtis:"
+
+#~ msgid "Wager:"
+#~ msgstr "Derības:"
+
+#~ msgid "Balance:"
+#~ msgstr "Balanss:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Likt likmi vai dalīt jaunas kārtis \"uz rokas\""
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Acītes noteikumu kopums, ko lietot"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Vai jūs vēlaties izmantot apdrošināšanu?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Apdrošināšana ir 50%% no sākotnējās likmes uz to, ka dalītājam ir dabisks "
+#~ "21 (aka acīte), kas tiek piedāvāta, kad dalītāja kārts ar attēlu uz augšu "
+#~ "ir dūzis. Ja dalītājam ir dabisks 21, tad spēlētājam tiek maksāts dubultā."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "Uzstādiet savu likmi un uzklikšķiniet uz baltā rāmīša, lai izdalītu "
+#~ "jaunas kārtis uz rokas."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr ""
+#~ "Nosakiet savu likmi un noklikšķiniet uz kārtīm, lai izdalītu jaunu "
+#~ "partiju."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Acītes iestatījumi"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "_Parādīt izvēļu iespējamības"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "Ā_trā dalīšana(nav aiztures starp katru kārti)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "_Nekad neņemt apdrošināšanu"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "Pā_rstartēt balansu"
+
+#~ msgid "Rules"
+#~ msgstr "Noteikumi"
+
+#~ msgid "Decks"
+#~ msgstr "Kavas"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "Hit Soft 17"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Dubultot jebkuru summu"
+
+#~ msgid "Double 9"
+#~ msgstr "Dubulti 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "Double Soft"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Dubultot pēc vēl"
+
+#~ msgid "Double After Split"
+#~ msgstr "Dubultot pēc sadalīšanas"
+
+#~ msgid "Resplit"
+#~ msgstr "Pārdalīt"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Pārdalīt dūžus"
+
+#~ msgid "Surrender"
+#~ msgstr "Padoties"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Dalītāja ātrums"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Nospiediet lai dubultotu jūsu likmi"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Uzklikšķiniet dubultklikšķi, lai palielinātu likmi par %.2f"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Uzklikšķiniet dubultklikšķi, lai samazinātu likmi par %.2f"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr ""
+#~ "Uzklikšķināt, lai izdalītu vēl vienu kārti; vilkt kārti, lai sadalītu pāri"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Klikšķini, lai zdalītu vēl vienu kārti"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Uzklikšķināt, lai beigtu pievienot kārtis tām, kas jau rokā"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Uzklikšķiniet, lai izdalītu jaunas kārtis \"uz rokas\""
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Acīte (Blackjack) nevar ielādēt nepieciešamo failu"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Lūdzu pārbaudiet savu Acītes (Blackjack) instalāciju"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Labākā iespēja ir atturēties"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Stāt nozīmē pārstāt pievienot kārtis pie tām, kas jau rokā. To var "
+#~ "izdarīt uzklikšķinot uz dalītāja kārtīm vai izvēloties šo iespēju no "
+#~ "Vadības izvēlnes."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Labākā izvēle  ir ņemt vēl"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Ņemt vēl nozīmē pievienot vēlvienu kārti tām, kas jau rokā. To var "
+#~ "izdarīt vienreiz uzklikšķinot uz savām kārtīm vai izvēloties šo iespēju "
+#~ "no Vadības izvēlnes."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "Labākā izvēle ir dubultot nost"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Dubultot nost nozīmē dubultot sākotnējo likmi un saņemt tieši vēl vienu "
+#~ "kārti. To var izdarīt vienreiz uzklikšķinot uz ripiņām loga apakšā vai "
+#~ "izvēloties šo iespēju no Vadības izvēlnes."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Labākā izvēle ir dalīt"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Dalīt nozīmē sadalīt pašreiz rokā esošās kārtis divās atsevišķās rokās. "
+#~ "To var izdarīt aizvelkot vienu no savām kārtīm un nometot nost sānis vai "
+#~ "izvēloties šo iespēju no Vadības izvēlnes."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Labākā iespēja ir padoties"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Padoties nozīmē atdot pusi likmes un nepabeigt rokā esošās kārtis. To var "
+#~ "izdarīt izvēloties šo opciju no Vadības izvēlnes."
+
+#~ msgid "Blackjack is a casino-style card game."
+#~ msgstr "Acīte ir kazino tipa kāršu spēle."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Skaitļo pamatstratēģiju..."
+
+#~ msgid "Bust"
+#~ msgstr "Bust"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Acīte!"
+
+#~ msgid "Soft"
+#~ msgstr "Soft"
+
+#~ msgid "Win"
+#~ msgstr "Uzvara"
+
+#~ msgid "Push"
+#~ msgstr "Grūdiens"
+
+#~ msgid "Lose"
+#~ msgstr "Zaudējāt"
+
+#~ msgid "Player expected values"
+#~ msgstr "Gaidāmās spēlētāja vērtības"
+
+#~ msgid "Stand"
+#~ msgstr "Atturēties"
+
+#~ msgid "Hit"
+#~ msgstr "Sist"
+
+#~ msgid "Double"
+#~ msgstr "Dubults"
+
+#~ msgid "Split"
+#~ msgstr "Sadalīt"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Dalītāja rokā esošo kāršu iespējamības"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Kļūda pieslēdzoties serverim: %s"
+
+#~ msgid "Error"
+#~ msgstr "Kļūda"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Jūsu jaunā parole ir %s"
+
+#~ msgid "New password"
+#~ msgstr "Jaunā parole"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Spēlētaji serverī: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Pašreizējā istaba: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Jūs esat pievienojies istabai \"%s\"."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Kļūda pievienojoties istabai: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ Gaming Zone"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Jūs nevarat tērzēt, pirms neesat pievienojies istabai."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Jums nav atļaujas tērzēt šeit."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Pie galda privāta tērzešana nav atļauta!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Spēlētājs nav istabā!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Atgadījās kļūda nosūtot tērzešanas zinojumu."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Jūs neesat pie galda."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Tērzēšana neizdevās: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "Kļūda palaizot galdu: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Jūs esat pievienojies galdam %d."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Kļūda pievienojoties galdam: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "%s ir patriecis jūs no galdsa."
+
+#~ msgid "You have left the table."
+#~ msgstr "jūs esat pametis galdu."
+
+#~ msgid "The game is over."
+#~ msgstr "Spēle ir beigusies."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "Notikusi kļūda ar spēles serveri."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Kļūda pametot galdu: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Pašreizejā istaba:"
+
+#~ msgid "**none**"
+#~ msgstr "**neviena**"
+
+#~ msgid "Offline"
+#~ msgstr "Bezsaistē"
+
+#~ msgid "Connecting"
+#~ msgstr "Pieslēdzas"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Pieslēdzas atkārtoti"
+
+#~ msgid "Online"
+#~ msgstr "Tiešsaistē"
+
+#~ msgid "Logging In"
+#~ msgstr "Reģistrējos"
+
+#~ msgid "Logged In"
+#~ msgstr "Reģistrēts"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Istaba"
+
+#~ msgid "Chatting"
+#~ msgstr "Tērzēšana"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Galds"
+
+#~ msgid "Playing"
+#~ msgstr "Spēlēju"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Galds"
+
+#~ msgid "Logging Out"
+#~ msgstr "Izreģistrējos"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Servera kļūda: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Atvienots no servera."
+
+#~ msgid "Login"
+#~ msgstr "Pieteikšanās"
+
+#~ msgid "Sorry!"
+#~ msgstr "Atvainojiet!"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Šis lietotājvārds jau tiek izmantots."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Autentifikācija nav izdevusies.\n"
+#~ "Lūdzu norādiet derīgu paroli."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Lietotajvards ir pārak garš!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Nederīgs lietotajvārds, nedrīkst izmantot specialos simbolus!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Reģistrācija nav izdevusies, iemesls nav zināms: %s"
+
+#~ msgid "Server Profile"
+#~ msgstr "Servera profils"
+
+#~ msgid "Profile:"
+#~ msgstr "Profils:"
+
+#~ msgid "Edit Profiles..."
+#~ msgstr "Redigēt profilus..."
+
+#~ msgid "Server:"
+#~ msgstr "Serveris:"
+
+#~ msgid "Port:"
+#~ msgstr "Ports:"
+
+#~ msgid "Username:"
+#~ msgstr "Lietotājvārds:"
+
+#~ msgid "Password:"
+#~ msgstr "Parole:"
+
+#~ msgid "Email:"
+#~ msgstr "Epasts:"
+
+#~ msgid "Normal Login"
+#~ msgstr "Normala pieteikšanās"
+
+#~ msgid "Guest Login"
+#~ msgstr "Viesa pieteikšanās"
+
+#~ msgid "First-time Login"
+#~ msgstr "Pirmās reizes pieteikšanās"
+
+#~ msgid "Connect"
+#~ msgstr "Pieslēgties"
+
+#~ msgid "Wizard"
+#~ msgstr "Vednis"
+
+#~ msgid "Deity"
+#~ msgstr "Deity"
+
+#~ msgid "Sentinel"
+#~ msgstr "Sargs"
+
+#~ msgid "Captain"
+#~ msgstr "Kapteinis"
+
+#~ msgid "Knight"
+#~ msgstr "Bruninieks"
+
+#~ msgid "Angel"
+#~ msgstr "Enģelis"
+
+#~ msgid "Silverlord"
+#~ msgstr "Sudrablords"
+
+#~ msgid "Eagle"
+#~ msgstr "Ērglis"
+
+#~ msgid "Vampire"
+#~ msgstr "Vampīrs"
+
+#~ msgid "Chief"
+#~ msgstr "Šefpavārs"
+
+#~ msgid "Colonel"
+#~ msgstr "Colonel"
+
+#~ msgid "General"
+#~ msgstr "Vispārīgi"
+
+#~ msgid "Major"
+#~ msgstr "Majors"
+
+#~ msgid "Scout"
+#~ msgstr "Skauts"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Leitnants"
+
+#~ msgid "Stalker"
+#~ msgstr "Stalkeris"
+
+#~ msgid "Scientist"
+#~ msgstr "Zinātnieks"
+
+#~ msgid "Scholar"
+#~ msgstr "Zinātnieks"
+
+#~ msgid "Entity"
+#~ msgstr "Entītija"
+
+#~ msgid "Creator"
+#~ msgstr "Veidotājs"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ Community (ātrā)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Vietējais izstrādātāju serveris"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Šī ir pirmā reize, kad jūs darbinat GTK+ GGZ Gaming Zone klientu. Vai "
+#~ "vēlaties izveidot nokluseto servera profilu?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <lietotājvārds> <zinojums> . Privātais zinojums spēlētājam"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <zinojums> .......... Zinojums jūsu galdiņam"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <ziņojums> ........... Administratora komanda"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <lietotajvārds> .......... Signals spēlētajam"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... Iegūt palīdzību"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. Jūsu draugu saraksts"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... Ignorējamo spēlētāju saraksts"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <lietotajvārds> .......... Patriekt spēlētaju no istabas"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr ""
+#~ "/gag <lietotājvārds> ........... Aizbāzt spēlētajam muti, lai tas nerunātu"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <lietotajvārds> ......... Atceļ mutes aizbāsanu un ļauj spēlētājam "
+#~ "runāt"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <lietotajvārds> ........... Izbanot spelētāju no servera"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Jūs esat saņemis nezināmu ziņojumu no %s."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "%s sūta jums signālu."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Izmantojums: /msg <lietotājvārds > <ziņojums>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Sūta privātus ziņojumus citiem tīkla lietotājiem."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Signāls nosūtīts %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (reģistrējies)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (nav reģistrējies)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Tērzēšanas komandas"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <darbība> .............. Nosūta darbību"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s pievienots jūsus draugu sarakstam."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s ir izņemts no jūsu draugu saraksta."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s ir pievienots ignorēto lietotāju sarakstam."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s ir noņemts no ignorēto lietotāju saraksta."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Jūsu pašreizējie draugi"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Pašreiz ignorējamie cilvēki"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Vairākas atbilstības:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Šī spēle jums nav uzstādīta. Jūs varat lejupielādēt to no\n"
+#~ "%s."
+
+#~ msgid "Launch Error"
+#~ msgstr "Palaišanas kļūda"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Neizdevās palaist spēles moduli.\n"
+#~ " Palaišana ir apturēta."
+
+#~ msgid "Launched game"
+#~ msgstr "Palaist spēli"
+
+#~ msgid "Launch failed"
+#~ msgstr "Palaišana neizdevās"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Jūs vienlaicīgi varat spēlēt tikai vienu spēli."
+
+#~ msgid "Game Error"
+#~ msgstr "Spēles kļūda"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Jūs joprojām esat pie galda."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Jums jābūt kādā istabā, lai palaistu spēli.\n"
+#~ "Palaišana apturēta"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Šajā serverī nav definēts neviens spēles tips.\n"
+#~ "Palaišana apturēta."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Šī spēle neatbalsta skatītājus."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Lai spēlētu šo spēli\n"
+#~ "jums japalaiž GGZ klients pa tiešo."
+
+#~ msgid "Galeon - New"
+#~ msgstr "Galeon - Jauns"
+
+#~ msgid "Galeon - Existing"
+#~ msgstr "Galeon - Eksistējošs"
+
+#~ msgid "Gnome URL Handler"
+#~ msgstr "Gnome URL apstrādātājs"
+
+#~ msgid "Konqueror - New"
+#~ msgstr "Konqueror - Jauns"
+
+#~ msgid "Konqueror - Existing"
+#~ msgstr "Konqueror - Eksistējošs"
+
+#~ msgid "Lynx"
+#~ msgstr "Lynx"
+
+#~ msgid "Mozilla - New"
+#~ msgstr "Mozilla - Jauns"
+
+#~ msgid "Mozilla - Existing"
+#~ msgstr "Mozilla - Eksistējošs"
+
+#~ msgid "Netscape - New"
+#~ msgstr "Netscape - Jauns"
+
+#~ msgid "Netscape - Existing"
+#~ msgstr "Netscape - Eksistējošs"
+
+#~ msgid "Opera - New"
+#~ msgstr "Opera - Jauns"
+
+#~ msgid "Opera - Existing"
+#~ msgstr "Opera - Eksistējošs"
+
+#~ msgid "Firefox - New"
+#~ msgstr "Firefox - Jauns"
+
+#~ msgid "Firefox - Existing"
+#~ msgstr "Firefox - Eksistējošs"
+
+#~ msgid "About"
+#~ msgstr "Par"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Dienas ziņojums"
+
+#~ msgid "None"
+#~ msgstr "Nekāda"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Istabu filtrēšana vēl nav izstrādāta. Ja vēlaties\n"
+#~ "palīdzēt, dodieties uz \n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Nav izveidots"
+
+#~ msgid "Description"
+#~ msgstr "Apraksts"
+
+#~ msgid "Web Address"
+#~ msgstr "Tīmekļa adrese"
+
+#~ msgid "Author"
+#~ msgstr "Autors"
+
+#~ msgid "Game Types"
+#~ msgstr "Spēles tipi"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Istabu saraksta filtrs:"
+
+#~ msgid "Set"
+#~ msgstr "Uzstādīt"
+
+#~ msgid "Player Information"
+#~ msgstr "Spēlētāja informācija"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Spēlētāja apstrādātājs:"
+
+#~ msgid "Table:"
+#~ msgstr "Galdiņš:"
+
+#~ msgid "Account:"
+#~ msgstr "Konts:"
+
+#~ msgid "Record:"
+#~ msgstr "Rekords:"
+
+#~ msgid "Rating:"
+#~ msgstr "Reitings:"
+
+#~ msgid "Rank:"
+#~ msgstr "Rangs:"
+
+#~ msgid "Message:"
+#~ msgstr "Paziņojums:"
+
+#~ msgid "Unknown"
+#~ msgstr "Nezināms"
+
+#~ msgid "Registered"
+#~ msgstr "Reģistrēts"
+
+#~ msgid "Guest"
+#~ msgstr "Viesis"
+
+#~ msgid "Host"
+#~ msgstr "Resursdators"
+
+#~ msgid "Administrator"
+#~ msgstr "Pārvaldnieks"
+
+#~ msgid "Friends"
+#~ msgstr "Draugi"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorēt"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Statistika"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Kuru klientu jūs gribētu lietot šai spēlei?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Turpmāk vairs nejautāt."
+
+#~ msgid "Join"
+#~ msgstr "Pievienoties"
+
+#~ msgid "Leave"
+#~ msgstr "Pamest"
+
+#~ msgid "No description available."
+#~ msgstr "Apraksts nav pieejams."
+
+#~ msgid "Seats"
+#~ msgstr "Sēdvietas"
+
+#~ msgid "Room Information"
+#~ msgstr "Istabas informācija"
+
+#~ msgid "Game Name:"
+#~ msgstr "Spēles nosaukums:"
+
+#~ msgid "Author:"
+#~ msgstr "Autors:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Mājas lapa:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Istabas apraksts:"
+
+#~ msgid "This room has no game"
+#~ msgstr "Šajā istabā nav spēles"
+
+#~ msgid "Unknown room"
+#~ msgstr "Nezināma istaba"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Jūs nevarat pievienoties spēlei, jūs neesat reģistrējies"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Jūs jau esat starp istabām"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Jūs nevarat nomainīt istabu, kamēr norit spēle"
+
+#~ msgid "Unknown error"
+#~ msgstr "Nezināma kļūda"
+
+#~ msgid "Error joining room"
+#~ msgstr "Kļūda pievienojoties istabai"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Citas istabas"
+
+#~ msgid "Room"
+#~ msgstr "Istaba"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Spēles tips:  %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Autors:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Apraksts:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Mājas lapa:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Neizdevās palaist galdiņu.\n"
+#~ " Palaišana apturēta."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Norādīts nederīgs robotprogrammu skaits"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Kļūda palaižot spēles moduli."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Sēdvietu sadalījums"
+
+#~ msgid "Game Type:"
+#~ msgstr "Spēles tips:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Sēdvietu skaits"
+
+#~ msgid "Description:"
+#~ msgstr "Apraksts:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Sēdvieta %d:"
+
+#~ msgid "Computer"
+#~ msgstr "Dators"
+
+#~ msgid "Open"
+#~ msgstr "Atvērt"
+
+#~ msgid "Reserved for"
+#~ msgstr "Rezervēts"
+
+#~ msgid "Game Description   "
+#~ msgstr "Spēles apraksts   "
+
+#~ msgid "Launch"
+#~ msgstr "Palaist"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Vai jūs tiešām vēlaties iziet?"
+
+#~ msgid "Quit?"
+#~ msgstr "Iziet?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Servera statistika vēl nav izveidota. Ja\n"
+#~ "jūs vēlaties palīdzēt ejiet uz\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Spelētāju statistika vēl nav izveidota. Ja\n"
+#~ "jūs vēlaties palīdzēt ejiet uz\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "GGZ Gaming Zone help needs a browser to be configured.\n"
+#~ "The configuration dialog will be invoked now."
+#~ msgstr ""
+#~ "GGZ Gaming Zone palīdzības pārlūkam ir jānokofigurē pārlūks.\n"
+#~ "Tūdaļ tiks atvērts konfigurācijas logs."
+
+#~ msgid ""
+#~ "Inline game help is not implemented yet. Help\n"
+#~ "is on our website. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Iekšēja speles palīdzība vēl nav izveidota. Ja\n"
+#~ "jūs vēlaties palīdzēt ejiet uz\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Pirms pievienoties galdinam jums jāizvēlas kam pievienoties."
+
+#~ msgid "Error Joining"
+#~ msgstr "Kļūda pievienojoties"
+
+#~ msgid "That table is full."
+#~ msgstr "Šis galdins ir pilns."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Pirms skatītties uz galdiņu, jums jāizvēlas uz ko skatīties."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Kļūda skatoties"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Neizdevās pievienoties galdiņam.\n"
+#~ "Pievienošanās atcelta."
+
+#~ msgid "Join Error"
+#~ msgstr "Kļūfa pievienojoties"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "atvienoties no GGZ Gaming Zone servera"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Sākt spēli pie jauna galdiņa"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Pievienoties esošai spēlei"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Skatītites esošu spēli - kļūt par šīs spēles skatītaju"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Pamest šobrīd spēlējamo spēli"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "Parāda iestatījumu logu, lai mainītu klientprogrammas iestatījumus"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "Parādīt spēles statistiku pašreizējās istabas speles tipam"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Iziet no GGZ klientprogrammas."
+
+#~ msgid "Client Version:14 %s"
+#~ msgstr "Klientprogrammas versija:14 %s"
+
+#~ msgid "GTK+ Version:14 %d.%d.%d\n"
+#~ msgstr "GTK+ versija:14 %d.%d.%d\n"
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Kompilēta ar atkļūdošanu."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Atvienot"
+
+#~ msgid "Quit"
+#~ msgstr "Iziet"
+
+#~ msgid "Watch"
+#~ msgstr "Novērot"
+
+#~ msgid "Edit"
+#~ msgstr "Rediģēt"
+
+#~ msgid "Properties"
+#~ msgstr "Iestatījumi"
+
+#~ msgid "View"
+#~ msgstr "Skats"
+
+#~ msgid "Room List"
+#~ msgstr "Istabu saraksts"
+
+#~ msgid "Server Stats"
+#~ msgstr "Servera statistika"
+
+#~ msgid "Player Stats"
+#~ msgstr "Spēlētāju statistika"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "Palīdzība"
+
+#~ msgid "Copyright"
+#~ msgstr "Autortiesības"
+
+#~ msgid "GGZ Help"
+#~ msgstr "GGZ palīdzība"
+
+#~ msgid "Game Help"
+#~ msgstr "Spēles palīdzība"
+
+#~ msgid "Goto Web"
+#~ msgstr "Iet uz tīmekli"
+
+#~ msgid "Send"
+#~ msgstr "Sūtīt"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Iestatījumi atjaunināti"
+
+#~ msgid "Confirm:"
+#~ msgstr "Apstiprināt:"
+
+#~ msgid "Modify"
+#~ msgstr "Modificēt"
+
+#~ msgid "Servers"
+#~ msgstr "Serveri"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Tērzēšanas fonts:"
+
+#~ msgid "Change"
+#~ msgstr "Mainīt"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Ignorēt Join/Part ziņojumus"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Atskaņot skaņas"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Automātiskās atkāpes"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Rādīt tērzēšanā laiku"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Vārdu aplaušana"
+
+#~ msgid "Chat Color"
+#~ msgstr "Tērzēšanas krāsa"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Noklusētā draugu krāsa"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Tērzešanas krāsa, ko izmantot, kad tiek pieminets jūsu vārds"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Krāsa, ko izmantot visiem citiem ziņojumiem"
+
+#~ msgid "Normal Color"
+#~ msgstr "Normālā krāsa"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Izgaismošanas krāsa"
+
+#~ msgid "Friend Color"
+#~ msgstr "Draugu krāsa"
+
+#~ msgid "Black Background"
+#~ msgstr "Melns fons"
+
+#~ msgid "White Background"
+#~ msgstr "Balts fons"
+
+#~ msgid "Chat"
+#~ msgstr "Tērzēšana"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "Tākākā informācija nav obligāta."
+
+#~ msgid "Name:"
+#~ msgstr "Vārds:"
+
+#~ msgid "City:"
+#~ msgstr "Pilsēta:"
+
+#~ msgid "State:"
+#~ msgstr "Štats:"
+
+#~ msgid "Country:"
+#~ msgstr "Valsts:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Komentāri, hobiji, utt."
+
+#~ msgid "User Information"
+#~ msgstr "Lietotāja informācija"
+
+#~ msgid "Browser to launch URLs with:"
+#~ msgstr "Pārlūks kura atvērt saites:"
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Viens kliksķis, lai ieietu istabā"
+
+#~ msgid "Display All"
+#~ msgstr "Rādīt visu"
+
+#~ msgid "Display New"
+#~ msgstr "Rādīt jauno"
+
+#~ msgid "Display Important"
+#~ msgstr "Rādīt svarīgo"
+
+#~ msgid "Display None"
+#~ msgstr "Nerādīt"
+
+#~ msgid "Options"
+#~ msgstr "Uzstādījumi"
+
+#~ msgid "Select Font"
+#~ msgstr "Izvēlieties fontu"
+
+#~ msgid "Unknown negotation"
+#~ msgstr "Nezināma vienošanās"
+
+#~ msgid "Already logged in"
+#~ msgstr "Jau ir pieslēdzies"
+
+#~ msgid "The password was incorrect"
+#~ msgstr "Nepareiza parole"
+
+#~ msgid "Name is already taken"
+#~ msgstr "Vārds jau ir aizņemts"
+
+#~ msgid "This name is already registered so cannot be used by a guest"
+#~ msgstr "Šis vārds jau ir reģistrēts, viesis nevar to izmantot"
+
+#~ msgid "No such name was found"
+#~ msgstr "Skaņas fails netika atrasts"
+
+#~ msgid "Name too long"
+#~ msgstr "Vārds ir pārāk garš"
+
+#~ msgid "Name contains forbidden ASCII characters"
+#~ msgstr "Vārdā ir neatļauti simboli"
+
+#~ msgid "Missing password or other bad options."
+#~ msgstr "Nav norādīta parole vai ir kādi slikti parametri."
+
+#~ msgid "Unknown login error"
+#~ msgstr "Nezināma pieslēgšanās kļūda"
+
+#~ msgid "Room full"
+#~ msgstr "Istaba ir pilna"
+
+#~ msgid "Can't change rooms while at a table"
+#~ msgstr "Sēdot pie galdiņa nevar tērzēt"
+
+#~ msgid "Can't change rooms while joining/leaving a table"
+#~ msgstr "Nevar pamest istabu kamēr jūs pievienojaties vai pametat galdiņu"
+
+#~ msgid "Bad room number"
+#~ msgstr "Slikts istabas numurs"
+
+#~ msgid "Insufficient permissions, room access is restricted"
+#~ msgstr "Nepietiekamas atļaujas, pieeja istabai liegta"
+
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Nezināma istabai pievienošanās kļūda"
+
+#~ msgid "Protocol mismatch"
+#~ msgstr "Protokola kļūda"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: parametrs `%s' nav viennozīmīgs\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: parametram `--%s' nevar norādīt argumentus\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: parametram `%c%s' nevar norādīt argumentu\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: parametram `%s' ir nepieciešams arguments\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: neatpazīts parametrs `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: neatļauts parametrs -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: nederīgs parametrs -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: parametram ir nepieciešams arguments -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: parametrs `-W %s' nav viennozīmīgs\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: parametrs `-W %s' neatļāuj argumentu\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "Ļaut citiem spēlētājiem skatīties šo spēli"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "Aktivizēt 3D režīmu"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Aktivizēt pilnekrana režīmu"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "Aktivizēt gājiemu padomus"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "Akticizēt gājienu vēstures pārlūku"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Aktivizet rīkjoslu"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Laiks, kas ir atvēlēts katram spēlētājam gājiena izdarīšanai"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "Noklusētais spēlētāja grūtības līmenis melnajiem jaunās spēlēs"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "Noklusētais spēlētāja grūtības līmenis baltajiem jaunās spēlēs"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "Noklusētais spēlētāja tips melnajiem jaunās spēls"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "Noklusētais spēlētāja tips baltajiem jaunās spēls"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "Mape kurā meklēt saglabātās spēles"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "Mape kurā saglabāt spēles"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Formāts kādā attēlot gājienus"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "Formāts kādā attēlot gājienus. Iespējamās vērtības ir 'human' (cilvēkiem "
+#~ "saprotams), 'lan' (garā algebriskā pierakstā) vai 'san' (statndarta "
+#~ "algebriskā pierakstā)"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Galvenā loga augstums pikseļos."
+
+#~ msgid "The height of the window"
+#~ msgstr "Loga augstums"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "Vienība un ko paaugstināt bandiniekus"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr ""
+#~ "Vienība uz kuru paaugstināt bandiniekus. Iespējamās vertības 'queen', "
+#~ "'knight', 'rook', 'bishop'."
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Galvenā loga platums pikseļos."
+
+#~ msgid "The width of the window"
+#~ msgstr "Loga platums"
+
+#~ msgid "Communication:"
+#~ msgstr "Komunikācija:"
+
+#~ msgid "Executable:"
+#~ msgstr "Izpildāmais:"
+
+#~ msgid "Playing as:"
+#~ msgstr "Spēlē kā:"
+
+#~ msgid "<big><b>Error Title</b></big>"
+#~ msgstr "<big><b>Kļūdas virsraksts</b></big>"
+
+#~ msgid "<i>Error description</i>"
+#~ msgstr "<i>Kļūdas apraksts</i>"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Saglabāt šaha spēli"
+
+#~ msgid "<b>Games</b>"
+#~ msgstr "<b>Spēles</b>"
+
+#~ msgid "<b>Local Player</b>"
+#~ msgstr "<b>Lokālais spēlētājs</b>"
+
+#~ msgid "<b>Status/Chat</b>"
+#~ msgstr "<b>Statuss/tērzēsana</b>"
+
+#~ msgid "Accept challenges"
+#~ msgstr "Pieņemt izaicinājumu"
+
+#~ msgid "Join Game"
+#~ msgstr "Pievienoties spēlei"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "_Sarežģītība:"
+
+#~ msgid "_Server:"
+#~ msgstr "_Serveris:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Tips:"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Ielādēt šaha spēli"
+
+#~ msgid ""
+#~ "<b><big>Some games have been changed. Save changes before closing?</big></"
+#~ "b>"
+#~ msgstr ""
+#~ "<b><big>Dažas spēles ir izmainītas. Vai vēlaties saglabāt izmaiņas pirms "
+#~ "iziešanas?</big></b>"
+
+#~ msgid "<b><big>Unable to enable 3D mode</big></b>"
+#~ msgstr "<b><big>Nevar ielādēt 3D režīmu</big></b>"
+
+#~ msgid "AI Information"
+#~ msgstr "MI informācija"
+
+#~ msgid "End Game"
+#~ msgstr "Beigt spēli"
+
+#~ msgid "If you don't save, all your changes will be permanently lost"
+#~ msgstr "Ja nesaglabāsiet visas izmaiņas tiks neatgriezeniski pazaudētas"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "Iziet no pi_lnekrāna režīma"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Ielādēt saglabātu spēli"
+
+#~ msgid "Move _Hints"
+#~ msgstr "Gājienu padomi"
+
+#~ msgid "Promotion Type"
+#~ msgstr "Paaugstināšanas tips"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Pārtīt uz spēles sākumu"
+
+#~ msgid "Save and _Quit"
+#~ msgstr "Saglabāt uz _iziet"
+
+#~ msgid "Save the current game"
+#~ msgstr "Saglabāt pašreizējo spēli"
+
+#~ msgid "Select the games you want to save:"
+#~ msgstr "Izvēlieties spēles, kuras vēlaties saglabāt:"
+
+#~ msgid "Show the current move"
+#~ msgstr "PArādīt pašreizējo gājienu"
+
+#~ msgid "Show the next move"
+#~ msgstr "Parādīt nākamo gājienu"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Parādīt iepriekšējo gājienu"
+
+#~ msgid "Summary"
+#~ msgstr "Kopsavilkums"
+
+#~ msgid "There are no artificial intelligence players."
+#~ msgstr "Nav neviena mākslīgā intelekta spēlētāja."
+
+#~ msgid ""
+#~ "Your system does not have the required software to enable 3D mode. Please "
+#~ "contact your system administrator and ask them to install the <i>OpenGL "
+#~ "Python bindings</i> and the <i>GtkGLExt Python bindings</i>.\n"
+#~ "\n"
+#~ "You are still able to play chess in 2D without these packages."
+#~ msgstr ""
+#~ "Jūsu sistēmā nav programmatūras, lai aktivizetu 3D režīmu. Lūdzu "
+#~ "sazinieties ar savu sistēmas administratoru un lūdziet, lai viņš uzstāda "
+#~ "<i>OpenGL Python bindings</i> un <i>GtkGLExt Python bindings</i>.\n"
+#~ "\n"
+#~ "Jūs joprojām varat spēlēt spēli 2D režīmā."
+
+#~ msgid "_3D"
+#~ msgstr "_3D"
+
+#~ msgid "_AI Information"
+#~ msgstr "_MI informācija"
+
+#~ msgid "_Bishop"
+#~ msgstr "_Bishop"
+
+#~ msgid "_Chess"
+#~ msgstr "Š_ahs"
+
+#~ msgid "_History"
+#~ msgstr "_Vēsture"
+
+#~ msgid "_Human"
+#~ msgstr "_Cilvēks"
+
+#~ msgid "_Join Game"
+#~ msgstr "_Pievienoties spēlei"
+
+#~ msgid "_Knight"
+#~ msgstr "_Knight"
+
+#~ msgid "_Long Algebraic"
+#~ msgstr "_garais algebriskais"
+
+#~ msgid "_Move Format"
+#~ msgstr "_Gājiena formāts"
+
+#~ msgid "_Queen"
+#~ msgstr "_Queen"
+
+#~ msgid "_Rook"
+#~ msgstr "_Rook"
+
+#~ msgid "_Standard Algebraic"
+#~ msgstr "_Standarta algebriskais"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Sarežģītība</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Spēles iestatījumi</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Spēlētāji</b>"
+
+#~ msgid "Allow remote clients to watch this game"
+#~ msgstr "Ļaut citiem spēlētajiem novērot spēli"
+
+#~ msgid "B_lack:"
+#~ msgstr "Me_lnie:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "Ievadiet šīs spēles nosaukumu"
+
+#~ msgid "Local chess game"
+#~ msgstr "Lokālā šaha spēle"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Gājiena _laiks:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr "Sākt spēli. Spēle var sākties, kad visi lauki ir aizpildīti"
+
+#~ msgid "W_hite:"
+#~ msgstr "Bal_tie:"
+
+#~ msgid "_Allow spectators"
+#~ msgstr "_Atļaut novērot"
+
+#~ msgid "_Black:"
+#~ msgstr "_Melnie:"
+
+#~ msgid "_Game name:"
+#~ msgstr "_Spēles nosaukums:"
+
+#~ msgid "_Start"
+#~ msgstr "_Sākt"
+
+#~ msgid "_White:"
+#~ msgstr "_Baltie:"
+
+#~ msgid "Chess"
+#~ msgstr "Šahs"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "Klasislā divu spēlētāju šaha spēle"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "Copyright 2005-2007 Robert Ancell (and contributors)"
+#~ msgstr "Copyright 2005-2007 Robert Ancell (and contributors)"
+
+#~ msgid "A 2D/3D chess interface for Gnome"
+#~ msgstr "Gnome 2D/3D šaha saskarne"
+
+#~ msgid "glChess homepage"
+#~ msgstr "glChess mājas lapa"
+
+#~ msgid "Human"
+#~ msgstr "Cilvēks"
+
+#~ msgid "Unlimited"
+#~ msgstr "Neierobežots"
+
+#~ msgid "One minute"
+#~ msgstr "Vienu minūti"
+
+#~ msgid "Five minutes"
+#~ msgstr "Piecas minūtes"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minūtes"
+
+#~ msgid "One hour"
+#~ msgstr "Viena stunda"
+
+#~ msgid "Custom"
+#~ msgstr "Pēc izvēles"
+
+#~ msgid "seconds"
+#~ msgstr "sekundes"
+
+#~ msgid "minutes"
+#~ msgstr "minūtes"
+
+#~ msgid "hours"
+#~ msgstr "stundas"
+
+#~ msgid "Easy"
+#~ msgstr "Viegls"
+
+#~ msgid "Normal"
+#~ msgstr "Normāls"
+
+#~ msgid "Hard"
+#~ msgstr "Grūts"
+
+#~ msgid "Unable to find %s engine\n"
+#~ msgstr "Nevar atrast %s dzinēju\n"
+
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Konfigurēt ielādēto spēli (%i g ajieni)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "Spēles iestatījumi ir izmainīti"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s pret %(black)s"
+
+#~ msgid "White"
+#~ msgstr "Balts"
+
+#~ msgid "Black"
+#~ msgstr "Melns"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "Nevar ielādēt spēli"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "Lūdzu ievadiet faila nosaukumu"
+
+#~ msgid "Unabled to save game"
+#~ msgstr "Nevar saglabāt spēli"
+
+#~ msgid "Small"
+#~ msgstr "Mazs"
+
+#~ msgid "glines|Medium"
+#~ msgstr "Vidējs"
+
+#~ msgid "Large"
+#~ msgstr "Liels"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Nevarēja ielādēt tēmu"
+
+#~ msgid "Preferences"
+#~ msgstr "Iestatījumi"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Nevarēja atrast failu:\\n%s\n"
+#~ "\n"
+#~ "Tā vietā tiks ielādēta noklusētā tēma."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Nespēj atrast failu:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet,vai Pieci vai vairāk ir pareizi uzinstalēts."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Savieto piecus viena tipa objektus rindā, lai gūtu punktus!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME Pieci vai vairāk"
+
+#~ msgid "Board Size:"
+#~ msgstr "Laukuma lielums:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Spēles Beigas!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Uz šejieni pārvietot nav iespējams!"
+
+#~ msgid "Five or More"
+#~ msgstr "Pieci vai vairāk"
+
+#~ msgid "GNOME port of the once-popular Color Lines game"
+#~ msgstr "GNOME ports kādreiz tik populārajai Krāsu līniju spēlei"
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Pieci vai vairāk iestatījumi"
+
+#~ msgid "Themes"
+#~ msgstr "Tēmas"
+
+#~ msgid "_Image:"
+#~ msgstr "_Attēls:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "Fona krās_a:"
+
+#~ msgid "Board Size"
+#~ msgstr "Laukuma lielums"
+
+#~ msgid "_Small"
+#~ msgstr "Maz_s"
+
+#~ msgid "_Medium"
+#~ msgstr "_Vidējs"
+
+#~ msgid "_Large"
+#~ msgstr "_Liels"
+
+#~ msgid "glines|General"
+#~ msgstr "Vispārīgi"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "Izmantot ātros gājienus"
+
+#~ msgid "Next:"
+#~ msgstr "Nākamais:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Likvidēt krāsainās bumbas no galda veidojot līnijas"
+
+#~ msgid "Background color"
+#~ msgstr "Fona krāsa"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Fona krāsa. Heksadecimālā notācija fona krāsai."
+
+#~ msgid "Ball style"
+#~ msgstr "Bumbu dizains"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Bumbu dizains. Attēla, ko lietot bumbām, faila nosaukums."
+
+#~ msgid "Game field"
+#~ msgstr "Spēle lauks"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Spēles lauks no pēdējās saglabātās sesijas."
+
+#~ msgid "Game preview"
+#~ msgstr "Spēles priekšskatījums"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Spēles priekšskatījums no pēdējās saglabātās sesijas."
+
+#~ msgid "Game score"
+#~ msgstr "Spēle punkti"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Spēle punkti no pēdējās saglabātās sesijas."
+
+#~ msgid "Playing field size"
+#~ msgstr "Spēles lauku izmēri"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Spēles lauku izmēri. 1=mazs, 2=vidējs,3=liels. Cita vērtība nederīga."
+
+#~ msgid "Time between moves"
+#~ msgstr "Laiks starp gājieniem"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Laiks starp gājieniem milisekundēs."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Četri rindā"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Lai uzvarētu atzīmējiet līnijas vienā krāsā"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "Numurs kas precizē labāko tēmu."
+
+#~ msgid "Animate"
+#~ msgstr "Animēt"
+
+#~ msgid "Drop marble"
+#~ msgstr "Nomest lodīti"
+
+#~ msgid "Height of the main window"
+#~ msgstr "Galvenā loga augstums"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Taustiņa nospiediens, lai pārvietotos nomestu marmoru."
+
+#~ msgid "Level of Player One"
+#~ msgstr "Pirmā spēlētāja līmenis"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Otrā spēlētāja līmenis"
+
+#~ msgid "Sound"
+#~ msgstr "Skaņa"
+
+#~ msgid "The height of the main window, in pixels, at start-up."
+#~ msgstr "Galvenā loga augstums pikseļos pie uzsākšanas."
+
+#~ msgid "The width of the main window, in pixels, at start-up."
+#~ msgstr "Galvenā loga platums pikseļos pie uzsākšanas."
+
+#~ msgid "Theme ID"
+#~ msgstr "Tēmas id"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Vai atskaņot notikumu skaņas."
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Vai lietot animāciju."
+
+#~ msgid "Width of the main window"
+#~ msgstr "Galvenā loga platums"
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr "Nulle ir cilvēks, viens līdz trīs atbilst datora spēlētāju līmenim."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nespējīgs ielādēt attēlu:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "Notikusi tīkla kļūda."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Gaida kamēr pretinieks pievienosies spēlei."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Esiet sveicināti %s tīmekļa spēlē."
+
+#~ msgid "It's a draw!"
+#~ msgstr "Tas ir neizšķirts!"
+
+#~ msgid "You win!"
+#~ msgstr "Tu uzvarēji!"
+
+#~ msgid "It is your move."
+#~ msgstr "Jūsu gājiens."
+
+#~ msgid "I win!"
+#~ msgstr "Es uzvarēju!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Domā..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s uzvar!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "Gaida %s gājienu."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Padoms: kolonna %d"
+
+#~ msgid "You:"
+#~ msgstr "Jūs:"
+
+#~ msgid "Me:"
+#~ msgstr "Es:"
+
+#~ msgid "Scores"
+#~ msgstr "Rezultāti"
+
+#~ msgid "Drawn:"
+#~ msgstr "Izvilkts:"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine."
+#~ msgstr ""
+#~ "\"Četri rindā\" priekš GNOME ar datora spēlētāju, ko vada Giuliano "
+#~ "Bertoletti Velena Dzinējs."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Pirmais spēlētājs:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Otrais spēlētājs:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "Pirmais līmenis"
+
+#~ msgid "Level two"
+#~ msgstr "Otrais līmenis"
+
+#~ msgid "Level three"
+#~ msgstr "Trešais limenis"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Četri rindā iestatījumi"
+
+#~ msgid "Appearance"
+#~ msgstr "Izskats"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tēma:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Aktivizēt _animāciju"
+
+#~ msgid "Classic"
+#~ msgstr "Klasiska"
+
+#~ msgid "Red"
+#~ msgstr "Sarkans"
+
+#~ msgid "Yellow"
+#~ msgstr "Dzeltens"
+
+#~ msgid "High Contrast"
+#~ msgstr "Augsts kontrasts"
+
+#~ msgid "Light"
+#~ msgstr "Gaišie"
+
+#~ msgid "Dark"
+#~ msgstr "Tumšie"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Pretējs augsts kontrasts"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Krēmkrāsas lodītes"
+
+#~ msgid "Blue"
+#~ msgstr "Zils"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Stikla lodītes"
+
+#~ msgid "Nightfall"
+#~ msgstr "Nakts iestāšanās"
+
+#~ msgid "Blocks"
+#~ msgstr "Bloki"
+
+#~ msgid "Orange"
+#~ msgstr "Oranžs"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Spēlei pievienojies dalībnieks %s.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "Spēle beigusies, jo tās saimnieks %s ir pametis to.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "Dalībnieks %s ir pametis spēli.\n"
+
+#~ msgid ""
+#~ "Gnibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Gnibbles nevarēja atrast pikseļkartes failu:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet savu Gnibbles instalāciju"
+
+#~ msgid ""
+#~ "Gnibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Gnibbles nevarēja ielādēt līmeņa failu:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet savu Gnibbles instalāciju"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Nibbles Scores"
+
+#~ msgid "Speed:"
+#~ msgstr "Ātrums:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Apsveicam!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Jūsu rezultāts ticis top desmitniekā."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Vadīt tārpu ap labirintu"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Tārpa krāsa"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Tārpa krāsa."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Aktivizēti neīsti bonusi"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Aktivizēti neīsti bonusi."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Aktivizēt skaņu"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Aktivizēt skaņu."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Līmenis, ar kuru sākt spēli"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Līmenis, ar kuru sākt spēli."
+
+#~ msgid "Game speed"
+#~ msgstr "Spēles atrums"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Spēles ātrums (1=ātri, 4=lēni)."
+
+#~ msgid "Height of the GNibbles window"
+#~ msgstr "GNibbles loga augstums"
+
+#~ msgid ""
+#~ "Height of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "GNibbles loga augstums, lietots, lai atjaunotu loga izmēru starp sesijām."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Taustiņš, ko lietot, lai pārvietotos uz leju."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Taustiņa nospiediens, lai pārvietotos pa kreisi."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Taustiņa nospiediens, lai pārvietotos pa labi."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Taustiņš, ko lietot, lai pārvietotos uz augšu."
+
+#~ msgid "Move up"
+#~ msgstr "Pārvietotot uz augšu"
+
+#~ msgid "Number of AI players"
+#~ msgstr "MI spelētāju skaits"
+
+#~ msgid "Number of AI players."
+#~ msgstr "MI spelētāju skaits."
+
+#~ msgid "Number of human players"
+#~ msgstr "Cilvēku spēlētaju skaits"
+
+#~ msgid "Number of human players."
+#~ msgstr "Cilvēku spēētaju skaits."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Spēlēt līmeņus gadījuma secībā"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Spēlēt līmeņus gadījuma secībā."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Spēle laukuma izmēri"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Spēle laukuma izmēri."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Lietot relatīvo kustību"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Lietrot relatīvo kustību (t.i. pa kreisi vai tikai pa labi)."
+
+#~ msgid "Width of the GNibbles window"
+#~ msgstr "GNibbles loga platums"
+
+#~ msgid ""
+#~ "Width of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "GNibbles loga platums, lietots, lai atjaunotu loga izmēru starp sesijām."
+
+#~ msgid "Bonus"
+#~ msgstr "Bonuss"
+
+#~ msgid "Bonus Appears"
+#~ msgstr "Bonuss parādās"
+
+#~ msgid "Eat Bonus"
+#~ msgstr "Ēst bonusu"
+
+#~ msgid "Extra Life"
+#~ msgstr "Papildus dzīvība"
+
+#~ msgid "Worm Death"
+#~ msgstr "Tārpa nāve"
+
+#~ msgid "Worm Reverse"
+#~ msgstr "Tārps atpakaļgaitā"
+
+#~ msgid "Worm Teleport"
+#~ msgstr "Tārpa teleports"
+
+#~ msgid "Beginner"
+#~ msgstr "Iesācējs"
+
+#~ msgid "Slow"
+#~ msgstr "Lēnu"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Vidējs"
+
+#~ msgid "Fast"
+#~ msgstr "Ātri"
+
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Iesācējs ar neīstajiem"
+
+#~ msgid "Slow with Fakes"
+#~ msgstr "Lēnais ar neīstajiem"
+
+#~ msgid "Medium with Fakes"
+#~ msgstr "Vidējais ar neīstajiem"
+
+#~ msgid "Fast with Fakes"
+#~ msgstr "Ātrais ar neīstajiem"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Tārpa spēle GNOME."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Spēle beigusies! %s ir uzvarējis!"
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Nibbles iestatījumi"
+
+#~ msgid "Speed"
+#~ msgstr "Ātrums"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Nibbles iesācējs"
+
+#~ msgid "My second day"
+#~ msgstr "Mana otrā diena"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Ne pārāk traki"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Pirkstu veiklības treniņam"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "S_pēlēt līmeņus gadījuma secībā"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "_Aktivizēt neīstos bonusus"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "Aktivizēt skaņas"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "Cilvēku spēlētāju _skaits:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "_MI spēlētāju skaits:"
+
+#~ msgid "Worm"
+#~ msgstr "Tārps"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "Lietot relatīvo kustīb_u"
+
+#~ msgid "_Worm color:"
+#~ msgstr "_Tārpa krāsas:"
+
+#~ msgid "Green"
+#~ msgstr "Zaļš"
+
+#~ msgid "Cyan"
+#~ msgstr "Gaiši zils"
+
+#~ msgid "Purple"
+#~ msgstr "Purpura"
+
+#~ msgid "Gray"
+#~ msgstr "Pelēks"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Tārps %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Spēle beigusies!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "Labs rezultāts, bet diemžēl jūs neiekļūvāt labākajā desmitniekā."
+
+#~ msgid "Klotski Scores"
+#~ msgstr "Klotski rezultāti"
+
+#~ msgid "Map:"
+#~ msgstr "Karte:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Apsveicu, Jūs esat sakāvis robotus!! \n"
+#~ "Bet vai varat izdarīt to vēlreiz?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Nav vairāk teleportu vietu!!"
+
+#~ msgid "You have run out of safe moves - the robots have won!"
+#~ msgstr "Jums vairs nav drošu gājienu -roboti ir vinnējuši!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Nav drošu vietu, uz kurām teleportēties!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Uzstādīt spēles scenāriju"
+
+#~ msgid "Initial window position"
+#~ msgstr "Sākotnējā loga pozīcija"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "klasiskie roboti"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Klasiskie roboti ar drošajiem gājieniem"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Klasiskie roboti ar super drošajiem gājieniem"
+
+#~ msgid "Nightmare"
+#~ msgstr "Murgs"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Murgs ar drošiem gājieniem"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Murgs ar sevišķi-drošajiem gājieniem"
+
+#~ msgid "Robots2"
+#~ msgstr "Roboti2"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Roboti2 ar drošiem gājieniem"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Roboti2 ar sevišķi-drošajiem gājieniem"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "Roboti2 viegli"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Roboti2 viegli ar drošiem gājieniem"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Roboti2 viegli ar sevišķi-drošajiem gājieniem"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "Roboti ar drošu teleportu"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "Rroboti ar drošu teleportu un drošajiem gājieniem"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "Rroboti ar drošu teleportu un sevišķi-drošajiem gājieniem"
+
+#~ msgid "Robots"
+#~ msgstr "Roboti"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Netika atrasti spēles dati."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Programma Roboti nebija spējīga atrast derīgus spēles konfigurācijas "
+#~ "failus. Lūdzu pārbaudiet, vai programma ir pareizi uzinstalēta."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Daži grafikas faili ir mazuduši vai sabojāti."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Programma Roboti nebija spējīga ielādēt nepieciešamos grafikas failus. "
+#~ "Lūdzu pārbaudiet, vai spēle ir uzinstalēta pareizi."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Izvairīties no robotiem un likt viņiem saskrieties vienam ar otru"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Aktivizēt spēles skaņas"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr ""
+#~ "Aktivizēt spēles skaņas. Atskaņot skaņas dažādos gadījumos spēles laikā."
+
+#~ msgid "Enable splats"
+#~ msgstr "Aktivizēt šķaidīšanas"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr ""
+#~ "Aktivizēt šķaidīšanas. Atskaņot skaņu un uz ekrāna parādīt \"Splat!\"."
+
+#~ msgid "Game type"
+#~ msgstr "Spēle tips"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Spēle tips. Lietojamās spēles variācijas nosaukums."
+
+#~ msgid "Key to hold"
+#~ msgstr "Taustiņš turēšanai"
+
+#~ msgid "Key to move E"
+#~ msgstr "Taustiņš, lai dotos A"
+
+#~ msgid "Key to move N"
+#~ msgstr "Taustiņš, lai dotos Z"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Taustiņš, lai dotos ZA"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Taustiņš, lai dotos ZR"
+
+#~ msgid "Key to move S"
+#~ msgstr "Taustiņš, lai dotos D"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Taustiņš, lai dotos DA"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Taustiņš, lai dotos DR"
+
+#~ msgid "Key to move W"
+#~ msgstr "Taustiņš, lai dotos R"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Taustiņš, lai teleportētos"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Taustiņš, lai teleportētos nejauši"
+
+#~ msgid "Key to wait"
+#~ msgstr "Taustiņš gaidīšanai"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Robotu attēla tēma"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "Robotu attēla tēma. Tēma attēliem, kas lietoti robotiem."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "Rādīt rīkjoslu. Standarta rīkjoslas konfigurācija."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "Uz vietas stāvēšanas taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Kustības uz austrumiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Kustības uz ziemeļaustrumiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Kustības uz ziemeļrietumiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Kustības uz ziemeļiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Kustības uz dienvidaustrumiem taustiņa nosaukums.. Nosaukums ir standarta "
+#~ "X taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Kustības uz dienvidrietumiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Kustības uz dienvidiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Kustības uz rietumiem taustiņa nosaukums. Nosaukums ir standarta X "
+#~ "taustiņa nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Nejaušā teleporta taustiņa nosaukums. Nosaukums ir standarta X taustiņa "
+#~ "nosaukums."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Droša (ja iespējams) teleporta taustiņa nosaukums. Nosaukums ir standarta "
+#~ "X taustiņa nosaukums."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "Nosaukums gaidīt taustiņam. Nosaukums ir standarta X taustiņa nosaukums."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Lietot drošus gājienus"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Lietojiet drošos gājienus. Drošo gājienu iespēja palīdzēs jums "
+#~ "izvairīties no tā, ka tiekat nogalināts kļūdas pēc. Ja mēģināsiet "
+#~ "gājienu, kas ievestu jūs nāvē, kamēr ir iespējams drošs gājiens, Jums "
+#~ "netiks ļauts turpināt."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Lietot ļoti drošos gājienus"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Izmantot super drošas kustības. Spēlētājs tiks brīdināts, kad drošu "
+#~ "kustību nav un vienīgā iespēja ir teleporteties no šīs vietas."
+
+#~ msgid "Bad Move"
+#~ msgstr "Slikts gājiens"
+
+#~ msgid "Level Complete"
+#~ msgstr "Līmenis pabeigts"
+
+#~ msgid "Player Dead"
+#~ msgstr "Spēlētājs miris"
+
+#~ msgid "Player Teleport"
+#~ msgstr "Spēlētāja teleports"
+
+#~ msgid "Robot has been Splatted!"
+#~ msgstr "Robots tika sašķaidīts!"
+
+#~ msgid "Victory!!"
+#~ msgstr "Uzvara!!"
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Nevarēju atrast '%s' pikseļkartes (pixmap) failu\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Pārvietot"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Teleports"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Teleports, droši, ja iespējams"
+
+#~ msgid "_Random"
+#~ msgstr "_Nejaušs"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Nejaušs teleports"
+
+#~ msgid "_Wait"
+#~ msgstr "_Gaidīt"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Gaidīt robotus"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Parādīt vai paslēpt rīkjoslu"
+
+#~ msgid "Based on classic BSD Robots."
+#~ msgstr "Balstīts uz klasiskajiem BSD roboti."
+
+#~ msgid "classic robots"
+#~ msgstr "klasiskie roboti"
+
+#~ msgid "robots2"
+#~ msgstr "roboti2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "roboti2 viegli"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "roboti ar drošu teleportu"
+
+#~ msgid "nightmare"
+#~ msgstr "murgs"
+
+#~ msgid "robots"
+#~ msgstr "roboti"
+
+#~ msgid "cows"
+#~ msgstr "govis"
+
+#~ msgid "eggs"
+#~ msgstr "olas"
+
+#~ msgid "gnomes"
+#~ msgstr "rūķīši"
+
+#~ msgid "mice"
+#~ msgstr "peles"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Robotu iestatījumi"
+
+#~ msgid "Game Type"
+#~ msgstr "Spēles Tips"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "Lietot droš_us gājienus"
+
+#~ msgid "Prevent some dangerous moves"
+#~ msgstr "Novērst dažus bīstamus gājienus"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Novērst nejaušus gājienus, kuru rezultātā tiek nogalināts."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "Lietot īpāši drošo_s gājienus"
+
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "Novērst visus bīstamos gājienus"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Novērš visus gājienus, kuru rezultātā tiek nogalināts."
+
+#~ msgid "Play sounds for major events"
+#~ msgstr "Atskaņot skaņas svarīgākajos gadījumos"
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "Atskaņot skaņas tādos gadījumos kā līmeņa pabeigšana un nomiršana."
+
+#~ msgid "E_nable splats"
+#~ msgstr "Aktivizēt šķaidīšanas"
+
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "Atskaņot skaņu, kad divi roboti saskrienas"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "Atskaņot visizplatītāko un, potenciāli, viskaitinošāko skaņu."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Grafikas tēma"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_Izvēlieties tēmu:"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Fona attēls:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Atjaunot pēc noklusējuma"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatūra"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Drošie Teleporti:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Atlicis:"
+
+#~ msgid "<none>"
+#~ msgstr "<nekas>"
+
+#~ msgid ""
+#~ "Written for my wife, Matylda\n"
+#~ "Send comments and bug reports to: \n"
+#~ "janusz.gorycki@intel.com"
+#~ msgstr ""
+#~ "Radīts manai sievai, Matildei\n"
+#~ "Sūtiet komentārus un kļūdu paziņojumus uz: \n"
+#~ "janusz.gorycki@intel.com"
+
+#~ msgid "GNOME Sudoku; a logic puzzle"
+#~ msgstr "GNOME Sudoku; loģisko mīklu spēle"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "High Scores"
+#~ msgstr "Labākie rezultāti"
+
+#~ msgid "<i>Easy</i>"
+#~ msgstr "<i>Viegli</i>"
+
+#~ msgid "<i>Hard</i>"
+#~ msgstr "<i>Grūti</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Select Game</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Izvēlieties spēli</span>"
+
+#~ msgid "Choose the _level of difficulty for your new game."
+#~ msgstr "Izvēlieties spē_les sarežģītības līmeni."
+
+#~ msgid "_Details"
+#~ msgstr "_Detaļas"
+
+#~ msgid "_Play"
+#~ msgstr "_Spēlēt"
+
+#~ msgid "Choose _game"
+#~ msgstr "Izvēlieties _spēli"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Izdrukāt spēles</span>"
+
+#~ msgid "Choose the _level of difficulty for games"
+#~ msgstr "Izvēlieties spēļu sarežģītības līmeni"
+
+#~ msgid "Ma_ximum Difficulty"
+#~ msgstr "Ma_ksimālā sarežģītība"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Drukāt sudoku"
+
+#~ msgid "_Game List"
+#~ msgstr "_Spēļu saraksts"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "_Iekļaut arī jau izspēlētas spēles drukājamo spēļu sarakstā"
+
+#~ msgid "_Label games with difficulty and name."
+#~ msgstr "_Marķēt spēles ar sarežģītību un nosaukumu."
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "_Atzīmēt spēles kā spēlētas, kolīdz tās tiek izdrukātas."
+
+#~ msgid "_Minimum Difficulty"
+#~ msgstr "_Minimālā sarežģītība"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "_Drukājamo sudoku skaits: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "_Sudoku skaits lappusē: "
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Mīlku skaits</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Viegli:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Grūti:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Vidēji:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Ļoti grūti:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Mīklu ģenerators</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Gritērijs:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Vispārīgā politika"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Ģenerēt ja_unas mīklas, līdz pārtrauc"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Ģene_rēt jaunas mīklas, līdz sasniegts mērķis"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Mīklu ģenerators"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "Vēlamais sudo_ku skaits:"
+
+#~ msgid "_Easy"
+#~ msgstr "_Viegli"
+
+#~ msgid "_Generate"
+#~ msgstr "Ģ_enerēt"
+
+#~ msgid "_Hard"
+#~ msgstr "_Grūti"
+
+#~ msgid "_Very Hard"
+#~ msgstr "Ļ_oti grūti"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Notīrīt _citus"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "_Pievienot marķieri"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_Notīrīt marķieri"
+
+#~ msgid "_Trackers"
+#~ msgstr "_Marķieri"
+
+#~ msgid "Puzzle"
+#~ msgstr "Mīkla"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player.  Sudoku is a "
+#~ "japanese logic puzzle."
+#~ msgstr ""
+#~ "GNOME Sudoku ir vienkāršs sudoku ģenerators un spēlētājs.  Sudoku ir "
+#~ "japāņu loģikas spēle."
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Drukāt sudoku"
+#~ msgstr[1] "Drukāt sudoku"
+#~ msgstr[2] "Drukāt sudoku"
+
+#~ msgid "Print Preview"
+#~ msgstr "Drukāšanas pirmsskate"
+
+#~ msgid "Squares instantly fillable by filling: "
+#~ msgstr "Ar aizpildīšanu aizpildāmie lauki: "
+
+#~ msgid "Squares instantly fillable by elimination: "
+#~ msgstr "Ar izslēgšanu aizpildāmie lauki: "
+
+#~ msgid "Number of trial-and-errors necessary to solve: "
+#~ msgstr "Atminēšanai atļauto mēģinājumu skaits: "
+
+#~ msgid "Difficulty value: "
+#~ msgstr "Sarežģītības līmenis: "
+
+#~ msgid "Difficulty"
+#~ msgstr "Sarežģītība"
+
+#~ msgid "Started"
+#~ msgstr "Iesākta"
+
+#~ msgid "Last Played"
+#~ msgstr "Pēdējo reizi spēlēta"
+
+#~ msgid "Printed %s ago"
+#~ msgstr "Izdrukāta pirms %s"
+
+#~ msgid "Played for %s"
+#~ msgstr "Spēlēta %s"
+
+#~ msgid "%s ago"
+#~ msgstr "pirms %s"
+
+#~ msgid "Player"
+#~ msgstr "Spēlētājs"
+
+#~ msgid "Date"
+#~ msgstr "Datums"
+
+#~ msgid "Not in database"
+#~ msgstr "Nav datubāzē"
+
+#~ msgid "Unknown difficulty"
+#~ msgstr "Nezināma sarežģītība"
+
+#~ msgid "Hints"
+#~ msgstr "Padomi"
+
+#~ msgid "Warnings about unfillable squares"
+#~ msgstr "Brīdinājumi par neaizpildāmiem laukumiem"
+
+#~ msgid "Auto-fills"
+#~ msgstr "Automātiskā aizpildīšana"
+
+#~ msgid "Finished in"
+#~ msgstr "Pabeigta"
+
+#~ msgid "Working..."
+#~ msgstr "Domā..."
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s mīkla"
+#~ msgstr[1] "%(n)s mīklas"
+#~ msgstr[2] "%(n)s mīklas"
+
+#~ msgid "Stopped"
+#~ msgstr "Apturēta"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "Uzņenerēta %(n)s no %(total)s mīklas"
+#~ msgstr[1] "Uzņenerēts %(n)s no %(total)s mīklām"
+#~ msgstr[2] "Uzņenerēts %(n)s no %(total)s mīklām"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "Uzģenerēta %(n)s mīkla"
+#~ msgstr[1] "Uzģenerētas %(n)s mīklas"
+#~ msgstr[2] "Uzģenerētas %(n)s mīklas"
+
+#~ msgid "Very Hard"
+#~ msgstr "Ļoti grūts"
+
+#~ msgid "Medium"
+#~ msgstr "Vidējs"
+
+#~ msgid "_Stop"
+#~ msgstr "_Apturēt"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Vai tiešām vēlaties darīt to?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Turpmāk vairs nejautāt to."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s gads"
+#~ msgstr[1] "%(n)s gadi"
+#~ msgstr[2] "%(n)s gadi"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s mēnesis"
+#~ msgstr[1] "%(n)s mēneši"
+#~ msgstr[2] "%(n)s mēneši"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s nedēļa"
+#~ msgstr[1] "%(n)s nedēļas"
+#~ msgstr[2] "%(n)s nedēļas"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s diena"
+#~ msgstr[1] "%(n)s dienas"
+#~ msgstr[2] "%(n)s dienas"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s stunda"
+#~ msgstr[1] "%(n)s stundas"
+#~ msgstr[2] "%(n)s stundas"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s minūte"
+#~ msgstr[1] "%(n)s minūtes"
+#~ msgstr[2] "%(n)s minūtes"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s sekunde"
+#~ msgstr[1] "%(n)s sekundes"
+#~ msgstr[2] "%(n)s sekundes"
+
+#~ msgid " and "
+#~ msgstr " un "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Today"
+#~ msgstr "Šodien"
+
+#~ msgid "Yesterday"
+#~ msgstr "Vakar"
+
+#~ msgid "_Clear"
+#~ msgstr "_Attīrīt"
+
+#~ msgid "Track moves"
+#~ msgstr "Reģistrēt gājienus"
+
+#~ msgid "Full Screen"
+#~ msgstr "Pa visu ekrānu"
+
+#~ msgid "_File"
+#~ msgstr "_Fails"
+
+#~ msgid "New game"
+#~ msgstr "Jauna spēle"
+
+#~ msgid "Print current game"
+#~ msgstr "Pārtraukt šībrīža spēli"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "Drukāt _vairākas sudoku"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Drukāt vairāk kā vienu sudoku reizē."
+
+#~ msgid "Close Sudoku (save game for later)"
+#~ msgstr "Aizvērt sudoku (saglabāt spēli vēlākam laikam)"
+
+#~ msgid "_Enter custom game"
+#~ msgstr "_Izveidot savu spēli"
+
+#~ msgid ""
+#~ "Enter new puzzle by hand (use this to copy a puzzle from another source)."
+#~ msgstr ""
+#~ "Ievadīt savu spēli ar roku (izmantojiet šo, lai pārkopētu spēles no "
+#~ "citurienes)."
+
+#~ msgid "_Resume old game"
+#~ msgstr "_Turpināt aizsāktu spēli"
+
+#~ msgid "Resume a previous saved game."
+#~ msgstr "Turpināt iepriekš iesāktu spēli."
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Rādīt kurus skaitļus varētu ierakstīt konkrētajā laukumā."
+
+#~ msgid "_Fill"
+#~ msgstr "_Aizpildīt"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Ja iespejams, automātiski aipilda konkrēto laukumu."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "_Aizpildīt visus laukumus"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Automatiski aizpilda visus laikus, kuros ir iespējama tikai viena vērtība."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "Mīklas statistika"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Parādīt statistiku par pašreizejo spēli"
+
+#~ msgid "High _Scores"
+#~ msgstr "Labākie _rezultāti"
+
+#~ msgid "Show high scores or replay old games."
+#~ msgstr "Parādīt labākos rezultātus vai pārspēlēt vecās spēles."
+
+#~ msgid "_Always show hint"
+#~ msgstr "_Vienmēr rādīt padomus"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Vienmēr laukumos rādīt iespejamos skaitļus"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "Brīdināt par neaizpildītajiem laukiem"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "Brīdināt par laukumiem, kas gājiena rezultātā kļūst neaizpildāmi"
+
+#~ msgid "_Track additions"
+#~ msgstr "_Zekot līdz papildinājumiem"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "Atzīmēt papildinājumus citā krāsā, lai tiem varētu izsekot."
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Rādī_t rīkjoslu"
+
+#~ msgid "_Black background"
+#~ msgstr "_Melns fons"
+
+#~ msgid ""
+#~ "Background of game is black; otherwise, the background will follow your "
+#~ "theme colors."
+#~ msgstr ""
+#~ "Izmantot melnu fonu. Pretējā gadījumā fons sekos līdz jūsu sistēmas "
+#~ "krāsām."
+
+#~ msgid "_Highlighter"
+#~ msgstr "_Izgaismotājs"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Izgaismot pašreizējo rindu, kolonu un šūnu"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Spēlējot ģenerēt jaunas mīklas"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Spēlējot ģenerēt jaunas spēles. Tas tiks automātiski apturēts, kad spēle "
+#~ "tiek novirzīta fonā."
+
+#~ msgid "_Edit"
+#~ msgstr "R_ediģēt"
+
+#~ msgid "_Undo"
+#~ msgstr "_Atsaukt"
+
+#~ msgid "Undo last action"
+#~ msgstr "Atsaukt pēdējo gājienu"
+
+#~ msgid "_Redo"
+#~ msgstr "_Restaurēt"
+
+#~ msgid "Redo last action"
+#~ msgstr "Atkārtot pēdējo gājienu"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Attīrīt ievadītās vērtības"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "Attīrīt _piezīmes"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Attīrīt piezīmes un padomus"
+
+#~ msgid "No Tracker"
+#~ msgstr "Nav marķiera"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "_Ģenerēt jaunas mīklas"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Ģenerē jaunas mīklas."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Ievada jaunu laukumu..."
+
+#~ msgid "_Play game"
+#~ msgstr "_Spēlēt spēli"
+
+#~ msgid "Playing "
+#~ msgstr "Spēlē "
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Mīklas informācija"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Šobrīd nevienas mīklas nav."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Aprēķinātā sarežģītība: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Gājienu skaits, ko var automātiski aizpildīt ar izslēgšanu: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Gājienu skaits, ko var automātiski aizpildīt ar aizpildīšanu: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Aizpildīšanai atvēlēto kļūdu skaits: "
+
+#~ msgid "Statistics for %s"
+#~ msgstr "%s statistika"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "Attīrīt visus pašreizējā marķiera gājienus."
+
+#~ msgid "_Clear Others"
+#~ msgstr "_Attīrīt citus"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "Attīrīt visus ne-pašreizējā marķiera gājienus."
+
+#~ msgid "Tracker %s"
+#~ msgstr "%s marķieris"
+
+#~ msgid "gnomine|Medium"
+#~ msgstr "Vidējs"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Karodziņi: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Mīnas ir atmīnētas!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "Sapieris rezultāti"
+
+#~ msgid "Size:"
+#~ msgstr "Izmērs:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Uzklikšķini uz lauciņa, jebkura lauciņa"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Var būt šeit ir visas mīnas ..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Izmēru mainīšana un SVG palidziba:"
+
+#~ msgid "Faces:"
+#~ msgstr "Sejas:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafika:"
+
+#~ msgid "Mines"
+#~ msgstr "Mīnas"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered."
+#~ msgstr ""
+#~ "Populārā mīninu meklēšanas prāta spēle. Atmīnējiet laukumu izmantojot jau "
+#~ "atklātajos lauciņos redzamos padomus."
+
+#~ msgid "Field Size"
+#~ msgstr "Lauka izmērs"
+
+#~ msgid "Custom Size"
+#~ msgstr "Pielāgots izmērs"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_Mīnu skaits:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Horizontāli:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Vertikāli:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "_Lietot \"Neesmu pārliecināts\" karogus"
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "_Izmantot \"Pārāk daudz karogu\" brīdinājumu"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Mīnu iestatījumi"
+
+#~ msgid "Width of grid"
+#~ msgstr "Režģa platums"
+
+#~ msgid "Height of grid"
+#~ msgstr "Režģa augstums"
+
+#~ msgid "Number of mines"
+#~ msgstr "Mīnu skaits"
+
+#~ msgid "NUMBER"
+#~ msgstr "SKAITS"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Laukuma izmērs (0-2 = mazs-liels, 3=pašizvēlēts)"
+
+#~ msgid "X location of window"
+#~ msgstr "X loga novietojums"
+
+#~ msgid "Y location of window"
+#~ msgstr "Y loga novietojums"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Nospiediet taustiņu, lai turpinātu"
+
+#~ msgid "Time: "
+#~ msgstr "Laiks: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Notīrīt apsleptas mīnas no laukuma"
+
+#~ msgid "Board size"
+#~ msgstr "Laukuma izmers"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Aktivizēt automātisko karodziņu aizpildīšanu"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Kolonu skaits pašisveidotā spēlē"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Rindu skaits pašisveidotā spēlē"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr ""
+#~ "Pārslēdziet uz patiess, lai būtu iespējams atzīmēt kvadrātus kā nezināmus."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Atzīmējiet, lai aktivizetu ikonu brīdinājumus, kad tiek izvietoti pārāk "
+#~ "daudzi karogi."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Atzīmējiet, lai gnomine automātiski atzīmētu karodziņus, kad ir atklāti "
+#~ "pietiekami daudzi lauciņi"
+
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "Halvenā loga augstums pikseļos."
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Mīnu skaits pašizveidotā spēlē"
+
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "Galvenā loga platums pikseļos."
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Lietot nezināmu karogu"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Brīdināt par pārāk daudziem karogiem"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Nevar atrast nepieciešamos attēlus.\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet savu gnome-games instalāciju."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Pieprasitie attēli tika atrasti, bet neizdevās ielādēt.\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet gnome-games instalāciju un tās atkarības."
+
+#~ msgid "Could not load images"
+#~ msgstr "Nevaru ielādēt attēlus"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "Izmēr_s"
+
+#~ msgid "Sol_ve"
+#~ msgstr "Atrisināt"
+
+#~ msgid "Solve the game"
+#~ msgstr "Atrisināt spēli"
+
+#~ msgid "_Up"
+#~ msgstr "_Augšup"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Pārvietot gabalu uz augšu"
+
+#~ msgid "_Left"
+#~ msgstr "Pa _Kreisi"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Pārvietot gabalu pa kreisi"
+
+#~ msgid "_Right"
+#~ msgstr "Pa _Labi"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Pārvietot gabalus pa labi"
+
+#~ msgid "_Down"
+#~ msgstr "_Lejup"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Pārvietot gabalus uz leju "
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Spēlēt uz 2×2 laukuma"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Spēlēt uz 3×3 laukuma"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Spēlēt uz 4×4 laukuma"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Spēlēt uz 5×5 laukuma"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Spēlēt uz 6×6 laukuma"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "Virsraksts _krāsas"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Laukuma izmērs (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "IZMĒRS"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Mīkla atrisināta! Labi pastrādāts!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Mīkla atrisināta!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Tetravex Scores"
+
+#~ msgid "Game paused"
+#~ msgstr "Spēle nopauzēta"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Spēlēt uz %d×%d laukuma"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other."
+#~ msgstr ""
+#~ "GNOME Tetravex ir vienkārša mīklu spēle, kur jums jasakārto spēles "
+#~ "kauliņi, lai vienādi skaitļi būtu viens otram blakus."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Pabeidziet spēli saliekot blakus kauliņus ar vienādiem numuriem"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex spēle"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "Vai izmantot krāsainus virsrakstus."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Kontrolēt krāsainos virsrakstus"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Izvēlieties vai pārvilksiet kārtis, vai arī klikšķināsiet no sākuma uz "
+#~ "vienas un tad uz otras kārts."
+
+#~ msgid ""
+#~ "The height of the playing window in pixels. At minimum it should be 240."
+#~ msgstr "Spēles loga augstums pikselos. Vertībai jābūt ne mazākai, kā 240."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Spēles režģa izmērs"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Šīs atslēgas vērtība tiek izmantota, lai noteikt spēles lauka izmērus. "
+#~ "Vērtīvam ir jābūt no 2 līdz 8, jebkas cits tiek uzstādīts uz 3."
+
+#~ msgid ""
+#~ "The width of the playing window in pixels. At minimum it should be 320."
+#~ msgstr "Spēles loga platums pikselos. Vertībai jābūt ne mazākai, kā 320."
+
+#~ msgid "Only 18 steps"
+#~ msgstr "Tikaj 18 soļi"
+
+#~ msgid "Daisy"
+#~ msgstr "Pīpene"
+
+#~ msgid "Violet"
+#~ msgstr "Vijolīte"
+
+#~ msgid "Poppy"
+#~ msgstr "Magone"
+
+#~ msgid "Pansy"
+#~ msgstr "Atraitnīte"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Sniegpulkstenīte"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Sarkans ēzelis"
+
+#~ msgid "Trail"
+#~ msgstr "Pēdas"
+
+#~ msgid "Ambush"
+#~ msgstr "Slēpnis"
+
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+#~ msgid "Success"
+#~ msgstr "Panākumi"
+
+#~ msgid "Bone"
+#~ msgstr "Kauls"
+
+#~ msgid "Fortune"
+#~ msgstr "Veiksme"
+
+#~ msgid "Fool"
+#~ msgstr "Dumiķis"
+
+#~ msgid "Solomon"
+#~ msgstr "Solomon"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Kleopatra"
+
+#~ msgid "Shark"
+#~ msgstr "Haizivs"
+
+#~ msgid "Rome"
+#~ msgstr "Roma"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Karodziņa mīkla"
+
+#~ msgid "Ithaca"
+#~ msgstr "Ithaca"
+
+#~ msgid "Pelopones"
+#~ msgstr "Peloponnes"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transeuropa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Polonēze"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Baltijas jūra"
+
+#~ msgid "American Pie"
+#~ msgstr "Amerikaņu kūka"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Sastrēgums"
+
+#~ msgid "Sunshine"
+#~ msgstr "Saules gaisma"
+
+#~ msgid "Block 10"
+#~ msgstr "Bloķēt 10"
+
+#~ msgid "Block 10 Pro"
+#~ msgstr "Bloķēt 10 profesionālis"
+
+#~ msgid "Climb 12"
+#~ msgstr "Pacelties 12"
+
+#~ msgid "Climb 12 Pro"
+#~ msgstr "Pacelties 12 profesionālis"
+
+#~ msgid "Climb 15 Winter"
+#~ msgstr "Pacelties 15 ziema"
+
+#~ msgid "Climb 15 Spring"
+#~ msgstr "Pacelties 15 pavasaris"
+
+#~ msgid "Climb 15 Summer"
+#~ msgstr "Pacelties 15 vasara"
+
+#~ msgid "Climb 15 Fall"
+#~ msgstr "Pacelties 15 rudens"
+
+#~ msgid "Climb 24 Pro"
+#~ msgstr "Pacelties 24 profesionālis"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "Tikaj 18 soļi"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "HuaRong pēdas"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Izaicinājuma grupa"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Kvalifikācijas grupa"
+
+#~ msgid "Minoru Climb"
+#~ msgstr "Minoru kāpiens"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "Atkā_rtot mīklu"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Nākamā mīkla"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Iepriekšējā mīkla"
+
+#~ msgid "Level completed."
+#~ msgstr "Līmenis pabeigts."
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Mīkla ir atminēta!"
+
+#~ msgid "Puzzle:"
+#~ msgstr "Mīkla:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Tēmas renderēšana šai spēlei neizdevas.\n"
+#~ "\n"
+#~ "Lūdzū pārbaudiet, ka Klotski ir pareizi uzinstalēta."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Nevarēju atrast attēlu:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Lūdzu pārliecinieties, ka Klotski ir pareizi uzinstalēta."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Gājieni: %d"
+
+#~ msgid "Sliding Block Puzzles"
+#~ msgstr "Slīdošo bloku mīkla"
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski spēle"
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Sānu bloki, lai palīdžetu atrisināt mīklu"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Miklas, kura tiek spēlēta, numurs."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Mīkla spēlē"
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Pieprasitais galvena loga augstums pikseļos. Ja tas nebūs pietiekami "
+#~ "liels, tas tiks ignorēts."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Pieprasitais galvena loga platums pikseļos. Ja tas nebūs pietiekami "
+#~ "liels, tas tiks ignorēts."
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Jau izlietots! Kur jūs vēlaties to novietot?"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Izmēģiniet laimi pokara tipa kaulinu spelē"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Izvelēties ievietot vai nē aizkavēšanu starp kauliņu rullēm, lai "
+#~ "spēlētais varētu skatīties, ko dators dara."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Aizture starp metieniem"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Parādīt datora domas"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Ja pārslēgts uz patiesi, MI darbības izmetne būs izvesta standart izvadē."
+
+#~ msgid "Regular"
+#~ msgstr "Regulārs"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Cilvēks,Wilber,Bill,Monica,Kenneth,Janet]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Aizturēt datora gājienus"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Parādīt datora domas"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Datora pretinieku skaits"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Cilvēku pretinieku skaits"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Spēles izvēle: regulāra vai krāsaina"
+
+#~ msgid "STRING"
+#~ msgstr "VIRKNE"
+
+#~ msgid "Roll all!"
+#~ msgstr "Mest!"
+
+#~ msgid "Roll!"
+#~ msgstr "Mest!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Spēle beidzās neizšķirti!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "Rezultāti"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s uzvar spēlē ar %d punktu"
+#~ msgstr[1] "%s uzvar spēlē ar %d punktiem"
+#~ msgstr[2] "%s uzvar spēlē ar %d punktiem"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Dators spēlē priekš %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Jūsu kārta."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Izvēlieties kauliņu, kuru mest, vai izvēlieties rezultātu rindu."
+
+#~ msgid "Roll"
+#~ msgstr "Mest"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Jums atļauti tikai trīs metieni. Izvēlieties rezultātu lodziņu."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "GNOM versija (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Console versija (1992):"
+
+#~ msgid "A variation on poker with dice and less money."
+#~ msgstr "Pokera variants ar kauliņiem un mazāk naudas."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "Pašreizējā spēle tiks izspēlēta ar oriģinālo spēlētāju skaitu."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Tali iestatījumi"
+
+#~ msgid "Human Players"
+#~ msgstr "Cilvēku spēlētāji"
+
+#~ msgid "_Number of players:"
+#~ msgstr "Spēlētāju skaits:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Datoru oponenti"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "Aizture starp metieniem"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "Pretinieku skaits:"
+
+#~ msgid "Colors"
+#~ msgstr "Krāsas"
+
+#~ msgid "Player Names"
+#~ msgstr "Spēlētāju Vārdi"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1 [1nieku summa]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2 [2nieku summa]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3 [3nieku summa]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4 [4nieku summa]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5 [5nieku summa]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6 [6nieku summa]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "3 Vienādi [kopā]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "4 Vienādi [kopā]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Pilna māja [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Mazā taisne [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Lielā taisne [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "5 Vienādi [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Veiksme [kopā]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Zemākā summa"
+
+#~ msgid "Grand Total"
+#~ msgstr "Kopsumma"
+
+#~ msgid "Upper total"
+#~ msgstr "Augšējā summa"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bonuss, ja >62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 pāri vienā krāsā [kopā]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Pilna māja [15 + kopā]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Pilna māja vienā krāsā [20 + kopā]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Flush (visi vienā krāsā) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "4 vienādi [25 + kopā]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "5 vienādi [50 + kopā]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Izvēlieties rezultāta vietu."
+
+#~ msgid "How many times do you wish to roll?"
+#~ msgstr "Cik reizes vēlaties mest?"
+
+#~ msgid "Generating ..."
+#~ msgstr "Ģenerē..."
+
+#~ msgid "Results"
+#~ msgstr "Rezultāti"
+
+#~ msgid "Num Rolls"
+#~ msgstr "Mešanu skaits"
+
+#~ msgid "Total"
+#~ msgstr "Kopā"
+
+#~ msgid "Net_work Game"
+#~ msgstr "_Tīkla spēle"
+
+#~ msgid "_Player list"
+#~ msgstr "Spēlētāji"
+
+#~ msgid "_Chat Window"
+#~ msgstr "_Tērzēšanas logs"
+
+#~ msgid "_Leave Game"
+#~ msgstr "_Pamest spēli"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid "A disk flipping game derived from Reversi."
+#~ msgstr "Disku apgriešanas spēle, kas izveidota no Reversi."
+
+#~ msgid "Invalid move."
+#~ msgstr "Nederīgs gājiens."
+
+#~ msgid "Dark:"
+#~ msgstr "Tumšais:"
+
+#~ msgid "Light:"
+#~ msgstr "Gaišais:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Laipni aicināti lagno!"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Ir jūsu kārta novietot melno vienību"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Ir jūsu kārta novietot balto vienību"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Gaida %s gājienu"
+
+#~ msgid "Dark's move"
+#~ msgstr "Tumšā gājiens"
+
+#~ msgid "Light's move"
+#~ msgstr "Gaišā gājiens"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Dominate ir klasiskās Reversi speles variācija"
+
+#~ msgid "Game over"
+#~ msgstr "Spēles beigas"
+
+#~ msgid "Piece flipping"
+#~ msgstr "Monētu apmešana"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Uzvar gaišais spēlētājs!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Uzvar tumšais spēlētājs!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Spēle beidzās neizšķirti."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Gaišajam jāizlaiž, Tumšā gājiens"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Tumšajam jāizlaiž, Gaišā gājiens"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Iagno iestatījumi"
+
+#~ msgid "Players"
+#~ msgstr "Spēlētāji"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "Lietot ātros gājienus"
+
+#~ msgid "Animation"
+#~ msgstr "Animācija"
+
+#~ msgid "Partial"
+#~ msgstr "Daļēja"
+
+#~ msgid "Complete"
+#~ msgstr "Pabeigta"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "Zigzagveida pame_šana"
+
+#~ msgid "S_how grid"
+#~ msgstr "Parādīt režģi"
+
+#~ msgid "_Flip final results"
+#~ msgstr "A_pmest beigu rezultātus"
+
+#~ msgid "_Tile set:"
+#~ msgstr "Flīžu kopa:"
+
+#~ msgid "List of players:"
+#~ msgstr "Spēlētāji:"
+
+#~ msgid "Card Style"
+#~ msgstr "Kāršu stils"
+
+#~ msgid "There was an error accessing GConf: %s"
+#~ msgstr "Atgadījās kļūda piekļūstot GConf: %s"
+
+#~ msgid "The default configuration values could not be retrieved correctly."
+#~ msgstr "Konfigurācijas vērtība pēc noklūsējuma nevar būt iegūta korekti."
+
+#~ msgid ""
+#~ "Please check your GConf configuration, specifically that the schemas have "
+#~ "been installed correctly."
+#~ msgstr ""
+#~ "Lūdzu parbaudīt jūsu GCconf konfigurāciju,nodrošinājot to,ka shēmas bija "
+#~ "instalētas korekti."
+
+#~ msgid "Image rendering failed."
+#~ msgstr "Attēla izveide nav izdevusies."
+
+#~ msgid "Enter fullscreen mode"
+#~ msgstr "Ieiet pilnekrānā"
+
+#~ msgid "Network game mode"
+#~ msgstr "Tīkla spēles režīms"
+
+#~ msgid "The game server"
+#~ msgstr "Spēles serveris"
+
+#~ msgid "The identifier for the game"
+#~ msgstr "Spēles identifikators"
+
+#~ msgid ""
+#~ "The mode of network game to use. 1 = Server, 2 = LAN Host, 3 = LAN Client."
+#~ msgstr ""
+#~ "Kāda veida tīkla spēli lietot. 1 = server, 2 = LAN Host, 3 = LAN Client."
+
+#~ msgid "The player's nickname"
+#~ msgstr "Spēlētāja iesauka"
+
+#~ msgid "The player's nickname."
+#~ msgstr "Spēlētāja iesauka."
+
+#~ msgid ""
+#~ "This string identifies the default game to connect to or create "
+#~ "(depending on mode)."
+#~ msgstr ""
+#~ "Šī virkne nosaka noklusēto spēli, kurai pieslēgties vai ko izveidot "
+#~ "(atkarībā no tipa)."
+
+#~ msgid ""
+#~ "When using server mode, which game server to contact. This accepts the "
+#~ "usual hostname or dotted quad notation."
+#~ msgstr ""
+#~ "Izmantojot servera režīmu, nosaka kuram spēļu serverim peislēgties. Šeit "
+#~ "var norādīt servera adresi vai IP skaitli"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Izvēlētā tēma neizveidojās.\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet, ka Mahjongg ir pareizi uzinstalēts."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Nav iespējams atrast failu:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Lūdzu pārliecinieties, ka Mahjongg ir pareizi uzstādīts."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "The default tile set will be loaded instead."
+#~ msgstr ""
+#~ "Nevar atrast failu:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Tiks ielādēts noklusētais attēlu komplekts."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Nevar izveidot attēlu:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Lūdzu pārbaudiet vai Mahjong ir pareizi uzstādīta."
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Nevar ielādēt kāršu komplektu"
+
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr ""
+#~ "Vai vēlaties pageigt šo spēli vai arī labāk gribat sākt tūdaļ spelēt "
+#~ "jaunu spēli?"
+
+#~ msgid ""
+#~ "If you choose to finish with the old map then the next game will use the "
+#~ "new map."
+#~ msgstr ""
+#~ "Ja jūs izvēlesieties vispirms pabeigt šo speli, jaunā spēle tiks sākta ar "
+#~ "jaunu karti."
+
+#~ msgid "_Finish"
+#~ msgstr "_Beigt"
+
+#~ msgid "Shuffle"
+#~ msgstr "Sajaukt"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Mahjongg rezultāti"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Mahjongg iestatījumi"
+
+#~ msgid "Tiles"
+#~ msgstr "Dakstiņi"
+
+#~ msgid "Maps"
+#~ msgstr "Kartes"
+
+#~ msgid "_Select map:"
+#~ msgstr "Izvēlietie_s Karti:"
+
+#~ msgid "Maps:"
+#~ msgstr "Kartes:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Dakstiņi:"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "A matching game played with Mahjongg tiles."
+#~ msgstr "Kaulinu meklešanas spēle, ko spēlē ar Mahjong kauliniem."
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "Atvainojiet, nespēju atrast spēlējamu konfigurāciju."
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Atlikuši dakstiņi:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Atlikuši gājieni:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Novākt atbilstošos dakstiņu pārus."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Nojaukt dakstiņu kaudzi ņemot nost sakrītošus pārus"
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 200 pixels high."
+#~ msgstr ""
+#~ "Loga augstums pikseļos. Atcerieties, ka loga elementi ir vismaz 200 "
+#~ "pikseļus aigsti."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 320 pixels wide."
+#~ msgstr ""
+#~ "Loga platums pikseļos. Atcerieties, ka loga elementi ir vismaz 320 "
+#~ "pikseļus plati."
+
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Vieglais"
+
+#~ msgid "The Ziggurat"
+#~ msgstr "Zikurāts"
+
+#~ msgid "Four Bridges"
+#~ msgstr "Četri tilti"
+
+#~ msgid "Cloud"
+#~ msgstr "Mākonis"
+
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Desas"
+
+#~ msgid "Red Dragon"
+#~ msgstr "Sarkanais pūķis"
+
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Piramīdas sienas"
+
+#~ msgid "Confounding Cross"
+#~ msgstr "Confounding Cross"
+
+#~ msgid "Difficult"
+#~ msgstr "Sarežģīts"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "1000 punkti par dēļa notīrīšanu!"
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "Vidējs"
+
+#~ msgid "Set the theme"
+#~ msgstr "Uzstādīt tēmu"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "Atpakaļsavietojamībai"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Spēles izmērs (1=mazs, 3=liels)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "Attīriet ekrānu aizvācot vienādu krāsu bumbiņu grupas"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Tas pats GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Pielāgotā dēļa augstums"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Ja šis ir uzstādīts uz NEPATIESS, tad gabaliņi kritīs lēni un graciozi. "
+#~ "Uzstādot uz PATIESS, kauliņi krīt ātri un raustīgi."
+
+#~ msgid "The board size"
+#~ msgstr "Dēļa izmērs"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Lietojamā tēmas faila nosaukums."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Pašizveidotā laukuma augstums 101 &gt; augstums &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "Kādu galdiņa izmēru lietot. 1 = Pielāgots, 2 = Mazs, 3 = Vidējs, 4 = "
+#~ "Liels."
+
+#~ msgid "The theme to use"
+#~ msgstr "Lietojamās tēmas nosaukums"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Pašizveidotā laukuma platums 101 &gt; platums &gt; 3."
+
+#~ msgid "The window height"
+#~ msgstr "Loga augstums"
+
+#~ msgid "The window width"
+#~ msgstr "Loga platums"
+
+#~ msgid "Use fast animation"
+#~ msgstr "Pielietot ātrās animācijas"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Pielāgotā dēļa platums"
+
+#~ msgid "No points"
+#~ msgstr "Nav punktu"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d punkts"
+#~ msgstr[1] "%d punkti"
+#~ msgstr[2] "%d punkti"
+
+#~ msgid "Score: %d"
+#~ msgstr "Rezultāts: %d"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!"
+#~ msgstr ""
+#~ "Es gribu spēlēt to spēli! Nu zini, to kur visi tie riņķojošie, uz kuriem "
+#~ "uzklikšķina, un tie izgaist!"
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Tie paši GNOME rezultāti"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "Diemžēl, ar savu rezultātu jūs neiekļuvāt top desmitniekā."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Tā pati GNOME tēma"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Tēma..."
+
+#~ msgid "_Fast Animation"
+#~ msgstr "Ātra animācija"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Netika atrasta tēma."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Nevar palaist spēli. Lūdzu pārliecinietes, ka spēle ir tikusi pareizi "
+#~ "uzstādīta un pamēģiniet vēlreiz."

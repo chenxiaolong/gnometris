@@ -1,0 +1,6071 @@
+# Ukranian translation of the gnome-games module.
+# Copyright (C) 1999,2000 Free Software Foundation, Inc.
+# Yuri Syrota <rasta@renome.rovno.ua>, 1999-2000.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004,3005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2007-09-18 23:57+0300\n"
+"Last-Translator: Maxim V. Dziumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Призупинено"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Гру закінчено"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Тетріс"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Складання блоків, що падають"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "Зображення, що використовуватиметься для малювання блоків"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "Зображення, що використовуватиметься для малювання блоків."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "Тема блоків"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Тема, що використовується для малювання блоків та фону."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Початковий рівень"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Початковий рівень."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "Чи використовувати зображення на тлі"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr "Вибирає чи малювати зображення на тлі над кольором тла."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "Колір тла"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Колір тла, у форматі gdk_color_parse understands."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "Чи показувати наступний блок"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "Чи показувати наступний блок."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "Чи показувати ціль"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "Показувати, куди впаде блок."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "Чи мають блоки випадкових кольорів"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "Чи мають блоки випадкових кольорів."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "Чи обертати проти годинникової стрілки"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "Чи обертати проти годинникової стрілки."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "Кількість заповнених рядів"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "Кількість рядів, заповнених випадковими блоками на початку гри."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "Щільність блоків наперед заповнених рядів"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Щільність блоків у наперед заповнених рядах на початку гри. Дозволяються "
+"значення між 0 (немає блоків) і 10 (повністю заповнено)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Ліворуч"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Натисніть клавішу руху ліворуч."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Праворуч"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Натисніть клавішу руху праворуч."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Пересунути вниз"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Натисніть клавішу руху вниз."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Кидок"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Натисніть клавішу для кидання."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "Поворот"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Натисніть клавішу повороту."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Натисніть клавішу паузи."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "Встановити початковий рівень (1 або більше)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "РІВЕНЬ"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Простий"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Приєднався"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr "Простий Танго"
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr "Танго з тінями"
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Рахунок:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Рядів:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Рівень:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Гра"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "П_араметри"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Довідка"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Властивості гри \"Тетріс\""
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Гра"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Параметри"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "_Кількість наперед заповнених рядів:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Щільність цегли наперед заповнених рядів:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_Початковий рівень:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Операція"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "_Увімкнути звуки"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_Показувати наступний блок"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "Випадковий колір _блоків"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "_Обертати проти годинникової стрілки"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "Показувати _місце попадання блоку"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Тема"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Керування"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Керування клавіатурою"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Стиль блоків"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+"Класична гра укладання падаючих блоків.\n"
+"\n"
+"Гнометріс є частиною GNOME Games."
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "Веб-сайт GNOME Games"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Юрій Сирота\n"
+"Максим Дзюманенко <dziumanenko@gmail.com>"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Результати гри Тетріс"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, fuzzy, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "%s: невідомий параметр «--%s»\n"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "П_араметри"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, fuzzy, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "%s: невідомий параметр «--%s»\n"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "Налаштувати гру"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Немає клавіші"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Натисніть клавішу>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Невідома команда"
+
+#: ../libgames-support/games-help.c:56
+#, fuzzy
+msgid "Unable to open help file"
+msgstr "Не вдається завантажити зображення: %s"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Час"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Результати"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dхв %dс"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Нова гра"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Ім'я"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Показати довідку з цієї гри"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "Завершити поточну гру"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr "Перемикнутися у режим на весь екран"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Отримати підказку наступного ходу"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Вийти з повноекранного режиму"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Розпочати нову мережну гру з кількома учасниками"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "Закінчити мережну гру та повернутись до ігрового сервера"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Розпочати нову гру"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Призупинити гру"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "Показувати список гравців у мережній грі"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Повторити скасований хід"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Перезапустити гру знову"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "Продовжити зупинену гру"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Показати рахунки"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Вернути останні хід"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Про гру"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "Закрити це вікно"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Налаштувати гру"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Вийти з гри"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Зміст"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "_На весь екран"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Підказка"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Нова гра"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "_Нова гра"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "_Повторити хід"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Скинути"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "_Перезапустити"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "_Вернути хід"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "_Вийти з повноекранного режиму"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "Нова _мережна гра"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "Ви_йти з гри"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "_Список гравців"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "_Пауза"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "П_родовжити"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Результати"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "_Завершити гру"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, fuzzy, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s ― вільне програмне забезпечення. Ви можете розповсюджувати чи змінювати "
+"його на умовах ліцензії GNU General Public License, що опублікована Free "
+"Software Foundation; або версії 2 ліцензії, або (на ваш розсуд) будь-якій "
+"більш пізній версії."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s розповсюджується зі сподіванням, що програма буде корисною, але БЕЗ БУДЬ-"
+"ЯКИХ ГАРАНТІЙ; не гарантується навіть ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ ПЕВНІЙ "
+"МЕТІ. Для отримання додаткової інформації ознайомтесь з GNU General Public "
+"License."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Ви мали отримати копію GNU General Public License разом з %s. Якщо цього не "
+"сталося, напишіть до Free Software Foundation, Inc., 59 Temple Place, Suite "
+"330, Boston, MA  02111-1307  USA."
+
+#~ msgid "Player Chat"
+#~ msgstr "Бесіда гравців"
+
+#~ msgid "Occupied"
+#~ msgstr "Зайнятий"
+
+#~ msgid "Empty"
+#~ msgstr "Порожній"
+
+#~ msgid "Bot"
+#~ msgstr "Комп'ютерний гравець"
+
+#~ msgid "Reserved"
+#~ msgstr "Зарезервований"
+
+#~ msgid "Abandoned"
+#~ msgstr "Закинутий"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "Спостерігач"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Стан"
+
+#~ msgid "Player List"
+#~ msgstr "Список гравців"
+
+#~ msgid "Info"
+#~ msgstr "Інформація"
+
+#~ msgid "Boot player"
+#~ msgstr "Завантажити гравця"
+
+#~ msgid "Sit here"
+#~ msgstr "Зупинитись тут"
+
+#~ msgid "Move here"
+#~ msgstr "Перейти сюди"
+
+#~ msgid "Play with bot"
+#~ msgstr "Грати з комп'ютером"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Скасувати резерв"
+
+#~ msgid "Remove bot"
+#~ msgstr "Видалити комп'ютерного гравця"
+
+#~ msgid "X Padding"
+#~ msgstr "Інтервал вздовж X"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Додатковий простір для віджета у ширину."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Додатковий простір для віджета у довжину."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Множник ширини"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "З яким множником співвідносити ширину."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Множник висоти"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "З яким множником співвідносити висоту."
+
+#~ msgid "X align"
+#~ msgstr "X-вирівнювання"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Горизонтальне вирівнювання, від 0(ліворуч) до 1(праворуч)"
+
+#~ msgid "Y align"
+#~ msgstr "Y-вирівнювання"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Вертикальне вирівнювання, від 0 (вгору) до 1 (вниз)"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "Список недавно зіграних пасьянсів."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Список рядків для форми п'ятірки: ім'я, перемог, всього ігор, найліпший "
+#~ "час (в секундах) і найгірший час (також в секундах). Ігри, в які не "
+#~ "гралося, не потрібно представляти."
+
+#~ msgid "Recently played games"
+#~ msgstr "Недавні пасьянси"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Вибір стилю керування"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Чи перетягувати карти мишею, або вказувати місце, звідки карта береться "
+#~ "та куди кладеться."
+
+#~ msgid "Sound"
+#~ msgstr "Звук"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Статистика минулих ігор"
+
+#~ msgid "The game file to use"
+#~ msgstr "Ігровий файл"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Назва файлу із зображенням карт."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Назва файлу схеми, що містить пасьянс."
+
+#~ msgid "Theme file name"
+#~ msgstr "Назва файлу теми"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Чи супроводжувати події звуками."
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Чи показувати панель інструментів"
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Чи показувати панель інструментів."
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Пасьянс \"Вільна комірка\""
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Ще одна реалізація популярного пасьянсу."
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file \"%s\". Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "Aisleriot не вдається завантажити файл: «%s». Перевірте встановлення "
+#~ "Aisleriot"
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Не вдається знайти останню зіграну гру."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Зазвичай це відбувається, якщо запущено більш стару версію програми "
+#~ "Айслеріот, у якій гра ще не підтримувалась. Замість цього буде запущено "
+#~ "типову гру - Клондайк."
+
+#~ msgid "Could not show link"
+#~ msgstr "Не вдається показати посилання"
+
+#~ msgid "Help file \"%s.%s\" not found"
+#~ msgstr "Файл довідки «%s.%s» не знайдено"
+
+#~ msgid "Error"
+#~ msgstr "Помилка"
+
+#~ msgid "Could not show help for \"%s\""
+#~ msgstr "Не вдається показати довідку до «%s»"
+
+#~ msgid "Could not show Aisleriot help"
+#~ msgstr "Не вдається показати довідку Айслеріот"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "Виберіть гру"
+
+#~ msgid "NAME"
+#~ msgstr "НАЗВА"
+
+#~ msgid "Select the game number"
+#~ msgstr "Виберіть номер гри"
+
+#~ msgid "NUMBER"
+#~ msgstr "Кількість"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Пасьянс AisleRiot"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Дозволяє грати у багато різних пасьянсів"
+
+#~ msgid "Unknown color"
+#~ msgstr "Невідомий колір"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Невідома масть"
+
+#~ msgid "Unknown value"
+#~ msgstr "Невідоме значення"
+
+#~ msgid "ace"
+#~ msgstr "туз"
+
+#~ msgid "black joker"
+#~ msgstr "чорний джокер"
+
+#~ msgid "clubs"
+#~ msgstr "жир"
+
+#~ msgid "diamonds"
+#~ msgstr "бубни"
+
+#~ msgid "eight"
+#~ msgstr "вісімка"
+
+#~ msgid "five"
+#~ msgstr "п'ятірка"
+
+#~ msgid "four"
+#~ msgstr "четвірка"
+
+#~ msgid "hearts"
+#~ msgstr "черва"
+
+#~ msgid "jack"
+#~ msgstr "валет"
+
+#~ msgid "king"
+#~ msgstr "король"
+
+#~ msgid "nine"
+#~ msgstr "дев'ятка"
+
+#~ msgid "queen"
+#~ msgstr "дама"
+
+#~ msgid "red joker"
+#~ msgstr "червоний джокер"
+
+#~ msgid "seven"
+#~ msgstr "сімка"
+
+#~ msgid "six"
+#~ msgstr "шістка"
+
+#~ msgid "spades"
+#~ msgstr "вино"
+
+#~ msgid "ten"
+#~ msgstr "десятка"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "туз жир"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "туз бубни"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "туз черва"
+
+#~ msgid "the ace of spades"
+#~ msgstr "туз вино"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "вісімку жир"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "вісімку бубни"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "вісімку черва"
+
+#~ msgid "the eight of spades"
+#~ msgstr "вісімку вино"
+
+#~ msgid "the five of clubs"
+#~ msgstr "п'ятірку жир"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "п'ятірку бубни"
+
+#~ msgid "the five of hearts"
+#~ msgstr "п'ятірку черва"
+
+#~ msgid "the five of spades"
+#~ msgstr "п'ятірку вино"
+
+#~ msgid "the four of clubs"
+#~ msgstr "четвірку жир"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "четвірку бубни"
+
+#~ msgid "the four of hearts"
+#~ msgstr "четвірку черва"
+
+#~ msgid "the four of spades"
+#~ msgstr "четвірку вино"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "валета жир"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "валета бубни"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "валета черва"
+
+#~ msgid "the jack of spades"
+#~ msgstr "валета вино"
+
+#~ msgid "the king of clubs"
+#~ msgstr "короля жир"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "короля бубни"
+
+#~ msgid "the king of hearts"
+#~ msgstr "короля черва"
+
+#~ msgid "the king of spades"
+#~ msgstr "короля вино"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "дев'ятку жир"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "дев'ятку бубни"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "дев'ятку черва"
+
+#~ msgid "the nine of spades"
+#~ msgstr "дев'ятку вино"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "даму жир"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "даму бубни"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "даму черва"
+
+#~ msgid "the queen of spades"
+#~ msgstr "даму вино"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "сімку жир"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "сімку бубни"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "сімку черва"
+
+#~ msgid "the seven of spades"
+#~ msgstr "сімку вино"
+
+#~ msgid "the six of clubs"
+#~ msgstr "шістку жир"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "шістку бубни"
+
+#~ msgid "the six of hearts"
+#~ msgstr "шістку черва"
+
+#~ msgid "the six of spades"
+#~ msgstr "шістку вино"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "десятку жир"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "десятку бубни"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "десятку черва"
+
+#~ msgid "the ten of spades"
+#~ msgstr "десятку вино"
+
+#~ msgid "the three of clubs"
+#~ msgstr "трійку жир"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "трійку бубни"
+
+#~ msgid "the three of hearts"
+#~ msgstr "трійку черва"
+
+#~ msgid "the three of spades"
+#~ msgstr "трійку вино"
+
+#~ msgid "the two of clubs"
+#~ msgstr "двійку жир"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "двійку бубни"
+
+#~ msgid "the two of hearts"
+#~ msgstr "двійку черва"
+
+#~ msgid "the two of spades"
+#~ msgstr "двійку вино"
+
+#~ msgid "the unknown card"
+#~ msgstr "невідома карта"
+
+#~ msgid "three"
+#~ msgstr "трійка"
+
+#~ msgid "two"
+#~ msgstr "двійка"
+
+#~ msgid "Wins:"
+#~ msgstr "Перемог:"
+
+#~ msgid "Total:"
+#~ msgstr "Всього:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Відсотків:"
+
+#~ msgid "Wins"
+#~ msgstr "Перемог"
+
+#~ msgid "Best:"
+#~ msgstr "Найліпша:"
+
+#~ msgid "Worst:"
+#~ msgstr "Найгірша:"
+
+#~ msgid "Statistics"
+#~ msgstr "Статистика"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "Н/Д"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "Yukon"
+#~ msgstr "Юкон"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Веселі Ґордони"
+
+#~ msgid "Valentine"
+#~ msgstr "Валентин"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Леді Джейн"
+
+#~ msgid "Kansas"
+#~ msgstr "Канзас"
+
+#~ msgid "Backbone"
+#~ msgstr "Хребет"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Блукаючий вогник"
+
+#~ msgid "Scorpion"
+#~ msgstr "Скорпіон"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Гробниця Наполеона"
+
+#~ msgid "Easthaven"
+#~ msgstr "Східна гавань"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Вулиці і провулки"
+
+#~ msgid "Thirteen"
+#~ msgstr "Тринадцять"
+
+#~ msgid "Maze"
+#~ msgstr "Плутанина"
+
+#~ msgid "Union Square"
+#~ msgstr "Загальна площа"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Павук з трьома колодами"
+
+#~ msgid "Template"
+#~ msgstr "Шаблон"
+
+#~ msgid "Ten Across"
+#~ msgstr "Десять поперек"
+
+#~ msgid "Canfield"
+#~ msgstr "Кенфілд"
+
+#~ msgid "Westhaven"
+#~ msgstr "Західна гавань"
+
+#~ msgid "Poker"
+#~ msgstr "Покер"
+
+#~ msgid "Jamestown"
+#~ msgstr "Джеймстаун"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Палець та гаманець"
+
+#~ msgid "Neighbor"
+#~ msgstr "Сусід"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Діамантова шахта"
+
+#~ msgid "Golf"
+#~ msgstr "Гольф"
+
+#~ msgid "Straight Up"
+#~ msgstr "Вгору"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Тітка Мері"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Олд Ланг Синг"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Класи"
+
+#~ msgid "Isabel"
+#~ msgstr "Ізабель"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Чортова дюжина"
+
+#~ msgid "Osmosis"
+#~ msgstr "Осмос"
+
+#~ msgid "Escalator"
+#~ msgstr "Ескалатор"
+
+#~ msgid "First Law"
+#~ msgstr "Перше правило"
+
+#~ msgid "Jumbo"
+#~ msgstr "Джумбо"
+
+#~ msgid "Cruel"
+#~ msgstr "Жорстокість"
+
+#~ msgid "Klondike"
+#~ msgstr "Клондайк"
+
+#~ msgid "Clock"
+#~ msgstr "Годинник"
+
+#~ msgid "Seahaven"
+#~ msgstr "Бухта"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Монте-Карло"
+
+#~ msgid "Thieves"
+#~ msgstr "Викрадачі"
+
+#~ msgid "Gypsy"
+#~ msgstr "Циган"
+
+#~ msgid "Scuffle"
+#~ msgstr "Бійка"
+
+#~ msgid "Cover"
+#~ msgstr "Конверт"
+
+#~ msgid "Spider"
+#~ msgstr "Павук"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Орлине крило"
+
+#~ msgid "Quatorze"
+#~ msgstr "Чотирнадцять"
+
+#~ msgid "Chessboard"
+#~ msgstr "Шахова дошка"
+
+#~ msgid "Spiderette"
+#~ msgstr "Павучиха"
+
+#~ msgid "Camelot"
+#~ msgstr "Камелот"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Аудієнція у короля"
+
+#~ msgid "Bristol"
+#~ msgstr "Бристоль"
+
+#~ msgid "Elevator"
+#~ msgstr "Ліфт"
+
+#~ msgid "Carpet"
+#~ msgstr "Килим"
+
+#~ msgid "Saratoga"
+#~ msgstr "Дорожня скриня"
+
+#~ msgid "Eight Off"
+#~ msgstr "Без вісімок"
+
+#~ msgid "Helsinki"
+#~ msgstr "Хельсінкі"
+
+#~ msgid "Glenwood"
+#~ msgstr "Ґлінвуд"
+
+#~ msgid "Athena"
+#~ msgstr "Афіна"
+
+#~ msgid "Royal East"
+#~ msgstr "Королівський схід"
+
+#~ msgid "Block Ten"
+#~ msgstr "Блок десяток"
+
+#~ msgid "Fourteen"
+#~ msgstr "Чотирнадцять"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Лабіринт"
+
+#~ msgid "Pileon"
+#~ msgstr "Комора"
+
+#~ msgid "Treize"
+#~ msgstr "Тринадцять"
+
+#~ msgid "Yield"
+#~ msgstr "Врожай"
+
+#~ msgid "Whitehead"
+#~ msgstr "Біла голова"
+
+#~ msgid "Plait"
+#~ msgstr "Коса"
+
+#~ msgid "Gaps"
+#~ msgstr "Пролом"
+
+#~ msgid "Odessa"
+#~ msgstr "Одеса"
+
+#~ msgid "Fortunes"
+#~ msgstr "Фортуна"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Три вершини"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Пекарська гра"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Облога замку"
+
+#~ msgid "King Albert"
+#~ msgstr "Король Альберт"
+
+#~ msgid "Zebra"
+#~ msgstr "Зебра"
+
+#~ msgid "Doublets"
+#~ msgstr "Дуплети"
+
+#~ msgid "Fortress"
+#~ msgstr "Фортеця"
+
+#~ msgid "Peek"
+#~ msgstr "Погляд"
+
+#~ msgid "Agnes"
+#~ msgstr "Аґнес"
+
+#~ msgid "Freecell"
+#~ msgstr "Вільна комірка"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Сер Томмі"
+
+#~ msgid "Select Game"
+#~ msgstr "Вибрати гру"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Вітаємо, ви виграли!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "Більше немає варіантів ходу."
+
+#~ msgid "Main game:"
+#~ msgstr "Основна гра:"
+
+#~ msgid "Card games:"
+#~ msgstr "Картярські ігри:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Стиль карт:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Про пасьянс \"Вільна комірка\""
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Про Айслеріот"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "Айслеріот є механізмом пасьянсів, з гнучкою системою визначення нових "
+#~ "правил гри,  що дозволяє реалізувати велику кількість різних ігор.\n"
+#~ "\n"
+#~ "Айслеріот є частиною проекту GNOME Games."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "В цій грі підказок ще не реалізовані."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Покласти %s на %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Ви шукаєте %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "У цій грі немає підказок."
+
+#~ msgid "Play \"%s\""
+#~ msgstr "Грати в «%s»"
+
+#~ msgid "Display cards with \"%s\" card theme"
+#~ msgstr "Використовувати тему карт «%s»"
+
+#~ msgid "score|%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "Виникла виключна ситуація у scheme"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Будь ласка, повідомте про це розробників."
+
+#~ msgid "_Don't report"
+#~ msgstr "_Не повідомляти"
+
+#~ msgid "_Report"
+#~ msgstr "_Повідомити"
+
+#~ msgid "_View"
+#~ msgstr "_Вигляд"
+
+#~ msgid "_Control"
+#~ msgstr "_Керування"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Вибрати гру..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Вибрати інший пасьянс"
+
+#~ msgid "_Recently Played"
+#~ msgstr "Недавні п_асьянси"
+
+#~ msgid "S_tatistics"
+#~ msgstr "С_татистика"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Показувати статистику гри"
+
+#~ msgid "_Deal"
+#~ msgstr "З_дати"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Роздати ще карту"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Показати довідку до програми Aisleriot"
+
+#~ msgid "_Card Style"
+#~ msgstr "Стиль _карт"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Панель інструментів"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Показати чи прибрати панель інструментів"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Перенесення карт"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Вибрати та опускати карти при клацанні"
+
+#~ msgid "Time:"
+#~ msgstr "Час:"
+
+#~ msgid "Cannot start the game \"%s\""
+#~ msgstr "Не вдається запустити гру «%s»"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Основна карта: Туз"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Основна карта: Валет"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Основна карта: Король"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Основна карта: Дама"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Основна карта: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Ще роздати карти"
+
+#~ msgid "Stock left:"
+#~ msgstr "Лишилось в колоді:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Лишилось в колоді: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Спробуйте перетасувати карти"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "порожня основа"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Беріть нову карту з колоди"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Зараз підказок немає"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Лишилось роздач:"
+
+#~ msgid "Three card deals"
+#~ msgstr "Здавати по три карти"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Спробуйте забрати карти з бази"
+
+#~ msgid "an empty slot"
+#~ msgstr "порожнє поле"
+
+#~ msgid "Deal another round"
+#~ msgstr "Здати карти ще раз"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "порожнє поле на базі"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "порожнє поле на столі"
+
+#~ msgid "an empty foundation"
+#~ msgstr "порожня основа"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Покладіть будь-що на порожнє місце"
+
+#~ msgid "an empty tableau"
+#~ msgstr "порожнє ігрове поле"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "порожнє нижнє поле"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "порожнє кутове поле"
+
+#~ msgid "an empty left slot"
+#~ msgstr "порожнє ліве поле"
+
+#~ msgid "an empty right slot"
+#~ msgstr "порожнє праве поле"
+
+#~ msgid "an empty top slot"
+#~ msgstr "порожнє верхнє поле"
+
+#~ msgid "itself"
+#~ msgstr "собі"
+
+#~ msgid "Base Card: "
+#~ msgstr "Основна карта: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Вкинути скидання назад у колоду"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Лишилось у запасі:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "порожнє поле на базі"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "порожній простір на ігровому полі"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Перенесіть карту в основу"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Покладіть будь-що в порожнє гніздо на столі"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Постійність -- запорука успіху"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Рибацька ліска - це не нитка для чищення зубів"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "А ви прочитали інструкцію?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "А зараз було б непогано почухати спину..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Якщо ви заблукали в лісі та вам самотньо, то хоч дерево обійміть"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Те що зебра переходу схожа на розмітку для гри в \"Класи\", не робить її "
+#~ "такою"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Подивіться по обидва боки, перш ніж переходити вулицю"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Монітор не дасть вам вітаміну D, зате дасть сонячне світло..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Ніколи не дуйте собаці у вухо"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Одеса -- найліпша гра. Справді."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr ""
+#~ "Користуватись турнікетами, за винятком крайньої потреби, не рекомендується"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "За відсутності степлера, згодиться і лінійка із скріпкою"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Залишилось карт: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Здати повторно."
+
+#~ msgid "the foundation pile"
+#~ msgstr "основа"
+
+#~ msgid "Deal a card"
+#~ msgstr "Здати карту"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Покласти ~a на порожню основу"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "порожнє поле"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Перекладіть короля в порожнє ігрове поле"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Я не впевнений"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Прибрати тузи"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Прибрати вісімки"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Прибрати п'ятірки"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Прибрати четвірки"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Прибрати валети"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Прибрати королі"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Прибрати дев'ятки"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Прибрати дами"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Прибрати сімки"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Прибрати шістки"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Прибрати десятки"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Прибрати трійки"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Прибрати двійки"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Повернути карти в колоду"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Спробуйте перекласти щось на порожнє поле"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Покладіть ~а на край столу"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Подальші рухи неможливі. Верніть хід або запустіть знову."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Гра не має розв'язання. Верніть хід або запустіть знову."
+
+#~ msgid "an empty reserve"
+#~ msgstr "порожнє поле у резерві"
+
+#~ msgid "an open tableau"
+#~ msgstr "порожнє ігрове поле"
+
+#~ msgid "the foundation"
+#~ msgstr "основа"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Додайте у стопку у рядку ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Двічі клацніть на будь-якій карті для повторної здачі."
+
+#~ msgid "No hint available."
+#~ msgstr "Підказка недоступна."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Покладіть двійку у саме ліве поле рядка ~a."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Покладіть ~a після ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Випадкові проміжки при повторній здачі"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Перекладіть карту з резерву в порожнє поле"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Виберіть карту з резерву для основи першого стовпчика"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "в порожнє поле на столі"
+
+#~ msgid "Deal another card"
+#~ msgstr "Здати іншу карту"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Лишилось в колоді: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Здати ще раз"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Перекладіть карту чи зв'язку карт в порожнє поле"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Перекласти карту з відбою"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Перекласти відбій у колоду"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "порожнє гніздо на столі"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Здати нову карту"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Лишилось в колоді: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Без повторної здачі"
+
+#~ msgid "Single card deals"
+#~ msgstr "Здавати по одній карті"
+
+#~ msgid "Base Card:"
+#~ msgstr "Основна карта:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Ціллю гри є розташування мастей в порядку, що відповідає  поточному "
+#~ "розкладу."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Здати нові карти з колоди"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Лишилось роздач: ~a"
+
+#~ msgid "something"
+#~ msgstr "щось"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Перекладіть карту з колоди на порожню вершину на поле"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Покласти ~а на порожнє поле"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Покладіть карти на поле так, щоб вийшли покерні ряди"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Режим перетасовування"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "порожнє поле"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Роздати карти"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Перетасувати карти"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Покласти відбій у резерв"
+
+#~ msgid "empty foundation"
+#~ msgstr "порожня основа"
+
+#~ msgid "Four Suits"
+#~ msgstr "Чотири колоди"
+
+#~ msgid "One Suit"
+#~ msgstr "Одна колода"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Покладіть щось на порожнє поле"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Покладіть щось в порожній стовпчик."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Спробуйте перекласти купки карт"
+
+#~ msgid "Two Suits"
+#~ msgstr "Дві колоди"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Дозволити використання тимчасових полів"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Покладіть карту в порожнє тимчасове поле"
+
+#~ msgid "No hint available"
+#~ msgstr "Підказка недоступна"
+
+#~ msgid "and all cards below it"
+#~ msgstr "і всі карти під нею"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "порожні поля"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Беріть карту з колоди"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Порівняти з двома верхніми картами у відбої."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Рахунок збільшується"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Прогресивні ігри"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "відповідну купку в базі"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Перекладіть зв'язку карт в порожнє гніздо на столі"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "відповідну купку на базі"
+
+#~ msgid "Blackjack"
+#~ msgstr "Двадцять одне"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Всенародно улюблена гра \"Двадцять одне\" (\"Блекджек\")"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Показувати вірогідності"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Показувати вірогідності на кожному здаванні карти і очікуване значення у "
+#~ "вас на руках."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Ніколи не брати страховку"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Ніколи не брати страховку від здачі туза."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Кількість грошей на вашому рахунку"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Кількість грошей на вашому рахунку."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "Назва файлу правил, що містить варіанти умов ігор."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Файл варіантів умов гри."
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Використовувати швидке здавання"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Використовувати швидке здавання без затримок між кожною картою."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Двадцять одне - %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Перезапустити гру знову"
+
+#~ msgid "Show a hint"
+#~ msgstr "Показати підказку"
+
+#~ msgid "D_eal"
+#~ msgstr "З_дати"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Здати карти"
+
+#~ msgid "_Hit"
+#~ msgstr "_Поставити"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Здати ще одну карту"
+
+#~ msgid "_Stand"
+#~ msgstr "_Утриматись"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Зупинити здачу карт на руки"
+
+#~ msgid "S_urrender"
+#~ msgstr "Зд_атись"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Оштрафувати руку на половину ставки"
+
+#~ msgid "_Double down"
+#~ msgstr "_Подвоїти"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Подвоїти вашу ставку за один хід"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "_Розділити здачу"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Розділити карти на дві руки"
+
+#~ msgid "Show toolbar"
+#~ msgstr "Показати панель інструментів"
+
+#~ msgid "Cards left:"
+#~ msgstr "Лишилось карт"
+
+#~ msgid "Wager:"
+#~ msgstr "Ставка:"
+
+#~ msgid "Balance:"
+#~ msgstr "Баланс:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Робіть вашу ставку, чи здавайте карти"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Правила гри \"Двадцять одне\""
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Хочете підстрахуватись?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Страховка - це побічне парі у 50 %% від основної ставки у тому, що той "
+#~ "хто роздає має рівно 21 (тобто Блэкджек), яке пропонується, коли відкрита "
+#~ "карта того, хто роздає  - туз. Якщо в того, хто роздає дійсно 21, тоді "
+#~ "гравець подвоює виграш."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "Зробіть вашу ставку і клацніть по білій зовнішній лінії для здавання "
+#~ "карти."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "Зробіть вашу ставку і клацніть по карті для здавання нової карти."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Параметри гри \"Двадцять одне\""
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "_Показувати можливі карти"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "_Швидке здавання (без затримок між картами)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "Не _страхуватись"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "_Скинути баланс"
+
+#~ msgid "Rules"
+#~ msgstr "Правила"
+
+#~ msgid "Decks"
+#~ msgstr "Звороти"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "Ставити м'яко 17"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Подвоювати будь-яке значення"
+
+#~ msgid "Double 9"
+#~ msgstr "Подвоювати 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "М'яке подвоєння"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Подвоювати після ставки"
+
+#~ msgid "Double After Split"
+#~ msgstr "Подвоювати після розділення"
+
+#~ msgid "Resplit"
+#~ msgstr "Розділити"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Розділити тузи"
+
+#~ msgid "Surrender"
+#~ msgstr "Здатись"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Швидкість круп'є"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Клацніть, щоб подвоїти ставку"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Двічі клацніть для підняття вашої ставки на %.2f"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Двічі клацніть для зменшення вашої ставки на %.2f"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr ""
+#~ "Клацніть для здавання іншої карти, перенесіть карту для розділення пар"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Клацніть для здавання іншої карти"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Клацніть, щоб припинити отримувати карти"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Клацніть для нового здавання"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Не вдалось завантажити потрібний файл"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Перевірте коректність встановлення гри \"Двадцять одне\""
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Краще утриматись"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Це означає припинення додавання карт на вашу руку. Ви можете це зробити, "
+#~ "натиснувши на карти тог, хто роздає або вибрав пункт з меню."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Краще взяти ще карту"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Так ви додасте ще одну карту на руку. Ви можете цього це зробити, "
+#~ "натиснувши на ваші карти або вибравши пункт з меню."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "Краще буде подвоїти"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Подвоєння означає подвоєння ставки та отримання ще однієї карти. Ви "
+#~ "можете зробити це, клацнувши на фішки внизу або обравши пункт з меню."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Кращим варіантом буде розділення"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "\"Розділити\" означає поділити вашу поточну руку на дві. Ви можете "
+#~ "зробити це захопивши одну з ваших рук та перенести її за ігрове поле або "
+#~ "обравши пункт з меню."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Краще буде здатись"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Здача поверне вам половину вашої ставки та перерве заповнення руки. "
+#~ "Виберіть відповідний пункти у меню."
+
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "Гра «Двадцять одне» дозволяє грати у карти як у реальному казино.\n"
+#~ "\n"
+#~ "«Двадцять одне» є частиною пакету GNOME Games."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Обрахування основної стратегії..."
+
+#~ msgid "Bust"
+#~ msgstr "Банкрут"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Двадцять одне!"
+
+#~ msgid "Soft"
+#~ msgstr "М'яко"
+
+#~ msgid "Win"
+#~ msgstr "Перемога"
+
+#~ msgid "Push"
+#~ msgstr "Ставити"
+
+#~ msgid "Lose"
+#~ msgstr "Програш"
+
+#~ msgid "Player expected values"
+#~ msgstr "Очыкувані значення для ігрока"
+
+#~ msgid "Stand"
+#~ msgstr "Стояти"
+
+#~ msgid "Hit"
+#~ msgstr "Ставити"
+
+#~ msgid "Double"
+#~ msgstr "Подвоїти"
+
+#~ msgid "Split"
+#~ msgstr "Розділити"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Ймовірності карт того, хто роздає"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Не вдається з'єднатись з сервером: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Новий пароль %s"
+
+#~ msgid "New password"
+#~ msgstr "Новий пароль"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Гравців на сервері: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Кімната: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Ви увійшли у кімнату «%s»."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Не вдається увійти у кімнату: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "Ігрова зона GGZ"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Щоб почати спілкування, треба увійти у кімнату."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Немає прав для початку спілкування."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Спілкування за столом не дозволяється!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "У кімнаті немає такого гравця!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "При надсиланні повідомлення виникла помилка."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Ви не за столом.."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Бесіда несподівано завершилась: %s"
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "При створенні столу виникла помилка: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Ви приєднались до столу %d."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "При приєднанні до столу виникла помилка: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "%s вигнав вас з-за стола."
+
+#~ msgid "You have left the table."
+#~ msgstr "Ви залишили стіл."
+
+#~ msgid "The game is over."
+#~ msgstr "Гра закінчена."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "На ігровому сервері виникла помилка."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Під час виходу з-за столу виникла помилка: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Поточна кімната:"
+
+#~ msgid "**none**"
+#~ msgstr "**немає**"
+
+#~ msgid "Offline"
+#~ msgstr "Не у мережі"
+
+#~ msgid "Connecting"
+#~ msgstr "З'єднання"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Перез'єднання"
+
+#~ msgid "Online"
+#~ msgstr "У мережі'ятка"
+
+#~ msgid "Logging In"
+#~ msgstr "Авторизація"
+
+#~ msgid "Logged In"
+#~ msgstr "Авторизований"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Кімната"
+
+#~ msgid "Chatting"
+#~ msgstr "Бесіда"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Стіл"
+
+#~ msgid "Playing"
+#~ msgstr "Гра"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Стіл"
+
+#~ msgid "Logging Out"
+#~ msgstr "Завершення"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Помилка сервера: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Від'єднання від сервера."
+
+#~ msgid "Login"
+#~ msgstr "Обліковий запис"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Це ім'я вже використовується."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Авторизація закінчилась невдало.\n"
+#~ "Перевірте правильність паролю."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Ім'я користувача надто довге!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Некоректне ім'я користувача, не використовуйте спеціальні символи!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Вхід у систему не вдався з невідомої причини: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "Мережна гра"
+
+#~ msgid "Server Profile"
+#~ msgstr "Профіль сервера"
+
+#~ msgid "Profile:"
+#~ msgstr "Профіль:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "Правка профілів"
+
+#~ msgid "Server:"
+#~ msgstr "Сервер:"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "User Information"
+#~ msgstr "Інформація про користувача"
+
+#~ msgid "Username:"
+#~ msgstr "Ім'я користувача:"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "Email:"
+#~ msgstr "Ел. пошта:"
+
+#~ msgid "Authentication type"
+#~ msgstr "Тип автентифікації"
+
+#~ msgid "Normal Login"
+#~ msgstr "Звичайний"
+
+#~ msgid "Guest Login"
+#~ msgstr "Гостьовий"
+
+#~ msgid "First-time Login"
+#~ msgstr "Перший раз"
+
+#~ msgid "Connect"
+#~ msgstr "З'єднатись"
+
+#~ msgid "Wizard"
+#~ msgstr "Чарівник"
+
+#~ msgid "Deity"
+#~ msgstr "Божество"
+
+#~ msgid "Sentinel"
+#~ msgstr "Страж"
+
+#~ msgid "Captain"
+#~ msgstr "Капітан"
+
+#~ msgid "Knight"
+#~ msgstr "Лицар"
+
+#~ msgid "Angel"
+#~ msgstr "Ангел"
+
+#~ msgid "Silverlord"
+#~ msgstr "Лорд"
+
+#~ msgid "Eagle"
+#~ msgstr "Орел"
+
+#~ msgid "Vampire"
+#~ msgstr "Вампір"
+
+#~ msgid "Chief"
+#~ msgstr "Сержант"
+
+#~ msgid "Colonel"
+#~ msgstr "Полковник"
+
+#~ msgid "General"
+#~ msgstr "Генерал"
+
+#~ msgid "Major"
+#~ msgstr "Майор"
+
+#~ msgid "Scout"
+#~ msgstr "Піонер"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Лейтенант"
+
+#~ msgid "Stalker"
+#~ msgstr "Першопроходець"
+
+#~ msgid "Scientist"
+#~ msgstr "Вчений"
+
+#~ msgid "Scholar"
+#~ msgstr "Учень"
+
+#~ msgid "Entity"
+#~ msgstr "Сутність"
+
+#~ msgid "Creator"
+#~ msgstr "Автор"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "Спільнота GGZ (швидка)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Локальний сервер розробника"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Ви вперше запустили клієнта ігрової зони GGZ. Хочете створити декілька "
+#~ "профілів на типовому сервері?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr ""
+#~ "/msg <ім'я користувача> <повідомлення> .... приватне повідомлення гравцю"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <повідомлення1> ....... Повідомлення вашому столу"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <повідомлення> .......... команда адміністратора"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <ім'я користувача> ....... надіслати гравцю сигнал"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... отримати довідку"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. список ваших друзів"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... список ігнорованих гравців"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <ім'я користувача> ........ викинути гравця з кімнати"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr "/gag <ім'я користувача> .......... змусити користувача замовкнути"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <ім'я користувача> ......... дозволити користувачу розмовляти"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr ""
+#~ "/ban <ім'я користувача> ............ заборонити користувачу вхід на сервер"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Отримано невідоме повідомлення від %s."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "Надіслано сигнал від %s."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Використання: /msg <ім'я користувача> <повідомлення>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Надсилає повідомлення користувачу через мережу."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Сигнал надіслано %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (зареєстрований)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (не зареєстрований)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Команди бесіди"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <дія> ............ Надіслати дію"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s доданий до списку друзів."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s видалений зі списку друзів."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s доданий до списку ігнорованих."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s видалений зі списку ігнорованих."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Друзі"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Ігноровані гравці"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Декілька відповідностей:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Ця гра не встановлена. Її можна завантажити з\n"
+#~ "%s"
+
+#~ msgid "Launch Error"
+#~ msgstr "Помилка запуску"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Не вдається запустити модуль гри.\n"
+#~ " Запуск прервано."
+
+#~ msgid "Launched game"
+#~ msgstr "Запущена гра"
+
+#~ msgid "Launch failed"
+#~ msgstr "Запуск завершився невдало"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Можна грати лише у одну гру."
+
+#~ msgid "Game Error"
+#~ msgstr "Помилка гри"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Ви досі за столом."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Ви повинні увійти у кімнату для початку гри.\n"
+#~ "Запуск прервано"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Для цього сервера не визначений список ігор.\n"
+#~ "Запуск прервано."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "У цій грі не підтримуються глядачі."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Щоб зіграти в цю гру,\n"
+#~ "треба запустити клієнт GGZ."
+
+#~ msgid "About"
+#~ msgstr "Про програму"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Повідомлення дня"
+
+#~ msgid "None"
+#~ msgstr "Немає"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Фільтрація за кімнатами поки не реалізована. \n"
+#~ "Якщо ви хочете допомогти, відвідайте\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Не реалізовано"
+
+#~ msgid "Description"
+#~ msgstr "Опис"
+
+#~ msgid "Web Address"
+#~ msgstr "Веб адрес"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Game Types"
+#~ msgstr "Типи ігор"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Фільтр списку кімнат:"
+
+#~ msgid "Set"
+#~ msgstr "Набір"
+
+#~ msgid "Player Information"
+#~ msgstr "Інформація про гравця"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Мітка гравця:"
+
+#~ msgid "Table:"
+#~ msgstr "Стіл:"
+
+#~ msgid "Account:"
+#~ msgstr "Обліковий запис:"
+
+#~ msgid "Record:"
+#~ msgstr "Запис:"
+
+#~ msgid "Rating:"
+#~ msgstr "Рейтинг:"
+
+#~ msgid "Rank:"
+#~ msgstr "Ранг:"
+
+#~ msgid "Message:"
+#~ msgstr "Повідомлення:"
+
+#~ msgid "Unknown"
+#~ msgstr "Невідомо"
+
+#~ msgid "Registered"
+#~ msgstr "Зареєстрований"
+
+#~ msgid "Guest"
+#~ msgstr "Гість"
+
+#~ msgid "Host"
+#~ msgstr "Вузол"
+
+#~ msgid "Administrator"
+#~ msgstr "Адміністратор"
+
+#~ msgid "Friends"
+#~ msgstr "Друзі"
+
+#~ msgid "Ignore"
+#~ msgstr "Ігнорувати"
+
+#~ msgid "#%d"
+#~ msgstr "№%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Статистика"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Який клієнт ви хочете використовувати для цієї гри?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Не питати ще раз."
+
+#~ msgid "Join"
+#~ msgstr "Приєднатися"
+
+#~ msgid "Leave"
+#~ msgstr "Залишити"
+
+#~ msgid "No description available."
+#~ msgstr "Опис недоступний."
+
+#~ msgid "Seats"
+#~ msgstr "Місця"
+
+#~ msgid "Room Information"
+#~ msgstr "Інформація про кімнату"
+
+#~ msgid "Game Name:"
+#~ msgstr "Гра:"
+
+#~ msgid "Author:"
+#~ msgstr "Автор:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Домашня сторінка:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Опис кімнати:"
+
+#~ msgid "This room has no game"
+#~ msgstr "У цій кімнаті не почата гра"
+
+#~ msgid "Unknown room"
+#~ msgstr "Невідома кімната"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Не можна заходити у кімнату до реєстрації"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Ви вже між кімнатами"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Не можна міняти кімнати під час гри"
+
+#~ msgid "Unknown error"
+#~ msgstr "Невідома помилка"
+
+#~ msgid "Error joining room"
+#~ msgstr "При вході у кімнату виникла помилка"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Інші кімнати"
+
+#~ msgid "Room"
+#~ msgstr "Кімната"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Тип гри:  %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Автор:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Опис:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Домашня сторінка:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "При підході до столу виникла помилка.\n"
+#~ " Невдале завершення."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Задано некоректне число комп'ютерних гравців"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Після запуску ігрового модуля виникла помилка."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Розстановка місць"
+
+#~ msgid "Game Type:"
+#~ msgstr "Тип гри:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Кількість місць"
+
+#~ msgid "Description:"
+#~ msgstr "Опис:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Місце %d:"
+
+#~ msgid "Computer"
+#~ msgstr "Комп'ютер"
+
+#~ msgid "Open"
+#~ msgstr "Вільно"
+
+#~ msgid "Reserved for"
+#~ msgstr "Зайнято для"
+
+#~ msgid "Game Description   "
+#~ msgstr "Опис гри   "
+
+#~ msgid "Launch"
+#~ msgstr "Запуск"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Впевнені, що хочете вийти?"
+
+#~ msgid "Quit?"
+#~ msgstr "Вийти?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Сервер ще не реалізований. Якщо\n"
+#~ "хочете допомогти, відвідайте\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Статистика гравців ще не реалізована.\n"
+#~ "Якщо хочете допомогти, відвідайте\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Ви повинні виділити стіл перш ніж приєднуватись до нього."
+
+#~ msgid "Error Joining"
+#~ msgstr "Помилка при вході"
+
+#~ msgid "That table is full."
+#~ msgstr "Стіл заповнений."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Ви повинні виділити стіл, щоб почати спостерігати за ним."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Помилка при спостереженні"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Не вдається приєднатись до столу.\n"
+#~ "З'єднання перервано."
+
+#~ msgid "Join Error"
+#~ msgstr "Помилка приєднання"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Від'єднатись від сервера GGZ Gaming Zone"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Почати грати за новим столом"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Приєднатись до існуючої игри"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Дивитись за існуючою грою - стати глядачем за столом"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Залишити гру у яку ви граєте"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "Показати діалог параметрів клієнта"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "Показати статистику гри для поточної кімнати"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Вийти з клієнта GGZ."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Зібрано з налагоджувальною інформацією"
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Від'єднатись"
+
+#~ msgid "Quit"
+#~ msgstr "Вийти"
+
+#~ msgid "Watch"
+#~ msgstr "Спостерігати"
+
+#~ msgid "Edit"
+#~ msgstr "Правка"
+
+#~ msgid "Properties"
+#~ msgstr "Параметри"
+
+#~ msgid "View"
+#~ msgstr "Вигляд"
+
+#~ msgid "Room List"
+#~ msgstr "Список кімнат"
+
+#~ msgid "Server Stats"
+#~ msgstr "Статистика сервера"
+
+#~ msgid "Player Stats"
+#~ msgstr "Статистика гравців"
+
+#~ msgid "MOTD"
+#~ msgstr "Повідомлення дня"
+
+#~ msgid "Help"
+#~ msgstr "Довідка"
+
+#~ msgid "Contents"
+#~ msgstr "Зміст"
+
+#~ msgid "Send"
+#~ msgstr "Надіслати"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Параметри оновлення"
+
+#~ msgid "Confirm:"
+#~ msgstr "Підтвердити:"
+
+#~ msgid "Modify"
+#~ msgstr "Змінити"
+
+#~ msgid "Servers"
+#~ msgstr "Сервери"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Шрифт бесіди:"
+
+#~ msgid "Change"
+#~ msgstr "Змінити"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Ігнорувати повідомлення про приєднання/від'єднання"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Грати звуки"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Автовирівнювання"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Показувати відмітки часу"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Переносити слова"
+
+#~ msgid "Chat Color"
+#~ msgstr "Колір бесіди"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Типовий колір для ваших друзів"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Типовий колір для вашого імені"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Колір для інших співрохмовників"
+
+#~ msgid "Normal Color"
+#~ msgstr "Звичайний колір"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Колір виділення"
+
+#~ msgid "Friend Color"
+#~ msgstr "Колір друзів"
+
+#~ msgid "Black Background"
+#~ msgstr "Чорне тло"
+
+#~ msgid "White Background"
+#~ msgstr "Біле тло"
+
+#~ msgid "Chat"
+#~ msgstr "Бесіда"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "Вся інформація нижче не є обов'язковою."
+
+#~ msgid "Name:"
+#~ msgstr "Ім'я:"
+
+#~ msgid "City:"
+#~ msgstr "Місто"
+
+#~ msgid "State:"
+#~ msgstr "Регіон:"
+
+#~ msgid "Country:"
+#~ msgstr "Країна:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Коментарі, хобі та т.і."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Вхід у кімнату по одному клацанню"
+
+#~ msgid "Display All"
+#~ msgstr "Показати все"
+
+#~ msgid "Display New"
+#~ msgstr "Показати нові"
+
+#~ msgid "Display Important"
+#~ msgstr "Показати важливе"
+
+#~ msgid "Display None"
+#~ msgstr "Не показувати нічого"
+
+#~ msgid "Options"
+#~ msgstr "Параметри"
+
+#~ msgid "Select Font"
+#~ msgstr "Вибрати шрифт"
+
+#~ msgid "Unknown negotiation"
+#~ msgstr "Невідомий діалог"
+
+#~ msgid "Already logged in"
+#~ msgstr "Вже зареєстрований"
+
+#~ msgid "The password was incorrect"
+#~ msgstr "Пароль не збігається"
+
+#~ msgid "Name is already taken"
+#~ msgstr "Ім'я вже зайнято"
+
+#~ msgid "This name is already registered so cannot be used by a guest"
+#~ msgstr "Це ім'я вже зареєстровано й не може використовуватись гостем"
+
+#~ msgid "No such name was found"
+#~ msgstr "Така назва не знайдена"
+
+#~ msgid "Name too long"
+#~ msgstr "Назва надто довга"
+
+#~ msgid "Name contains forbidden ASCII characters"
+#~ msgstr "Назва містить некоректні символи ASCII"
+
+#~ msgid "Missing password or other bad options."
+#~ msgstr "Відсутній пароль чи деякі параметри."
+
+#~ msgid "Unknown login error"
+#~ msgstr "Невідома помилка реєстрації"
+
+#~ msgid "Room full"
+#~ msgstr "Кімната заповнена"
+
+#~ msgid "Can't change rooms while at a table"
+#~ msgstr "Неможливо міняти кімнату доки ви знаходитесь за столом"
+
+#~ msgid "Can't change rooms while joining/leaving a table"
+#~ msgstr "Не вдається змінити кімнату під час входу або виходу з-за стола"
+
+#~ msgid "Bad room number"
+#~ msgstr "Некоректний номер кімнати"
+
+#~ msgid "Insufficient permissions, room access is restricted"
+#~ msgstr "Недостатньо прав, доступ у кімнату обмежений"
+
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Невідома помилка входу у кімнату"
+
+#~ msgid "Unable to connect"
+#~ msgstr "Не вдається з'єднатись"
+
+#~ msgid "Protocol mismatch"
+#~ msgstr "Протокол не збігається"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: параметр «%s» не вдається ідентифікувати\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: параметр «--%s» не повинен мати аргументів\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: параметр «%c%s» не повинен мати аргументів\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: параметр «%s» вимагає аргумент\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: невідомий параметр «%c%s»\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: некоректний параметр -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: некоректний параметр -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: параметр вимагає аргумент -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: параметр «-W %s» не вдається ідентифікувати\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: параметр «-W %s» не вимагає аргумент\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "Дозволяти віддаленим гравцям спостерігати за грою"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "Увімкнути тривимірний режим"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "Увімкнути нумерацію полів"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Працювати у повноекранному режимі"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "Увімкнути режим розгорнутого вікна"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "Увімкнути підказки ходів"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "Показати або сховати перегляд історії"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Відображати чи сховати панель інструментів"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "Показувати коментарі к ходів"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Проміжок часу на виконання ходу у нових іграх"
+
+#~ msgid "The board side to display"
+#~ msgstr "Сторона ігрового поля"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "Складність гри за чорних у нових іграх"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "Складність гри за білих у нових іграх"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "Типовий гравець за чорних"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "Типовий гравець за білих"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "Каталог у якому відкривати діалог відкривання гри"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "Каталог у якому відкривати діалог зберігання гри"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Формат для відображення ходів"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "Формат для відображення ходів. Можливі значення 'human' (пристосований "
+#~ "для читання), 'lan' (довгий алгебраїчний запис) або 'san' (стандартний "
+#~ "алгебраїчний запис)."
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Потрібна висота основного вікна, в точках."
+
+#~ msgid "The height of the window"
+#~ msgstr "Висота вікна"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "Фігура, на яку треба перетворювати пішака при проході"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr ""
+#~ "Фігура, на яку треба перетворювати пішака при проході. Можливі значення: "
+#~ "'queen', 'knight', 'rook', 'bishop'."
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player) or 'human' (the side of the current human "
+#~ "player)"
+#~ msgstr ""
+#~ "Сторона дошки, що обернута до користувача, наприклад 'white', 'black', "
+#~ "'current' (сторона поточного гравця) або 'human' (сторона поточного "
+#~ "гравця-людини)"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Потрібна ширина основного вікна, у точках."
+
+#~ msgid "The width of the window"
+#~ msgstr "Ширина вікна"
+
+#~ msgid "Communication:"
+#~ msgstr "Повідомлення:"
+
+#~ msgid "Executable:"
+#~ msgstr "Виконуваний файл:"
+
+#~ msgid "Playing as:"
+#~ msgstr "Грати як:"
+
+#~ msgid "<big><b>Error Title</b></big>"
+#~ msgstr "<big><b>Помилка</b></big>"
+
+#~ msgid "<i>Error description</i>"
+#~ msgstr "<i>Опис помилки</i>"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Зберегти гру"
+
+#~ msgid "<b>Games</b>"
+#~ msgstr "<b>Ігри</b>"
+
+#~ msgid "<b>Status/Chat</b>"
+#~ msgstr "<b>Статус/діалог</b>"
+
+#~ msgid "Join Game"
+#~ msgstr "Приєднатись до гри"
+
+#~ msgid "New"
+#~ msgstr "Нова гра"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Профіль:"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Завантажити гру"
+
+#~ msgid ""
+#~ "<b><big>Some games have been changed. Save changes before closing?</big></"
+#~ "b>"
+#~ msgstr ""
+#~ "<b><big>Деякі ігри були змінені. Зберегти їх перед закриттям?</big></b>"
+
+#~ msgid "<b><big>Unable to enable 3D mode</big></b>"
+#~ msgstr "<b><big>Не вдається перейти у тривимірний режим</big></b>"
+
+#~ msgid "AI Information"
+#~ msgstr "Діалог з комп'ютером"
+
+#~ msgid "Board _Numbering"
+#~ msgstr "Нумерація _полів"
+
+#~ msgid "Chess _Board"
+#~ msgstr "_Шахова дошка"
+
+#~ msgid "End Game"
+#~ msgstr "Закінчити гру"
+
+#~ msgid "If you don't save, all your changes will be permanently lost"
+#~ msgstr "Якщо ви не збережете гру, всі зміни будуть втрачені"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "Вийти з _повноекранного режиму"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Завантажити збережену гру"
+
+#~ msgid "Move _Comments"
+#~ msgstr "Комен_тарі"
+
+#~ msgid "Move _Hints"
+#~ msgstr "Підказки ход_ів"
+
+#~ msgid "Play On_line"
+#~ msgstr "Грати у _мережі"
+
+#~ msgid "Play Online"
+#~ msgstr "Грати у мережі"
+
+#~ msgid "Promotion Type"
+#~ msgstr "Фігура просування"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Перейти на початок гри"
+
+#~ msgid "Save and _Quit"
+#~ msgstr "Зберегти та в_ийти"
+
+#~ msgid "Save the current game"
+#~ msgstr "Зберегти поточну гру"
+
+#~ msgid "Select the games you want to save:"
+#~ msgstr "Виберіть ігри для збереження:"
+
+#~ msgid "Show the current move"
+#~ msgstr "Показати поточний хід"
+
+#~ msgid "Show the next move"
+#~ msgstr "Показати наступний хід"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Показати попередній хід"
+
+#~ msgid "Summary"
+#~ msgstr "Зведення"
+
+#~ msgid "There are no artificial intelligence players."
+#~ msgstr "Немає комп'ютерних гравців"
+
+#~ msgid ""
+#~ "Your system does not have the required software to enable 3D mode. Please "
+#~ "contact your system administrator and ask them to install the <i>OpenGL "
+#~ "Python bindings</i> and the <i>GtkGLExt Python bindings</i>.\n"
+#~ "\n"
+#~ "You are still able to play chess in 2D without these packages."
+#~ msgstr ""
+#~ "У вашій системі не встановлено програмне забезпечення, необхідне для "
+#~ "тривимірного режиму Повідомте про помилку системного адміністратора та "
+#~ "попросіть встановити <i>Оточення для роботи з OpenGL та GtkGLExt Python</"
+#~ "i>.\n"
+#~ "\n"
+#~ "Поки ж ви можете грати у двовимірному режимі."
+
+#~ msgid "_3D"
+#~ msgstr "_Тривимірна"
+
+#~ msgid "_AI Information"
+#~ msgstr "Діалог з _комп'ютером"
+
+#~ msgid "_Bishop"
+#~ msgstr "_Слон"
+
+#~ msgid "_Black Side"
+#~ msgstr "Сторона _чорних"
+
+#~ msgid "_Chess"
+#~ msgstr "_Шахи"
+
+#~ msgid "_Current Player"
+#~ msgstr "_Поточний гравець"
+
+#~ msgid "_History"
+#~ msgstr "_Історія"
+
+#~ msgid "_Human"
+#~ msgstr "_Людина"
+
+#~ msgid "_Human Side"
+#~ msgstr "Сторона л_юдини"
+
+#~ msgid "_Knight"
+#~ msgstr "_Кінь"
+
+#~ msgid "_Long Algebraic"
+#~ msgstr "_Довга алгебраїчна"
+
+#~ msgid "_Move Format"
+#~ msgstr "_Формат ходів"
+
+#~ msgid "_Queen"
+#~ msgstr "_Ферзь"
+
+#~ msgid "_Rook"
+#~ msgstr "_Тура"
+
+#~ msgid "_Standard Algebraic"
+#~ msgstr "_Стандартна алгебраїчна"
+
+#~ msgid "_White Side"
+#~ msgstr "Сторона _білих"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Складність</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Параметри гри</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Гравці</b>"
+
+#~ msgid "Allow remote clients to watch this game"
+#~ msgstr "Дозволяти віддаленим клієнтам стежити за грою"
+
+#~ msgid "B_lack:"
+#~ msgstr "_Чорні:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "Введіть назву цієї гри"
+
+#~ msgid "Local chess game"
+#~ msgstr "Локальна гра у шахи"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Час на _хід:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr ""
+#~ "Запустити гру. Гра може бути запущена лише після заповнення усіх полів"
+
+#~ msgid "W_hite:"
+#~ msgstr "_Білі:"
+
+#~ msgid "_Allow spectators"
+#~ msgstr "_Допускати глядачів"
+
+#~ msgid "_Black:"
+#~ msgstr "_Чорні:"
+
+#~ msgid "_Game name:"
+#~ msgstr "_Назва гри:"
+
+#~ msgid "_Start"
+#~ msgstr "_Почати"
+
+#~ msgid "_White:"
+#~ msgstr "_Білі:"
+
+#~ msgid "Chess"
+#~ msgstr "Шахи"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "Зіграти у класичні шахи"
+
+#~ msgid "glChess"
+#~ msgstr "Шахи glChess"
+
+#~ msgid "Copyright 2005-2007 Robert Ancell (and contributors)"
+#~ msgstr "Авторські права 2005-2007 Robert Ancell (та помічники)"
+
+#~ msgid ""
+#~ "The 2D/3D chess game for GNOME. \n"
+#~ "\n"
+#~ "glChess is a part of GNOME Games."
+#~ msgstr ""
+#~ "Тривимірна гра у шахи для GNOME. \n"
+#~ "\n"
+#~ "«glChess» є частиною пакету GNOME Games."
+
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "Не вдається створити каталог з даними %(dir)s: %(error)s"
+
+#~ msgid "'%(name)s' in '%(game)s'"
+#~ msgstr "'%(name)s' у '%(game)s'"
+
+#~ msgid "No description"
+#~ msgstr "Без опису"
+
+#~ msgid ""
+#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org"
+#~ msgstr ""
+#~ "Програма glChess несподівано завершилась. Повідомте про помилку на сайті "
+#~ "http://bugzilla.gnome.org"
+
+#~ msgid "Debug output:"
+#~ msgstr "Налагоджувальна інформація:"
+
+#~ msgid "pawn"
+#~ msgstr "пішак"
+
+#~ msgid "rook"
+#~ msgstr "тура"
+
+#~ msgid "knight"
+#~ msgstr "кінь"
+
+#~ msgid "bishop"
+#~ msgstr "слон"
+
+#~ msgid "Game Start"
+#~ msgstr "Гра почалась"
+
+#~ msgid "Game start"
+#~ msgstr "Гра почалась"
+
+#~ msgid "No comment"
+#~ msgstr "Без коментаря"
+
+#~ msgid "White"
+#~ msgstr "Білі"
+
+#~ msgid "Black"
+#~ msgstr "Чорні"
+
+#~ msgid "Check"
+#~ msgstr "Шах"
+
+#~ msgid "Checkmate"
+#~ msgstr "Мат"
+
+#~ msgid "Stalemate"
+#~ msgstr "Пат"
+
+#~ msgid " - %(check_status)s"
+#~ msgstr " - %(check_status)s"
+
+#~ msgid "%(movenum)2i%(short_colour)s. %(colour)s castles long%(suffix)s"
+#~ msgstr "%(movenum)2i%(short_colour)s. %(colour)s довга рокіровка %(suffix)s"
+
+#~ msgid "%(movenum)2i%(short_colour)s. %(colour)s castles short%(suffix)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s коротка рокіровка %(suffix)s"
+
+#~ msgid ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s на %(start)s бере "
+#~ "%(victim_colour)s %(victim_piece)s на %(end)s%(suffix)s"
+
+#~ msgid ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s йде з %(start)s на "
+#~ "%(end)s%(suffix)s"
+
+#~ msgid "%s wins"
+#~ msgstr "%s переміг"
+
+#~ msgid "Game is drawn"
+#~ msgstr "Гра закінчилась нічиєю."
+
+#~ msgid "Opponent is in check and cannot move (checkmate)"
+#~ msgstr "Суперник під шахом та не може ходити (мат)"
+
+#~ msgid "Opponent cannot move (stalemate)"
+#~ msgstr "Суперник не може ходити (пат)"
+
+#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
+#~ msgstr ""
+#~ "Не було взято жодної фігури та пішаки не переміщувалися за останні "
+#~ "п'ятдесят ходів"
+
+#~ msgid "Opponent has run out of time"
+#~ msgstr "У суперника закінчився час"
+
+#~ msgid "The same board state has occured three times (three fold repetition)"
+#~ msgstr "Одна й та сама позиція зустрічалася три рази"
+
+#~ msgid "Neither player can cause checkmate (insufficient material)"
+#~ msgstr "Жоден з гравців не може поставити мат (бракує матеріалу)"
+
+#~ msgid "Opponent is unable to cause checkmate (insufficient material)"
+#~ msgstr "Суперник не може поставити мат (бракує матеріалу)"
+
+#~ msgid "One of the players has resigned"
+#~ msgstr "Один з гравців здався"
+
+#~ msgid "One of the players has died"
+#~ msgstr "Один з гравців помер"
+
+#~ msgid "Unlimited"
+#~ msgstr "Необмежено"
+
+#~ msgid "One minute"
+#~ msgstr "одну хвилину"
+
+#~ msgid "Five minutes"
+#~ msgstr "п'ять хвилин"
+
+#~ msgid "30 minutes"
+#~ msgstr "півгодини"
+
+#~ msgid "One hour"
+#~ msgstr "одну годину"
+
+#~ msgid "Custom"
+#~ msgstr "Інший"
+
+#~ msgid "seconds"
+#~ msgstr "секунд"
+
+#~ msgid "minutes"
+#~ msgstr "хвилин"
+
+#~ msgid "hours"
+#~ msgstr "годин"
+
+#~ msgid "Easy"
+#~ msgstr "Просто"
+
+#~ msgid "Normal"
+#~ msgstr "Звичайний"
+
+#~ msgid "Hard"
+#~ msgstr "Важно"
+
+#~ msgid "Unable to find %s engine\n"
+#~ msgstr "Не вдається знайти програму гри %s\n"
+
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Налаштувати звантажену гру (%i ходів)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "Параметри гри змінено"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s проти %(black)s"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "Не вдалось завантажити гру"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "Введіть назву файлу"
+
+#~ msgid "Unabled to save game"
+#~ msgstr "Не вдається зберегти гру"
+
+#~ msgid "Human"
+#~ msgstr "Людина"
+
+#~ msgid "Players"
+#~ msgstr "Гравці"
+
+#~ msgid "Player"
+#~ msgstr "Гравець"
+
+#~ msgid "Table"
+#~ msgstr "Стіл"
+
+#~ msgid "Non-chess rooms"
+#~ msgstr "Не-шахові кімнати"
+
+#~ msgid "Small"
+#~ msgstr "Мале"
+
+#~ msgid "glines|Medium"
+#~ msgstr "Середній"
+
+#~ msgid "Large"
+#~ msgstr "Велике"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Неможливо завантажити гру"
+
+#~ msgid "Preferences"
+#~ msgstr "Параметри"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Не вдається визначити файл:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Буде завантажено типову тему."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Не вдається знайти файл:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Перевірте коректність встановлення гри \"П'ять або більше\"."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Поставте п'ять кульок одного кольору в ряд, щоб отримати очки!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "Гра \"П'ять або більше\""
+
+#~ msgid "_Board size:"
+#~ msgstr "Розмір _дошки:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Гру закінчено!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Ви не можете переміщуватись сюди!"
+
+#~ msgid "Five or More"
+#~ msgstr "П'ять або більше"
+
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr ""
+#~ "Варіант популярної гри \"Кольорові ряди\" для GNOME.\n"
+#~ "\n"
+#~ "Кольорові лінії є частиною пакету GNOME Games."
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Параметри гри \"П'ять або більше\""
+
+#~ msgid "Themes"
+#~ msgstr "Теми"
+
+#~ msgid "_Image:"
+#~ msgstr "_Зображення:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "Колір _тла:"
+
+#~ msgid "Board Size"
+#~ msgstr "Розмір ігрового поля"
+
+#~ msgid "_Small"
+#~ msgstr "_Малий"
+
+#~ msgid "_Medium"
+#~ msgstr "_Середній"
+
+#~ msgid "_Large"
+#~ msgstr "_Великий"
+
+#~ msgid "glines|General"
+#~ msgstr "Загальні"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "_Швидкі ходи"
+
+#~ msgid "Next:"
+#~ msgstr "Наступні:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Вилучати кольорові кулі з дошки, формуючи ряди"
+
+#~ msgid "Background color"
+#~ msgstr "Колір тла"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Колір тла. Шістнадцяткове визначення кольору тла."
+
+#~ msgid "Ball style"
+#~ msgstr "Стиль куль"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Назва файлу зображень куль."
+
+#~ msgid "Game field"
+#~ msgstr "Ігрове поле"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Ігрове поле із останнього збереженого сеансу."
+
+#~ msgid "Game preview"
+#~ msgstr "Перегляд гри"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Перегляд гри з останнього збереженого сеансу."
+
+#~ msgid "Game score"
+#~ msgstr "Рахунок гри"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Рахунок гри з останнього збереженого сеансу."
+
+#~ msgid "Playing field size"
+#~ msgstr "Розмір поля гри."
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Розмір ігрового поля. 1=Маленький, 2=Середній, 3=Великий. Інші значення "
+#~ "некоректні."
+
+#~ msgid "Time between moves"
+#~ msgstr "Затримка між ходами"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Затримка між ходами в мілісекундах."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Чотири в ряд"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Щоб виграти складайте лінії однакового кольору"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "Число, що вказує вибрану тему."
+
+#~ msgid "Animate"
+#~ msgstr "Анімувати"
+
+#~ msgid "Drop marble"
+#~ msgstr "Скинути кулю"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Натисніть клавішу скидання кулі."
+
+#~ msgid "Level of Player One"
+#~ msgstr "Рівень першого гравця"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Рівень другого гравця"
+
+#~ msgid "Theme ID"
+#~ msgstr "Ідентифікатор теми"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Чи використовувати анімацію."
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr ""
+#~ "Нуль означає гравця-людину, від одного до трьох — рівень гри комп'ютера"
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Не вдалось завантажити зображення:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "Виникла мережна помилка."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Очікування супротивника."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Ласкаво просимо у мережну гру %s."
+
+#~ msgid "It's a draw!"
+#~ msgstr " Нічия!"
+
+#~ msgid "You win!"
+#~ msgstr "Ви виграли!"
+
+#~ msgid "It is your move."
+#~ msgstr " Ваш хід..."
+
+#~ msgid "I win!"
+#~ msgstr "Я виграв!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Думаю..."
+
+#~ msgid "%s wins!"
+#~ msgstr " %s ― переміг!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "Очікування ходу %s."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr " Підказка: стовпчик %d"
+
+#~ msgid "You:"
+#~ msgstr "Ви:"
+
+#~ msgid "Me:"
+#~ msgstr "Я:"
+
+#~ msgid "Scores"
+#~ msgstr "Рахунки"
+
+#~ msgid "Drawn:"
+#~ msgstr "Нічия"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "Гра \"Чотири в ряд\" для середовища GNOME. Комп'ютер використовує "
+#~ "алгоритм Джуліано Бертолетті \"Велена\"\n"
+#~ "\n"
+#~ "«Чотири-в-ряд» є частиною пакету GNOME Games."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Перший гравець:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Другий гравець:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "Перший рівень"
+
+#~ msgid "Level two"
+#~ msgstr "Другий рівень"
+
+#~ msgid "Level three"
+#~ msgstr "Третій рівень"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Властивості гри \"Чотири в ряд\""
+
+#~ msgid "Appearance"
+#~ msgstr "Вигляд"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Тема:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Увімкнути _анімацію"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "У_вімкнути звуки"
+
+#~ msgid "Classic"
+#~ msgstr "Класичний"
+
+#~ msgid "Red"
+#~ msgstr "Червоний"
+
+#~ msgid "Yellow"
+#~ msgstr "Жовтий"
+
+#~ msgid "High Contrast"
+#~ msgstr "Контрастний"
+
+#~ msgid "Light"
+#~ msgstr "Білі"
+
+#~ msgid "Dark"
+#~ msgstr "Чорні"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Висококонтрастна негативна"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Кремовий мармур"
+
+#~ msgid "Blue"
+#~ msgstr "Синій"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Скляний мармур"
+
+#~ msgid "Nightfall"
+#~ msgstr "Нічна осінь"
+
+#~ msgid "Blocks"
+#~ msgstr "Кубики"
+
+#~ msgid "Orange"
+#~ msgstr "Жовтогарячий"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "%s приєднався до гри.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "Гра закінчилась, тому що вузол %s вийшов з гри.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "Гравець %s залишив гру.\n"
+
+#~ msgid ""
+#~ "Gnibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Не вдалось знайти файл зображення для гри \"Хробак\":\n"
+#~ "%s\n"
+#~ "Будь ласка, перевірте коректність встановлення гри."
+
+#~ msgid ""
+#~ "Gnibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Gnibbles installation"
+#~ msgstr ""
+#~ "Не вдалось завантажити рівень гри \"Хробак\":\n"
+#~ "%s\n"
+#~ "Будь ласка, перевірте коректність встановлення гри."
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Рахунок гри \"Міни\""
+
+#~ msgid "Speed:"
+#~ msgstr "Швидкість:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Вітаємо!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Ваш результат попав у десятку найкращих."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Провести хробака лабіринтом"
+
+#~ msgid "Nibbles"
+#~ msgstr "Хробак"
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Колір хробака"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Колір хробака."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Увімкнути фальшиві премії"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Увімкнути фальшиві премії."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Увімкнути звуки"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Увімкнути звуки."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Початковий рівень"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Початковий рівень."
+
+#~ msgid "Game speed"
+#~ msgstr "Швидкість гри"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Швидкість гри (1 ― швидко, 4 ― повільно)."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Клавіша для руху вниз."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Клавіша для руху ліворуч."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Клавіша для руху праворуч."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Клавіша для руху вгору."
+
+#~ msgid "Move up"
+#~ msgstr "Пересунути вгору"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Кількість комп'ютерних гравців"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Кількість комп'ютерних гравців."
+
+#~ msgid "Number of human players"
+#~ msgstr "Кількість гравців"
+
+#~ msgid "Number of human players."
+#~ msgstr "Кількість гравців."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Випадковий порядок рівнів"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Випадковий порядок рівнів."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Розмір візерунку"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Розмір візерунку."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Відносний рух"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Використовувати відносний рух (тобто, лише ліворуч і праворуч)."
+
+#~ msgid "Beginner"
+#~ msgstr "Початківець"
+
+#~ msgid "Slow"
+#~ msgstr "Повільно"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Середня"
+
+#~ msgid "Fast"
+#~ msgstr "Швидко"
+
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Початківець з шахрайством"
+
+#~ msgid "Slow with Fakes"
+#~ msgstr "Повільно з шахрайством"
+
+#~ msgid "Medium with Fakes"
+#~ msgstr "Середня з шахрайством"
+
+#~ msgid "Fast with Fakes"
+#~ msgstr "Швидко з шахрайством"
+
+#~ msgid ""
+#~ "A worm game for GNOME.\n"
+#~ "\n"
+#~ "Nibbles is a part of GNOME Games."
+#~ msgstr ""
+#~ "Гра в черв'ячка для GNOME.\n"
+#~ "\n"
+#~ "Черв'ячок є частиною GNOME Games."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Гру закінчено! %s виграв!"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Гра \"Хробак\" для середовища GNOME."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Властивості гри \"Хробак\""
+
+#~ msgid "Speed"
+#~ msgstr "Швидкість"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Новачок"
+
+#~ msgid "My second day"
+#~ msgstr "Вже другий день граю!"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Я не такий слабкий"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Майстер натискання на кнопки"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_Випадковий порядок рівнів"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "_Увімкнути фальшиві премії"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "_Кількість гравців:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "Кількість к_омп'ютерних гравців:"
+
+#~ msgid "Worm"
+#~ msgstr "Хробак"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "_Відносний рух"
+
+#~ msgid "_Worm color:"
+#~ msgstr "Колір _хробака:"
+
+#~ msgid "Green"
+#~ msgstr "Зелений"
+
+#~ msgid "Cyan"
+#~ msgstr "Голубий"
+
+#~ msgid "Purple"
+#~ msgstr "Бузковий"
+
+#~ msgid "Gray"
+#~ msgstr "Сірий"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Хробак %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Гру закінчено!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "На жаль ваш результат замалий для попадання у десятку кращих."
+
+#~ msgid "Robots Scores"
+#~ msgstr "Результати гри Роботи"
+
+#~ msgid "Map:"
+#~ msgstr "Карта:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Витаємо. Ви перемогли роботів!\n"
+#~ "Але чи вдасться вам зробити це ще раз?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Немає місць для телепортації!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Немає безпечних місць для телепортації!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Встановити сценарій гри"
+
+#~ msgid "Initial window position"
+#~ msgstr "Початкова позиція вікна"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "Класичні роботи"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Класичні роботи з безпечними ходами"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Класичні роботи з особливо безпечними ходами"
+
+#~ msgid "Nightmare"
+#~ msgstr "Жах"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Жах з безпечними ходами"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Жах з особливо безпечними ходами"
+
+#~ msgid "Robots2"
+#~ msgstr "Роботи2"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Роботи2 з безпечними ходами"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Роботи2 з особливо безпечними ходами"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "Прості роботи2"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Роботи2 з безпечними ходами"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Роботи2 з особливо безпечними ходами"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "Роботи з безпечною телепортацією"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "Роботи з безпечною телепортацією"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "Роботи з безпечною телепортацією та безпечними ходами"
+
+#~ msgid "Robots"
+#~ msgstr "Роботи"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Не знайдено даних гри."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Програмі \"Роботи\" не вдалось знайти жодного файлу конфігурації. "
+#~ "Перевірте коректність встановлення гри."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Деякі файли зображень відсутні або пошкоджені."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Програмі \"Роботи\" не вдалось знайти необхідні зображення. Перевірте "
+#~ "коректність встановлення гри."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Уникати роботів і робити так, щоб вони зіштовхувались"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Увімкнути звуки гри"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr "Увімкнути звуки гри. Відтворювати звуки для різних подій гри."
+
+#~ msgid "Enable splats"
+#~ msgstr "Увімкнути звук вибухів"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr ""
+#~ "Увімкнути звук вибухів. Відтворює звук вибуху і показує на екрані \"Splat!"
+#~ "\"."
+
+#~ msgid "Game type"
+#~ msgstr "Тип гри"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Назва варіанту гри."
+
+#~ msgid "Key to hold"
+#~ msgstr "Клавіша, щоб залишатись на місці"
+
+#~ msgid "Key to move E"
+#~ msgstr "Клавіша руху праворуч"
+
+#~ msgid "Key to move N"
+#~ msgstr "Клавіша руху вгору"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Клавіша руху праворуч-вгору"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Клавіша руху вліво-вгору"
+
+#~ msgid "Key to move S"
+#~ msgstr "Клавіша руху вниз"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Клавіша руху праворуч-вниз"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Клавіша руху вліво-вниз"
+
+#~ msgid "Key to move W"
+#~ msgstr "Клавіша руху вліво"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Клавіша телепортації"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Клавіша випадкової телепортації"
+
+#~ msgid "Key to wait"
+#~ msgstr "Клавіша для чекання"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Тема гри Роботи"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "Тема зображень роботів."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr ""
+#~ "Показувати панель інструментів. Стандартний параметри для інтерфейсу."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для стояння на місці. Назва має бути стандартною назвою "
+#~ "клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для руху праворуч. Назва має бути стандартною назвою "
+#~ "клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на праворуч-вгору. Назва має бути стандартною "
+#~ "назвою клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на вліво-вверх. Назва є стандартною назвою клавіші "
+#~ "X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на північ. Назва має бути стандартною назвою "
+#~ "клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на південний схід. Назва має бути стандартною "
+#~ "назвою клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на південний захід. Назва є стандартною назвою "
+#~ "клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на схід. Назва має бути стандартною назвою клавіші "
+#~ "X Window."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для руху на захід. Назва має бути стандартною назвою "
+#~ "клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Назва клавіші для випадкової телепортації. Назва є стандартною назвою "
+#~ "клавіші X Window."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для безпечної (якщо можливо) тепепортації. Назва є "
+#~ "стандартною назвою клавіші X Window."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "Назва клавіші для чекання. Назва має бути стандартною назвою клавіші X "
+#~ "Window."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Використовувати безпечні ходи"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Використовувати безпечні ходи. Використання безпечних ходів допомагає вам "
+#~ "врятуватись від загибелі від помилкових ходів. Якщо ви спробуєте зробити "
+#~ "невдалий хід, що призведе до загибелі, коли є безпечний хід, тогра не "
+#~ "дасть вам його зробити."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Використовувати особливо безпечні ходи"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Використовувати особливо безпечні ходи. Гравця попереджається, коли "
+#~ "безпечних ходів більше немає, і терміново потрібна телепортація."
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Не вдається знайти файл зображення '%s'\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Хід"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Телепортація"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Телепортація, безпечно, якщо можливо"
+
+#~ msgid "_Random"
+#~ msgstr "_Випадково"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Випадкова телепортація"
+
+#~ msgid "_Wait"
+#~ msgstr "_Чекати"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Очікувати роботів"
+
+#~ msgid ""
+#~ "Based on classic BSD Robots.\n"
+#~ "\n"
+#~ "Robots is a part of GNOME Games."
+#~ msgstr ""
+#~ "Основана на класичних роботах з BSD.\n"
+#~ "\n"
+#~ "Роботи є частиною пакету GNOME Games."
+
+#~ msgid "classic robots"
+#~ msgstr "класичні роботи"
+
+#~ msgid "robots2"
+#~ msgstr "роботи2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "прості роботи2"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "роботи з безпечною тепепортацією"
+
+#~ msgid "nightmare"
+#~ msgstr "жах"
+
+#~ msgid "robots"
+#~ msgstr "роботи"
+
+#~ msgid "cows"
+#~ msgstr "корови"
+
+#~ msgid "eggs"
+#~ msgstr "яйця"
+
+#~ msgid "gnomes"
+#~ msgstr "гноми"
+
+#~ msgid "mice"
+#~ msgstr "миша"
+
+#~ msgid "ufo"
+#~ msgstr "нло"
+
+#~ msgid "boo"
+#~ msgstr "бу"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Властивості гри \"Роботи\""
+
+#~ msgid "Game Type"
+#~ msgstr "Тип гри"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "_Використовувати безпечні ходи"
+
+#~ msgid "Prevent some dangerous moves"
+#~ msgstr "Не дозволяти деякі небезпечні ходи"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Не дозволяти деякі ходи, що спричинять смерть гравця."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "_Особливо  безпечні ходи"
+
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "Не дозволяти всі небезпечні ходи"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Не дозволяти всі ходи, що спричинять смерть гравця."
+
+#~ msgid "Play sounds for major events"
+#~ msgstr "Відтворювати звуки на основні події"
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "Відтворювати звуки на події на зразок перемоги чи смерті."
+
+#~ msgid "E_nable splats"
+#~ msgstr "У_вімкнути вибухи"
+
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "Відтворювати звук на зіткнення роботів"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "Відтворювати звичайні та найбільш набридливі звуки"
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Графічна тема"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_Тема зображень:"
+
+#~ msgid "_Background color:"
+#~ msgstr "Колір _тла:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Відновити початкові параметри"
+
+#~ msgid "Keyboard"
+#~ msgstr "Клавіатура"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Безпечні телепортації:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Лишається:"
+
+#~ msgid "<none>"
+#~ msgstr "<немає>"
+
+#~ msgid "Sudoku"
+#~ msgstr "Судоку"
+
+#~ msgid "Test your logic skills in this number grid puzzle"
+#~ msgstr "Перевірте логічні здатності у цій числовій головоломці"
+
+#~ msgid "High Scores"
+#~ msgstr "Рекорди"
+
+#~ msgid "<i>Easy</i>"
+#~ msgstr "<i>Простий</i>"
+
+#~ msgid "<i>Hard</i>"
+#~ msgstr "<i>Складний</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Select Game</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Оберіть гру</span>"
+
+#~ msgid "Choose the _level of difficulty for your new game."
+#~ msgstr "Оберіть _рівень складності для нової гри."
+
+#~ msgid "_Details"
+#~ msgstr "_Подробиці"
+
+#~ msgid "_Play"
+#~ msgstr "_Грати"
+
+#~ msgid "Choose _game"
+#~ msgstr "Обрати _гру"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Друк ігор</span>"
+
+#~ msgid "Choose the _level of difficulty for games"
+#~ msgstr "Виберіть _рівень складності головоломок"
+
+#~ msgid "Ma_ximum Difficulty"
+#~ msgstr "Ма_ксимальна складність"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Друк судоку"
+
+#~ msgid "_Game List"
+#~ msgstr "_Список ігор"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "_Включати вже розв'язані головоломки у завдання друку"
+
+#~ msgid "_Label games with difficulty and name."
+#~ msgstr "_Відмічати головоломки за назвою та складністю."
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "_Відмічати головоломки як зіграні після їх друку."
+
+#~ msgid "_Minimum Difficulty"
+#~ msgstr "_Мінімальна складність"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "_Кількість судоку для друку: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "_Судоку на сторінці: "
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Кількість головоломок</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Простий:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Складний:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Середній:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Дуже складний:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Генератор головоломок</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Критерії:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Параметри генератора"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Створювати до _зупинки"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Створювати до досягнення _числа"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Генератор головоломок"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "Необхідна _кількість головоломок:"
+
+#~ msgid "_Easy"
+#~ msgstr "_Легкий"
+
+#~ msgid "_Generate"
+#~ msgstr "_СтворитиСоздать"
+
+#~ msgid "_Hard"
+#~ msgstr "_Важкий"
+
+#~ msgid "_Very Hard"
+#~ msgstr "_Дуже важкий"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Очистити _решту"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "_Додати трасувальник"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_Очистити трасування"
+
+#~ msgid "_Trackers"
+#~ msgstr "_Трасувальники"
+
+#~ msgid "Puzzle"
+#~ msgstr "Головоломка"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Судоку"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player. Sudoku is a "
+#~ "japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "Гра GNOME Судоку - це простий генератор та програвач головоломок. Судоку "
+#~ "- японська логічнч головоломка.\n"
+#~ "\n"
+#~ "Судоку є частиною GNOME Games."
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Надрукувати судоку"
+#~ msgstr[1] "Надрукувати судоку"
+#~ msgstr[2] "Надрукувати судоку"
+
+#~ msgid "Print Preview"
+#~ msgstr "Попередній перегляд"
+
+#~ msgid "Squares instantly fillable by filling: "
+#~ msgstr "Квадрати очевидно заповнюються за підказкою: "
+
+#~ msgid "Squares instantly fillable by elimination: "
+#~ msgstr "Квадрат очевидно заповнюються після виключення: "
+
+#~ msgid "Number of trial-and-errors necessary to solve: "
+#~ msgstr "Кількість спроб необхідних для друку: "
+
+#~ msgid "Difficulty value: "
+#~ msgstr "Складність: "
+
+#~ msgid "Difficulty"
+#~ msgstr "Складність"
+
+#~ msgid "Started"
+#~ msgstr "Почата"
+
+#~ msgid "Last Played"
+#~ msgstr "Остання гра"
+
+#~ msgid "Printed %s ago"
+#~ msgstr "Роздруковано %s тому"
+
+#~ msgid "Played for %s"
+#~ msgstr "Грається %s"
+
+#~ msgid "%s ago"
+#~ msgstr "%s тому"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Not in database"
+#~ msgstr "Немає у базі даних"
+
+#~ msgid "Unknown difficulty"
+#~ msgstr "Складність невідома"
+
+#~ msgid "Hints"
+#~ msgstr "Підказки"
+
+#~ msgid "Warnings about unfillable squares"
+#~ msgstr "Попереджувати про квадрати, які неможливо заповнити"
+
+#~ msgid "Auto-fills"
+#~ msgstr "Авто заповнення"
+
+#~ msgid "Finished in"
+#~ msgstr "Закінчено за"
+
+#~ msgid "Working..."
+#~ msgstr "Думаю..."
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s головоломка"
+#~ msgstr[1] "%(n)s головоломки"
+#~ msgstr[2] "%(n)s головоломок"
+
+#~ msgid "Stopped"
+#~ msgstr "Зупинено"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "Створено %(n)s з %(total)s головоломки"
+#~ msgstr[1] "Створено %(n)s з %(total)s головоломок"
+#~ msgstr[2] "Створено %(n)s з %(total)s головоломок"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "Створена %(n)s головоломка"
+#~ msgstr[1] "Створена %(n)s головоломка"
+#~ msgstr[2] "Створена %(n)s головоломка"
+
+#~ msgid "Very Hard"
+#~ msgstr "Дуже важкий"
+
+#~ msgid "Medium"
+#~ msgstr "Середній"
+
+#~ msgid "_Stop"
+#~ msgstr "_Стоп"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Дійсно продовжити?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Не питати ще раз."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s рік"
+#~ msgstr[1] "%(n)s роки"
+#~ msgstr[2] "%(n)s років"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s місяць"
+#~ msgstr[1] "%(n)s місяці"
+#~ msgstr[2] "%(n)s місяців"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s тиждень"
+#~ msgstr[1] "%(n)s тижні"
+#~ msgstr[2] "%(n)s тижнів"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s день"
+#~ msgstr[1] "%(n)s дні"
+#~ msgstr[2] "%(n)s днів"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s година"
+#~ msgstr[1] "%(n)s години"
+#~ msgstr[2] "%(n)s годин"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s хвилин"
+#~ msgstr[1] "%(n)s хвилини"
+#~ msgstr[2] "%(n)s хвилин"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s секунда"
+#~ msgstr[1] "%(n)s секунди"
+#~ msgstr[2] "%(n)s секунд"
+
+#~ msgid " and "
+#~ msgstr " та "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Today"
+#~ msgstr "Сьогодні"
+
+#~ msgid "Yesterday"
+#~ msgstr "Вчора"
+
+#~ msgid "_Clear"
+#~ msgstr "О_чистити"
+
+#~ msgid "Track moves"
+#~ msgstr "Слідкувати за ходами"
+
+#~ msgid "Full Screen"
+#~ msgstr "На весь екран"
+
+#~ msgid "New game"
+#~ msgstr "Нова гра"
+
+#~ msgid "Print current game"
+#~ msgstr "Надрукувати поточну гру"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "Надрукувати _декілька судоку"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Надрукувати декілька судоку за один раз."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "Закрити Судоку"
+
+#~ msgid "_Tools"
+#~ msgstr "С_ервіс"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Показувати, які числа підходять для поточного квадрату."
+
+#~ msgid "_Fill"
+#~ msgstr "_Заповнити"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Якщо можливо, автоматично заповнювати поточний квадрат."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "Заповнювати всі _квадрати"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Автоматично заповнювати всі квадрати, для яких є хоча б одне придатне "
+#~ "значення."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "_Статистика головоломок"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Показати статистику про поточну головоломку"
+
+#~ msgid "High _Scores"
+#~ msgstr "_Результати"
+
+#~ msgid "Show high scores or replay old games."
+#~ msgstr "Показати результати або переграти старі ігри."
+
+#~ msgid "_Always show hint"
+#~ msgstr "_Завжди показувати підказки"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Завжди показувати можливі значення для квадрату"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "Попереджувати про _незаповнені поля"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "Попереджувати про поля, які неможливо заповнити після нового хода"
+
+#~ msgid "_Track additions"
+#~ msgstr "_Слідкувати за додаванням"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "Відмічати додавання іншим кольором, допускаючи стеження за ними."
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Показати панель _інструментів"
+
+#~ msgid "_Highlighter"
+#~ msgstr "_Підсвітити"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Виділяти кольором поточний стовпчик, строку и квадрат"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Створювати нові головоломки _під час гри"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Створювати нові головоломки під час гри. Ця діяльність буде призупинена, "
+#~ "коли гра відійде на задній план."
+
+#~ msgid "_Edit"
+#~ msgstr "_Правка"
+
+#~ msgid "_Undo"
+#~ msgstr "В_ернути"
+
+#~ msgid "Undo last action"
+#~ msgstr "Вернути останній хід"
+
+#~ msgid "_Redo"
+#~ msgstr "Пов_торити"
+
+#~ msgid "Redo last action"
+#~ msgstr "Повторити останній хід"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Очистити заповнені поля"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "Очистити _примітки"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Очистити примітки та підказки"
+
+#~ msgid "No Tracker"
+#~ msgstr "Немає трасувальника"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "Створити _нові головоломки"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Створити нові головоломки."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Ввести розкладку..."
+
+#~ msgid "_Play game"
+#~ msgstr "_Почати гру"
+
+#~ msgid "Playing "
+#~ msgstr "Гра "
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Інформація про головоломку"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Наразі не розв'язується загадка."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Обчислена складність: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Число ходів, що очевидно заповнюються після виключення: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Число ходів, що очевидно заповнюються за підказкою: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Кількість спроб для розв'язання: "
+
+#~ msgid "Statistics for %s"
+#~ msgstr "Статистика для %s"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "Очистити всі ходи, що відстежуються обраним трасувальником."
+
+#~ msgid "_Clear Others"
+#~ msgstr "_Очистити інші"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "Очистити всі ходи, що не відстежуються обраним трасувальником."
+
+#~ msgid "Tracker %s"
+#~ msgstr "Стеження %s"
+
+#~ msgid "gnomine|Medium"
+#~ msgstr "Середній"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Ознаки: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Усі міни знайдено!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "Результати гри \"Міни\""
+
+#~ msgid "Size:"
+#~ msgstr "Розмір:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Клацніть на квадраті, будь-якому квадраті"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Може це все міни..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Зміна розміру та підтримка SVG:"
+
+#~ msgid "Faces:"
+#~ msgstr "Зображення:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Графіка:"
+
+#~ msgid "Mines"
+#~ msgstr "Міни"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered.\n"
+#~ "\n"
+#~ "Mines is a part of GNOME Games."
+#~ msgstr ""
+#~ "Популярна головоломка «Мини». Треба очистити поле від мін, користуючись "
+#~ "підказками з вже відкритих клітинок.\n"
+#~ "\n"
+#~ "«Мини» є частиною GNOME Games."
+
+#~ msgid "Field Size"
+#~ msgstr "Розмір поля"
+
+#~ msgid "Custom Size"
+#~ msgstr "Нетиповий розмір"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_Кількість мін"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Горизонтально:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Вертикально:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "_Використовувати прапори \"не впевнений\"."
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "_Попереджати \"Надто багато прапорців\""
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Властивості гри \"Міни\""
+
+#~ msgid "Width of grid"
+#~ msgstr "Ширина сітки"
+
+#~ msgid "Height of grid"
+#~ msgstr "Висота сітки"
+
+#~ msgid "Number of mines"
+#~ msgstr "Кількість мін"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Розмір поля (0-2 = мале-велике, 3 = власний)"
+
+#~ msgid "X location of window"
+#~ msgstr "Горизонтальне положення вікна"
+
+#~ msgid "Y location of window"
+#~ msgstr "Вертикальне положення вікна"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Натисніть, щоб продовжити"
+
+#~ msgid "Time: "
+#~ msgstr "Час: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Очистити мінне поле від прихованих мін"
+
+#~ msgid "Board size"
+#~ msgstr "Розмір ігрового поля"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Увімкнути автоматичне відкривання мін"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Кількість стовпчиків у грі, що налаштовується"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Кількість рядків у грі, що налаштовується"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr ""
+#~ "Встановіть, для увімкнення можливості позначати квадрати прапором "
+#~ "\"невідомо\"."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Встановіть значення true, щоб увімкнути попереджувальні значки, коли "
+#~ "розміщено надто багато прапорців."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Якщо встановлено, квадрати з мінами будуть автоматично відкриватись, коли "
+#~ "навколо відкрито достатня кількість квадратів."
+
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "Потрібна висота ігрового вікна у точках."
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Кількість мін у грі, що налаштовується"
+
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "Ширина ігрового вікна у точках."
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Використовувати прапор \"невідомо\""
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Попередження про велике число прапорців"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Не вдається знайти файл зображення:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Будь ласка, перевірте встановлення пакета gnome-games."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Потрібні зображення знайдено, але їх не вдається завантажити.\n"
+#~ "\n"
+#~ "Перевірте правильність встановлення гри та її залежностей."
+
+#~ msgid "Could not load images"
+#~ msgstr "Не вдається завантажити зображення"
+
+#~ msgid "Tetravex"
+#~ msgstr "Тетравекс"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2x2"
+
+#~ msgid "3×3"
+#~ msgstr "3x3"
+
+#~ msgid "4×4"
+#~ msgstr "4x4"
+
+#~ msgid "5×5"
+#~ msgstr "5x5"
+
+#~ msgid "6×6"
+#~ msgstr "6x6"
+
+#~ msgid "_Size"
+#~ msgstr "_Розмір"
+
+#~ msgid "Sol_ve"
+#~ msgstr "Розв'_язати"
+
+#~ msgid "Solve the game"
+#~ msgstr "Знайти розв'язання"
+
+#~ msgid "_Up"
+#~ msgstr "В_гору"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Пересунути вгору"
+
+#~ msgid "_Left"
+#~ msgstr "В_ліво"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Пересунути вліво"
+
+#~ msgid "_Right"
+#~ msgstr "В_право"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Пересунути праворуч"
+
+#~ msgid "_Down"
+#~ msgstr "В_низ"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Пересунути вниз"
+
+#~ msgid "_2×2"
+#~ msgstr "_2x2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Гра на полі 2x2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3x3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Гра на полі 3x3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4x4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Гра на полі 4x4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5x5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Гра на полі 5x5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6x6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Гра на полі 6x6"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "_Кольори фігурок"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Розмір дошки (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "РОЗМІР"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Головоломку розв'язано! Дуже добре!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Головоломку розв'язано!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Рахунок гри Тетравекс"
+
+#~ msgid "Game paused"
+#~ msgstr "Гру призупинено"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Гра на полі %dx%d"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other.\n"
+#~ "\n"
+#~ "Tetravex is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Тетравекс - проста головоломка, де частини треба поставити так, щоб "
+#~ "однакові номери були суміжні.\n"
+#~ "\n"
+#~ "Тетравекс є частиною GNOME Games"
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Розв'яжіть головоломку, збираючи відповідно до номерів плитки"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "Вмикати кольорові фігурки."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Керувати кольоровими фігурками"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Чи перетягувати фігури мишею або вказувати місце, звідки фігура береться "
+#~ "та куди кладеться."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Розмір ігрового поля"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Значення цього ключа використовується для визначення розміру ігрового "
+#~ "поля. Дозволеними значеннями є числа від 2 до 8, всі інші значення "
+#~ "скидатимуться в 3."
+
+#~ msgid "Klotski"
+#~ msgstr "Кльоцки"
+
+#~ msgid "Only 18 steps"
+#~ msgstr "Лише 18 кроків"
+
+#~ msgid "Daisy"
+#~ msgstr "Дейзі"
+
+#~ msgid "Violet"
+#~ msgstr "Вайолет"
+
+#~ msgid "Poppy"
+#~ msgstr "Мак"
+
+#~ msgid "Pansy"
+#~ msgstr "Анютині очі"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Снігопад"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Червоний віслюк"
+
+#~ msgid "Trail"
+#~ msgstr "Вантажівка"
+
+#~ msgid "Ambush"
+#~ msgstr "Засідка"
+
+#~ msgid "Agatka"
+#~ msgstr "Агатка"
+
+#~ msgid "Success"
+#~ msgstr "Успіх"
+
+#~ msgid "Bone"
+#~ msgstr "Кість"
+
+#~ msgid "Fortune"
+#~ msgstr "Фортуна"
+
+#~ msgid "Fool"
+#~ msgstr "Дурень"
+
+#~ msgid "Solomon"
+#~ msgstr "Соломон"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Клеопатра"
+
+#~ msgid "Shark"
+#~ msgstr "Акула"
+
+#~ msgid "Rome"
+#~ msgstr "Рим"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Загадка Вимпел"
+
+#~ msgid "Ithaca"
+#~ msgstr "Ітака"
+
+#~ msgid "Pelopones"
+#~ msgstr "Пелопонес"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Європа"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Лодзянка"
+
+#~ msgid "Polonaise"
+#~ msgstr "Полонез"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Балтійське море"
+
+#~ msgid "American Pie"
+#~ msgstr "Американський пиріг"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Пробка"
+
+#~ msgid "Sunshine"
+#~ msgstr "Сонячне сяйво"
+
+#~ msgid "Block 10"
+#~ msgstr "Блок 10"
+
+#~ msgid "Block 10 Pro"
+#~ msgstr "Важкий блок 10"
+
+#~ msgid "Climb 12"
+#~ msgstr "Підйом 12"
+
+#~ msgid "Climb 12 Pro"
+#~ msgstr "Важкий підйом 12"
+
+#~ msgid "Climb 15 Winter"
+#~ msgstr "Підйом 15 взимку"
+
+#~ msgid "Climb 15 Spring"
+#~ msgstr "Підйом 15 навесні"
+
+#~ msgid "Climb 15 Summer"
+#~ msgstr "Підйом 15 літом"
+
+#~ msgid "Climb 15 Fall"
+#~ msgstr "Підйом 15 восени"
+
+#~ msgid "Climb 24 Pro"
+#~ msgstr "Важкий підйом 24"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "Лише 18 кроків"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "Поїзд HuaRong"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Набір відкриттів"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Важкий набір"
+
+#~ msgid "Minoru Climb"
+#~ msgstr "Підйом Мінору"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Перезапустити головоломку"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Наступна головоломка"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Попередня головоломка"
+
+#~ msgid "Level completed."
+#~ msgstr "Рівень пройдено"
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Головоломку розв'язано!"
+
+#~ msgid "Klotski Scores"
+#~ msgstr "Результати Кльоцки"
+
+#~ msgid "Puzzle:"
+#~ msgstr "Головоломка:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Не вдалось розібрати тему гри.\n"
+#~ "\n"
+#~ "Перевірте коректність встановлення гри \"Кльоцки\"."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Не вдалось знайти зображення:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Перевірте коректність встановлення гри \"Кльоцки\"."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Ходи: %d"
+
+#~ msgid ""
+#~ "Sliding Block Puzzles\n"
+#~ "\n"
+#~ "Klotski is a part of GNOME Games."
+#~ msgstr ""
+#~ "Головоломка про рухомі блоки\n"
+#~ "\n"
+#~ "Кльоцки є частиною пакету GNOME Games."
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Ковзати блоки для вирішення головоломки"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Номер поточної головоломки."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Поточна головоломка"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Вже використана! Виберіть іншу комбінацію."
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Бити решту у грі в кості в стилі покеру"
+
+#~ msgid "Tali"
+#~ msgstr "Кістяний покер"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Виберіть, вставляти чи ні, затримку між киданнями костей комп'ютером так, "
+#~ "щоб гравець міг бачити, що діється."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Затримка між киданнями"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Показувати хід думок комп'ютера"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Якщо встановлено, то на екран будуть виводитись дані про роботу штучного "
+#~ "інтелекту."
+
+#~ msgid "Regular"
+#~ msgstr "Звичайна"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Людина,Микола,Віктор,Ганна,Ігор,Яна]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Сповільнити дії комп'ютера"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Показувати хід думок комп'ютера"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Кількість комп'ютерних суперників"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Кількість суперників - людей"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Вибір гри: звичайна чи кольорова"
+
+#~ msgid "STRING"
+#~ msgstr "РЯДОК"
+
+#~ msgid "Number of computer-only games to play"
+#~ msgstr "Кількість ігор лише для комп'ютерів"
+
+#~ msgid "Number of trials for each roll for the computer"
+#~ msgstr "Кількість спроб для кожного кидка комп'ютера"
+
+#~ msgid "Roll all!"
+#~ msgstr "Кинути усі!"
+
+#~ msgid "Roll!"
+#~ msgstr "Кинути!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Нічия."
+
+#~ msgid "Tali Scores"
+#~ msgstr "Результати Талі"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "Гравець %s виграв гру набравши %d очко"
+#~ msgstr[1] "Гравець %s виграв гру набравши %d очка"
+#~ msgstr[2] "Гравець %s виграв гру набравши %d очок"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Комп'ютер грає за %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Ваш хід."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Виберіть кості для повторного кидка або виберіть клітину відліку."
+
+#~ msgid "Roll"
+#~ msgstr "Кидати"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Можна зробити лише три кидка. Виберіть клітину."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Версія для GNOME (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Консольна версія (1992):"
+
+#~ msgid ""
+#~ "A variation on poker with dice and less money.\n"
+#~ "\n"
+#~ "Tali is a part of GNOME Games."
+#~ msgstr ""
+#~ "Варіанти гри в покер з костями та грошами.\n"
+#~ "\n"
+#~ "Талі є частиною GNOME Games."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "Поточну гру буде завершено з початковою кількістю учасників."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Параметри\"Талі\""
+
+#~ msgid "Human Players"
+#~ msgstr "Гравців-людей"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Кількість гравців:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Комп'ютерних суперників"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_Затримка між киданнями"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "К_ількість опонентів:"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "Ск_ладність"
+
+#~ msgid "Colors"
+#~ msgstr "Кольори"
+
+#~ msgid "Player Names"
+#~ msgstr "Імена гравців"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1 [сума одиничок]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2 [сума двійок]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3 [сума трійок]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4 [сума четвірок]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5 [сума п'ятірок]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6 [сума шісток]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "3 однакових [сума]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "4 однакових [сума]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Фул [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Малий стріт [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Великий стріт [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "5 з сімейства [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Шанс [сума]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Нижня сума"
+
+#~ msgid "Grand Total"
+#~ msgstr "Повна сума"
+
+#~ msgid "Upper total"
+#~ msgstr "Верхня сума"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Премія, якщо >62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 пари одного кольору [сума]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Фулл [15 + сума]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Фулл одного кольору [20 + сума]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Флэш (всі одного кольору) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "4 однакових [25 + сума]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "5 однакових [50 + сума]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Виберіть клітину відліку."
+
+#~ msgid "How many times do you wish to roll?"
+#~ msgstr "Скільки разів ви хотіли б кидати? "
+
+#~ msgid "Generating ..."
+#~ msgstr "Генерування..."
+
+#~ msgid "Results"
+#~ msgstr "Результати"
+
+#~ msgid "Num Rolls"
+#~ msgstr "Число кидань"
+
+#~ msgid "Total"
+#~ msgstr "Сума"
+
+#~ msgid "Iagno"
+#~ msgstr "Яґно"
+
+#~ msgid "Net_work Game"
+#~ msgstr "Нова _мережна гра"
+
+#~ msgid "_Player list"
+#~ msgstr "Список _гравців"
+
+#~ msgid "_Chat Window"
+#~ msgstr "Вікно _бесіди"
+
+#~ msgid "_Leave Game"
+#~ msgstr "_Залишити гру"
+
+#~ msgid ""
+#~ "A disk flipping game derived from Reversi.\n"
+#~ "\n"
+#~ "Iagno is a part of GNOME Games."
+#~ msgstr ""
+#~ "Гра на перегортання фішок, похідна від Реверсі.\n"
+#~ "\n"
+#~ "Реверсі є частиною GNOME Games."
+
+#~ msgid "Invalid move."
+#~ msgstr "Некоректний хід."
+
+#~ msgid "Dark:"
+#~ msgstr "Чорні:"
+
+#~ msgid "Light:"
+#~ msgstr "Білі:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Ласкаво просимо до гри \"Яґно\"!"
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Ваша черга ставити темну фігуру"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Ваша черга ставити світлу фігуру"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Очікування ходу %s"
+
+#~ msgid "Dark's move"
+#~ msgstr "Хід чорних"
+
+#~ msgid "Light's move"
+#~ msgstr "Хід білих"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Домінувати на дошці у класичній версії Реверсі"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Білі виграли!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Чорні виграли!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Нічия."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Білі пропускають хід, чорні ходять"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Чорні пропускають хід, білі ходять"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Властивості гри  \"Яґно\""
+
+#~ msgid "_Use quick moves"
+#~ msgstr "_Швидкі ходи"
+
+#~ msgid "Animation"
+#~ msgstr "Анімація"
+
+#~ msgid "Partial"
+#~ msgstr "Часткова"
+
+#~ msgid "Complete"
+#~ msgstr "Повна"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "_Повільні повороти"
+
+#~ msgid "S_how grid"
+#~ msgstr "Показувати _сітку"
+
+#~ msgid "_Flip final results"
+#~ msgstr "_Переворот в кінці гри"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_Набір фішок:"
+
+#~ msgid "List of players:"
+#~ msgstr "Список гравців:"
+
+#~ msgid "Card Style"
+#~ msgstr "Стиль карт"
+
+#~ msgid "Error playing sound: %s\n"
+#~ msgstr "Не вдається відтворити звук: %s\n"
+
+#~ msgid "_About"
+#~ msgstr "_Про програму"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Скасувати"
+
+#~ msgid "_Close"
+#~ msgstr "_Закрити"
+
+#~ msgid "_OK"
+#~ msgstr "_Гаразд"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Не вдалось знайти вибрану тему:\n"
+#~ "\n"
+#~ "Перевірте коректність встановлення гри Магджонґ."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Не вдалось відобразити файл:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Перевірте коректність встановлення гри Магджонґ."
+
+#~ msgid "Mahjongg"
+#~ msgstr "Магджонґ"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Не вдається завантажити набір фішок"
+
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr "Бажаєте завершити поточну гру або почати гру з новою мапою ?"
+
+#~ msgid ""
+#~ "If you choose to finish with the old map then the next game will use the "
+#~ "new map."
+#~ msgstr ""
+#~ "Якщо ви виберете завершення зі старою мапою, тоді у наступній грі буде "
+#~ "використовуватись нова мапа."
+
+#~ msgid "_Finish"
+#~ msgstr "_Завершити"
+
+#~ msgid "There are no more moves."
+#~ msgstr "Більше немає варіантів ходів."
+
+#~ msgid "Shuffle"
+#~ msgstr "Перемішати"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Результати гри Магджонґ"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Параметри гри Магджонґ"
+
+#~ msgid "Tiles"
+#~ msgstr "Фішки"
+
+#~ msgid "Maps"
+#~ msgstr "Мапи"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Виберіть мапу:"
+
+#~ msgid "Maps:"
+#~ msgstr "Мапи:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Плитки:"
+
+#~ msgid ""
+#~ "A matching game played with Mahjongg tiles.\n"
+#~ "\n"
+#~ "Mahjongg is a part of GNOME Games."
+#~ msgstr ""
+#~ "Пошук відповідностей у фішках Магджонґ.\n"
+#~ "\n"
+#~ "«Маджонг» є частиною GNOME Games"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "На жаль, не вдалося знайти ігрову комбінацію."
+
+#~ msgid "Redo the last move"
+#~ msgstr "Повторити останні хід"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Лишилось плиток:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Лишилось ходів:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Видаліть відповідні пари фішок."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Розбирання купи плиток, прибираючи узгоджені пари"
+
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Легкий"
+
+#~ msgid "The Ziggurat"
+#~ msgstr "Мавзолей"
+
+#~ msgid "Four Bridges"
+#~ msgstr "Чотири мости"
+
+#~ msgid "Cloud"
+#~ msgstr "Хмара"
+
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Хрестики-Нулики"
+
+#~ msgid "Red Dragon"
+#~ msgstr "Червоний дракон"
+
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Стіни піраміди"
+
+#~ msgid "Confounding Cross"
+#~ msgstr "Змішаний хрест"
+
+#~ msgid "Difficult"
+#~ msgstr "Складний"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "1000 очок за очищення дошки! "
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "Середній"
+
+#~ msgid "Set the theme"
+#~ msgstr "Встановити тему"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "Для сумісності зі старими версіями"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Розмір дошки (1 ― мала, 3 ― велика)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "Очищати екран, видаляючи групи з кольорових кульок "
+
+#~ msgid "Same GNOME"
+#~ msgstr "Той же GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Висота власної дошки"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Значення FALSE задає повільне та красиве падіння шариків. Значення TRUE "
+#~ "задає швидке, але уривчасте падіння шариків."
+
+#~ msgid "The board size"
+#~ msgstr "Розмір поля для гри"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Файл ігрової теми."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Висота власної дошки 101 &gt; висота &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr "Розмір дошки. 1 = власний, 2 = маленька 3 = середня 4 = велика."
+
+#~ msgid "The theme to use"
+#~ msgstr "Тема для гри"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Ширина власної дошки, 101 &gt; ширина &gt; 3."
+
+#~ msgid "Use fast animation"
+#~ msgstr "Швидка анімація"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Ширина власної дошки"
+
+#~ msgid "No points"
+#~ msgstr "Немає точок"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d точка"
+#~ msgstr[1] "%d точки"
+#~ msgstr[2] "%d точок"
+
+#~ msgid "Score: %d"
+#~ msgstr "Результат: %d"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!\n"
+#~ "\n"
+#~ "Same GNOME is a part of GNOME Games."
+#~ msgstr ""
+#~ "Я хочу грати у цю гру! Ти знаєш, вони крутяться та ти тиснеш на них, і "
+#~ "вони зникають!\n"
+#~ "Гра «Той же GNOME» є частиною GNOME Games"
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Результат гри \"Той же GNOME\""
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "На жаль ваш результат замалий для попадання у десятку кращих."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Тема для гри \"Той же GNOME\""
+
+#~ msgid "_Theme..."
+#~ msgstr "_Тема..."
+
+#~ msgid "_Fast Animation"
+#~ msgstr "_Швидка анімація"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Не знайдено даних теми."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Гра неможлива. Перевірте правильність встановлення та спробуйте знову."

@@ -1,0 +1,1920 @@
+# Translations into the Amharic Language.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-games package.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2003-01-14 11:02+EDT\n"
+"Last-Translator: Ge'ez Frontier Foundation <locales@geez.org>\n"
+"Language-Team: Amharic <locales@geez.org>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+#, fuzzy
+msgid "Paused"
+msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr ""
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr ""
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:9
+#, fuzzy
+msgid "The background color"
+msgstr "መደብ፦"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "ወደግራ አንቀሳቅስ"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "ወደቀኝ አንቀሳቅስ"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+#, fuzzy
+msgid "Rotate"
+msgstr "እንደገና አስጀምሩ"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr ""
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr ""
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "ደረጃ"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+#, fuzzy
+msgid "Plain"
+msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+#, fuzzy
+msgid "Joined"
+msgstr "ምንም"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr ""
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr ""
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "ነጥብ፦"
+
+#: ../gnometris/scoreframe.cpp:57
+#, fuzzy
+msgid "Lines:"
+msgstr "መስመሮች፦ "
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "ደረጃ፦"
+
+#: ../gnometris/tetris.cpp:119
+#, fuzzy
+msgid "_Game"
+msgstr "ጨዋታ"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:121
+#, fuzzy
+msgid "_Help"
+msgstr "መረጃ"
+
+#: ../gnometris/tetris.cpp:611
+#, fuzzy
+msgid "Gnometris Preferences"
+msgstr "ምርጫዎች"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "ጨዋታ"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr ""
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr ""
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr ""
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "ጭብጥ"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:769
+#, fuzzy
+msgid "Keyboard Controls"
+msgstr "የፊደል ሠሌዳ"
+
+#: ../gnometris/tetris.cpp:793
+#, fuzzy
+msgid "Block Style"
+msgstr "ሰዓት"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr "ዘግዕዝ Frontier Foundation"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "FILE"
+msgstr "የፋይል ስም"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:48
+#, fuzzy
+msgid "No key"
+msgstr "ምንም"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr ""
+
+#: ../libgames-support/games-controls.c:332
+#, fuzzy
+msgid "Unknown Command"
+msgstr "ያልታወቀ ቀለም"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:114
+#, fuzzy
+msgid "Time"
+msgstr "ሰዓት፦"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "ነጥብ"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr ""
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "አዲስ ጨዋታ"
+
+#: ../libgames-support/games-scores-dialog.c:538
+#, fuzzy
+msgid "Name"
+msgstr "ጨዋታ"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:46
+#, fuzzy
+msgid "End the current game"
+msgstr "አሁን ያለውን ጨዋታ ጨርስ"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "ለሚቀጥለው እንቅስቃሴህ ፍንጭ አግኝ"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:50
+#, fuzzy
+msgid "Start a new multiplayer network game"
+msgstr "አዲስ ጨዋታ ጀምር"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "አዲስ ጨዋታ ጀምር"
+
+#: ../libgames-support/games-stock.c:53
+#, fuzzy
+msgid "Pause the game"
+msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:55
+#, fuzzy
+msgid "Redo the undone move"
+msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#: ../libgames-support/games-stock.c:56
+#, fuzzy
+msgid "Restart the game"
+msgstr "ጨዋታው እንደገና ይጀምር"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:63
+#, fuzzy
+msgid "Quit this game"
+msgstr "ከጨዋታ ውጣ?"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:297
+#, fuzzy
+msgid "_Hint"
+msgstr "ፍንጭ"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+#, fuzzy
+msgid "_New"
+msgstr "አዲስ"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+#, fuzzy
+msgid "_New Game"
+msgstr "አዲስ ጨዋታ"
+
+#: ../libgames-support/games-stock.c:302
+#, fuzzy
+msgid "_Redo Move"
+msgstr "መንቀሳቅስ (_M)"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+#, fuzzy
+msgid "_Reset"
+msgstr "እንደገና አስጀምሩ"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+#, fuzzy
+msgid "_Restart"
+msgstr "እንደገና አስጀምሩ"
+
+#: ../libgames-support/games-stock.c:307
+#, fuzzy
+msgid "_Undo Move"
+msgstr "መንቀሳቅስ (_M)"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:309
+#, fuzzy
+msgid "Network _Game"
+msgstr "አዲስ ጨዋታ"
+
+#: ../libgames-support/games-stock.c:310
+#, fuzzy
+msgid "L_eave Game"
+msgstr "አዲስ ጨዋታ"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:312
+#, fuzzy
+msgid "_Pause"
+msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr ""
+
+#: ../libgames-support/games-stock.c:314
+#, fuzzy
+msgid "_Scores"
+msgstr "ነጥቦች"
+
+#: ../libgames-support/games-stock.c:315
+#, fuzzy
+msgid "_End Game"
+msgstr "ጨዋታ"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Reserved"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "የጨዋታ ሁኔታ"
+
+#, fuzzy
+#~ msgid "Sit here"
+#~ msgstr "ሦስት"
+
+#, fuzzy
+#~ msgid "Move here"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "Remove bot"
+#~ msgstr "ደረጃ ሦስት"
+
+#, fuzzy
+#~ msgid "The game file to use"
+#~ msgstr "የጭብጥ ፋይል"
+
+#, fuzzy
+#~ msgid "Theme file name"
+#~ msgstr "የጭብጥ ፋይል"
+
+#, fuzzy
+#~ msgid "Congratulations!!!"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Main game:"
+#~ msgstr "የማህጆንግ ጨዋታ"
+
+#, fuzzy
+#~ msgid "Card games:"
+#~ msgstr "ጨዋታው እንደገና ይጀምር"
+
+#, fuzzy
+#~ msgid "Restart the current game"
+#~ msgstr "ጨዋታው እንደገና ይጀምር"
+
+#, fuzzy
+#~ msgid "_Select Game..."
+#~ msgstr "ምርጡ... (_S)"
+
+#, fuzzy
+#~ msgid "Redo the last move"
+#~ msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#, fuzzy
+#~ msgid "Stock left:"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "Reserve left:"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "Redeal."
+#~ msgstr "ቀይ"
+
+#, fuzzy
+#~ msgid "Remove the aces"
+#~ msgstr "ደረጃ ሦስት"
+
+#, fuzzy
+#~ msgid "Remove the tens"
+#~ msgstr "ደረጃ ሦስት"
+
+#, fuzzy
+#~ msgid "Remove the threes"
+#~ msgstr "ደረጃ ሦስት"
+
+#, fuzzy
+#~ msgid "Stock left: ~a"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#~ msgid "Time:"
+#~ msgstr "ሰዓት፦"
+
+#~ msgid "NAME"
+#~ msgstr "ስም"
+
+#~ msgid "Unknown color"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#~ msgid "Unknown value"
+#~ msgstr "ያልታወቀ ዕሴት"
+
+#~ msgid "eight"
+#~ msgstr "ስምንት"
+
+#~ msgid "five"
+#~ msgstr "አምስት "
+
+#~ msgid "four"
+#~ msgstr "አራት"
+
+#~ msgid "hearts"
+#~ msgstr "ልቦች"
+
+#~ msgid "king"
+#~ msgstr "ንጉሥ "
+
+#~ msgid "nine"
+#~ msgstr "ዘጠኝ"
+
+#~ msgid "queen"
+#~ msgstr "ንግሥት"
+
+#~ msgid "seven"
+#~ msgstr "ሰባት"
+
+#~ msgid "six"
+#~ msgstr "ስድስት"
+
+#~ msgid "ten"
+#~ msgstr "ዐሥር"
+
+#, fuzzy
+#~ msgid "the unknown card"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#~ msgid "three"
+#~ msgstr "ሦስት"
+
+#~ msgid "two"
+#~ msgstr "ሁለት"
+
+#, fuzzy
+#~ msgid "Best:"
+#~ msgstr "ግራ፦"
+
+#, fuzzy
+#~ msgid "Total:"
+#~ msgstr "አጠቃላይ"
+
+#, fuzzy
+#~ msgid "Wins:"
+#~ msgstr "መስመሮች፦ "
+
+#, fuzzy
+#~ msgid "Athena"
+#~ msgstr "ዐሥር"
+
+#, fuzzy
+#~ msgid "Backbone"
+#~ msgstr "ጥቁር"
+
+#, fuzzy
+#~ msgid "Bakers Game"
+#~ msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#~ msgid "Clock"
+#~ msgstr "ሰዓት"
+
+#, fuzzy
+#~ msgid "Gaps"
+#~ msgstr "ካርታዎች"
+
+#~ msgid "Template"
+#~ msgstr "ቲምፕሌት"
+
+#~ msgid "Thieves"
+#~ msgstr "ሌቦች"
+
+#, fuzzy
+#~ msgid "Triple Peaks"
+#~ msgstr "ድርድር"
+
+#, fuzzy
+#~ msgid "Blackjack"
+#~ msgstr "ጥቁር"
+
+#, fuzzy
+#~ msgid "_Hit"
+#~ msgstr "ፍንጭ"
+
+#, fuzzy
+#~ msgid "_Stand"
+#~ msgstr "ድምፅ (_S)"
+
+#, fuzzy
+#~ msgid "Balance:"
+#~ msgstr "ጥቁር"
+
+#, fuzzy
+#~ msgid "Blackjack Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Resplit"
+#~ msgstr "ውጤቶች"
+
+#, fuzzy
+#~ msgid "Resplit Aces"
+#~ msgstr "ውጤቶች"
+
+#, fuzzy
+#~ msgid "Bust"
+#~ msgstr "የተለየ"
+
+#, fuzzy
+#~ msgid "Blackjack!"
+#~ msgstr "ጥቁር"
+
+#, fuzzy
+#~ msgid "Push"
+#~ msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Stand"
+#~ msgstr "ድምፅ"
+
+#, fuzzy
+#~ msgid "Hit"
+#~ msgstr "ፍንጭ"
+
+#, fuzzy
+#~ msgid "The game is over."
+#~ msgstr "የጭብጥ ፋይል"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "ቀጥል"
+
+#, fuzzy
+#~ msgid "Reconnecting"
+#~ msgstr "ቀጥል"
+
+#, fuzzy
+#~ msgid "Online"
+#~ msgstr "ዘጠኝ"
+
+#, fuzzy
+#~ msgid "Server:"
+#~ msgstr "ነጥብ፦"
+
+#, fuzzy
+#~ msgid "Username:"
+#~ msgstr "የጨዋታ ቍጥር፦"
+
+#, fuzzy
+#~ msgid "Connect"
+#~ msgstr "ቀጥል"
+
+#, fuzzy
+#~ msgid "Deity"
+#~ msgstr "ስምንት"
+
+#, fuzzy
+#~ msgid "Sentinel"
+#~ msgstr "ዘጠኝ"
+
+#, fuzzy
+#~ msgid "Knight"
+#~ msgstr "ስምንት"
+
+#, fuzzy
+#~ msgid "Eagle"
+#~ msgstr "ትልቅ"
+
+#, fuzzy
+#~ msgid "Colonel"
+#~ msgstr "ቀለሞች"
+
+#, fuzzy
+#~ msgid "Major"
+#~ msgstr "ማህጆንግ"
+
+#, fuzzy
+#~ msgid "Scout"
+#~ msgstr "ነጥብ"
+
+#, fuzzy
+#~ msgid "Scholar"
+#~ msgstr "ነጥብ"
+
+#, fuzzy
+#~ msgid "Launched game"
+#~ msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Game Error"
+#~ msgstr "የጨዋታ አርእስት"
+
+#~ msgid "None"
+#~ msgstr "ምንም"
+
+#, fuzzy
+#~ msgid "Game Types"
+#~ msgstr "የጨዋታ አይነት፦"
+
+#, fuzzy
+#~ msgid "Upgrage Game"
+#~ msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Table:"
+#~ msgstr "ድርድር"
+
+#, fuzzy
+#~ msgid "Record:"
+#~ msgstr "ነጥብ፦"
+
+#, fuzzy
+#~ msgid "Rank:"
+#~ msgstr "ጨለማ፦"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr "ያልታወቀ ዕሴት"
+
+#, fuzzy
+#~ msgid "Guest"
+#~ msgstr "የተለየ"
+
+#, fuzzy
+#~ msgid "Ignore"
+#~ msgstr "ኖሞች"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "የጨዋታ ሁኔታ"
+
+#, fuzzy
+#~ msgid "Leave"
+#~ msgstr "ደረጃ፦"
+
+#, fuzzy
+#~ msgid "Seats"
+#~ msgstr "ልቦች"
+
+#, fuzzy
+#~ msgid "Game Name:"
+#~ msgstr "የጨዋታ ቍጥር፦"
+
+#, fuzzy
+#~ msgid "Unknown room"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#, fuzzy
+#~ msgid "Room"
+#~ msgstr "ኖሞች"
+
+#, fuzzy
+#~ msgid "Game Type:  %s"
+#~ msgstr "የጨዋታ አይነት፦"
+
+#, fuzzy
+#~ msgid "Game Type:"
+#~ msgstr "የጨዋታ አይነት፦"
+
+#, fuzzy
+#~ msgid "Reserved for"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "ቀጥል"
+
+#, fuzzy
+#~ msgid "Watch"
+#~ msgstr "ቆይ፦"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "መረጃ"
+
+#, fuzzy
+#~ msgid "Copyright"
+#~ msgstr "ወደቀኝ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "GGZ Help"
+#~ msgstr "መረጃ"
+
+#, fuzzy
+#~ msgid "Game Help"
+#~ msgstr "የጨዋታ አርእስት"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "ፍጥነት"
+
+#, fuzzy
+#~ msgid "Servers"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "ብርቱካን"
+
+#, fuzzy
+#~ msgid "Play Sounds"
+#~ msgstr "ድምፅ"
+
+#, fuzzy
+#~ msgid "Chat Color"
+#~ msgstr "ቀለሞች"
+
+#, fuzzy
+#~ msgid "Normal Color"
+#~ msgstr "ትል %d፦"
+
+#, fuzzy
+#~ msgid "Black Background"
+#~ msgstr "ጥቁር"
+
+#, fuzzy
+#~ msgid "White Background"
+#~ msgstr "መደብ፦"
+
+#, fuzzy
+#~ msgid "Chat"
+#~ msgstr "ልቦች"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "የጨዋታ ሁኔታ"
+
+#, fuzzy
+#~ msgid "Select Font"
+#~ msgstr "ካርታ ምረጡ፦"
+
+#, fuzzy
+#~ msgid "Unknown negotation"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#, fuzzy
+#~ msgid "Unknown login error"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#, fuzzy
+#~ msgid "Room full"
+#~ msgstr "ኖሞች"
+
+#, fuzzy
+#~ msgid "Unknown room-joining error"
+#~ msgstr "ያልታወቀ ቀለም"
+
+#, fuzzy
+#~ msgid "Save Chess Game"
+#~ msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Load Chess Game"
+#~ msgstr "አዲስ ጨዋታ ጀምር"
+
+#, fuzzy
+#~ msgid "AI Information"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "End Game"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "Join Game"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "Load a saved game"
+#~ msgstr "አዲስ ጨዋታ ጀምር"
+
+#, fuzzy
+#~ msgid "Rewind to the game start"
+#~ msgstr "ጨዋታው እንደገና ይጀምር"
+
+#, fuzzy
+#~ msgid "Save the current game"
+#~ msgstr "አሁን ያለውን ጨዋታ ጨርስ"
+
+#, fuzzy
+#~ msgid "Show the current move"
+#~ msgstr "አሁን ያለውን ጨዋታ ጨርስ"
+
+#, fuzzy
+#~ msgid "Show the next move"
+#~ msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#, fuzzy
+#~ msgid "Show the previous move"
+#~ msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#, fuzzy
+#~ msgid "_AI Information"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "_History"
+#~ msgstr "ፍንጭ"
+
+#, fuzzy
+#~ msgid "_Join Game"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "ሰዓት"
+
+#, fuzzy
+#~ msgid "Local chess game"
+#~ msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "Typ_e:"
+#~ msgstr "ሰዓት፦"
+
+#, fuzzy
+#~ msgid "White"
+#~ msgstr "ቆይ፦"
+
+#, fuzzy
+#~ msgid "_Game name:"
+#~ msgstr "የጨዋታ ቍጥር፦"
+
+#, fuzzy
+#~ msgid "_Join"
+#~ msgstr "ፍንጭ"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "_Start"
+#~ msgstr "እንደገና አስጀምሩ"
+
+#, fuzzy
+#~ msgid "_Type:"
+#~ msgstr "ሰዓት፦"
+
+#, fuzzy
+#~ msgid "_Ready"
+#~ msgstr "ቀይ"
+
+#, fuzzy
+#~ msgid "Game Start"
+#~ msgstr "የጨዋታ አርእስት"
+
+#~ msgid "Human"
+#~ msgstr "ሰው"
+
+#~ msgid "Small"
+#~ msgstr "ትንሽ"
+
+#, fuzzy
+#~ msgid "glines|Medium"
+#~ msgstr "መሀከለኛ"
+
+#~ msgid "Large"
+#~ msgstr "ትልቅ"
+
+#~ msgid "Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Five or More Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "ጭብጥ"
+
+#, fuzzy
+#~ msgid "B_ackground color:"
+#~ msgstr "መደብ፦"
+
+#, fuzzy
+#~ msgid "_Small"
+#~ msgstr "ትንሽ"
+
+#~ msgid "_Medium"
+#~ msgstr "መሀከለኛ (_M)"
+
+#, fuzzy
+#~ msgid "_Large"
+#~ msgstr "ትልቅ"
+
+#, fuzzy
+#~ msgid "_Use fast moves"
+#~ msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#, fuzzy
+#~ msgid "Next:"
+#~ msgstr "ግራ፦"
+
+#, fuzzy
+#~ msgid "Background color"
+#~ msgstr "መደብ፦"
+
+#, fuzzy
+#~ msgid "Game field"
+#~ msgstr "የጨዋታ አርእስት"
+
+#, fuzzy
+#~ msgid "Game preview"
+#~ msgstr "የጨዋታ አርእስት"
+
+#, fuzzy
+#~ msgid "Game score"
+#~ msgstr "የጨዋታ አርእስት"
+
+#~ msgid "Sound"
+#~ msgstr "ድምፅ"
+
+#, fuzzy
+#~ msgid "Theme ID"
+#~ msgstr "ጭብጥ"
+
+#, fuzzy
+#~ msgid "You:"
+#~ msgstr "አንቱ"
+
+#, fuzzy
+#~ msgid "Me:"
+#~ msgstr "እኔ"
+
+#~ msgid "Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Drawn:"
+#~ msgstr "ወደ ታች፦"
+
+#~ msgid "Level one"
+#~ msgstr "ደረጃ አንድ"
+
+#~ msgid "Level two"
+#~ msgstr "ደረጃ ሁለት"
+
+#~ msgid "Level three"
+#~ msgstr "ደረጃ ሦስት"
+
+#, fuzzy
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "ማህጆንግ - ምርጫዎች"
+
+#, fuzzy
+#~ msgid "_Theme:"
+#~ msgstr "ጭብጥ"
+
+#~ msgid "Red"
+#~ msgstr "ቀይ"
+
+#~ msgid "Yellow"
+#~ msgstr "ብጫ"
+
+#~ msgid "Light"
+#~ msgstr "ብርሃን"
+
+#~ msgid "Dark"
+#~ msgstr "ጨለማ"
+
+#~ msgid "Blue"
+#~ msgstr "ሰማያዊ"
+
+#, fuzzy
+#~ msgid "Blocks"
+#~ msgstr "ሰዓት"
+
+#~ msgid "Orange"
+#~ msgstr "ብርቱካን"
+
+#, fuzzy
+#~ msgid "%s joined the game.\n"
+#~ msgstr "ጨዋታውን ለጥቂት ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Nibbles Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Speed:"
+#~ msgstr "ፍጥነት"
+
+#, fuzzy
+#~ msgid "Congratulations!"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Nibbles"
+#~ msgstr "ድርድር"
+
+#, fuzzy
+#~ msgid "Game speed"
+#~ msgstr "የጨዋታ አይነት፦"
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "መንቀሳቅስ (_M)"
+
+#, fuzzy
+#~ msgid "Slow"
+#~ msgstr "ብጫ"
+
+#, fuzzy
+#~ msgid "gnibbles|Medium"
+#~ msgstr "መሀከለኛ"
+
+#, fuzzy
+#~ msgid "Fast"
+#~ msgstr "ባንዲራዎች፦"
+
+#, fuzzy
+#~ msgid "Nibbles Preferences"
+#~ msgstr "ምርጫዎች"
+
+#~ msgid "Speed"
+#~ msgstr "ፍጥነት"
+
+#, fuzzy
+#~ msgid "Worm"
+#~ msgstr "ትል %d"
+
+#, fuzzy
+#~ msgid "_Worm color:"
+#~ msgstr "ትል %d፦"
+
+#~ msgid "Green"
+#~ msgstr "አረንጓዴ"
+
+#~ msgid "Purple"
+#~ msgstr "ሐምራዊ"
+
+#~ msgid "Gray"
+#~ msgstr "ግራጫ"
+
+#~ msgid "Worm %d:"
+#~ msgstr "ትል %d፦"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#, fuzzy
+#~ msgid "Robots"
+#~ msgstr "ሮቦቶች"
+
+#, fuzzy
+#~ msgid "Game type"
+#~ msgstr "የጨዋታ አይነት፦"
+
+#~ msgid "_Move"
+#~ msgstr "መንቀሳቅስ (_M)"
+
+#, fuzzy
+#~ msgid "_Wait"
+#~ msgstr "ቆይ፦"
+
+#~ msgid "robots"
+#~ msgstr "ሮቦቶች"
+
+#~ msgid "cows"
+#~ msgstr "ላሞች "
+
+#~ msgid "eggs"
+#~ msgstr "እንቍላል"
+
+#~ msgid "gnomes"
+#~ msgstr "ኖሞች"
+
+#~ msgid "mice"
+#~ msgstr "አይጦች"
+
+#, fuzzy
+#~ msgid "Robots Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Game Type"
+#~ msgstr "የጨዋታ አይነት፦"
+
+#, fuzzy
+#~ msgid "Graphics Theme"
+#~ msgstr "ንድፍ"
+
+#, fuzzy
+#~ msgid "_Image theme:"
+#~ msgstr "ጭብጥ ምረጡ፦"
+
+#, fuzzy
+#~ msgid "_Background color:"
+#~ msgstr "መደብ፦"
+
+#~ msgid "Keyboard"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#, fuzzy
+#~ msgid "<none>"
+#~ msgstr "ምንም"
+
+#, fuzzy
+#~ msgid "High Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "_Play"
+#~ msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "_Game List"
+#~ msgstr "የጨዋታ አርእስት"
+
+#, fuzzy
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "መሀከለኛ"
+
+#, fuzzy
+#~ msgid "_Easy"
+#~ msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "_Generate"
+#~ msgstr "የጨዋታ ቍጥር፦"
+
+#, fuzzy
+#~ msgid "Puzzle"
+#~ msgstr "ሐምራዊ"
+
+#, fuzzy
+#~ msgid "Started"
+#~ msgstr "ጨዋታው እንደገና ይጀምር"
+
+#, fuzzy
+#~ msgid "Date"
+#~ msgstr "እንደገና አስጀምሩ"
+
+#, fuzzy
+#~ msgid "Hints"
+#~ msgstr "ፍንጭ"
+
+#, fuzzy
+#~ msgid "Stopped"
+#~ msgstr "ፍጥነት"
+
+#~ msgid "Medium"
+#~ msgstr "መሀከለኛ"
+
+#, fuzzy
+#~ msgid " and "
+#~ msgstr "ድምፅ"
+
+#, fuzzy
+#~ msgid "Today"
+#~ msgstr "አጠቃላይ"
+
+#, fuzzy
+#~ msgid "New game"
+#~ msgstr "አዲስ ጨዋታ"
+
+#, fuzzy
+#~ msgid "Print current game"
+#~ msgstr "አሁን ያለውን ጨዋታ ጨርስ"
+
+#, fuzzy
+#~ msgid "_Enter custom game"
+#~ msgstr "አሁን ያለውን ጨዋታ ጨርስ"
+
+#, fuzzy
+#~ msgid "High _Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "_Black background"
+#~ msgstr "መደብ፦"
+
+#, fuzzy
+#~ msgid "_Undo"
+#~ msgstr "መንቀሳቅስ (_M)"
+
+#, fuzzy
+#~ msgid "Undo last action"
+#~ msgstr "መጨረሻ የተንቀሳቀሰው ይመለስ"
+
+#, fuzzy
+#~ msgid "_Redo"
+#~ msgstr "ቀይ"
+
+#, fuzzy
+#~ msgid "No Tracker"
+#~ msgstr "ምንም"
+
+#, fuzzy
+#~ msgid "_Play game"
+#~ msgstr "የማህጆንግ ጨዋታ"
+
+#, fuzzy
+#~ msgid "translator_credits"
+#~ msgstr "ዘግዕዝ Frontier Foundation"
+
+#, fuzzy
+#~ msgid "gnomine|Medium"
+#~ msgstr "መሀከለኛ"
+
+#~ msgid "Custom"
+#~ msgstr "የተለየ"
+
+#, fuzzy
+#~ msgid "Flags: %d/%d"
+#~ msgstr "ባንዲራዎች፦"
+
+#, fuzzy
+#~ msgid "Mines Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Size:"
+#~ msgstr "ሰዓት፦"
+
+#, fuzzy
+#~ msgid "Faces:"
+#~ msgstr "ባንዲራዎች፦"
+
+#~ msgid "Graphics:"
+#~ msgstr "ንድፍ፦"
+
+#, fuzzy
+#~ msgid "Mines"
+#~ msgstr "መስመሮች፦ "
+
+#, fuzzy
+#~ msgid "Custom Size"
+#~ msgstr "የተለየ"
+
+#, fuzzy
+#~ msgid "_Horizontal:"
+#~ msgstr "አግድም፦"
+
+#, fuzzy
+#~ msgid "_Vertical:"
+#~ msgstr "ቁመት፦"
+
+#, fuzzy
+#~ msgid "Mines Preferences"
+#~ msgstr "ምርጫዎች"
+
+#~ msgid "NUMBER"
+#~ msgstr "ቍጥር"
+
+#~ msgid "Time: "
+#~ msgstr "ሰዓት፦"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#, fuzzy
+#~ msgid "2×2"
+#~ msgstr "_2በ2"
+
+#, fuzzy
+#~ msgid "3×3"
+#~ msgstr "_3በ3"
+
+#, fuzzy
+#~ msgid "4×4"
+#~ msgstr "_4በ4"
+
+#, fuzzy
+#~ msgid "5×5"
+#~ msgstr "_5በ5"
+
+#, fuzzy
+#~ msgid "6×6"
+#~ msgstr "_6በ6"
+
+#~ msgid "_Up"
+#~ msgstr "ወደ ላይ (_U)"
+
+#~ msgid "_Left"
+#~ msgstr "ግራ (_L)"
+
+#, fuzzy
+#~ msgid "Move the pieces left"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#~ msgid "_Right"
+#~ msgstr "ቀኝ (_R)"
+
+#, fuzzy
+#~ msgid "Move the pieces right"
+#~ msgstr "ወደቀኝ አንቀሳቅስ"
+
+#~ msgid "_Down"
+#~ msgstr "ወደ ታች (_D)"
+
+#, fuzzy
+#~ msgid "_2×2"
+#~ msgstr "_2በ2"
+
+#, fuzzy
+#~ msgid "_3×3"
+#~ msgstr "_3በ3"
+
+#, fuzzy
+#~ msgid "_4×4"
+#~ msgstr "_4በ4"
+
+#, fuzzy
+#~ msgid "_5×5"
+#~ msgstr "_5በ5"
+
+#, fuzzy
+#~ msgid "_6×6"
+#~ msgstr "_6በ6"
+
+#, fuzzy
+#~ msgid "Tile _Colours"
+#~ msgstr "ቀለሞች"
+
+#~ msgid "SIZE"
+#~ msgstr "መጠን"
+
+#, fuzzy
+#~ msgid "Game paused"
+#~ msgstr "የጨዋታ ሁኔታ"
+
+#, fuzzy
+#~ msgid "Poppy"
+#~ msgstr "ምርጫ"
+
+#, fuzzy
+#~ msgid "Pansy"
+#~ msgstr "ለአጭር ጊዜ አሳርፍ"
+
+#, fuzzy
+#~ msgid "Trail"
+#~ msgstr "ድርድር"
+
+#, fuzzy
+#~ msgid "Agatka"
+#~ msgstr "gataxx"
+
+#, fuzzy
+#~ msgid "Success"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Bone"
+#~ msgstr "ምንም"
+
+#, fuzzy
+#~ msgid "Shark"
+#~ msgstr "ጨለማ"
+
+#, fuzzy
+#~ msgid "Rome"
+#~ msgstr "ኖሞች"
+
+#, fuzzy
+#~ msgid "Sunshine"
+#~ msgstr "ዘጠኝ"
+
+#, fuzzy
+#~ msgid "Block 10"
+#~ msgstr "ሰዓት"
+
+#, fuzzy
+#~ msgid "_Restart Puzzle"
+#~ msgstr "ጨዋታው እንደገና ይጀምር"
+
+#, fuzzy
+#~ msgid "Level completed."
+#~ msgstr "ደረጃ አንድ"
+
+#, fuzzy
+#~ msgid "Tali"
+#~ msgstr "አጠቃላይ"
+
+#, fuzzy
+#~ msgid "Tali Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Tali Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "ቀለሞች"
+
+#~ msgid "Results"
+#~ msgstr "ውጤቶች"
+
+#~ msgid "Total"
+#~ msgstr "አጠቃላይ"
+
+#, fuzzy
+#~ msgid "Net_work Game"
+#~ msgstr "አዲስ ጨዋታ"
+
+#, fuzzy
+#~ msgid "_Leave Game"
+#~ msgstr "አዲስ ጨዋታ"
+
+#~ msgid "Dark:"
+#~ msgstr "ጨለማ፦"
+
+#~ msgid "Light:"
+#~ msgstr "ብርሃን፦"
+
+#, fuzzy
+#~ msgid "Iagno Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "_Tile set:"
+#~ msgstr "ድርድር"
+
+#, fuzzy
+#~ msgid "Network game mode"
+#~ msgstr "አዲስ ጨዋታ"
+
+#, fuzzy
+#~ msgid "Mahjongg Scores"
+#~ msgstr "የማህጆንግ ጨዋታ"
+
+#, fuzzy
+#~ msgid "Map:"
+#~ msgstr "ካርታዎች"
+
+#, fuzzy
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "ማህጆንግ - ምርጫዎች"
+
+#~ msgid "Tiles"
+#~ msgstr "ድርድር"
+
+#~ msgid "Maps"
+#~ msgstr "ካርታዎች"
+
+#, fuzzy
+#~ msgid "_Select map:"
+#~ msgstr "ካርታ ምረጡ፦"
+
+#, fuzzy
+#~ msgid "Maps:"
+#~ msgstr "ካርታዎች"
+
+#, fuzzy
+#~ msgid "Tiles:"
+#~ msgstr "ድርድር"
+
+#~ msgid "Mahjongg"
+#~ msgstr "ማህጆንግ"
+
+#, fuzzy
+#~ msgid "Tiles Left:"
+#~ msgstr "ድርድር"
+
+#, fuzzy
+#~ msgid "Moves Left:"
+#~ msgstr "ወደግራ አንቀሳቅስ"
+
+#, fuzzy
+#~ msgid "mahjongg|Easy"
+#~ msgstr "ማህጆንግ"
+
+#, fuzzy
+#~ msgid "Cloud"
+#~ msgstr "ቀለሞች"
+
+#, fuzzy
+#~ msgid "Set the theme"
+#~ msgstr "ጭብጥ ምረጡ፦"
+
+#, fuzzy
+#~ msgid "Score: %d"
+#~ msgstr "ነጥብ፦"
+
+#, fuzzy
+#~ msgid "Same GNOME Scores"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Same GNOME Theme"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "_Theme..."
+#~ msgstr "ጭብጥ"
+
+#, fuzzy
+#~ msgid "Graphics"
+#~ msgstr "ንድፍ፦"
+
+#, fuzzy
+#~ msgid "Models:"
+#~ msgstr "እኔ"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "ጨዋታ"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "አዲስ ጨዋታ ጀምር"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "የጨዋታ ሁኔታ"
+
+#, fuzzy
+#~ msgid "_High Scores"
+#~ msgstr "ነጥቦች"
+
+#, fuzzy
+#~ msgid "Congratulations."
+#~ msgstr "ምርጫዎች"
+
+#~ msgid " of "
+#~ msgstr " የ "
+
+#, fuzzy
+#~ msgid "Ataxx"
+#~ msgstr "gataxx"
+
+#, fuzzy
+#~ msgid "Ataxx Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "gataxx|Easy"
+#~ msgstr "gataxx"
+
+#, fuzzy
+#~ msgid "gataxx|Medium"
+#~ msgstr "መሀከለኛ"
+
+#~ msgid "windows"
+#~ msgstr "መስኮቶች"
+
+#, fuzzy
+#~ msgid "Stones"
+#~ msgstr "ድምፆች"
+
+#, fuzzy
+#~ msgid "Game name"
+#~ msgstr "የጨዋታ ቍጥር፦"
+
+#, fuzzy
+#~ msgid "GNOME Stones Preferences"
+#~ msgstr "ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "የተበላሸ"
+
+#, fuzzy
+#~ msgid "Enable sound"
+#~ msgstr "የኖም ድምፅ"
+
+#~ msgid "_Sound"
+#~ msgstr "ድምፅ (_S)"
+
+#, fuzzy
+#~ msgid "_Start Game"
+#~ msgstr "ጨዋታው እንደገና ይጀምር"

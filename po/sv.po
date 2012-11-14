@@ -1,0 +1,7920 @@
+# Swedish messages for gnome-games.
+# Copyright (C) 1999-2009 Free Software Foundation, Inc.
+# Andreas Persenius <ndap@swipnet.se>, 1999.
+# Andreas Hyden <a.hyden@cyberpoint.se>
+# Martin Norbäck <d95mback@dtek.chalmers.se>, 2000.
+# Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2009-02-11 22:46+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "Gör paus"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "Spelet är slut"
+
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "Passa ihop fallande klossar"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "Bild att använda för uppritning av klossar"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "Bild att använda för uppritning av klossar."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "Temat som används för rendering av klossarna"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Namnet på temat som används för rendering av klossarna och bakgrunden."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "Nivå att börja med"
+
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "Nivå att börja med."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "Huruvida bakgrundsbilden ska användas"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+"Detta väljer huruvida bakgrundsbilden ska ritas över bakgrundsfärgen eller "
+"inte."
+
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "Bakgrundsfärgen"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Bakgrundsfärgen, i ett format som gdk_color_parse förstår."
+
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "Huruvida nästa kloss ska förhandsgranskas"
+
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "Huruvida nästa kloss ska förhandsgranskas."
+
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "Huruvida ett mål ska tillhandahållas"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+"Huruvida en grafisk representation ska ges av var en kloss kommer att landa."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "Huruvida klossar ska ges slumpmässiga färger"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "Huruvida klossar ska ges slumpmässiga färger."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "Huruvida rotation ska ske motsols"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "Huruvida rotation ska ske motsols."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "Antalet rader att fylla"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+"Antalet rader som är fyllda med slumpmässiga klossar i början på spelet."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "Densiteten för ifyllda rader"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Densiteten för klossar i rader som är ifyllda i början av spelet. Värdet är "
+"mellan 0 (för inga klossar) och 10 (för en helt ifylld rad)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "Flytta vänster"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "Tangenttryck för att flytta till vänster."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "Flytta höger"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "Tangenttryck för att flytta till höger."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "Flytta nedåt"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "Tangenttryck för att flytta nedåt."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "Släpp"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "Tangenttryck för att släppa."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "Rotera"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "Tangenttryck för att rotera."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "Paus"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "Tangenttryck för att göra paus."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "Ställ in startnivå (1 eller större)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "NIVÅ"
+
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "Enkel"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "Sammanslagen"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr "Tango platt"
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr "Tango skuggad"
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Poäng:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Linjer:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "Nivå:"
+
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "_Spel"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "_Inställningar"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Inställningar för Gnometris"
+
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "Spel"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "Konfiguration"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "_Antal förifyllda rader:"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Densiteten på klossar i en förifylld rad:"
+
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "_Startnivå:"
+
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "Åtgärd"
+
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "A_ktivera ljud"
+
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "_Förhandsgranska nästa kloss"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "_Använd slumpmässiga klossfärger"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "_Rotera klossar moturs"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "Visa _var klossen kommer att landa"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "Tema"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "Styrning"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "Tangentbordsstyrning"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "Stil på klossar"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+"Ett klassiskt spel där man sätter samman fallande klossar.\n"
+"\n"
+"Gnometris är en del av GNOME Games."
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "Webbplatsen för GNOME Games"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander\n"
+"Christian Rose\n"
+"Martin Norbäck\n"
+"Andreas Hydén\n"
+"Andreas Persenius\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"tp-sv@listor.tp-sv.se"
+
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Poänglistan för Gnometris"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Filen är inte en giltig .desktop-fil"
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Okänd Version \"%s\" i desktop-fil"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Startar %s"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Programmet tar inte emot dokument på kommandoraden"
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Okänt startalternativ: %d"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Kan inte skicka dokument-URI:er till en \"Type=Link\"-skrivbordspost"
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Inte ett körbart objekt"
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Inaktivera anslutning till sessionshanteraren"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Ange fil som innehåller sparad konfiguration"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr "FIL"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Ange id för sessionshantering"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Flaggor för sessionshantering:"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Visa flaggor för sessionshantering"
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "Ingen tangent"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Tryck en tangent>"
+
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "Okänt kommando"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr "Kunde inte öppna hjälpfilen"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "Tid"
+
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "Poäng"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%d m %d s"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "Nytt spel"
+
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "Namn"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "Visa hjälp för detta spel"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "Avsluta det aktuella spelet"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr "Växla helskärmsläge"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "Få tips angående ditt nästa drag"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "Lämna helskärmsläge"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "Starta ett nytt nätverksspel med flera spelare"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "Avsluta aktuellt nätverksspel och återvänd till nätverksservern"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "Starta ett nytt spel"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "Gör paus i spelet"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "Visa en lista på spelare i nätverksspelet"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "Gör om det ångrade draget"
+
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "Starta om spelet"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "Återuppta det pausade spelet"
+
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "Visa poänglistan"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "Ångra det senaste draget"
+
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "Om detta spel"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "Stäng det här fönstret"
+
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "Konfigurera spelet"
+
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "Avsluta detta spel"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "_Innehåll"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "_Helskärm"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "_Tips"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "_Nytt"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "_Nytt spel"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "_Gör om drag"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "_Nollställ"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "Starta _om"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "_Ångra drag"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "_Lämna helskärmsläge"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "Nätver_ksspel"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "Läm_na spel"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "Spelar_lista"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "Gör _paus"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "_Återuppta"
+
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "_Poänglista"
+
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "_Avsluta spel"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s är fri programvara. Du kan distribuera det och/eller modifiera det under "
+"villkoren i GNU General Public License, publicerad av Free Software "
+"Foundation, antingen version %d av licensen eller (om du så vill) någon "
+"senare version."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM "
+"HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
+"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
+"ytterligare information."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Du bör ha fått en kopia av GNU General Public License tillsammans med %s. Om "
+"inte, skriv till Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor, Boston, MA  02110-1301, USA"
+
+#~ msgid "Player Chat"
+#~ msgstr "Spelarchatt"
+
+#~ msgid "Occupied"
+#~ msgstr "Upptagen"
+
+#~ msgid "Empty"
+#~ msgstr "Tom"
+
+#~ msgid "Bot"
+#~ msgstr "Robot"
+
+#~ msgid "Reserved"
+#~ msgstr "Reserverat"
+
+#~ msgid "Abandoned"
+#~ msgstr "Övergiven"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "Åskådare"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Player List"
+#~ msgstr "Spelarlista"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Boot player"
+#~ msgstr "Robotspelare"
+
+#~ msgid "Sit here"
+#~ msgstr "Sitt här"
+
+#~ msgid "Move here"
+#~ msgstr "Flytta hit"
+
+#~ msgid "Play with bot"
+#~ msgstr "Spela mot robot"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Avboka reservation"
+
+#~ msgid "Remove bot"
+#~ msgstr "Ta bort bot"
+
+#~ msgid "X Padding"
+#~ msgstr "X-utfyllnad"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Extra utrymme att lägga till breddallokeringen."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Extra utrymme att lägga till höjdallokeringen."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Breddfaktor"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "Vilken faktor som bredden ska begränsas till."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Höjdfaktor"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "Vilken faktor som höjden ska begränsas till."
+
+#~ msgid "X align"
+#~ msgstr "X-justering"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Den horisontella justeringen, från 0 (vänster) till 1 (höger)"
+
+#~ msgid "Y align"
+#~ msgstr "Y-justering"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Den vertikala justeringen, från 0 (överst) till 1 (nederst)"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "En lista över tidigare spelade spel."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "En lista med strängar som kommer i formen av en femtupel: namn, vinster, "
+#~ "totala antalet spelade spel, bästa tiden (i sekunder) och sämsta tiden "
+#~ "(också den i sekunder). Ospelade spel behöver inte representeras."
+
+#~ msgid "Animations"
+#~ msgstr "Animationer"
+
+#~ msgid "Recently played games"
+#~ msgstr "Tidigare spelade spel"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Välj styrningsstil"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Välj huruvida korten ska dras eller om källan ska klickas på och sedan "
+#~ "målet."
+
+#~ msgid "Sound"
+#~ msgstr "Ljud"
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Statistik för spelade spel"
+
+#~ msgid "The game file to use"
+#~ msgstr "Spelfilen att använda"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Namnet på filen som innehåller grafiken för korten."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr ""
+#~ "Namnet på schemafilen som innehåller det patiensspel som ska spelas."
+
+#~ msgid "Theme file name"
+#~ msgstr "Temafilnamn"
+
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "Huruvida kortdrag ska animeras eller inte."
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Huruvida händelseljud ska spelas eller inte."
+
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "Huruvida statusraden ska visas eller inte"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Huruvida verktygsraden ska visas eller inte"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Napoleon på S:t Helena-patiens"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Spela det populära patienskortspelet Napoleon på S:t Helena"
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "Aisleriot kan inte läsa in filen \"%s\". Kontrollera din Aisleriot-"
+#~ "installation."
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Aisleriot kan inte hitta det senaste spelet du spelade."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Detta inträffar vanligtvis när du kör en äldre version av Aisleriot som "
+#~ "inte har det spel som du senast spelade. Standardspelet, Klondyke, "
+#~ "startas istället."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Det här spelet stöder inte ledtrådar ännu."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Flytta %s till %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Du letar efter en %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Det här spelet kan inte ge dig några tips."
+
+#~ msgid "Could not show link"
+#~ msgstr "Kunde inte visa länk"
+
+#~ msgid "Help file \"%s.%s\" not found"
+#~ msgstr "Hjälpfilen \"%s.%s\" hittades inte"
+
+#~ msgid "Error"
+#~ msgstr "Fel"
+
+#~ msgid "Could not show help for “%s”"
+#~ msgstr "Kunde inte visa hjälp för \"%s\""
+
+#~ msgid "Could not show Aisleriot help"
+#~ msgstr "Kunde inte visa hjälp för Aisleriot-patiens"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "Välj speltypen att spela"
+
+#~ msgid "NAME"
+#~ msgstr "NAMN"
+
+#~ msgid "Select the game number"
+#~ msgstr "Välj spelnumret"
+
+#~ msgid "NUMBER"
+#~ msgstr "ANTAL"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot-patiens"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Spela många olika patiensspel"
+
+#~ msgid "Unknown color"
+#~ msgstr "Okänd färg (svart/röd)"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Okänd färg"
+
+#~ msgid "Unknown value"
+#~ msgstr "Okänd valör"
+
+#~ msgid "ace"
+#~ msgstr "ess"
+
+#~ msgid "black joker"
+#~ msgstr "svart joker"
+
+#~ msgid "clubs"
+#~ msgstr "klöver"
+
+#~ msgid "diamonds"
+#~ msgstr "ruter"
+
+#~ msgid "eight"
+#~ msgstr "åtta"
+
+#~ msgid "five"
+#~ msgstr "fem"
+
+#~ msgid "four"
+#~ msgstr "fyra"
+
+#~ msgid "hearts"
+#~ msgstr "hjärter"
+
+#~ msgid "jack"
+#~ msgstr "knekt"
+
+#~ msgid "king"
+#~ msgstr "kung"
+
+#~ msgid "nine"
+#~ msgstr "nio"
+
+#~ msgid "queen"
+#~ msgstr "dam"
+
+#~ msgid "red joker"
+#~ msgstr "röd joker"
+
+#~ msgid "seven"
+#~ msgstr "sju"
+
+#~ msgid "six"
+#~ msgstr "sex"
+
+#~ msgid "spades"
+#~ msgstr "spader"
+
+#~ msgid "ten"
+#~ msgstr "tio"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "klöver ess"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "ruter ess"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "hjärter ess"
+
+#~ msgid "the ace of spades"
+#~ msgstr "spader ess"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "klöver åtta"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "ruter åtta"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "hjärter åtta"
+
+#~ msgid "the eight of spades"
+#~ msgstr "spader åtta"
+
+#~ msgid "the five of clubs"
+#~ msgstr "klöver fem"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "ruter fem"
+
+#~ msgid "the five of hearts"
+#~ msgstr "hjärter fem"
+
+#~ msgid "the five of spades"
+#~ msgstr "spader fem"
+
+#~ msgid "the four of clubs"
+#~ msgstr "klöver fyra"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "ruter fyra"
+
+#~ msgid "the four of hearts"
+#~ msgstr "hjärter fyra"
+
+#~ msgid "the four of spades"
+#~ msgstr "spader fyra"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "klöver knekt"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "ruter knekt"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "hjärter knekt"
+
+#~ msgid "the jack of spades"
+#~ msgstr "spader knekt"
+
+#~ msgid "the king of clubs"
+#~ msgstr "klöver kung"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "ruter kung"
+
+#~ msgid "the king of hearts"
+#~ msgstr "hjärter kung"
+
+#~ msgid "the king of spades"
+#~ msgstr "spader kung"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "klöver nio"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "ruter nio"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "hjärter nio"
+
+#~ msgid "the nine of spades"
+#~ msgstr "spader nio"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "klöver dam"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "ruter dam"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "hjärter dam"
+
+#~ msgid "the queen of spades"
+#~ msgstr "spader dam"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "klöver sju"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "ruter sju"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "hjärter sju"
+
+#~ msgid "the seven of spades"
+#~ msgstr "spader sju"
+
+#~ msgid "the six of clubs"
+#~ msgstr "klöver sex"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "ruter sex"
+
+#~ msgid "the six of hearts"
+#~ msgstr "hjärter sex"
+
+#~ msgid "the six of spades"
+#~ msgstr "spader sex"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "klöver tio"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "ruter tio"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "hjärter tio"
+
+#~ msgid "the ten of spades"
+#~ msgstr "spader tio"
+
+#~ msgid "the three of clubs"
+#~ msgstr "klöver tre"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "ruter tre"
+
+#~ msgid "the three of hearts"
+#~ msgstr "hjärter tre"
+
+#~ msgid "the three of spades"
+#~ msgstr "spader tre"
+
+#~ msgid "the two of clubs"
+#~ msgstr "klöver två"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "ruter två"
+
+#~ msgid "the two of hearts"
+#~ msgstr "hjärter två"
+
+#~ msgid "the two of spades"
+#~ msgstr "spader två"
+
+#~ msgid "the unknown card"
+#~ msgstr "det okända kortet"
+
+#~ msgid "three"
+#~ msgstr "tre"
+
+#~ msgid "two"
+#~ msgstr "två"
+
+#~ msgid "Wins:"
+#~ msgstr "Vinster:"
+
+#~ msgid "Total:"
+#~ msgstr "Totalt:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Procenttal:"
+
+#~ msgid "Wins"
+#~ msgstr "Vinster"
+
+#~ msgid "Best:"
+#~ msgstr "Bästa:"
+
+#~ msgid "Worst:"
+#~ msgstr "Sämsta:"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistik"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "-"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d.%02d"
+
+#~ msgid "Accordion"
+#~ msgstr "Skorpionen"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+# Osäker.
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Faster Mary"
+
+# Osäker.
+#~ msgid "Backbone"
+#~ msgstr "Backbone"
+
+# I brist på annat...
+#~ msgid "Bakers Dozen"
+#~ msgstr "Bagardussin"
+
+# I brist på annat...
+#~ msgid "Bakers Game"
+#~ msgstr "Bagarspel"
+
+# Osäker.
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Napoleonpatiensen"
+
+# I brist på annat...
+#~ msgid "Block Ten"
+#~ msgstr "Blockera tio"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Canfield"
+#~ msgstr "Varvet runt"
+
+# Osäker.
+#~ msgid "Carpet"
+#~ msgstr "Matta"
+
+#~ msgid "Chessboard"
+#~ msgstr "Schackbräde"
+
+#~ msgid "Clock"
+#~ msgstr "Klockan"
+
+# I brist på annat...
+#~ msgid "Cover"
+#~ msgstr "Täck"
+
+#~ msgid "Cruel"
+#~ msgstr "Ond"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Diamantgruvan"
+
+#~ msgid "Doublets"
+#~ msgstr "Dubletter"
+
+# I brist på annat...
+#~ msgid "Eagle Wing"
+#~ msgstr "Örnvinge"
+
+# I brist på annat...
+#~ msgid "Easthaven"
+#~ msgstr "Österhamn"
+
+# I brist på annat...
+#~ msgid "Eight Off"
+#~ msgstr "Åtta av"
+
+#~ msgid "Elevator"
+#~ msgstr "Hissen"
+
+#~ msgid "Escalator"
+#~ msgstr "Rulltrappan"
+
+# I brist på annat...
+#~ msgid "First Law"
+#~ msgstr "Första lagen"
+
+# Gissar...
+#~ msgid "Fortress"
+#~ msgstr "Fortet"
+
+#~ msgid "Fortunes"
+#~ msgstr "Idioten"
+
+#~ msgid "Forty Thieves"
+#~ msgstr "Fyrtio rövare"
+
+#~ msgid "Fourteen"
+#~ msgstr "Fjorton"
+
+#~ msgid "Freecell"
+#~ msgstr "Napoleon på S:t Helena"
+
+#~ msgid "Gaps"
+#~ msgstr "Luckor"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay Gordons"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Guldgruvan"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Gypsy"
+#~ msgstr "Zigenare"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsingfors"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Hoppa hage"
+
+# I brist på annat...
+#~ msgid "Isabel"
+#~ msgstr "Isabelle"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "King Albert"
+#~ msgstr "Kung Albert"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Kungens audiens"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondyke"
+
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Treleksspindeln"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labyrint"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+# I brist på annat...
+#~ msgid "Maze"
+#~ msgstr "Virrvarr"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Napoleons grav"
+
+#~ msgid "Neighbor"
+#~ msgstr "Granne"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmos"
+
+# I brist på annat...
+#~ msgid "Peek"
+#~ msgstr "Titt"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Plait"
+#~ msgstr "Fläta"
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+# FIXME: Osäker.
+#~ msgid "Royal East"
+#~ msgstr "Royal East"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Scorpion"
+#~ msgstr "Skorpionen"
+
+#~ msgid "Scuffle"
+#~ msgstr "Blanda"
+
+#~ msgid "Seahaven"
+#~ msgstr "Sjöhamn"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Spider"
+#~ msgstr "Spindeln"
+
+#~ msgid "Spiderette"
+#~ msgstr "Lillspindel"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Treleksspindeln"
+
+# I brist på annat...
+#~ msgid "Straight Up"
+#~ msgstr "Rakt upp"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Gator och gränder"
+
+#~ msgid "Template"
+#~ msgstr "Mall"
+
+#~ msgid "Ten Across"
+#~ msgstr "Tio i kors"
+
+#~ msgid "Terrace"
+#~ msgstr "Terrace"
+
+#~ msgid "Thieves"
+#~ msgstr "Rövare"
+
+#~ msgid "Thirteen"
+#~ msgstr "Trettonpyramiden"
+
+# I brist på annat...
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Tumme och sedelpung"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+# Osäker.
+#~ msgid "Triple Peaks"
+#~ msgstr "Triple Peaks"
+
+#~ msgid "Union Square"
+#~ msgstr "Union Square"
+
+# I brist på annat...
+#~ msgid "Valentine"
+#~ msgstr "Valentin"
+
+#~ msgid "Westhaven"
+#~ msgstr "Västerhamn"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will O The Wisp"
+
+# I brist på annat...
+#~ msgid "Yield"
+#~ msgstr "Avkastning"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Select Game"
+#~ msgstr "Välj spel"
+
+#~ msgid "_Select"
+#~ msgstr "_Välj"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Gratulerar, du har vunnit!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "Det finns inga fler drag"
+
+#~ msgid "Main game:"
+#~ msgstr "Huvudspel:"
+
+#~ msgid "Card games:"
+#~ msgstr "Kortspel:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Kortteman:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Om Napoleon på S:t Helena-patiens"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Om AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot erbjuder en regelbaserad patiensmotor som låter dig att spela "
+#~ "många olika spel.\n"
+#~ "AisleRiot är en del av GNOME Games."
+
+#~ msgid "Play “%s”"
+#~ msgstr "Spela \"%s\""
+
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "Visa korten med korttemat \"%s\""
+
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "Ett schemaundantag inträffade"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Rapportera det här felet till utvecklarna."
+
+#~ msgid "_Don't report"
+#~ msgstr "Rapportera _inte"
+
+#~ msgid "_Report"
+#~ msgstr "_Rapportera"
+
+#~ msgid "_View"
+#~ msgstr "_Visa"
+
+#~ msgid "_Control"
+#~ msgstr "St_yrning"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Välj spel..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Spela ett annat spel"
+
+#~ msgid "_Recently Played"
+#~ msgstr "_Tidigare spelade"
+
+#~ msgid "S_tatistics"
+#~ msgstr "S_tatistik"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Visa spelstatistik"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Ge nästa kort"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Visa hjälp för Aisleriot"
+
+#~ msgid "Install card themes…"
+#~ msgstr "Installera kortteman..."
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr "Installera nya kortteman från distributionspaketens förråd"
+
+#~ msgid "_Card Style"
+#~ msgstr "_Kortstil"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Verktygsrad"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Visa eller dölj verktygsraden"
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Statusrad"
+
+#~ msgid "Show or hide statusbar"
+#~ msgstr "Visa eller dölj statusraden"
+
+#~ msgid "_Click to Move"
+#~ msgstr "Klicka för att _flytta"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Plocka upp och släpp kort genom att klicka"
+
+#~ msgid "_Sound"
+#~ msgstr "_Ljud"
+
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "Huruvida händelseljud ska spelas upp eller inte."
+
+#~ msgid "_Animations"
+#~ msgstr "A_nimationer"
+
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "Huruvida kortdrag ska animeras eller inte."
+
+#~ msgid "Time:"
+#~ msgstr "Tid:"
+
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "Kan inte starta spelet \"%s\""
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Grundkort: Ess"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Grundkort: Knekt"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Grundkort: Kung"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Grundkort: Dam"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Grundkort: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Ge fler kort"
+
+#~ msgid "Stock left:"
+#~ msgstr "Kvar på hand:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Kvar på hand: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Försök att arrangera om korten"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "en tom grundhög"
+
+#~ msgid "Three card deals"
+#~ msgstr "Givar med tre kort"
+
+#~ msgid "Deal another round"
+#~ msgstr "Ge en ny omgång"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Ge ett nytt kort från kortleken"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Återstående omgivar:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "en tom plats på grundhögen"
+
+# Korrekt? Högen?
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "en tom plats på bordet"
+
+#~ msgid "an empty foundation"
+#~ msgstr "en tom grundhög"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "en tom bottenplats"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "en tom hörnplats"
+
+#~ msgid "an empty left slot"
+#~ msgstr "en tom vänsterplats"
+
+#~ msgid "an empty right slot"
+#~ msgstr "en tom högerplats"
+
+#~ msgid "an empty slot"
+#~ msgstr "en tom plats"
+
+#~ msgid "an empty top slot"
+#~ msgstr "en tom topplats"
+
+#~ msgid "itself"
+#~ msgstr "själv"
+
+#~ msgid "Base Card: "
+#~ msgstr "Grundkort: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Flytta talong tillbaka till handen"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Reserver kvar:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "tom plats på grundhög"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "tom plats på bordet"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Flytta ett kort till grundhögen"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Flytta någonting till den tomma bordplatsen"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Konsekvens är nyckeln"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Fiskelina är inte så bra som tandtråd"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Har du läst hjälpfilen?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "En ryggmassage skulle inte sitta fel nu..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Om du någonsin går vilse och är ensam i skogen, krama ett träd"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Bara för att vissa tror man ska hoppa hage över övergångställen, betyder "
+#~ "det inte att det är rätt"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Se åt båda hållen innan du går över gatan"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Datorskärmar ger dig inte D-vitamin -- men det gör solljus..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Blås aldrig i en hunds öra"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa är ett bättre spel. Faktiskt."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Kompresser rekommenderas endast i yttersta nödfall"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr ""
+#~ "När du saknar häftapparat räcker det med en häftklammer och en linjal"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Återstående kort: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Omgiv."
+
+#~ msgid "the foundation pile"
+#~ msgstr "grundhögen"
+
+#~ msgid "Deal a card"
+#~ msgstr "Ge ett kort"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Flytta ~a till en ledig grundhög"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "en tom plats på bordet"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Flytta en kung till den tomma bordplatsen"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Inget tips är tillgängligt just nu"
+
+# Osäker
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Flytta någonting på tom reservplats"
+
+#~ msgid "an empty tableau"
+#~ msgstr "ett tomt bord"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Jag är inte säker"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Ta bort essen"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Ta bort åttorna"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Ta bort femmorna"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Ta bort fyrorna"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Ta bort knektarna"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Ta bort kungarna"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Ta bort niorna"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Ta bort damerna"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Ta bort sjuorna"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Ta bort sexorna"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Ta bort tiorna"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Ta bort treorna"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Ta bort tvåorna"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Returnera korten till handen"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Överväg att flytta nåt till en tom plats"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Flytta ~a av brädet"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "Fel i programmet! make-hint anropades vid felaktigt drag."
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "Dela ett kort från kortleken"
+
+#~ msgid "an empty space"
+#~ msgstr "en tom plats"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Inget drag är möjligt. Ångra eller börja om."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Spelet har ingen lösning. Ångra eller börja om."
+
+#~ msgid "an empty reserve"
+#~ msgstr "en tom reserv"
+
+#~ msgid "an open tableau"
+#~ msgstr "ett tomt bord"
+
+#~ msgid "the foundation"
+#~ msgstr "grundhögen"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Lägg till till sekvensen i rad ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Dubbelklicka på något kort för att ge om."
+
+#~ msgid "No hint available."
+#~ msgstr "Inget tips tillgängligt."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Placera en tvåa i den vänstra platsen på rad ~a."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Placera ~a bredvid ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Tillfälligt placerade hål vid omgiv"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Flytta ett kort från reserven till den tomma bordplatsen"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Välj ett kort från reserven till den första grundhögen"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "till en tom bordplats"
+
+#~ msgid "Deal another card"
+#~ msgstr "Ge ett annat kort"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Kvar på hand: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Ge en annan hand"
+
+# Osäker
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Flytta ett kort eller en korthög till den tomma platsen"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Flytta kort från talongen"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Flytta talong tillbaka till handen"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "en tom bordplats"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Ge en nytt kort"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Kvar på hand: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Inga omgivar"
+
+#~ msgid "Single card deals"
+#~ msgstr "Givar med ett kort"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Försök flytta tillbaka kort från grundkorten"
+
+#~ msgid "Base Card:"
+#~ msgstr "Grundkort:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Försök att placera färgerna i den ordning som passar den aktuella "
+#~ "layouten bäst."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Ge nya kort från kortleken"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Återstående omgivar: ~a"
+
+#~ msgid "something"
+#~ msgstr "någonting"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Flytta ~a från handen till en tom kant eller bordplats"
+
+# Osäker
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Flytta ~a till ett tomt fält"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Placera kort på bordet så att de bildar pokerhänder"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Blandningsläge"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "en tom hög på bordet"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Ge kort"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Blanda om kort"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Flytta talong tillbaka till en reservplats"
+
+#~ msgid "empty foundation"
+#~ msgstr "tom grund"
+
+# Gissar...
+#~ msgid "Four Suits"
+#~ msgstr "Fyrfärgsspindeln"
+
+# Osäker.
+#~ msgid "One Suit"
+#~ msgstr "Enfärgsspindeln"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Placera någonting på tom plats"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Fyll den tomma högen först."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Försök flytta runt korthögar"
+
+# Osäker.
+#~ msgid "Two Suits"
+#~ msgstr "Tvåfärgsspindeln"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Tillåt temporär platsanvändning"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Flytta ett kort till en tom temporär plats"
+
+#~ msgid "No hint available"
+#~ msgstr "Inget tips tillgängligt"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "Blondiner och brunetter"
+
+#~ msgid "Falling Stars"
+#~ msgstr "Stjärnfall"
+
+#~ msgid "General Patience"
+#~ msgstr "Generalens patiens"
+
+# http://goodsol.com/pgshelp/redheads.htm
+#~ msgid "Redheads"
+#~ msgstr "Rödhåriga"
+
+#~ msgid "Signora"
+#~ msgstr "Signora"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Ge ett kort från kortleken"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Matcha de översta två korten i skräphögen."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Poängfaktor"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Progressiva omgångar"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "lämplig grundhög"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Flytta en hög med kort till den tomma bordplatsen"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "den lämpliga grundhögen"
+
+#~ msgid "Blackjack"
+#~ msgstr "Tjugoett"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Spela kasinokortspelet Tjugoett"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Visa sannolikheter"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Visa sannolikheterna för utkomsten av varje givarhand och det förväntade "
+#~ "värdet på din hand."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Ta aldrig försäkring"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Ta aldrig försäkring om givaren visar ett ess."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Mängden pengar i din bank"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Mängden pengar i din bank."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr ""
+#~ "Namnet på regelfilen som innehåller den variant på reglerna som ska "
+#~ "spelas."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Variationen på regelfilen att använda"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Använd ett snabbt giv"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Använd ett snabbt giv utan fördröjning mellan varje kort."
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Huruvida verktygsraden ska visas eller inte."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Tjugoett - %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Starta om aktuellt spel"
+
+#~ msgid "Show a hint"
+#~ msgstr "Visa tips"
+
+#~ msgid "D_eal"
+#~ msgstr "_Ge"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Ge en ny hand"
+
+#~ msgid "_Hit"
+#~ msgstr "_Dra kort"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Lägg till ett kort till handen"
+
+#~ msgid "_Stand"
+#~ msgstr "_Stanna"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Sluta lägga till kort till handen"
+
+#~ msgid "S_urrender"
+#~ msgstr "Ge _upp"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Förverka denna hand för halva din insats"
+
+#~ msgid "_Double down"
+#~ msgstr "_Dubbla"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Dubblera din insats för dragning av ett enda kort"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "_Dela handen"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Dela korten i två nya händer"
+
+#~ msgid "Show toolbar"
+#~ msgstr "Visa verktygsrad"
+
+#~ msgid "Cards left:"
+#~ msgstr "Återstående kort:"
+
+#~ msgid "Wager:"
+#~ msgstr "Insats:"
+
+#~ msgid "Balance:"
+#~ msgstr "Saldo:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Placera din insats eller ge en hand"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Tjugoettregelverk att använda"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Vill du ha försäkring?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Försäkring är en sidoinsats på 50% av den ursprungliga insatsen, som "
+#~ "gäller om givaren har en naturlig tjugoett (även kallad blackjack), och "
+#~ "som erbjuds om givarens uppvända kort är ett ess. Om givaren har en "
+#~ "naturlig tjugoett betalas spelaren dubbelt."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr ""
+#~ "Ställ in din insats och klicka i den vita ramen för att ge en ny hand."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "Ställ in din insats och klicka på korten för att ge en ny hand."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Inställningar för Tjugoett"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "_Visa sannolikheter för hand"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "Sna_bba givar (ingen fördröjning mellan varje kort)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "Ta al_drig försäkring"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "_Nollställ saldo"
+
+#~ msgid "Rules"
+#~ msgstr "Regler"
+
+#~ msgid "Decks"
+#~ msgstr "Kortlekar"
+
+# OSäker
+#~ msgid "Hit Soft 17"
+#~ msgstr "Dra mjuk 17"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Dubblera total"
+
+#~ msgid "Double 9"
+#~ msgstr "Dubblera 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "Dubblera mjuk"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Dubblera efter kortdragning"
+
+#~ msgid "Double After Split"
+#~ msgstr "Dubblera efter delning"
+
+#~ msgid "Resplit"
+#~ msgstr "Dela om"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Dela om ess"
+
+#~ msgid "Surrender"
+#~ msgstr "Ge upp"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Givarhastighet"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Klicka för att dubbla din insats"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Dubbelklicka för att öka din insats med %.2f"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Dubbelklicka för att minska din insats med %.2f"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "Klicka för att ge ett annat kort. Dra kort för att dela par"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Klicka för att ge ett annat kort"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Klicka för att sluta lägga till kort till din hand"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Klicka för att ge en ny hand"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Tjugoett kan inte läsa in den begärda filen"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Kontrollera din Tjugoett-installation"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Det bästa alternativet är att stanna"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Att stanna innebär att du slutar lägga till kort till din hand. Gör detta "
+#~ "genom att klicka på givarens kort eller genom att välja alternativet i "
+#~ "menyn Styrning."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Det bästa alternativet är att ta kort"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Att ta kort innebär att du lägger till ett annat kort till din hand. Gör "
+#~ "detta genom att klicka en gång på dina kort eller genom att välja "
+#~ "alternativet i menyn Styrning."
+
+# Osäker
+#~ msgid "The best option is to double down"
+#~ msgstr "Det bästa alternativet är att dubbla ned"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Att dubbla ned innebär att dubbla den ursprungliga insatsen och få exakt "
+#~ "ett till kort. Gör detta genom att klicka en gång på brickorna nederst i "
+#~ "fönstret eller genom att välja alternativet i menyn Styrning."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Det bästa alternativet är att dela"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Att dela innebär att dela din aktuella hand i två separata händer. Gör "
+#~ "detta genom att dra ett av dina kort och släppa det till sidan eller "
+#~ "genom att välja alternativet i menyn Styrning."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Det bästa alternativet är att ge upp"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Att ge upp innebär att ge upp halva din insats och inte färdigställa "
+#~ "handen. Gör detta genom att välja alternativet i menyn Styrning."
+
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "Tjugoett är ett kortspel av kasinotyp.\n"
+#~ "\n"
+#~ "Tjugoett är en del av GNOME Games."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Beräknar grundläggande strategi..."
+
+#~ msgid "Bust"
+#~ msgstr "Tjock"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Tjugoett!"
+
+#~ msgid "Soft"
+#~ msgstr "Mjuk"
+
+#~ msgid "Win"
+#~ msgstr "Vinst"
+
+#~ msgid "Push"
+#~ msgstr "Oavgjort"
+
+#~ msgid "Lose"
+#~ msgstr "Förlust"
+
+# Osäker.
+#~ msgid "Player expected values"
+#~ msgstr "Spelarförväntade värden"
+
+#~ msgid "Stand"
+#~ msgstr "Stanna"
+
+#~ msgid "Hit"
+#~ msgstr "Dra kort"
+
+#~ msgid "Double"
+#~ msgstr "Dubblera"
+
+#~ msgid "Split"
+#~ msgstr "Dela"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Sannolikheter för givarhanden"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Fel vid anslutning till server: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Ditt nya lösenord är %s"
+
+#~ msgid "New password"
+#~ msgstr "Nytt lösenord"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Spelare på servern: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Nuvarande rum: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Du har gått in i rummet \"%s\"."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Fel vid ingång till rum: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ Gaming Zone"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Du kan inte chatta när du inte är i ett rum."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Du har inte behörighet att chatta här."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Ingen privatchatt vid ett bord!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Den spelaren är inte i rummet!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "Ett fel uppstod vid sändning av chatt."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Du är inte vid ett bord."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Chatt misslyckades: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "Fel vid start av bord: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "Du har satt dig vid bord %d."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Fel vid ingång till bord: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "Du har blivit utsparkad från bordet av %s."
+
+#~ msgid "You have left the table."
+#~ msgstr "Du har lämnat bordet."
+
+#~ msgid "The game is over."
+#~ msgstr "Spelet är över."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "Det inträffade ett fel med spelservern."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Fel vid lämnandet av bord: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Nuvarande rum:"
+
+#~ msgid "**none**"
+#~ msgstr "**ingen**"
+
+#~ msgid "Offline"
+#~ msgstr "Frånkopplad"
+
+#~ msgid "Connecting"
+#~ msgstr "Ansluter"
+
+#~ msgid "Reconnecting"
+#~ msgstr "Återansluter"
+
+#~ msgid "Online"
+#~ msgstr "Ansluten"
+
+#~ msgid "Logging In"
+#~ msgstr "Loggar in"
+
+#~ msgid "Logged In"
+#~ msgstr "Inloggad"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Rum"
+
+#~ msgid "Chatting"
+#~ msgstr "Chattar"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Bord"
+
+#~ msgid "Playing"
+#~ msgstr "Spelar"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Bord"
+
+#~ msgid "Logging Out"
+#~ msgstr "Loggar ut"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Serverfel: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Frånkopplad från servern."
+
+# Logga in eller Inloggning?
+#~ msgid "Login"
+#~ msgstr "Inloggning"
+
+#~ msgid "That username is already in use."
+#~ msgstr "Det användarnamnet används redan."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Autentiseringen misslyckades.\n"
+#~ "Ange rätt lösenord."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Användarnamnet är för långt!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Ogiltigt användarnamn, använd inte specialtecken!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Inloggning misslyckades av okänd anledning: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "Nätverksspel"
+
+#~ msgid "Server Profile"
+#~ msgstr "Serverprofil"
+
+#~ msgid "Profile:"
+#~ msgstr "Profil:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "Redigera profiler"
+
+#~ msgid "Server:"
+#~ msgstr "Server:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User Information"
+#~ msgstr "Användarinformation"
+
+#~ msgid "Username:"
+#~ msgstr "Användarnamn:"
+
+#~ msgid "Password:"
+#~ msgstr "Lösenord:"
+
+#~ msgid "Email:"
+#~ msgstr "E-post:"
+
+#~ msgid "Authentication type"
+#~ msgstr "Autentiseringstyp"
+
+#~ msgid "Normal Login"
+#~ msgstr "Normalt konto"
+
+#~ msgid "Guest Login"
+#~ msgstr "Gästkonto"
+
+#~ msgid "First-time Login"
+#~ msgstr "Förstagångskonto"
+
+#~ msgid "Connect"
+#~ msgstr "Anslut"
+
+#~ msgid "Wizard"
+#~ msgstr "Trollkarl"
+
+# Kvinnonamn.
+#
+#~ msgid "Deity"
+#~ msgstr "Gudinna"
+
+# I brist på annat...
+#~ msgid "Sentinel"
+#~ msgstr "Vakt"
+
+# Osäker.
+#~ msgid "Captain"
+#~ msgstr "Kapten"
+
+#~ msgid "Knight"
+#~ msgstr "Riddare"
+
+#~ msgid "Angel"
+#~ msgstr "Ängel"
+
+#~ msgid "Silverlord"
+#~ msgstr "Silverlord"
+
+# I brist på annat...
+#~ msgid "Eagle"
+#~ msgstr "Örn"
+
+#~ msgid "Vampire"
+#~ msgstr "Vampyr"
+
+#~ msgid "Chief"
+#~ msgstr "Chef"
+
+#~ msgid "Colonel"
+#~ msgstr "Överste"
+
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "Major"
+#~ msgstr "Major"
+
+#~ msgid "Scout"
+#~ msgstr "Spejare"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Löjtnant"
+
+#~ msgid "Stalker"
+#~ msgstr "Förföljare"
+
+#~ msgid "Scientist"
+#~ msgstr "Forskare"
+
+#~ msgid "Scholar"
+#~ msgstr "Vetenskapsman"
+
+#~ msgid "Entity"
+#~ msgstr "Enhet"
+
+#~ msgid "Creator"
+#~ msgstr "Skapare"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ Community (snabb)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Lokal utvecklingsserver"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Det här är första gången du kör GTK+ GGZ Gaming Zone-klienten. Vill du "
+#~ "att jag skapar några standardserverprofiler?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <användare> <meddelande> . Privat meddelande till spelare"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <meddelande> ....... Meddelande till ditt bord"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <meddelande> ........ Administrationskommando"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <användarnamn> ...... Skicka signal till spelare"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... Få hjälp"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. Lista din vänner"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... Lista personer som du ignorerar"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <användare> .......... Sparka ut en spelare från rummet"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr "/gag <användare> .......... Förhindra en spelare från att prata"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <användare> ........ Tillåt en spelare att prata (motsats till /"
+#~ "gag)"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <användarnamn> ....... Bannlys en spelare från servern"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Du har mottagit ett okänt meddelande från %s."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "Du har fått en signal från %s."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Användning: /msg <användarnamn> <meddelande>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Skickar ett privat meddelande till en användare på nätverket."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Signal skickad till %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (loggade in)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (loggade av)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Chattkommandon"
+
+#~ msgid "-------------"
+#~ msgstr "--------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <åtgärd> .............. Skicka en åtgärd"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "Lade till %s till din lista över vänner."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "Tog bort %s från din lista över vänner."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "Lade till %s till din ignoreringslista."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "Tog bort %s från din ignoreringslista."
+
+#~ msgid "People currently your friends"
+#~ msgstr "Personer "
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Personer som du för närvarande ignorerar"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Flera sökträffar:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Du har inte det här spelet installerat. Du kan hämta\n"
+#~ "det från %s."
+
+#~ msgid "Launch Error"
+#~ msgstr "Startfel"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Misslyckades med att starta spelmodulen.\n"
+#~ "Starten avbröts"
+
+#~ msgid "Launched game"
+#~ msgstr "Startade spel"
+
+#~ msgid "Launch failed"
+#~ msgstr "Starten misslyckades"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Du kan endast spela ett spel åt gången."
+
+#~ msgid "Game Error"
+#~ msgstr "Spelfel"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Du är fortfarande vid ett bord."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Du måste vara i ett rum för att starta ett spel.\n"
+#~ "Starten avbröts"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Inga speltyper har definierats för den här servern.\n"
+#~ "Starten avbröts"
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Det här spelet har inte stöd för åskådare."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Du behöver starta GGZ-klienten direkt\n"
+#~ "för att kunna spela det här spelet."
+
+#~ msgid "About"
+#~ msgstr "Om"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Dagens meddelande"
+
+#~ msgid "None"
+#~ msgstr "Inga"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Rumsfiltrering är ännu inte implementerat. Om\n"
+#~ "du vill hjälpa oss med det kan du besöka\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Inte implementerat"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid "Web Address"
+#~ msgstr "Webbadress"
+
+#~ msgid "Author"
+#~ msgstr "Upphovsman"
+
+#~ msgid "Game Types"
+#~ msgstr "Speltyper"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Filter för rumslista:"
+
+#~ msgid "Set"
+#~ msgstr "Ställ in"
+
+#~ msgid "Player Information"
+#~ msgstr "Spelarinformation"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Spelaralias:"
+
+#~ msgid "Table:"
+#~ msgstr "Bord:"
+
+#~ msgid "Account:"
+#~ msgstr "Konto:"
+
+#~ msgid "Record:"
+#~ msgstr "Rekord:"
+
+#~ msgid "Rating:"
+#~ msgstr "Betyg:"
+
+#~ msgid "Rank:"
+#~ msgstr "Rank:"
+
+#~ msgid "Message:"
+#~ msgstr "Meddelande:"
+
+#~ msgid "Unknown"
+#~ msgstr "Okänd"
+
+#~ msgid "Registered"
+#~ msgstr "Registrerad"
+
+#~ msgid "Guest"
+#~ msgstr "Gäst"
+
+#~ msgid "Host"
+#~ msgstr "Värd"
+
+#~ msgid "Administrator"
+#~ msgstr "Administratör"
+
+#~ msgid "Friends"
+#~ msgstr "Vänner"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorera"
+
+#~ msgid "#%d"
+#~ msgstr "nr %d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Statistik"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Vilken klient vill du använda för att spela det här spelet?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Fråga inte igen."
+
+#~ msgid "Join"
+#~ msgstr "Gå med i"
+
+#~ msgid "Leave"
+#~ msgstr "Lämna"
+
+#~ msgid "No description available."
+#~ msgstr "Ingen beskrivning tillgänglig."
+
+#~ msgid "Seats"
+#~ msgstr "Platser"
+
+#~ msgid "Room Information"
+#~ msgstr "Rumsinformation"
+
+#~ msgid "Game Name:"
+#~ msgstr "Spelnamn:"
+
+#~ msgid "Author:"
+#~ msgstr "Upphovsman:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Webbsida:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Rumsbeskrivning:"
+
+#~ msgid "This room has no game"
+#~ msgstr "Det här rummet har inget spel"
+
+#~ msgid "Unknown room"
+#~ msgstr "Okänt rum"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "Du kan inte gå in i ett rum; du är inte inloggad"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Du är redan mellan olika rum"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Du kan inte byta rum när du spelar ett spel"
+
+#~ msgid "Unknown error"
+#~ msgstr "Okänt fel"
+
+#~ msgid "Error joining room"
+#~ msgstr "Fel vid ingång till rum"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Övriga rum"
+
+#~ msgid "Room"
+#~ msgstr "Rum"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Speltyp: %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Upphovsman:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Beskrivning:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Webbplats:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Misslyckades med att starta bordet.\n"
+#~ "Starten avbröts."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Ogiltigt antal botar angivna"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Fel vid start av spelmodul."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Platstilldelningar"
+
+#~ msgid "Game Type:"
+#~ msgstr "Speltyp:"
+
+#~ msgid "Number of seats"
+#~ msgstr "Antal platser"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrivning:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Plats %d:"
+
+#~ msgid "Computer"
+#~ msgstr "Dator"
+
+#~ msgid "Open"
+#~ msgstr "Öppna"
+
+#~ msgid "Reserved for"
+#~ msgstr "Reserverat för"
+
+#~ msgid "Game Description   "
+#~ msgstr "Spelbeskrivning   "
+
+#~ msgid "Launch"
+#~ msgstr "Starta"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Är du säker på att du vill avsluta?"
+
+#~ msgid "Quit?"
+#~ msgstr "Avsluta?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Serverstatistik har ännu inte implementerats. Om\n"
+#~ "du vill hjälpa oss med att göra det kan du besöka\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Spelarstatistik har ännu inte implementerats. Om\n"
+#~ "du vill hjälpa oss med att göra det kan du besöka\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Du måste markera ett bord innan du kan sitta ner vid det."
+
+#~ msgid "Error Joining"
+#~ msgstr "Fel vid ingång"
+
+#~ msgid "That table is full."
+#~ msgstr "Det bordet är fullt."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Du måste markera ett bord innan du kan se det."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Fel vid åskådning"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Misslyckades med att gå med i bord.\n"
+#~ "Ingång avbröts."
+
+#~ msgid "Join Error"
+#~ msgstr "Ingångsfel"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Koppla från GGZ Gaming Zone-servern"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Börja spela ett spel på ett nytt bord"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Gå med i ett befintligt spel"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Beskåda ett befintligt spel - bli en åskådare vid bordet"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Lämna spelet som du för närvarande spelar"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "Visa egenskapsdialogen för att ändra klientinställningar"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "Visa spelstatistik för det aktuella rummets speltyp"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Avsluta GGZ-klientprogrammet."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Byggd för felsökning."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Koppla från"
+
+#~ msgid "Quit"
+#~ msgstr "Avsluta"
+
+#~ msgid "Watch"
+#~ msgstr "Beskåda"
+
+#~ msgid "Edit"
+#~ msgstr "Redigera"
+
+#~ msgid "Properties"
+#~ msgstr "Egenskaper"
+
+#~ msgid "View"
+#~ msgstr "Visa"
+
+#~ msgid "Room List"
+#~ msgstr "Rumslista"
+
+#~ msgid "Server Stats"
+#~ msgstr "Serverstatistik"
+
+#~ msgid "Player Stats"
+#~ msgstr "Spelarstatistik"
+
+#~ msgid "MOTD"
+#~ msgstr "Dagens meddelande"
+
+#~ msgid "Help"
+#~ msgstr "Hjälp"
+
+#~ msgid "Contents"
+#~ msgstr "Innehåll"
+
+#~ msgid "Send"
+#~ msgstr "Skicka"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Egenskaper uppdaterade"
+
+#~ msgid "Confirm:"
+#~ msgstr "Bekräfta:"
+
+#~ msgid "Modify"
+#~ msgstr "Ändra"
+
+#~ msgid "Servers"
+#~ msgstr "Servrar"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Typsnitt för chatt:"
+
+#~ msgid "Change"
+#~ msgstr "Ändra"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Ignorera meddelanden för gå in/lämna"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Spela upp ljud"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Dra automatiskt in"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Tidsstämpla chattar"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Ordbrytning"
+
+#~ msgid "Chat Color"
+#~ msgstr "Chattfärg"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Standardchattfärg tilldelad till dina vänner"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "Chattfärg som används när ditt namn skrivs"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Chattfärg som används för alla andra chattar"
+
+#~ msgid "Normal Color"
+#~ msgstr "Normal färg"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Färg för färgmarkering"
+
+#~ msgid "Friend Color"
+#~ msgstr "Färg för vänner"
+
+#~ msgid "Black Background"
+#~ msgstr "Svart bakgrund"
+
+#~ msgid "White Background"
+#~ msgstr "Vit bakgrund"
+
+# Osäker.
+#~ msgid "Chat"
+#~ msgstr "Chatt"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "All följande information är valfri."
+
+#~ msgid "Name:"
+#~ msgstr "Namn:"
+
+#~ msgid "City:"
+#~ msgstr "Stad:"
+
+#~ msgid "State:"
+#~ msgstr "Län/Region:"
+
+#~ msgid "Country:"
+#~ msgstr "Land:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Kommentarer, hobby, etc."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Gå in i rum med ett enda klick"
+
+#~ msgid "Display All"
+#~ msgstr "Visa alla"
+
+#~ msgid "Display New"
+#~ msgstr "Visa nya"
+
+#~ msgid "Display Important"
+#~ msgstr "Visa viktig"
+
+#~ msgid "Display None"
+#~ msgstr "Visa ingen"
+
+#~ msgid "Options"
+#~ msgstr "Alternativ"
+
+#~ msgid "Select Font"
+#~ msgstr "Välj typsnitt"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: flaggan \"%s\" är tvetydig\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan \"--%s\" tillåter inte ett argument\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan \"%c%s\" tillåter inte ett argument\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: flaggan \"%s\" kräver ett argument\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: okänd flagga \"--%s\"\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: okänd flagga \"%c%s\"\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: felaktig flagga -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: ogiltig flagga -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: flaggan kräver ett argument -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: flaggan \"-W %s\" är tvetydig\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan \"-W %s\" tillåter inte ett argument\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "En flagga för att tillåta fjärrspelare kan se nya spel"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "En flagga för att aktivera 3D-läget"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "En flagga för att aktivera brädnumrering"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "En flagga för att aktivera helskärmsläge"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "En flagga för att aktivera maximerat läge"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "En flagga för att aktivera dragtips"
+
+#~ msgid "A flag to enable network game support"
+#~ msgstr "En flagga för att aktivera stöd för nätverksspel"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "En flagga för att aktivera flytta historikbläddraren"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "En flagga för att aktivera verktygsraden"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "En flagga för att visa förflyttningskommentarer"
+
+#~ msgid "A flag to smooth (anti-alias) the 3D display"
+#~ msgstr "En flagga för att mjuka upp (kantutjämning) 3D-visningen"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Mängden tid som varje spelare har för att komma in i nya spel"
+
+#~ msgid "The board side to display"
+#~ msgstr "Brädsidan att visa"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "Svarta standardspelarens svårighetsgrad i nya spel"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "Vita standardspelarens svårighetsgrad i nya spel"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "Standardspelartypen för svart i nya spel"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "Standardspelartypen för vitt i nya spel"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "Katalogen där dialogen Läs in spel öppnas i"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "Katalogen där dialogen Spara spel öppnas i"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Formatet att visa drag i"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "Formatet att visa drag i, kan vara antingen \"human\" (mänskligt "
+#~ "läsbart), \"lan\" (lång algebraisk notation) eller \"san\" (standard "
+#~ "algebraisk notation)"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Höjden på huvudfönstret i bildpunkter."
+
+#~ msgid "The height of the window"
+#~ msgstr "Höjden på fönstret"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "Pjäsen att ersätta bönder med"
+
+# vet inte om dessa ska översättas
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr ""
+#~ "Pjäsen att ersätta bönder med när en mänsklig spelare flyttar en bonde "
+#~ "till motsatt sida. Kan vara en av: \"queen\", \"knight\", \"rook\", "
+#~ "\"bishop\"."
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player) or 'human' (the side of the current human "
+#~ "player)"
+#~ msgstr ""
+#~ "Sidan är brädet som är i förgrunden, antingen \"white\", \"black\", "
+#~ "\"current\" (den aktuella spelaren) eller \"human\" (sidan för den "
+#~ "aktuella mänskliga spelaren)"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Bredden på huvudfönstret i bildpunkter."
+
+#~ msgid "The width of the window"
+#~ msgstr "Bredden på fönstret"
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Spara schackparti"
+
+#~ msgid "Communication:"
+#~ msgstr "Kommunikation:"
+
+#~ msgid "Executable:"
+#~ msgstr "Körbar fil:"
+
+#~ msgid "Playing as:"
+#~ msgstr "Spelar som:"
+
+#~ msgid "<b>Game</b>"
+#~ msgstr "<b>Spel</b>"
+
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "<b>Rum</b>"
+
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>Server</b>"
+
+#~ msgid "<b>Status/_Chat</b>"
+#~ msgstr "<b>Status/_Chatt</b>"
+
+#~ msgid "Add Account"
+#~ msgstr "Lägg till konto"
+
+#~ msgid "Join Game"
+#~ msgstr "Gå med i spel"
+
+#~ msgid "User _Name:"
+#~ msgstr "Anv_ändarnamn:"
+
+#~ msgid "_Add Account"
+#~ msgstr "_Lägg till konto"
+
+#~ msgid "_Host:"
+#~ msgstr "_Värd:"
+
+#~ msgid "_Join"
+#~ msgstr "_Gå med i"
+
+#~ msgid "_Leave"
+#~ msgstr "_Lämna"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#~ msgid "_Server:"
+#~ msgstr "_Server:"
+
+#~ msgid "3_D Chess View"
+#~ msgstr "3_D-schackvy"
+
+#~ msgid "Board Orientation:"
+#~ msgstr "Brädorientering:"
+
+#~ msgid "Move Format:"
+#~ msgstr "Dragformat:"
+
+#~ msgid "Preferences"
+#~ msgstr "Inställningar"
+
+#~ msgid "Promotion Type:"
+#~ msgstr "Promoveringstyp:"
+
+#~ msgid "Show _History"
+#~ msgstr "Visa _historik"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Visa _verktygsrad"
+
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "Visa eller dölj numrering av schackbrädet"
+
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "Visa eller dölj spelets historikpanel"
+
+#~ msgid "Shows hints during chess games"
+#~ msgstr "Visar tips under schackspel"
+
+#~ msgid "Smooth edges of the 3D elements (anti-alias)"
+#~ msgstr "Mjuka kanter för 3D-element (kantutjämning)"
+
+#~ msgid ""
+#~ "View the chess board by default in 2D mode, or optionally in 3D mode "
+#~ "using OpenGL."
+#~ msgstr ""
+#~ "Visa schackbrädet i 2D-läge som standard, eller valfritt i 3D-läge med "
+#~ "OpenGL."
+
+#~ msgid "_Board Numbering"
+#~ msgstr "Bräd_numrering"
+
+#~ msgid "_Move Hints"
+#~ msgstr "Drag_tips"
+
+#~ msgid "_Smooth Display"
+#~ msgstr "_Mjuk visning"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Läs in schackparti"
+
+#~ msgid "Claim _Draw"
+#~ msgstr "Begär _remi"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "Lämna _helskärmsläge"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Läs in ett sparat spel"
+
+#~ msgid "Logs"
+#~ msgstr "Loggar"
+
+#~ msgid "Resign"
+#~ msgstr "Lämna spelet"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Gå tillbaka till spelstarten"
+
+#~ msgid "Save the current game"
+#~ msgstr "Spara aktuellt spel"
+
+#~ msgid "Show _Logs"
+#~ msgstr "Visa _loggar"
+
+#~ msgid "Show the current move"
+#~ msgstr "Visa aktuellt drag"
+
+#~ msgid "Show the next move"
+#~ msgstr "Visa nästa drag"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Visa föregående drag"
+
+#~ msgid "There are no active logs."
+#~ msgstr "Det finns inga aktiva loggar."
+
+#~ msgid "Undo Move"
+#~ msgstr "Ångra drag"
+
+#~ msgid "_Resign"
+#~ msgstr "_Lämna spelet"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Svårighetsgrad</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Spelegenskaper</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Spelare</b>"
+
+#~ msgid "B_lack:"
+#~ msgstr "S_vart:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "Ange titeln för det här spelet"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Tid för _drag:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr "Starta spelet. Spelet kan startas när alla fält är kompletta"
+
+#~ msgid "W_hite:"
+#~ msgstr "V_it:"
+
+#~ msgid "_Black:"
+#~ msgstr "_Svart:"
+
+#~ msgid "_Game name:"
+#~ msgstr "_Spelnamn:"
+
+#~ msgid "_Start"
+#~ msgstr "_Starta"
+
+#~ msgid "_White:"
+#~ msgstr "_Vit:"
+
+#~ msgid "Chess"
+#~ msgstr "Schack"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "Spela det klassiska tvåmanna brädspelet Schack"
+
+#~ msgid "Chess incorrectly installed"
+#~ msgstr "Schack är inte korrekt installerat"
+
+#~ msgid ""
+#~ "Chess is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Schack kan inte startas därför att nödvändiga programfiler inte är "
+#~ "installerade. Om du för närvarande uppgraderar ditt system bör du vänta "
+#~ "till uppgraderingen är färdig."
+
+#~ msgid "Unlimited"
+#~ msgstr "Obegränsat"
+
+#~ msgid "One minute"
+#~ msgstr "En minut"
+
+#~ msgid "Five minutes"
+#~ msgstr "Fem minuter"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minuter"
+
+#~ msgid "One hour"
+#~ msgstr "En timme"
+
+#~ msgid "Custom"
+#~ msgstr "Egen"
+
+#~ msgid "seconds"
+#~ msgstr "sekunder"
+
+#~ msgid "minutes"
+#~ msgstr "minuter"
+
+#~ msgid "hours"
+#~ msgstr "timmar"
+
+#~ msgid "Easy"
+#~ msgstr "Lätt"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Hard"
+#~ msgstr "Svårt"
+
+#~ msgid "Unable to find %s engine"
+#~ msgstr "Kunde inte hitta %s-motorn"
+
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Konfigurera inläst spel (%i drag)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "Spelinställningarna ändrade"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s mot %(black)s"
+
+#~ msgid "White"
+#~ msgstr "Vit"
+
+#~ msgid "Black"
+#~ msgstr "Svart"
+
+#~ msgid "PGN files"
+#~ msgstr "PGN-filer"
+
+#~ msgid "All files"
+#~ msgstr "Alla filer"
+
+#~ msgid "Please select a file to load"
+#~ msgstr "Välj en fil att läsa in"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "Kunde inte läsa in spel"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "Ange ett filnamn"
+
+#~ msgid "Unabled to save game"
+#~ msgstr "Kunde inte spara spel"
+
+#~ msgid "Human"
+#~ msgstr "Mänsklig"
+
+#~ msgid "Standard Algebraic"
+#~ msgstr "Standardnotation"
+
+#~ msgid "Figurine"
+#~ msgstr "Figurin"
+
+#~ msgid "Long Algebraic"
+#~ msgstr "Lång notation"
+
+#~ msgid "White Side"
+#~ msgstr "Vit sida"
+
+#~ msgid "Black Side"
+#~ msgstr "Svart sida"
+
+#~ msgid "Human Side"
+#~ msgstr "Mänsklig sida"
+
+#~ msgid "Current Player"
+#~ msgstr "Aktuell spelare"
+
+#~ msgid "chess-piece|Queen"
+#~ msgstr "Dam"
+
+#~ msgid "chess-piece|Knight"
+#~ msgstr "Springare"
+
+#~ msgid "chess-piece|Rook"
+#~ msgstr "Torn"
+
+#~ msgid "chess-piece|Bishop"
+#~ msgstr "Löpare"
+
+#~ msgid "Chess - *%(game_name)s"
+#~ msgstr "Schack - *%(game_name)s"
+
+#~ msgid "Chess - %(game_name)s"
+#~ msgstr "Schack - %(game_name)s"
+
+#~ msgid "∞"
+#~ msgstr "∞"
+
+#~ msgid "If you don't save the changes to this game will be permanently lost"
+#~ msgstr ""
+#~ "Om du inte sparar ändringarna för detta spel så kommer de att gå förlorade"
+
+#~ msgid "Close _without saving"
+#~ msgstr "Stäng _utan att spara"
+
+#~ msgid "Unable to enable 3D mode"
+#~ msgstr "Kan inte aktivera 3D-läget"
+
+#~ msgid ""
+#~ "You are unable to play in 3D mode due to the following problems:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Please contact your system administrator to resolve these problems, until "
+#~ "then you will be able to play chess in 2D mode."
+#~ msgstr ""
+#~ "Du kan inte spela i 3D-läget på grund av följande problem:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Kontakta din systemadministratör för att lösa dessa problem. Tills dess "
+#~ "kommer du att kunna spela schack i 2D-läget."
+
+#~ msgid "Unable to claim draw"
+#~ msgstr "Kunde inte kräva remi"
+
+#~ msgid ""
+#~ "You may claim a draw when:\n"
+#~ "a) The board has been in the same state three times (Three fold "
+#~ "repetition)\n"
+#~ "b) Fifty moves have occured where no pawn has moved and no piece has been "
+#~ "captured (50 move rule)"
+#~ msgstr ""
+#~ "Du kan kräva remi när:\n"
+#~ "a) Brädet har samma ställning i tre eller fler gånger (trefaldig "
+#~ "upprepning)\n"
+#~ "b) Femtio drag har genomförts där ingen bonde har flyttats och ingen pjäs "
+#~ "har slagits (50-dragsregeln)"
+
+#~ msgid "Unable to display help: %s"
+#~ msgstr "Kunde inte visa hjälpen: %s"
+
+#~ msgid "No Python OpenGL support"
+#~ msgstr "Inget Python OpenGL-stöd"
+
+#~ msgid "No Python GTKGLExt support"
+#~ msgstr "Inget Python GTKGLExt-stöd"
+
+#~ msgid "OpenGL libraries do not support required display mode"
+#~ msgstr "OpenGL-biblioteken saknar stöd för det begärda visningsläget"
+
+#~ msgid "Game Start"
+#~ msgstr "Spelstart"
+
+#~ msgid "No comment"
+#~ msgstr "Ingen kommentar"
+
+#~ msgid "White castles long"
+#~ msgstr "Vit gör en lång rockad"
+
+#~ msgid "Black castles long"
+#~ msgstr "Svart gör en lång rockad"
+
+#~ msgid "White castles short"
+#~ msgstr "Vit gör en kort rockad"
+
+#~ msgid "Black castles short"
+#~ msgstr "Svart gör en kort rockad"
+
+#~ msgid "White pawn moves from %(start)s to %(end)s"
+#~ msgstr "Vit bonde flyttar från %(start)s till %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Vit bonde på %(start)s slår svart bonde på %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Vit bonde på %(start)s slår svart torn på %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Vit bonde på %(start)s slår svart springare på %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Vit bonde på %(start)s slår svart löpare på %(end)s"
+
+#~ msgid "White pawn at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Vit bonde på %(start)s slår svart dam på %(end)s"
+
+#~ msgid "White rook moves from %(start)s to %(end)s"
+#~ msgstr "Vitt torn flyttar från %(start)s till %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Vitt torn på %(start)s slår svart bonde på %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Vitt torn på %(start)s slår svart torn på %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Vitt torn på %(start)s slår svart springare på %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Vitt torn på %(start)s slår svart löpare på %(end)s"
+
+#~ msgid "White rook at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Vitt torn på %(start)s slår svart dam på %(end)s"
+
+#~ msgid "White knight moves from %(start)s to %(end)s"
+#~ msgstr "Vit springare flyttar från %(start)s till %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Vit springare på %(start)s slår svart bonde på %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Vit springare på %(start)s slår svart torn på %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Vit springare på %(start)s slår svart springare på %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Vit springare på %(start)s slår svart löpare på %(end)s"
+
+#~ msgid "White knight at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Vit springare på %(start)s slår svart dam på %(end)s"
+
+#~ msgid "White bishop moves from %(start)s to %(end)s"
+#~ msgstr "Vit löpare flyttar från %(start)s till %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Vit löpare på %(start)s slår svart bonde på %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Vit löpare på %(start)s slår svart torn på %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Vit löpare på %(start)s slår svart springare på %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Vit löpare på %(start)s slår svart löpare på %(end)s"
+
+#~ msgid "White bishop at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Vit löpare på %(start)s slår svart dam på %(end)s"
+
+#~ msgid "White queen moves from %(start)s to %(end)s"
+#~ msgstr "Vit dam flyttar från %(start)s till %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Vit dam på %(start)s slår svart bonde på %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Vit dam på %(start)s slår svart torn på %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Vit dam på %(start)s slår svart springare på %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Vit dam på %(start)s slår svart löpare på %(end)s"
+
+#~ msgid "White queen at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Vit dam på %(start)s slår svart dam på %(end)s"
+
+#~ msgid "White king moves from %(start)s to %(end)s"
+#~ msgstr "Vit kung flyttar från %(start)s till %(end)s"
+
+#~ msgid "White king at %(start)s takes the black pawn at %(end)s"
+#~ msgstr "Vit kung på %(start)s slår svart bonde på %(end)s"
+
+#~ msgid "White king at %(start)s takes the black rook at %(end)s"
+#~ msgstr "Vit kung på %(start)s slår svart torn på %(end)s"
+
+#~ msgid "White king at %(start)s takes the black knight at %(end)s"
+#~ msgstr "Vit kung på %(start)s slår svart springare på %(end)s"
+
+#~ msgid "White king at %(start)s takes the black bishop at %(end)s"
+#~ msgstr "Vit kung på %(start)s slår svart löpare på %(end)s"
+
+#~ msgid "White king at %(start)s takes the black queen at %(end)s"
+#~ msgstr "Vit kung på %(start)s slår svart dam på %(end)s"
+
+#~ msgid "Black pawn moves from %(start)s to %(end)s"
+#~ msgstr "Svart bonde flyttar från %(start)s till %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Svart bonde på %(start)s slår vit bonde på %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Svart bonde på %(start)s slår vitt torn på %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Svart bonde på %(start)s slår vit springare på %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Svart bonde på %(start)s slår vit löpare på %(end)s"
+
+#~ msgid "Black pawn at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Svart bonde på %(start)s slår vit dam på %(end)s"
+
+#~ msgid "Black rook moves from %(start)s to %(end)s"
+#~ msgstr "Svart torn flyttar från %(start)s till %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Svart torn på %(start)s slår vit bonde på %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Svart torn på %(start)s slår vitt torn på %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Svart torn på %(start)s slår vit springare på %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Svart torn på %(start)s slår vit löpare på %(end)s"
+
+#~ msgid "Black rook at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Svart torn på %(start)s slår vit dam på %(end)s"
+
+#~ msgid "Black knight moves from %(start)s to %(end)s"
+#~ msgstr "Svart springare flyttar från %(start)s till %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Svart springare på %(start)s slår vit bonde på %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Svart springare på %(start)s slår vitt torn på %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Svart springare på %(start)s slår vit springare på %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Svart springare på %(start)s slår vit löpare på %(end)s"
+
+#~ msgid "Black knight at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Svart springare på %(start)s slår vit dam på %(end)s"
+
+#~ msgid "Black bishop moves from %(start)s to %(end)s"
+#~ msgstr "Svart löpare flyttar från %(start)s till %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Svart löpare på %(start)s slår vit bonde på %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Svart löpare på %(start)s slår vitt torn på %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Svart löpare på %(start)s slår vit springare på %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Svart löpare på %(start)s slår vit löpare på %(end)s"
+
+#~ msgid "Black bishop at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Svart löpare på %(start)s slår vit dam på %(end)s"
+
+#~ msgid "Black queen moves from %(start)s to %(end)s"
+#~ msgstr "Svart dam flyttar från %(start)s till %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Svart dam på %(start)s slår vit bonde på %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Svart dam på %(start)s slår vitt torn på %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Svart dam på %(start)s slår vit springare på %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Svart dam på %(start)s slår vit löpare på %(end)s"
+
+#~ msgid "Black queen at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Svart dam på %(start)s slår vit dam på %(end)s"
+
+#~ msgid "Black king moves from %(start)s to %(end)s"
+#~ msgstr "Svart kung flyttar från %(start)s till %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white pawn at %(end)s"
+#~ msgstr "Svart kung på %(start)s slår vit bonde på %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white rook at %(end)s"
+#~ msgstr "Svart kung på %(start)s slår vitt torn på %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white knight at %(end)s"
+#~ msgstr "Svart kung på %(start)s slår vit springare på %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white bishop at %(end)s"
+#~ msgstr "Svart kung på %(start)s slår vit löpare på %(end)s"
+
+#~ msgid "Black king at %(start)s takes the white queen at %(end)s"
+#~ msgstr "Svart kung på %(start)s slår vit dam på %(end)s"
+
+#~ msgid "%(movenum)2iw. %(description)s (Check)"
+#~ msgstr "%(movenum)2iw. %(description)s (Schack)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2iw. %(description)s (Schackmatt)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2iw. %(description)s (Patt)"
+
+#~ msgid "%(movenum)2iw. %(description)s"
+#~ msgstr "%(movenum)2iw. %(description)s"
+
+#~ msgid "%(movenum)2ib. %(description)s (Check)"
+#~ msgstr "%(movenum)2ib. %(description)s (Schack)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2ib. %(description)s (Schackmatt)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2ib. %(description)s (Patt)"
+
+#~ msgid "%(movenum)2ib. %(description)s"
+#~ msgstr "%(movenum)2ib. %(description)s"
+
+#~ msgid "%s wins"
+#~ msgstr "%s vinner"
+
+#~ msgid "Game is drawn"
+#~ msgstr "Spelet är oavgjort"
+
+#~ msgid "Opponent is in check and cannot move (checkmate)"
+#~ msgstr "Motståndaren står i schack och kan inte flytta (schackmatt)"
+
+#~ msgid "Opponent cannot move (stalemate)"
+#~ msgstr "Motståndaren kan inte flytta (remi)"
+
+#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
+#~ msgstr ""
+#~ "50 drag i rad har spelats utan att en pjäs slagits eller en bonde flyttats"
+
+#~ msgid "Opponent has run out of time"
+#~ msgstr "Motståndaren har slut på tid"
+
+#~ msgid "The same board state has occured three times (three fold repetition)"
+#~ msgstr ""
+#~ "Exakt samma ställning har uppkommit tre gånger (trefaldig upprepning)"
+
+#~ msgid "Neither player can cause checkmate (insufficient material)"
+#~ msgstr ""
+#~ "Ingen av spelarna har tillräckligt med pjäser för att kunna åstadkomma "
+#~ "schackmatt"
+
+#~ msgid "The black player has resigned"
+#~ msgstr "Svart spelare har lämnat spelet"
+
+#~ msgid "The white player has resigned"
+#~ msgstr "Vit spelare har lämnat spelet"
+
+#~ msgid "The game has been abandoned"
+#~ msgstr "Spelet har övergivits"
+
+#~ msgid "One of the players has died"
+#~ msgstr "En av spelarna har dött"
+
+#~ msgid "Disconnected"
+#~ msgstr "Frånkopplad"
+
+#~ msgid "New profile..."
+#~ msgstr "Ny profil..."
+
+#~ msgid "Table"
+#~ msgstr "Bord"
+
+#~ msgid "Seat"
+#~ msgstr "Plats"
+
+#~ msgid "Player"
+#~ msgstr "Spelare"
+
+#~ msgid "Reserved for %s"
+#~ msgstr "Reserverat för %s"
+
+#~ msgid "Seat empty"
+#~ msgstr "Tom plats"
+
+#~ msgid "AI (%s)"
+#~ msgstr "AI (%s)"
+
+#~ msgid "chess-file|a"
+#~ msgstr "a"
+
+#~ msgid "chess-file|b"
+#~ msgstr "b"
+
+#~ msgid "chess-file|c"
+#~ msgstr "c"
+
+#~ msgid "chess-file|d"
+#~ msgstr "d"
+
+#~ msgid "chess-file|e"
+#~ msgstr "e"
+
+#~ msgid "chess-file|f"
+#~ msgstr "f"
+
+#~ msgid "chess-file|g"
+#~ msgstr "g"
+
+#~ msgid "chess-file|h"
+#~ msgstr "h"
+
+#~ msgid "chess-rank|1"
+#~ msgstr "1"
+
+#~ msgid "chess-rank|2"
+#~ msgstr "2"
+
+#~ msgid "chess-rank|3"
+#~ msgstr "3"
+
+#~ msgid "chess-rank|4"
+#~ msgstr "4"
+
+#~ msgid "chess-rank|5"
+#~ msgstr "5"
+
+#~ msgid "chess-rank|6"
+#~ msgstr "6"
+
+#~ msgid "chess-rank|7"
+#~ msgstr "7"
+
+#~ msgid "chess-rank|8"
+#~ msgstr "8"
+
+#~ msgid "chess-notation|P"
+#~ msgstr "B"
+
+#~ msgid "chess-notation|N"
+#~ msgstr "S"
+
+#~ msgid "chess-notation|B"
+#~ msgstr "L"
+
+#~ msgid "chess-notation|R"
+#~ msgstr "T"
+
+#~ msgid "chess-notation|Q"
+#~ msgstr "D"
+
+#~ msgid "chess-notation|K"
+#~ msgstr "K"
+
+#~ msgid "'%(name)s' in '%(game)s'"
+#~ msgstr "\"%(name)s\" i \"%(game)s\""
+
+#~ msgid "Application Log"
+#~ msgstr "Programlogg"
+
+#~ msgid "Usage: %s [game]"
+#~ msgstr "Användning: %s [spel]"
+
+#~ msgid "Human versus %s"
+#~ msgstr "Mänsklig spelare mot %s"
+
+#~ msgid ""
+#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org\n"
+#~ "Debug output:"
+#~ msgstr ""
+#~ "glChess har kraschat. Rapportera det här som ett fel på http://bugzilla."
+#~ "gnome.org\n"
+#~ "Felsökningsdata:"
+
+#~ msgid "Save game before closing?"
+#~ msgstr "Spara spelet innan stängning?"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
+#~ msgstr "Copyright 2005-2008 Robert Ancell (och bidragsgivare)"
+
+#~ msgid ""
+#~ "The 2D/3D chess game for GNOME. \n"
+#~ "\n"
+#~ "glChess is a part of GNOME Games."
+#~ msgstr ""
+#~ "Ett 2D/3D-schackspel för GNOME.\n"
+#~ "\n"
+#~ "glChess är en del av GNOME Games."
+
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%s är fri programvara. Du kan distribuera det och/eller modifiera det "
+#~ "under villkoren i GNU General Public License, publicerad av Free Software "
+#~ "Foundation, antingen version 2 eller (om du så vill) någon senare version."
+
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "Kunde inte skapa datakatalogen %(dir)s: %(error)s"
+
+#~ msgid "Incorrect password"
+#~ msgstr "Felaktigt lösenord"
+
+#~ msgid "Account in use"
+#~ msgstr "Kontot används redan"
+
+#~ msgid "Connection closed: %s"
+#~ msgstr "Anslutningen stängdes: %s"
+
+#~ msgid "A password is required"
+#~ msgstr "Ett lösenordet krävs"
+
+#~ msgid "Disconnected from server"
+#~ msgstr "Frånkopplad från servern"
+
+#~ msgid "No description"
+#~ msgstr "Ingen beskrivning"
+
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "Liten"
+
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "Mellan"
+
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Kunde inte läsa in tema"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Kan inte lokalisera filen:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Standardtemat kommer att läsas in istället."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Kan inte lokalisera filen:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kontrollera att Fem eller mer är korrekt installerat."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "Matcha fem objekt på rad av samma typ för att få poäng!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME Fem eller mer"
+
+#~ msgid "_Board size:"
+#~ msgstr "_Brädstorlek:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Spelet är slut!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Du kan inte flytta dit!"
+
+#~ msgid "Five or More"
+#~ msgstr "Fem eller mer"
+
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME-portering av det en gång populära färglinjespelet.\n"
+#~ "Fem eller mer är en del av GNOME Games."
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Inställningar för Fem eller mer"
+
+#~ msgid "Themes"
+#~ msgstr "Teman"
+
+#~ msgid "_Image:"
+#~ msgstr "_Bild:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "B_akgrundsfärg:"
+
+#~ msgid "Board Size"
+#~ msgstr "Brädstorlek"
+
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "_Använd snabba drag"
+
+#~ msgid "Next:"
+#~ msgstr "Nästa:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Ta bort färgade bollar från brädet genom att skapa linjer"
+
+#~ msgid "Background color"
+#~ msgstr "Bakgrundsfärg"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "Bakgrundsfärg. Hexadecimal specifikation av bakgrundsfärgen."
+
+#~ msgid "Ball style"
+#~ msgstr "Bollstil"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Bollstil. Filnamnet för bilderna som ska användas för bollarna."
+
+#~ msgid "Game field"
+#~ msgstr "Spelfält"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Spelfält från den senast sparade sessionen."
+
+#~ msgid "Game preview"
+#~ msgstr "Spelförhandsvisning"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Spelförhandsvisning från den senast sparade sessionen."
+
+#~ msgid "Game score"
+#~ msgstr "Spelpoäng"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Spelpoäng från den senast sparade sessionen."
+
+#~ msgid "Playing field size"
+#~ msgstr "Storlek på spelfältet"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Storlek på spelfältet. 1=litet, 2=mellan, 3=stort. Alla andra värden är "
+#~ "ogiltiga."
+
+#~ msgid "Time between moves"
+#~ msgstr "Tid mellan drag"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Tid mellan drag i millisekunder."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "Fyra-i-rad"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "Skapa rader med samma färg för att vinna"
+
+#~ msgid "Connect four tiles in a row"
+#~ msgstr "Lägg fyra brickor i rad"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "Ett tal som anger det tema som föredras."
+
+#~ msgid "Animate"
+#~ msgstr "Animera"
+
+#~ msgid "Drop marble"
+#~ msgstr "Släpp kula"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "Tangenttryck för att släppa en kula."
+
+#~ msgid "Level of Player One"
+#~ msgstr "Nivå för spelare ett"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Nivå för spelare två"
+
+#~ msgid "Theme ID"
+#~ msgstr "Tema-id"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Huruvida animationer ska användas eller inte."
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr "Noll är mänsklig, ett till tre motsvarar nivån för datorspelaren."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kan inte läsa in bild:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "Ett nätverksfel har inträffat."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Väntar på att en motståndare ska ansluta till spelet."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Välkommen till ett nätverksspel av %s."
+
+#~ msgid "It's a draw!"
+#~ msgstr "Det är oavgjort!"
+
+#~ msgid "You win!"
+#~ msgstr "Du vinner!"
+
+#~ msgid "It is your move."
+#~ msgstr "Det är ditt drag."
+
+#~ msgid "I win!"
+#~ msgstr "Jag vinner!"
+
+#~ msgid "Thinking..."
+#~ msgstr "Tänker..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s vinner!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "Väntar på att %s ska flytta."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "Tips: Kolumn %d"
+
+#~ msgid "You:"
+#~ msgstr "Du:"
+
+#~ msgid "Me:"
+#~ msgstr "Jag:"
+
+#~ msgid "Scores"
+#~ msgstr "Poäng"
+
+#~ msgid "Drawn:"
+#~ msgstr "Oavgjort:"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "\"Fyra i rad\" för GNOME, med en datorspelare som drivs av Giuliano "
+#~ "Bertolettis Velena-motor.\n"
+#~ "\n"
+#~ "\"Fyra i rad\" är en del av GNOME Games."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Spelare ett:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr "Spelare två: %s"
+
+#~ msgid "Level one"
+#~ msgstr "Nivå ett"
+
+#~ msgid "Level two"
+#~ msgstr "Nivå två"
+
+#~ msgid "Level three"
+#~ msgstr "Nivå tre"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Inställningar för fyra-i-rad"
+
+#~ msgid "Appearance"
+#~ msgstr "Utseende"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Aktivera _animation"
+
+#~ msgid "E_nable sounds"
+#~ msgstr "Ak_tivera ljud"
+
+#~ msgid "Classic"
+#~ msgstr "Klassiskt"
+
+#~ msgid "Red"
+#~ msgstr "Röd"
+
+#~ msgid "Yellow"
+#~ msgstr "Gul"
+
+#~ msgid "High Contrast"
+#~ msgstr "Hög kontrast"
+
+#~ msgid "Light"
+#~ msgstr "Ljus"
+
+#~ msgid "Dark"
+#~ msgstr "Mörk"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Hög kontrast inverterat"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "Gräddfärgade kulor"
+
+#~ msgid "Blue"
+#~ msgstr "Blå"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Glaskulor"
+
+# Osäker.
+#~ msgid "Nightfall"
+#~ msgstr "Skymning"
+
+#~ msgid "Blocks"
+#~ msgstr "Klossar"
+
+#~ msgid "Orange"
+#~ msgstr "Orange"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "%s anslöt till spelet.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "Spelet avslutades därför att värden %s lämnade spelet.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "%s lämnade spelet.\n"
+
+#~ msgid ""
+#~ "Nibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Nibbles kunde inte hitta bilden:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kontrollera din Nibbles-installation"
+
+#~ msgid ""
+#~ "Nibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Nibbles kunde inte läsa in nivåfilen:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kontrollera din Nibbles-installation"
+
+#~ msgid ""
+#~ "Level file appears to be damaged:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Nivåfilen verkar vara skadad:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kontrollera din Nibbles-installation"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Poänglistan för Nibbles"
+
+#~ msgid "Speed:"
+#~ msgstr "Hastighet:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Gratulerar!"
+
+#~ msgid "Your score is the best!"
+#~ msgstr "Ditt poängresultat är det bästa!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Ditt poängresultat har hamnat bland de tio bästa."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Hjälp en mask runt i en labyrint"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Gnibbles"
+#~ msgstr "Gnibbles"
+
+#~ msgid "Gnibbles is a worms game for GNOME."
+#~ msgstr "Gnibbles är ett maskspel för GNOME."
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Färg att använda på masken"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Färg att använda på masken."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Aktivera falska bonusar"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Aktivera falska bonusar."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Aktivera ljud"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Aktivera ljud."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Spelnivå att börja med"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Spelnivå att börja med."
+
+#~ msgid "Game speed"
+#~ msgstr "Spelhastighet"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Spelhastighet (1=snabbt, 4=långsamt)."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Tangent att använda för rörelse nedåt."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Tangent att använda för rörelse åt vänster."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Tangent att använda för rörelse åt höger."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Tangent att använda för rörelse uppåt."
+
+#~ msgid "Move up"
+#~ msgstr "Flytta uppåt"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Antal AI-spelare"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Antal AI-spelare."
+
+#~ msgid "Number of human players"
+#~ msgstr "Antal mänskliga spelare"
+
+#~ msgid "Number of human players."
+#~ msgstr "Antal mänskliga spelare."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Spela nivåer i slumpmässig ordning"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Spela nivåer i slumpmässig ordning."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Storlek på spelbrickor"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Storlek på spelbrickor."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Använd relativ rörelse"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Använd relativ rörelse (dvs endast vänster eller höger)."
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner"
+#~ msgstr "Nybörjare"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "Långsam"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "Mellan"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "Snabb"
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Nybörjare med attrapper"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow with Fakes"
+#~ msgstr "Långsam med attrapper"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium with Fakes"
+#~ msgstr "Mellan med attrapper"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast with Fakes"
+#~ msgstr "Snabb med attrapper"
+
+#~ msgid ""
+#~ "A worm game for GNOME.\n"
+#~ "\n"
+#~ "Nibbles is a part of GNOME Games."
+#~ msgstr ""
+#~ "Ett maskenspel för GNOME.\n"
+#~ "\n"
+#~ "Nibbles är en del av GNOME Games."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Spelet är över! Spelet vanns av %s!"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Ett maskspel för GNOME."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Inställningar för Nibbles"
+
+#~ msgid "Speed"
+#~ msgstr "Hastighet"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Nibbles-nybörjare"
+
+#~ msgid "My second day"
+#~ msgstr "Andra dagen"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Inte alltför dålig"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Otroligt bra"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "S_pela nivåer i slumpmässig ordning"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "A_ktivera falska bonusar"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "Antal _mänskliga spelare:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "Antal _AI-spelare:"
+
+#~ msgid "Worm"
+#~ msgstr "Mask"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "_Använd relativ rörelse"
+
+#~ msgid "_Worm color:"
+#~ msgstr "_Maskfärg:"
+
+#~ msgid "Green"
+#~ msgstr "Grön"
+
+#~ msgid "Cyan"
+#~ msgstr "Cyan"
+
+#~ msgid "Purple"
+#~ msgstr "Lila"
+
+#~ msgid "Gray"
+#~ msgstr "Grå"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Mask %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Spelet är över!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr ""
+#~ "Bra jobbat, men tyvärr hamnade inte ditt poängresultat bland de tio bästa."
+
+#~ msgid "Robots Scores"
+#~ msgstr "Poänglistan för Robotar"
+
+#~ msgid "Map:"
+#~ msgstr "Bana:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Gratulerar, du har besegrat robotarna!!\n"
+#~ "Men kan du göra om det?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Det finns inte några teleportplatser kvar!!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Det inte några säkra teleportplatser kvar!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Ställ in spelscenario"
+
+#~ msgid "Set game configuration"
+#~ msgstr "Ställ in spelkonfiguration"
+
+#~ msgid "Initial window position"
+#~ msgstr "Initial fönsterposition"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "Klassiska robotar"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Klassiska robotar med säkra förflyttningar"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Klassiska robotar med supersäkra förflyttningar"
+
+#~ msgid "Nightmare"
+#~ msgstr "Mardröm"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Mardröm med säkra förflyttningar"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Mardröm med supersäkra förflyttningar"
+
+#~ msgid "Robots2"
+#~ msgstr "Robotar2"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Robotar2 med säkra förflyttningar"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Robotar2 med supersäkra förflyttningar"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "Robotar2 lätt"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Robotar2 med säkra förflyttningar"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Robotar2 med supersäkra förflyttningar"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "Robotar med säker teleport"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "Robotar med säker teleport och säkra förflyttningar"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "Robotar med säker teleport och supersäkra förflyttningar"
+
+#~ msgid "Robots"
+#~ msgstr "Robotar"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Inga speldata kunde hittas."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Programmet Robotar kunde inte hitta några giltiga "
+#~ "spelkonfigurationsfiler. Kontrollera att programmet installerats korrekt."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "En del grafikfiler saknas eller är skadade."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Programmet Robotar kunde inte läsa in alla de grafikfiler som behövs. "
+#~ "Kontrollera att programmet installerats korrekt."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Undvik robotarna och få dem att krocka med varandra"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Aktivera spelljud"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr ""
+#~ "Aktivera spelljud. Spela ljud för diverse händelser under spelets gång."
+
+#~ msgid "Enable splats"
+#~ msgstr "Aktivera splaschar"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr ""
+#~ "Aktivera splaschar. Spela ett ljud och visa ett \"Splasch!\" på skärmen."
+
+#~ msgid "Game type"
+#~ msgstr "Speltyp"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Speltyp. Namnet på spelvarianten att använda."
+
+#~ msgid "Key to hold"
+#~ msgstr "Tangent att hålla intryckt"
+
+#~ msgid "Key to move E"
+#~ msgstr "Tangent för att flytta åt öster"
+
+#~ msgid "Key to move N"
+#~ msgstr "Tangent för att flytta åt norr"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Tangent för att flytta åt nordöst"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Tangent för att flytta åt nordväst"
+
+#~ msgid "Key to move S"
+#~ msgstr "Tangent för att flytta åt söder"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Tangent för att flytta åt sydöst"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Tangent för att flytta åt sydväst"
+
+#~ msgid "Key to move W"
+#~ msgstr "Tangent för att flytta åt väster"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Tangent för att teleportera"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Tangent för att teleportera slumpmässigt"
+
+#~ msgid "Key to wait"
+#~ msgstr "Tangent för att vänta"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Robotbildtema"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "Robotbildtema. Temat på bilderna som ska användas för robotarna."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "Visa verktygsrad. Ett standardalternativ för verktygsrader."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att stå stilla. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt öster. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt nordöst. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt nordväst. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt norr. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt sydöst. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt sydväst. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt syd. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att flytta åt väster. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att teleportera slumpmässigt. Detta "
+#~ "är ett standardtangentnamn i X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att teleportera säkert (om möjligt). "
+#~ "Detta är ett standardtangentnamn i X."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "Namnet på tangenten som används för att vänta. Detta är ett "
+#~ "standardtangentnamn i X."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Använd säkra förflyttningar"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Använd säkra förflyttningar. Alternativet säkra förflyttningar hjälper "
+#~ "dig att undvika att dödas av misstag. Om du försöker att göra en "
+#~ "förflyttning som skulle leda till att du dör och det finns en säker "
+#~ "förflyttning tillgänglig kommer du inte att tillåtas att fortsätta."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Använd supersäkra förflyttningar"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Använd supersäkra förflyttningar. Spelaren varnas då det inte finns något "
+#~ "säkert drag och det enda alternativet är att teleportera ut."
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Kunde inte hitta pixmapfilen \"%s\"\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Flytta"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Teleportera"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Teleportera, säkert om möjligt"
+
+#~ msgid "_Random"
+#~ msgstr "_Slumpmässigt"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Teleportera slumpmässigt"
+
+#~ msgid "_Wait"
+#~ msgstr "_Vänta"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Vänta på robotarna"
+
+#~ msgid ""
+#~ "Based on classic BSD Robots.\n"
+#~ "\n"
+#~ "Robots is a part of GNOME Games."
+#~ msgstr ""
+#~ "Baserad på klassiska BSD-robotar.\n"
+#~ "\n"
+#~ "Robotar är en del av GNOME Games."
+
+#~ msgid "classic robots"
+#~ msgstr "klassiska robotar"
+
+#~ msgid "robots2"
+#~ msgstr "robotar2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "robotar2 lätt"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "robotar med säker teleport"
+
+#~ msgid "nightmare"
+#~ msgstr "mardröm"
+
+#~ msgid "robots"
+#~ msgstr "robotar"
+
+#~ msgid "cows"
+#~ msgstr "kor"
+
+#~ msgid "eggs"
+#~ msgstr "ägg"
+
+#~ msgid "gnomes"
+#~ msgstr "tomtar"
+
+#~ msgid "mice"
+#~ msgstr "möss"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Inställningar för Robotar"
+
+#~ msgid "Game Type"
+#~ msgstr "Speltyp"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "_Använd säkra förflyttningar"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Förhindra olyckliga drag som kan resultera i död."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "A_nvänd supersäkra förflyttningar"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Förhindrar alla drag som kan resultera i död."
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr ""
+#~ "Spela ljud för händelser som exempelvis att vinna en nivå och att dö."
+
+#~ msgid "E_nable splats"
+#~ msgstr "Ak_tivera splaschar"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "Spela det vanligaste, och möjligtvis det mest irriterande, ljudet."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Grafiktema"
+
+#~ msgid "_Image theme:"
+#~ msgstr "_Bildtema:"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Bakgrundsfärg:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Återställ standardalternativen"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tangentbord"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Säkra teleportrar:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Kvarvarande:"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "Test your logic skills in this number grid puzzle"
+#~ msgstr "Testa dina logiska färdigheter i det här sifferpusslet"
+
+#~ msgid "<b><i>Details</i></b>"
+#~ msgstr "<b><i>Detaljer</i></b>"
+
+#~ msgid "<b><i>Levels of difficulty to print</i></b>"
+#~ msgstr "<b><i>Svårighetsnivåer att skriva ut</i></b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Skriv ut spel</span>"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Skriv ut Sudoku"
+
+#~ msgid "_Easy"
+#~ msgstr "_Lätt"
+
+#~ msgid "_Hard"
+#~ msgstr "_Svår"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "_Inkludera spel du redan spelat i listan med spel att skriva ut"
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "_Markera spel som spelade när du har skrivit ut dem."
+
+#~ msgid "_Medium"
+#~ msgstr "_Mellan"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "Antal _sukodu att skriva ut: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "_Sudokus per sida: "
+
+#~ msgid "_Very Hard"
+#~ msgstr "_Mycket svår"
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Antal pussel</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Lätt:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Svår:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Mellan:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Mycket svår:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Pusselgenerator</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Kriterium:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Generera policy"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Generera nya pussel _tills stoppad"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Generera tills maximalt antal _uppnås"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Pusselgenerator"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "Max _antal sudoku:"
+
+#~ msgid "_Generate"
+#~ msgstr "_Generera"
+
+#~ msgid "<b><span size=\"large\">_New Game</span></b>"
+#~ msgstr "<b><span size=\"large\">_Nytt spel</span></b>"
+
+#~ msgid "<b><span size=\"large\">_Saved Games</span></b>"
+#~ msgstr "<b><span size=\"large\">_Sparade spel</span></b>"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Rensa _andra"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "_Lägg till spårare"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_Rensa spårare"
+
+#~ msgid "_Trackers"
+#~ msgstr "_Spårare"
+
+#~ msgid "Sudoku incorrectly installed"
+#~ msgstr "Sudoku är inte korrekt installerat"
+
+#~ msgid ""
+#~ "Sudoku is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Sudoku kan inte startas på grund av att nödvändiga programfiler inte är "
+#~ "installerade. Om du för närvarande uppgraderar ditt system bör du vänta "
+#~ "till uppgraderingen är färdig."
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player. Sudoku is a "
+#~ "japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Sudoku är en enkel sudoku-generator och spelare.  Sudoku är ett "
+#~ "logiskt japanskt pussel.\n"
+#~ "\n"
+#~ "GNOME Sudoku är en del av GNOME Games."
+
+#~ msgid "No Space"
+#~ msgstr "Inget ledigt utrymme"
+
+#~ msgid "No space left on disk"
+#~ msgstr "Inget ledigt utrymme på disk"
+
+#~ msgid "Sudoku is unable to created data folder %(path)s."
+#~ msgstr "Sudoku kan inte skapa datamappen %(path)s."
+
+#~ msgid "There is no disk space left!"
+#~ msgstr "Det finns inget ledigt utrymme kvar!"
+
+#~ msgid "Sudoku was unable to create data folder %(path)s."
+#~ msgstr "Sudoku kunde inte skapa datamappen %(path)s."
+
+#~ msgid "Error %(errno)s: %(error)s"
+#~ msgstr "Fel %(errno)s: %(error)s"
+
+#~ msgid "Sudoku unable to save game."
+#~ msgstr "Sudoku kunde inte spara spelet."
+
+#~ msgid "Unable to save file %(filename)s."
+#~ msgstr "Kunde inte spara filen %(filename)s."
+
+#~ msgid "Sudoku unable to mark game as finished."
+#~ msgstr "Sudoku kunde inte märka spelet som färdigt."
+
+#~ msgid "Track moves"
+#~ msgstr "Spåra förändringar"
+
+#~ msgid "Full Screen"
+#~ msgstr "Helskärm"
+
+#~ msgid "New game"
+#~ msgstr "Nytt spel"
+
+#~ msgid "Print current game"
+#~ msgstr "Skriv ut aktuellt spel"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "Skriv ut _flera sudoku"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Skriv ut fler än en sudoku samtidigt."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "Stäng Sudoku"
+
+#~ msgid "_Tools"
+#~ msgstr "_Verktyg"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Visa vilka siffror som kunde passa i den aktuella rutan."
+
+#~ msgid "_Fill"
+#~ msgstr "_Fyll"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Fyll automatiskt i den aktuella rutan om möjligt."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "Fyll i _alla rutor"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Fyll automatiskt i alla rutor för vilka det endast finns ett giltigt "
+#~ "värde."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "Pussel_statistik"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Visa statistik om aktuellt pussel"
+
+#~ msgid "_Always show hint"
+#~ msgstr "Visa _alltid tips"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Visa alltid möjliga siffror i en ruta"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "Varna om rutor _som inte går att fylla i"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "Varna om rutor som inte kan fyllas i efter ett drag"
+
+#~ msgid "_Track additions"
+#~ msgstr "_Spåra tillägg"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "Markera nya tillägg i en egen färg så att du kan hålla reda på dom."
+
+#~ msgid "_Highlighter"
+#~ msgstr "_Färgmarkera"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Färgmarkera aktuella raden, kolumnen och rutan"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Generera nya pussel _under tiden du spelar"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Generera nya pussel i bakgrunden under tiden du spelar. Det här kommer "
+#~ "automatiskt att pausas när spelet går in i bakgrunden."
+
+#~ msgid "_Edit"
+#~ msgstr "R_edigera"
+
+#~ msgid "_Undo"
+#~ msgstr "_Ångra"
+
+#~ msgid "Undo last action"
+#~ msgstr "Ångra senaste åtgärden"
+
+#~ msgid "_Redo"
+#~ msgstr "_Gör om"
+
+#~ msgid "Redo last action"
+#~ msgstr "Gör om senaste åtgärden"
+
+#~ msgid "_Clear"
+#~ msgstr "_Töm"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Töm rutor som du har fyllt i"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "Töm _anteckningar"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Töm anteckningar och tips"
+
+#~ msgid "No Tracker"
+#~ msgstr "Ingen bevakare"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "_Generera nya pussel"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Generera nya pussel."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "Matar in i anpassat rutnät..."
+
+#~ msgid "_Play game"
+#~ msgstr "_Spela spel"
+
+#~ msgid "You completed the puzzle in %(totalTime)s (%(activeTime)s active)"
+#~ msgstr "Du lade pusslet på %(totalTime)s (%(activeTime)s aktivt)"
+
+#~ msgid "You got %(n)s hint"
+#~ msgid_plural "You got %(n)s hints"
+#~ msgstr[0] "Du fick %(n)s tips"
+#~ msgstr[1] "Du fick %(n)s tips"
+
+#~ msgid "You had %(n)s impossibility pointed out."
+#~ msgid_plural "You had %(n)s impossibilities pointed out."
+#~ msgstr[0] "Du hade %(n)s omöjlighet påpekad."
+#~ msgstr[1] "Du hade %(n)s omöjligheter påpekade."
+
+#~ msgid "You used the auto-fill %(n)s time"
+#~ msgid_plural "You used the auto-fill %(n)s times"
+#~ msgstr[0] "Du använde automatisk utfyllnad %(n)s gång"
+#~ msgstr[1] "Du använde automatisk utfyllnad %(n)s gånger"
+
+#~ msgid "Save this game before starting new one?"
+#~ msgstr "Spara detta spel innan ett nytt startas?"
+
+#~ msgid "_Save game for later"
+#~ msgstr "_Spara spelet tills senare"
+
+#~ msgid "_Abandon game"
+#~ msgstr "Ö_verge spelet"
+
+#~ msgid "Playing %(difficulty)s puzzle."
+#~ msgstr "Spelar %(difficulty)s pussel."
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Information om pussel"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Det finns ingen aktuell rebus."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Beräknad svårighetsgrad: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Antal drag som direkt kan fyllas i med hjälp av uteslutning: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Antal drag som direkt kan fyllas i: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Antalet misslyckade försök som krävs för att lösa: "
+
+#~ msgid "Puzzle Statistics"
+#~ msgstr "Pusselstatistik"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "Rensa alla drag spårade av spåraren."
+
+#~ msgid "_Clear Others"
+#~ msgstr "Rensa _andra"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "Rensa alla drag som inte spårats av vald spårare."
+
+#~ msgid "Tracker %s"
+#~ msgstr "Bevakare %s"
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "Skriv ut Sudoku"
+#~ msgstr[1] "Skriv ut flera Sudoku"
+
+#~ msgid "Print Preview"
+#~ msgstr "Förhandsutskrift"
+
+#~ msgid "Last Played %(timeAgo)s"
+#~ msgstr "Senast spelad %(timeAgo)s"
+
+#~ msgid "%(level)s puzzle"
+#~ msgstr "%(level)s pussel"
+
+#~ msgid "Played for %(duration)s"
+#~ msgstr "Spelat i %(duration)s"
+
+#~ msgid "Working..."
+#~ msgstr "Arbetar..."
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s rebus"
+#~ msgstr[1] "%(n)s rebusar"
+
+#~ msgid "Stopped"
+#~ msgstr "Stoppad"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "Genererade %(n)s utav %(total)s pussel"
+#~ msgstr[1] "Genererade %(n)s utav %(total)s pussel"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "Genererade %(n)s pussel"
+#~ msgstr[1] "Genererade %(n)s pussel"
+
+#~ msgid "Very Hard"
+#~ msgstr "Mycket svår"
+
+#~ msgid "Medium"
+#~ msgstr "Mellan"
+
+#~ msgid "_Stop"
+#~ msgstr "_Stopp"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Vill du verkligen göra det här?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Fråga mig inte igen."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s år"
+#~ msgstr[1] "%(n)s år"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s månad"
+#~ msgstr[1] "%(n)s månader"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s vecka"
+#~ msgstr[1] "%(n)s veckor"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s dag"
+#~ msgstr[1] "%(n)s dagar"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s timme"
+#~ msgstr[1] "%(n)s timmar"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s minut"
+#~ msgstr[1] "%(n)s minuter"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s sekund"
+#~ msgstr[1] "%(n)s sekunder"
+
+#~ msgid " and "
+#~ msgstr " och "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Today %R %p"
+#~ msgstr "Idag %H.%M"
+
+#~ msgid "Yesterday %R %p"
+#~ msgstr "Igår %H.%M"
+
+#~ msgid "%A %H:%M"
+#~ msgstr "%A %H.%M"
+
+#~ msgid "%A %B %d %R %p"
+#~ msgstr "%A %d %B %H.%M"
+
+#~ msgid "%(n)s minute ago"
+#~ msgid_plural "%(n)s minutes ago"
+#~ msgstr[0] "%(n)s minut sedan"
+#~ msgstr[1] "%(n)s minuter sedan"
+
+#~ msgid "%(n)s second ago"
+#~ msgid_plural "%(n)s seconds ago"
+#~ msgstr[0] "%(n)s sekund sedan"
+#~ msgstr[1] "%(n)s sekunder sedan"
+
+#~ msgid "at %I:%M %p"
+#~ msgstr "klockan %H.%M"
+
+#~ msgid "yesterday at %I:%M %p"
+#~ msgstr "igår klockan %H.%M"
+
+#~ msgid "%A %I:%M %p"
+#~ msgstr "%A %H.%M"
+
+#~ msgid "%B%e"
+#~ msgstr "%B%e"
+
+#~ msgid "Mines"
+#~ msgstr "Minor"
+
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "Anpassad"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Flaggor: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Minorna har röjts!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "Poänglistan för Minor"
+
+#~ msgid "Size:"
+#~ msgstr "Storlek:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Klicka på en fyrkant, vilken fyrkant som helst"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "De kanske är minor allihopa..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Stöd för storleksändring och SVG:"
+
+#~ msgid "Faces:"
+#~ msgstr "Ansikten:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafik:"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered.\n"
+#~ "\n"
+#~ "Mines is a part of GNOME Games."
+#~ msgstr ""
+#~ "Det populära logiska pusselspelet Minröj. Rensa minor från brädet med "
+#~ "hjälp av tips från rutor som du redan har täckt av.\n"
+#~ "\n"
+#~ "Minor är en del av GNOME Games."
+
+#~ msgid "Field Size"
+#~ msgstr "Fältstorlek"
+
+#~ msgid "Custom Size"
+#~ msgstr "Egen storlek"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "A_ntal minor:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Horisontellt:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Vertikalt:"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "_Använd \"Jag är inte säker\"-flaggor"
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "_Använd varning för \"många flaggor\""
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Inställningar för Minor"
+
+#~ msgid "Width of grid"
+#~ msgstr "Bredd på nät"
+
+#~ msgid "Height of grid"
+#~ msgstr "Höjd på nät"
+
+#~ msgid "Number of mines"
+#~ msgstr "Antal minor"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Storlek på brädet (0-2=litet-stort, 3=anpassat)"
+
+#~ msgid "X location of window"
+#~ msgstr "X-koordinat för fönstret"
+
+#~ msgid "Y location of window"
+#~ msgstr "Y-koordinat för fönstret"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Tryck för att återuppta"
+
+#~ msgid "Time: "
+#~ msgstr "Tid: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Rensa dolda minor från ett minfält"
+
+#~ msgid "Board size"
+#~ msgstr "Brädstorlek"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Aktivera automatiskt placering av flaggor"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Antal kolumner i ett anpassat spel"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Antal rader i ett anpassat spel"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "Ställ in till sant för att kunna markera fyrkanter som okända."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Ställ in till sant för att aktivera varningsikoner när för många flaggor "
+#~ "placerats ut."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Ställ in till sant för att gnomine automatiskt ska flagga rutor som "
+#~ "minerade när tillräckligt många rutor har avtäckts"
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Antalet minor i ett anpassat spel"
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Använd okändflaggan"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Varning för många flaggor"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Kan inte hitta alla bildfiler som krävs.\n"
+#~ "\n"
+#~ "Kontrollera din installation av gnome-games."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Nödvändiga bilder har hittats, men kunde inte läsas in.\n"
+#~ "\n"
+#~ "Kontrollera din installation av gnome-games och dess beroenden."
+
+#~ msgid "Could not load images"
+#~ msgstr "Kunde inte läsa in bilder"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "S_torlek"
+
+#~ msgid "Sol_ve"
+#~ msgstr "Lö_s"
+
+#~ msgid "Solve the game"
+#~ msgstr "Lös spelet"
+
+#~ msgid "_Up"
+#~ msgstr "_Upp"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Flytta brickorna uppåt"
+
+#~ msgid "_Left"
+#~ msgstr "_Vänster"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Flytta brickorna åt vänster"
+
+#~ msgid "_Right"
+#~ msgstr "_Höger"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Flytta brickorna åt höger"
+
+#~ msgid "_Down"
+#~ msgstr "_Ned"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Flytta brickorna nedåt"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Spela på ett 2×2-bräde"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Spela på ett 3×3-bräde"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Spela på ett 4×4-bräde"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Spela på ett 5×5-bräde"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Spela på ett 6×6-bräde"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "Brick_färger"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Storlek på spelplanen (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "STORLEK"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Pusslet är löst! Bra gjort!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Pusslet är löst!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Poänglistan för Tetravex"
+
+#~ msgid "Game paused"
+#~ msgstr "Spelet gör paus"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Spelar %d×%d-bräde"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other.\n"
+#~ "\n"
+#~ "Tetravex is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Tetravex är ett enkelt pusselspel där bitar måste läggas så att "
+#~ "samma nummer rör vid varandra.\n"
+#~ "\n"
+#~ "Tetravex är en del av GNOME Games."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Klara att lägga pusslet genom att matcha numrerade brickor"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "En flagga för att aktivera färgade brickor."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Kontrollera färgade brickor"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Välj huruvida brickorna ska dras eller om källan ska klickas på och sedan "
+#~ "målet."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Storleken på spelrutnätet"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Värdet på denna nyckel används för att avgöra storleken på spelrutnätet. "
+#~ "De giltiga värdena är 2 till och med 8, och allt annat ställs in till 3."
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+# Osäker
+#
+#~ msgid "Only 18 steps"
+#~ msgstr "Endast 18 steg"
+
+# Kvinnonamn.
+#
+#~ msgid "Daisy"
+#~ msgstr "Daisy"
+
+# Osäker
+#
+#~ msgid "Violet"
+#~ msgstr "Violett"
+
+#~ msgid "Poppy"
+#~ msgstr "Vallmo"
+
+# Kvinnonamn.
+#
+#~ msgid "Pansy"
+#~ msgstr "Pansy"
+
+# Osäker
+#
+#~ msgid "Snowdrop"
+#~ msgstr "Snödroppen"
+
+# "Red Donkey" may be known better across Europe as "L'Ane Rouge"... The big
+# block has a picture of a donkey, and it is trying to escape a maze of
+# fences and pens to get to his carrot (the little pegs).
+#
+# Osäker
+#
+#~ msgid "Red Donkey"
+#~ msgstr "Röda apan"
+
+# In real life, the entire group is often called "HuaRongDao", and it uses a
+# story from "Legend of the Three Kingdoms". General Cao Cao attempts to
+# pass through HuaRong trail, thinking that Zhuge Liang was to inept too
+# plan an attack there. He was surprised by Guan Yu's army, and faced an
+# almost certain defeat. Reminded of past favors, Guan Yu realized he was
+# honor bound to Cao Cao, and allowed him to pass through.
+#
+# The block game is slightly diffent, though... Cao Cao gets attacked and
+# has to find a way through the army to escape the trail. "Trail" and
+# "Ambush" are the hardest variations of this puzzle.
+#
+# Osäker
+#
+#~ msgid "Trail"
+#~ msgstr "Stig"
+
+# In real life, the entire group is often called "HuaRongDao", and it uses a
+# story from "Legend of the Three Kingdoms". General Cao Cao attempts to
+# pass through HuaRong trail, thinking that Zhuge Liang was to inept too
+# plan an attack there. He was surprised by Guan Yu's army, and faced an
+# almost certain defeat. Reminded of past favors, Guan Yu realized he was
+# honor bound to Cao Cao, and allowed him to pass through.
+#
+# The block game is slightly diffent, though... Cao Cao gets attacked and
+# has to find a way through the army to escape the trail. "Trail" and
+# "Ambush" are the hardest variations of this puzzle.
+#
+# Osäker
+#
+#~ msgid "Ambush"
+#~ msgstr "Bakhåll"
+
+# Osäker
+#
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+# Osäker
+#
+#~ msgid "Success"
+#~ msgstr "Framgång"
+
+# Osäker
+#
+#~ msgid "Bone"
+#~ msgstr "Ben"
+
+#~ msgid "Fortune"
+#~ msgstr "Lyckan"
+
+#~ msgid "Fool"
+#~ msgstr "Tok"
+
+#~ msgid "Solomon"
+#~ msgstr "Salomo"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Kleopatra"
+
+#~ msgid "Shark"
+#~ msgstr "Haj"
+
+#~ msgid "Rome"
+#~ msgstr "Rom"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Vimpelpussel"
+
+# Grekisk ö.
+#
+#~ msgid "Ithaca"
+#~ msgstr "Ithaka"
+
+#~ msgid "Pelopones"
+#~ msgstr "Peloponnesos"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transeuropa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Polonäs"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Östersjön"
+
+#~ msgid "American Pie"
+#~ msgstr "American Pie"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Trafikstockning"
+
+#~ msgid "Sunshine"
+#~ msgstr "Solsken"
+
+# Osäker
+#
+#~ msgid "Only 18 Steps"
+#~ msgstr "Endast 18 steg"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "HuaRong-stigen"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Utmaningspaketet"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Skicklighetspaketet"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Starta om pussel"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Nästa pussel"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Föregående pussel"
+
+#~ msgid "Level completed."
+#~ msgstr "Nivån färdig."
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Pusslet har blivit löst!"
+
+#~ msgid "Klotski Scores"
+#~ msgstr "Poänglistan för Klotski"
+
+#~ msgid "Puzzle:"
+#~ msgstr "Pussel:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Misslyckades med att rendera temat för detta spel.\n"
+#~ "\n"
+#~ "Kontrollera att Klotski är korrekt installerat."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Kunde inte hitta bilden:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kontrollera att Klotski är korrekt installerat."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Drag: %d"
+
+#~ msgid ""
+#~ "Sliding Block Puzzles\n"
+#~ "\n"
+#~ "Klotski is a part of GNOME Games."
+#~ msgstr ""
+#~ "Pusselspel där man flyttar på klossar\n"
+#~ "\n"
+#~ "Klotski är en del av GNOME Games."
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Flytta på klossar för att lösa pusslet"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Numret på det pussel som spelas."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Pusslet som spelas"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Redan använd! Var vill du placera den?"
+
+#~ msgid "Score: %d"
+#~ msgstr "Poäng: %d"
+
+#~ msgid "Field used"
+#~ msgstr "Fält använt"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Spela ett pokerliknande tärningsspel"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Välj huruvida en fördröjning ska infogas mellan datorns tärningskast "
+#~ "eller inte, så att spelaren kan följa vad den gör."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Fördröjning mellan kast"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Visa datorns tankar"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Om detta är sant kommer en dump av AI:ts arbete att visas på standard ut."
+
+#~ msgid "Regular"
+#~ msgstr "Vanligt"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Mänsklig,Göran,Bengt,Monica,Kenneth,Jeanette]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Fördröj datorns drag"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Visa datorns tankar"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Antal datormotståndare"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Antal mänskliga motståndare"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Spelval: Vanligt eller Färger"
+
+#~ msgid "STRING"
+#~ msgstr "STRÄNG"
+
+#~ msgid "Number of computer-only games to play"
+#~ msgstr "Antal spel med endast datorspelare att spela"
+
+#~ msgid "Number of trials for each roll for the computer"
+#~ msgstr "Antal försök för varje tärningskast för datorn"
+
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "Vanligt"
+
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "Färger"
+
+#~ msgid "Roll all!"
+#~ msgstr "Kasta alla!"
+
+#~ msgid "Roll!"
+#~ msgstr "Kasta!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Spelet är oavgjort!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "Poänglistan för Tali"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s vinner spelet med %d poäng"
+#~ msgstr[1] "%s vinner spelet med %d poäng"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Datorn spelar för %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- Din tur."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Välj tärning att kasta eller välj en poängruta."
+
+#~ msgid "Roll"
+#~ msgstr "Kasta"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Du får bara tre kast. Välj en poängruta."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "GNOME-version (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Konsollversion (1992):"
+
+#~ msgid "Colors game and multi-level AI (2006):"
+#~ msgstr "Färgspel och flernivåers-AI (2006):"
+
+#~ msgid ""
+#~ "A variation on poker with dice and less money.\n"
+#~ "\n"
+#~ "Tali is a part of GNOME Games."
+#~ msgstr ""
+#~ "En variant av poker med tärning och mindre pengar.\n"
+#~ "\n"
+#~ "Tali är en del av GNOME Games."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "Nuvarande omgång avslutas med det ursprungliga antalet spelare."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Inställningar för Tali"
+
+#~ msgid "Human Players"
+#~ msgstr "Mänskliga spelare"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Antal spelare:"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "Datormotståndare"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "_Fördröjning mellan kast"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "A_ntal motståndare:"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "Svår_ighetsgrad:"
+
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "Lätt"
+
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "Mellan"
+
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "Svårt"
+
+#~ msgid "Player Names"
+#~ msgstr "Spelarnamn"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1:or [totalt antal 1:or]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2:or [totalt antal 2:or]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3:or [totalt antal 3:or]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4:or [totalt antal 4:or]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5:or [totalt antal 5:or]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6:or [totalt antal 6:or]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "Tretal [totalt]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "Fyrtal [totalt]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Kåk [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Liten stege [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Stor stege [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "Femtal [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Chans [totalt]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Nedre summa"
+
+#~ msgid "Grand Total"
+#~ msgstr "Slutsumma"
+
+#~ msgid "Upper total"
+#~ msgstr "Övre summa"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bonus om >62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "Tvåpar i samma färg [totalt]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Kåk [15 + totalt]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Kåk i samma färg [20 + totalt]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Stege (alla i samma färg) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "Fyrtal [25 + totalt]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "Femtal [50 + totalt]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Välj en poängruta."
+
+#~ msgid "5 of a Kind [total]"
+#~ msgstr "Femtal [totalt]"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+# Osäker.
+#~ msgid ""
+#~ "A disk flipping game derived from Reversi.\n"
+#~ "\n"
+#~ "Iagno is a part of GNOME Games."
+#~ msgstr ""
+#~ "Ett brickvändningsspel som utvecklats från Othello.\n"
+#~ "\n"
+#~ "Iagno är en del av GNOME Games."
+
+#~ msgid "Invalid move."
+#~ msgstr "Ogiltigt drag."
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Det är din tur att placera ut en mörk pjäs"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Det är din tur att placera ut en ljus pjäs"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Väntar på att %s ska flytta"
+
+#~ msgid "Dark's move"
+#~ msgstr "Mörkt drag"
+
+#~ msgid "Light's move"
+#~ msgstr "Ljust drag"
+
+#~ msgid "Dark:"
+#~ msgstr "Mörk:"
+
+#~ msgid "Light:"
+#~ msgstr "Ljus:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Välkommen till Iagno!"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Dominera brädet in en klassisk version av Othello"
+
+#~ msgid ""
+#~ "The GNOME version of Reversi. The goal is to control the most disks on "
+#~ "the board."
+#~ msgstr ""
+#~ "GNOME-versionen av Othello. Målet är att kontrollera mest brickor på "
+#~ "brädet."
+
+#~ msgid "Light player wins!"
+#~ msgstr "Ljus spelare vinner!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Mörk spelare vinner!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Spelet var oavgjort."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Ljus måste stå över, mörkt drag"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Mörk måste stå över, ljust drag"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Inställningar för Iagno"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "_Använd snabba drag"
+
+#~ msgid "Animation"
+#~ msgstr "Animation"
+
+#~ msgid "Partial"
+#~ msgstr "Delvis"
+
+#~ msgid "Complete"
+#~ msgstr "Kompletta"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "_Stegvisa vändningar"
+
+#~ msgid "S_how grid"
+#~ msgstr "Visa _rutnät"
+
+#~ msgid "_Flip final results"
+#~ msgstr "_Vänd på slutresultatet"
+
+#~ msgid "_Tile set:"
+#~ msgstr "_Bricksamling:"
+
+#~ msgctxt "card symbol"
+#~ msgid "JOKER"
+#~ msgstr "JOKER"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Card Style"
+#~ msgstr "Kortstil"
+
+#~ msgid "_Deal"
+#~ msgstr "_Ge"
+
+#~ msgid "_About"
+#~ msgstr "_Om"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Avbryt"
+
+#~ msgid "_Close"
+#~ msgstr "_Stäng"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "Lights Off"
+#~ msgstr "Stäng av ljus"
+
+#~ msgid "Turn off all the lights"
+#~ msgstr "Stäng av alla ljus"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Rendering av det valda temat misslyckades:\n"
+#~ "\n"
+#~ "Kontrollera att Mah Jong är korrekt installerat."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Kan inte rendera filen:\n"
+#~ "\"%s\"\n"
+#~ "\n"
+#~ "Kontrollera att Mah Jong är korrekt installerat."
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mah Jong"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Kunde inte läsa in bricksamlingen"
+
+#~ msgid "Do you want to start a new game with this map?"
+#~ msgstr "Vill du starta ett nytt spel med denna karta?"
+
+#~ msgid "If you continue playing the next game will use the new map."
+#~ msgstr ""
+#~ "Om du fortsätter att spela kommer nästa spel att använda den nya kartan."
+
+#~ msgid "_Continue playing"
+#~ msgstr "_Fortsätt spela"
+
+#~ msgid "Use _new map"
+#~ msgstr "Använd _ny karta"
+
+#~ msgid "There are no more moves."
+#~ msgstr "Det finns inga fler giltiga drag."
+
+#~ msgid "_New game"
+#~ msgstr "_Nytt spel"
+
+#~ msgid "_Shuffle"
+#~ msgstr "_Blanda"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Poänglistan för Mah Jong"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Inställningar för Mah Jong"
+
+#~ msgid "Tiles"
+#~ msgstr "Brickor"
+
+#~ msgid "Maps"
+#~ msgstr "Banor"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Välj bana:"
+
+#~ msgid "Colors"
+#~ msgstr "Färger"
+
+#~ msgid "Maps:"
+#~ msgstr "Banor:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Brickor:"
+
+#~ msgid ""
+#~ "A matching game played with Mahjongg tiles.\n"
+#~ "\n"
+#~ "Mahjongg is a part of GNOME Games."
+#~ msgstr ""
+#~ "Ett matchningsspel som spelas med Mah Jong-brickor.\n"
+#~ "\n"
+#~ "Mah Jong är en del av GNOME Games."
+
+#~ msgid "Mahjongg - %s"
+#~ msgstr "Mahjongg - %s"
+
+#~ msgid "Redo the last move"
+#~ msgstr "Gör om det senaste draget"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Brickor kvar:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Steg kvar:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Ta bort matchande brickpar."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Plocka isär en hög med brickor genom att ta bort matchande par"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "Lätt"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "Babels torn"
+
+# Gissar...
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "Fyra broar"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "Moln"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Luffarschack"
+
+# "Red Donkey" may be known better across Europe as "L'Ane Rouge"... The big
+# block has a picture of a donkey, and it is trying to escape a maze of
+# fences and pens to get to his carrot (the little pegs).
+#
+# Osäker
+#
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "Röd drake"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Pyramidens väggar"
+
+# En ren gissning
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "Förvirrande kors"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "Svår"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "1000 poäng i bonus för att brädet tömdes!"
+
+#~ msgid "Set the theme"
+#~ msgstr "Ställ in temat"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "För balängeskompatibilitet"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Spelstorlek (1=liten, 3=stor)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "Rensa skärmen genom att ta bort grupper av färgade bollar"
+
+#~ msgid "Same GNOME"
+#~ msgstr "SameGNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Höjd på det anpassade brädet"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Att ställa in detta till FALSKT innebär att pjäserna trillar långsamt men "
+#~ "mjukt. SANT gör att pjäserna faller snabbt och hackigt."
+
+#~ msgid "The board size"
+#~ msgstr "Brädstorleken"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Filnamnet för temat att använda."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Höjden på det anpassade brädet, 101 &gt; höjd &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "Storleken på brädet att använda. 1 = anpassad, 2 = liten, 3 = mellan, 4 = "
+#~ "stor."
+
+#~ msgid "The theme to use"
+#~ msgstr "Temat att använda"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Bredden på det anpassade brädet, 101 &gt; bredd &gt; 3."
+
+#~ msgid "Use fast animation"
+#~ msgstr "Använd snabb animation"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Bredd på det anpassade brädet"
+
+#~ msgid "No points"
+#~ msgstr "Inga poäng"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d poäng"
+#~ msgstr[1] "%d poäng"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!\n"
+#~ "\n"
+#~ "Same GNOME is a part of GNOME Games."
+#~ msgstr ""
+#~ "Jag vill spela det spelet! Du vet, spelet där alla börjar snurrar runt "
+#~ "och man kan klicka på dem och så försvinner de!\n"
+#~ "\n"
+#~ "Same GNOME är en del av GNOME Games."
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "Poänglistan för SameGNOME"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "Tyvärr hamnade inte ditt poängresultat bland de tio bästa."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "SameGNOME-tema"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Tema..."
+
+#~ msgid "_Small"
+#~ msgstr "_Liten"
+
+#~ msgid "_Large"
+#~ msgstr "_Stor"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "_Snabb animation"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Inga temadata hittades."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Det är omöjligt att spela spelet. Kontrollera att spelet har installerats "
+#~ "korrekt och försök igen."
+
+#~ msgid "and all cards below it"
+#~ msgstr "och alla kort under det"
+
+#~ msgid "empty slot(s)"
+#~ msgstr "tom(ma) plats(er)"
+
+#~ msgid "List of players:"
+#~ msgstr "Lista över spelare:"
+
+#~ msgid "score|%6d"
+#~ msgstr "%6d"
+
+#~ msgid "You have been disconnected from the server"
+#~ msgstr "Du har blivit frånkopplad från servern"
+
+#~ msgid "glines|Medium"
+#~ msgstr "Mellan"
+
+#~ msgid "glines|General"
+#~ msgstr "Allmänt"
+
+#~ msgid "gnibbles|Medium"
+#~ msgstr "Mellan"
+
+#~ msgid "gnomine|Medium"
+#~ msgstr "Mellan"
+
+#~ msgid "Error playing sound: %s\n"
+#~ msgstr "Fel vid uppspelning av ljud: %s\n"
+
+#~ msgid "Error playing sound %s: %s\n"
+#~ msgstr "Fel vid uppspelning av ljudet %s: %s\n"
+
+#~ msgid "mahjongg|Easy"
+#~ msgstr "Lätt"
+
+#~ msgid "same-gnome|Medium"
+#~ msgstr "Mellan"
+
+#~ msgid ""
+#~ "Do you want to finish the current game or start playing with the new map "
+#~ "immediately?"
+#~ msgstr ""
+#~ "Vill du slutföra det nuvarande spelet eller börja spela med den nya banan "
+#~ "direkt?"
+
+#~ msgid "_Finish"
+#~ msgstr "_Slutför"
+
+#~ msgid "Sorry, I was unable to find a playable configuration."
+#~ msgstr "Ledsen, jag kunde inte hitta en spelbar konfiguration."
+
+#~ msgid "Queen"
+#~ msgstr "Drottning"
+
+#~ msgid "Rook"
+#~ msgstr "Torn"
+
+#~ msgid "Bishop"
+#~ msgstr "Löpare"
+
+#~ msgid "pawn"
+#~ msgstr "bonde"
+
+#~ msgid "rook"
+#~ msgstr "torn"
+
+#~ msgid "knight"
+#~ msgstr "häst"
+
+#~ msgid "bishop"
+#~ msgstr "löpare"
+
+#~ msgid "Check"
+#~ msgstr "Schack"
+
+#~ msgid "Checkmate"
+#~ msgstr "Schackmatt"
+
+#~ msgid "Stalemate"
+#~ msgstr "Remi"
+
+#~ msgid "%(move)s White castles long (%(result)s)"
+#~ msgstr "%(move)s Vit gör en lång rockad (%(result)s)"
+
+#~ msgid "%(move)s Black castles long (%(result)s)"
+#~ msgstr "%(move)s Svart gör en lång rockad (%(result)s)"
+
+#~ msgid "%(move)s White castles short (%(result)s)"
+#~ msgstr "%(move)s Vit gör en kort rockad (%(result)s)"
+
+#~ msgid "%(move)s Black castles short (%(result)s)"
+#~ msgstr "%(move)s Svart gör en kort rockad (%(result)s)"
+
+#~ msgid ""
+#~ "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s at "
+#~ "%(end)s (%(result)s)"
+#~ msgstr ""
+#~ "%(move)s Vit %(piece)s på %(start)s slår svart %(victim_piece)s på %(end)"
+#~ "s (%(result)s)"
+
+#~ msgid ""
+#~ "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s at "
+#~ "%(end)s (%(result)s)"
+#~ msgstr ""
+#~ "%(move)s Svart %(piece)s at %(start)s slår vit %(victim_piece)s på %(end)"
+#~ "s (%(result)s)"
+
+#~ msgid ""
+#~ "%(move)s White %(piece)s moves from %(start)s to %(end)s (%(result)s)"
+#~ msgstr ""
+#~ "%(move)s Vit %(piece)s flyttar från %(start)s till %(end)s (%(result)s)"
+
+#~ msgid ""
+#~ "%(move)s Black %(piece)s moves from %(start)s to %(end)s (%(result)s)"
+#~ msgstr ""
+#~ "%(move)s Svart %(piece)s flyttar från %(start)s till %(end)s (%(result)s)"
+
+#~ msgid "a"
+#~ msgstr "a"
+
+#~ msgid "b"
+#~ msgstr "b"
+
+#~ msgid "c"
+#~ msgstr "c"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "e"
+#~ msgstr "e"
+
+#~ msgid "f"
+#~ msgstr "f"
+
+#~ msgid "g"
+#~ msgstr "g"
+
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgid "Prevent some dangerous moves"
+#~ msgstr "Förhindra en del farliga drag"
+
+#~ msgid "Prevent all dangerous moves"
+#~ msgstr "Förhindra alla farliga drag"
+
+#~ msgid "Play sounds for major events"
+#~ msgstr "Spela ljud för större händelser"
+
+#~ msgid "Play a sound when two robots collide"
+#~ msgstr "Spela ett ljud då två robotar kolliderar"
+
+#~ msgid "<none>"
+#~ msgstr "<inga>"
+
+#~ msgid "Net_work Game"
+#~ msgstr "Nät_verksspel"
+
+#~ msgid "_Player list"
+#~ msgstr "_Spelarlista"
+
+#~ msgid "_Chat Window"
+#~ msgstr "_Chattfönster"
+
+#~ msgid "_Leave Game"
+#~ msgstr "_Lämna spel"
+
+#~ msgid "Game Name"
+#~ msgstr "Spelnamn"
+
+#~ msgid "Summary"
+#~ msgstr "Sammandrag"
+
+#~ msgid "Allow remote clients to watch this game"
+#~ msgstr "Tillåt att fjärrklienter kan se det här spelet"
+
+#~ msgid "Local chess game"
+#~ msgstr "Lokalt schackspel"
+
+#~ msgid "_Allow spectators"
+#~ msgstr "_Tillåt åskådare"
+
+#~ msgid "Game start"
+#~ msgstr "Spelstart"
+
+#~ msgid "Debug output:"
+#~ msgstr "Felsökningsutmatning:"
+
+#~ msgid "Black player is unable to cause checkmate (insufficient material)"
+#~ msgstr ""
+#~ "Svart spelare är inte kapabel att göra schackmatt (otillräckliga pjäser)"
+
+#~ msgid "White player is unable to cause checkmate (insufficient material)"
+#~ msgstr ""
+#~ "Vit spelare är inte kapabel att göra schackmatt (otillräckliga pjäser)"
+
+#~ msgid "at %(time)s"
+#~ msgstr "klockan %(time)s"
+
+# Osäker
+#
+#~ msgid "Block 10"
+#~ msgstr "Kloss 10"
+
+# Osäker
+#
+#~ msgid "Block 10 Pro"
+#~ msgstr "Kloss 10 Pro"
+
+# Osäker
+#
+#~ msgid "Climb 12"
+#~ msgstr "Klättring 12"
+
+# Osäker
+#
+#~ msgid "Climb 12 Pro"
+#~ msgstr "Klättring 12 Pro"
+
+# Osäker
+#
+#~ msgid "Climb 15 Winter"
+#~ msgstr "Klättring 15 Vinter"
+
+# Osäker
+#
+#~ msgid "Climb 15 Spring"
+#~ msgstr "Klättring 15 Vår"
+
+# Osäker
+#
+#~ msgid "Climb 15 Summer"
+#~ msgstr "Klättring 15 Sommar"
+
+# Osäker
+#
+#~ msgid "Climb 15 Fall"
+#~ msgstr "Klättring 15 Höst"
+
+# Osäker
+#
+#~ msgid "Climb 24 Pro"
+#~ msgstr "Klättring 24 Pro"
+
+# Osäker
+#
+#~ msgid "Minoru Climb"
+#~ msgstr "Minoru-klättring"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Choose the move format for the game history panel."
+#~ msgstr "Välj dragformatet för spelets historikpanel."
+
+#~ msgid "Choose the orientation of the chess board."
+#~ msgstr "Välj orienteringen för schackbrädet."
+
+#~ msgid "Choose the transformation of a pawn that reaches the eighth rank."
+#~ msgstr "Välj transformeringen för en pjäs som når åttonde raden."
+
+#~ msgid "Chess _Board"
+#~ msgstr "Schack_bräde"
+
+#~ msgid "Move _Comments"
+#~ msgstr "Förflyttnings_kommentarer"
+
+#~ msgid "_3D"
+#~ msgstr "_3D"
+
+#~ msgid "_Human"
+#~ msgstr "_Mänsklig"
+
+#~ msgid "_Knight"
+#~ msgstr "_Springare"
+
+#~ msgid "New"
+#~ msgstr "Ny"
+
+#~ msgid "Play On_line"
+#~ msgstr "Spela på _nätet"
+
+#~ msgid "Play Online"
+#~ msgstr "Spela på nätet"
+
+#~ msgid "Full House [15 + total"
+#~ msgstr "Kåk [15 + totalt"
+
+#~ msgid "Full House Same Color [20 + total"
+#~ msgstr "Kåk i samma färg [20 + totalt"
+
+#~ msgid "Unknown negotiation"
+#~ msgstr "Okänd negation"
+
+#~ msgid "Already logged in"
+#~ msgstr "Redan inloggad"
+
+#~ msgid "Name is already taken"
+#~ msgstr "Namnet är upptaget"
+
+#~ msgid "This name is already registered so cannot be used by a guest"
+#~ msgstr ""
+#~ "Det här namnet är redan registrerat så det kan inte användas av en gäst"
+
+#~ msgid "No such name was found"
+#~ msgstr "Inget sådant namn hittades"
+
+#~ msgid "Name too long"
+#~ msgstr "Namnet är för långt"
+
+#~ msgid "Name contains forbidden ASCII characters"
+#~ msgstr "Namnet innehåller förbjudna ASCII-tecken"
+
+#~ msgid "Missing password or other bad options."
+#~ msgstr "Saknar lösenord eller andra felaktiga alternativ."
+
+#~ msgid "Unknown login error"
+#~ msgstr "Okänt inloggningsfel"
+
+#~ msgid "Room full"
+#~ msgstr "Rummet är fullt"
+
+#~ msgid "Can't change rooms while at a table"
+#~ msgstr "Kan inte byta rum när du sitter vid ett bord"
+
+#~ msgid "Can't change rooms while joining/leaving a table"
+#~ msgstr "Kan inte byta rum vid gå med/lämna ett bord"
+
+#~ msgid "Bad room number"
+#~ msgstr "Fel rumsnummer"
+
+#~ msgid "Insufficient permissions, room access is restricted"
+#~ msgstr "Otillräckliga rättigheter, tillgång till rummet är begränsat"
+
+#~ msgid "Unknown room-joining error"
+#~ msgstr "Okänt fel vid rumsingång"
+
+#~ msgid "Unable to connect"
+#~ msgstr "Kunde inte ansluta"
+
+#~ msgid "Protocol mismatch"
+#~ msgstr "Protokollet stämmer inte"
+
+#~ msgid "%s puzzle"
+#~ msgstr "%s pussel"
+
+#~ msgid "The height of the playing window in pixels."
+#~ msgstr "Höjden på spelfönstret i bildpunkter."
+
+#~ msgid "The width of the playing window in pixels."
+#~ msgstr "Bredden på spelfönstret i bildpunkter."
+
+#~ msgid "How many times do you wish to roll?"
+#~ msgstr "Hur många gånger vill du kasta?"
+
+#~ msgid "Generating ..."
+#~ msgstr "Genererar ..."
+
+#~ msgid "Results"
+#~ msgstr "Resultat"
+
+#~ msgid "Num Rolls"
+#~ msgstr "Antal kast"
+
+#~ msgid "Total"
+#~ msgstr "Totalt"
+
+#~ msgid "<big><b>Error Title</b></big>"
+#~ msgstr "<big><b>Feltitel</b></big>"
+
+#~ msgid "<i>Error description</i>"
+#~ msgstr "<i>Felbeskrivning</i>"
+
+#~ msgid ""
+#~ "<b><big>Some games have been changed. Save changes before closing?</big></"
+#~ "b>"
+#~ msgstr ""
+#~ "<b><big>Några spel har ändrats. Spara ändringar innan stängning?</big></b>"
+
+#~ msgid "<b><big>Unable to enable 3D mode</big></b>"
+#~ msgstr "<b><big>Kunde inte aktivera 3D-läget</big></b>"
+
+#~ msgid "AI Information"
+#~ msgstr "AI-information"
+
+#~ msgid "End Game"
+#~ msgstr "Avsluta spel"
+
+#~ msgid "Save and _Quit"
+#~ msgstr "Spara och a_vsluta"
+
+#~ msgid "Select the games you want to save:"
+#~ msgstr "Välj spelen du vill spara:"
+
+#~ msgid "There are no artificial intelligence players."
+#~ msgstr "Det finns inga artificiella intelligensspelare."
+
+#~ msgid ""
+#~ "Your system does not have the required software to enable 3D mode. Please "
+#~ "contact your system administrator and ask them to install the <i>OpenGL "
+#~ "Python bindings</i> and the <i>GtkGLExt Python bindings</i>.\n"
+#~ "\n"
+#~ "You are still able to play chess in 2D without these packages."
+#~ msgstr ""
+#~ "Ditt system har inte den nödvändiga programvaran för att aktivera 3D-"
+#~ "läget. Kontakta din systemadministratör och be dem installera <i>OpenGL "
+#~ "Python bindings</i> och <i>GtkGLExt Python bindings</i>.\n"
+#~ "\n"
+#~ "Du kan fortfarande spela schack i 2D utan dessa paket."
+
+#~ msgid "_AI Information"
+#~ msgstr "_AI-information"
+
+#~ msgid " - %(check_status)s"
+#~ msgstr " - %(check_status)s"
+
+#~ msgid "%(movenum)2i%(short_colour)s. %(colour)s castles long%(suffix)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s gör en lång rockad %(suffix)s"
+
+#~ msgid "%(movenum)2i%(short_colour)s. %(colour)s castles short%(suffix)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s gör en kort rockad %(suffix)s"
+
+#~ msgid "Players"
+#~ msgstr "Spelare"
+
+#~ msgid "Non-chess rooms"
+#~ msgstr "Icke-schackrum"
+
+#~ msgid "High Scores"
+#~ msgstr "Poänglistan"
+
+#~ msgid "<i>Easy</i>"
+#~ msgstr "<i>Lätt</i>"
+
+#~ msgid "<i>Hard</i>"
+#~ msgstr "<i>Svår</i>"
+
+#~ msgid "Choose the _level of difficulty for your new game."
+#~ msgstr "Vä_lj svårighetsgrad för ditt nya spel."
+
+#~ msgid "_Details"
+#~ msgstr "_Detaljer"
+
+#~ msgid "_Play"
+#~ msgstr "_Spela"
+
+#~ msgid "Choose _game"
+#~ msgstr "Välj _spel"
+
+#~ msgid "Choose the _level of difficulty for games"
+#~ msgstr "Välj svårighets_graden för spel"
+
+#~ msgid "Ma_ximum Difficulty"
+#~ msgstr "Ma_ximal svårighetsgrad"
+
+#~ msgid "_Game List"
+#~ msgstr "_Spellista"
+
+#~ msgid "_Label games with difficulty and name."
+#~ msgstr "_Märk spel med svårighetsgrad och namn."
+
+#~ msgid "_Minimum Difficulty"
+#~ msgstr "_Minimal svårighetsgrad"
+
+#~ msgid "Puzzle"
+#~ msgstr "Pussel"
+
+#~ msgid "Squares instantly fillable by filling: "
+#~ msgstr "Rutor som omedelbart kan fyllas i: "
+
+#~ msgid "Squares instantly fillable by elimination: "
+#~ msgstr "Rutor som omedelbart kan fyllas i genom eliminering: "
+
+#~ msgid "Number of trial-and-errors necessary to solve: "
+#~ msgstr "Antal misslyckade försök som behövs för att lösa: "
+
+#~ msgid "Difficulty value: "
+#~ msgstr "Svårighetsgrad: "
+
+#~ msgid "Difficulty"
+#~ msgstr "Svårighetsgrad"
+
+#~ msgid "Started"
+#~ msgstr "Startad"
+
+#~ msgid "Printed %s ago"
+#~ msgstr "Utskriven %s sedan"
+
+#~ msgid "%s ago"
+#~ msgstr "%s sedan"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Not in database"
+#~ msgstr "Inte i databasen"
+
+#~ msgid "Unknown difficulty"
+#~ msgstr "Okänd svårighetsgrad"
+
+#~ msgid "Hints"
+#~ msgstr "Tips"
+
+#~ msgid "Warnings about unfillable squares"
+#~ msgstr "Varningar om ofyllbara rutor"
+
+#~ msgid "Auto-fills"
+#~ msgstr "Automatiska ifyllningar"
+
+#~ msgid "Finished in"
+#~ msgstr "Avklarades på"
+
+#~ msgid "High _Scores"
+#~ msgstr "_Poänglistan"
+
+#~ msgid "Show high scores or replay old games."
+#~ msgstr "Visa poänglistan eller spela upp gamla spel."
+
+#~ msgid "Playing "
+#~ msgstr "Spelar "
+
+#~ msgid "Statistics for %s"
+#~ msgstr "Statistik för %s"
+
+#~ msgid ""
+#~ "Written for my wife, Matylda\n"
+#~ "Send comments and bug reports to: \n"
+#~ "janusz.gorycki@intel.com"
+#~ msgstr ""
+#~ "Skrivet för min fru, Matylda\n"
+#~ "Skicka kommentarer och felrapporter till: \n"
+#~ "janusz.gorycki@intel.com\n"
+#~ "\n"
+#~ "Skicka synpunkter på översättningen till: \n"
+#~ "tp-sv@listor.tp-sv.se"
+
+#~ msgid "Sliding Block Puzzles"
+#~ msgstr "Pussel med glidande block"
+
+#~ msgid "glChess homepage"
+#~ msgstr "Webbplats för glChess"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Kunde inte hitta filen:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kontrollera att Mah Jong är korrekt installerat."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "The default tile set will be loaded instead."
+#~ msgstr ""
+#~ "Kan inte hitta filen:\n"
+#~ "\"%s\"\n"
+#~ "\n"
+#~ "Standardbricksamlingen kommer att läsas in istället."
+
+#~ msgid "The height of the main window."
+#~ msgstr "Höjden på huvudfönstret."
+
+#~ msgid "The width of the main window."
+#~ msgstr "Bredden på huvudfönstret."
+
+#~ msgid "Window fullscreened"
+#~ msgstr "Fönster i helskärm"
+
+#~ msgid "Window height"
+#~ msgstr "Fönsterhöjd"
+
+#~ msgid "Window maximized"
+#~ msgstr "Fönster maximerat"
+
+#~ msgid "Window width"
+#~ msgstr "Fönsterbredd"
+
+#~ msgid "<b>Local Player</b>"
+#~ msgstr "<b>Lokal spelare</b>"
+
+#~ msgid "Accept challenges"
+#~ msgstr "Acceptera utmaningar"
+
+#~ msgid "_Type:"
+#~ msgstr "_Typ:"
+
+#~ msgid "_Join Game"
+#~ msgstr "_Gå med i spel"
+
+#~ msgid "Height of the main window"
+#~ msgstr "Höjden på huvudfönstret"
+
+#~ msgid "The height of the main window, in pixels, at start-up."
+#~ msgstr "Höjden på spelfönstret, i bildpunkter, vid uppstart."
+
+#~ msgid "The width of the main window, in pixels, at start-up."
+#~ msgstr "Bredden på spelfönstret, i bildpunkter, vid uppstart."
+
+#~ msgid "Width of the main window"
+#~ msgstr "Bredden på huvudfönstret"
+
+#~ msgid "Height of the GNibbles window"
+#~ msgstr "Höjd på GNibbles-fönstret"
+
+#~ msgid ""
+#~ "Height of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Höjd på GNibbles-fönstret. Används för att återställa fönsterstorleken "
+#~ "mellan sessioner."
+
+#~ msgid "Width of the GNibbles window"
+#~ msgstr "Bredd på GNibbles-fönstret"
+
+#~ msgid ""
+#~ "Width of the GNibbles window, used to restore the window size between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Bredd på GNibbles-fönstret. Används för att återställa fönsterstorleken "
+#~ "mellan sessioner."
+
+#~ msgid "You have run out of safe moves - the robots have won!"
+#~ msgstr "Du har slut på säkra drag - robotarna har vunnit!"
+
+#~ msgid "GNOME Sudoku; a logic puzzle"
+#~ msgstr "GNOME Sudoku; ett logiskt pussel"
+
+#~ msgid ""
+#~ "The height of the playing window in pixels. At minimum it should be 240."
+#~ msgstr "Höjden på spelfönstret i bildpunkter. Den bör minst vara 240."
+
+#~ msgid ""
+#~ "The width of the playing window in pixels. At minimum it should be 320."
+#~ msgstr "Bredden på spelfönstret i bildpunkter. Den bör minst vara 320."
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Den begärda höjden på huvudfönstret i bildpunkter. Om den inte är "
+#~ "tillräckligt stor kommer den att ignoreras."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. If this isn't big "
+#~ "enough it will be ignored."
+#~ msgstr ""
+#~ "Den begärda bredden på huvudfönstret i bildpunkter. Om den inte är "
+#~ "tillräckligt stor kommer den att ignoreras."
+
+#~ msgid "There was an error accessing GConf: %s"
+#~ msgstr "Ett fel uppstod vid åtkomst av GConf: %s"
+
+#~ msgid "The default configuration values could not be retrieved correctly."
+#~ msgstr "Standardkonfigurationsvärdena kunde inte hämtas korrekt."
+
+#~ msgid ""
+#~ "Please check your GConf configuration, specifically that the schemas have "
+#~ "been installed correctly."
+#~ msgstr ""
+#~ "Kontrollera din GConf-konfiguration, och speciellt att schemafilerna är "
+#~ "korrekt installerade."
+
+#~ msgid ""
+#~ "The requested height of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 200 pixels high."
+#~ msgstr ""
+#~ "Den begärda höjden på huvudfönstret i bildpunkter. Observera att "
+#~ "widgetarna som fönstret innehåller är minst 200 bildpunkter höga."
+
+#~ msgid ""
+#~ "The requested width of the main window in pixels. Note that the widgets "
+#~ "the window contains are at least 320 pixels wide."
+#~ msgstr ""
+#~ "Den begärda bredden på huvudfönstret i bildpunkter. Observera att "
+#~ "widgetarna som fönstret innehåller är minst 320 bildpunkter breda."
+
+#~ msgid "The window height"
+#~ msgstr "Fönsterhöjden"
+
+#~ msgid "The window width"
+#~ msgstr "Fönsterbredden"
+
+#~ msgid ""
+#~ "A comma seperated list of recently played games. The filenames are stored "
+#~ "here, not the actual game name."
+#~ msgstr ""
+#~ "En kommaseparerad lista över senaste spelade spel. Filnamnen lagras här, "
+#~ "inte de faktiska spelnamnen."
+
+#~ msgid ""
+#~ "A scheme exception occurred and we were unable to create a temporary file "
+#~ "to report it:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Ett schemaundantag inträffade och vi kunde inte skapa en temporärfil för "
+#~ "att rapportera den:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Congratulations!!!"
+#~ msgstr "Gratulerar!!!"
+
+#~ msgid "You have won."
+#~ msgstr "Du har vunnit."
+
+#~ msgid ""
+#~ "The game is over.\n"
+#~ "No hints are available"
+#~ msgstr ""
+#~ "Spelet är slut.\n"
+#~ "Du kan inte få några tips."
+
+#~ msgid "Move %s %s."
+#~ msgstr "Flytta %s %s."
+
+#~ msgid ""
+#~ "This game uses a deprecated hint method (case 3).\n"
+#~ "Please file a bug at http://bugzilla.gnome.org including this message "
+#~ "and\n"
+#~ "the name of the game you were playing (look in the title bar if you \n"
+#~ "aren't sure)."
+#~ msgstr ""
+#~ "Detta spel använder en föråldrad tipsmetod (fall 3).\n"
+#~ "Rapportera ett fel på http://bugzilla.gnome.org och inkludera det här\n"
+#~ "meddelandet samt namnet på spelet som du spelade (titta i titellisten om\n"
+#~ "du inte är säker)."
+
+#~ msgid "AisleRiot Cards"
+#~ msgstr "AisleRiot-kort"
+
+#~ msgid "_Cards..."
+#~ msgstr "_Kort..."
+
+#~ msgid "Aisleriot"
+#~ msgstr "Aisleriot"
+
+#~ msgid "<b>Time</b>"
+#~ msgstr "<b>Tid</b>"
+
+#~ msgid "<b>Wins</b>"
+#~ msgstr "<b>Vinster</b>"
+
+#~ msgid "_Enter custom game"
+#~ msgstr "_Mata in anpassat spel"
+
+#~ msgid ""
+#~ "Enter new puzzle by hand (use this to copy a puzzle from another source)."
+#~ msgstr ""
+#~ "Ange nytt pussel för hand (använd den här för att kopiera ett pussel från "
+#~ "en annan källa)."
+
+#~ msgid "_Resume old game"
+#~ msgstr "_Återuppta gammalt spel"
+
+#~ msgid "Resume a previous saved game."
+#~ msgstr "Återuppta ett tidigare sparat spel."
+
+#~ msgid "_Black background"
+#~ msgstr "_Svart bakgrund"
+
+#~ msgid ""
+#~ "Background of game is black; otherwise, the background will follow your "
+#~ "theme colors."
+#~ msgstr ""
+#~ "Bakgrund för spelet är svart; om inte, kommer bakgrunden att följa dina "
+#~ "temafärger."
+
+#~ msgid "Image rendering failed."
+#~ msgstr "Bildrendering misslyckades."
+
+#~ msgid "Sorry!"
+#~ msgstr "Tyvärr!"
+
+#~ msgid "Galeon - New"
+#~ msgstr "Galeon - Nytt"
+
+#~ msgid "Galeon - Existing"
+#~ msgstr "Galeon - Existerande"
+
+#~ msgid "Gnome URL Handler"
+#~ msgstr "Gnome url-hanterare"
+
+#~ msgid "Konqueror - New"
+#~ msgstr "Konqueror - Nytt"
+
+#~ msgid "Konqueror - Existing"
+#~ msgstr "Konqueror - Existerande"
+
+#~ msgid "Lynx"
+#~ msgstr "Lynx"
+
+#~ msgid "Mozilla - New"
+#~ msgstr "Mozilla - Nytt"
+
+#~ msgid "Mozilla - Existing"
+#~ msgstr "Mozilla - Existerande"
+
+#~ msgid "Netscape - New"
+#~ msgstr "Netscape - Nytt"
+
+#~ msgid "Netscape - Existing"
+#~ msgstr "Netscape - Existerande"
+
+#~ msgid "Opera - New"
+#~ msgstr "Opera - Nytt"
+
+#~ msgid "Opera - Existing"
+#~ msgstr "Opera - Existerande"
+
+#~ msgid "Firefox - New"
+#~ msgstr "Firefox - Nytt"
+
+#~ msgid "Firefox - Existing"
+#~ msgstr "Firefox - Existerande"
+
+#~ msgid ""
+#~ "GGZ Gaming Zone help needs a browser to be configured.\n"
+#~ "The configuration dialog will be invoked now."
+#~ msgstr ""
+#~ "Hjälp för GGZ Gaming Zone behöver ha en konfigurerad webbläsare.\n"
+#~ "Konfigurationsdialogrutan kommer nu att anropas."
+
+#~ msgid ""
+#~ "Inline game help is not implemented yet. Help\n"
+#~ "is on our website. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Hjälp inne i spelen är ännu inte implementerat.\n"
+#~ "Hjälp finns på vår webbplats. Om\n"
+#~ "du vill hjälpa till ska du bege dig till\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Client Version:14 %s"
+#~ msgstr "Client version:14 %s"
+
+#~ msgid "GTK+ Version:14 %d.%d.%d\n"
+#~ msgstr "GTK+ version:14 %d.%d.%d\n"
+
+#~ msgid "Copyright"
+#~ msgstr "Copyright"
+
+#~ msgid "GGZ Help"
+#~ msgstr "GGZ-hjälp"
+
+#~ msgid "Game Help"
+#~ msgstr "Spelhjälp"
+
+#~ msgid "Goto Web"
+#~ msgstr "Gå till webb"
+
+#~ msgid "Browser to launch URLs with:"
+#~ msgstr "Webbläsare att start url:er med:"
+
+#~ msgid "Bonus"
+#~ msgstr "Bonus"
+
+#~ msgid "Bonus Appears"
+#~ msgstr "Bonus dyker upp"
+
+#~ msgid "Eat Bonus"
+#~ msgstr "Ätbonus"
+
+#~ msgid "Extra Life"
+#~ msgstr "Extraliv"
+
+#~ msgid "Worm Death"
+#~ msgstr "Maskdöd"
+
+#~ msgid "Worm Reverse"
+#~ msgstr "Backande mask"
+
+#~ msgid "Worm Teleport"
+#~ msgstr "Maskteleport"
+
+#~ msgid "Bad Move"
+#~ msgstr "Dålig förflyttning"
+
+#~ msgid "Level Complete"
+#~ msgstr "Nivån färdig"
+
+#~ msgid "Player Dead"
+#~ msgstr "Spelaren död"
+
+#~ msgid "Player Teleport"
+#~ msgstr "Spelarteleport"
+
+#~ msgid "Robot has been Splatted!"
+#~ msgstr "Robot har krossats!"
+
+#~ msgid "Victory!!"
+#~ msgstr "Seger!!"
+
+#~ msgid "_File"
+#~ msgstr "_Arkiv"
+
+#~ msgid "Game over"
+#~ msgstr "Spelet är över"
+
+#~ msgid "Piece flipping"
+#~ msgstr "Stenvändning"
+
+#~ msgid "Network game mode"
+#~ msgstr "Nätverksspelsläge"
+
+#~ msgid "The game server"
+#~ msgstr "Spelservern"
+
+#~ msgid "The identifier for the game"
+#~ msgstr "Identifieraren för spelet"
+
+#~ msgid ""
+#~ "The mode of network game to use. 1 = Server, 2 = LAN Host, 3 = LAN Client."
+#~ msgstr ""
+#~ "Läget för nätverksspel som ska användas. 1 = server, 2 = värd på lokalt "
+#~ "nätverk, 3 = klient på lokalt nätverk."
+
+#~ msgid "The player's nickname"
+#~ msgstr "Spelarens smeknamn"
+
+#~ msgid "The player's nickname."
+#~ msgstr "Spelarens smeknamn."
+
+#~ msgid ""
+#~ "This string identifies the default game to connect to or create "
+#~ "(depending on mode)."
+#~ msgstr ""
+#~ "Denna sträng identifierar det standardspel som ska anslutas till eller "
+#~ "skapas (beroende på läge)."
+
+#~ msgid ""
+#~ "When using server mode, which game server to contact. This accepts the "
+#~ "usual hostname or dotted quad notation."
+#~ msgstr ""
+#~ "Vilken spelserver som ska kontaktas då serverläge används. Detta godtar "
+#~ "den vanliga värdnamnsnotationen eller den vanliga notationen med fyra "
+#~ "sifferpar med punkt imellan."
+
+#~ msgid "Checkmate, %s wins."
+#~ msgstr "Schack matt, %s vinner."
+
+# Osäker.
+#~ msgid "Spider One Suit"
+#~ msgstr "Enfärgsspindeln"
+
+# Osäker.
+#~ msgid "Spider Two Suit"
+#~ msgstr "Tvåfärgsspindeln"
+
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Daniel Nylander\n"
+#~ "Christian Rose\n"
+#~ "Martin Norbäck\n"
+#~ "Andreas Hydén\n"
+#~ "Andreas Persenius\n"
+#~ "\n"
+#~ "Skicka synpunkter på översättningen till\n"
+#~ "tp-sv@listor.tp-sv.se"
+
+#~ msgid "localhost"
+#~ msgstr "localhost"
+
+#~ msgid "5688"
+#~ msgstr "5688"
+
+# I brist på annat...
+#, fuzzy
+#~ msgid "Upgrage Game"
+#~ msgstr "Bagarspel"
+
+#~ msgid "Goto Web Site"
+#~ msgstr "Gå till webbplats"
+
+#~ msgid "<b>Black Player</b>"
+#~ msgstr "<b>Svart spelare</b>"
+
+#~ msgid "<b>Game to Join</b>"
+#~ msgstr "<b>Spel att gå med i</b>"
+
+#~ msgid "<b>White Player</b>"
+#~ msgstr "<b>Vit spelare</b>"
+
+#~ msgid "Di_fficulty:"
+#~ msgstr "Svåri_ghetsgrad:"
+
+#~ msgid "Find Servers"
+#~ msgstr "Hitta servrar"
+
+#~ msgid "Local chess player"
+#~ msgstr "Lokal schackspelare"
+
+#~ msgid "Na_me:"
+#~ msgstr "Na_mn:"
+
+#~ msgid "Servers:"
+#~ msgstr "Servrar:"
+
+#~ msgid "The hostname/IP address to search for servers on"
+#~ msgstr "Värdnamnet/IP-adressen att leta efter servrar på"
+
+#~ msgid "Typ_e:"
+#~ msgstr "Ty_p:"
+
+#~ msgid "_Name:"
+#~ msgstr "_Namn:"
+
+#~ msgid "Waiting For Players"
+#~ msgstr "Väntar på spelare"
+
+#~ msgid "_Black player:"
+#~ msgstr "_Svart spelare:"
+
+#~ msgid "_Ready"
+#~ msgstr "_Redo"
+
+#~ msgid "_White player:"
+#~ msgstr "_Vit spelare:"
+
+#~ msgid "Copyright (c) 2005,2006, Thomas M. Hinkle. GNU GPL"
+#~ msgstr "Copyright © 2005,2006, Thomas M. Hinkle. GNU GPL"
+
+#~ msgid "_High Scores"
+#~ msgstr "_Poänglista"
+
+#~ msgid ""
+#~ "<span size=\"large\" style=\"italic\" weight=\"bold\">You win!</span>"
+#~ msgstr ""
+#~ "<span size=\"large\" style=\"italic\" weight=\"bold\">Du vann!</span>"
+
+#~ msgid "Copyright (c) 2005, Thomas M. Hinkle. GNU GPL"
+#~ msgstr "Copyright (c) 2005, Thomas M. Hinkle. GNU GPL"
+
+#, fuzzy
+#~ msgid "<b>Chess Pieces</b>"
+#~ msgstr "<b>Vinster</b>"
+
+#, fuzzy
+#~ msgid "<b>Initial Game</b>"
+#~ msgstr "<b>Tid</b>"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafik"
+
+#~ msgid "Models:"
+#~ msgstr "Modeller:"
+
+#, fuzzy
+#~ msgid "No game"
+#~ msgstr "Namn"
+
+#~ msgid "Quality:"
+#~ msgstr "Kvalitet:"
+
+#, fuzzy
+#~ msgid "Start with unfinished games"
+#~ msgstr "Starta ett nytt spel"
+
+#, fuzzy
+#~ msgid "Startup"
+#~ msgstr "Status"
+
+#~ msgid "Set the state of the board at start-up."
+#~ msgstr "Ställ in tillståndet för brädet vid uppstart."
+
+#~ msgid "STATE"
+#~ msgstr "TILLSTÅND"
+
+#~ msgid "Set whose turn it is."
+#~ msgstr "Ställ in vems tur det är."
+
+#~ msgid "1 (Light) or 2 (Dark)"
+#~ msgstr "1 (Ljus) eller 2 (Mörk)"
+
+#~ msgid "Based on code from Iagno by Ian Peters"
+#~ msgstr "Baserad på kod från Iagno av Ian Peters"
+
+#~ msgid "Ataxx"
+#~ msgstr "Ataxx"
+
+#~ msgid "A disk-flipping game where you attempt to dominate the board."
+#~ msgstr "Ett brickvändningsspel där du försöker dominera brädet."
+
+#~ msgid "Dominate the board in a modern variation of Reversi"
+#~ msgstr "Dominera brädet i en modern variant av Othello"
+
+#~ msgid "Level of black player"
+#~ msgstr "Nivå på svart spelare"
+
+#~ msgid "The name of the theme to use."
+#~ msgstr "Namnet för temat att använda."
+
+#~ msgid "Tileset (obsolete)"
+#~ msgstr "Bricksamling (föråldrad)"
+
+#~ msgid "Tileset to use (obsolete)."
+#~ msgstr "Bricksamling att använda (föråldrad)."
+
+#~ msgid ""
+#~ "Zero corresponds to no animations, one is partial animations, two is "
+#~ "complete animations."
+#~ msgstr ""
+#~ "Noll motsvarar inga animationer, en är delvisa animationer, två är "
+#~ "fullständiga animationer."
+
+#~ msgid "Squares and Diamonds"
+#~ msgstr "Ruter och diamanter"
+
+#~ msgid "Ataxx Preferences"
+#~ msgstr "Inställningar för Ataxx"
+
+#~ msgid "_Quick moves"
+#~ msgstr "Sna_bba drag"
+
+#~ msgid "Shortens the time a computer waits before doing a move"
+#~ msgstr "Kortar ned tiden som en dator väntar innan ett drag görs"
+
+#~ msgid "Very easy"
+#~ msgstr "Mycket lätt"
+
+#~ msgid "gataxx|Easy"
+#~ msgstr "Lätt"
+
+#~ msgid "gataxx|Medium"
+#~ msgstr "Mellan"
+
+#~ msgid "Flip the pieces with some visual effects"
+#~ msgstr "Vänd pjäserna med en del visuella effekter"
+
+#~ msgid "The appearance of the pieces"
+#~ msgstr "Utseendet på pjäserna"
+
+#~ msgid "%s..."
+#~ msgstr "%s..."
+
+#~ msgid "Invalid game data"
+#~ msgstr "Ogiltiga speldata"
+
+#~ msgid "Peer introduction complete"
+#~ msgstr "Motståndarintroduktion färdig"
+
+#~ msgid "New game ready to be started"
+#~ msgstr "Nytt spel redo att startas"
+
+#~ msgid "Iagno server to use"
+#~ msgstr "Iagno-server att använda"
+
+#~ msgid "Invalid game data (set_peer)"
+#~ msgstr "Ogiltiga speldata (set_peer)"
+
+#~ msgid "Invalid game data (move)"
+#~ msgstr "Ogiltiga speldata (drag)"
+
+#~ msgid "Select a nickname and connection method then click Connect."
+#~ msgstr "Välj ett smeknamn och anslutningsmetod och klicka sedan på Anslut."
+
+#~ msgid "Host local game"
+#~ msgstr "Agera värd för lokalt spel"
+
+#~ msgid "Identification"
+#~ msgstr "Identifikation"
+
+#~ msgid "_Nickname:"
+#~ msgstr "Smek_namn:"
+
+#~ msgid "Please supply a nickname."
+#~ msgstr "Ange ett smeknamn."
+
+#~ msgid "No local game selected."
+#~ msgstr "Inget lokalt spel har valts."
+
+#~ msgid "A new gnome games server was successfully started."
+#~ msgstr "En ny gnome-games-server startades utan problem."
+
+#~ msgid "Network initialization complete."
+#~ msgstr "Nätverksinitiering klar."
+
+#~ msgid "Network shutdown in progress."
+#~ msgstr "Nätverksavstängning pågår."
+
+#~ msgid "The remote player disconnected"
+#~ msgstr "Fjärrspelaren kopplade ifrån"
+
+#~ msgid "Error occurred during connect attempt."
+#~ msgstr "Fel uppstod under anslutningsförsök."
+
+#~ msgid "Connection succeeded, waiting for opponent"
+#~ msgstr "Anslutningen lyckades, väntar på motståndare"
+
+#~ msgid "Error occurred during write."
+#~ msgstr "Fel uppstod vid skrivning."
+
+#~ msgid "Cleaning up connection"
+#~ msgstr "Städar upp anslutning"
+
+#~ msgid "Connection in progress..."
+#~ msgstr "Anslutning pågår..."
+
+#~ msgid "No game server defined"
+#~ msgstr "Ingen spelserver definierad"
+
+#~ msgid ""
+#~ "Local Area Network game could not be started. \n"
+#~ "Try running mDNSResponder."
+#~ msgstr ""
+#~ "Lokalt nätverksspel kunde inte startas.\n"
+#~ "Prova att köra mDNSResponder."
+
+#~ msgid "Compete to dominate the board in a Reversi-like game"
+#~ msgstr "Tävla om att dominera brädet i ett Reversi-liknande spel"
+
+#~ msgid "Play a puzzle game matching tiles together"
+#~ msgstr "Spela ett pusselspel där bitar ska passas ihop"
+
+#~ msgid "Solve puzzles by sliding blocks"
+#~ msgstr "Lös pussel genom att glida block"
+
+#~ msgid "Play a game of Reversi"
+#~ msgstr "Spela ett Reversi-spel"
+
+#~ msgid "Remove groups of balls to try and clear the screen"
+#~ msgstr "Försök tömma skärmen genom att ta bort grupper med bollar"
+
+#~ msgid "Open Game"
+#~ msgstr "Öppna spel"

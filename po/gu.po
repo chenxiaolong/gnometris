@@ -1,0 +1,7047 @@
+# translation of gnome-games.HEAD.gu.po to Gujarati
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Ankit Patel <ankit@redhat.com>, 2005, 2007, 2008.
+# Sweta Kothari <swkothar@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games.HEAD.gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"PO-Revision-Date: 2009-02-18 15:39+0530\n"
+"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../gnometris/field-noclutter.cpp:243
+msgid "Paused"
+msgstr "અટકેલું"
+
+#: ../gnometris/field-noclutter.cpp:245
+msgid "Game Over"
+msgstr "રમત પૂરી"
+
+# libgnomeui/gnome-file-entry.c:241
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
+#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
+#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+msgid "Gnometris"
+msgstr "જીનોમટ્રીસ"
+
+#: ../gnometris/gnometris.desktop.in.in.h:2
+msgid "Fit falling blocks together"
+msgstr "નીચે પડતા ઘનને જોડે બેસાડો"
+
+#: ../gnometris/gnometris.schemas.in.h:1
+msgid "Image to use for drawing blocks"
+msgstr "ઘન દોરવા માટે વાપરવાનું ચિત્ર"
+
+#: ../gnometris/gnometris.schemas.in.h:2
+msgid "Image to use for drawing blocks."
+msgstr "ઘન દોરવા માટે વાપરવાનું ચિત્ર."
+
+#: ../gnometris/gnometris.schemas.in.h:3
+msgid "The theme used for rendering the blocks"
+msgstr "બ્લોકને રેન્ડર કરવા માટે વપરાતી થીમનું નામ"
+
+#: ../gnometris/gnometris.schemas.in.h:4
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "બ્લોક અને પાશ્વ ભાગને રેન્ડર કરવા માટે વપરાતી થીમનું નામ."
+
+#: ../gnometris/gnometris.schemas.in.h:5
+msgid "Level to start with"
+msgstr "શરુ કરવા માટેનુ સ્તર"
+
+# libgnomeui/gnome-appbar.c:771
+#: ../gnometris/gnometris.schemas.in.h:6
+msgid "Level to start with."
+msgstr "શરુ કરવા માટેનુ સ્તર."
+
+#: ../gnometris/gnometris.schemas.in.h:7
+msgid "Whether to use the background image"
+msgstr "શું પાશ્વ ભાગનું ચિત્ર વાપરવું કે નહિં"
+
+#: ../gnometris/gnometris.schemas.in.h:8
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr "આ શું પાશ્વ ભાગનું ચિત્ર પાશ્વ ભાગના રંગની ઉપર દોરવું કે નહિં તે પસંદ કરે છે."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-druid-page-standard.c:170
+#: ../gnometris/gnometris.schemas.in.h:9
+msgid "The background color"
+msgstr "પાશ્વ ભાગનો રંગ"
+
+#: ../gnometris/gnometris.schemas.in.h:10
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "પાશ્વ ભાગનો રંગ, gdk_color_parse બંધારણમાં સમજે છે."
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:349
+#: ../gnometris/gnometris.schemas.in.h:11
+msgid "Whether to preview the next block"
+msgstr "કે પછી ઘનને પહેલેથી જોવું કે નહિ"
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:349
+#: ../gnometris/gnometris.schemas.in.h:12
+msgid "Whether to preview the next block."
+msgstr "કે પછી ઘનને પહેલેથી જોવું કે નહિ."
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:349
+#: ../gnometris/gnometris.schemas.in.h:13
+msgid "Whether to provide a target"
+msgstr "લક્ષ્ય પૂરો પાડવો કે નહિં"
+
+#: ../gnometris/gnometris.schemas.in.h:14
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr "બ્લોક ક્યાં રહેશે તેની ગ્રાફિકવાળી રજૂઆત પૂરી પાડવી કે નહિં."
+
+#: ../gnometris/gnometris.schemas.in.h:15
+msgid "Whether to give blocks random colors"
+msgstr "કે પછી ઘનને ગમે તે રંગ આપવો"
+
+#: ../gnometris/gnometris.schemas.in.h:16
+msgid "Whether to give blocks random colors."
+msgstr "કે પછી ઘનને ગમે તે રંગ આપવો."
+
+#: ../gnometris/gnometris.schemas.in.h:17
+msgid "Whether to rotate counter clock wise"
+msgstr "કે પછી ઘડિયાળની વિરુધ્ધ દિશામાં ફેરવવું"
+
+#: ../gnometris/gnometris.schemas.in.h:18
+msgid "Whether to rotate counter clock wise."
+msgstr "કે પછી ઘડિયાળની વિરુધ્ધ દિશામાં ફેરવવું."
+
+#: ../gnometris/gnometris.schemas.in.h:19
+msgid "The number of rows to fill"
+msgstr "ભરવાની હરોળોની સંખ્યા"
+
+#: ../gnometris/gnometris.schemas.in.h:20
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr "રમતની શરુઆતમાં ગમે તેટલા ઘનથી ભરેલા હરોળોની સંખ્યા."
+
+#: ../gnometris/gnometris.schemas.in.h:21
+msgid "The density of filled rows"
+msgstr "ભરેલી હરોળની ઘનતા"
+
+#: ../gnometris/gnometris.schemas.in.h:22
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"રમતની શરુઆત વખતે હરોળમાં ગોઠવેલા ઘનની ઘનતા. તેની કિંમત ૦ (એકપણ ઘન નહિ) અને ૧૦ (ઘનથી "
+"ભરેલી આખી હરોળ માટે)."
+
+#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
+msgid "Move left"
+msgstr "ડાબે ખસો"
+
+#: ../gnometris/gnometris.schemas.in.h:24
+msgid "Key press to move left."
+msgstr "ડાબે ખસેડવા માટે કી નું દબાણ."
+
+#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
+msgid "Move right"
+msgstr "જમણે ખસો"
+
+#: ../gnometris/gnometris.schemas.in.h:26
+msgid "Key press to move right."
+msgstr "જમણે ખસેડવા માટે કી નું દબાણ."
+
+#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
+msgid "Move down"
+msgstr "નીચે ખસો"
+
+#: ../gnometris/gnometris.schemas.in.h:28
+msgid "Key press to move down."
+msgstr "નીચે જવા માટે કી દબાવો."
+
+#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
+msgid "Drop"
+msgstr "છોડી દો"
+
+#: ../gnometris/gnometris.schemas.in.h:30
+msgid "Key press to drop."
+msgstr "છોડી દેવા માટે કી દબાવો."
+
+#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
+msgid "Rotate"
+msgstr "ફેરવો"
+
+#: ../gnometris/gnometris.schemas.in.h:32
+msgid "Key press to rotate."
+msgstr "ફેરવવા માટે કી દેબવવા."
+
+#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
+msgid "Pause"
+msgstr "અટકાવો"
+
+#: ../gnometris/gnometris.schemas.in.h:34
+msgid "Key press to pause."
+msgstr "અટકાવવા માટે કી દબાવો."
+
+#: ../gnometris/main.cpp:50
+msgid "Set starting level (1 or greater)"
+msgstr "શરુઆતનું સ્તર નક્કી કરો (૧ અથવા મોટું)"
+
+#: ../gnometris/main.cpp:50
+msgid "LEVEL"
+msgstr "સ્તર"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:343
+#: ../gnometris/renderer-noclutter.cpp:31
+msgid "Plain"
+msgstr "સપાટ"
+
+#: ../gnometris/renderer-noclutter.cpp:32
+msgid "Joined"
+msgstr "જોડાયેલ"
+
+#: ../gnometris/renderer-noclutter.cpp:33
+msgid "Tango Flat"
+msgstr "ટેન્ગો સપાટ"
+
+#: ../gnometris/renderer-noclutter.cpp:34
+msgid "Tango Shaded"
+msgstr "ટેન્ગો છાયાવાળું"
+
+#: ../gnometris/scoreframe.cpp:47
+msgid "Score:"
+msgstr "ગુણ:"
+
+#: ../gnometris/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "લીટીઓ:"
+
+#: ../gnometris/scoreframe.cpp:68
+msgid "Level:"
+msgstr "સ્તર:"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:95 libgnomeui/gnome-app-helper.h:534
+#: ../gnometris/tetris.cpp:119
+msgid "_Game"
+msgstr "રમત (_G)"
+
+#: ../gnometris/tetris.cpp:120
+msgid "_Settings"
+msgstr "સુયોજનો (_S)"
+
+#: ../gnometris/tetris.cpp:121
+msgid "_Help"
+msgstr "મદદ (_H)"
+
+#: ../gnometris/tetris.cpp:611
+msgid "Gnometris Preferences"
+msgstr "Gnometris પસંદગીઓ"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:95 libgnomeui/gnome-app-helper.h:534
+#: ../gnometris/tetris.cpp:632
+msgid "Game"
+msgstr "રમત"
+
+#: ../gnometris/tetris.cpp:635
+msgid "Setup"
+msgstr "ગોઠવણ"
+
+#. pre-filled rows
+#: ../gnometris/tetris.cpp:641
+msgid "_Number of pre-filled rows:"
+msgstr "પહેલેથી ભરેલી હરોળોની સંખ્યા (_N):"
+
+#. pre-filled rows density
+#: ../gnometris/tetris.cpp:660
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "પહેલેથી ભરેલી હરોળમાં ઘનની ઘનતા (_D):"
+
+# gnome-session/gsm-client-row.c:34
+#. starting level
+#: ../gnometris/tetris.cpp:679
+msgid "_Starting level:"
+msgstr "શરૂઆતનું સ્તર (_S):"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+#: ../gnometris/tetris.cpp:700
+msgid "Operation"
+msgstr "પ્રક્રિયા"
+
+# libgnome/gnome-program.c:578
+#: ../gnometris/tetris.cpp:705
+msgid "_Enable sounds"
+msgstr "અવાજ સક્રિય કરો (_E)"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-font-picker.c:192
+#: ../gnometris/tetris.cpp:714
+msgid "_Preview next block"
+msgstr "આગળના બ્લોકનું પૂર્વદર્શન (_P)"
+
+#: ../gnometris/tetris.cpp:723
+msgid "_Use random block colors"
+msgstr "રેન્ડમ બ્લોક રંગો વાપરો (_U)"
+
+#: ../gnometris/tetris.cpp:734
+msgid "_Rotate blocks counterclockwise"
+msgstr "બ્લોક વિષમઘડી દિશામાં ફેરવો (_R)"
+
+#: ../gnometris/tetris.cpp:743
+msgid "Show _where the block will land"
+msgstr "બ્લોક ક્યાં રહેશે તે બતાવો (_w)"
+
+#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+msgid "Theme"
+msgstr "થીમ"
+
+#: ../gnometris/tetris.cpp:766
+msgid "Controls"
+msgstr "નિયંત્રકો"
+
+#: ../gnometris/tetris.cpp:769
+msgid "Keyboard Controls"
+msgstr "કીબોર્ડ નિયંત્રકો"
+
+#: ../gnometris/tetris.cpp:793
+msgid "Block Style"
+msgstr "બ્લોક શૈલી"
+
+#: ../gnometris/tetris.cpp:1384
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Gnometris is a part of GNOME Games."
+msgstr ""
+"પડતા ટુકડાઓને એકસાથે બેસાડવાની શાસ્ત્રિય રમત.\n"
+"\n"
+"Gnometris એ જીનોમ રમતોનો ભાગ છે."
+
+#: ../gnometris/tetris.cpp:1387
+msgid "GNOME Games web site"
+msgstr "જીનોમ રમતો વેબ સાઈટ"
+
+#: ../gnometris/tetris.cpp:1390
+msgid "translator-credits"
+msgstr "અંકિત પટેલ <ankit644@yahoo.com>, શ્ર્વેતા કોઠારી <swkothar@redhat.com>"
+
+# libgnomeui/gnome-file-entry.c:241
+#: ../gnometris/highscores.cpp:52
+msgid "Gnometris Scores"
+msgstr "Gnometris ગુણો"
+
+#: ../libgames-support/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "ફાઇલ એ યોગ્ય .desktop ફાઇલ નથી"
+
+#: ../libgames-support/eggdesktopfile.c:188
+#, fuzzy, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:958
+#, fuzzy, c-format
+msgid "Starting %s"
+msgstr "સુયોજનો (_S)"
+
+#: ../libgames-support/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "આદેશ વાક્ય પર કાર્યક્રમ એ દસ્તાવેજો ને સ્વીકારતા નથી"
+
+#: ../libgames-support/eggdesktopfile.c:1168
+#, fuzzy, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
+
+#: ../libgames-support/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "'Type=Link' ડેસ્કટોપ પ્રવેશ માં દસ્તાવેજ URIs ને પસાર કરી શકાતુ નથી"
+
+#: ../libgames-support/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libgames-support/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "સત્ર વ્યવસ્થાપક ને જોડવાનું નિષ્ક્રિય કરો"
+
+#: ../libgames-support/eggsmclient.c:228
+#, fuzzy
+msgid "Specify file containing saved configuration"
+msgstr "રમતના રુપરેખા સુયોજિત કરો"
+
+#: ../libgames-support/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "સત્ર વ્યવસ્થાપન ID ને સ્પષ્ટ કરો"
+
+#: ../libgames-support/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libgames-support/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "સત્ર વ્યવસ્થાપન વિકલ્પો:"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "સત્ર વ્યવસ્થાપન વિકલ્પો ને બતાવો"
+
+#: ../libgames-support/games-controls.c:48
+msgid "No key"
+msgstr "કોઈ કી નથી"
+
+#: ../libgames-support/games-controls.c:161
+msgid "<Press a Key>"
+msgstr "<Press a Key>"
+
+# libgnomevfs/gnome-vfs-result.c:137
+#: ../libgames-support/games-controls.c:332
+msgid "Unknown Command"
+msgstr "અજ્ઞાત આદેશ"
+
+#: ../libgames-support/games-help.c:56
+msgid "Unable to open help file"
+msgstr "મદદ ફાઇલને ખોલવામાં અસમર્થ"
+
+#: ../libgames-support/games-scores-dialog.c:114
+msgid "Time"
+msgstr "સમય"
+
+# libgnomeui/gnome-scores.c:94
+#. Note that this assumes the default style is plain.
+#: ../libgames-support/games-scores-dialog.c:119
+#: ../libgames-support/games-scores-dialog.c:546
+msgid "Score"
+msgstr "ગુણ"
+
+#. Translators: this is for a minutes, seconds time display.
+#: ../libgames-support/games-scores-dialog.c:277
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../libgames-support/games-scores-dialog.c:438
+msgid "New Game"
+msgstr "નવી રમત"
+
+# libgnome-desktop/gnome-ditem-edit.c:616
+# libgnome-desktop/gnome-ditem-edit.c:718
+#: ../libgames-support/games-scores-dialog.c:538
+msgid "Name"
+msgstr "નામ"
+
+#: ../libgames-support/games-stock.c:45
+msgid "View help for this game"
+msgstr "આ રમત માટે મદદ જુઓ"
+
+#: ../libgames-support/games-stock.c:46
+msgid "End the current game"
+msgstr "વર્તમાન રમતનો અંત કરો"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Toggle fullscreen mode"
+msgstr "સંપૂર્ણ સ્ક્રીન સ્થિતિ બદલો"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Get a hint for your next move"
+msgstr "તમારી આગલી ચાલ માટે સંકેત મેળવો"
+
+#: ../libgames-support/games-stock.c:49
+msgid "Leave fullscreen mode"
+msgstr "પૂર્ણસ્ક્રીન સ્થિતિ છોડી મૂકો"
+
+#: ../libgames-support/games-stock.c:50
+msgid "Start a new multiplayer network game"
+msgstr "નવી વિવિધખેલાડી નેટવર્ક રમત શરૂ કરો"
+
+#: ../libgames-support/games-stock.c:51
+msgid "End the current network game and return to network server"
+msgstr "વર્તમાન નેટવર્ક રમતનો અંત કરો અને નેટવર્ક સર્વર પર પાછા આવો"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Start a new game"
+msgstr "નવી રમત પસંદ કરો"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:253
+#: ../libgames-support/games-stock.c:53
+msgid "Pause the game"
+msgstr "રમત અટકાવો"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Show a list of players in the network game"
+msgstr "નેટવર્ક રમતમાં ખેલાડીઓની યાદી બતાવો"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Redo the undone move"
+msgstr "છેલ્લી રદ કરેલ ચાલી ફરી કરો"
+
+# libgnomeui/gnome-app-helper.c:258
+#: ../libgames-support/games-stock.c:56
+msgid "Restart the game"
+msgstr "રમતને ફરી ચાલુ કરો"
+
+#: ../libgames-support/games-stock.c:57
+msgid "Resume the paused game"
+msgstr "અટકાવાયેલ રમત ફરીથી શરૂ કરો"
+
+# libgnomeui/gnome-app-helper.c:280
+#: ../libgames-support/games-stock.c:58
+msgid "View the scores"
+msgstr "ગુણ જુઓ"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Undo the last move"
+msgstr "છેલ્લી ચાલ રદ કરો"
+
+# libgnomeui/gnome-app-helper.c:259
+#: ../libgames-support/games-stock.c:60
+msgid "About this game"
+msgstr "આ રમત વિશે"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Close this window"
+msgstr "આ વિન્ડો બંધ કરો"
+
+# libgnomeui/gnome-app-helper.c:254
+#: ../libgames-support/games-stock.c:62
+msgid "Configure the game"
+msgstr "રમત રૂપરેખાંકિત કરો"
+
+# libgnomeui/gnome-app-helper.c:259
+#: ../libgames-support/games-stock.c:63
+msgid "Quit this game"
+msgstr "આ રમત બંધ કરો"
+
+#: ../libgames-support/games-stock.c:295
+msgid "_Contents"
+msgstr "સમાવિષ્ટો (_C)"
+
+#: ../libgames-support/games-stock.c:296
+msgid "_Fullscreen"
+msgstr "સંપૂર્ણ સ્ક્રીન (_F)"
+
+#: ../libgames-support/games-stock.c:297
+msgid "_Hint"
+msgstr "ઈશારો (_H)"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:299
+msgid "_New"
+msgstr "નવું (_N)"
+
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../libgames-support/games-stock.c:301
+msgid "_New Game"
+msgstr "નવી રમત (_N)"
+
+#: ../libgames-support/games-stock.c:302
+msgid "_Redo Move"
+msgstr "ફરી ખસેડો (_R)"
+
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../libgames-support/games-stock.c:304
+msgid "_Reset"
+msgstr "ફરીથી સુયોજિત કરો (_R)"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:306
+msgid "_Restart"
+msgstr "ફરી શરુ કરો (_R)"
+
+#: ../libgames-support/games-stock.c:307
+msgid "_Undo Move"
+msgstr "ચાલ રદ કરો (_U)"
+
+#: ../libgames-support/games-stock.c:308
+msgid "_Leave Fullscreen"
+msgstr "સંપૂર્ણ સ્ક્રીન છોડો (_F)"
+
+#: ../libgames-support/games-stock.c:309
+msgid "Network _Game"
+msgstr "નેટવર્ક રમત (_G)"
+
+#: ../libgames-support/games-stock.c:310
+msgid "L_eave Game"
+msgstr "રમત છોડો (_e)"
+
+#: ../libgames-support/games-stock.c:311
+msgid "Player _List"
+msgstr "ખેલાડી યાદી (_L)"
+
+#: ../libgames-support/games-stock.c:312
+msgid "_Pause"
+msgstr "અટકાવો (_P)"
+
+#: ../libgames-support/games-stock.c:313
+msgid "Res_ume"
+msgstr "અટકાવેલ હતું ત્યાં ફરી શરૂ કરો (_R)"
+
+# libgnomeui/gnome-scores.c:94
+#: ../libgames-support/games-stock.c:314
+msgid "_Scores"
+msgstr "ગુણ (_S)"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:95 libgnomeui/gnome-app-helper.h:534
+#: ../libgames-support/games-stock.c:315
+msgid "_End Game"
+msgstr "રમત અંત કરો (_E)"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:366
+#, fuzzy, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+
+#: ../libgames-support/games-stock.c:371
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+
+#: ../libgames-support/games-stock.c:376
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Player Chat"
+#~ msgstr "ખેલાડી સંવાદ"
+
+#~ msgid "Occupied"
+#~ msgstr "ફાળવેલ"
+
+#~ msgid "Empty"
+#~ msgstr "ખાલી"
+
+#~ msgid "Bot"
+#~ msgstr "બોટ"
+
+#~ msgid "Reserved"
+#~ msgstr "આરક્ષિત"
+
+#~ msgid "Abandoned"
+#~ msgstr "પ્રતિબંધિત"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Spectator"
+#~ msgstr "દર્શક"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "પરિસ્થિતિ"
+
+#~ msgid "Player List"
+#~ msgstr "ખેલાડી યાદી"
+
+#~ msgid "Info"
+#~ msgstr "જાણ"
+
+#~ msgid "Boot player"
+#~ msgstr "બુટ પ્લેયર"
+
+#~ msgid "Sit here"
+#~ msgstr "અંહિ બેસો"
+
+#~ msgid "Move here"
+#~ msgstr "અંહિ ખસો"
+
+#~ msgid "Play with bot"
+#~ msgstr "બોટ સાથે રમો"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+#~ msgid "Drop reservation"
+#~ msgstr "આરક્ષણ છોડો"
+
+#~ msgid "Remove bot"
+#~ msgstr "બોટ દૂર કરો"
+
+#~ msgid "X Padding"
+#~ msgstr "X જગ્યાઓ છોડો"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "પહોળાઈની સોંપણીમાં ઉમેરવાની વધારાની જગ્યા."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "ઊંચાઈની સોંપણીમાં ઉમેરવાની વધારાની જગ્યા."
+
+#~ msgid "Width Multiple"
+#~ msgstr "પહોળાઈનો ગુણક"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "કયા અચળ ગુણકને પહોળાઈ તરીકે લેવો."
+
+#~ msgid "Height Multiple"
+#~ msgstr "ઊંચાઈનો ગુણક"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "કયા અચળ ગુણકને ઊંચાઈ તરીકે લેવો."
+
+#~ msgid "X align"
+#~ msgstr "X ગોઠવણી"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "આડી ગોઠવણી, ૦ (ડાબે) થી ૧ (જમણે)"
+
+#~ msgid "Y align"
+#~ msgstr "Y ગોઠવણી"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "ઊભી ગોઠવણી, ૦ (ઉપર) થી ૧ (નીચે)"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "છેલ્લે રમવામાં આવેલ રમતોની યાદી."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "શબ્દમાળાઓની યાદી કે જે ચાર ટપલોના સ્વરુપમાં આવે છેઃ  નામ, જીતે, કુલ રમાયેલી રમતો, "
+#~ "શ્રેષ્ઠ સમય (સેકન્ડોમાં) અને ખરાબ સમય (પણ સેકન્ડોમાં). નહિ રમાયેલી રમતોનું વર્ણન કરવું "
+#~ "જરુરી નથી."
+
+#~| msgid "Animation"
+#~ msgid "Animations"
+#~ msgstr "એનીમૅશનો"
+
+#~ msgid "Recently played games"
+#~ msgstr "છેલ્લે રમાયેલ રમતો"
+
+#~ msgid "Select the style of control"
+#~ msgstr "નિયંત્રકની શૈલી પસંદ કરો"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr "શું પત્તાઓ ખેંચવા કે સ્રોત પર ક્લિક કરીને અંતિમ મુકામ પર ક્લિક કરવાનું તે પસંદ કરો."
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~ msgid "Sound"
+#~ msgstr "ધ્વનિ"
+
+# libgnomeui/gnome-app-helper.c:259
+#~ msgid "Statistics of games played"
+#~ msgstr "રમાયેલી રમતની પરિસ્થિતી"
+
+#~ msgid "The game file to use"
+#~ msgstr "વાપરવા માટેની રમત ફાઇલ"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "પાનાઓ માટે માટે ફાઈલનું નામ ગ્રાફિક્સ સાથે."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "સોલિટેર રમવા માટેની યોજના ધરાવતી ફાઇલનું નામ."
+
+#~ msgid "Theme file name"
+#~ msgstr "થીમની ફાઇલનું નામ"
+
+#, fuzzy
+#~| msgid "Whether or not to use animation."
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "ઍનીમૅશન વાપરવુ કે નહિ."
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "બનાવનો અવાજ વગાડવો કે નહિ."
+
+#, fuzzy
+#~| msgid "Whether or not to show the toolbar"
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "સાધન દર્શાવતી પટ્ટી દર્શાવવી કે નહિ"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "સાધન દર્શાવતી પટ્ટી દર્શાવવી કે નહિ"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "FreeCell Solitaire"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "લોકપ્રિય ફ્રી સૅલ પત્તાની રમત રમો"
+
+#, fuzzy
+#~| msgid ""
+#~| "Aisleriot cannot load the file \"%s\". Please check your Aisleriot "
+#~| "installation."
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "Aisleriot ફાઈલ \"%s\" લાવી શકતું નથી. મહેરબાની કરીને તમારું Aisleriot સ્થાપન "
+#~ "ચકાસો."
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "એઈઝરલેટ તમે રમેલ છેલ્લી રમત શોધી શકતું નથી."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "આ સામાન્ય રીતે ત્યારે જ થાય છે જ્યારે તમે એઈઝરલેટની જૂની આવૃત્તિ રમો કે જેની પાસે તમે રમેલ "
+#~ "છેલ્લી રમત હોતી નથી. મૂળભૂત રમત, ક્લોન્ડીક, તેની જગ્યાએ શરુ થઈ ગઈ."
+
+# libgnomeprintui/gnome-font-dialog.c:793
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "આ રમતને હજુ સુધી ઇશારાનો આધાર મળ્યો નથી."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "%s ને %s પર ખસેડો."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "તમે %s માટે શોધી રહ્યા છો."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "આ રમત સંકેત આપવામાં અસમર્થ છે."
+
+#~ msgid "Could not show link"
+#~ msgstr "કડી બતાવી શક્યા નહિં"
+
+#~ msgid "Help file \"%s.%s\" not found"
+#~ msgstr "મદદ ફાઈલ \"%s.%s\" મળી નહિં"
+
+#~ msgid "Error"
+#~ msgstr "ભૂલ"
+
+#~| msgid "Could not show help for \"%s\""
+#~ msgid "Could not show help for “%s”"
+#~ msgstr "“%s” માટે મદદ બતાવી શક્યા નહિં"
+
+#~ msgid "Could not show Aisleriot help"
+#~ msgstr "Aisleriot મદદ બતાવી શક્યા નહિં"
+
+# libgnomeui/gnome-app-helper.c:254
+#~ msgid "Select the game type to play"
+#~ msgstr "રમવા માટેની રમતનો પ્રકાર પસંદ કરો"
+
+#~ msgid "NAME"
+#~ msgstr "નામ"
+
+# libgnomeui/gnome-app-helper.c:254
+#~ msgid "Select the game number"
+#~ msgstr "રમત નંબર પસંદ કરો"
+
+#~ msgid "NUMBER"
+#~ msgstr "સંખ્યા"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot Solitaire"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "ઘણી બધી અલગ સોલિટૅર રમત રમો"
+
+# libgnomevfs/gnome-vfs-result.c:137
+#~ msgid "Unknown color"
+#~ msgstr "અજાણ્યો રંગ"
+
+#~ msgid "Unknown suit"
+#~ msgstr "અજાણી પત્તાની જોડ"
+
+#~ msgid "Unknown value"
+#~ msgstr "અજાણી કિંમત"
+
+#~ msgid "ace"
+#~ msgstr "એક્કો"
+
+#~ msgid "black joker"
+#~ msgstr "કાળીનો જોકર"
+
+#~ msgid "clubs"
+#~ msgstr "ફૂલ્લી"
+
+#~ msgid "diamonds"
+#~ msgstr "ચરકટ"
+
+#~ msgid "eight"
+#~ msgstr "અઠ્ઠો"
+
+#~ msgid "five"
+#~ msgstr "પંજો"
+
+#~ msgid "four"
+#~ msgstr "ચોગ્ગો"
+
+#~ msgid "hearts"
+#~ msgstr "લાલ"
+
+#~ msgid "jack"
+#~ msgstr "ગુલામ"
+
+#~ msgid "king"
+#~ msgstr "રાજા"
+
+#~ msgid "nine"
+#~ msgstr "નવ્વો"
+
+#~ msgid "queen"
+#~ msgstr "રાણી"
+
+#~ msgid "red joker"
+#~ msgstr "લાલ જોકર"
+
+#~ msgid "seven"
+#~ msgstr "સત્તો"
+
+#~ msgid "six"
+#~ msgstr "છગ્ગો"
+
+#~ msgid "spades"
+#~ msgstr "કાળી"
+
+#~ msgid "ten"
+#~ msgstr "દસ્સો"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "ફૂલ્લીનો એક્કો"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "ચરકટનો એક્કો"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "લાલનો એક્કો"
+
+#~ msgid "the ace of spades"
+#~ msgstr "કાળીનો એક્કો"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "ફૂલ્લીનો અઠ્ઠો"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "ચરકટનો અઠ્ઠો"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "લાલનો અઠ્ઠો"
+
+#~ msgid "the eight of spades"
+#~ msgstr "કાળીનો અઠ્ઠો"
+
+#~ msgid "the five of clubs"
+#~ msgstr "ફૂલ્લીનો પંજો"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "ચરકટનો પંજો"
+
+#~ msgid "the five of hearts"
+#~ msgstr "લાલનો પંજો"
+
+#~ msgid "the five of spades"
+#~ msgstr "કાળીનો પંજો"
+
+#~ msgid "the four of clubs"
+#~ msgstr "ફૂલ્લીનો ચોગ્ગો"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "ચરકટનો ચોગ્ગો"
+
+#~ msgid "the four of hearts"
+#~ msgstr "લાલનો ચોગ્ગો"
+
+#~ msgid "the four of spades"
+#~ msgstr "કાળીનો ચોગ્ગો"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "ફૂલ્લીનો ગુલામ"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "ચરકટનો ગુલામ"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "લાલનો ચોગ્ગો"
+
+#~ msgid "the jack of spades"
+#~ msgstr "કાળીનો ચોગ્ગો"
+
+#~ msgid "the king of clubs"
+#~ msgstr "ફૂલ્લીનો રાજા"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "ચરકટનો રાજા"
+
+#~ msgid "the king of hearts"
+#~ msgstr "લાલનો રાજા"
+
+#~ msgid "the king of spades"
+#~ msgstr "કાળીનો રાજા"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "ફૂલ્લીનો નવ્વો"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "ચરકટનો નવ્વો"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "લાલનો નવ્વો"
+
+#~ msgid "the nine of spades"
+#~ msgstr "કાળીનો નવ્વો"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "ફૂલ્લીની રાણી"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "ચરકટની રાણી"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "લાલની રાણી"
+
+#~ msgid "the queen of spades"
+#~ msgstr "કાળીની રાણી"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "ફૂલ્લીનો સત્તો"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "ચરકટનો સત્તો"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "લાલનો સત્તો"
+
+#~ msgid "the seven of spades"
+#~ msgstr "કાળીનો સત્તો"
+
+#~ msgid "the six of clubs"
+#~ msgstr "ફૂલ્લીનો છગ્ગો"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "ચરકટનો છગ્ગો"
+
+#~ msgid "the six of hearts"
+#~ msgstr "લાલનો છગ્ગો"
+
+#~ msgid "the six of spades"
+#~ msgstr "કાળાનો છગ્ગો"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "ફૂલ્લીનો દસ્સો"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "ચરકટનો દસ્સો"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "લાલનો દસ્સો"
+
+#~ msgid "the ten of spades"
+#~ msgstr "કાળીનો દસ્સો"
+
+#~ msgid "the three of clubs"
+#~ msgstr "ફૂલ્લીની તીરી"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "ચરકટના તીરી"
+
+#~ msgid "the three of hearts"
+#~ msgstr "લાલની તીરી"
+
+#~ msgid "the three of spades"
+#~ msgstr "કાળીના તીરી"
+
+#~ msgid "the two of clubs"
+#~ msgstr "ફૂલ્લીની દૂરી"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "ચરકટના દૂરી"
+
+#~ msgid "the two of hearts"
+#~ msgstr "લાલની દૂરી"
+
+#~ msgid "the two of spades"
+#~ msgstr "કાળીની દૂરી"
+
+#~ msgid "the unknown card"
+#~ msgstr "અજાણ્યુ પત્તું"
+
+#~ msgid "three"
+#~ msgstr "તીરી"
+
+# libgnomeprintui/gnome-print-dialog.c:648
+#~ msgid "two"
+#~ msgstr "દૂરી"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gnome-print-paper.c:55
+#~ msgid "Wins:"
+#~ msgstr "જીત:"
+
+#~ msgid "Total:"
+#~ msgstr "કુલ:"
+
+#~ msgid "Percentage:"
+#~ msgstr "ટકાવારી:"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gnome-print-paper.c:55
+#~ msgid "Wins"
+#~ msgstr "જીત"
+
+#~ msgid "Best:"
+#~ msgstr "શ્રેષ્ઠ:"
+
+#~ msgid "Worst:"
+#~ msgstr "ખરાબ:"
+
+#~ msgid "Statistics"
+#~ msgstr "પરીસ્થિતી"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#, fuzzy
+#~| msgid "Scorpion"
+#~ msgid "Accordion"
+#~ msgstr "વૃશ્વિક"
+
+#~ msgid "Agnes"
+#~ msgstr "એગ્નેસ"
+
+#~ msgid "Athena"
+#~ msgstr "એથેના"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "આન્ટ મેરી"
+
+#~ msgid "Backbone"
+#~ msgstr "બેકબોન"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "બૅકર્સ ડઝન"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:253
+#~ msgid "Bakers Game"
+#~ msgstr "બૅકર્સની રમત"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Beleaguered Castle"
+
+#~ msgid "Block Ten"
+#~ msgstr "દસમો બ્લોક"
+
+#~ msgid "Bristol"
+#~ msgstr "બ્રિસ્ટલ"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-camera.icon.in.h:1
+# 48x48/emblems/emblem-camera.icon.in.h:1
+#~ msgid "Camelot"
+#~ msgstr "કૅમલૉટ"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties.c:179
+#~ msgid "Canfield"
+#~ msgstr "કૅનફીલ્ડ"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-camera.icon.in.h:1
+# 48x48/emblems/emblem-camera.icon.in.h:1
+#~ msgid "Carpet"
+#~ msgstr "કાર્પેટ"
+
+#~ msgid "Chessboard"
+#~ msgstr "શતરંજ રમવાનુ પાટિયુ"
+
+#~ msgid "Clock"
+#~ msgstr "ઘડિયાળ"
+
+#~ msgid "Cover"
+#~ msgstr "આવરણ"
+
+#~ msgid "Cruel"
+#~ msgstr "ક્રુએલ"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "હીરાની ખાણ"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-documents.icon.in.h:1
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#~ msgid "Doublets"
+#~ msgstr "જોડ"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "ગરુડની પાંખ"
+
+#~ msgid "Easthaven"
+#~ msgstr "ઇસ્ટહૈવન"
+
+#~ msgid "Eight Off"
+#~ msgstr "આઠ બંધ"
+
+#~ msgid "Elevator"
+#~ msgstr "ઍલીવૅટર"
+
+#~ msgid "Escalator"
+#~ msgstr "ઍસ્કેલૅટર"
+
+#~ msgid "First Law"
+#~ msgstr "પ્રથમ નિયમ"
+
+#~ msgid "Fortress"
+#~ msgstr "કિલ્લો"
+
+#~ msgid "Fortunes"
+#~ msgstr "સૌભાગ્ય"
+
+#, fuzzy
+#~| msgid "Thieves"
+#~ msgid "Forty Thieves"
+#~ msgstr "ચોરો"
+
+#~ msgid "Fourteen"
+#~ msgstr "ચૌદ"
+
+#~ msgid "Freecell"
+#~ msgstr "ફ્રી સૅલ"
+
+#~ msgid "Gaps"
+#~ msgstr "જગ્યાઓ"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "ગે ગોર્ડોન્સ"
+
+#~ msgid "Glenwood"
+#~ msgstr "ગ્લૅનવુડ"
+
+#~ msgid "Gold Mine"
+#~ msgstr "સોનાની ખાણ"
+
+#~ msgid "Golf"
+#~ msgstr "ગૉલ્ફ"
+
+#~ msgid "Gypsy"
+#~ msgstr "જિપ્સી"
+
+#~ msgid "Helsinki"
+#~ msgstr "હેલસિંકી"
+
+#~ msgid "Hopscotch"
+#~ msgstr "હોપસ્કોચ"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gtk/gtkbutton.c:189 gtk/gtkframe.c:125 gtk/gtklabel.c:280
+#~ msgid "Isabel"
+#~ msgstr "ઇસાબેલ"
+
+#~ msgid "Jamestown"
+#~ msgstr "જૅમ્સટાઉન"
+
+#~ msgid "Jumbo"
+#~ msgstr "ભારે"
+
+#~ msgid "Kansas"
+#~ msgstr "કૈનસાસ"
+
+#~ msgid "King Albert"
+#~ msgstr "રાજા ઍલબર્ટ"
+
+#~ msgid "Kings Audience"
+#~ msgstr "કિંગ્સ ઓડિયન્સ"
+
+#~ msgid "Klondike"
+#~ msgstr "ક્લૉન્ડિકે"
+
+#, fuzzy
+#~| msgid "Spider Three Decks"
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Spider ત્રણ થપ્પીઓ"
+
+#~ msgid "Labyrinth"
+#~ msgstr "ભૂલભૂલૈયા"
+
+#~ msgid "Lady Jane"
+#~ msgstr "સ્ત્રી જૅન"
+
+#~ msgid "Maze"
+#~ msgstr "ભૂલભૂલૈયા"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "મોન્ટે કાર્લો"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Napoleons Tomb"
+
+#~ msgid "Neighbor"
+#~ msgstr "પડોશી"
+
+#~ msgid "Odessa"
+#~ msgstr "ઑડિસ્સા"
+
+#~ msgid "Osmosis"
+#~ msgstr "ઑસ્મોસિસ"
+
+#~ msgid "Peek"
+#~ msgstr "ઝાંખો"
+
+#~ msgid "Pileon"
+#~ msgstr "પાઇલૅઅન"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:343
+#~ msgid "Plait"
+#~ msgstr "લપેટ"
+
+#~ msgid "Poker"
+#~ msgstr "પોકર"
+
+#~ msgid "Quatorze"
+#~ msgstr "ક્વાતોર્જે"
+
+#~ msgid "Royal East"
+#~ msgstr "રૉયલ ઇસ્ટ"
+
+#~ msgid "Saratoga"
+#~ msgstr "સારાટોગા"
+
+#~ msgid "Scorpion"
+#~ msgstr "વૃશ્વિક"
+
+# libgnomecanvas/gnome-canvas-text.c:367
+#~ msgid "Scuffle"
+#~ msgstr "હાથાફાઇ"
+
+#~ msgid "Seahaven"
+#~ msgstr "સીહૈવન"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "શ્રીમાન ટૉમી"
+
+#~ msgid "Spider"
+#~ msgstr "મકડી"
+
+#~ msgid "Spiderette"
+#~ msgstr "માદા મકડી"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Spider ત્રણ થપ્પીઓ"
+
+# libgnomeprint/gpa/gpa-media.c:263
+#~ msgid "Straight Up"
+#~ msgstr "સીધા ઉપર"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "ગલીઓ અથવા ચોતરા"
+
+#~ msgid "Template"
+#~ msgstr "ટૅમ્પલૅટ"
+
+#~ msgid "Ten Across"
+#~ msgstr "દસની આરપાર"
+
+#, fuzzy
+#~| msgid "Tetravex"
+#~ msgid "Terrace"
+#~ msgstr "ટેટ્રાવૅક્સ"
+
+#~ msgid "Thieves"
+#~ msgstr "ચોરો"
+
+#~ msgid "Thirteen"
+#~ msgstr "તેર"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "અંગૂઠો દેખાડે અથવા મૂકો"
+
+#~ msgid "Treize"
+#~ msgstr "ટ્રેઈઝ"
+
+# libgnomevfs/gnome-vfs-result.c:57
+#~ msgid "Triple Peaks"
+#~ msgstr "ત્રણ ટોચ"
+
+#~ msgid "Union Square"
+#~ msgstr "સાર્વત્રિક ચોરસ"
+
+#~ msgid "Valentine"
+#~ msgstr "પ્રેમી"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  libgnomecanvas.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:337
+#~ msgid "Westhaven"
+#~ msgstr "વૅસ્ટ હૅવન"
+
+#~ msgid "Whitehead"
+#~ msgstr "સેફેદમાથું"
+
+# libgnomeui/gnome-druid-page-standard.c:122
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will O The Wisp"
+
+#~ msgid "Yield"
+#~ msgstr "લણણી"
+
+#~ msgid "Yukon"
+#~ msgstr "યુકાન"
+
+#~ msgid "Zebra"
+#~ msgstr "ઝિબ્રા"
+
+# libgnomeui/gnome-file-entry.c:418
+#~ msgid "Select Game"
+#~ msgstr "રમત પસંદ કરો"
+
+#~ msgid "_Select"
+#~ msgstr "પસંદ કરો (_S)"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "અભિનંદન, તમે જીતી ગયા!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "હવે કોઇ ચાલ રહી નથી"
+
+#~ msgid "Main game:"
+#~ msgstr "મુખ્ય રમત:"
+
+#~ msgid "Card games:"
+#~ msgstr "પત્તાની રમતો:"
+
+#~ msgid "Card themes:"
+#~ msgstr "પત્તા થીમો:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "FreeCell Solitaire વિશે"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "AisleRiot વિશે"
+
+#, fuzzy
+#~| msgid ""
+#~| "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~| "different games to be played.\n"
+#~| "\n"
+#~| "AisleRiot is a part of GNOME Games."
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot નિયમ-આધારિત solitaire પત્તા યંત્ર પૂરું પાડે છે કે જે ઘણી અલગ રમતોને રમવા "
+#~ "માટેની પરવાનગી આપે છે.\n"
+#~ "\n"
+#~ "AisleRiot એ જીનોમ રમતોનો ભાગ છે."
+
+#~| msgid "Play \"%s\""
+#~ msgid "Play “%s”"
+#~ msgstr "“%s” રમો"
+
+#, fuzzy
+#~| msgid "Display cards with \"%s\" card theme"
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "\"%s\" પત્તાં થીમ સાથે પત્તાંઓ દર્શાવો"
+
+#~| msgid "%d"
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "પદ્ધતિ અપવાદ ઉદ્ભવ્યો"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "મહેરબાની કરીને આ ભૂલનો અહેવાલ વિકાસકર્તાઓને આપો."
+
+#~ msgid "_Don't report"
+#~ msgstr "અહેવાલ આપો નહિં (_D)"
+
+#~ msgid "_Report"
+#~ msgstr "અહેવાલ આપો (_R)"
+
+#~ msgid "_View"
+#~ msgstr "દેખાવ (_V)"
+
+#~ msgid "_Control"
+#~ msgstr "નિયંત્રણ (_C)"
+
+# libgnomeui/gnome-file-entry.c:418
+#~ msgid "_Select Game..."
+#~ msgstr "રમત પસંદ કરો (_S)..."
+
+#~ msgid "Play a different game"
+#~ msgstr "અલગ રમત રમો"
+
+#~ msgid "_Recently Played"
+#~ msgstr "છેલ્લે રમાયેલ (_R)"
+
+#~ msgid "S_tatistics"
+#~ msgstr "પરીસ્થિતી (_t)"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "રમત પરિસ્થિતિ બતાવો"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "આગળના પત્તાં ફેંકો"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "આઈઝલેરીયોટ માટે મદદ જુઓ"
+
+#~ msgid "Install card themes…"
+#~ msgstr "કાર્ડ થીમો ને સ્થાપિત કરો..."
+
+#~ msgid "_Card Style"
+#~ msgstr "પત્તાની શૈલી (_C)"
+
+#~ msgid "_Toolbar"
+#~ msgstr "સાધનપટ્ટી (_T)"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "સાધનદર્શકપટ્ટી છુપાડો અથવા દેખાડો"
+
+#~| msgid "Status"
+#~ msgid "_Statusbar"
+#~ msgstr "પરિસ્થિતિ પટ્ટી (_S)"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide statusbar"
+#~ msgstr "સાધનદર્શકપટ્ટી છુપાડો અથવા દેખાડો"
+
+#~ msgid "_Click to Move"
+#~ msgstr "ખસેડવા માટે ક્લિક કરો (_C)"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "ક્લિક કરીને પત્તા પસંદ કરો અને મૂકો"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~| msgid "Sound"
+#~ msgid "_Sound"
+#~ msgstr "ધ્વનિ (_S)"
+
+#, fuzzy
+#~| msgid "Whether or not to play event sounds."
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "બનાવનો અવાજ વગાડવો કે નહિ."
+
+#~| msgid "Animation"
+#~ msgid "_Animations"
+#~ msgstr "એનીમૅશન (_A)"
+
+#, fuzzy
+#~| msgid "Whether or not to use animation."
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "ઍનીમૅશન વાપરવુ કે નહિ."
+
+#~ msgid "Time:"
+#~ msgstr "સમય:"
+
+# libgnomeui/gnome-app-helper.c:258
+#~| msgid "Cannot start the game \"%s\""
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "રમત “%s” શરૂ કરી શકતા નથી"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "મુખ્ય પાનું: એક્કો"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "મુખ્ય પાનું: ગુલામ"
+
+#~ msgid "Base Card: King"
+#~ msgstr "મુખ્ય પાનું: રાજા"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "મુખ્ય પાનું: રાણી"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "મુખ્ય પત્તું: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "વધારે પત્તા વહેંચો"
+
+#~ msgid "Stock left:"
+#~ msgstr "બચેલો જથ્થો:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "બચેલો જથ્થો: ૦"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "પત્તા ફરી ગોઠવવાનો પ્રયત્ન કરો"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "ખાલી પાના વાળી થપ્પી"
+
+#~ msgid "Three card deals"
+#~ msgstr "ત્રણ પત્તાની વહેંચણી"
+
+#~ msgid "Deal another round"
+#~ msgstr "ફરીથી પત્તા વહેંચો"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "થપ્પીમાંથી નવુ પત્તું વહેંચો"
+
+#~ msgid "Redeals left:"
+#~ msgstr "ફરીથી વહેંચવાનુ બાકી:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "ફાઉન્ડેશન પર ખાલી સ્લોટ"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "કોષ્ટક પર ખાલી સ્લોટ"
+
+# libgnome-desktop/gnome-ditem-edit.c:679
+#~ msgid "an empty foundation"
+#~ msgstr "ખાલી પાયો"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "ખાલી પડેલ નાચેની જગ્યા"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "ખાલી પડેલ ખૂણાની જગ્યા"
+
+#~ msgid "an empty left slot"
+#~ msgstr "ખાલી પડેલ ડાબી જગ્યા "
+
+#~ msgid "an empty right slot"
+#~ msgstr "ખાલી પડેલ જમણી જગ્યા"
+
+#~ msgid "an empty slot"
+#~ msgstr "ખાલી જગ્યા"
+
+#~ msgid "an empty top slot"
+#~ msgstr "ખાલી પડેલ ઉપરની જગ્યા"
+
+#~ msgid "itself"
+#~ msgstr "પોતે જ"
+
+#~ msgid "Base Card: "
+#~ msgstr "મુખ્ય પાનું: "
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "નકામી વસ્તુ પાછી જથ્થામાં ખસેડો"
+
+#~ msgid "Reserve left:"
+#~ msgstr "અનામત જગ્યા બાકી છે:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "પાયા પરની ખાલી જગ્યા"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "ચિત્રાત્મક રજૂઆત પરની ખાલા જગ્યા"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:181
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "પત્તાને પાયા પર ખસેડો"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "ખાલી રહેલ ચિત્રાત્મક રજૂઆત માટેની જગ્યામાં કંઇક ખસેડો"
+
+#~ msgid "Consistency is key"
+#~ msgstr "સુમેળ એ ચાવી છે"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "માછલી પકડવાના તારથી તમારા દાંત સાફ કરતા તે બગડશે"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "શું તમે મદદ માટેની ફાઇલ વાંચેલી છે?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "લાગે છે મારે અત્યારે જ મારી પીઠ ખંજોરવી પડશે..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "જો તમે જંગલમાં ક્યારેય એકલા હોય અને ખોવાઇ જાઓ તો ઝાડને ભેટી પડો"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr "ખાલી ક્રોસવોલ્ક હોપસ્કોચ બોર્ડની જેમ લાગે છે તેનો અર્થે એ એક છે એમ નહિં થાય"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "શેરી ઓળંગતા પહેલા બંને બાજુ જૂઓ"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "મોનિટર તમને વિટામિન D આપી શકશે નહિ -- પણ સૂર્યપ્રકાશ આપી શકશે..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "કૂતરાના કાનમાં ક્યારેય ફૂંક મારવી નહિ"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "ઓડીસાએ વધુ સારી રમત છે. સાચે જ."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "સીધી તત્કાલીનતા સિવાય પાટાઓની ભલામણ કરાતી નથી"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "જ્યારે સ્ટૅપ્લર ના હોય ત્યારે યુ આકારના તાર અને માપપટ્ટી કામ કરશે"
+
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-messagebox.c:115
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "બાકી રહેલ પત્તાં: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "ફરી ડીલ કરો."
+
+#~ msgid "the foundation pile"
+#~ msgstr "પાયાની થપ્પી"
+
+#~ msgid "Deal a card"
+#~ msgstr "પત્તુ વહેંચો"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "~a ને ખાલી પાયામાં ખસેડો"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "ચિત્રાત્મક રજૂઆત પર ખાલી જગ્યા"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "ચિત્રાત્મક રજૂઆત પરની ખાલી જગ્યા પર રાજાને ખસેડો"
+
+# libgnomeprintui/gpaui/settings-selector.c:207
+#~ msgid "No hint available right now"
+#~ msgstr "હાલ કાઇ સંકેત પ્રાપ્ત નથી"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "ખાલી પડેલ અનામત જગ્યામાં કંઇક ખસેડો"
+
+# libgnome/gnome-program.c:426
+#~ msgid "an empty tableau"
+#~ msgstr "ખાલી ચિત્રાત્મક રજૂઆત"
+
+#~ msgid "I'm not sure"
+#~ msgstr "હું ચોક્કસ નથી"
+
+#~ msgid "Remove the aces"
+#~ msgstr "એક્કા કાઢી નાખો"
+
+#~ msgid "Remove the eights"
+#~ msgstr "અઠ્ઠા કાઢી નાખો"
+
+#~ msgid "Remove the fives"
+#~ msgstr "અઠ્ઠા કાઢી નાખો"
+
+#~ msgid "Remove the fours"
+#~ msgstr "ચોગ્ગા કાઢી નાખો"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "ગુલામો કાઢી નાખો"
+
+#~ msgid "Remove the kings"
+#~ msgstr "રાજા કાઢી નાખો"
+
+#~ msgid "Remove the nines"
+#~ msgstr "નવ્વા કાઢી નાખો "
+
+#~ msgid "Remove the queens"
+#~ msgstr "રાણીઓ કાઢી નાખો"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "સત્તા કાઢી નાખો"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "છગ્ગા કાઢી નાખો"
+
+#~ msgid "Remove the tens"
+#~ msgstr "દસ્સા કાઢી નાખો"
+
+#~ msgid "Remove the threes"
+#~ msgstr "તીરી કાઢી નાખો"
+
+#~ msgid "Remove the twos"
+#~ msgstr "દૂરી કાઢી નાખો"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "પત્તાને જથ્થાઓમાં પાછા લાવો"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "ધારો કે ખલા જગ્યામાં કંઇક ખસી રહ્યુ છે"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "પાટીયા પરથી ~a ખસેડો"
+
+#, fuzzy
+#~| msgid "Deal a card from the deck"
+#~ msgid "Deal a card from stock"
+#~ msgstr "પત્તાની થપ્પીમાંથી પત્તુ વહેંચો"
+
+#~| msgid "an empty slot"
+#~ msgid "an empty space"
+#~ msgstr "ખાલી જગ્યા"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "કોઈ ચાલ શક્ય નથી. છેલ્લી ચાલ રદ કરો અથવા ફરી શરૂ કરો."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "રમતનો કોઈ ઉકેલ નથી. છેલ્લી ચાલ રદ કરો અથવા ફરી શરૂ કરો."
+
+#~ msgid "an empty reserve"
+#~ msgstr "ખાલી જગ્યા આરક્ષિત છે"
+
+# libgnome/gnome-program.c:426
+#~ msgid "an open tableau"
+#~ msgstr "ચિત્રાત્મક રજૂઆત ખોલો"
+
+#~ msgid "the foundation"
+#~ msgstr "પાયાની થપ્પી"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "હરોળ ~a માં ક્રમ ઉમેરો."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "ફરી ડીલ કરવા માટે કોઈપણ પત્તા પર બેવડું ક્લિક કરો."
+
+# libgnomeprintui/gpaui/settings-selector.c:207
+#~ msgid "No hint available."
+#~ msgstr "કોઇ સંકેત પ્રાપ્ત નથી."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "હરોળ ~a ની ડાબી બાજુના સ્લોટમાં બે મૂકો."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "~a ને ~a ની આગળ મૂકો."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "પુનઃદાવ પર રેન્ડમ રીતે મૂકેલ જગ્યાઓ"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "અનામત કરેલી જગ્યામાંથી પત્તુ ચિત્રાત્મક રજૂઆતમાં ખાલી પડેલી જગ્યામાં ખસેડો"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "પહેલા પાયાની થપ્પી માટે અનામત કરેલી જગ્યામાંથી પત્તુ પસંદ કરો"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "ખાલી પડેલ ચિત્રાત્મક રજૂઆતની જગ્યા પર"
+
+#~ msgid "Deal another card"
+#~ msgstr "બીજુ પત્તુ વહેંચો"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "બચેલો જથ્થો: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "બીજો હાથ વહેંચો"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "એત પત્તુ અથવા પત્તાની થપ્પીને ખાલી જગ્યામાં ખસેડો"
+
+#~ msgid "Move card from waste"
+#~ msgstr "નકામી જગ્યામાંથી પત્તાને ખસેડો"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "નકામી વસ્તુઓને જથ્થામાં નાખો"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "ખાલી ચિત્રાત્મક રજૂઆતની જગ્યા "
+
+#~ msgid "Deal a new card"
+#~ msgstr "નવા પત્તાને ડીલ કરો"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "બચેલો જથ્થો: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "કોઈ પુનઃદાવ નહિં"
+
+#~ msgid "Single card deals"
+#~ msgstr "એક પત્તાની વહેંચણી"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "પાયા પરથી પત્તાને ખસેડવાનો પ્રયત્ન કરો"
+
+#~ msgid "Base Card:"
+#~ msgstr "મુખ્ય પત્તુ:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr "પત્તાની જોડોને વર્તમાન દેખાવમાં કુદરતી રીતે બંધ બેસે તે રીતે ગોઠવવાનો ધ્યેય કરો."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "થપ્પીમાંથી નવા પત્તાઓ વહેંચો"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "ફરીથી વહેંચવાનુ બાકી: ~a"
+
+#~ msgid "something"
+#~ msgstr "કંઇક"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "અનામત કરેલી જગ્યામાંથી પત્તુ ચિત્રાત્મક રજૂઆતમાં ખાલી પડેલી જગ્યામાં ખસેડો"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "ખાલી જગ્યામાં ~a ને ખસેડો"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "પોકરના હાથ કરવા માટે ચિત્રાત્મક રજૂઆત પર પત્તા મૂકો"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "શફલ સ્થિતિ"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "ચિત્રાત્મક રજૂઆતની ખાલી થપ્પી"
+
+# libgnomeui/gnome-app-helper.c:280
+#~ msgid "Deal the cards"
+#~ msgstr "પત્તા વહેંચો"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "પત્તા ફરીથી વહેંચો"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "અનામત જગ્યા પર નકામી વસ્તુ ખસેડો"
+
+# libgnome-desktop/gnome-ditem-edit.c:679
+#~ msgid "empty foundation"
+#~ msgstr "ખાલી પાયો"
+
+#~ msgid "Four Suits"
+#~ msgstr "ચાર એકઠા"
+
+#~ msgid "One Suit"
+#~ msgstr "એક એકઠું"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "ખાલા જગ્યામાં કંઇક મૂકો"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "મહેરબાની કરીને પહેલા ખાલી થપ્પી ભરો."
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "પત્તની થપ્પીને આજુબાજુ ખસેડવાનો પ્રયત્ન કરો"
+
+#~ msgid "Two Suits"
+#~ msgstr "બે એકઠાં"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "કામચલાઉ જગ્યા વાપરવા દો"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "પત્તાને કામચલાઉ ખાલી જગ્યામાં ખસેડો"
+
+# libgnomeprintui/gpaui/settings-selector.c:207
+#~ msgid "No hint available"
+#~ msgstr "કોઇ સંકેત પ્રપ્ત નથી"
+
+#, fuzzy
+#~| msgid "Generate Policy"
+#~ msgid "General Patience"
+#~ msgstr "બનાવરનાર પોલીસિ"
+
+#, fuzzy
+#~| msgid "Redeal."
+#~ msgid "Redheads"
+#~ msgstr "ફરી ડીલ કરો."
+
+#, fuzzy
+#~| msgid "Ignore"
+#~ msgid "Signora"
+#~ msgstr "અવગણો"
+
+#~ msgid "Wood"
+#~ msgstr "લાકડુ"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "પત્તાની થપ્પીમાંથી પત્તુ વહેંચો"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "નકામી જગ્યાના બે ટોચના પત્તાં સરખાવો."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "ગુણક ગુણ"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "પ્રગતિકારક રાઉન્ડ"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "યોગ્ય પાયાની થપ્પી"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "ચિત્રાત્મક રજૂઆતની ખાલી જગ્યા પર પત્તની ઢગલી ખસેડો"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "યોગ્ય પાયાની થપ્પી"
+
+#~ msgid "Blackjack"
+#~ msgstr "બ્લૅકજૅક"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "જુગારની રમત બ્લૅકજૅક રમો"
+
+#~ msgid "Display probabilities"
+#~ msgstr "સંભાવનાઓ દર્શાવવો"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "દરેક વહેંચનારની હાથના પરિણામની સંભાવનાઓ અને તમારા હાથની ઇચ્છિત કિંમત દર્શાવો."
+
+#~ msgid "Never take insurance"
+#~ msgstr "ક્યારેય વીમો લેશો નહિં"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "એક્કો બતાવતા ડિલપ સાથે ક્યારેય વીમો લેશો નહિં."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "તમારી બૈંકમાં પૈસાનું પ્રમાણ"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "તમારી બેંકમાં પૈસાનું પ્રમાણ."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr "રમતના નિયમોમાં બદલાવ સમાવતી નિયમોની ફાઇલનું નામ."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "વાપરવા માટેની નિયમોની ફાઇલમાં બદલાવ"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "ઝડપી વહેંચણી વાપરો"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "દરેક પત્તા વચ્ચે વિલંબ વગરની ઝડપી વહેંચણી વાપરો."
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "સાધન દર્શાવતી પટ્ટી દર્શાવવી કે નહિ."
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "બ્લૅકજૅક - %s"
+
+# libgnomeui/gnome-app-helper.c:258
+#~ msgid "Restart the current game"
+#~ msgstr "વર્તમાન રમત પુનઃશરૂ કરો"
+
+#~ msgid "Show a hint"
+#~ msgstr "સંકેત બતાવો"
+
+#~ msgid "D_eal"
+#~ msgstr "સોદો (_e)"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "નવો સોદો કરો"
+
+# libgnomeui/gnome-app-helper.c:273
+#~ msgid "_Hit"
+#~ msgstr "નિશાન તાકવુ (_H)"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:181
+#~ msgid "Add a card to the hand"
+#~ msgstr "પત્તાને હાથમાં ઉમેરો"
+
+#~ msgid "_Stand"
+#~ msgstr "ઊભા રહો (_S)"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "હાથમાં પત્તા ઉમેરવાનું બંધ કરો"
+
+#~ msgid "S_urrender"
+#~ msgstr "હાર સ્વીકારવી (_u)"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "તમારા અડધા વેજર માટે આ હાથ ફોરફેઈટ કરો"
+
+#~ msgid "_Double down"
+#~ msgstr "બેગણું નીચું (_D)"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "એક ફટકા માટે તમારી વેજર બમણી કરો"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "હાથના ભાગલા કરો (_p)"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "બે નવા હાથોમાં પત્તાઓ વહેંચો"
+
+#~ msgid "Show toolbar"
+#~ msgstr "સાધનપટ્ટી બતાવો"
+
+#~ msgid "Cards left:"
+#~ msgstr "બચેલા પત્તા:"
+
+#~ msgid "Wager:"
+#~ msgstr "શરત લગાડવી:"
+
+#~ msgid "Balance:"
+#~ msgstr "જમા:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "તમારી શરત મૂકો અથવા હાથ વહેંચો"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "વાપરવા માટે બ્લેકજેક નિયમ સુયોજિત કરો"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "શું તમારે વીમો જોઇએ છે?"
+
+#, fuzzy
+#~| msgid ""
+#~| "Insurance is a side wager of 50%% of the original wager that the dealer "
+#~| "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~| "up card is an ace. If the dealer has a natural 21 then the player is "
+#~| "paid double."
+#~ msgid ""
+#~ "Insurance is a side wager of 50% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "વીમો એ મૂળ મહેનતાણાની 50%% જેટલી વધારાની મહેનતાળા જેટલું છે કે જે વિક્રેતાને પ્રાકૃતિક "
+#~ "૨૧ (અકા બ્લેકજેક) છે કે જેની તક અપાય છે જ્યારે વિક્રેતાની નજર કાર્ડ પર એક વાર પડે. જો "
+#~ "વિક્રેતા પાસે ૨૧ પ્રાકૃતિક હોય તો પછી રમતવીરને બમણું ચૂકવાય છે."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr "તમારી શરત મૂકો અને નવો હાથ વહેંચવા માટે સફેદ કિનારી પર ક્લિક કરો."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr "તમારી શરત મૂકો અને નવો હાથ વહેંચવા માટે પત્તા પર ક્લિક કરો."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "બ્લૅકજૅકની પસંદગીઓ"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "હાથની સંભાવનાઓ દર્શાવો (_D)"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "ઝડપી વહેંચણી (દરેક પત્તા વચ્ચે વિલંબ વગર) (_Q)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "ક્યારેય વીમો લેશો નહિં (_N)"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "સમતોલન ફરી સુયોજિત કરો (_R)"
+
+#~ msgid "Rules"
+#~ msgstr "નિયમો"
+
+#~ msgid "Decks"
+#~ msgstr "પત્તાની થપ્પીઓ"
+
+# demos/mdi_demo.c:129
+#~ msgid "Hit Soft 17"
+#~ msgstr "સોફ્ટ ૧૭ પર નિશાન તાકો"
+
+#~ msgid "Double Any Total"
+#~ msgstr "કોઇ સરવાળો બમણો કરો"
+
+#~ msgid "Double 9"
+#~ msgstr "૯ ને બમણું કરો"
+
+#~ msgid "Double Soft"
+#~ msgstr "બમણું સોફ્ટ"
+
+#~ msgid "Double After Hit"
+#~ msgstr "તાક્યા પછી બમણું કરો"
+
+#~ msgid "Double After Split"
+#~ msgstr "વિભાજિત કર્યા પછી બમણું કરો"
+
+#~ msgid "Resplit"
+#~ msgstr "ફરી વિભાજિત કરો"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "એક્કાઓ ફરી વિભાજિત કરો"
+
+#~ msgid "Surrender"
+#~ msgstr "હાર સ્વીકારવી"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "પત્તા વહેંચવાની ગતિ"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "તમારી શરતને બમણી કરવા ક્લિક કરો"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "તમારી શરતને %.2f વધારવા માટે બે વખત ક્લિક કરો "
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "તમારી શરતને %.2f ધટાડવા માટે બે વખત ક્લિક કરો "
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr "બીજું પત્તુ વહેંચવા માટે ક્લિક કરો; જોડી છૂટી પાડવા પત્તુ ખેંચો"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "બીજું પત્તુ વહેંચવા માટે ક્લિક કરો"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "તમારા હાથમાં પત્તા ઊમેરાતા બંધ કરવા માટે ક્લિ કરો"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "નવો હાથ વબેંચવા માટે ક્લિક કરો"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "બ્લૅકજૅક વિનંતી કરેલી ફાઇલ ખોલી શક્યુ નહિં"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "મહેરબાની કરીને બ્લૅકજૅકની સ્થાપના ચકાસો"
+
+# libgnome/gnome-program.c:427
+#~ msgid "The best option is to stand"
+#~ msgstr "ઊભા રહેવુ એ સૌથી સારો વિકલ્પ છે"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ઊભા રહેવું એટલે કે તમારા હાથમાં કાર્ડો ઉમેરવાનું અટકાવવું.  વિક્રેતાના કાર્ડો પર ક્લિક "
+#~ "કરીને અતવા નિયંત્રણ મેનુમાંથી વિકલ્પ પસંદ કરીને આમ કરો."
+
+# libgnome/gnome-program.c:427
+#~ msgid "The best option is to hit"
+#~ msgstr "તાકવુ એ સૌથી સારો વિકલ્પ છે"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "ઘા કરવો એટલે કે તમારા હાથમાં અન્ય બીજો કાર્ડ ઉમેરવો.  તમારા કાર્ડો પર એક વાર "
+#~ "ક્લિક કરને અથવા નિયંત્રણ મેનુમાંથી વિકલ્પ પસંદ કરીને આમ કરો."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "બે વખત નીચે આવવું એ સૌથી સારો વિકલ્પ છે"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "બમણું કરવું એટલે કે તમારી મહેનતને બમણી કરવી અને બરાબર એક વધુ કાર્ડ મેળવવો.  વિન્ડોની "
+#~ "નીચે ચિપ પર એક વાર ક્લિક કરીને અથવા નિયંત્રણ મેનુમાંથી વિકલ્પ પસંદ કરીને આમ કરો."
+
+# libgnome/gnome-program.c:427
+#~ msgid "The best option is to split"
+#~ msgstr "વિભાજીત કરવુ એ સૌથી સારો વિકલ્પ છે"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "તોડવું એટલે કે તમારા વર્તમાન હાથને બે અલગ હાથોમાં વિભાજિત કરવું.  તમારા કાર્ડોમાંના "
+#~ "એકને ખસેડીને આમ કરો અને તેને બાજુમાં છોડી મૂકવાનું અથવા નિયંત્રણ મેનુમાંથી વિકલ્પ પસંદ કરીને "
+#~ "આમ કરો."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "હાર માનવી તે સૌથી સારો વિકલ્પ છે"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "હાર માની લેવી એટલે કે તમારી અડધી મહેનત આપી દેવી અને રમત પૂર્ણ કરવી નહિં.  નિયંત્રણ "
+#~ "મેનુમાંથી વિકલ્પ પસંદ કરીને આમ કરો."
+
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "બ્લૅકજૅક એ જુગાર-શૈલીની પત્તાનીં રમત છે.\n"
+#~ "\n"
+#~ "બ્લૅકજૅક એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "મૂળ યુક્તિની ગણતરી થઇ રહી છે..."
+
+#~ msgid "Bust"
+#~ msgstr "તૂટવું"
+
+#~ msgid "Blackjack!"
+#~ msgstr "બ્લૅકજૅક!"
+
+#~ msgid "Soft"
+#~ msgstr "સોફ્ટ"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gnome-print-paper.c:55
+#~ msgid "Win"
+#~ msgstr "જીત"
+
+#~ msgid "Push"
+#~ msgstr "ધકેલવું"
+
+#~ msgid "Lose"
+#~ msgstr "ખોટ"
+
+#~ msgid "Player expected values"
+#~ msgstr "રમનારની ઈચ્છિત કિંમતો"
+
+#~ msgid "Stand"
+#~ msgstr "ઊભા રહેવુ"
+
+# libgnomeui/gnome-app-helper.c:273
+#~ msgid "Hit"
+#~ msgstr "નિશાન તાકવુ"
+
+#~ msgid "Double"
+#~ msgstr "બમણું"
+
+#~ msgid "Split"
+#~ msgstr "વિભાજિત"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "ડીલરની હાથની સંભાવનાઓ"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "સર્વર સાથે જોડાવામાં ભૂલ: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "તમારો નવો પાસવર્ડ %s છે"
+
+#~ msgid "New password"
+#~ msgstr "નવો પાસવર્ડ"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "સર્વર પરના ખેલાડીઓ: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "વર્તમાન કક્ષ: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "તમે કક્ષ \"%s\" માં જોડાયા છો."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "કક્ષમાં જોડાવામાં ભૂલ: %s"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "GGZ રમત ઝોન"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "તમે જ્યારે કક્ષમાં નહિં હોય ત્યારે સંવાદ કરી શકો નહિં."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "તમારી પાસે અંહિ સંવાદ કરવાની પરવાનગી નથી."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "કોષ્ટક પર કોઈ ખાનગી સંવાદ નહિં!"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "તે ખેલાડી કક્ષમાં નથી!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "સંવાદ મોકલવામાં ભૂલ હતી."
+
+# libgnomeprintui/gpaui/settings-selector.c:207
+#~ msgid "You're not at a table."
+#~ msgstr "તમે કોષ્ટક આગળ નથી."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "સંવાદ નિષ્ફળ: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "કોષ્ટક લાવવામાં ભૂલ: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "તમે કોષ્ટક %d માં જોડાયા છો."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "કોષ્ટકમાં જોડાવામાં ભૂલ: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "તમે %s દ્વારા કોષ્ટકમાંથી બુટ કરાયેલ છો."
+
+#~ msgid "You have left the table."
+#~ msgstr "તમે કોષ્ટક છોડી મૂકેલ છે."
+
+# libgnomeprintui/gnome-print-paper-selector.c:1453
+#~ msgid "The game is over."
+#~ msgstr "રમત પૂરી."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "રમત સર્વર સાથે ભૂલ હતી."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "કોષ્ટક છોડવામાં ભૂલ: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "વર્તમાન કક્ષ:"
+
+#~ msgid "**none**"
+#~ msgstr "**કંઈ નહિં**"
+
+#~ msgid "Offline"
+#~ msgstr "ઓફલાઈન"
+
+#~ msgid "Connecting"
+#~ msgstr "જોડાઈ રહ્યા છીએ"
+
+#~ msgid "Reconnecting"
+#~ msgstr "પુનઃ જોડાઈ રહ્યા છીએ"
+
+#~ msgid "Online"
+#~ msgstr "ઓનલાઈન"
+
+#~ msgid "Logging In"
+#~ msgstr "પ્રવેશી રહ્યા છીએ"
+
+#~ msgid "Logged In"
+#~ msgstr "પ્રવેશેલ છે"
+
+#~ msgid "--> Room"
+#~ msgstr "--> કક્ષ"
+
+#~ msgid "Chatting"
+#~ msgstr "સંવાદ કરી રહ્યા છીએ"
+
+#~ msgid "--> Table"
+#~ msgstr "--> કોષ્ટક"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:343
+#~ msgid "Playing"
+#~ msgstr "રમી રહ્યા છીએ"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- કોષ્ટક"
+
+#~ msgid "Logging Out"
+#~ msgstr "પ્રવેશ બહાર"
+
+#~ msgid "Server error: %s"
+#~ msgstr "સર્વર ભૂલ: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "સર્વરમાંથી જોડાણ તૂટી ગયેલ છે."
+
+#~ msgid "Login"
+#~ msgstr "પ્રવેશ"
+
+#~ msgid "That username is already in use."
+#~ msgstr "વપરાશકર્તાનામ પહેલાથી જ વપરાશમાં છે."
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "સત્તાધિકરણ નિષ્ફળ ગયું.\n"
+#~ "મહેરબાની કરીને યોગ્ય પાસવર્ડ પૂરો પાડો."
+
+#~ msgid "The username is too long!"
+#~ msgstr "વપરાશકર્તાનામ ખૂબ લાંબુ છે!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "અયોગ્ય વપરાશકર્તાનામ, વિશિષ્ટ અક્ષરો વાપરો નહિં!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "અજ્ઞાત કારણોસર પ્રવેશ નિષ્ફળ ગયો: %s"
+
+#~ msgid "Network Game"
+#~ msgstr "નેટવર્ક રમત"
+
+#~ msgid "Server Profile"
+#~ msgstr "સર્વર રૂપરેખા"
+
+#~ msgid "Profile:"
+#~ msgstr "રૂપરેખા:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "રૂપરેખાઓમાં ફેરફાર કરો"
+
+#~ msgid "Server:"
+#~ msgstr "સર્વર:"
+
+#~ msgid "Port:"
+#~ msgstr "પોર્ટ:"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:264
+#~ msgid "User Information"
+#~ msgstr "વપરાશકર્તા જાણકારી"
+
+#~ msgid "Username:"
+#~ msgstr "વપરાશકર્તાનામ:"
+
+#~ msgid "Password:"
+#~ msgstr "પાસવર્ડ:"
+
+#~ msgid "Email:"
+#~ msgstr "ઈમેઈલ:"
+
+#~ msgid "Authentication type"
+#~ msgstr "સત્તાધિકરણ પ્રકાર"
+
+#~ msgid "Normal Login"
+#~ msgstr "સામાન્ય પ્રવેશ"
+
+#~ msgid "Guest Login"
+#~ msgstr "મહેમાન પ્રવેશ"
+
+#~ msgid "First-time Login"
+#~ msgstr "પ્રથમ-વખત પ્રવેશ"
+
+#~ msgid "Connect"
+#~ msgstr "જોડો"
+
+#~ msgid "Wizard"
+#~ msgstr "વિઝાર્ડ"
+
+#~ msgid "Deity"
+#~ msgstr "દેવત્વ"
+
+#~ msgid "Sentinel"
+#~ msgstr "સંત્રી"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-camera.icon.in.h:1
+# 48x48/emblems/emblem-camera.icon.in.h:1
+#~ msgid "Captain"
+#~ msgstr "કેપ્ટન"
+
+#~ msgid "Knight"
+#~ msgstr "સરદાર"
+
+#~ msgid "Angel"
+#~ msgstr "દેવદૂત"
+
+#~ msgid "Silverlord"
+#~ msgstr "ચાંદીધારી"
+
+#~ msgid "Eagle"
+#~ msgstr "ગરુડ"
+
+#~ msgid "Vampire"
+#~ msgstr "સામ્રાજ્ય"
+
+#~ msgid "Chief"
+#~ msgstr "મુખ્ય"
+
+#~ msgid "Colonel"
+#~ msgstr "કોલોનેલ"
+
+#~ msgid "General"
+#~ msgstr "જનરલ"
+
+#~ msgid "Major"
+#~ msgstr "મેયર"
+
+#~ msgid "Scout"
+#~ msgstr "સ્કાઉટ"
+
+#~ msgid "Lieutenant"
+#~ msgstr "લેફ્ટેનન્ટ"
+
+#~ msgid "Stalker"
+#~ msgstr "સ્ટોકર"
+
+#~ msgid "Scientist"
+#~ msgstr "વૈજ્ઞાનિક"
+
+# libgnomeui/gnome-scores.c:94
+#~ msgid "Scholar"
+#~ msgstr "સ્કુલર"
+
+#~ msgid "Entity"
+#~ msgstr "ઘટક"
+
+#~ msgid "Creator"
+#~ msgstr "બનાવનાર"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "GGZ સમુદાય (ઝડપી)"
+
+#~ msgid "Local developer server"
+#~ msgstr "સ્થાનિક વિકાસકર્તા સર્વર"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "આ પ્રથમ વખતે છે કે તમે GTK+ GGZ ગેમીંગ ઝોન ક્લાઈન્ટ ચલાવી રહ્યા છો. શું તમે અમુક મૂળભૂત "
+#~ "સર્વર રૂપરેખાઓ બનાવવા ઈચ્છો છો?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr "/msg <username> <message> . ખેલાડીને ખાનગી સંદેશો મોકલે છે"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr "/table <message> .......... તમારા કોષ્ટકનો સંદેશો"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <message> ........... સંચાલક આદેશ"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <username> .......... ખેલાડીને બીપ કરે"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ..................... મદદ મેળવો"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends .................. તમારા મિત્રોની યાદી"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore ................... તમારા અવગણવાના લોકોની યાદી"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr "/kick <username> .......... ખેલાડીને કક્ષમાંથી બહાર કાઢો"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr "/gag <username> ........... ખેલાડીને બોલવાથી અટકાવવા માટે વાપરો"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <username> ......... ખેલાડીને બોલવાથી અટકાવવા માટેની પરવાનગી આપો"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr "/ban <username> ........... ખેલાડીને સર્વરમાંથી બેન કરો"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "તમે %s માંથી અજ્ઞાત સંદેશો મેળવ્યો છે."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "તમે %s દ્વારા બીપ કરવામાં આવેલ છો."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "વપરાશ: /msg <username> <message>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    વપરાશકર્તાને નેટવર્ક પર ખાનગી સંદેશો મોકલે છે."
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "%s ને બીપ મોકલવામાં આવ્યું."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (પર પ્રવેશ કરેલ)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (પ્રવેશ બહાર નીકળેલ)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "સંવાદ આદેશો"
+
+#~ msgid "-------------"
+#~ msgstr "-------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <action> .............. ક્રિયા મોકલો"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s ને તમારા મિત્રોની યાદીમાં ઉમેરેલ છે."
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s ને તમારા મિત્રોની યાદીમાંથી દૂર કરેલ છે."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s ને તમારી અવગણવાની યાદીમાં ઉમેરેલ છે."
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s ને તમારી અવગણવાની યાદીમાંથી દૂર કરેલ છે."
+
+#~ msgid "People currently your friends"
+#~ msgstr "વર્તમાનમાં તમારા મિત્રો હોય તેવા લોકો"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "લોકો કે જેઓને તમે વર્તમાનમાં અવગણી રહ્યા હોય"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "ઘણીબધી જોડણીઓ:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "તમે આ રમત સ્થાપિત કરેલ નથી. તમે તેને\n"
+#~ "%s માંથી ડાઉનલોડ કરી શકો છો."
+
+#~ msgid "Launch Error"
+#~ msgstr "લોન્ચ ભૂલ"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "રમત મોડ્યુલ ચલાવવામાં નિષ્ફળ.\n"
+#~ " લોન્ચ અડધેથી બંધ કરવામાં આવ્યું."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:253
+#~ msgid "Launched game"
+#~ msgstr "લોન્ચ થયેલ રમત"
+
+#~ msgid "Launch failed"
+#~ msgstr "લોન્ચ નિષ્ફળ"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "તમે એક સમયે માત્ર એક જ રમત રમી શકો છો."
+
+#~ msgid "Game Error"
+#~ msgstr "રમત ભૂલ"
+
+#~ msgid "You're still at a table."
+#~ msgstr "તમે હજુ પણ કોષ્ટક આગળ છો."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "રમત લોન્ચ કરવા માટે તમે કક્ષમાં હોવા જ જોઈએ\n"
+#~ "લોન્ચ અડધેથી બંધ કરવામાં આવ્યું"
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "કોઈ રમત પ્રકારો આ સર્વર માટે વ્યાખ્યાયિત થયેલ નથી.\n"
+#~ "લોન્ચ અડધેથી બંધ કરવામાં આવ્યું."
+
+# libgnomeprintui/gnome-font-dialog.c:793
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "આ રમત દર્શકોને આધાર આપતી નથી."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "તમારે GGZ ક્લાઈન્ટને સીધું જ લોન્ચ કરવાની જરૂર છે\n"
+#~ "આ રમત રમવા માટે સમર્થ બનવા માટે."
+
+#~ msgid "About"
+#~ msgstr "વિશે"
+
+#~ msgid "Message of the Day"
+#~ msgstr "દિવસનો સંદેશો"
+
+#~ msgid "None"
+#~ msgstr "કંઇ નહિ"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "કક્ષ ગાળણ હજુ સુધી અમલમાં મૂકવામાં આવેલ નથી. જો\n"
+#~ "તમે હેડને આના પર મદદ કરવા ઈચ્છો તો\n"
+#~ "http://www.ggzgamingzone.org/"
+
+# libgnomeprintui/gnome-print-copies.c:250
+#~ msgid "Not Implemented"
+#~ msgstr "હજુ અમલમાં મૂકાયેલ નથી"
+
+#~ msgid "Description"
+#~ msgstr "વર્ણન"
+
+#~ msgid "Web Address"
+#~ msgstr "વેબ સરનામું"
+
+#~ msgid "Author"
+#~ msgstr "લેખક"
+
+# libgnome-desktop/gnome-ditem-edit.c:260
+# libgnome-desktop/gnome-ditem-edit.c:351
+#~ msgid "Game Types"
+#~ msgstr "રમત પ્રકારો"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "કક્ષ યાદી ગાળક:"
+
+#~ msgid "Set"
+#~ msgstr "સુયોજન"
+
+#~ msgid "Player Information"
+#~ msgstr "ખેલાડી જાણકારી"
+
+#~ msgid "Player Handle:"
+#~ msgstr "ખેલાડી નિયંત્રણ:"
+
+#~ msgid "Table:"
+#~ msgstr "કોષ્ટક:"
+
+#~ msgid "Account:"
+#~ msgstr "ખાતું:"
+
+#~ msgid "Record:"
+#~ msgstr "રેકોર્ડ:"
+
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-messagebox.c:115
+#~ msgid "Rating:"
+#~ msgstr "ક્રમાંકન:"
+
+#~ msgid "Rank:"
+#~ msgstr "ક્રમ:"
+
+#~ msgid "Message:"
+#~ msgstr "સંદેશો:"
+
+#~ msgid "Unknown"
+#~ msgstr "અજ્ઞાત"
+
+#~ msgid "Registered"
+#~ msgstr "રજીસ્ટર થયેલ"
+
+#~ msgid "Guest"
+#~ msgstr "મહેમાન"
+
+#~ msgid "Host"
+#~ msgstr "યજમાન"
+
+#~ msgid "Administrator"
+#~ msgstr "સંચાલક"
+
+#~ msgid "Friends"
+#~ msgstr "મિત્રો"
+
+#~ msgid "Ignore"
+#~ msgstr "અવગણો"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "પરિસ્થિતિ"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "આ રમત રમવા માટે તમે કયા ક્લાઈન્ટને વાપરવા ઈચ્છો છો?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "મને ફરી પૂછશો નહિં."
+
+#~ msgid "Join"
+#~ msgstr "જોડાવ"
+
+#~ msgid "Leave"
+#~ msgstr "છોડો"
+
+# libgnomeprintui/gpaui/settings-selector.c:207
+#~ msgid "No description available."
+#~ msgstr "કોઈ વર્ણન ઉપલબ્ધ નથી."
+
+#~ msgid "Seats"
+#~ msgstr "જગ્યાઓ"
+
+#~ msgid "Room Information"
+#~ msgstr "કક્ષ જાણકારી"
+
+#~ msgid "Game Name:"
+#~ msgstr "રમત નામ:"
+
+#~ msgid "Author:"
+#~ msgstr "લેખક:"
+
+#~ msgid "Homepage:"
+#~ msgstr "ઘર પાનું:"
+
+#~ msgid "Room Description:"
+#~ msgstr "કક્ષ વર્ણન:"
+
+#~ msgid "This room has no game"
+#~ msgstr "આ કક્ષને કોઈ રમત નથી"
+
+# libgnomevfs/gnome-vfs-result.c:137
+#~ msgid "Unknown room"
+#~ msgstr "અજ્ઞાત કક્ષ"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr "તમે કક્ષમાં જોડાઈ શકતા નથી, તમે પ્રવેશ કરેલ નથી"
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "તમે પહેલાથી જ કક્ષો વચ્ચે છો"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "જ્યારે તમે રમત રમી રહ્યા હોય ત્યારે તમે કક્ષો બદલી શકતા નથી"
+
+# libgnomevfs/gnome-vfs-result.c:137
+#~ msgid "Unknown error"
+#~ msgstr "અજ્ઞાત ભૂલ"
+
+#~ msgid "Error joining room"
+#~ msgstr "કક્ષ જોડાવામાં ભૂલ"
+
+#~ msgid "Other Rooms"
+#~ msgstr "અન્ય કક્ષો"
+
+#~ msgid "Room"
+#~ msgstr "કક્ષ"
+
+# libgnome-desktop/gnome-ditem-edit.c:260
+# libgnome-desktop/gnome-ditem-edit.c:351
+#~ msgid "Game Type:  %s"
+#~ msgstr "રમત પ્રકાર:  %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "લેખક:  %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "વર્ણન:  %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "ઘર પાનું:  %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "કોષ્ટક લોન્ચ કરવામાં નિષ્ફળ.\n"
+#~ " લોન્ચ અડધેથી બંધ કરવામાં આવેલ છે."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "બોટનો અયોગ્ય નંબર સ્પષ્ટ થયેલ છે"
+
+#~ msgid "Error launching game module."
+#~ msgstr "રમત મોડ્યુલ લોન્ચ કરવામાં ભૂલ."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "બેઠક વ્યવસ્થા"
+
+# libgnome-desktop/gnome-ditem-edit.c:260
+# libgnome-desktop/gnome-ditem-edit.c:351
+#~ msgid "Game Type:"
+#~ msgstr "રમત પ્રકાર:"
+
+#~ msgid "Number of seats"
+#~ msgstr "બેઠકોની સંખ્યા"
+
+#~ msgid "Description:"
+#~ msgstr "વર્ણન:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "બેઠક %d:"
+
+# libgnomeprintui/gnome-print-copies.c:250
+#~ msgid "Computer"
+#~ msgstr "કમ્પ્યૂટર"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+#~ msgid "Open"
+#~ msgstr "ખોલો"
+
+#~ msgid "Reserved for"
+#~ msgstr "માટે આરક્ષિત"
+
+#~ msgid "Game Description   "
+#~ msgstr "રમત વર્ણન   "
+
+#~ msgid "Launch"
+#~ msgstr "લોન્ચ"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "શું તમે ખરેખર બહાર નીકળવા માંગો છો?"
+
+#~ msgid "Quit?"
+#~ msgstr "બહાર નીકળવા માંગો છો?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "સર્વર બેઠકો હજુ સુધી અમલમાં મૂકવામાં આવેલ નથી. જો\n"
+#~ "તમે મદદ કરવા માંગો તો\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "ખેલાડી બેઠકો હજુ સુધી અમલમાં મૂકવામાં આવેલ નથી. જો\n"
+#~ "તમે મદદ કરવા માંગો તો\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "તમે કોષ્ટકમાં જોડાવ તે પહેલાં તમારે તેને પ્રકાશિત કરવું જ જોઈએ."
+
+#~ msgid "Error Joining"
+#~ msgstr "જોડાવામાં ભૂલ"
+
+#~ msgid "That table is full."
+#~ msgstr "તે કોષ્ટક ભરેલ છે."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "તમારે કોષ્ટકને જોવા પહેલાં પ્રકાશિત કરવું જ જોઈએ."
+
+#~ msgid "Error Spectating"
+#~ msgstr "જોવામાં ભૂલ"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "કોષ્ટકમાં જોડાવામાં નિષ્ફળ.\n"
+#~ "જોડાવાનું અડધેથી બંધ કરવામાં આવ્યું."
+
+#~ msgid "Join Error"
+#~ msgstr "જોડાવામાં ભૂલ"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "GGZ ગેમીંગ ઝોન સર્વરમાંથી જોડાણ તોડો"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "નવા કોષ્ટક આગળ રમત રમવાનું શરૂ કરો"
+
+#~ msgid "Join an existing game"
+#~ msgstr "હાલની રમતમાં જોડાવ"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "હાલની રમત જુઓ - કોષ્ટકના દર્શક બનો"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "તમે જે રમત વર્તમાનમાં રમી રહ્યા છો તેને છોડી મૂકો"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr "ક્લાઈન્ટ સુયોજનો બદલવા માટે ગુણધર્મો સંવાદ બતાવો"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "વર્તમાન કક્ષના રમત પ્રકાર માટે રમત પરિસ્થિતિ બતાવો"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "GGZ ક્લાઈન્ટ કાર્યક્રમમાંથી બહાર નીકળો."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "ડિબગીંગ સાથે કમ્પાઈલ થયેલ."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "જોડાણ તોડો"
+
+#~ msgid "Quit"
+#~ msgstr "બંધ કરો"
+
+#~ msgid "Watch"
+#~ msgstr "જુઓ"
+
+#~ msgid "Edit"
+#~ msgstr "ફેરફાર"
+
+#~ msgid "Properties"
+#~ msgstr "ગુણધર્મો"
+
+#~ msgid "View"
+#~ msgstr "દેખાવ"
+
+#~ msgid "Room List"
+#~ msgstr "કક્ષ યાદી"
+
+#~ msgid "Server Stats"
+#~ msgstr "સર્વર પરિસ્થિતિ"
+
+#~ msgid "Player Stats"
+#~ msgstr "ખેલાડી પરિસ્થિતિ"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "મદદ"
+
+#~ msgid "Contents"
+#~ msgstr "સમાવિષ્ટો"
+
+#~ msgid "Send"
+#~ msgstr "મોકલો"
+
+#~ msgid "Properties Updated"
+#~ msgstr "ગુણધર્મો સુધારાયેલ"
+
+#~ msgid "Confirm:"
+#~ msgstr "ખાતરી:"
+
+#~ msgid "Modify"
+#~ msgstr "સુધારો"
+
+# libgnomeui/gnome-scores.c:94
+#~ msgid "Servers"
+#~ msgstr "સર્વરો"
+
+#~ msgid "Chat Font:"
+#~ msgstr "સંવાદ ફોન્ટ:"
+
+#~ msgid "Change"
+#~ msgstr "બદલો"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "જોડાવ/વિભાજો સંદેશાઓ અવગણો"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~ msgid "Play Sounds"
+#~ msgstr "ધ્વનિઓ વગાડો"
+
+#~ msgid "Auto Indent"
+#~ msgstr "આપોઆપ અંતર"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "સમયનોંધ સંવાદો"
+
+#~ msgid "Word Wrap"
+#~ msgstr "શબ્દ લપેટો"
+
+#~ msgid "Chat Color"
+#~ msgstr "સંવાદ રંગ"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "તમારા મિત્રોને સોંપવામાં આવેલ મૂળભૂત સંવાદ રંગ"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr "જ્યારે તમારું નામ લખવામાં આવે ત્યારે વપરાતો મૂળભૂત રંગ"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "બાકીના બધા સંવાદો માટે વાપરવામાં આવતો સંવાદ રંગ"
+
+#~ msgid "Normal Color"
+#~ msgstr "સામાન્ય રંગ"
+
+#~ msgid "Highlight Color"
+#~ msgstr "પ્રકાશિત રંગ"
+
+#~ msgid "Friend Color"
+#~ msgstr "મિત્ર રંગ"
+
+#~ msgid "Black Background"
+#~ msgstr "કાળું પાશ્વભાગ"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-druid-page-standard.c:170
+#~ msgid "White Background"
+#~ msgstr "સફેદ પાશ્વભાગ"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-camera.icon.in.h:1
+# 48x48/emblems/emblem-camera.icon.in.h:1
+#~ msgid "Chat"
+#~ msgstr "સંવાદ"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "નીચેની બધી જાણકારી વૈકલ્પિક છે."
+
+# libgnome-desktop/gnome-ditem-edit.c:616
+# libgnome-desktop/gnome-ditem-edit.c:718
+#~ msgid "Name:"
+#~ msgstr "નામ:"
+
+#~ msgid "City:"
+#~ msgstr "શહેર:"
+
+#~ msgid "State:"
+#~ msgstr "રાજ્ય:"
+
+#~ msgid "Country:"
+#~ msgstr "દેશ:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "ટિપ્પણિઓ, શોખો, વગેરે."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "એક ક્લિક કક્ષ પ્રવેશ"
+
+#~ msgid "Display All"
+#~ msgstr "બધું દર્શાવો"
+
+#~ msgid "Display New"
+#~ msgstr "નવું દર્શાવો"
+
+#~ msgid "Display Important"
+#~ msgstr "મહત્વનું દર્શાવો"
+
+#~ msgid "Display None"
+#~ msgstr "કંઈપણ દર્શાવો નહિં"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:217
+#~ msgid "Options"
+#~ msgstr "વિકલ્પો"
+
+# libgnomeui/gnome-file-entry.c:418
+#~ msgid "Select Font"
+#~ msgstr "ફોન્ટ પસંદ કરો"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: વિકલ્પ `%s' જટિલ છે\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: વિકલ્પ `--%s' દલીલને પરવાનગી આપતો નથી\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: વિકલ્પ `%c%s' દલીલને પરવાનગી આપતો નથી\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: વિકલ્પ `%s' ને દલીલ જરૂરી છે\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: નહિં ઓળખાતો વિકલ્પ `%c%s'\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: અયોગ્ય વિકલ્પ -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: અયોગ્ય વિકલ્પ -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: વિકલ્પ માટે દલીલ જરૂરી છે -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: વિકલ્પ `-W %s' જટિલ છે\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: વિકલ્પ `-W %s' દલીલને પરવાનગી આપતો નથી\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr "દૂરસ્થ ખેલાડીઓને નવી રમતો જોવા માટે પરવાનગી આપતો ફ્લેગ"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "3D સ્થિતિ સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "બોર્ડ નંબર સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "સંપૂર્ણસ્ક્રીન સ્થિતિ સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "મહત્તમ સ્થિતિ સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "ચાલ ઈશારાઓ સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable network game support"
+#~ msgstr "નેટવર્ક રમતને આધાર આપવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "ઈતિહાસ બ્રાઉઝર ખસેડવાનું સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "સાધનપટ્ટી સક્રિય કરવા માટેનો ફ્લેગ"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "ચાલ ટિપ્પણીઓ બતાવવા માટેનો ફ્લેગ"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "નવી રમતોમાં દરેક ખેલાડીઓ ખસેડવાના સમયનો જથ્થો"
+
+#~ msgid "The board side to display"
+#~ msgstr "દર્શાવવા માટેની બોર્ડ બાજુ"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "નવી રમતોમાં કાળા માટે મૂળભૂત ખેલાડીની મુશ્કેલી"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "નવી રમતોમાં સફેદ માટે મૂળભૂત ખેલાડીની મુશ્કેલી"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "નવી રમતોમાં કાળા માટે મૂળભૂત ખેલાડીનો પ્રકાર"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "નવી રમતોમાં સફેદ માટે મૂળભૂત ખેલાડીનો પ્રકાર"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "રમત લાવો સંવાદમાં ખોલવા માટેની ડિરેક્ટરી"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr "રમત સંગ્રહો સંવાદમાં ખોલવા માટેની ડિરેક્ટરી"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "ચાલો દર્શાવવા માટેનું બંધારણ"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "ચાલો દર્શાવવા માટેનું બંધારણ, ક્યાં તો 'માનવીય' (માનવીય વાંચનીય), 'lan' (long "
+#~ "algebraic notation) અથવા '' (standard algebraic notation)    હોઈ શકે"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "મુખ્ય વિન્ડોની ઊંચાઈ પિક્સેલોમાં."
+
+#~ msgid "The height of the window"
+#~ msgstr "વિન્ડોની ઊંચાઇ"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr "પ્રોત્સાહન આપવા માટેનો ટુકડો"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank. "
+#~ "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
+#~ msgstr ""
+#~ "જ્યારે માનવીય ખેલાડી રમે ત્યારે ક્રમ માટે પ્રોત્સાહન આપવા માટેનો ટુકડો. આમાંનો કોઈ એક "
+#~ "હોઈ શકે: 'queen', 'knight', 'rook', 'bishop'."
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player) or 'human' (the side of the current human "
+#~ "player)"
+#~ msgstr ""
+#~ "બોર્ડની બાજુ કે જે અગ્ર ભાગમાં છે, તે ક્યાં તો 'સફેદ', 'કાળો', 'વર્તમાન' (વર્તમાન "
+#~ "ખેલાડી) અથવા 'મનુષ્ય' (વર્તમાન માનવીય ખેલાડીની બાજુ)"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "મુખ્ય વિન્ડોની પહોળાઈ પિક્સેલોમાં."
+
+#~ msgid "The width of the window"
+#~ msgstr "વિન્ડોની પહોળાઈ"
+
+# libgnomeui/gnome-app-helper.c:254
+#~ msgid "Save Chess Game"
+#~ msgstr "શતરંજની રમત સંગ્રહો"
+
+#~ msgid "Communication:"
+#~ msgstr "સંપર્કવ્યવહાર:"
+
+#~ msgid "Executable:"
+#~ msgstr "એક્ઝેક્યુટેબલ:"
+
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:343
+#~ msgid "Playing as:"
+#~ msgstr "આ રીતે રમવાનું:"
+
+#~ msgid "<b>Game</b>"
+#~ msgstr "<b>રમત</b>"
+
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "<b>કક્ષો</b>"
+
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>સર્વર</b>"
+
+#~| msgid "<b>Status/Chat</b>"
+#~ msgid "<b>Status/_Chat</b>"
+#~ msgstr "<b>પરિસ્થિતિ/સંવાદ (_C)</b>"
+
+#~| msgid "Account:"
+#~ msgid "Add Account"
+#~ msgstr "ખાતા ને ઉમેરો"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:95 libgnomeui/gnome-app-helper.h:534
+#~ msgid "Join Game"
+#~ msgstr "રમતમાં જોડાવ"
+
+#~| msgid "Username:"
+#~ msgid "User _Name:"
+#~ msgstr "વપરાશકર્તાનામ (_N):"
+
+#~| msgid "Account:"
+#~ msgid "_Add Account"
+#~ msgstr "ખાતા ને ઉમેરો (_A):"
+
+#~| msgid "Host"
+#~ msgid "_Host:"
+#~ msgstr "યજમાન (_H):"
+
+#~| msgid "Join"
+#~ msgid "_Join"
+#~ msgstr "જોડાવો (_J)"
+
+#~| msgid "Leave"
+#~ msgid "_Leave"
+#~ msgstr "છોડો (_L)"
+
+#~| msgid "Port:"
+#~ msgid "_Port:"
+#~ msgstr "પોર્ટ (_P):"
+
+#~ msgid "_Profile:"
+#~ msgstr "રૂપરેખા (_P):"
+
+#~| msgid "Server:"
+#~ msgid "_Server:"
+#~ msgstr "સર્વર (_S):"
+
+#, fuzzy
+#~| msgid "_Chess"
+#~ msgid "3_D Chess View"
+#~ msgstr "શતરંજ (_C)"
+
+#~| msgid "_Board size:"
+#~ msgid "Board Orientation:"
+#~ msgstr "Board Orientation:"
+
+#~| msgid "_Move Format"
+#~ msgid "Move Format:"
+#~ msgstr "બંધારણ ને ખસેડો:"
+
+#~ msgid "Preferences"
+#~ msgstr "પસંદગીઓ"
+
+#~| msgid "_Promotion Type"
+#~ msgid "Promotion Type:"
+#~ msgstr "પ્રમોશન પ્રકાર:"
+
+# libgnomeui/gnome-app-helper.c:273
+#~| msgid "_History"
+#~ msgid "Show _History"
+#~ msgstr "ઈતિહાસ ને બતાવો (_H)"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "સાધનપટ્ટી બતાવો (_T)"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "સાધનદર્શકપટ્ટી છુપાડો અથવા દેખાડો"
+
+#, fuzzy
+#~| msgid "Show or hide the toolbar"
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "સાધનદર્શકપટ્ટી છુપાડો અથવા દેખાડો"
+
+#, fuzzy
+#~| msgid "Board _Numbering"
+#~ msgid "_Board Numbering"
+#~ msgstr "બોર્ડ ક્રમાંકન (_N)"
+
+#~| msgid "Move _Hints"
+#~ msgid "_Move Hints"
+#~ msgstr "ઈશારાઓ ખસેડો (_M)"
+
+#, fuzzy
+#~| msgid "Boot player"
+#~ msgid "_Smooth Display"
+#~ msgstr "બુટ પ્લેયર"
+
+#~ msgid "Load Chess Game"
+#~ msgstr "શતરંજની રમત લાવો"
+
+#~ msgid "Claim _Draw"
+#~ msgstr "ડ્રોનો દાવો કરો (_D)"
+
+#~ msgid "Leave _Fullscreen"
+#~ msgstr "સંપૂર્ણ સ્ક્રીન છોડો (_F)"
+
+#~ msgid "Load a saved game"
+#~ msgstr "સંગ્રહાયેલ રમત લાવો"
+
+#~ msgid "Logs"
+#~ msgstr "લોગ"
+
+#~ msgid "Resign"
+#~ msgstr "ફરી સહી કરો"
+
+# libgnomeui/gnome-app-helper.c:258
+#~ msgid "Rewind to the game start"
+#~ msgstr "રમત શરૂઆત પર પાછા આવો"
+
+#~ msgid "Save the current game"
+#~ msgstr "વર્તમાન રમત સંગ્રહો"
+
+#~ msgid "Show _Logs"
+#~ msgstr "લોગ બતાવો (_L)"
+
+#~ msgid "Show the current move"
+#~ msgstr "વર્તમાન ચાલ બતાવો"
+
+#~ msgid "Show the next move"
+#~ msgstr "આગળની ચાલ બતાવો"
+
+#~ msgid "Show the previous move"
+#~ msgstr "પહેલાંની ચાલ બતાવો"
+
+#~ msgid "There are no active logs."
+#~ msgstr "ત્યાં હવે કોઈ સક્રિય લોગ નથી."
+
+#, fuzzy
+#~| msgid "_Undo Move"
+#~ msgid "Undo Move"
+#~ msgstr "ચાલ રદ કરો (_U)"
+
+#~ msgid "_Resign"
+#~ msgstr "ફરી સહી કરો (_R)"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>મુશ્કેલી</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>રમત ગુણધર્મો</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>ખેલાડીઓ</b>"
+
+#~ msgid "B_lack:"
+#~ msgstr "કાળો (_l):"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "આ રમત માટે શીર્ષક દાખલ કરો"
+
+#~ msgid "Move _Time:"
+#~ msgstr "ચાલ સમય (_T):"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr "રમત શરૂ કરો. રમત એકવાર બધા ક્ષેત્રો સમાપ્ત થઈ જાય પછી શરૂ કરવામાં આવે છે"
+
+#~ msgid "W_hite:"
+#~ msgstr "સફેદ (_h):"
+
+#~ msgid "_Black:"
+#~ msgstr "કાળો (_B):"
+
+#~ msgid "_Game name:"
+#~ msgstr "રમત નામ (_G):"
+
+#~ msgid "_Start"
+#~ msgstr "શરૂ કરો (_S)"
+
+#~ msgid "_White:"
+#~ msgstr "સફેદ (_W):"
+
+#~ msgid "Chess"
+#~ msgstr "શતરંજ"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "શાસ્ત્રિય બે-ખેલાડી શતરંજની રમત રમો"
+
+#~ msgid "Chess incorrectly installed"
+#~ msgstr "શતરંજ અયોગ્ય રીતે સ્થાપિત થયેલ છે"
+
+#~ msgid "Unlimited"
+#~ msgstr "અમર્યાદિત"
+
+#~ msgid "One minute"
+#~ msgstr "એક મિનિટ"
+
+#~ msgid "Five minutes"
+#~ msgstr "પાંચ મિનિટો"
+
+#~ msgid "30 minutes"
+#~ msgstr "૩૦ મિનિટો"
+
+#~ msgid "One hour"
+#~ msgstr "એક કલાક"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:241
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:241
+#~ msgid "Custom"
+#~ msgstr "વૈવિધ્યપૂર્ણ"
+
+#~ msgid "seconds"
+#~ msgstr "સેકન્ડો"
+
+#~ msgid "minutes"
+#~ msgstr "મિનિટો"
+
+#~ msgid "hours"
+#~ msgstr "કલાકો"
+
+#~ msgid "Easy"
+#~ msgstr "સરળ"
+
+#~ msgid "Normal"
+#~ msgstr "સામાન્ય"
+
+#~ msgid "Hard"
+#~ msgstr "સખ્ત"
+
+#, fuzzy
+#~| msgid "Unable to find %s engine\n"
+#~ msgid "Unable to find %s engine"
+#~ msgstr "%s એંજીન શોધવામાં અસમર્થ\n"
+
+# libgnomeui/gnome-app-helper.c:254
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "લવાયેલ રમત રૂપરેખાંકિત કરો (%i ચાલો)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "રમત સુયોજનો બદલાયા"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s વિરુદ્ધ %(black)s"
+
+#~ msgid "White"
+#~ msgstr "સેફેદ"
+
+#~ msgid "Black"
+#~ msgstr "કાળો"
+
+#~| msgid "Nibbles"
+#~ msgid "PGN files"
+#~ msgstr "PGN ફાઇલો"
+
+#~ msgid "All files"
+#~ msgstr "બધી ફાઇલો"
+
+#~| msgid "Please enter a file name"
+#~ msgid "Please select a file to load"
+#~ msgstr "મહેરબાની કરીને લોડ કરવા માટે ફાઇલ ને પસંદ કરો"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "રમત લાવવામાં અસમર્થ"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "મહેરબાની કરીને ફાઈલ નામ દાખલ કરો"
+
+#~ msgid "Unabled to save game"
+#~ msgstr "રમત સંગ્રહવામાં અસમર્થ"
+
+#~ msgid "Human"
+#~ msgstr "માનવી"
+
+#, fuzzy
+#~| msgid "_Standard Algebraic"
+#~ msgid "Standard Algebraic"
+#~ msgstr "પ્રમાણભૂત એલજીબ્રિક (_S)"
+
+#~| msgid "_Long Algebraic"
+#~ msgid "Long Algebraic"
+#~ msgstr "લાંબો એલજીબ્રીક"
+
+#~| msgid "_White Side"
+#~ msgid "White Side"
+#~ msgstr "સફેદ બાજુ"
+
+#~| msgid "_Black Side"
+#~ msgid "Black Side"
+#~ msgstr "કાળી બાજુ"
+
+#~| msgid "_Human Side"
+#~ msgid "Human Side"
+#~ msgstr "મનુષ્ય બાજુ"
+
+#~| msgid "_Current Player"
+#~ msgid "Current Player"
+#~ msgstr "વર્તમાન ખેલાડી"
+
+#~ msgid "chess-piece|Queen"
+#~ msgstr "રાણી"
+
+#~ msgid "Chess - *%(game_name)s"
+#~ msgstr "શતરંજ - *%(game_name)s"
+
+#~ msgid "Chess - %(game_name)s"
+#~ msgstr "શતરંજ - %(game_name)s"
+
+#~ msgid "∞"
+#~ msgstr "∞"
+
+#~ msgid "Close _without saving"
+#~ msgstr "સંગ્રહ્યા વિના બંધ કરો (_w)"
+
+#~ msgid "Unable to enable 3D mode"
+#~ msgstr "3D સ્થિતિ સક્રિય કરવામાં અસમર્થ"
+
+#, fuzzy
+#~| msgid "Unabled to load game"
+#~ msgid "Unable to claim draw"
+#~ msgstr "રમત લાવવામાં અસમર્થ"
+
+#~ msgid "Unable to display help: %s"
+#~ msgstr "મદદ દર્શાવવામાં અસમર્થ: %s"
+
+#~ msgid "No Python OpenGL support"
+#~ msgstr "કોઈ Python OpenGL આધાર નથી"
+
+#~ msgid "No Python GTKGLExt support"
+#~ msgstr "કોઈ Python GTKGLExt આધાર નથી"
+
+#~ msgid "OpenGL libraries do not support required display mode"
+#~ msgstr "OpenGL લાઈબ્રેરીઓ જરૂરી ડિસ્પ્લે સ્થિતિને આધાર આપતી નથી"
+
+#~ msgid "Game Start"
+#~ msgstr "રમત શરૂ"
+
+# libgnomeprintui/gnome-print-copies.c:250
+#~ msgid "No comment"
+#~ msgstr "કોઈ ટિપ્પણી નહિં"
+
+#, fuzzy
+#~ msgid "White pawn moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White pawn at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White pawn at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White pawn at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White pawn at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White pawn at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White rook moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White rook at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White rook at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White rook at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White rook at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White rook at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White knight moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White knight at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White knight at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White knight at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White knight at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White knight at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White bishop moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White bishop at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White bishop at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White bishop at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White bishop at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White bishop at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White queen moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White queen at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White queen at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White queen at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White queen at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White queen at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White king moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White king at %(start)s takes the black pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White king at %(start)s takes the black rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White king at %(start)s takes the black knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White king at %(start)s takes the black bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "White king at %(start)s takes the black queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black pawn moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black pawn at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black pawn at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black pawn at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black pawn at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black pawn at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black rook moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black rook at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black rook at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black rook at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black rook at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black rook at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black knight moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black knight at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black knight at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black knight at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black knight at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black knight at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black bishop moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black bishop at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black bishop at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black bishop at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black bishop at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black bishop at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black queen moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black queen at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black queen at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black queen at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black queen at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black queen at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black king moves from %(start)s to %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s moves from %(start)s "
+#~ "to %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black king at %(start)s takes the white pawn at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black king at %(start)s takes the white rook at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black king at %(start)s takes the white knight at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black king at %(start)s takes the white bishop at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#, fuzzy
+#~ msgid "Black king at %(start)s takes the white queen at %(end)s"
+#~ msgstr ""
+#~ "%(movenum)2i%(short_colour)s. %(colour)s %(piece)s at %(start)s takes "
+#~ "%(victim_colour)s %(victim_piece)s at %(end)s%(suffix)s"
+
+#~ msgid "%(movenum)2iw. %(description)s (Check)"
+#~ msgstr "%(movenum)2iw. %(description)s (Check)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2iw. %(description)s (Checkmate)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2iw. %(description)s (Stalemate)"
+
+#~| msgid "%(movenum)2iw."
+#~ msgid "%(movenum)2iw. %(description)s"
+#~ msgstr "%(movenum)2iw. %(description)s"
+
+#~ msgid "%(movenum)2ib. %(description)s (Check)"
+#~ msgstr "%(movenum)2ib. %(description)s (Check)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2ib. %(description)s (Checkmate)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2ib. %(description)s (Stalemate)"
+
+#~| msgid "%(movenum)2ib."
+#~ msgid "%(movenum)2ib. %(description)s"
+#~ msgstr "%(movenum)2ib. %(description)s"
+
+#~ msgid "%s wins"
+#~ msgstr "%s જીત"
+
+#~ msgid "Game is drawn"
+#~ msgstr "રમત દોરાયેલ"
+
+#~ msgid "Opponent is in check and cannot move (checkmate)"
+#~ msgstr "વિરોધી ચેક છે અને ખસી શકતો નથી (ચેકમેટ)"
+
+#~ msgid "Opponent cannot move (stalemate)"
+#~ msgstr "વિરોધી ચાલી શકતો નથી (સ્ટેલમેટ)"
+
+#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
+#~ msgstr "કોઈ ટુકડો લેવાયેલ નથી કે pawn છેલ્લી પચાસ ચાલોમાં ખસેલ છે"
+
+#~ msgid "Opponent has run out of time"
+#~ msgstr "વિરોધીનો સમય પૂરો થઈ રહ્યો છે"
+
+#~ msgid "The same board state has occured three times (three fold repetition)"
+#~ msgstr "એ જ બોર્ડ સ્થિતિ ત્રણ વખતે થઈ (ત્રણ ફોલ્ડ પુનરાવર્તન)"
+
+#~ msgid "Neither player can cause checkmate (insufficient material)"
+#~ msgstr "કોઈપણ ખેલાડી ચેકમેટ કરી શક્યો નહિં (અપૂરતું મટીરીયલ)"
+
+#, fuzzy
+#~ msgid "The black player has resigned"
+#~ msgstr "ખેલાડીઓમાંનો એક નિવૃત્ત થઈ ગયો"
+
+#, fuzzy
+#~ msgid "The white player has resigned"
+#~ msgstr "ખેલાડીઓમાંનો એક નિવૃત્ત થઈ ગયો"
+
+#, fuzzy
+#~| msgid "Game over! The game has been won by %s!"
+#~ msgid "The game has been abandoned"
+#~ msgstr "રમત પૂરી! %s રમત જીતી ગયા!"
+
+#~ msgid "One of the players has died"
+#~ msgstr "ખેલાડીઓમાંનો એક મરી ગયો"
+
+#~| msgid "Disconnect"
+#~ msgid "Disconnected"
+#~ msgstr "બિનજોડાણ"
+
+#~ msgid "New profile..."
+#~ msgstr "નવી પ્રોફાઇલ..."
+
+#~ msgid "Table"
+#~ msgstr "કોષ્ટક"
+
+#~ msgid "Seat"
+#~ msgstr "બેસો"
+
+#~ msgid "Player"
+#~ msgstr "ખેલાડી"
+
+#~ msgid "Reserved for %s"
+#~ msgstr "%s માટે આરક્ષિત"
+
+#~ msgid "Seat empty"
+#~ msgstr "ખાલી જગ્યા"
+
+#~ msgid "AI (%s)"
+#~ msgstr "AI (%s)"
+
+#~ msgid "chess-file|a"
+#~ msgstr "a"
+
+#~ msgid "chess-file|b"
+#~ msgstr "b"
+
+#~ msgid "chess-file|c"
+#~ msgstr "c"
+
+#~ msgid "chess-file|d"
+#~ msgstr "d"
+
+#~ msgid "chess-file|e"
+#~ msgstr "e"
+
+#~ msgid "chess-file|f"
+#~ msgstr "f"
+
+#~ msgid "chess-file|g"
+#~ msgstr "g"
+
+#~ msgid "chess-file|h"
+#~ msgstr "h"
+
+#~ msgid "chess-rank|1"
+#~ msgstr "1"
+
+#~ msgid "chess-rank|2"
+#~ msgstr "2"
+
+#~ msgid "chess-rank|3"
+#~ msgstr "3"
+
+#~ msgid "chess-rank|4"
+#~ msgstr "4"
+
+#~ msgid "chess-rank|5"
+#~ msgstr "5"
+
+#~ msgid "chess-rank|6"
+#~ msgstr "6"
+
+#~ msgid "chess-rank|7"
+#~ msgstr "7"
+
+#~ msgid "chess-rank|8"
+#~ msgstr "8"
+
+#~ msgid "chess-notation|P"
+#~ msgstr "P"
+
+#~ msgid "chess-notation|N"
+#~ msgstr "N"
+
+#~ msgid "chess-notation|B"
+#~ msgstr "B"
+
+#~ msgid "chess-notation|R"
+#~ msgstr "R"
+
+#~ msgid "chess-notation|Q"
+#~ msgstr "Q"
+
+#~ msgid "chess-notation|K"
+#~ msgstr "K"
+
+#~ msgid "'%(name)s' in '%(game)s'"
+#~ msgstr "'%(name)s' એ '%(game)s' માં"
+
+#~ msgid "Application Log"
+#~ msgstr "કાર્યક્રમ લોગ"
+
+#~ msgid "Usage: %s [game]"
+#~ msgstr "વપરાશ: %s [રમત]"
+
+#, fuzzy
+#~ msgid "Human versus %s"
+#~ msgstr "માનવ ખેલાડીઓ"
+
+#, fuzzy
+#~| msgid ""
+#~| "glChess has crashed. Please report this bug to http://bugzilla.gnome.org"
+#~ msgid ""
+#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org\n"
+#~ "Debug output:"
+#~ msgstr ""
+#~ "glChess ભાંગી પડ્યું. મહેરબાની કરીને આ ભૂલનો અહેવાલ http://bugzilla.gnome.org માં "
+#~ "આપો"
+
+#~ msgid "Save game before closing?"
+#~ msgstr "બંધ કરતા પહેલા રમત નો સંગ્રહ કરો?"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~| msgid "Copyright 2005-2007 Robert Ancell (and contributors)"
+#~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
+#~ msgstr "Copyright 2005-2008 Robert Ancell (and contributors)"
+
+#~ msgid ""
+#~ "The 2D/3D chess game for GNOME. \n"
+#~ "\n"
+#~ "glChess is a part of GNOME Games."
+#~ msgstr ""
+#~ "જીનોમ માટે 2D/3D શતરંજ રમત. \n"
+#~ "\n"
+#~ "glChess એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "માહિતી ડિરેક્ટરી %(dir)s બનાવવામાં અસમર્થ: %(error)s"
+
+#~| msgid "New password"
+#~ msgid "Incorrect password"
+#~ msgstr "અયોગ્ય પાસવર્ડ"
+
+#~| msgid "Account:"
+#~ msgid "Account in use"
+#~ msgstr "વપરાશમાં ખાતું"
+
+#~| msgid "Error connecting to server: %s"
+#~ msgid "Connection closed: %s"
+#~ msgstr "જોડાણ બંધ થયેલ છે: %s"
+
+#~ msgid "A password is required"
+#~ msgstr "પાસવર્ડની જરૂરિયાત છે"
+
+#, fuzzy
+#~| msgid "Disconnected from server."
+#~ msgid "Disconnected from server"
+#~ msgstr "સર્વરમાંથી જોડાણ તૂટી ગયેલ છે."
+
+#~ msgid "No description"
+#~ msgstr "કોઈ વર્ણન નથી"
+
+#~| msgid "Small"
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "નાનું"
+
+#~| msgid "Medium"
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "મધ્યમ"
+
+#~| msgid "Large"
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "મોટું"
+
+#~ msgid "Could not load theme"
+#~ msgstr "થીમ લાવી શક્યા નહિં"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "ફાઈલ સ્થિત કરવામાં અસમર્થ:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "તેની જગ્યાએ મૂળભૂત થીમ લવાશે."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "ફાઈલ સ્થિત કરવામાં અસમર્થ:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "મહેરબાની કરીને પાંચ અથવા વધુ યોગ્ય રીતે સ્થાપિત છે તે ચકાસો."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr "ગુણની હરોળમાં એક સરખા પાંચ ઓબ્જેક્ટોને ગુણ સાથે સરખાવો!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "જીનોમ પાંચ અથવા વધુ"
+
+#~ msgid "_Board size:"
+#~ msgstr "બોર્ડ માપ (_B):"
+
+#~ msgid "Game Over!"
+#~ msgstr "રમત પૂરી!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "તમે ત્યાં ખસી શકશો નહિં!"
+
+#~ msgid "Five or More"
+#~ msgstr "પાંચ અથવા વધુ"
+
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr ""
+#~ "એક વખતની પ્રસિધ્ધ રંગીન લીટીઓવાળી રમતનું જીનોમ પોર્ટ.\n"
+#~ "\n"
+#~ "પાંચ અથવા વધુ એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "પાંચ અથવા વધુ પસંદગીઓ"
+
+#~ msgid "Themes"
+#~ msgstr "થીમો"
+
+#~ msgid "_Image:"
+#~ msgstr "ઈમેજ (_I):"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-druid-page-standard.c:170
+#~ msgid "B_ackground color:"
+#~ msgstr "પાશ્વ ભાગનો રંગ (_a):"
+
+#~ msgid "Board Size"
+#~ msgstr "બોર્ડનું માપ"
+
+#~| msgid "General"
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "સામાન્ય"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:264
+#~ msgid "_Use fast moves"
+#~ msgstr "ઝડપી ચાલો વાપરો (_U)"
+
+#~ msgid "Next:"
+#~ msgstr "આગળ:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "લીટીઓ બનાવીને પાટિયા પરથી રંગીન બોલ દૂર કરો"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-druid-page-standard.c:170
+#~ msgid "Background color"
+#~ msgstr "પાશ્વ ભાગનો રંગ"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr "પાશ્વ ભાગનો રંગ. પાશ્વ ભાગના રંગ માટે હેક્સ સ્પષ્ટીકરણ."
+
+#~ msgid "Ball style"
+#~ msgstr "બોલની શૈલી"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "બોલની શૈલી. બોલો માટે વાપરવાના ચિત્રોની ફાઈલનું નામ."
+
+#~ msgid "Game field"
+#~ msgstr "રમતનુ મેદાન"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "છેલ્લે સંગ્રહ થયેલા સત્રમાં રમતનું મેદાન."
+
+# libgnomeprintui/gnome-print-dialog.c:301
+# libgnomeprintui/gnome-print-paper-selector.c:1407
+#~ msgid "Game preview"
+#~ msgstr "રમતનુ પૂર્વદર્શન"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "છેલ્લે સંગ્રહ થયેલા સત્રમાં રમતનું પૂર્વદર્શન."
+
+#~ msgid "Game score"
+#~ msgstr "રમતના ગુણ"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "છેલ્લે સંગ્રહ થયેલા સત્રમાં રમતના ગુણ."
+
+#~ msgid "Playing field size"
+#~ msgstr "રમવાના ક્ષેત્રનું માપ"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr "રમવાના ક્ષેત્રનું માપ. ૧=નાનું, ૨=મધ્યમ, ૩=મોટું. અન્ય કોઈપણ કિંમત અયોગ્ય છે."
+
+#~ msgid "Time between moves"
+#~ msgstr "બે ચાલ વચ્ચેનો સમય"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "બે ચાલ વચ્ચેનો સમય મિલિસેકન્ડોમાં."
+
+#~ msgid "Four-in-a-Row"
+#~ msgstr "હરોળ-માં-ચાર"
+
+#~ msgid "Make lines of the same color to win"
+#~ msgstr "જીતવા માટે એવા જ રંગની લીટીઓ બનાવો"
+
+#~ msgid "A number specifying the preferred theme."
+#~ msgstr "આ ક્રમ પ્રસ્તુત થીમને સ્પષ્ટ કરે છે."
+
+#~ msgid "Animate"
+#~ msgstr "એનીમેટ કરો"
+
+# libgnome/gnome-program.c:426
+#~ msgid "Drop marble"
+#~ msgstr "લખોટી પાડો"
+
+#~ msgid "Key press to drop a marble."
+#~ msgstr "લખોટી પાડવા માટે કી નું દબાણ."
+
+#~ msgid "Level of Player One"
+#~ msgstr "પહેલા ખેલાડીનું સ્તર"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "બીજા ખેલાડીનું સ્તર"
+
+#~ msgid "Theme ID"
+#~ msgstr "થીમ ID"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "ઍનીમૅશન વાપરવુ કે નહિ."
+
+#~ msgid ""
+#~ "Zero is human; one through three correspond to the level of the computer "
+#~ "player."
+#~ msgstr "શૂનેય એ મનુષ્ય માટે અને એક થી ત્રણ એ કમ્પ્યૂટરખેલાડીના સ્તર સાથે સંકળાયોલા છે."
+
+#~ msgid ""
+#~ "Unable to load image:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ચિત્ર લાવી શકાય એમ નથી:\n"
+#~ "%s"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "નેટવર્ક ભૂલ ઉદ્ભવી."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "રમતમાં જોડાવા માટે સ્પર્ધક માટે રાહ જોઈ રહ્યા છીએ."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "%s ની નેટવર્ક રમતમાં તમારું સ્વાગત છે."
+
+#~ msgid "It's a draw!"
+#~ msgstr "આ અનિર્ણિત છે!"
+
+#~ msgid "You win!"
+#~ msgstr "તમે જીત્યા!"
+
+#~ msgid "It is your move."
+#~ msgstr "આ તમારી ચાલ છે."
+
+#~ msgid "I win!"
+#~ msgstr "હું જીત્યો!"
+
+#~ msgid "Thinking..."
+#~ msgstr "વિચારી રહ્યુ છે..."
+
+#~ msgid "%s wins!"
+#~ msgstr "%s જીત્યો!"
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "ખસવા માટે %s માટે રાહ જોઈ રહ્યા છીએ."
+
+#~ msgid "Hint: Column %d"
+#~ msgstr "સંકેત: ઊભી હરોળ %d"
+
+#~ msgid "You:"
+#~ msgstr "તમે:"
+
+#~ msgid "Me:"
+#~ msgstr "હું:"
+
+# libgnomeui/gnome-scores.c:94
+#~ msgid "Scores"
+#~ msgstr "ગુણો"
+
+#~ msgid "Drawn:"
+#~ msgstr "અનિર્ણિત:"
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "જીનોમ માટે \"હરોળમાં ચાર\", ગિયુલીઆનો બર્તીલેત્તીના વેલીને યંત્ર દ્વારા દોરાયેલા "
+#~ "કમ્પ્યૂટર ખેલાડી સાથે.\n"
+#~ "\n"
+#~ "\"હરોળમાં ચાર\" એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ખેલાડી ૧:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ખેલાડી ૨:\n"
+#~ "%s"
+
+#~ msgid "Level one"
+#~ msgstr "પહેલુ સ્તર"
+
+#~ msgid "Level two"
+#~ msgstr "બીજુ સ્તર"
+
+#~ msgid "Level three"
+#~ msgstr "ત્રીજુ સ્તર"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "હરોળ-માં-ચાર પસંદગીઓ"
+
+#~ msgid "Appearance"
+#~ msgstr "દેખાવ"
+
+#~ msgid "_Theme:"
+#~ msgstr "થીમ (_T):"
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable _animation"
+#~ msgstr "ઍનીમૅશન સક્રિય કરો (_a)"
+
+# libgnome/gnome-program.c:578
+#~ msgid "E_nable sounds"
+#~ msgstr "અવાજ સક્રિય કરો (_n)"
+
+#~ msgid "Classic"
+#~ msgstr "શાસ્ત્રિય"
+
+#~ msgid "Red"
+#~ msgstr "લાલ"
+
+#~ msgid "Yellow"
+#~ msgstr "પીળો"
+
+#~ msgid "High Contrast"
+#~ msgstr "ઉંચો વિરોધાભાસ"
+
+# #-#-#-#-#  libgnomeprintui.gnome-2-2.hi.po (libgnomeprintui )  #-#-#-#-#
+# libgnomeprintui/gnome-print-paper-selector.c:2039
+#~ msgid "Light"
+#~ msgstr "સફેદ"
+
+#~ msgid "Dark"
+#~ msgstr "કાળો"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "ઉંચો વિરોધાભાસ ઉલટો"
+
+#~ msgid "Cream Marbles"
+#~ msgstr "સારી લખોટીઓ"
+
+#~ msgid "Blue"
+#~ msgstr "ભૂરી"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "કાચની લખોટીઓ"
+
+#~ msgid "Nightfall"
+#~ msgstr "રાત્રિનો ફોલ"
+
+#~ msgid "Blocks"
+#~ msgstr "ભાગો"
+
+#~ msgid "Orange"
+#~ msgstr "કેસરી"
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "%s રમતમાં જોડાયા.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "રમતનો અંત થઈ ગયો કારણ કે %s એ રમત છોડી દીધી.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "%s એ રમત છોડી મૂકી.\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "Gnibbles couldn't find pixmap file:\n"
+#~| "%s\n"
+#~| "\n"
+#~| "Please check your Gnibbles installation"
+#~ msgid ""
+#~ "Nibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "ગ્નીબલને ચિત્ર ફાઇલ મળી નહિ:%s \n"
+#~ "મહેરબાની કરીને ગ્નીબલની સ્થાપના ચકાસો"
+
+#, fuzzy
+#~| msgid ""
+#~| "Gnibbles couldn't load level file:\n"
+#~| "%s\n"
+#~| "\n"
+#~| "Please check your Gnibbles installation"
+#~ msgid ""
+#~ "Nibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "ગ્નીબલ સ્તરની ફાઇલ લાવી શક્યુ નહિ:%s \n"
+#~ "મહેરબાની કરીને ગ્નીબલની સ્થાપના ચકાસો"
+
+#, fuzzy
+#~| msgid ""
+#~| "Gnibbles couldn't load level file:\n"
+#~| "%s\n"
+#~| "\n"
+#~| "Please check your Gnibbles installation"
+#~ msgid ""
+#~ "Level file appears to be damaged:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "ગ્નીબલ સ્તરની ફાઇલ લાવી શક્યુ નહિ:%s \n"
+#~ "મહેરબાની કરીને ગ્નીબલની સ્થાપના ચકાસો"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "ખાણોના ગુણો"
+
+#~ msgid "Speed:"
+#~ msgstr "ઝડપ:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "અભિનંદન!"
+
+#, fuzzy
+#~| msgid "Your score has made the top ten."
+#~ msgid "Your score is the best!"
+#~ msgstr "તમારો ગુણ ટોચના દસમાં આવી ગયો."
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "તમારો ગુણ ટોચના દસમાં આવી ગયો."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "ભૂલભૂલામણામાંથી કીડાને દોરો"
+
+#~ msgid "Nibbles"
+#~ msgstr "નાના કોળીયા ભરો"
+
+#, fuzzy
+#~| msgid "Nibbles"
+#~ msgid "Gnibbles"
+#~ msgstr "નાના કોળીયા ભરો"
+
+#, fuzzy
+#~| msgid "A worm game for GNOME."
+#~ msgid "Gnibbles is a worms game for GNOME."
+#~ msgstr "જીનોમ માટેની કીડાની રમત."
+
+# libgnome/gnome-program.c:435
+#~ msgid "Color to use for worm"
+#~ msgstr "કીડા માટે વપરાતો રંગ"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "કીડા માટે વપરાતો રંગ."
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable fake bonuses"
+#~ msgstr "નકલી બોનસ સક્રિય કરો"
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable fake bonuses."
+#~ msgstr "નકલી બોનસ સક્રિય કરો."
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable sounds"
+#~ msgstr "અવાજ સક્રિય કરો"
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable sounds."
+#~ msgstr "અવાજ સક્રિય કરો."
+
+#~ msgid "Game level to start on"
+#~ msgstr "શરુ કરવા માટેનુ રમતનું સ્તર"
+
+#~ msgid "Game level to start on."
+#~ msgstr "શરુ કરવા માટેનુ રમતનું સ્તર."
+
+#~ msgid "Game speed"
+#~ msgstr "રમતની ઝડપ"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "રમતની ઝડપ (૧=ઝડપી, ૪=ધીમું)."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "નીચે જવા માટે વપરાતી કી."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "ડાબે જવા માટે વપરાતી કી."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "જમણે જવા માટે વપરાતી કી."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "ઉપર જવા માટે વપરાતી કી."
+
+#~ msgid "Move up"
+#~ msgstr "ઉપર ખસો"
+
+#~ msgid "Number of AI players"
+#~ msgstr "AI ખેલાડીઓની સંખ્યા"
+
+#~ msgid "Number of AI players."
+#~ msgstr "AI ખેલાડીઓની સંખ્યા."
+
+#~ msgid "Number of human players"
+#~ msgstr "માનવીય ખેલાડીઓની સંખ્યા"
+
+#~ msgid "Number of human players."
+#~ msgstr "માનવીય ખેલાડીઓની સંખ્યા."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "ગમે તે સ્તર પર રમો"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "ગમે તે સ્તર પર રમો."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "રમતની તકતીઓનું માપ"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "રમતની તકતીઓનું માપ."
+
+#~ msgid "Use relative movement"
+#~ msgstr "પારસ્પરિક ચાલો વાપરો"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "પારસ્પરિક ચાલો વાપરો(ફક્ત ડાબે કે જમણે)."
+
+#~| msgid "Beginner"
+#~ msgctxt "game speed"
+#~ msgid "Beginner"
+#~ msgstr "શરૂઆતી"
+
+#~| msgid "Slow"
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "ધીમું"
+
+#~| msgid "Medium"
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "મધ્યમ"
+
+#~| msgid "Fast"
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "ઝડપી"
+
+#~| msgid "Beginner with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Beginner with Fakes"
+#~ msgstr "ફેક સાથેના શરૂઆતી"
+
+#~| msgid "Slow with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Slow with Fakes"
+#~ msgstr "ફેક સાથેના ધીમા"
+
+#~| msgid "Medium with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Medium with Fakes"
+#~ msgstr "ફેક સાથેના મધ્યમ"
+
+#~| msgid "Fast with Fakes"
+#~ msgctxt "game speed"
+#~ msgid "Fast with Fakes"
+#~ msgstr "ફેક સાથેના ઝડપી"
+
+#~ msgid ""
+#~ "A worm game for GNOME.\n"
+#~ "\n"
+#~ "Nibbles is a part of GNOME Games."
+#~ msgstr ""
+#~ "જીનોમ માટે કીડાની રમત.\n"
+#~ "\n"
+#~ "Nibbles એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "રમત પૂરી! %s રમત જીતી ગયા!"
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "જીનોમ માટેની કીડાની રમત."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "નીબલની પસંદગીઓ"
+
+#~ msgid "Speed"
+#~ msgstr "ઝડપ"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "નવા કીડાને ખાઇ જાય છે"
+
+#~ msgid "My second day"
+#~ msgstr "મારો બીજો દિવસ"
+
+#~ msgid "Not too shabby"
+#~ msgstr "બહુ થાકેલુ નથી"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "આંગળીનો સરસ ઝાટકો"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "રેન્ડમ ક્રમ અનુસાર સ્તરો પર રમો (_P)"
+
+# libgnome/gnome-program.c:578
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "નકલી બોનસ સક્રિય કરો (_E)"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "માનવીય ખેલાડીઓની સંખ્યા (_h):"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "_AI ખેલાડીઓની સંખ્યા:"
+
+#~ msgid "Worm"
+#~ msgstr "કીડો"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "પારસ્પરિક ચાલો વાપરો (_U)"
+
+#~ msgid "_Worm color:"
+#~ msgstr "કીડાનો રંગ (_W):"
+
+#~ msgid "Green"
+#~ msgstr "લીલો"
+
+#~ msgid "Cyan"
+#~ msgstr "મોરપીંછ"
+
+#~ msgid "Purple"
+#~ msgstr "જાંબલી"
+
+#~ msgid "Gray"
+#~ msgstr "રાખોડી"
+
+#~ msgid "Worm %d:"
+#~ msgstr "%d કીડો:"
+
+#~ msgid "Game over!"
+#~ msgstr "રમત પૂરી થઇ ગઇ!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr "સરસ કામ, પરંતુ કમનસીબે તમારો ગુણ ટોચના દસ બનાવતો હતો નહિં."
+
+# libgnomeui/gnome-file-entry.c:241
+#~ msgid "Robots Scores"
+#~ msgstr "રોબોટ ગુણ"
+
+#~ msgid "Map:"
+#~ msgstr "નકશો:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "અભિનંદન, તમે યંત્ર માનવીને હરાવ્યા છે!! \n"
+#~ "શું તમે ફરી કરી શકશો?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "ખસેડવા માટે કોઇ સ્થાન બચ્યા નથી!!"
+
+# libgnome/gnome-program.c:427
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "ખસેડવા માટે કોઇ જ સુરક્ષિત સ્થાન નથી!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "રમતનું દૃશ્ય સુયોજિત કરો"
+
+#~ msgid "Set game configuration"
+#~ msgstr "રમતના રુપરેખા સુયોજિત કરો"
+
+#~ msgid "Initial window position"
+#~ msgstr "આરંભિક વિન્ડો સ્થિતિ"
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas.c:1390 libgnomecanvas/gnome-canvas.c:1391
+#~ msgid "X"
+#~ msgstr "X"
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas.c:1397 libgnomecanvas/gnome-canvas.c:1398
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "શાસ્ત્રિય રોબોટ"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "સુરક્ષિત ચાલો સાથેના શાસ્ત્રિય રોબોટ"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "શ્રેષ્ઠ-સુરક્ષિત ચાલો સાથેના શાસ્ત્રિય રોબોટ"
+
+#~ msgid "Nightmare"
+#~ msgstr "દુઃખદ અનુભવ"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "સુરક્ષિત ચાલો સાથે દુઃખદ અનુભવ"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "શ્રેષ્ઠ-સુરક્ષિત ચાલો સાથે દુઃખદ અનુભવ"
+
+# gnome-session/logout.c:280
+#~ msgid "Robots2"
+#~ msgstr "રોબોટ૨"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "સુરક્ષિત ચાલો સાથે રોબોટ૨"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "શ્રેષ્ઠ-સુરક્ષિત ચાલો સાથે રોબોટ૨"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "રોબોટ૨ સરળ"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "સુરક્ષિત ચાલો સાથે સરળ રોબોટ૨"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "શ્રેષ્ઠ-સુરક્ષિત ચાલો સાથે સરળ રોબોટ૨"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "સુરક્ષિત ટેલીપોર્ટ સાથે રોબોર્ટ"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "સુરક્ષિત ચાલો સાથે સુરક્ષિત ટેલીપોર્ટ સાથેના રોબોટ"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "શ્રેષ્ઠ-સુરક્ષિત ચાલો સાથે સુરક્ષિત ટેલીપોર્ટ સાથેના રોબોટ"
+
+# gnome-session/logout.c:280
+#~ msgid "Robots"
+#~ msgstr "યંત્રમાનવો"
+
+#~ msgid "No game data could be found."
+#~ msgstr "રમત વિશે કોઇ જ માહિતિ શોધી શકાઈ નહિ."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "કાર્યક્રમ યંત્રમાનવ રમતની યોગ્ય રુપરેખા માટેની ફાઇલો શોધવામાં અસમર્થ. મહેરબાની કરીને "
+#~ "તપાસો કરો કાર્યક્રમ બરાબર સ્થાપિત થયેલો છે."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "અમુક ગ્રાફિક્સ ફાઈલો ખોવાયેલ અથવા બગડેલ છે."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "રોબોટ કાર્યક્રમ બધી જરૂરી ગ્રાફિક્સ ફાઈલો લાવવામાં અસમર્થ હતું નહિં. મહેરબાની કરીને "
+#~ "ચકાસો કે કાર્યક્રમ યોગ્ય રીતે સ્થાપિત થયેલો છે."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "યંત્ર માનવોને અવગણો અને તેમને એકબીજામાં ભટકાવો"
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable game sounds"
+#~ msgstr "રમતના અવાજો સક્રિય કરો"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr "રમતના અવાજો સક્રિય કરો. રમત દરમ્યાન અલગ અલગ ઘટનાઓ માટે આવાજો વગાડો."
+
+# libgnome/gnome-program.c:578
+#~ msgid "Enable splats"
+#~ msgstr "સ્પ્લૅટ સક્રિય કરો"
+
+#~ msgid "Enable splats. Play a sound and show a \"Splat!\" on the screen."
+#~ msgstr "સ્પ્લૅટ સક્રિય કરો. \"સ્પ્લૅટ!\" માટે આવાજ વગાડો અને તેને સ્ક્રીન પર દેખાડો."
+
+#~ msgid "Game type"
+#~ msgstr "રમતનો પ્રકાર"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "રમતનો પ્રકાર.વાપરવવા માટેના રમતના બદલાવોનું નામ."
+
+#~ msgid "Key to hold"
+#~ msgstr "દબાવવાની કી"
+
+#~ msgid "Key to move E"
+#~ msgstr "E પાસે ખસેડવા માટે કી"
+
+#~ msgid "Key to move N"
+#~ msgstr "N પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to move NE"
+#~ msgstr "NE પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to move NW"
+#~ msgstr "NW પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to move S"
+#~ msgstr "S પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to move SE"
+#~ msgstr "SE પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to move SW"
+#~ msgstr "SW પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to move W"
+#~ msgstr "W પાસે ખસેડવા માટેની કી"
+
+#~ msgid "Key to teleport"
+#~ msgstr "ટેલીપોર્ટ માટેની કી"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "ટેલીપોર્ટને ગમે તે રીતે પસંદ કરવાની કી"
+
+#~ msgid "Key to wait"
+#~ msgstr "રાહ જોવા માટેની કી"
+
+#~ msgid "Robot image theme"
+#~ msgstr "યંત્રમાનવના ચિત્રની થીમ"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr "યંત્રમાનવના ચિત્રની થીમ. યંત્રમાનવ માટે વાપરવા માટેના ચિત્રની થીમ."
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr "સાધનપટ્ટી બતાવો. સાધનપટ્ટીઓ માટે પ્રમાણભૂત વિકલ્પ."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr "હજુ સુધી દબાવી રાખવા માટે વપરાતી કીનું નામ. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr "પૂર્વમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr "ઉત્તર-પૂર્વમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr "ઉત્તર-પશ્ચિમમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr "ઉત્તરમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr "દક્ષિણ-પૂર્વમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr "દક્ષિણ-પશ્ચિમમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr "દક્ષિણમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr "પશ્ચિમમાં ખસવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "ટેલિપોર્ટ ગમે તે રીતે પસંદ કરવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "ટેલિપોર્ટ સુરક્ષત રીતે પસંદ કરવા માટે કીનું નામ વપરાય છે (જો શક્ય હોય તો). નામ એ "
+#~ "પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr "રાહ જોવા માટે કીનું નામ વપરાય છે. નામ એ પ્રમાણભૂત X કી નામ છે."
+
+#~ msgid "Use safe moves"
+#~ msgstr "સુરક્ષિત ચાલો વાપરો"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "સુરક્ષિત ચાલો વાપરો.સુરક્ષિત ચાલો માટેનું વિકલ્પ તમને ભૂલના કારણે મૃત થવાથી બચાવશે.જો "
+#~ "સુરક્ષિત ચાલ પ્રપ્ત હોય અને તમે એવી ચાલ ચાલવાનો પ્રયત્ન કરો જેનાથી તમારુ મૃત્યુ થાય તો "
+#~ "તમને આગળ વધવા દેવામાં આવશે નહિ."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "અતિસુરક્ષિત ચાલ વાપરો"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "અતિસુરક્ષિત ચાલ વાપરો.જ્યારે કોઇ સુરક્ષત ચાલ નહિ હોય ત્યારે ખેલાડીને સતર્ક કરવામાં "
+#~ "આવશે અને ખાલી બહાર નીકળી જવા માટેનો વિકલ્પ હશે."
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "'%s' ચિત્ર ફાઇલ શોધી શકાયી નહિ\n"
+
+#~ msgid "_Move"
+#~ msgstr "ખસેડો (_M)"
+
+#~ msgid "_Teleport"
+#~ msgstr "ટેલીપોર્ટ (_T)"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "ટેલિપોર્ટ, સુરક્ષિત રીતે જો શક્ય હોય"
+
+#~ msgid "_Random"
+#~ msgstr "રેન્ડમ (_R)"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "ટેલીપોર્ટને ગમે તે રીતે પસંદ કરો"
+
+#~ msgid "_Wait"
+#~ msgstr "રાહ જુઓ (_W)"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "યંત્રમાનવ માટે રાહ જુઓ"
+
+#~ msgid ""
+#~ "Based on classic BSD Robots.\n"
+#~ "\n"
+#~ "Robots is a part of GNOME Games."
+#~ msgstr ""
+#~ "શાસ્ત્રિય BSD યંત્રમાનવો પર આધારિત.\n"
+#~ "\n"
+#~ "રોબોટો એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "classic robots"
+#~ msgstr "સર્વોત્તમ યંત્રમાનવો"
+
+#~ msgid "robots2"
+#~ msgstr "યંત્રમાનવ ૨"
+
+#~ msgid "robots2 easy"
+#~ msgstr "યંત્રમાનવ ૨ સરળ"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "સુરક્ષિત બહાર નીકળવામા રસ્તાની સાથે યંત્રમાનવો"
+
+#~ msgid "nightmare"
+#~ msgstr "દુ:સ્વપ્ન"
+
+#~ msgid "robots"
+#~ msgstr "યંત્રમાનવો"
+
+#~ msgid "cows"
+#~ msgstr "ગાયો"
+
+#~ msgid "eggs"
+#~ msgstr "ઇંડાઓ"
+
+#~ msgid "gnomes"
+#~ msgstr "જીનોમ"
+
+#~ msgid "mice"
+#~ msgstr "ઊંદરડી"
+
+#~ msgid "ufo"
+#~ msgstr "ufo"
+
+#~ msgid "boo"
+#~ msgstr "boo"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "યંત્રમાનવ પસંદગીઓ"
+
+# libgnome-desktop/gnome-ditem-edit.c:260
+# libgnome-desktop/gnome-ditem-edit.c:351
+#~ msgid "Game Type"
+#~ msgstr "રમતનો પ્રકાર"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "સુરક્ષિત ચાલો વાપરો (_U)"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "આકસ્મિક ચાલો કે જે મૃતમાં પરિણમે છે તેનાથી સુરક્ષા કરો."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "અતિ સુરક્ષિત ચાલો વાપરો (_s)"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "બધી ચાલો કે જે મૃતમાં પરિણમે છે તેનાથી સુરક્ષા કરો."
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr "સ્તર જીતી જાય અથવા હારી જાય તેવી ઘટનાઓ માટે ધ્વનિ વગાડો."
+
+# libgnome/gnome-program.c:578
+#~ msgid "E_nable splats"
+#~ msgstr "સ્પ્લૅટ સક્રિય કરો (_n)"
+
+#~ msgid "Play the most common, and potentially the most annoying, sound."
+#~ msgstr "મોટે ભાગે સામાન્ય અને વિચિત્ર ધ્વનિ જ વગાડો."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "ચિત્રાત્મક થીમ"
+
+#~ msgid "_Image theme:"
+#~ msgstr "ચિત્રની થીમ (_I):"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-druid-page-standard.c:170
+#~ msgid "_Background color:"
+#~ msgstr "પાશ્વ ભાગનો રંગ (_B):"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "મૂળભૂત પાછા સંગ્રહો (_R)"
+
+#~ msgid "Keyboard"
+#~ msgstr "કીબોર્ડ"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "સુરક્ષિત રીતે બહાર નાકળવાનો રસ્તો:"
+
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-messagebox.c:115
+#~ msgid "Remaining:"
+#~ msgstr "બાકી રહેલું:"
+
+#~ msgid "Sudoku"
+#~ msgstr "સુડોકુ"
+
+#~ msgid "Test your logic skills in this number grid puzzle"
+#~ msgstr "આ નંબરની જાળી કોયડામાં તમારી તાર્કીક યુક્તિઓ ચકાસો"
+
+#~ msgid "<b><i>Details</i></b>"
+#~ msgstr "<b><i>વિગતો</i></b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">રમતો છાપો</span>"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "સુડોકુઓ છાપો"
+
+#~ msgid "_Easy"
+#~ msgstr "સરળ (_E)"
+
+#~ msgid "_Hard"
+#~ msgstr "સખત (_H)"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr ""
+#~ "તમે છાપવા માટેની રમતોની યાદીમાંથી જે પહેલાથી જ રમેલ હોય તે રમતોનો સમાવેશ કરો (_I)"
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "એકવાર તમે રમતોને છાપો પછી તેને રમાયેલ તરીકે ચિહ્નિત કરો (_M)"
+
+#~ msgid "_Medium"
+#~ msgstr "મધ્યમ (_M)"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "છાપવા માટેના સુડોકુની સંખ્યા (_N): "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "પાનાં પ્રતિ સુડોકુઓ (_S): "
+
+#~ msgid "_Very Hard"
+#~ msgstr "એકદમ સખત (_V)"
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>કોયડાઓની સંખ્યા</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>સરળ:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>સખત:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>મધ્યમ:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>એકદમ સખત:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">કોયડો બનાવનાર</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "વિચારધારા:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "બનાવરનાર પોલીસિ"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "જ્યાં સુધી અટકે નહિં ત્યાં સુધી નવા કોયડાઓ બનાવો (_u)"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "જ્યાં સુધી લક્ષ્ય સુધી પહોંચો નહિં ત્યાં સુધી બનાવો (_r)"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "કોયડો બનાવનાર"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "સુડોકુઓનો લક્ષ્ય નંબર (_n):"
+
+#~ msgid "_Generate"
+#~ msgstr "બનાવો (_G)"
+
+#~ msgid "<b><span size=\"large\">_New Game</span></b>"
+#~ msgstr "<b><span size=\"large\">નવી રમત (_N)</span></b>"
+
+#~ msgid "<b><span size=\"large\">_Saved Games</span></b>"
+#~ msgstr "<b><span size=\"large\">સંગ્રહ થયેલ રમતો (_S)</span></b>"
+
+#~ msgid "Clear _Others"
+#~ msgstr "અન્ય સાફ કરો (_O)"
+
+#~ msgid "_Add Tracker"
+#~ msgstr "ટ્રેકર ઉમેરો (_A)"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "ટ્રેકર સાફ કરો (_C)"
+
+#~ msgid "_Trackers"
+#~ msgstr "ટ્રેકરો (_T)"
+
+#~ msgid "Sudoku incorrectly installed"
+#~ msgstr "Sudoku એ અયોગ્ય રીતે સ્થાપિત થયેલ છે"
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "જીનોમ સુડોકુ"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple sudoku generator and player. Sudoku is a "
+#~ "japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "જીનોમ સુડોકુ એ સાદું સુડોકુ બનાવનાર અને રમનાર છે.  સુડોકુ એ જાપાની તર્ક કોયડો છે.\n"
+#~ "\n"
+#~ "જીનોમ સુડોકુ એ જીનોમ રમતોનો ભાગ છે."
+
+#~| msgid "No Tracker"
+#~ msgid "No Space"
+#~ msgstr "જગ્યા નથી"
+
+#~ msgid "No space left on disk"
+#~ msgstr "ડિસ્ક પર જગ્યા બાકી નથી"
+
+#, fuzzy
+#~| msgid "There is no current puzzle."
+#~ msgid "There is no disk space left!"
+#~ msgstr "ત્યાં કોઈ વર્તમાન કોયડો નથી."
+
+#~ msgid "Error %(errno)s: %(error)s"
+#~ msgstr "ભૂલ %(errno)s: %(error)s"
+
+#, fuzzy
+#~| msgid "Unabled to save game"
+#~ msgid "Sudoku unable to save game."
+#~ msgstr "રમત સંગ્રહવામાં અસમર્થ"
+
+#, fuzzy
+#~| msgid "Unabled to save game"
+#~ msgid "Unable to save file %(filename)s."
+#~ msgstr "રમત સંગ્રહવામાં અસમર્થ"
+
+#~ msgid "Track moves"
+#~ msgstr "ચાલો ટ્રેક કરો"
+
+#~ msgid "Full Screen"
+#~ msgstr "સંપૂર્ણ સ્ક્રીન"
+
+#~ msgid "New game"
+#~ msgstr "નવી રમત"
+
+#~ msgid "Print current game"
+#~ msgstr "વર્તમાન રમત છાપો"
+
+#~ msgid "Print _Multiple Sudokus"
+#~ msgstr "ઘણાબધા સુડોકુઓ છાપો (_M)"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "એક સમયે એક કરતાં વધુ સુડોકુ છાપો."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "Sudoku બંધ કરો"
+
+#~ msgid "_Tools"
+#~ msgstr "સાધનો (_T)"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "વર્તમાન ચોરસમાં કયા નંબરો જઈ શક્યા હશે તે બતાવો."
+
+#~ msgid "_Fill"
+#~ msgstr "ભરો (_F)"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "વર્તમાન ચોરસને જો શક્ય હોય તો આપોઆપ ભરો."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "બધા ચોરસો ભરો (_a)"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr "આપોઆપ બધા ચોરસો ભરો કે જેના માટે ત્યાં માત્ર એક માન્ય કિંમત છે."
+
+#~ msgid "Puzzle _Statistics"
+#~ msgstr "કોયડા પરિસ્થિતિ (_S)"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "વર્તમાન કોયડા વિશે પરિસ્થિતિ બતાવો"
+
+#~ msgid "_Always show hint"
+#~ msgstr "હંમેશા ઈશારો બતાવો (_A)"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "શક્ય નંબરો હંમેશા ચોરસમાં બતાવો"
+
+#~ msgid "Warn about _unfillable squares"
+#~ msgstr "નહિં ભરેલ ચોરસો વિશે ચેતવણી આપો (_u)"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr "ચાલ દ્વારા નહિં ભરી શકાય તેવા બનાવેલ ચોરસો વિશે ચેતવો"
+
+#~ msgid "_Track additions"
+#~ msgstr "વધારાના ટ્રેક કરો (_T)"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "નવા ઉમેરાઓને અલગ રંગમાં ચિહ્નિત કરો કે જેથી તમે તેમનો ટ્રેક રાખી શકો."
+
+#~ msgid "_Highlighter"
+#~ msgstr "પ્રકાશક (_H)"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "વર્તમાન હરોળ, સ્તંભ અને બોક્સ પ્રકાશિત કરો"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "નવા કોયડાબો બનાવો જ્યારે તમે રમો (_w)"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "જ્યારે તમે રમો ત્યારે પાશ્વ ભાગમાં નવા કોયડાઓ પેદા કરો. આ આપોઆપ અટકશે જ્યારે રમત "
+#~ "પાશ્વ ભાગમાં જાય."
+
+# libgnomeui/gnome-app-helper.c:273
+#~ msgid "_Edit"
+#~ msgstr "ફેરફાર (_E)"
+
+#~ msgid "_Undo"
+#~ msgstr "રદ કરો (_U)"
+
+#~ msgid "Undo last action"
+#~ msgstr "છેલ્લી ક્રિયા રદ કરો"
+
+#~ msgid "_Redo"
+#~ msgstr "ફરી કરો (_R)"
+
+#~ msgid "Redo last action"
+#~ msgstr "છેલ્લી ક્રિયા ફરી કરો"
+
+#~ msgid "_Clear"
+#~ msgstr "સાફ કરો (_C)"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "તમે ભરેલ પ્રવેશો સાફ કરો"
+
+#~ msgid "Clear _Notes"
+#~ msgstr "નોંધો સાફ કરો (_N)"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "નોંધો અને ઈશારાઓ સાફ કરો"
+
+#~ msgid "No Tracker"
+#~ msgstr "કોઈ ટ્રેકર નથી"
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "નવા કોયડાઓ બનાવો (_G)"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "નવા કોયડાઓ બનાવો."
+
+#~ msgid "Entering custom grid..."
+#~ msgstr "વૈવિધ્યપૂર્ણ જાળી દાખલ કરવાનું..."
+
+#~ msgid "_Play game"
+#~ msgstr "રમત રમો (_P)"
+
+#, fuzzy
+#~ msgid "You got %(n)s hint"
+#~ msgid_plural "You got %(n)s hints"
+#~ msgstr[0] "%(n)s મિનિટ"
+#~ msgstr[1] "%(n)s મિનિટો"
+
+#~ msgid "Save this game before starting new one?"
+#~ msgstr "નવી એક શરૂ થાય પહેલાં આ રમત ને સંગ્રહો?"
+
+#~ msgid "_Save game for later"
+#~ msgstr "પછી માટે રમત ને સંગ્રહો (_S)"
+
+#~ msgid "_Abandon game"
+#~ msgstr "Abandon રમત (_A)"
+
+#~ msgid "Puzzle Information"
+#~ msgstr "કોયડા જાણકારી"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "ત્યાં કોઈ વર્તમાન કોયડો નથી."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "ગણાયેલ મુશ્કેલી: "
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "નિરાકરણ દ્વારા તુરંત જ ભરી શકાય તેવી ચાલોની સંખ્યા: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "ભરીને તુરંત જ ભરી શકાય તેવી ચાલોની સંખ્યા: : "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "ઉકેલવા માટે જરૂરી પ્રયાસ-અને-ભૂલનો જથ્થો: "
+
+#~ msgid "Puzzle Statistics"
+#~ msgstr "કોયડા પરિસ્થિતિ"
+
+#~ msgid "Clear all moves tracked by selected tracker."
+#~ msgstr "પસંદ કરેલ ટ્રેકર દ્વારા ટ્રેક થયેલ બધી ચાલો સાફ કરો."
+
+#~ msgid "_Clear Others"
+#~ msgstr "અન્ય સાફ કરો (_C)"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "પસંદ કરેલ ટ્રેકર દ્વારા ટ્રેક નહિં થયેલ બધી ચાલો સાફ કરો."
+
+#~ msgid "Tracker %s"
+#~ msgstr "ટ્રેકર %s"
+
+#~ msgid "Print Sudoku"
+#~ msgid_plural "Print Sudokus"
+#~ msgstr[0] "સુડોકુ છાપો"
+#~ msgstr[1] "સુડોકુઓછાપો"
+
+#~ msgid "Print Preview"
+#~ msgstr "છાપન પૂર્વદર્શન"
+
+#, fuzzy
+#~ msgid "Last Played %(timeAgo)s"
+#~ msgstr "છેલ્લે રમેલ"
+
+#~ msgid "%(level)s puzzle"
+#~ msgstr "%(level)s કોયડો"
+
+#~ msgid "Played for %(duration)s"
+#~ msgstr "%(duration)s માટે રમેલ"
+
+#~ msgid "Working..."
+#~ msgstr "કામ કરી રહ્યા છીએ..."
+
+#~ msgid "%(n)s puzzle"
+#~ msgid_plural "%(n)s puzzles"
+#~ msgstr[0] "%(n)s કોયડો"
+#~ msgstr[1] "%(n)s કોયડાઓ"
+
+#~ msgid "Stopped"
+#~ msgstr "અટકાવેલ"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "%(total)s કોયડામાંથી %(n)s પેદા કરેલ"
+#~ msgstr[1] "%(total)s કોયડાઓમાંથી %(n)s પેદા કરેલ"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "બનાવેલ %(n)s કોયડો"
+#~ msgstr[1] "બનાવેલ %(n)s કોયડાઓ"
+
+#~ msgid "Very Hard"
+#~ msgstr "એકદમ સખ્ત"
+
+#~ msgid "Medium"
+#~ msgstr "મધ્યમ"
+
+#~ msgid "_Stop"
+#~ msgstr "અટકાવો (_S)"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "શું તમે ખરેખર આવું કરવા માંગો છો?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "આ મને ફરી પૂછશો નહિં."
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s વર્ષ"
+#~ msgstr[1] "%(n)s વર્ષો"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s મહિનો"
+#~ msgstr[1] "%(n)s મહિનાઓ"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s અઠવાડિયું"
+#~ msgstr[1] "%(n)s અઠવાડિયાઓ"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s દિવસ"
+#~ msgstr[1] "%(n)s દિવસો"
+
+#~ msgid "%(n)s hour"
+#~ msgid_plural "%(n)s hours"
+#~ msgstr[0] "%(n)s કલાક"
+#~ msgstr[1] "%(n)s કલાકો"
+
+#~ msgid "%(n)s minute"
+#~ msgid_plural "%(n)s minutes"
+#~ msgstr[0] "%(n)s મિનિટ"
+#~ msgstr[1] "%(n)s મિનિટો"
+
+#~ msgid "%(n)s second"
+#~ msgid_plural "%(n)s seconds"
+#~ msgstr[0] "%(n)s સેકન્ડ"
+#~ msgstr[1] "%(n)s સેકન્ડો"
+
+#~ msgid " and "
+#~ msgstr " અને "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~| msgid "Today"
+#~ msgid "Today %R %p"
+#~ msgstr "આજે %R %p"
+
+#~| msgid "Yesterday"
+#~ msgid "Yesterday %R %p"
+#~ msgstr "ગઈકાલે %R %p"
+
+#~ msgid "%A %H:%M"
+#~ msgstr "%A %H:%M"
+
+#~ msgid "%A %B %d %R %p"
+#~ msgstr "%A %B %d %R %p"
+
+#, fuzzy
+#~ msgid "%(n)s minute ago"
+#~ msgid_plural "%(n)s minutes ago"
+#~ msgstr[0] "%(n)s મિનિટ"
+#~ msgstr[1] "%(n)s મિનિટો"
+
+#, fuzzy
+#~ msgid "%(n)s second ago"
+#~ msgid_plural "%(n)s seconds ago"
+#~ msgstr[0] "%(n)s સેકન્ડ"
+#~ msgstr[1] "%(n)s સેકન્ડો"
+
+#~ msgid "at %I:%M %p"
+#~ msgstr "at %I:%M %p"
+
+#~ msgid "yesterday at %I:%M %p"
+#~ msgstr "%I:%M %p પર ગઈકાલે"
+
+#~ msgid "%A %I:%M %p"
+#~ msgstr "%A %I:%M %p"
+
+#~ msgid "%B%e"
+#~ msgstr "%B%e"
+
+#~ msgid "Mines"
+#~ msgstr "વિસ્ફોટકો"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:241
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:241
+#~| msgid "Custom"
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "વૈવિધ્યપૂર્ણ"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "નિશાનીઓ: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "ખાણો સાફ થઈ ગયેલ છે!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "ખાણોના ગુણ"
+
+#~ msgid "Size:"
+#~ msgstr "માપ:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "ચોરસ પર ક્લિક કર, કોઈ પણ ચોરસ"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "કદાચ તે ઘણીબધી ખીણો હોઈ શકે ..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "માપ બદલો અને SVG આધાર:"
+
+#~ msgid "Faces:"
+#~ msgstr "ચહેરાઓ:"
+
+#~ msgid "Graphics:"
+#~ msgstr "ગ્રાફિક્સ:"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered.\n"
+#~ "\n"
+#~ "Mines is a part of GNOME Games."
+#~ msgstr ""
+#~ "પ્રચલિત તાર્કિક કોયડા ખાણખોદનાર. સંકેતોની મદદથી બોર્ડમાંથી ખાણો સાફ કરો તમે નહિં "
+#~ "આવરેલ ચોકઠાંઓમાંથી.\n"
+#~ "\n"
+#~ "ખાણો એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Field Size"
+#~ msgstr "ક્ષેત્રનું માપ"
+
+#~ msgid "Custom Size"
+#~ msgstr "વૈવિધ્યપૂર્ણ માપ"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "વિસ્ફોટકોની સંખ્યા (_N):"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "આડું (_H):"
+
+#~ msgid "_Vertical:"
+#~ msgstr "ઊભું (_V):"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "\"હું ચોક્કસ નથી\" નિશાની વાપરો (_U)"
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "\"ઘણા બધા ફ્લેગો\" ચેતવણી વાપરો (_U)"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "વિસ્ફોટકો પસંદગીઓ"
+
+#~ msgid "Width of grid"
+#~ msgstr "જાળીની પહોળાઇ"
+
+#~ msgid "Height of grid"
+#~ msgstr "જાળીની ઊંચાઇ"
+
+#~ msgid "Number of mines"
+#~ msgstr "વિસ્ફોટકોની સંખ્યા"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "બોર્ડનું માપ (૦-૨ = નાનું-મોટું, ૩=વૈવિધ્યપૂર્ણ)"
+
+#~ msgid "X location of window"
+#~ msgstr "વિન્ડોની X સ્થિતિ"
+
+#~ msgid "Y location of window"
+#~ msgstr "વિન્ડોની Y સ્થિતિ"
+
+#~ msgid "Press to Resume"
+#~ msgstr "ફરીથી ચાલુ કરવા માટે દબાવો"
+
+#~ msgid "Time: "
+#~ msgstr "સમય: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "ખાણક્ષેત્રમાંથી છુપા ગોળાઓ સાફ કરો"
+
+#~ msgid "Board size"
+#~ msgstr "બોર્ડ માપ"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "ફ્લેગોને આપોઆપ મૂકવાનું સક્રિય કરો"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "વૈવિધ્યપૂર્ણ રમતમાં સ્તંભોની સંખ્યા"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "વૈવિધ્યપૂર્ણ રમતમાં હરોળોની સંખ્યા"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "ચોરસને અજાણ્યા તરીકે દર્શાવવા માટે ખરા તરીકે સુયોજિત કરો."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "ચેતવણી ચિહ્નો સક્રિય કરવા માટે ખરું સુયોજિત કરો જ્યારે ઘણા બધા ફ્લેગો મૂકવામાં આવે."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "gnomine આપોઆપ ચોરસોને બોમવાળા ફ્લેગ કરે જ્યારે પૂરતા ચોરસો ખોલવાના બાકી હોય તેના "
+#~ "માટે ખરું સુયોજિત કરો"
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "વૈવિધ્યપૂર્ણ રમતમાં બોમની સંખ્યા"
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "અજાણીતી નિશાની વાપરો"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "ઘણા બધા ફ્લેગો વિશે ચેતવણી"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "જરૂરી ચિત્રો શોધવામાં અસમર્થ.\n"
+#~ "\n"
+#~ "મહેરબાની કરીને તમારા જીનોમ-રમતો સ્થાપનો ચકાસો."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "જરૂરી ચિત્ર મળી આવ્યા, પરંતુ લાવવા માટે અટકાવ્યા.\n"
+#~ "\n"
+#~ "મહેરબાની કરીને જીનોમ-રમતો અને તેના આધારભૂતોપણાનું સ્થાપન ચકાસો."
+
+#~ msgid "Could not load images"
+#~ msgstr "ચિત્રો લાવી શક્યા નહિં"
+
+#~ msgid "Tetravex"
+#~ msgstr "ટેટ્રાવૅક્સ"
+
+#~| msgid "0"
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "૦"
+
+#~| msgid "1"
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "૧"
+
+#~| msgid "2"
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "૨"
+
+#~| msgid "3"
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "૩"
+
+#~| msgid "4"
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "૪"
+
+#~| msgid "5"
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "૫"
+
+#~| msgid "6"
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "૬"
+
+#~| msgid "7"
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "૭"
+
+#~| msgid "8"
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "૮"
+
+#~| msgid "9"
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "૯"
+
+#~ msgid "2×2"
+#~ msgstr "2×2"
+
+#~ msgid "3×3"
+#~ msgstr "3×3"
+
+#~ msgid "4×4"
+#~ msgstr "4×4"
+
+#~ msgid "5×5"
+#~ msgstr "5×5"
+
+#~ msgid "6×6"
+#~ msgstr "6×6"
+
+#~ msgid "_Size"
+#~ msgstr "માપ (_S)"
+
+#~ msgid "Sol_ve"
+#~ msgstr "ઊકેલો (_v)"
+
+# libgnomeui/gnome-app-helper.c:254
+#~ msgid "Solve the game"
+#~ msgstr "રમત ઊકેલો"
+
+#~ msgid "_Up"
+#~ msgstr "ઊપર (_U)"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "ટુકડાને ઊપર ખસેડો"
+
+#~ msgid "_Left"
+#~ msgstr "ડાબે (_L)"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "ટુકડાઓને ડાબે ખસેડો"
+
+#~ msgid "_Right"
+#~ msgstr "જમણે (_R)"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "ટુકડાઓને જમણે ખસેડો"
+
+#~ msgid "_Down"
+#~ msgstr "નીચે (_D)"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "ટુકડાઓને નીચે ખસેડો"
+
+#~ msgid "_2×2"
+#~ msgstr "_2×2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "2×2 ના પાટિયા પર રમો"
+
+#~ msgid "_3×3"
+#~ msgstr "_3×3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "3×3 ના પાટિયા પર રમો"
+
+#~ msgid "_4×4"
+#~ msgstr "_4×4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "4×4 ના પાટિયા પર રમો"
+
+#~ msgid "_5×5"
+#~ msgstr "_5×5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "5×5 ના પાટિયા પર રમો"
+
+#~ msgid "_6×6"
+#~ msgstr "_6×6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "6×6 ના પાટિયા પર રમો"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "તકતી રંગો (_C)"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "પાટિયાનું માપ (૨-૬)"
+
+#~ msgid "SIZE"
+#~ msgstr "માપ"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "કોયડો ઉકેલાઇ ગયો! સરસ!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "કોયડો ઉકેલાઇ ગયો!"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "ટેટ્રાવૅક્સ ગુણો"
+
+#~ msgid "Game paused"
+#~ msgstr "રમત અટકી ગઇ"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "%d×%d પાટિયા પર રમી રહ્યા છે"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other.\n"
+#~ "\n"
+#~ "Tetravex is a part of GNOME Games."
+#~ msgstr ""
+#~ "જીનોમ ટેટ્રાવેક્સ એ સાદો કોયડો છે કે જ્યાં કિંમતોનું સ્થાન નક્કી કરેલ હોવું જ જોઈએ કે જેથી "
+#~ "એવા જ નંબરો એકબીજને સ્પર્શે.\n"
+#~ "\n"
+#~ "ટેટ્રાવેક્સ એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "નંબરવાળી તકતીઓ સરખાવીને કોયડો પૂર્ણ કરો"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "રંગવાળી તકતીઓ સક્રિય કરવા માટેનો ફ્લેગ."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "રંગવાળી તકતીઓ નિયંત્રિત કરો"
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr "પસંદ કરો કે શું તકતીઓ ખેંચવી છે કે અંતિમ મુકામની જગ્યાએ સ્રોત પર ક્લિક કરવું છે."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "રમત માટેની જાળીનું માપ"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "આ કી ની કિંમત રમવાની જાળીની ઊંચાઇ નક્કી કરવામાં વપરાય છે.યોગ્ય કિંમત ૨ થી ૮ છે,"
+#~ "એના સિવાયનું કંઇપણ ૩ તરીકે ગોઠવાઇ જશે."
+
+#~ msgid "Klotski"
+#~ msgstr "ક્લોત્સકી"
+
+#~ msgid "Only 18 steps"
+#~ msgstr "માત્ર ૧૮ પગલાંઓ"
+
+#~ msgid "Daisy"
+#~ msgstr "ચક્રાકાર"
+
+#~ msgid "Violet"
+#~ msgstr "જાંબલી"
+
+#~ msgid "Poppy"
+#~ msgstr "પોપી"
+
+#~ msgid "Pansy"
+#~ msgstr "પેન્સી"
+
+#~ msgid "Snowdrop"
+#~ msgstr "સ્નોડ્રોપ"
+
+#~ msgid "Red Donkey"
+#~ msgstr "લાલ વાંદરો"
+
+#~ msgid "Trail"
+#~ msgstr "ટ્રેઈલ"
+
+#~ msgid "Ambush"
+#~ msgstr "એમ્બશ"
+
+#~ msgid "Agatka"
+#~ msgstr "એગાટ્કા"
+
+# libgnomeui/gnome-scores.c:94
+#~ msgid "Success"
+#~ msgstr "સફળતા"
+
+#~ msgid "Bone"
+#~ msgstr "બોન"
+
+#~ msgid "Fortune"
+#~ msgstr "સૌભાગ્ય"
+
+#~ msgid "Fool"
+#~ msgstr "ફુલ"
+
+#~ msgid "Solomon"
+#~ msgstr "સોલોમન"
+
+#~ msgid "Cleopatra"
+#~ msgstr "ક્લેઓપેટ્રા"
+
+#~ msgid "Shark"
+#~ msgstr "શાર્ક"
+
+#~ msgid "Rome"
+#~ msgstr "રોમ"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "પેનાન્ટ કોયડો"
+
+#~ msgid "Ithaca"
+#~ msgstr "ઈથાકા"
+
+#~ msgid "Pelopones"
+#~ msgstr "પેલોપોનસ"
+
+#~ msgid "Transeuropa"
+#~ msgstr "ટ્રાન્સયુરોપા"
+
+#~ msgid "Lodzianka"
+#~ msgstr "લોડઝીઆન્કા"
+
+#~ msgid "Polonaise"
+#~ msgstr "પોલોનાઈસ"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "બાલ્ટિક સમુદ્ર"
+
+#~ msgid "American Pie"
+#~ msgstr "અમેરિકન પાઈ"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "ટ્રાફિક જામ"
+
+#~ msgid "Sunshine"
+#~ msgstr "સનસાઈન"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "માત્ર ૧૮ પગલાં"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "હુઆરોંગ ટ્રેઈલ"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "શરતી પેક"
+
+#~ msgid "Skill Pack"
+#~ msgstr "આવડત પેક"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "કોયડો ફરી શરૂ કરો (_R)"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "આવતો કોયડો"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "પહેલાનો કોયડો"
+
+#~ msgid "Level completed."
+#~ msgstr "સ્તર પૂર્ણ."
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "કોયડો ઉકેલાઈ ગયો!"
+
+# libgnomeui/gnome-scores.c:94
+#~ msgid "Klotski Scores"
+#~ msgstr "Klotski ગુણ"
+
+#~ msgid "Puzzle:"
+#~ msgstr "કોયડો:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "અ રમત માટેની થીમ રેન્ડર કરવામાં નિષ્ફળ:\n"
+#~ "\n"
+#~ "મહેરબાની કરીને ચકાસો કે ક્લોત્સકી યોગ્ય રીતે સ્થાપિત છે."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "ચિત્ર શોધી શક્યા નહિં:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "મહેરબાની કરીને ચકાસો કે ક્લોત્સકી યોગ્ય રીતે સ્થાપિત છે."
+
+#~ msgid "Moves: %d"
+#~ msgstr "ચાલો: %d"
+
+#~ msgid ""
+#~ "Sliding Block Puzzles\n"
+#~ "\n"
+#~ "Klotski is a part of GNOME Games."
+#~ msgstr ""
+#~ "બ્લોક કોયડાઓ સરકાવવાનું\n"
+#~ "\n"
+#~ "ક્લોત્સકી એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "કોયડો ઉકેલવા માટે બ્લોક સરકાવો"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "રમાયેલ કોયડાઓની સંખ્યા."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "રમતમાં કોયડો"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "પહેલેથી વપરાઇ ચૂક્યુ છે! તમે એને ક્યાં મૂકવા માગો છો?"
+
+#~ msgid "Score: %d"
+#~ msgstr "ગુણ: %d"
+
+#~ msgid "Field used"
+#~ msgstr "ક્ષેત્ર વાપરેલ"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "પોકર-શૈલી ડાઈસ રમતમાં એકી સંખ્યાવાળાને હરાવો"
+
+#~ msgid "Tali"
+#~ msgstr "તાલી"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "કમ્પ્યૂટરના પાસાની બે ફેંક વચ્ચેનો ગાળો રાખવો કે નહિ તે પસંદ કરો જેથી કરીને તે શું કરી "
+#~ "રહ્યું છે તે ખેલાડી સમજી શકે."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "બે ફેંક વચ્ચેનો ગાળો"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "કમ્પ્યૂટરના વિચારો દર્શાવો"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr "જો ખરા તરીકે દોઠવાયેલું હશે તો 'AI' નું કામ મૂળભૂત આઉટપુટ પર દર્શાવાશે."
+
+#~ msgid "Regular"
+#~ msgstr "નિયમિત"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[મનુષ્ય,વિલ્બર,બિલ,માનિકા,કૅનીથ,જૅનૅટ]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "કમ્પ્યૂટરની ચાલો વિલંબિત કરો"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "કમ્પ્યૂટરના વિચારો દર્શાવો"
+
+# libgnomeprintui/gnome-print-copies.c:261
+#~ msgid "Number of computer opponents"
+#~ msgstr "કમ્પ્યૂટર હરીફોની સંખ્યા"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "મનુષ્ય હરીફોની સંખ્યા"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "રમત પસંદગી: નિયમિત અથવા રંગો"
+
+#~ msgid "STRING"
+#~ msgstr "શબ્દમાળા"
+
+# libgnomeprintui/gnome-print-copies.c:261
+#~ msgid "Number of computer-only games to play"
+#~ msgstr "રમવા માટેની માત્ર-કમ્પ્યૂટર રમતોની સંખ્યા"
+
+#~ msgid "Number of trials for each roll for the computer"
+#~ msgstr "કમ્પ્યૂટર માટે દરેક રોલ માટે પ્રયાસોની સંખ્યા"
+
+#~| msgid "Regular"
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "નિયમિત"
+
+#~| msgid "Colors"
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "રંગો"
+
+#~ msgid "Roll all!"
+#~ msgstr "બધું ફેંકો!"
+
+#~ msgid "Roll!"
+#~ msgstr "ફેંકો!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "આ રમત અનિર્ણિત છે!"
+
+# libgnomeui/gnome-scores.c:94
+#~ msgid "Tali Scores"
+#~ msgstr "Tali ગુણો"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s રમત %d અંકથી જીતી ગયું"
+#~ msgstr[1] "%s રમત %d અંકોથી જીતી ગયું"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "કમ્પ્યૂટર %s માટે રમી રહ્યુ છે"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s! -- તમારો વારો પૂરો."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "સરકાવવા માટે પાસો અથવા ગુણ સ્લોટ પસંદ કરો."
+
+#~ msgid "Roll"
+#~ msgstr "ગબડાવો"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "તમને ફક્ત ત્રણ વાર ફેરવવાની પરવાનગી છે. ગુણ માટેની પેટી પસંદ કરો."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "જીનોમ આવૃત્તિ (૧૯૯૮):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "કન્સોલ આવૃત્તિ (૧૯૯૨):"
+
+#~ msgid ""
+#~ "A variation on poker with dice and less money.\n"
+#~ "\n"
+#~ "Tali is a part of GNOME Games."
+#~ msgstr ""
+#~ "પાસા અને ઓછા પૈસા સાથેનો પોકરનો એક ચલ.\n"
+#~ "\n"
+#~ "તાલી એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "વર્તમાન રમત ખેલાડીઓની પ્રારંભિક સંખ્યા સાથે પૂરી થશે."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "તાલી પ્રાથમિકતાઓ"
+
+#~ msgid "Human Players"
+#~ msgstr "માનવ ખેલાડીઓ"
+
+#~ msgid "_Number of players:"
+#~ msgstr "ખેલાડીઓની સંખ્યા (_N):"
+
+#~ msgid "Computer Opponents"
+#~ msgstr "કમ્પ્યૂટર હરીફો"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "બે ફેંક વચ્ચેનો વિલંબ (_D)"
+
+# libgnomeprintui/gnome-print-copies.c:261
+#~ msgid "N_umber of opponents:"
+#~ msgstr "હરીફોની સંખ્યા (_u):"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "મુશ્કેલી (_D):"
+
+#~| msgid "Easy"
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "સરળ"
+
+#~| msgid "Medium"
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "મધ્યમ"
+
+#~| msgid "Hard"
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "સખ્ત"
+
+#~ msgid "Player Names"
+#~ msgstr "ખેલાડીઓના નામ"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "એકવાળા [એકવાળા કુલ]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "બેવાળા [બેવાળા કુલ]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "ત્રણવાળા [ત્રણવાળા કુલ]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "ચારવાળા [ચારવાળા કુલ]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "પાંચવાળા [પાંચવાળા કુલ]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "છવાળા [છવાળા કુલ]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "એ પ્રકારના ત્રણ [કુલ]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "એ પ્રકારના ચાર [કુલ]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "ભરેલું ઘર [૨૫]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "નાનું સીધું [૩૦]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "મોટુ સીધું [૪૦]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "એ પ્રકારના ૫ [૫૦]"
+
+# libgnomeprintui/gnome-print-master-preview.c:638
+#~ msgid "Chance [total]"
+#~ msgstr "તક [કુલ]"
+
+# libgnomeui/gnome-dateedit.c:491
+#~ msgid "Lower Total"
+#~ msgstr "ઓછું કુલ"
+
+#~ msgid "Grand Total"
+#~ msgstr "સંપૂર્ણ કુલ"
+
+# libgnomeprintui/gnome-print-master-preview.c:638
+#~ msgid "Upper total"
+#~ msgstr "વધુ કુલ"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "જો &gt;૬૨ તો બોનસ"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "૨ જોડી એક જ રંગ [કુલ]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "ભરેલું ઘર [૧૫ + કુલ]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "ભરેલું ઘર એક જ રંગ [૨૦ + કુલ]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "ફ્લશ (બધા એક જ રંગ) [૩૫]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "૪ પ્રકારનું [૨૫ + કુલ]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "૫ પ્રકારનું [૫૦ + કુલ]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "ગુણ સ્લોટ પસંદ કરો."
+
+#, fuzzy
+#~ msgid "5 of a Kind [total]"
+#~ msgstr "એ પ્રકારના ત્રણ [કુલ]"
+
+#~ msgid "Iagno"
+#~ msgstr "ઇઆગ્નો"
+
+#~ msgid ""
+#~ "A disk flipping game derived from Reversi.\n"
+#~ "\n"
+#~ "Iagno is a part of GNOME Games."
+#~ msgstr ""
+#~ "રીવર્સીમાં મેળવાયેલ ડિસ્ક ફ્લીપીંગ રમત.\n"
+#~ "\n"
+#~ "લેગ્નો એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Invalid move."
+#~ msgstr "ખોટી ચાલ."
+
+# libgnomeprint/gnome-print-paper.c:51
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "ઘાટો ટુકડો મૂકવાની ચાલી તમારી છે"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "આછો ટુકડો મૂકવાની ચાલી તમારી છે"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "ખસવા માટે %s ની રાહ જોઈ રહ્યા છીએ"
+
+#~ msgid "Dark's move"
+#~ msgstr "કાળાની ચાલ"
+
+#~ msgid "Light's move"
+#~ msgstr "સફેદની ચાલ"
+
+#~ msgid "Dark:"
+#~ msgstr "કાળો:"
+
+#~ msgid "Light:"
+#~ msgstr "સફેદ:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "ઇઆગ્નોમાં પધારો!"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Reversi ની શાસ્ત્રિય આવૃત્તિમાં બોર્ડને ડોમીનેટ કરો"
+
+#~ msgid "Light player wins!"
+#~ msgstr "સફેદ ખેલાડી જીતી ગયો!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "કાળો ખેલાડી જીતી ગયો!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "રમત અનિર્ણત રહી."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "સફેદે દાવ જવા દેવા જોઇએ, કાળાની ચાલ"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "કાળાએ દાવ જવા દેવા જોઇએ, સફેદની ચાલ"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "ઇઆગ્નો પ્રાથમિકતાઓ"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "ઝડપી ચાલ વાપરો (_U)"
+
+#~ msgid "Animation"
+#~ msgstr "એનીમૅશન"
+
+#~ msgid "Partial"
+#~ msgstr "અંશતઃ"
+
+# libgnomeprintui/gnome-print-copies.c:250
+#~ msgid "Complete"
+#~ msgstr "પૂર્ણ"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "સ્ટેગર ફ્લીપો (_S)"
+
+#~ msgid "S_how grid"
+#~ msgstr "જાળી બતાવો (_h)"
+
+#~ msgid "_Flip final results"
+#~ msgstr "અંતિમ પરિણામ પલટો (_F)"
+
+#~ msgid "_Tile set:"
+#~ msgstr "તક્તી ગણ (_T):"
+
+#~ msgctxt "card symbol"
+#~ msgid "JOKER"
+#~ msgstr "JOKER"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#~| msgid "2"
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "૨"
+
+#~| msgid "3"
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "૩"
+
+#~| msgid "4"
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "૪"
+
+#~| msgid "5"
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "૫"
+
+#~| msgid "6"
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "૬"
+
+#~| msgid "7"
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "૭"
+
+#~| msgid "8"
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "૮"
+
+#~| msgid "9"
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "૯"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~| msgid "1"
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "૧"
+
+#~ msgid "Card Style"
+#~ msgstr "પત્તાની શૈલી"
+
+#~ msgid "_Deal"
+#~ msgstr "સોદો (_D)"
+
+#~ msgid "_About"
+#~ msgstr "વિશે (_A)"
+
+# #-#-#-#-#  anjuta.ANJUTA_1_2_0.hi.po (anjuta2 VERSION)  #-#-#-#-#
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties.c:179
+#~ msgid "_Cancel"
+#~ msgstr "રદ કરો (_C)"
+
+#~ msgid "_Close"
+#~ msgstr "બંધ કરો (_C)"
+
+#~ msgid "_OK"
+#~ msgstr "બરાબર (_O)"
+
+#, fuzzy
+#~| msgid "Eight Off"
+#~ msgid "Lights Off"
+#~ msgstr "આઠ બંધ"
+
+#~ msgid "Turn off all the lights"
+#~ msgstr "બધા પ્રકાશો ને બંધ કરો"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "પસંદિત થીમ રેન્ડર કરવામાં નિષ્ફળ.\n"
+#~ "\n"
+#~ "મહેરબાની કરીને ચકાસો કે માહજોંગ યોગ્ય રીતે સ્થાપિત થયેલ છે."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "ફાઈલ રેન્ડર કરવામાં અસમર્થ:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "મહેરબાની કરીને ચકાસો કે માહજોંગ યોગ્ય રીતે સ્થાપિત થયેલ છે."
+
+#~ msgid "Mahjongg"
+#~ msgstr "માહજૉંગ"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "તકતી સમૂહ લાવી શક્યા નહિં"
+
+#~ msgid "Do you want to start a new game with this map?"
+#~ msgstr "શું તમે આ નક્ષા સાથે નવી રમત શરૂ કરવા માંગો છો?"
+
+#, fuzzy
+#~| msgid ""
+#~| "If you choose to finish with the old map then the next game will use the "
+#~| "new map."
+#~ msgid "If you continue playing the next game will use the new map."
+#~ msgstr "જો તમે જૂના નકશા સાથે પૂર્ણ કરવાનું પસંદ કરો તો નવી રમત નવો નકશો વાપરશે."
+
+#, fuzzy
+#~| msgid "Computer playing for %s"
+#~ msgid "_Continue playing"
+#~ msgstr "કમ્પ્યૂટર %s માટે રમી રહ્યુ છે"
+
+#~ msgid "Use _new map"
+#~ msgstr "નવા નક્ષાને વાપરો (_n)"
+
+#~ msgid "There are no more moves."
+#~ msgstr "હવે કોઇ ચાલ રહી નથી."
+
+#~| msgid "New game"
+#~ msgid "_New game"
+#~ msgstr "નવી રમત (_N)"
+
+#, fuzzy
+#~| msgid "Shuffle"
+#~ msgid "_Shuffle"
+#~ msgstr "આડુઅવળુ"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "માહજૉંગ ગુણ"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "માહજોંગ પસંદગીઓ"
+
+#~ msgid "Tiles"
+#~ msgstr "તકતીઓ"
+
+#~ msgid "Maps"
+#~ msgstr "નકશા"
+
+#~ msgid "_Select map:"
+#~ msgstr "નકશો પસંદ કરો (_S):"
+
+#~ msgid "Colors"
+#~ msgstr "રંગો"
+
+#~ msgid "Maps:"
+#~ msgstr "નકશાઓ:"
+
+#~ msgid "Tiles:"
+#~ msgstr "તકતીઓ:"
+
+#~ msgid ""
+#~ "A matching game played with Mahjongg tiles.\n"
+#~ "\n"
+#~ "Mahjongg is a part of GNOME Games."
+#~ msgstr ""
+#~ "બંધબેસતી રમત માહજોંગ તકતીઓ સાથે રમાયેલ છે.\n"
+#~ "\n"
+#~ "માહજોંગ એ જીનોમ રમતોનો ભાગ છે."
+
+#, fuzzy
+#~| msgid "Mahjongg"
+#~ msgid "Mahjongg - %s"
+#~ msgstr "માહજૉંગ"
+
+#~ msgid "Redo the last move"
+#~ msgstr "છેલ્લી ચાલ ફરી કરો"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "બાકી રહેલી તકતીઓ:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "બાકી રહેલી ચાલો:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "બંધબેસતી જોડણીઓની તકતીઓ દૂર કરો."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "બંધબેસતી જોડ રદ કરીને તકતીઓની થપ્પી છૂટી પાડો"
+
+#~| msgid "Easy"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "સરળ"
+
+#, fuzzy
+#~| msgid "The Ziggurat"
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "The Ziggurat"
+
+#~| msgid "Four Bridges"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "ચાર પુલો"
+
+#~| msgid "Cloud"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "વાદળ"
+
+#~| msgid "Tic-Tac-Toe"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Tic-Tac-Toe"
+
+#~| msgid "Red Dragon"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "લાલ ડ્રેગન"
+
+#~| msgid "Pyramid's Walls"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "પિરામિડની દિવાલો"
+
+#~| msgid "Confounding Cross"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "Confounding Cross"
+
+#~| msgid "Difficult"
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "મુશ્કેલ"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "બોર્ડ સાફ કરવા માટે ૧૦૦૦ બોનસ ગુણો!"
+
+# libgnomeui/gnome-app-helper.c:254
+#~ msgid "Set the theme"
+#~ msgstr "થીમ સુયોજિત કરો"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "પાછળની આવૃત્તિઓને આધાર આપવા માટે"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "રમતનું માપ (૧=નાનું, ૩=મોટું)"
+
+#~ msgid "Clear the screen by removing groups of colored balls"
+#~ msgstr "રંગવાળા બોલોના જૂથોને દૂર કરીને સ્ક્રીન સાફ કરો"
+
+#~ msgid "Same GNOME"
+#~ msgstr "આ જ જીનોમ"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "વૈવિધ્યપૂર્ણ બોર્ડની ઊંચાઈ"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "આને ખોટું સુયોજિત કરવાનું એટલે કે કટકાઓ ધીમેથી પડે, પરંતુ યોગ્ય રીતે. સાચું તરીકે સુયોજિત "
+#~ "કરવાનું કટકાઓને ઝડપથી અને અવ્યવસ્થિત રીતે પડવાનું કારણ બને છે."
+
+#~ msgid "The board size"
+#~ msgstr "બોર્ડનું માપ"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "વાપરવા માટેની થીમનું ફાઈલનામ."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "કસ્ટમ બોર્ડની ઊંચાઈ, ૧૦૧ &gt; ઊંચાઈ &gt; ૩."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr "વાપરવા માટેના બોર્ડનું માપ. ૧ = વૈવિધ્ય, ૨ = નાનું, ૩ = મધ્યમ, ૪ = મોટું."
+
+#~ msgid "The theme to use"
+#~ msgstr "વાપરવા માટેની થીમ"
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "વૈવિધ્યપૂર્ણ બોર્ડની પહોળાઈ, ૧૦૧ &gt; પહોળાઈ &gt; ૩."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:264
+#~ msgid "Use fast animation"
+#~ msgstr "ઝડપી એનીમેશન વાપરો"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "વૈવિધ્યપૂર્ણ બોર્ડની પહોળાઈ"
+
+#~ msgid "No points"
+#~ msgstr "કોઈ બિંદુઓ નથી"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d બિંદુ"
+#~ msgstr[1] "%d બિંદુઓ"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!\n"
+#~ "\n"
+#~ "Same GNOME is a part of GNOME Games."
+#~ msgstr ""
+#~ "હું રમત રમવા માંગુ છુ! તમે જાણો છો, તેઓ બધા એકબીજાની ફરતે જયા કરે છે અને તમે એમના પર "
+#~ "ક્લિક કરો અને તેઓ ગુમ થઈ જાય!\n"
+#~ "\n"
+#~ "એ જ જીનોમ એ જીનોમ રમતોનો ભાગ છે."
+
+#~ msgid "Same GNOME Scores"
+#~ msgstr "આવા જ જીનોમ ગુણો"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr "કમનસીબે તમારો ગુણ પ્રથમ દસમાં આવી શક્યો નહિં."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "આવી જ જીનોમ થીમ"
+
+#~ msgid "_Theme..."
+#~ msgstr "થીમ (_T)..."
+
+#~ msgid "_Small"
+#~ msgstr "નાનું (_S)"
+
+#~ msgid "_Large"
+#~ msgstr "મોટું (_L)"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "ઝડપી એનીમેશન (_F)"
+
+#~ msgid "No theme data was found."
+#~ msgstr "કોઈ થીમ માહિતી મળી ન હતી."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "રમત રમવાનું અશક્ય છે. મહેરબાની કરીને ચકાસો કે રમત યોગ્ય રીતે સ્થાપિત થયેલ છે અને ફરીથી "
+#~ "પ્રયત્ન કરો."
