@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ "${1}" = "configure" ]; then
+  chown root:games /var/games/gnometris.scores
+  chmod 664 /var/games/gnometris.scores
+fi

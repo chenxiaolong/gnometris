@@ -9,7 +9,3 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- --disable-scrollkeeper --with-sound=gstreamer
-
-# Make sure the scores remain owned by root:games
-override_dh_fixperms:
-	dh_fixperms -- --exclude gnometris.scores
