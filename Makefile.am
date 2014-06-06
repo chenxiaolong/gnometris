@@ -17,8 +17,7 @@ EXTRA_DIST = \
 	COPYING-DOCS \
 	xmldocs.make \
 	omf.make \
-	gnome-doc-utils.make \
-	ChangeLog
+	gnome-doc-utils.make
 
 DISTCLEANFILES = \
 	intltool-extract \
