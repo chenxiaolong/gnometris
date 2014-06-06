@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2006-04-10 12:30+0200\n"
 "Last-Translator: Alexander Didebulidze <didebuli@in.tum.de>\n"
 "Language-Team: Georgian <gnome@inet.ge>\n"
@@ -29,9 +29,9 @@ msgstr "დაპაუზებულია"
 msgid "Game Over"
 msgstr "თამაში"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr ""
 
@@ -39,181 +39,11 @@ msgstr ""
 msgid "Fit falling blocks together"
 msgstr ""
 
-#: ../gnometris/gnometris.schemas.in.h:1
-#, fuzzy
-msgid "Image to use for drawing blocks"
-msgstr "სურათი -სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-#, fuzzy
-msgid "Image to use for drawing blocks."
-msgstr "სურათი -სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:4
-#, fuzzy
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ის და."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-#, fuzzy
-msgid "Level to start with"
-msgstr "-სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:7
-#, fuzzy
-msgid "Whether to use the background image"
-msgstr "-სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-#, fuzzy
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "-სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:11
-#, fuzzy
-msgid "Whether to preview the next block"
-msgstr "-სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-#, fuzzy
-msgid "Whether to preview the next block."
-msgstr "-სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-#, fuzzy
-msgid "Whether to provide a target"
-msgstr "-სკენ a"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-#, fuzzy
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "-სკენ a ის a."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-#, fuzzy
-msgid "Whether to give blocks random colors"
-msgstr "-სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-#, fuzzy
-msgid "Whether to give blocks random colors."
-msgstr "-სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-#, fuzzy
-msgid "Whether to rotate counter clock wise"
-msgstr "-სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-#, fuzzy
-msgid "Whether to rotate counter clock wise."
-msgstr "-სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-#, fuzzy
-msgid "The number of rows to fill"
-msgstr "რიცხვი ის ხაზი -სკენ"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-#, fuzzy
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "რიცხვი ის ხაზი ის."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-#, fuzzy
-msgid "The density of filled rows"
-msgstr "ის ხაზი"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-#, fuzzy
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr "ის დუიმი ხაზი ის არა და a."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-#, fuzzy
-msgid "Move left"
-msgstr "გადატანა მარცხენა"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-#, fuzzy
-msgid "Key press to move left."
-msgstr "გასაღები -სკენ მარცხენა."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-#, fuzzy
-msgid "Move right"
-msgstr "გადატანა მარჯვენა"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-#, fuzzy
-msgid "Key press to move right."
-msgstr "გასაღები -სკენ მარჯვენა."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-#, fuzzy
-msgid "Move down"
-msgstr "გადატანა"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-#, fuzzy
-msgid "Key press to move down."
-msgstr "გასაღები -სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:30
-#, fuzzy
-msgid "Key press to drop."
-msgstr "გასაღები -სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:32
-#, fuzzy
-msgid "Key press to rotate."
-msgstr "გასაღები -სკენ."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "პაუზა"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-#, fuzzy
-msgid "Key press to pause."
-msgstr "გასაღები -სკენ."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr ""
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr ""
 
@@ -261,166 +91,130 @@ msgstr "_პარამეტრები"
 msgid "_Help"
 msgstr "_დახმარება"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 #, fuzzy
 msgid "Gnometris Preferences"
 msgstr "პარამეტრები"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "თამაში"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 #, fuzzy
 msgid "Setup"
 msgstr "ინსტალაცია"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 #, fuzzy
 msgid "_Number of pre-filled rows:"
 msgstr "ის ხაზი:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "სიმკვრივე ის დუიმი a:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 #, fuzzy
 msgid "_Starting level:"
 msgstr "ვრთავ:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "ხმების _ჩართვა"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 #, fuzzy
 msgid "_Preview next block"
 msgstr "წინასწარ ნახვა"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 #, fuzzy
 msgid "_Use random block colors"
 msgstr "გამოყენება"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 #, fuzzy
 msgid "Show _where the block will land"
 msgstr "ანახე"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 #, fuzzy
 msgid "Theme"
 msgstr "გაფორმება"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 #, fuzzy
 msgid "Keyboard Controls"
 msgstr "კლავიატურა"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+#, fuzzy
+msgid "Move left"
+msgstr "გადატანა მარცხენა"
+
+#: ../gnometris/tetris.cpp:782
+#, fuzzy
+msgid "Move right"
+msgstr "გადატანა მარჯვენა"
+
+#: ../gnometris/tetris.cpp:783
+#, fuzzy
+msgid "Move down"
+msgstr "გადატანა"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "პაუზა"
+
+#: ../gnometris/tetris.cpp:797
 #, fuzzy
 msgid "Block Style"
 msgstr "ბლოკირება სტილი"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 #, fuzzy
 msgid "translator-credits"
 msgstr "თარგმანი-შესრულებულია"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "_პარამეტრები"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
 msgstr ""
 
 #: ../libgames-support/games-controls.c:48
@@ -659,6 +453,114 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "სურათი -სკენ"
+
+#, fuzzy
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "სურათი -სკენ."
+
+#, fuzzy
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ის და."
+
+#, fuzzy
+#~ msgid "Level to start with"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Whether to use the background image"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "Whether to preview the next block"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Whether to preview the next block."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "Whether to provide a target"
+#~ msgstr "-სკენ a"
+
+#, fuzzy
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "-სკენ a ის a."
+
+#, fuzzy
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "-სკენ"
+
+#, fuzzy
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "-სკენ."
+
+#, fuzzy
+#~ msgid "The number of rows to fill"
+#~ msgstr "რიცხვი ის ხაზი -სკენ"
+
+#, fuzzy
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "რიცხვი ის ხაზი ის."
+
+#, fuzzy
+#~ msgid "The density of filled rows"
+#~ msgstr "ის ხაზი"
+
+#, fuzzy
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr "ის დუიმი ხაზი ის არა და a."
+
+#, fuzzy
+#~ msgid "Key press to move left."
+#~ msgstr "გასაღები -სკენ მარცხენა."
+
+#, fuzzy
+#~ msgid "Key press to move right."
+#~ msgstr "გასაღები -სკენ მარჯვენა."
+
+#, fuzzy
+#~ msgid "Key press to move down."
+#~ msgstr "გასაღები -სკენ."
+
+#, fuzzy
+#~ msgid "Key press to drop."
+#~ msgstr "გასაღები -სკენ."
+
+#, fuzzy
+#~ msgid "Key press to rotate."
+#~ msgstr "გასაღები -სკენ."
+
+#, fuzzy
+#~ msgid "Key press to pause."
+#~ msgstr "გასაღები -სკენ."
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "_პარამეტრები"
 
 #, fuzzy
 #~ msgid "Player Chat"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2008-09-16 14:39+0300\n"
 "Last-Translator: Anas Afif Emad <anas.e87@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -33,9 +33,9 @@ msgstr "إوقف مؤقتا"
 msgid "Game Over"
 msgstr "انتهت اللعبة"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "جنومترس"
 
@@ -43,156 +43,11 @@ msgstr "جنومترس"
 msgid "Fit falling blocks together"
 msgstr "ملائمة القوالب المتساقطة بعظها لبعض"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "صورة التي ستستخدم لرسم الكتل"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "صورة رسم الكتل."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "النسق المستخدم لعرض المجموعات"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "اسم النسق المستعمل لرسم الكتلات و الخلفية."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "المستوى للبدأ به"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "المستوى للبدأ به."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "فيما إذا ستستخدم صورة الخلفيّة"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "هذا يختار ما إذا سترسم صورة الخلفيّة فوق لون الخلفيّة."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "لون الخلفية"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "لون الخلفيّة، بنسق مفهومٍ لدى gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "فبما إذا يعرض القالب التالي مسبقا"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "ما إذا وجب معاينة الكتلة التالية."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "فيما إذا يتم إعطاء هدف"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "اما تقديم رسم بياني للكتلة التي ستحط."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "فيما إذا ستعطى للكتل ألوان عشوائية"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ما إذا تعطى للكتل ألوان عشوائية."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "فيما إذا وجب التدوير عكس عقارب الساعة"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "ما إذا وجب التدوير عكس عقارب الساعة."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "عدد السطور التي ستملأ"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "عدد الأعمدة المملوءة بقوالب عشوائية عند بداية اللعبة."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "كثافة السطور المملوءة"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"شدّة القوالب في الأعمدة اللمملوءة عند بدأ اللعبة. القيمة بين 0 (لعمود دون "
-"قوالب) و 10 (لعمود مملوء تمامًا)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "نقل إلى اليسار"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "نقر الزر لالنقل إلى اليسار."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "نقل إلى اليمين"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "نقر الزر لالنقل إلى اليمين."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "تحرّك للأسفل"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "الزّر للتّحرّك أسفلًا."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "إسقاط"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "الزّر للإسقاط."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "تدوير"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "الزّر للتّدوير."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "إيقاف مؤقت"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "الزّر للتّوقّف مؤقّتًا."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "ضبط مستوى البدأ (1-أو أكثر)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "المستوى"
 
@@ -236,74 +91,98 @@ msgstr "إ_عدادات"
 msgid "_Help"
 msgstr "_مساعدة"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "خيارات جنوميتريس"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "لعبة"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "التعيين"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_عدد السطور التي ستملأ مسبقا:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_كثافة كتل في سطر مملوء مسبقا:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "مستوى الإبتداء"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "العملية"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "تفعيل الأ_صوات"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_عرض المجموعة التالية"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "ا_ستخدم ألوانًا عشوائية"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "دوران بع_كس اتّجاه عقارب السّاعة"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "اعرض مكان الن_زول"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "سمة"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "المتحكمات"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "متحكمات لوحة المفاتيح"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "نقل إلى اليسار"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "نقل إلى اليمين"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "تحرّك للأسفل"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "إسقاط"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "تدوير"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "إيقاف مؤقت"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "نسق الكتلات"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -313,11 +192,11 @@ msgstr ""
 "\n"
 "جنو متريكس هي جزء من ألعاب جنوم."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "موقع ويب ألعاب جنوم"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "عرفات المديني، تونس <silverwhale@silverpen.de>\n"
@@ -336,70 +215,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "نتائج جنوميتريس"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: خيار غير معروف `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "إ_عدادات"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: خيار غير معروف `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "ضبط إعداد اللعبة"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -625,6 +440,116 @@ msgstr ""
 "لابد من أن تكون قد استلمت نسخة من رخصة جنو العامة مع %s؛ في حال عدم استلامك "
 "لذلك، يمكنك مكاتبة Free Software Foundation, Inc., 51 Franklin Street, Fifth "
 "Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "صورة التي ستستخدم لرسم الكتل"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "صورة رسم الكتل."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "النسق المستخدم لعرض المجموعات"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "اسم النسق المستعمل لرسم الكتلات و الخلفية."
+
+#~ msgid "Level to start with"
+#~ msgstr "المستوى للبدأ به"
+
+#~ msgid "Level to start with."
+#~ msgstr "المستوى للبدأ به."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "فيما إذا ستستخدم صورة الخلفيّة"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "هذا يختار ما إذا سترسم صورة الخلفيّة فوق لون الخلفيّة."
+
+#~ msgid "The background color"
+#~ msgstr "لون الخلفية"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "لون الخلفيّة، بنسق مفهومٍ لدى gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "فبما إذا يعرض القالب التالي مسبقا"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "ما إذا وجب معاينة الكتلة التالية."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "فيما إذا يتم إعطاء هدف"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "اما تقديم رسم بياني للكتلة التي ستحط."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "فيما إذا ستعطى للكتل ألوان عشوائية"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ما إذا تعطى للكتل ألوان عشوائية."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "فيما إذا وجب التدوير عكس عقارب الساعة"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "ما إذا وجب التدوير عكس عقارب الساعة."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "عدد السطور التي ستملأ"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "عدد الأعمدة المملوءة بقوالب عشوائية عند بداية اللعبة."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "كثافة السطور المملوءة"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "شدّة القوالب في الأعمدة اللمملوءة عند بدأ اللعبة. القيمة بين 0 (لعمود دون "
+#~ "قوالب) و 10 (لعمود مملوء تمامًا)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "نقر الزر لالنقل إلى اليسار."
+
+#~ msgid "Key press to move right."
+#~ msgstr "نقر الزر لالنقل إلى اليمين."
+
+#~ msgid "Key press to move down."
+#~ msgstr "الزّر للتّحرّك أسفلًا."
+
+#~ msgid "Key press to drop."
+#~ msgstr "الزّر للإسقاط."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "الزّر للتّدوير."
+
+#~ msgid "Key press to pause."
+#~ msgstr "الزّر للتّوقّف مؤقّتًا."
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: خيار غير معروف `--%s'\n"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "إ_عدادات"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: خيار غير معروف `--%s'\n"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "ضبط إعداد اللعبة"
 
 #~ msgid "Player Chat"
 #~ msgstr "دردشة اللاعب"

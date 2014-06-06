@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,9 +25,9 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr ""
 
@@ -35,154 +35,11 @@ msgstr ""
 msgid "Fit falling blocks together"
 msgstr ""
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr ""
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr ""
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr ""
 
@@ -226,85 +83,109 @@ msgstr ""
 msgid "_Help"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr ""
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr ""
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr ""
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 

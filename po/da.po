@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-14 04:07+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -51,9 +51,9 @@ msgstr "Pause"
 msgid "Game Over"
 msgstr "Spillet er slut"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -61,158 +61,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Anbring faldende blokke så de passer sammen"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Billede som skal bruges til at tegne blokke"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Billed som skal bruges til at tegne blokke."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Billede som bruges til at tegne blokke"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Navnet på temaet der benyttes til at tegne klodser og baggrund."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Niveau der startes på"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Niveau der startes på."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Om baggrundsbilledet skal benyttes"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Dette vælger om baggrundsbilledet tegnes over baggrundsfarven eller ej."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Baggrundsfarven"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Baggrundsfarven i et format som gdk_color_parse forstår."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Om næste blok skal vises på forhånd"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Om næste blok skal vises på forhånd."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Om der gives et mål"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Om der tegnes en grafisk repræsentation af klodsens landingssted."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Om blokke skal have tilfældige farver"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Om blokke skal have tilfældige farver."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Om der skal roteres mod uret"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Om der skal roteres mod uret."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Antallet af rækker der skal fyldes op"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Antallet af rækker der er fyldt med tilfældige blokke i starten af spillet."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Tæthed af fyldte rækker"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Tætheden af blokke i rækker der er fyldt i starten af spillet. Værdien er "
-"mellem 0 (for ingen blokke) og 10 (for en helt fyldt række)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Træk til venstre"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Tastetryk for at flytte til venstre."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Træk til højre"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Tastetryk for at flytte til højre."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Flyt ned"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Tastetryk for at flytte ned."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Slip"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Tastetryk for at slippe."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Rotér"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Tastetryk for at rotere."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pause"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Tastetryk for at holde en pause."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Sæt startbane (1 eller mere)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "BANE"
 
@@ -256,74 +109,98 @@ msgstr "_Indstillinger"
 msgid "_Help"
 msgstr "_Hjælp"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Indstillinger til Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Spil"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Opsætning"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Antal foropfyldte rækker:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Tæthed af blokke i en foropfyldt række:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Startbane:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Operation"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Aktivér lyde"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Vis næste blok"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Benyt tilfældige blokfarver"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotér blokke mod uret"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Vis _hvor klodsen vil lande"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Styreenheder"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Tastaturstyreenheder"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Træk til venstre"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Træk til højre"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Flyt ned"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Slip"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Rotér"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pause"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Blokstil"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -333,11 +210,11 @@ msgstr ""
 "\n"
 "Gnometris er en del af GNOME Games."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Hjemmeside for GNOME Games"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Anders Wegge Jakobsen\n"
@@ -353,69 +230,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Resultater for Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Filen er ikke en gyldig .desktop-fil"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Ukendt version af skrivebordsfil \"%s\""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Starter %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Programmet accepterer ikke dokumenter på kommandolinjen"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Ukendt opstartstilvalg: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Kan ikke give dokument-URI'er til en \"Type=Link\"-skrivebordspost"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Elementet kan ikke startes"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Deaktivér forbindelse til sessionshåndteringen"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Angiv fil, der indeholder gemt konfiguration"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FIL"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Angiv ID for sessionshåndtering"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Indstillinger for sessionshåndtering:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Vis indstillinger for sessionshåndtering"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -641,6 +455,145 @@ msgstr ""
 "Du bør have modtaget en kopi af GNU General Public License sammen med %s; er "
 "dette ikke tilfældet, så skriv til Free Software Foundation, Inc., 51 "
 "Franklin Street, Femte sal, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Billede som skal bruges til at tegne blokke"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Billed som skal bruges til at tegne blokke."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Billede som bruges til at tegne blokke"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Navnet på temaet der benyttes til at tegne klodser og baggrund."
+
+#~ msgid "Level to start with"
+#~ msgstr "Niveau der startes på"
+
+#~ msgid "Level to start with."
+#~ msgstr "Niveau der startes på."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Om baggrundsbilledet skal benyttes"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Dette vælger om baggrundsbilledet tegnes over baggrundsfarven eller ej."
+
+#~ msgid "The background color"
+#~ msgstr "Baggrundsfarven"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Baggrundsfarven i et format som gdk_color_parse forstår."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Om næste blok skal vises på forhånd"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Om næste blok skal vises på forhånd."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Om der gives et mål"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Om der tegnes en grafisk repræsentation af klodsens landingssted."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Om blokke skal have tilfældige farver"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Om blokke skal have tilfældige farver."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Om der skal roteres mod uret"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Om der skal roteres mod uret."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Antallet af rækker der skal fyldes op"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Antallet af rækker der er fyldt med tilfældige blokke i starten af "
+#~ "spillet."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Tæthed af fyldte rækker"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Tætheden af blokke i rækker der er fyldt i starten af spillet. Værdien er "
+#~ "mellem 0 (for ingen blokke) og 10 (for en helt fyldt række)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Tastetryk for at flytte til venstre."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Tastetryk for at flytte til højre."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tastetryk for at flytte ned."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tastetryk for at slippe."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tastetryk for at rotere."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tastetryk for at holde en pause."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Filen er ikke en gyldig .desktop-fil"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Ukendt version af skrivebordsfil \"%s\""
+
+#~ msgid "Starting %s"
+#~ msgstr "Starter %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Programmet accepterer ikke dokumenter på kommandolinjen"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Ukendt opstartstilvalg: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "Kan ikke give dokument-URI'er til en \"Type=Link\"-skrivebordspost"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Elementet kan ikke startes"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Deaktivér forbindelse til sessionshåndteringen"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Angiv fil, der indeholder gemt konfiguration"
+
+#~ msgid "FILE"
+#~ msgstr "FIL"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Angiv ID for sessionshåndtering"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Indstillinger for sessionshåndtering:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Vis indstillinger for sessionshåndtering"
 
 #~ msgid "Player Chat"
 #~ msgstr "Spillerchat"

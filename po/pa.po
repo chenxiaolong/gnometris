@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-14 22:34+0000\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjab-l10n@list.sf.net>\n"
@@ -30,9 +30,9 @@ msgstr "ਵਿਰਾਮ"
 msgid "Game Over"
 msgstr "ਖੇਡ ਖਤਮ"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "ਗਨੋਮੈਟਰਿਸ"
 
@@ -40,156 +40,11 @@ msgstr "ਗਨੋਮੈਟਰਿਸ"
 msgid "Fit falling blocks together"
 msgstr "ਡਿੱਗਦੇ ਬਲਾਕਾਂ ਨੂੰ ਇੱਕਠੇ ਕਰਕੇ ਫਿੱਟ ਕਰੋ"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਚਿੱਤਰ"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਣ ਵਾਲਾ ਚਿੱਤਰ ਹੈ।"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਥੀਮ"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ਬਲਾਕ ਅਤੇ ਪਿੱਠਭੂਮੀ ਵੇਖਾਉਣ ਲਈ ਥੀਮ ਦਾ ਨਾਂ ਹੈ।"
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਦਰਜਾ"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਦਰਜਾ ਹੈ।"
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "ਪਿੱਠਭੂਮੀ ਲਈ ਵਰਤਣ ਵਾਲਾ ਚਿੱਤਰ"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "ਚੁਣੋ ਕਿ ਕੀ ਪਿੱਠਭੂਮੀ ਰੰਗ ਉੱਤੇ ਪਿੱਠਭੂਮੀ ਚਿੱਤਰ ਬਣਾਇਆ ਜਾਵੇ ਜਾਂ ਨਾ।"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "ਪਿੱਠਭੂਮੀ ਰੰਗ"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "ਪਿੱਠ ਭੂਮੀ ਰੰਗ ਜੋ ਕਿ format gdk_color_parse ਅਨੁਸਾਰ ਹੋਵੇ"
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "ਕੀ ਅਗਲੇ ਬਲਾਕ ਦੀ ਝਲਕ ਵਿਖਾਈ ਜਾਵੇ"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "ਕੀ ਅਗਲੇ ਬਲਾਕ ਨੂੰ ਵੇਖਿਆ ਜਾਵੇ।"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "ਕੀ ਇੱਕ ਨਿਸ਼ਾਨਾ ਦੇਣਾ ਹੈ"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "ਕੀ ਬਲਾਕ ਉਤਾਰਨ ਵਾਲੀ ਥਾਂ ਇੱਕ ਗਰਾਫਿਕਲ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇ।"
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ਕੀ ਬਲਾਕਾਂ ਨੂੰ ਰਲਵੇਂ ਰੰਗ ਦਿੱਤੇ ਜਾਣ"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ਕੀ ਬਲਾਕਾਂ ਨੂੰ ਰਲਵੇਂ ਰੰਗ ਦਿੱਤੇ ਜਾਣ।"
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "ਕੀ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਇਆ ਜਾਵੇ"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "ਕੀ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਇਆ ਜਾਵੇ।"
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "ਭਰਨ ਲਈ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "ਖੇਡ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਬੇਤਰਤੀਬੇ ਬਲਾਕਾਂ ਨਾਲ ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ।"
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਘਣਤਾ"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"ਖੇਡ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਭਰੀਆਂ ਕਤਾਰਾਂ ਵਿੱਚ ਟੁਕੜਿਆਂ ਦੀ ਘਣਤਾ। ਕੀਮਤ 0 (ਕੋਈ ਟੁਕੜਾ ਨਾ ਹੋਣ ਲਈ) ਅਤੇ 10 "
-"(ਪੂਰੀ ਤਰਾਂ ਭਰੀ ਕਤਾਰ ਲਈ) ਵਿਚਕਾਰ ਹੈ।"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "ਖੱਬੇ ਚੱਲੋ"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "ਖੱਬੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "ਸੱਜੇ ਚੱਲੋ"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "ਸੱਜੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "ਹੇਠਾਂ ਲਿਜਾਓ"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "ਹੇਠਾਂ ਜਾਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "ਸੁੱਟੋ"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "ਸੁੱਟਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "ਘੁੰਮਾਓ"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "ਘੁੰਮਾਉਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "ਵਿਰਾਮ"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "ਵਿਰਾਮ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "ਸ਼ੁਰੂਆਤੀ ਦਰਜਾ ਦਿਓ (1 ਜਾਂ ਵੱਧ)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "ਪੱਧਰ"
 
@@ -233,74 +88,98 @@ msgstr "ਸੈਟਿੰਗ(_S)"
 msgid "_Help"
 msgstr "ਮੱਦਦ(_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ਗਨੋਮੈਟਰੀਸ ਪਸੰਦ"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "ਖੇਡ"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "ਸੈਟਅੱਪ"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "ਪਹਿਲਾਂ ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ(_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "ਪਹਿਲਾਂ ਭਰੀਆਂ ਕਤਾਰਾਂ ਵਿੱਚ ਬਲਾਕਾਂ ਦੀ ਗਿਣਤੀ(_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "ਸ਼ੁਰੂਆਤੀ ਪੱਧਰ(_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "ਕਾਰਵਾਈ"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "ਆਵਾਜ਼ਾਂ ਯੋਗ(_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "ਅੱਗੇ ਬਲਾਕ ਝਲਕ(_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "ਰਲਵਾਂ ਬਲਾਕ ਰੰਗ ਵਰਤੋਂ(_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "ਬਲਾਕਾਂ ਨੂੰ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਉ(_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "ਵੇਖੋ, ਜਿੱਥੇ ਬਲਾਕ ਜਾਵੇਗਾ(_w)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "ਥੀਮ"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "ਕੰਟਰੋਲ"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "ਕੀ-ਬੋਰਡ ਕੰਟਰੋਲ"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "ਖੱਬੇ ਚੱਲੋ"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "ਸੱਜੇ ਚੱਲੋ"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "ਹੇਠਾਂ ਲਿਜਾਓ"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "ਸੁੱਟੋ"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "ਘੁੰਮਾਓ"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "ਵਿਰਾਮ"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ਬਲਾਕ ਸ਼ੈਲੀ"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -310,11 +189,11 @@ msgstr ""
 "\n"
 "ਗਨੋਮੈਟਰਿਕਸ ਗਨੋਮ ਖੇਡ ਦਾ ਭਾਗ ਹੈ।"
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "ਗਨੋਮ ਖੇਡ ਵੈੱਬ ਸਾਇਟ"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "ਜਸਵਿੰਦਰ ਸਿੰਘ ਫੂਲੇਵਾਲਾ\n"
@@ -324,69 +203,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "ਗਨੋਮੈਟਰਿਸ ਸਕੋਰ"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "ਫਾਇਲ ਢੁੱਕਵੀਂ .desktop ਫਾਇਲ ਨਹੀਂ ਹੈ"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "ਬੇਪਛਾਣ ਡੈਸਕਟਾਪ ਫਾਇਲ ਵਰਜਨ '%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s ਸ਼ੁਰੂ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਕਮਾਂਡ ਲਾਈਨ ਤੋਂ ਡੌਕੂਮੈਂਟ ਮਨਜ਼ੂਰ ਨਹੀਂ ਕਰਦੀ"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "ਬੇਪਛਾਣ ਲਾਂਚ ਚੋਣ: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "ਡੌਕੂਮੈਂਟ URIs  'Type=Link' ਡੈਸਕਟਾਪ ਐਂਟਰੀ ਨੂੰ ਦਿੱਤਾ ਨਹੀਂ ਜਾ ਸਕਦਾ"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "ਚਲਾਉਣਯੋਗ ਆਈਟਮ ਨਹੀਂ"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਬੰਦ"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "ਸੰਭਾਲੀ ਸੰਰਚਨਾ ਰੱਖਣ ਵਾਲੀ ਫਾਇਲ ਦਿਓ"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "ਫਾਇਲ"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ID ਦਿਓ"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਚੋਣਾਂ:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ਚੋਣਾਂ ਵੇਖੋ"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -611,6 +427,142 @@ msgstr ""
 "%s ਨਾਲ ਤੁਸੀਂ ਗਨੂ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਦੀ ਨਕਲ ਪ੍ਰਾਪਤ ਕਰੋਗੇ, ਜੇਕਰ ਤੁਹਾਨੂੰਨਹੀਂ ਮਿਲੀ ਹੈ ਤਾਂ ਫਰੀ "
 "ਸਾਫਟਵੇਅਰ ਫਾਊਨਡੇਸ਼ਨ, 51 ਫਰਾਕਲਿੰਨ ਸਟਰੀਟ, ਪੰਜਵੀਂ ਮੰਜ਼ਲ,ਬੋਸਟਨ, ਐਮ ਏ 02110-1301, ਅਮਰੀਕਾ ਨੂੰ "
 "ਲਿਖੋ।"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਚਿੱਤਰ"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਣ ਵਾਲਾ ਚਿੱਤਰ ਹੈ।"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਥੀਮ"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ਬਲਾਕ ਅਤੇ ਪਿੱਠਭੂਮੀ ਵੇਖਾਉਣ ਲਈ ਥੀਮ ਦਾ ਨਾਂ ਹੈ।"
+
+#~ msgid "Level to start with"
+#~ msgstr "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਦਰਜਾ"
+
+#~ msgid "Level to start with."
+#~ msgstr "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਦਰਜਾ ਹੈ।"
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "ਪਿੱਠਭੂਮੀ ਲਈ ਵਰਤਣ ਵਾਲਾ ਚਿੱਤਰ"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "ਚੁਣੋ ਕਿ ਕੀ ਪਿੱਠਭੂਮੀ ਰੰਗ ਉੱਤੇ ਪਿੱਠਭੂਮੀ ਚਿੱਤਰ ਬਣਾਇਆ ਜਾਵੇ ਜਾਂ ਨਾ।"
+
+#~ msgid "The background color"
+#~ msgstr "ਪਿੱਠਭੂਮੀ ਰੰਗ"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "ਪਿੱਠ ਭੂਮੀ ਰੰਗ ਜੋ ਕਿ format gdk_color_parse ਅਨੁਸਾਰ ਹੋਵੇ"
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "ਕੀ ਅਗਲੇ ਬਲਾਕ ਦੀ ਝਲਕ ਵਿਖਾਈ ਜਾਵੇ"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "ਕੀ ਅਗਲੇ ਬਲਾਕ ਨੂੰ ਵੇਖਿਆ ਜਾਵੇ।"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "ਕੀ ਇੱਕ ਨਿਸ਼ਾਨਾ ਦੇਣਾ ਹੈ"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "ਕੀ ਬਲਾਕ ਉਤਾਰਨ ਵਾਲੀ ਥਾਂ ਇੱਕ ਗਰਾਫਿਕਲ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇ।"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ਕੀ ਬਲਾਕਾਂ ਨੂੰ ਰਲਵੇਂ ਰੰਗ ਦਿੱਤੇ ਜਾਣ"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ਕੀ ਬਲਾਕਾਂ ਨੂੰ ਰਲਵੇਂ ਰੰਗ ਦਿੱਤੇ ਜਾਣ।"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "ਕੀ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਇਆ ਜਾਵੇ"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "ਕੀ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਇਆ ਜਾਵੇ।"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "ਭਰਨ ਲਈ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "ਖੇਡ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਬੇਤਰਤੀਬੇ ਬਲਾਕਾਂ ਨਾਲ ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ।"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਘਣਤਾ"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "ਖੇਡ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਭਰੀਆਂ ਕਤਾਰਾਂ ਵਿੱਚ ਟੁਕੜਿਆਂ ਦੀ ਘਣਤਾ। ਕੀਮਤ 0 (ਕੋਈ ਟੁਕੜਾ ਨਾ ਹੋਣ ਲਈ) ਅਤੇ 10 "
+#~ "(ਪੂਰੀ ਤਰਾਂ ਭਰੀ ਕਤਾਰ ਲਈ) ਵਿਚਕਾਰ ਹੈ।"
+
+#~ msgid "Key press to move left."
+#~ msgstr "ਖੱਬੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
+
+#~ msgid "Key press to move right."
+#~ msgstr "ਸੱਜੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
+
+#~ msgid "Key press to move down."
+#~ msgstr "ਹੇਠਾਂ ਜਾਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
+
+#~ msgid "Key press to drop."
+#~ msgstr "ਸੁੱਟਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "ਘੁੰਮਾਉਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
+
+#~ msgid "Key press to pause."
+#~ msgstr "ਵਿਰਾਮ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "ਫਾਇਲ ਢੁੱਕਵੀਂ .desktop ਫਾਇਲ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "ਬੇਪਛਾਣ ਡੈਸਕਟਾਪ ਫਾਇਲ ਵਰਜਨ '%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s ਸ਼ੁਰੂ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਕਮਾਂਡ ਲਾਈਨ ਤੋਂ ਡੌਕੂਮੈਂਟ ਮਨਜ਼ੂਰ ਨਹੀਂ ਕਰਦੀ"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "ਬੇਪਛਾਣ ਲਾਂਚ ਚੋਣ: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "ਡੌਕੂਮੈਂਟ URIs  'Type=Link' ਡੈਸਕਟਾਪ ਐਂਟਰੀ ਨੂੰ ਦਿੱਤਾ ਨਹੀਂ ਜਾ ਸਕਦਾ"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "ਚਲਾਉਣਯੋਗ ਆਈਟਮ ਨਹੀਂ"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਬੰਦ"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "ਸੰਭਾਲੀ ਸੰਰਚਨਾ ਰੱਖਣ ਵਾਲੀ ਫਾਇਲ ਦਿਓ"
+
+#~ msgid "FILE"
+#~ msgstr "ਫਾਇਲ"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ID ਦਿਓ"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਚੋਣਾਂ:"
+
+#~ msgid "Show session management options"
+#~ msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ਚੋਣਾਂ ਵੇਖੋ"
 
 #~ msgid "Player Chat"
 #~ msgstr "ਖਿਡਾਰੀ ਗੱਲਬਾਤ"

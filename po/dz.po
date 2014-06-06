@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.dz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2008-09-17 14:12+0530\n"
 "Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
 "Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
@@ -27,9 +27,9 @@ msgstr "ཐེམ་ཡོད།"
 msgid "Game Over"
 msgstr "རྩེད་འགྲན་རྫོགས་སོ།"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "ཇི་ནོ་མི་ཊིསི།"
 
@@ -37,156 +37,11 @@ msgstr "ཇི་ནོ་མི་ཊིསི།"
 msgid "Fit falling blocks together"
 msgstr "འབུད་དེ་འོང་མི་ལེབ་དུམ་ཚུ་ཚུད་སྒྲིག་འབད།"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "ལེབ་དུམ་འབྲི་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་གཟུགས་བརྙན།"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "ལེབ་དུམ་འབྲི་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་གཟུགས་བརྙན།"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ལེབ་དུམ་ཚུ་ལྷག་སྟོན་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་བརྗོད་དོན།"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ལེབ་དུམ་དང་རྒྱབ་གཞི་ལྷག་སྟོན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྗོད་དོན་གྱི་མིང་།"
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "འགོ་བཙུགས་ནིའི་གནས་རིམ།"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "འགོ་བཙུགས་ནིའི་གནས་རིམ།"
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "རྒྱབ་གཞིའི་གཟུགས་བརྙན་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "འདི་གིས་རྒྱབ་གཞིའི་ཚོས་གཞི་གུ་ རྒྱབ་གཞིའི་གཟུགས་བརྙན་ འབྲི་དགོ་ག་མིན་དགོ་ སེལ་འཐུ་འབདཝ་ཨིན།"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི། རྩ་སྒྲིག་ནང་ལུ་ ཇི་ཌི་ཀེ་_ཚོས་གཞི་_མིང་དཔྱད་ཧ་གོཝ་ཨིན།"
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "ལེབ་དུམ་ཤུལ་མམ་དེ་སྔོན་ལྟ་འབད་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "ལེབ་དུམ་ཤུལ་མམ་དེ་ སྔོན་ལྟ་འབད་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "དམིགས་གཏད་ཅིག་བྱིན་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "ལེབ་དུམ་འབུད་སའི་ ཚད་རིས་ཅིག་སྟོན་དགོཔ་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ལེབ་དུམ་ཚུ་ལུ་ ཚོས་གཞི་གང་འབྱུང་གཏང་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ལེབ་དུམ་ཚུ་ལུ་ ཚོས་གཞི་གང་བྱུང་གཏང་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "གཡོན་སྐོར་སྦེ་ བསྒྱིར་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "གཡོན་སྐོར་སྦེ་ བསྒྱིར་ནི་ཨིན་ན་མེན།"
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "བཀང་དགོ་པའི་གྲལ་ཐིག་གྱངས་ཁ།"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "རྩེདམོ་འགོ་བཙུགས་སྐབས་ ལེབ་དུམ་གྱིས་གང་བྱུང་བཀང་བའི་ གྲལ་ཐིག་གྱངས་ཁ།"
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "ལྟེམས་ལྟེམས་གང་བའི་ གྲལ་ཐིག་་གི་སྟུག་ཚད།"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"རྩེདམོ་འགོ་བཙུགས་པའི་སྐབས་ གྲལ་ཐིག་་ནང་ལེབ་དུམ་གྱི་མང་ཉུང་། བེ་ལུ་དེ་ཡང་ (ལེབ་དུམ་མེད་སར་ ) ༠ "
-"དང་ (གྲལ་ཐིག་ཡོངས་རྫོགས་བཀང་སྟེ་ཡོད་སར་) ༡༠ ཨིན།"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "གཡོན་ལུ་སྤོ།"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "གཡོན་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "གཡས་ལུ་སྤོ།"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "གཡོས་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།"
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "མར་སྤོ།"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "མར་སྤོ་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "སར་འཇོག"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "སར་འཇོག་གི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "བསྒྱིར་ནི།"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "བསྒྱིར་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "ཐེམ།"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "ཐེམ་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "འགོ་བཙུགས་ཀྱི་གནས་རིམ་གཞི་སྒྲིག་འབད། (༡ ཡང་ན་ དེ་ལས་མཐོཝ)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "གནས་རིམ།"
 
@@ -230,74 +85,98 @@ msgstr "གཞི་སྒྲིག་ཚུ།(_S)"
 msgid "_Help"
 msgstr "གྲོགས་རམ།(_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ཇི་ནོ་མི་ཊིསི་ དགའ་གདམ་ཚུ།"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "རྩེད་ཐེངས"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "གཞི་སྒྲིག"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "སྔ་གོང་ལས་བཀང་ཡོད་པའི་ གྲལ་ཐིག་གྱངས་ཁ་:(_N)"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "སྔ་གོང་ལས་བཀང་ཡོད་པའི་གྲལ་ཐིག་ནང་ ལེབ་དུམ་གྱི་སྟུག་ཚད།(_D)"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "འགོ་བཙུགས་གནས་རིམ་:(_S)"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "བཀོལ་སྤྱོད།"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "སྒྲ་སྐད་ལྕོགས་ཅན་བཟོ།(_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "ལེབ་དུམ་ཤུལ་མམ་སྔོན་ལྟ་འབད།(_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "གང་འབྱུང་་ལེབ་དུམ་གྱི་ཚོས་གཞི་ ལག་ལེན་འཐབ།(_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "ལེབ་དུམ་ཚུ་ གཡོན་སྐོར་སྦེ་བསྒྱིར།(_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "ལེབ་དུམ་འབུད་ས་སྟོན།(_w)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "བརྗོད་དོན།"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "ཚད་འཛིན།"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "ལྡེ་མིག་གི་ཚད་འཛིན།"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "གཡོན་ལུ་སྤོ།"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "གཡས་ལུ་སྤོ།"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "མར་སྤོ།"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "སར་འཇོག"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "བསྒྱིར་ནི།"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "ཐེམ།"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ལེབ་དུམ་གྱི་བཟོ་རྣམ།"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -307,11 +186,11 @@ msgstr ""
 "\n"
 "ཇི་ནོ་མིཊིརིསི་འདི་ ཇི་ནོམ་རྩེད་རིགས་ཀྱི་ཡན་ལག་ཅིག་ཨིན། "
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "ཇི་ནོམ་རྩེད་མོའི་ཝེབ་ས་ཁོངས"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་"
@@ -320,71 +199,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "ཇི་ནོ་མི་ཊིསི་སྐུགས།"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: ངོས་འཛིན་མ་འབད་བའི་གདམ་ཁ་ `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "གཞི་སྒྲིག་ཚུ།(_S)"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: ངོས་འཛིན་མ་འབད་བའི་གདམ་ཁ་ `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "རྩེད་མོའི་རིམ་སྒྲིག་ གཞི་སྒྲིག་འབད།"
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "FILE"
-msgstr "ཡིག་སྣོད་མིང་།"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -611,6 +425,121 @@ msgstr ""
 "ཁྱོད་ཀྱིས་ %s དང་གཅིག་ཁར་ ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་འདི་གི་ འདྲ་བཤུས་ཅིག་ཐོབ་ཐོབ་འོང་ མ་ཐོབ་"
 "པ་ཅིན་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་  Inc., 51 Franklin Street, Fifth Floor, Boston, "
 "MA  02110-1301  USA ལུ་འབྲི་"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "ལེབ་དུམ་འབྲི་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་གཟུགས་བརྙན།"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "ལེབ་དུམ་འབྲི་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་གཟུགས་བརྙན།"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ལེབ་དུམ་ཚུ་ལྷག་སྟོན་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་བརྗོད་དོན།"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ལེབ་དུམ་དང་རྒྱབ་གཞི་ལྷག་སྟོན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྗོད་དོན་གྱི་མིང་།"
+
+#~ msgid "Level to start with"
+#~ msgstr "འགོ་བཙུགས་ནིའི་གནས་རིམ།"
+
+#~ msgid "Level to start with."
+#~ msgstr "འགོ་བཙུགས་ནིའི་གནས་རིམ།"
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "རྒྱབ་གཞིའི་གཟུགས་བརྙན་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "འདི་གིས་རྒྱབ་གཞིའི་ཚོས་གཞི་གུ་ རྒྱབ་གཞིའི་གཟུགས་བརྙན་ འབྲི་དགོ་ག་མིན་དགོ་ སེལ་འཐུ་འབདཝ་ཨིན།"
+
+#~ msgid "The background color"
+#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི།"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི། རྩ་སྒྲིག་ནང་ལུ་ ཇི་ཌི་ཀེ་_ཚོས་གཞི་_མིང་དཔྱད་ཧ་གོཝ་ཨིན།"
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "ལེབ་དུམ་ཤུལ་མམ་དེ་སྔོན་ལྟ་འབད་ནི་ཨིན་ན་མེན།"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "ལེབ་དུམ་ཤུལ་མམ་དེ་ སྔོན་ལྟ་འབད་ནི་ཨིན་ན་མེན།"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "དམིགས་གཏད་ཅིག་བྱིན་ནི་ཨིན་ན་མེན།"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "ལེབ་དུམ་འབུད་སའི་ ཚད་རིས་ཅིག་སྟོན་དགོཔ་ཨིན་ན་མེན།"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ལེབ་དུམ་ཚུ་ལུ་ ཚོས་གཞི་གང་འབྱུང་གཏང་ནི་ཨིན་ན་མེན།"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ལེབ་དུམ་ཚུ་ལུ་ ཚོས་གཞི་གང་བྱུང་གཏང་ནི་ཨིན་ན་མེན།"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "གཡོན་སྐོར་སྦེ་ བསྒྱིར་ནི་ཨིན་ན་མེན།"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "གཡོན་སྐོར་སྦེ་ བསྒྱིར་ནི་ཨིན་ན་མེན།"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "བཀང་དགོ་པའི་གྲལ་ཐིག་གྱངས་ཁ།"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "རྩེདམོ་འགོ་བཙུགས་སྐབས་ ལེབ་དུམ་གྱིས་གང་བྱུང་བཀང་བའི་ གྲལ་ཐིག་གྱངས་ཁ།"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "ལྟེམས་ལྟེམས་གང་བའི་ གྲལ་ཐིག་་གི་སྟུག་ཚད།"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "རྩེདམོ་འགོ་བཙུགས་པའི་སྐབས་ གྲལ་ཐིག་་ནང་ལེབ་དུམ་གྱི་མང་ཉུང་། བེ་ལུ་དེ་ཡང་ (ལེབ་དུམ་མེད་སར་ ) ༠ "
+#~ "དང་ (གྲལ་ཐིག་ཡོངས་རྫོགས་བཀང་སྟེ་ཡོད་སར་) ༡༠ ཨིན།"
+
+#~ msgid "Key press to move left."
+#~ msgstr "གཡོན་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།"
+
+#~ msgid "Key press to move right."
+#~ msgstr "གཡོས་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།"
+
+#~ msgid "Key press to move down."
+#~ msgstr "མར་སྤོ་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
+
+#~ msgid "Key press to drop."
+#~ msgstr "སར་འཇོག་གི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "བསྒྱིར་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
+
+#~ msgid "Key press to pause."
+#~ msgstr "ཐེམ་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག"
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: ངོས་འཛིན་མ་འབད་བའི་གདམ་ཁ་ `--%s'\n"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "གཞི་སྒྲིག་ཚུ།(_S)"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: ངོས་འཛིན་མ་འབད་བའི་གདམ་ཁ་ `--%s'\n"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "རྩེད་མོའི་རིམ་སྒྲིག་ གཞི་སྒྲིག་འབད།"
+
+#, fuzzy
+#~ msgid "FILE"
+#~ msgstr "ཡིག་སྣོད་མིང་།"
 
 #~ msgid "Player Chat"
 #~ msgstr "རྩེད་མིའི་ཁ་སླབ་"

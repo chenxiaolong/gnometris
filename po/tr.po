@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-30 10:51+0300\n"
 "Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -32,9 +32,9 @@ msgstr "Dondur"
 msgid "Game Over"
 msgstr "Oyun Bitti"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -42,158 +42,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Düşen blokları bir araya oturt"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Blokları oluştururken kullanılacak resim"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Blokları oluştururken kullanılacak resim."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Blokları oluştururken kullanılacak resim"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Blokları ve arkaplanı taramak için kullanılan temanın adı."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Başlangıç seviyesi"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Başlangıç seviyesi."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Arkaplan resmi kullanılması"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Bu arkaplan resminin arkaplan renginin üstüne çizilip çizilmemesini seçer."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Arkaplan rengi"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Arkaplan rengi, gdk_color_parse'ın anlayabileceği şekilde."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Sonraki bloğu göster"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Sonraki bloğun gösterilmesi."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Hedefin gösterilmesi"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Bloğun nereye yerleşeceğinin grafiksel gösteriminin sağlanıp sağlanmayacağı."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Bloklara rastgele renk verilecek mi"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Bloklara rastgele renk verilip verilmeyeceği."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Saat yönü tersine döndür"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Saat yönü tersine döndürme."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Doldurulacak sıra sayısı"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Oyunun başında rastgele bloklarla doldurulmuş sıraların sayısı."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Önceden doldurulmuş sıraların yoğunluğu"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Oyunun başında dolu sıraların yoğunluğu. Bu değer 0 (hiç blok yok) ve 10 "
-"(tüm sıra dolu) arasındadır."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Sola taşı"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Sola taşımak için gereken tuş."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Sağa taşı"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Sağa taşımak için gereken tuş."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Aşağı taşı"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Aşağı taşımak için gereken tuş."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Bırak"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Bırakmak için basılacak tuş."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Çevir"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Çevirmek için gereken tuş."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Dondur"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Duraklatmak için gereken tuş."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Başlangıç seviyesini belirle (1 ya da daha büyük)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "SEVİYE"
 
@@ -237,74 +90,98 @@ msgstr "_Ayarlar"
 msgid "_Help"
 msgstr "_Yardım"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Gnometris Tercihleri"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Oyun"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Ayarlar"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "Önceden _doldurulmuş sıra sayısı:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Önceden doldurulmuş _blok yoğunluğu:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Başlangıç seviyesi:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "İşlem"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Sesleri etkinleştir"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Sonraki bloğu göster"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Rastgele blok renkleri kullan"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "Blokları saat _yönünün tersine döndür"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Bloğun _nereye yerleşeceğini göster"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Kontroller"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Klavye Kontrolleri"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Sola taşı"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Sağa taşı"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Bırak"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Çevir"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Dondur"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Blok Biçemi"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -314,80 +191,17 @@ msgstr ""
 "\n"
 "Gnometris GNOME Oyunları'nın bir parçasıdır."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "GNOME Oyunları web sitesi"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "Barış Çiçek <baris@teamforce.name.tr>"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Gnometris Puanları"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Dosya geçerli bir .destktop  dosyası değil"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Tanınmayan masaüstü dosyası Sürüm '%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s Başatılıyor"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Uygulama komut satırından belgeleri kabul etmez"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Tanınmayan başlatma seçeneği: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Bir 'Type=Link' masaüstü girişi belge URI'lerine geçilemiyor"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Bir başlatılabilir öğe değil"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Oturum yöneticisine bağlantıyı devre dışı bırak"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Kaydedilmiş yapılandırmayı içeren dosyayı belirtin"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "DOSYA"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Oturum yönetimi ID'sini belirtin"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Oturum yönetimi seçenekleri:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Oturum yönetimi seçenekleri göster"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -612,6 +426,145 @@ msgstr ""
 "%s ile birlikte GNU Genel Kamu Lisansı'nın bir kopyasını almış olmalısınız; "
 "eğer almadıysanız Özgür Yazılım Vakfı, 51 Franklin Sokağı, Beşinci Kat, "
 "Boston, MA 02110-1301  USA adresine yazın"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Blokları oluştururken kullanılacak resim"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Blokları oluştururken kullanılacak resim."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Blokları oluştururken kullanılacak resim"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Blokları ve arkaplanı taramak için kullanılan temanın adı."
+
+#~ msgid "Level to start with"
+#~ msgstr "Başlangıç seviyesi"
+
+#~ msgid "Level to start with."
+#~ msgstr "Başlangıç seviyesi."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Arkaplan resmi kullanılması"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Bu arkaplan resminin arkaplan renginin üstüne çizilip çizilmemesini seçer."
+
+#~ msgid "The background color"
+#~ msgstr "Arkaplan rengi"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Arkaplan rengi, gdk_color_parse'ın anlayabileceği şekilde."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Sonraki bloğu göster"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Sonraki bloğun gösterilmesi."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Hedefin gösterilmesi"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Bloğun nereye yerleşeceğinin grafiksel gösteriminin sağlanıp "
+#~ "sağlanmayacağı."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Bloklara rastgele renk verilecek mi"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Bloklara rastgele renk verilip verilmeyeceği."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Saat yönü tersine döndür"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Saat yönü tersine döndürme."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Doldurulacak sıra sayısı"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "Oyunun başında rastgele bloklarla doldurulmuş sıraların sayısı."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Önceden doldurulmuş sıraların yoğunluğu"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Oyunun başında dolu sıraların yoğunluğu. Bu değer 0 (hiç blok yok) ve 10 "
+#~ "(tüm sıra dolu) arasındadır."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Sola taşımak için gereken tuş."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Sağa taşımak için gereken tuş."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Aşağı taşımak için gereken tuş."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Bırakmak için basılacak tuş."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Çevirmek için gereken tuş."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Duraklatmak için gereken tuş."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Dosya geçerli bir .destktop  dosyası değil"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Tanınmayan masaüstü dosyası Sürüm '%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s Başatılıyor"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Uygulama komut satırından belgeleri kabul etmez"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Tanınmayan başlatma seçeneği: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "Bir 'Type=Link' masaüstü girişi belge URI'lerine geçilemiyor"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Bir başlatılabilir öğe değil"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Oturum yöneticisine bağlantıyı devre dışı bırak"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Kaydedilmiş yapılandırmayı içeren dosyayı belirtin"
+
+#~ msgid "FILE"
+#~ msgstr "DOSYA"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Oturum yönetimi ID'sini belirtin"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Oturum yönetimi seçenekleri:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Oturum yönetimi seçenekleri göster"
 
 #~ msgid "Player Chat"
 #~ msgstr "Oyuncu Sohbeti"

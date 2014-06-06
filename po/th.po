@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-28 20:40+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -28,9 +28,9 @@ msgstr "พัก"
 msgid "Game Over"
 msgstr "อวสาน"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -38,156 +38,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "เรียงบล็อกที่หล่นให้ต่อกันสนิท"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "รูปภาพที่จะใช้วาดกล่อง"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "รูปภาพที่จะใช้วาดกล่อง"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ชุดตกแต่งสำหรับวาดกล่อง"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ชื่อของชุดตกแต่งที่ใช้วาดกล่องและพื้นหลัง"
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "ระดับเริ่มต้น"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "ระดับเริ่มต้น"
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "ใช้ภาพพื้นหลังหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "กำหนดว่าจะวาดภาพพื้นหลังบนสีพื้นหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "สีพื้นหลัง"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "สีพื้นหลัง ในรูปแบบที่ gdk_color_parse เข้าใจ"
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "แสดงกล่องชิ้นถัดไปหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "แสดงกล่องชิ้นถัดไปหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "แสดงเป้าหมายหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "แสดงภาพบอกตำแหน่งที่กล่องจะตกหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ใช้สีกล่องแบบสุ่มหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ใช้สีกล่องแบบสุ่มหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "หมุนทวนเข็มนาฬิกาหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "หมุนทวนเข็มนาฬิกาหรือไม่"
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "จำนวนแถวที่จะเติม"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "จำนวนของแถวที่จะเติมกล่องแบบสุ่มเมื่อเริ่มเกม"
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "ความหนาแน่นของแถวที่เติม"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"ความหนาแน่นของกล่องในแถวที่เติมตอนเริ่มเกม ใช้ค่าระหว่าง 0 (สำหรับการไม่เติมกล่อง) ถึง 10 "
-"(สำหรับการเติมกล่องเต็มแถว)"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "เลื่อนซ้าย"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "ปุ่มกดเพื่อเลื่อนซ้าย"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "เลื่อนขวา"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "ปุ่มกดเพื่อเลื่อนขวา"
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "เลื่อนลง"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "ปุ่มที่จะใช้เลื่อนลง"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "ปล่อยลง"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "ปุ่มที่จะใช้ปล่อยลง"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "หมุน"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "ปุ่มที่จะใช้หมุน"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "พัก"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "ปุ่มที่จะใช้พัก"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "ตั้งระดับเริ่มต้นเกม (1 ขึ้นไป)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "LEVEL"
 
@@ -231,74 +86,98 @@ msgstr "_ตั้งค่า"
 msgid "_Help"
 msgstr "_วิธีใช้"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ปรับแต่ง Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "เกม"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "ตั้งค่า"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_จำนวนแถวเริ่มต้น:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "ความห_นาแน่นของบล็อกในแถวเริ่มต้น:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_ระดับเริ่มต้น:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "การดำเนินการ"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "เ_ปิดเสียง"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "แสดงบล็อก_ถัดไป"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "สุ่ม_สีของบล็อก"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "หมุนบล็อก_ทวนเข็มนาฬิกา"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "แสดง_ช่องที่บล็อกจะตก"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "ชุดตกแต่ง"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "การควบคุม"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "ปุ่มควบคุม"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "เลื่อนซ้าย"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "เลื่อนขวา"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "เลื่อนลง"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "ปล่อยลง"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "หมุน"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "พัก"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ภาพของบล็อก"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -308,11 +187,11 @@ msgstr ""
 "\n"
 "Gnometris เป็นส่วนหนึ่งของ GNOME Games"
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "เว็บไซต์ GNOME Games"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "เทพพิทักษ์ การุญบุญญานันท์ <thep@linux.thai.net>\n"
@@ -322,69 +201,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "สถิติของ Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "แฟ้มนี้ไม่ใช่แฟ้ม .desktop ที่ใช้ได้"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "ไม่รู้จักแฟ้มเดสก์ท็อปรุ่น '%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "กำลังเริ่ม %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "โปรแกรมไม่รับเอกสารในบรรทัดคำสั่ง"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "ไม่รู้จักตัวเลือกของการเรียกโปรแกรม: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "ไม่สามารถส่ง URI ของเอกสารไปยังรายการเดสก์ท็อปที่มี 'Type=Link'"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "ไม่ใช่รายการที่เรียกทำงานได้"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "ปิดใช้การเชื่อมต่อไปยังโปรแกรมจัดการวาระ"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "ระบุแฟ้มที่บันทึกค่าตั้งไว้"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "ระบุหมายเลขการจัดการวาระ"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "ตัวเลือกเกี่ยวกับการจัดการวาระ:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "แสดงตัวเลือกเกี่ยวกับการจัดการวาระ"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -609,6 +425,142 @@ msgstr ""
 "คุณควรจะได้รับสำเนาของ GNU General Public License มาพร้อมกับ %s ถ้าคุณไม่ได้รับ "
 "กรุณาติดต่อไปที่ Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, "
 "Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "รูปภาพที่จะใช้วาดกล่อง"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "รูปภาพที่จะใช้วาดกล่อง"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ชุดตกแต่งสำหรับวาดกล่อง"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ชื่อของชุดตกแต่งที่ใช้วาดกล่องและพื้นหลัง"
+
+#~ msgid "Level to start with"
+#~ msgstr "ระดับเริ่มต้น"
+
+#~ msgid "Level to start with."
+#~ msgstr "ระดับเริ่มต้น"
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "ใช้ภาพพื้นหลังหรือไม่"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "กำหนดว่าจะวาดภาพพื้นหลังบนสีพื้นหรือไม่"
+
+#~ msgid "The background color"
+#~ msgstr "สีพื้นหลัง"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "สีพื้นหลัง ในรูปแบบที่ gdk_color_parse เข้าใจ"
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "แสดงกล่องชิ้นถัดไปหรือไม่"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "แสดงกล่องชิ้นถัดไปหรือไม่"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "แสดงเป้าหมายหรือไม่"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "แสดงภาพบอกตำแหน่งที่กล่องจะตกหรือไม่"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ใช้สีกล่องแบบสุ่มหรือไม่"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ใช้สีกล่องแบบสุ่มหรือไม่"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "หมุนทวนเข็มนาฬิกาหรือไม่"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "หมุนทวนเข็มนาฬิกาหรือไม่"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "จำนวนแถวที่จะเติม"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "จำนวนของแถวที่จะเติมกล่องแบบสุ่มเมื่อเริ่มเกม"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "ความหนาแน่นของแถวที่เติม"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "ความหนาแน่นของกล่องในแถวที่เติมตอนเริ่มเกม ใช้ค่าระหว่าง 0 (สำหรับการไม่เติมกล่อง) ถึง "
+#~ "10 (สำหรับการเติมกล่องเต็มแถว)"
+
+#~ msgid "Key press to move left."
+#~ msgstr "ปุ่มกดเพื่อเลื่อนซ้าย"
+
+#~ msgid "Key press to move right."
+#~ msgstr "ปุ่มกดเพื่อเลื่อนขวา"
+
+#~ msgid "Key press to move down."
+#~ msgstr "ปุ่มที่จะใช้เลื่อนลง"
+
+#~ msgid "Key press to drop."
+#~ msgstr "ปุ่มที่จะใช้ปล่อยลง"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "ปุ่มที่จะใช้หมุน"
+
+#~ msgid "Key press to pause."
+#~ msgstr "ปุ่มที่จะใช้พัก"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "แฟ้มนี้ไม่ใช่แฟ้ม .desktop ที่ใช้ได้"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "ไม่รู้จักแฟ้มเดสก์ท็อปรุ่น '%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "กำลังเริ่ม %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "โปรแกรมไม่รับเอกสารในบรรทัดคำสั่ง"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "ไม่รู้จักตัวเลือกของการเรียกโปรแกรม: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "ไม่สามารถส่ง URI ของเอกสารไปยังรายการเดสก์ท็อปที่มี 'Type=Link'"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "ไม่ใช่รายการที่เรียกทำงานได้"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "ปิดใช้การเชื่อมต่อไปยังโปรแกรมจัดการวาระ"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "ระบุแฟ้มที่บันทึกค่าตั้งไว้"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "ระบุหมายเลขการจัดการวาระ"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "ตัวเลือกเกี่ยวกับการจัดการวาระ:"
+
+#~ msgid "Show session management options"
+#~ msgstr "แสดงตัวเลือกเกี่ยวกับการจัดการวาระ"
 
 #~ msgid "Player Chat"
 #~ msgstr "สนทนากับผู้เล่น"

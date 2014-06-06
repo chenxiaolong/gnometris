@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Гномове игре\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2008-09-21 01:53+0100\n"
 "Last-Translator: Горан Ракић <grakic@devbase.net>\n"
 "Language-Team: Serbian (sr) <gnom@prevod.org>\n"
@@ -29,9 +29,9 @@ msgstr "Паузирано"
 msgid "Game Over"
 msgstr "Игра завршена"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Гном тетрис"
 
@@ -39,156 +39,11 @@ msgstr "Гном тетрис"
 msgid "Fit falling blocks together"
 msgstr "Састављај падајуће блокове"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Слика за исцртавање блокова"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Слика за исцртавање блокова."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Слика за исцртавање блокова"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Име теме која се користи за исцртавање блокова и позадине."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Почетни ниво"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Почетни ниво."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Да ли да користи слику за позадину"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "Ово одређује да ли да исцртава слику за позадину преко боје позадине."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Боја позадине"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Боја позадине, у облику који разуме gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Да ли приказати следећи блок"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Да ли приказати следећи блок."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Да ли да обезбедим мету"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Да ли да обезбедим графичку представу где ће блок бити приземљен."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Да ли да блокови буду насумичних боја"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Да ли да блокови буду насумичних боја."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Да ли блокове ротирати у правцу супротном од казаљке на сату"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Да ли блокове ротирати у правцу супротном од казаљке на сату."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Број редова за попуњавање"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Број редова који су попуњени насумичним блоковима на почетку игре."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Густина попуњених редова"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Густина блокова у редовима који су већ попуњени на почетку игре. Вредност је "
-"између 0 (без блокова) и 10 (за потпуно попуњени ред)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Потез у лево"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Тастер за кретање у лево."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Потез у десно"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Тастер за кретање у десно."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Помери доле"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Тастер за кретање доле."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Пусти"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Тастер за пуштање."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Ротирај"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Тастер за ротирање."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Пауза"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Тастер за паузирање."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Постави почетни ниво (1 или већи)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "НИВО"
 
@@ -232,74 +87,98 @@ msgstr "По_дешавања"
 msgid "_Help"
 msgstr "_Помоћ"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Гном тетрис поставке"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Игра"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Подешавање"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Број унапред попуњених редова:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Густина блокова у унапред попуњеним редовима:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Почетни ниво: "
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Операција"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Укључи звукове"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Прикажи следећи блок"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Користи насумичне боје блокова"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Окрећи супротно смеру казаљке на сату"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Прикажи _где ће блок бити приземљен"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Тема"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Контроле"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Контрола тастатуром"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Потез у лево"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Потез у десно"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Помери доле"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Пусти"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Ротирај"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Стил блока"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -309,11 +188,11 @@ msgstr ""
 "\n"
 "Гном тетрис је део Гномових игара"
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Веб адреса за Гномове игре"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Душан Марјановић <madafaka@root.co.yu>\n"
@@ -324,70 +203,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Резултати за Гном тетрис"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: непозната опција „--%s“\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "По_дешавања"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: непозната опција „--%s“\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "Изабери подешавања игре"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -613,6 +428,117 @@ msgstr ""
 "Требали сте да примите примерак ГНУ Опште Јавне Лиценце уз %s; ако нисте, "
 "пишите Задужбини за Слободни Софтвер (Free Software Foundation, Inc.), 59 "
 "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Слика за исцртавање блокова"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Слика за исцртавање блокова."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Слика за исцртавање блокова"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Име теме која се користи за исцртавање блокова и позадине."
+
+#~ msgid "Level to start with"
+#~ msgstr "Почетни ниво"
+
+#~ msgid "Level to start with."
+#~ msgstr "Почетни ниво."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Да ли да користи слику за позадину"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Ово одређује да ли да исцртава слику за позадину преко боје позадине."
+
+#~ msgid "The background color"
+#~ msgstr "Боја позадине"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Боја позадине, у облику који разуме gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Да ли приказати следећи блок"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Да ли приказати следећи блок."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Да ли да обезбедим мету"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Да ли да обезбедим графичку представу где ће блок бити приземљен."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Да ли да блокови буду насумичних боја"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Да ли да блокови буду насумичних боја."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Да ли блокове ротирати у правцу супротном од казаљке на сату"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Да ли блокове ротирати у правцу супротном од казаљке на сату."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Број редова за попуњавање"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "Број редова који су попуњени насумичним блоковима на почетку игре."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Густина попуњених редова"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Густина блокова у редовима који су већ попуњени на почетку игре. Вредност "
+#~ "је између 0 (без блокова) и 10 (за потпуно попуњени ред)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Тастер за кретање у лево."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Тастер за кретање у десно."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Тастер за кретање доле."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Тастер за пуштање."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Тастер за ротирање."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Тастер за паузирање."
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: непозната опција „--%s“\n"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "По_дешавања"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: непозната опција „--%s“\n"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Изабери подешавања игре"
 
 #~ msgid "Player Chat"
 #~ msgstr "Разговор играча"

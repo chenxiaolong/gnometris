@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-28 23:17+0530\n"
 "Last-Translator: Abhishek Jacob <abhishekjacob123@gmail.com>\n"
 "Language-Team:  <smc-discuss@googlegroups.com>\n"
@@ -28,9 +28,9 @@ msgstr "കളി നിര്‍ത്തിവച്ചിരിക്കു�
 msgid "Game Over"
 msgstr "കളി അവസാനിച്ചിരിക്കുന്നു"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "ഗ്നോമെട്രിസ്‌"
 
@@ -38,154 +38,11 @@ msgstr "ഗ്നോമെട്രിസ്‌"
 msgid "Fit falling blocks together"
 msgstr "വീഴുന്ന ബ്ലോക്കുകള്‍ ഒരുമിച്ച് വയ്ക്കുക"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "കട്ടകള്‍ വരയ്ക്കാന്‍ ഉപയോഗിക്കേണ്ട ചിത്രം "
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "കട്ടകള്‍ വരയ്ക്കാന്‍ ഉപയോഗിക്കേണ്ട ചിത്രം"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "കട്ടകള്‍ വരയ്ക്കാന്‍ ഉപയോഗിക്കേണ്ട ചിത്രം "
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "കളി തുടങ്ങേണ്ട നില "
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "കളി തുടങ്ങേണ്ട നില"
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "പശ്ചത്തലമായി ചിത്രം ഉപയോഗിക്കണമോ എന്ന്"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "പശ്ചാത്തല നിറം "
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "അടുത്ത കട്ട നേരത്തേ കാണണമോ  എന്ന്"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "അടുത്ത കട്ട നേരത്തേ കാണണമോ?"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "ലക്ഷ്യസ്ഥാനം നല്‍കണമോ എന്ന്"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ക്രമമില്ലാതെ നിറം കട്ടകള്‍ക്ക് കൊടുക്കണമോ എന്ന്"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ക്രമമില്ലാതെ നിറം കട്ടകള്‍ക്ക് കൊടുക്കണമോ എന്ന്."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "ഇടത്തേക്ക് കറക്കണമോ എന്ന്"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "ഇടത്തേക്ക് കറക്കണമോ എന്ന്."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "പൂരിപ്പിക്കേണ്ട വരികളുടെ എണ്ണം"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "പൂരിപ്പിക്കപ്പെട്ട വരികളുടെ സാന്ദ്രത"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "ഇടത്തേക്ക് നീങ്ങുക"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "ഇടത്തേക്ക് നീങ്ങുന്നതിനായി കീ അമര്‍ത്തുക."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "വലത്തേക്ക് നീങ്ങുക"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "വലത്തേക്ക് നീങ്ങുന്നതിനായി കീ അമര്‍ത്തുക."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "താഴേക്ക് നീങ്ങുക"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "താഴേക്ക് നീങ്ങുന്നതിനായി കീ അമര്‍ത്തുക."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "താഴെ ഇടുക"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "താഴെ ഇടുത്തതിനായി കീ അമര്‍ത്തുക."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "കറക്കുക"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "തിരിക്കുന്നതിനായി കീ അമര്‍ത്തുക."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "ചെറിയ ഇടവേള"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "താല്‍ക്കാലികമായി നിര്‍ത്തുന്നതിനായി കീ അമര്‍ത്തുക."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "ഏതു നിലയില്‍ തുടങ്ങണം? (1-10) "
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "നില"
 
@@ -229,85 +86,109 @@ msgstr "ക്രമികരണങ്ങള്‍ (_S)"
 msgid "_Help"
 msgstr "_സഹായം"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ഗ്നോമെട്രിസ്‌ മുന്‍ഗണനകള്‍ "
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "കളി "
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "ക്രമീകരണം"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "മുന്പ് നിറച്ച വരികളുടെ എണ്ണം: (_N)"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr ""
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "കളി തുടങ്ങേണ്ട നില: (_S)"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "പ്രക്രിയ"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "ശബ്ദം സജ്ജമാക്കുക (_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "അടുത്ത കട്ട കാണിക്കുക (_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "നിറങ്ങള്‍ ക്രമമില്ലതെ കട്ടകള്‍ ഉപയോഗിക്കുക (_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "ഇടത്തേക്ക് കറക്കുക (_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "രംഗവിധാനം"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "നിയന്ത്രണങ്ങള്‍"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "കീബോര്‍ഡ് നിയന്ത്രണങ്ങള്‍"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "ഇടത്തേക്ക് നീങ്ങുക"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "വലത്തേക്ക് നീങ്ങുക"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "താഴേക്ക് നീങ്ങുക"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "താഴെ ഇടുക"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "കറക്കുക"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "ചെറിയ ഇടവേള"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ബ്ലോക്ക് ശൈലി"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "ഗ്നോ കളികളുടെ വെബ് സൈറ്റ്"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "എഫ്.എസ്.എഫ് - ഇന്ത്യ <gnu@gnu.org.in>\n"
@@ -317,70 +198,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "ഗ്നോമെട്രിസ് സ്ക്കോറുകള്‍ "
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "ഇത് ഒരു ശരിയായ .desktop ഫയല്‍ അല്ല"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: അപരിചിതമായ ഉപാധി `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s തുടങ്ങുന്നു"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: അപരിചിതമായ ഉപാധി `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "കളിയുടെ ക്രമികരണം സജ്ജമാക്കുക"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "ഫയല്‍"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ഐഡി"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -603,6 +420,96 @@ msgstr ""
 "നിങ്ങള്‍ക്ക് %s-നൊപ്പം GNU ജനറല്‍ പബ്ലിക് ലൈസന്‍സിന്റെ ഒരു പകര്‍പ്പും ലഭ്യമാകേണ്ടതാണ്; "
 "ഇല്ലായെങ്കില്‍, ഈ വിലാസത്തിലേക്ക് എഴുതുക: Free Software Foundation, Inc., 51 Franklin "
 "Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "കട്ടകള്‍ വരയ്ക്കാന്‍ ഉപയോഗിക്കേണ്ട ചിത്രം "
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "കട്ടകള്‍ വരയ്ക്കാന്‍ ഉപയോഗിക്കേണ്ട ചിത്രം"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "കട്ടകള്‍ വരയ്ക്കാന്‍ ഉപയോഗിക്കേണ്ട ചിത്രം "
+
+#~ msgid "Level to start with"
+#~ msgstr "കളി തുടങ്ങേണ്ട നില "
+
+#~ msgid "Level to start with."
+#~ msgstr "കളി തുടങ്ങേണ്ട നില"
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "പശ്ചത്തലമായി ചിത്രം ഉപയോഗിക്കണമോ എന്ന്"
+
+#~ msgid "The background color"
+#~ msgstr "പശ്ചാത്തല നിറം "
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "അടുത്ത കട്ട നേരത്തേ കാണണമോ  എന്ന്"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "അടുത്ത കട്ട നേരത്തേ കാണണമോ?"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "ലക്ഷ്യസ്ഥാനം നല്‍കണമോ എന്ന്"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ക്രമമില്ലാതെ നിറം കട്ടകള്‍ക്ക് കൊടുക്കണമോ എന്ന്"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ക്രമമില്ലാതെ നിറം കട്ടകള്‍ക്ക് കൊടുക്കണമോ എന്ന്."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "ഇടത്തേക്ക് കറക്കണമോ എന്ന്"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "ഇടത്തേക്ക് കറക്കണമോ എന്ന്."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "പൂരിപ്പിക്കേണ്ട വരികളുടെ എണ്ണം"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "പൂരിപ്പിക്കപ്പെട്ട വരികളുടെ സാന്ദ്രത"
+
+#~ msgid "Key press to move left."
+#~ msgstr "ഇടത്തേക്ക് നീങ്ങുന്നതിനായി കീ അമര്‍ത്തുക."
+
+#~ msgid "Key press to move right."
+#~ msgstr "വലത്തേക്ക് നീങ്ങുന്നതിനായി കീ അമര്‍ത്തുക."
+
+#~ msgid "Key press to move down."
+#~ msgstr "താഴേക്ക് നീങ്ങുന്നതിനായി കീ അമര്‍ത്തുക."
+
+#~ msgid "Key press to drop."
+#~ msgstr "താഴെ ഇടുത്തതിനായി കീ അമര്‍ത്തുക."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "തിരിക്കുന്നതിനായി കീ അമര്‍ത്തുക."
+
+#~ msgid "Key press to pause."
+#~ msgstr "താല്‍ക്കാലികമായി നിര്‍ത്തുന്നതിനായി കീ അമര്‍ത്തുക."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "ഇത് ഒരു ശരിയായ .desktop ഫയല്‍ അല്ല"
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: അപരിചിതമായ ഉപാധി `--%s'\n"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s തുടങ്ങുന്നു"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: അപരിചിതമായ ഉപാധി `--%s'\n"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "കളിയുടെ ക്രമികരണം സജ്ജമാക്കുക"
+
+#~ msgid "FILE"
+#~ msgstr "ഫയല്‍"
+
+#~ msgid "ID"
+#~ msgstr "ഐഡി"
 
 #~ msgid "Player Chat"
 #~ msgstr "കളിക്കാരനുള്ള ചാറ്റ്"

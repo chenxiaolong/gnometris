@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-05-19 22:21+0300\n"
 "Last-Translator: Jennie Petoumenou <epetoumenou@gmail.com>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
@@ -49,9 +49,9 @@ msgstr "Παύση"
 msgid "Game Over"
 msgstr "Τέλος παιχνιδιού"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -59,163 +59,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Ταιριάξτε τους κύβους που πέφτουν"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Εικόνα που θα χρησιμοποιείται για τη σχεδίαση κύβων"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Εικόνα που θα χρησιμοποιείται για τη σχεδίαση κύβων."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Το θέμα που χρησιμοποιείται για τη σχεδίαση κύβων"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-"Το όνομα του θέματος που χρησιμοποιείται για την εμφάνιση των κύβων και του "
-"παρασκηνίου."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Επίπεδο εκκίνησης"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Επίπεδο εκκίνησης."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Αν θα χρησιμοποιηθεί η εικόνα παρασκηνίου"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Αυτό επιλέγει αν η εικόνα παρασκηνίου θα σχεδιαστεί πάνω από το χρώμα "
-"παρασκηνίου."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Το χρώμα του παρασκηνίου"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Το χρώμα του παρασκηνίου σε μορφή συμβατή με το gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Αν θα γίνει προεπισκόπηση του επόμενου κύβου"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Αν θα γίνει προεπισκόπηση του επόμενου κύβου."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Αν θα δοθεί στόχος"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Αν θα γίνει γραφική αναπαράσταση για το πού θα προσγειωθεί ένας κύβος."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Αν θα δοθούν τυχαία χρώματα στους κύβους"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Αν θα δοθούν τυχαία χρώματα στους κύβους."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Αν θα γίνει περιστροφή προς τα αριστερά"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Αν θα γίνει περιστροφή προς τα αριστερά."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Ο αριθμός των γραμμών που πρέπει να συμπληρωθούν"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Ο αριθμός των γραμμών που συμπληρώνονται με τυχαίους κύβους στην αρχή του "
-"παιχνιδιού."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Η πυκνότητα των συμπληρωμένων γραμμών"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Η πυκνότητα των κύβων σε γραμμές που συμπληρώνονται στην αρχή του παιχνιδιού."
-"Η τιμή θα πρέπει να είναι μεταξύ 0 (κανένας κύβος) και 10 (συμπληρωμένη "
-"γραμμή)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Μετακίνηση προς τα αριστερά"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Πάτημα πλήκτρου για μετακίνηση προς τα αριστερά."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Μετακίνηση προς τα δεξιά"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Πάτημα πλήκτρου για μετακίνηση προς τα δεξιά."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Μετακίνηση προς τα κάτω"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Πάτημα πλήκτρου για κίνηση προς τα κάτω"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Ρίψη"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Πάτημα πλήκτρου για ρίψη."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Περιστροφή"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Πάτημα πλήκτρου για περιστροφή"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Παύση"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Πάτημα πλήκτρου για παύση"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Ορίστε το αρχικό επίπεδο (1 ή υψηλότερο)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "ΕΠΙΠΕΔΟ"
 
@@ -259,74 +107,98 @@ msgstr "Ρυθμίσεις"
 msgid "_Help"
 msgstr "_Βοήθεια"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Προτιμήσεις Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Παιχνίδι"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Διαμόρφωση"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Αριθμός προ-συμπληρωμένων γραμμών:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Πυκνότητα κύβων στις προσυμπληρωμένες γραμμές:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Επίπεδο εκκίνησης:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Λειτουργία"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Ενεργοποίηση ήχων"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Προεπισκόπηση επόμενου κύβου"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Χρησιμοποιήστε τυχαία χρώματα κύβων"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "Περιστροφή κύβων προς τα αριστερά"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Εμφάνιση της θέσης προσγείωσης του κύβου"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Θέμα"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Έλεγχοι"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Έλεγχοι πληκτρολογίου"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Μετακίνηση προς τα αριστερά"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Μετακίνηση προς τα δεξιά"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Μετακίνηση προς τα κάτω"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Ρίψη"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Περιστροφή"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Παύση"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Στυλ κύβου"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -336,11 +208,11 @@ msgstr ""
 "\n"
 "Το Gnometris είναι μέρος των παιχνιδιών του GNOME."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Ιστοσελίδα των παιχνιδιών του GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Spiros Papadimitriou <spapadim+@cs.cmu.edu>\n"
@@ -351,71 +223,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Βαθμολογίες Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Το αρχείο δεν είναι έγκυρο αρχείο .desktop"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Μη αναγνωρίσιμη έκδοση αρχείου επιφάνειας εργασίας \"%s\""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Εκκίνηση του %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Η εφαρμογή δε δέχεται έγγραφα σε γραμμή εντολής"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Μη αναγνωρίσιμη επιλογή εκκίνησης: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Δε μπορούν να περαστούν τα URI των εγγράφων σε μία 'Type=Link' είσοδο "
-"επιφάνειας εργασίας"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Μη εκκινήσιμο αντικείμενο"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Αποσύνδεση από το διαχειριστή συνεδριών"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Προσδιορίστε το αρχείο που περιέχει αποθηκευμένες ρυθμίσεις"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "ΑΡΧΕΙΟ"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Προσδιορίστε Ταυτότητα διαχείρισης συνεδριών"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "Ταυτότητα"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Εμφάνιση επιλογών διαχείρισης:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Εμφάνιση επιλογών διαχείρισης συνεδρίας"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -644,6 +451,152 @@ msgstr ""
 "Θα πρέπει να έχετε λάβει ένα αντίγραφο της Γενικής Δημόσιας Άδειας GNU μαζί "
 "με το %s· Εάν όχι, γράψτε στο Free Software Foundation, Inc., 51 Franklin "
 "Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Εικόνα που θα χρησιμοποιείται για τη σχεδίαση κύβων"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Εικόνα που θα χρησιμοποιείται για τη σχεδίαση κύβων."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Το θέμα που χρησιμοποιείται για τη σχεδίαση κύβων"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr ""
+#~ "Το όνομα του θέματος που χρησιμοποιείται για την εμφάνιση των κύβων και "
+#~ "του παρασκηνίου."
+
+#~ msgid "Level to start with"
+#~ msgstr "Επίπεδο εκκίνησης"
+
+#~ msgid "Level to start with."
+#~ msgstr "Επίπεδο εκκίνησης."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Αν θα χρησιμοποιηθεί η εικόνα παρασκηνίου"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Αυτό επιλέγει αν η εικόνα παρασκηνίου θα σχεδιαστεί πάνω από το χρώμα "
+#~ "παρασκηνίου."
+
+#~ msgid "The background color"
+#~ msgstr "Το χρώμα του παρασκηνίου"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Το χρώμα του παρασκηνίου σε μορφή συμβατή με το gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Αν θα γίνει προεπισκόπηση του επόμενου κύβου"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Αν θα γίνει προεπισκόπηση του επόμενου κύβου."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Αν θα δοθεί στόχος"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Αν θα γίνει γραφική αναπαράσταση για το πού θα προσγειωθεί ένας κύβος."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Αν θα δοθούν τυχαία χρώματα στους κύβους"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Αν θα δοθούν τυχαία χρώματα στους κύβους."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Αν θα γίνει περιστροφή προς τα αριστερά"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Αν θα γίνει περιστροφή προς τα αριστερά."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Ο αριθμός των γραμμών που πρέπει να συμπληρωθούν"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Ο αριθμός των γραμμών που συμπληρώνονται με τυχαίους κύβους στην αρχή του "
+#~ "παιχνιδιού."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Η πυκνότητα των συμπληρωμένων γραμμών"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Η πυκνότητα των κύβων σε γραμμές που συμπληρώνονται στην αρχή του "
+#~ "παιχνιδιού.Η τιμή θα πρέπει να είναι μεταξύ 0 (κανένας κύβος) και 10 "
+#~ "(συμπληρωμένη γραμμή)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Πάτημα πλήκτρου για μετακίνηση προς τα αριστερά."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Πάτημα πλήκτρου για μετακίνηση προς τα δεξιά."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Πάτημα πλήκτρου για κίνηση προς τα κάτω"
+
+#~ msgid "Key press to drop."
+#~ msgstr "Πάτημα πλήκτρου για ρίψη."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Πάτημα πλήκτρου για περιστροφή"
+
+#~ msgid "Key press to pause."
+#~ msgstr "Πάτημα πλήκτρου για παύση"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Το αρχείο δεν είναι έγκυρο αρχείο .desktop"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Μη αναγνωρίσιμη έκδοση αρχείου επιφάνειας εργασίας \"%s\""
+
+#~ msgid "Starting %s"
+#~ msgstr "Εκκίνηση του %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Η εφαρμογή δε δέχεται έγγραφα σε γραμμή εντολής"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Μη αναγνωρίσιμη επιλογή εκκίνησης: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Δε μπορούν να περαστούν τα URI των εγγράφων σε μία 'Type=Link' είσοδο "
+#~ "επιφάνειας εργασίας"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Μη εκκινήσιμο αντικείμενο"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Αποσύνδεση από το διαχειριστή συνεδριών"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Προσδιορίστε το αρχείο που περιέχει αποθηκευμένες ρυθμίσεις"
+
+#~ msgid "FILE"
+#~ msgstr "ΑΡΧΕΙΟ"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Προσδιορίστε Ταυτότητα διαχείρισης συνεδριών"
+
+#~ msgid "ID"
+#~ msgstr "Ταυτότητα"
+
+#~ msgid "Session management options:"
+#~ msgstr "Εμφάνιση επιλογών διαχείρισης:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Εμφάνιση επιλογών διαχείρισης συνεδρίας"
 
 #~ msgid "Player Chat"
 #~ msgstr "Συνομιλία παικτών"
@@ -3638,8 +3591,8 @@ msgstr ""
 
 #~ msgid "White pawn at %(start)s takes the black queen at %(end)s"
 #~ msgstr ""
-#~ "Πιόνι λευκών στο %(start)s αιχμαλωτίζει τη βασίλισσα των μαύρων στο %(end)"
-#~ "s"
+#~ "Πιόνι λευκών στο %(start)s αιχμαλωτίζει τη βασίλισσα των μαύρων στο "
+#~ "%(end)s"
 
 #~ msgid "White rook moves from %(start)s to %(end)s"
 #~ msgstr "Πύργος λευκών μετακινείται από %(start)s σε %(end)s"
@@ -3698,8 +3651,8 @@ msgstr ""
 
 #~ msgid "White bishop at %(start)s takes the black bishop at %(end)s"
 #~ msgstr ""
-#~ "Αξιωματικός λευκών στο %(start)s αιχμαλωτίζει αξιωματικό μαύρων στο %(end)"
-#~ "s"
+#~ "Αξιωματικός λευκών στο %(start)s αιχμαλωτίζει αξιωματικό μαύρων στο "
+#~ "%(end)s"
 
 #~ msgid "White bishop at %(start)s takes the black queen at %(end)s"
 #~ msgstr ""
@@ -3825,8 +3778,8 @@ msgstr ""
 
 #~ msgid "Black bishop at %(start)s takes the white bishop at %(end)s"
 #~ msgstr ""
-#~ "Αξιωματικός μαύρων από %(start)s αιχμαλωτίζει αξιωματικό λευκών στο %(end)"
-#~ "s"
+#~ "Αξιωματικός μαύρων από %(start)s αιχμαλωτίζει αξιωματικό λευκών στο "
+#~ "%(end)s"
 
 #~ msgid "Black bishop at %(start)s takes the white queen at %(end)s"
 #~ msgstr ""

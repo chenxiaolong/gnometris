@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.ro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-13 01:16+0200\n"
 "Last-Translator: Adi Roiban <adi@roiban.ro>\n"
 "Language-Team: Gnome Romanian Team <gnomero-list@lists.sourceforge.net>\n"
@@ -29,9 +29,9 @@ msgstr "Pauză"
 msgid "Game Over"
 msgstr "Jocul s-a terminat"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -39,160 +39,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Potrivește blocurile care cad"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Imaginea folosită pentru desenarea pieselor"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Imaginea folosită pentru desenarea pieselor."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Tema folosită pentru a randa blocurile"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Numele temei folosite pentru a randa blocurile și fundalul."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Nivelul de pornire"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Nivelul de pornire."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Dacă să se folosească imaginea de fundal."
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Aceasta selectează dacă să deseneze sau nu imaginea de fundal peste culoarea "
-"de fundal."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Culoarea de fundal"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Culoarea de fundal, într-un format înțeles de gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Dacă să arate următoarea piesă"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Dacă să arate următoarea piesă."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Dacă să furnizeze o țintă"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Dacă să furnizeze o reprezentare grafică pentru unde va ateriza un bloc."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Dacă piesele vor primi culori aleatoare"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Dacă piesele vor primi culori aleatoare."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Dacă să rotească în sens invers orar"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Dacă să rotească în sens invers orar."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Numărul liniilor ce vor fi umplute"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Numărul liniilor ce sunt umplute cu blocuri aleatoare la începutul jocului."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Densitatea blocurilor în liniile pre-umplute"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Densitatea blocurilor din linii umplute la începutul jocului. Valorile sunt "
-"între 0 (pentru nici un bloc) și 10 (pentru o linie umplută complet)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Mută la stânga"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Tasta pentru mișcare la stânga."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Mută la dreapta"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Tasta pentru mișcare la dreapta."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Mișcă în jos"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Tasta apăsată pentru mișcare în jos."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Eliberează"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Tasta apăsată pentru a elibera o piesă."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Rotire"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Tasta apăsată pentru rotire."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pauză"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Tasta apăsată pentru pauză."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Setați nivelul de pornire(1 sau mai mare)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "NIVEL"
 
@@ -236,85 +87,109 @@ msgstr "_Setări"
 msgid "_Help"
 msgstr "_Ajutor"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Preferințe Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Joc"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Configurare"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Numărul liniilor pre-umplute:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Densitatea blocurilor în liniile pre-umplute:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "Nivelul de î_nceput:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Operația"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Activează sunetele"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Arată următoarea piesă"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Folosește culori aleatoare pentru piese"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotește blocurile invers acelor de ceas"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Afișează _unde va ateriza blocul"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Teme"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Controale"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Control tastatură"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Mută la stânga"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Mută la dreapta"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Mișcă în jos"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Eliberează"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Rotire"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pauză"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Stil blocuri"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Pagina web Jocuri GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Mugurel Tudor <mugurelu@gnome.ro>\n"
@@ -336,69 +211,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Scoruri Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FIȘIER"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -621,6 +433,111 @@ msgstr ""
 "License odată cu aplicația %s; dacă acest lucru nu s-a întâmplat informați "
 "în scris la Free Software Foundation Inc., la adresa 51 Franklin Street, "
 "Fifth Floor, Boston, MA 02110-1301 USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Imaginea folosită pentru desenarea pieselor"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Imaginea folosită pentru desenarea pieselor."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Tema folosită pentru a randa blocurile"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Numele temei folosite pentru a randa blocurile și fundalul."
+
+#~ msgid "Level to start with"
+#~ msgstr "Nivelul de pornire"
+
+#~ msgid "Level to start with."
+#~ msgstr "Nivelul de pornire."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Dacă să se folosească imaginea de fundal."
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Aceasta selectează dacă să deseneze sau nu imaginea de fundal peste "
+#~ "culoarea de fundal."
+
+#~ msgid "The background color"
+#~ msgstr "Culoarea de fundal"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Culoarea de fundal, într-un format înțeles de gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Dacă să arate următoarea piesă"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Dacă să arate următoarea piesă."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Dacă să furnizeze o țintă"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Dacă să furnizeze o reprezentare grafică pentru unde va ateriza un bloc."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Dacă piesele vor primi culori aleatoare"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Dacă piesele vor primi culori aleatoare."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Dacă să rotească în sens invers orar"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Dacă să rotească în sens invers orar."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Numărul liniilor ce vor fi umplute"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Numărul liniilor ce sunt umplute cu blocuri aleatoare la începutul "
+#~ "jocului."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Densitatea blocurilor în liniile pre-umplute"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Densitatea blocurilor din linii umplute la începutul jocului. Valorile "
+#~ "sunt între 0 (pentru nici un bloc) și 10 (pentru o linie umplută complet)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Tasta pentru mișcare la stânga."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Tasta pentru mișcare la dreapta."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tasta apăsată pentru mișcare în jos."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tasta apăsată pentru a elibera o piesă."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tasta apăsată pentru rotire."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tasta apăsată pentru pauză."
+
+#~ msgid "FILE"
+#~ msgstr "FIȘIER"
+
+#~ msgid "ID"
+#~ msgstr "ID"
 
 #~ msgid "Occupied"
 #~ msgstr "Ocupat"

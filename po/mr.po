@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-12 18:45+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -27,9 +27,9 @@ msgstr "थांबवलेले"
 msgid "Game Over"
 msgstr "खेळ समाप्त"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "ग्नोमेट्रीस्"
 
@@ -37,156 +37,11 @@ msgstr "ग्नोमेट्रीस्"
 msgid "Fit falling blocks together"
 msgstr "पडणारे ठोकळे एकत्र बसवा"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "रेखन ठोकळ्यांकरीता वापरायच्या प्रतिमा"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "रेखन ठोकळ्यांकरीता वापरायच्या प्रतिमा."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ठोकळे चितारण्याकरीता वापरलेल्या थिमचे नाव"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ठोकळे आणि पार्श्वभूमी चितारण्याकरीता वापरलेल्या थिमचे नाव."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "सुरु करावयाची पातळी"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "सुरु करावयाची पातळी."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "पार्श्वभुमीवर प्रतीमा वापरायची की नाही"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "हे पार्श्वभूमीच्या रंगावर पार्श्वभूमीतील प्रतिमा चितारायची किंवा नाही हे निवडते."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "पार्श्वभूमीचा रंग"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "gdk_color_parse ला समजेल अशा प्रकारे पार्श्वभूमीचा रंग."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "पुढला ठोकळा आधीच दर्शवायचा काय"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "पुढला ठोकळा आधीच दर्शवायचा काय."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "लक्ष्य दर्शवायचे की नाही"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "ठोकळा कुठे पडेल याचे रेखांकित प्रतिरूपण दर्शवायचे की नाही."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ठोकळ्यांना कुठलेही रंग द्यायचे काय"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ठोकळ्यांना कुठलेही रंग द्यायचे काय."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "डावीकडे फिरवायचे की नाही"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "उजवीकडे फिरवायचे की नाही."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "भरावयाच्या ओळींची संख्या"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "खेळाच्या सुरूवातीलाच कशाही क्रमाने ठोकळ्यांनी भरलेल्या ओळींची संख्या."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "भरलेल्या ओळींची घनता"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"खेळाच्या सुरूवातीला ओळींमध्ये भरल्या जाणाऱ्या ठोकळ्यांची घनता. किंमत ० (एकही ठोकळा नाही) "
-"आणि १० (पूर्णपणे भरलेल्या ओळीकरीता) च्या मधली."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "डावीकडे हलवा"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "डावीकडे हलवायला कळ दाबा."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "उजविकडे हलवा"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "उजविकडे हलवायला कळ दाबा."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "खाली हलवा"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "खाली हलवण्याकरीता कळ दाबा."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "सोडा"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "सोडण्याकरीता कळ दाबा."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "फिरवा"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "फिरवीण्याकरीता कळ दाबा."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "थांबवा"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "थांबवण्याकरता कळ दाबा."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "सुरूवातीची पातळी (१ किंवा मोठे)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "पातळी"
 
@@ -230,74 +85,98 @@ msgstr "संरचना(_S)"
 msgid "_Help"
 msgstr "मदत(_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ग्नोमेट्रीस प्राधान्ये"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "खेळ"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "सेटअप"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "पहीलेपासुन भरलेल्या ओळींची संख्या(_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "पहीलेपासुन भरलेल्या ओळींची घनता(_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "सुरुवातिची पातळी(_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "प्रक्रीया"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "आवाज वाजवा(_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "पुढल्या ठोकळ्याचे पुनरावलोकन(_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "ठोकळ्यांकरीता कुठलेही रंग वापरा(_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "डावीकडे फिरवायचे की नाही(_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "ठोकळा कुठे पडेल ते दर्शवा(_w)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "थिम"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "नियंत्रक"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "कळफलक नियंत्रक"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "डावीकडे हलवा"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "उजविकडे हलवा"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "खाली हलवा"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "सोडा"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "फिरवा"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "थांबवा"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ठोकळ्याची शैली"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -307,11 +186,11 @@ msgstr ""
 "\n"
 "Gnometris हा GNOME खेळचा भाग आहे."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "GNOME खेळाचे संकेत स्थळ"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "समीर इंगोले <strike@proscrutiny.com>, 2006; संदिप शेडमाके <sandeep.shedmake@gmail."
@@ -320,69 +199,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "ग्नोमेट्रीस गुण"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "फाइल वैध .desktop फाइल नाही"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "अपरिचीत डेस्कटॉप फाइल आवृत्ती '%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s सुरू करत आहे"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "आदेश ओळ पासून अनुप्रयोग दस्तऐवज स्वीकारत नाही"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "अपरिचीत दाखलन पर्याय: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "'Type=Link' डेस्कटॉप एन्ट्री करीता दस्तऐवज URIs पाठवू शकत नाही"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "दाखलनजोगी घटक नाही"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "सत्र व्यवस्थापक करीता जुळवणी अकार्यान्वीत करा"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "संचयीत संयोजना असलेली फाइल निश्चित करा"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "सत्र व्यवस्थापन ID निश्चित करा"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "सत्र व्यवस्थापन पर्याय:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "सत्र व्यवस्थापन पर्याय दर्शवा"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -609,6 +425,142 @@ msgstr ""
 "You should have received a copy of the GNU General Public License along with "
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "रेखन ठोकळ्यांकरीता वापरायच्या प्रतिमा"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "रेखन ठोकळ्यांकरीता वापरायच्या प्रतिमा."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ठोकळे चितारण्याकरीता वापरलेल्या थिमचे नाव"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ठोकळे आणि पार्श्वभूमी चितारण्याकरीता वापरलेल्या थिमचे नाव."
+
+#~ msgid "Level to start with"
+#~ msgstr "सुरु करावयाची पातळी"
+
+#~ msgid "Level to start with."
+#~ msgstr "सुरु करावयाची पातळी."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "पार्श्वभुमीवर प्रतीमा वापरायची की नाही"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "हे पार्श्वभूमीच्या रंगावर पार्श्वभूमीतील प्रतिमा चितारायची किंवा नाही हे निवडते."
+
+#~ msgid "The background color"
+#~ msgstr "पार्श्वभूमीचा रंग"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "gdk_color_parse ला समजेल अशा प्रकारे पार्श्वभूमीचा रंग."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "पुढला ठोकळा आधीच दर्शवायचा काय"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "पुढला ठोकळा आधीच दर्शवायचा काय."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "लक्ष्य दर्शवायचे की नाही"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "ठोकळा कुठे पडेल याचे रेखांकित प्रतिरूपण दर्शवायचे की नाही."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ठोकळ्यांना कुठलेही रंग द्यायचे काय"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ठोकळ्यांना कुठलेही रंग द्यायचे काय."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "डावीकडे फिरवायचे की नाही"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "उजवीकडे फिरवायचे की नाही."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "भरावयाच्या ओळींची संख्या"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "खेळाच्या सुरूवातीलाच कशाही क्रमाने ठोकळ्यांनी भरलेल्या ओळींची संख्या."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "भरलेल्या ओळींची घनता"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "खेळाच्या सुरूवातीला ओळींमध्ये भरल्या जाणाऱ्या ठोकळ्यांची घनता. किंमत ० (एकही ठोकळा "
+#~ "नाही) आणि १० (पूर्णपणे भरलेल्या ओळीकरीता) च्या मधली."
+
+#~ msgid "Key press to move left."
+#~ msgstr "डावीकडे हलवायला कळ दाबा."
+
+#~ msgid "Key press to move right."
+#~ msgstr "उजविकडे हलवायला कळ दाबा."
+
+#~ msgid "Key press to move down."
+#~ msgstr "खाली हलवण्याकरीता कळ दाबा."
+
+#~ msgid "Key press to drop."
+#~ msgstr "सोडण्याकरीता कळ दाबा."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "फिरवीण्याकरीता कळ दाबा."
+
+#~ msgid "Key press to pause."
+#~ msgstr "थांबवण्याकरता कळ दाबा."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "फाइल वैध .desktop फाइल नाही"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "अपरिचीत डेस्कटॉप फाइल आवृत्ती '%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s सुरू करत आहे"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "आदेश ओळ पासून अनुप्रयोग दस्तऐवज स्वीकारत नाही"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "अपरिचीत दाखलन पर्याय: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "'Type=Link' डेस्कटॉप एन्ट्री करीता दस्तऐवज URIs पाठवू शकत नाही"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "दाखलनजोगी घटक नाही"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "सत्र व्यवस्थापक करीता जुळवणी अकार्यान्वीत करा"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "संचयीत संयोजना असलेली फाइल निश्चित करा"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "सत्र व्यवस्थापन ID निश्चित करा"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "सत्र व्यवस्थापन पर्याय:"
+
+#~ msgid "Show session management options"
+#~ msgstr "सत्र व्यवस्थापन पर्याय दर्शवा"
 
 #~ msgid "Player Chat"
 #~ msgstr "खेळांडूची गपशप"

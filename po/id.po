@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-sudoku\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2007-04-21 08:34+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
@@ -27,9 +27,9 @@ msgstr "Istirahat"
 msgid "Game Over"
 msgstr "Permainan Usai"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -37,161 +37,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Paskan blok jatuh bersamaan"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Gambar blok"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Gambar blok."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Tema yang digunakan untuk menggambar blok"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Nama tema yang digunakan untuk menggambar blok dan latar belakang."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Tingkatan untuk mulai"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Tingkatan untuk mulai."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Apakah menggunakan gambar latar"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Ini memilih apakah menggambar latar belakang di atas warna latar belakang."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Warna latar belakang"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Warna latar belakang, dalam bentuk yang dimengerti gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Lihat blok selanjutnya atau tidak"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Lihat blok selanjutnya atau tidak."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Apakah menyediakan target"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Apakah menyediakan penjelasan grafis di mana sebuah blok akan mendarat."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Gunakna warna acak pada blok atau tidak"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Gunakan warna acak pada blok atau tidak."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Berlawanan jarum jam atau tidak"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Berlawanan jarum jam atau tidak."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Jumlah baris yang diisi"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Jumlah baris yang sudah diisikan dengan balok-balok pada awal permainan."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Kerapatan baris yang sudah diisikan"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Kerapatan blok pada baris yang sudah diisikan pada awal permainan. Angka "
-"bernilai antara 0 (tidak ada blok) hingga 10 (baris sudah komplit diisi)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Pindah kiri"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Tekan untuk pindah ke kiri."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Pindah kanan"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Tekan untuk pindah ke kanan."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Pindah bawah"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Tekan untuk pindah ke bawah."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Jatuh"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Tekan tombol untuk menjatuhkan"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-#, fuzzy
-msgid "Rotate"
-msgstr "Dimulai"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Tekan tombol untuk berputar."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-#, fuzzy
-msgid "Pause"
-msgstr "Istirahat"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Tekan tombol untuk istirahat."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Tentukan tingkat mulai (1 atau lebih)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "TINGKAT"
 
@@ -237,88 +87,114 @@ msgstr "_Seting"
 msgid "_Help"
 msgstr "Bantuan"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Pengaturan Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 #, fuzzy
 msgid "Game"
 msgstr "_Permainan"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 #, fuzzy
 msgid "Setup"
 msgstr "_Stop"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Jumlah baris yang sudah diisikan:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Kerapatan blok pada baris yang sudah diisikan:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Tingkatan awal:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Operasi"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Aktifkan suara"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Lihat blok selanjutnya"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "G_unakan warna acak pada blok"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "Puta_r blok berlawanan jarum jam"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Tampilkan _di mana blok akan mendarat"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Kendali"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Kendali Keyboard"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Pindah kiri"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Pindah kanan"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Pindah bawah"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Jatuh"
+
+#: ../gnometris/tetris.cpp:785
+#, fuzzy
+msgid "Rotate"
+msgstr "Dimulai"
+
+#: ../gnometris/tetris.cpp:786
+#, fuzzy
+msgid "Pause"
+msgstr "Istirahat"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Gaya Block"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Server permainan GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Mohammad DAMT <mdamt@bisnisweb.com>\n"
@@ -328,71 +204,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Perolehan Angka Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "_Seting"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "Pilih konfigurasi permainan"
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "FILE"
-msgstr "NAMAFILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 #, fuzzy
@@ -629,6 +440,115 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Gambar blok"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Gambar blok."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Tema yang digunakan untuk menggambar blok"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Nama tema yang digunakan untuk menggambar blok dan latar belakang."
+
+#~ msgid "Level to start with"
+#~ msgstr "Tingkatan untuk mulai"
+
+#~ msgid "Level to start with."
+#~ msgstr "Tingkatan untuk mulai."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Apakah menggunakan gambar latar"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Ini memilih apakah menggambar latar belakang di atas warna latar belakang."
+
+#~ msgid "The background color"
+#~ msgstr "Warna latar belakang"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Warna latar belakang, dalam bentuk yang dimengerti gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Lihat blok selanjutnya atau tidak"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Lihat blok selanjutnya atau tidak."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Apakah menyediakan target"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Apakah menyediakan penjelasan grafis di mana sebuah blok akan mendarat."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Gunakna warna acak pada blok atau tidak"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Gunakan warna acak pada blok atau tidak."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Berlawanan jarum jam atau tidak"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Berlawanan jarum jam atau tidak."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Jumlah baris yang diisi"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Jumlah baris yang sudah diisikan dengan balok-balok pada awal permainan."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Kerapatan baris yang sudah diisikan"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Kerapatan blok pada baris yang sudah diisikan pada awal permainan. Angka "
+#~ "bernilai antara 0 (tidak ada blok) hingga 10 (baris sudah komplit diisi)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Tekan untuk pindah ke kiri."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Tekan untuk pindah ke kanan."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tekan untuk pindah ke bawah."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tekan tombol untuk menjatuhkan"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tekan tombol untuk berputar."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tekan tombol untuk istirahat."
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "_Seting"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Pilih konfigurasi permainan"
+
+#, fuzzy
+#~ msgid "FILE"
+#~ msgstr "NAMAFILE"
 
 #, fuzzy
 #~ msgid "Player Chat"

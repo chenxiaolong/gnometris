@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-01-24 23:11+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr-hackers@lists.kldp.net>\n"
@@ -28,9 +28,9 @@ msgstr "일시 중지"
 msgid "Game Over"
 msgstr "게임 끝"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "그놈 테트리스"
 
@@ -38,156 +38,11 @@ msgstr "그놈 테트리스"
 msgid "Fit falling blocks together"
 msgstr "떨어지는 블록을 맞춥니다"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "블록을 그릴 때 사용할 이미지"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "블록을 그릴 때 사용할 이미지."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "블록을 그릴 때 사용할 테마"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "블록과 배경을 그릴 때 사용할 테마 이름."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "시작할 단계"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "시작할 단계."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "배경 그림을 사용할 지 여부"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "배경색 위에 배경 이미지를 그릴 지 여부를 선택합니다."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "배경색"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "배경 색, gdk_color_parse 형식으로."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "다음 블록 미리 보기 여부"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "다음 블록 미리 보기 여부."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "목표 위치 보여줄 지 여부"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "블록이 떨어질 위치를 그려줄 지 여부."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "블록의 색을 임의로 부여할 지 여부"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "블록의 색깔을 임의로 부여할 지 여부."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "시계반대 방향으로 회전할 지 여부"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "시계반대 방향으로 회전할 지 여부."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "채울 줄 수"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "게임이 시작할 때 임의로 채워 넣을 줄 수."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "채워진 줄의 밀도"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"게임이 시작할 때 채워진 줄의 블록 밀도. 이 값은 0(블록 없음)에서 10(완전히 "
-"줄 채움) 사이의 값입니다."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "왼쪽으로 이동"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "왼쪽으로 이동할 때 누를 키."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "오른쪽으로 이동"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "오른쪽으로 이동할 때 누를 키."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "아래로 옮기기"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "아래로 이동할 때 누를 키."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "떨어뜨리기"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "떨어뜨릴 때 누를 키."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "돌리기"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "돌릴 때 누를 키."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "일시 중지"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "일시 중지할 때 누를 키."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "시작 난이도를 설정합니다 (1 이상)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "난이도"
 
@@ -231,74 +86,98 @@ msgstr "설정(_S)"
 msgid "_Help"
 msgstr "도움말(_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "그놈 테트리스 기본 설정"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "게임"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "설정"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "미리 채워진 열의 갯수(_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "미리 채워진 열에서 블록의 밀도(_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "시작 단계(_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "동작"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "사운드 사용(_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "다음 블록 미리 보기(_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "임의의 블록 색상(_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "시계반대 방향으로 회전(_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "블록이 어디로 떨어질 지 보기(_W)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "테마"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "조작"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "키보드 조작"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "왼쪽으로 이동"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "오른쪽으로 이동"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "아래로 옮기기"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "떨어뜨리기"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "돌리기"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "일시 중지"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "블록 모양새"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -308,80 +187,17 @@ msgstr ""
 "\n"
 "그놈 테트리스는 그놈 게임의 일부입니다."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "그놈 게임 웹사이트"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "류창우 <cwryu@debian.org>"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "그놈 테트리스 점수"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "올바른 .desktop 파일이 아닙니다"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "desktop 파일 버전을 ('%s') 인식할 수 없습니다"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s 시작"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "명령행에서 문서를 지정할 수 없는 프로그램입니다"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "알 수 없는 실행 옵션: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "문서 URI는 'Type=Link' 데스크탑 항목에 넘길 수 없습니다"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "실행할 수 있는 항목이 없습니다"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "세션 관리자에 연결하지 않습니다"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "설정을 저장할 파일을 지정합니다"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "<파일>"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "세션 관리 ID를 지정합니다"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "<ID>"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "세션 관리 옵션:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "세션 관리 옵션을 표시합니다"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -608,6 +424,142 @@ msgstr ""
 "You should have received a copy of the GNU General Public License along with "
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "블록을 그릴 때 사용할 이미지"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "블록을 그릴 때 사용할 이미지."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "블록을 그릴 때 사용할 테마"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "블록과 배경을 그릴 때 사용할 테마 이름."
+
+#~ msgid "Level to start with"
+#~ msgstr "시작할 단계"
+
+#~ msgid "Level to start with."
+#~ msgstr "시작할 단계."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "배경 그림을 사용할 지 여부"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "배경색 위에 배경 이미지를 그릴 지 여부를 선택합니다."
+
+#~ msgid "The background color"
+#~ msgstr "배경색"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "배경 색, gdk_color_parse 형식으로."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "다음 블록 미리 보기 여부"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "다음 블록 미리 보기 여부."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "목표 위치 보여줄 지 여부"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "블록이 떨어질 위치를 그려줄 지 여부."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "블록의 색을 임의로 부여할 지 여부"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "블록의 색깔을 임의로 부여할 지 여부."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "시계반대 방향으로 회전할 지 여부"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "시계반대 방향으로 회전할 지 여부."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "채울 줄 수"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "게임이 시작할 때 임의로 채워 넣을 줄 수."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "채워진 줄의 밀도"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "게임이 시작할 때 채워진 줄의 블록 밀도. 이 값은 0(블록 없음)에서 10(완전"
+#~ "히 줄 채움) 사이의 값입니다."
+
+#~ msgid "Key press to move left."
+#~ msgstr "왼쪽으로 이동할 때 누를 키."
+
+#~ msgid "Key press to move right."
+#~ msgstr "오른쪽으로 이동할 때 누를 키."
+
+#~ msgid "Key press to move down."
+#~ msgstr "아래로 이동할 때 누를 키."
+
+#~ msgid "Key press to drop."
+#~ msgstr "떨어뜨릴 때 누를 키."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "돌릴 때 누를 키."
+
+#~ msgid "Key press to pause."
+#~ msgstr "일시 중지할 때 누를 키."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "올바른 .desktop 파일이 아닙니다"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "desktop 파일 버전을 ('%s') 인식할 수 없습니다"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s 시작"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "명령행에서 문서를 지정할 수 없는 프로그램입니다"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "알 수 없는 실행 옵션: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "문서 URI는 'Type=Link' 데스크탑 항목에 넘길 수 없습니다"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "실행할 수 있는 항목이 없습니다"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "세션 관리자에 연결하지 않습니다"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "설정을 저장할 파일을 지정합니다"
+
+#~ msgid "FILE"
+#~ msgstr "<파일>"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "세션 관리 ID를 지정합니다"
+
+#~ msgid "ID"
+#~ msgstr "<ID>"
+
+#~ msgid "Session management options:"
+#~ msgstr "세션 관리 옵션:"
+
+#~ msgid "Show session management options"
+#~ msgstr "세션 관리 옵션을 표시합니다"
 
 #~ msgid "Player Chat"
 #~ msgstr "플레이어 대화"
@@ -6620,8 +6572,8 @@ msgstr ""
 #~ msgid ""
 #~ "%(move)s White %(piece)s moves from %(start)s to %(end)s (%(result)s)"
 #~ msgstr ""
-#~ "%(move)s 흰색 %(piece)s 말이 %(start)s에서 %(end)s 위치로 이동 (%(result)"
-#~ "s)"
+#~ "%(move)s 흰색 %(piece)s 말이 %(start)s에서 %(end)s 위치로 이동 "
+#~ "(%(result)s)"
 
 #~ msgid ""
 #~ "%(move)s Black %(piece)s moves from %(start)s to %(end)s (%(result)s)"

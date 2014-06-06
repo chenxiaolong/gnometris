@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gnome-Games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2006-03-08 21:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <gnome-translation@BengaLinux.Org>\n"
@@ -25,9 +25,9 @@ msgstr "সাময়িক বিরতি চলছে"
 msgid "Game Over"
 msgstr "খেল খতম"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "গনোমট্রিস"
 
@@ -36,160 +36,11 @@ msgstr "গনোমট্রিস"
 msgid "Fit falling blocks together"
 msgstr "পড়ন্ত ব্লকগুলোকে একত্রে রাখো"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "ব্লক আঁকার জন্য যে ছবি ব্যবহার করা হবে"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "ব্লক আঁকার জন্য যে ছবি ব্যবহার করা হবে।"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ব্লক আঁকার জন্য ব্যবহৃত থিম"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ব্লক ও পটভূমি আঁকতে ব্যবহৃত থিম-এর নাম।"
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "যে দক্ষতা স্তর থেকে খেলা আরম্ভ হবে"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "যে দক্ষতা স্তর থেকে খেলা আরম্ভ হবে।"
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "পটভূমিতে কোন ছবিব্ঃব্যবহার করা হবে কিনা"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "পটভূমির রঙের ওপর দিয়ে পটভূমির ছবি আঁকা হবে কিনা, এটি তা নির্ধারণ করে।"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "পটভূমির রং"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "পটভূমির রং - এরূপ অবস্থায় যেন gdk_color_parse তা বুঝতে পারে।"
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "পরবর্তী ব্লকটি পূর্ব থেকেই দেখা যাবে কিনা"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "পরবর্তী ব্লকটি পূর্ব থেকেই দেখা হবে কিনা।"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "লক্ষ্যবস্তু প্রদান করা হবে কিনা"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "যেখানে ব্লক পড়বে, তার কোন গ্রাফিকাল রূপায়ন দেখানো হবে কিনা।"
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ব্লকের গায়ে অনিয়মিতভাবে রং দেওয়া হবে কিনা"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ব্লকের গায়ে অনিয়মিতভাবে রং দেওয়া হবে কিনা।"
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "ঘড়ির কাঁটার উল্টা দিকে আবর্তিত হবে কিনা"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "ঘড়ির কাঁটার উল্টা দিকে আবর্তিত হবে কিনা।"
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "যে সংখ্যক সারি পূরণ করা হবে"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "খেলার প্রারম্ভে যে সংখ্যক সারি অনিয়মিতভাবে ব্লক দিয়ে পূরণ করা থাকবে।"
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "পূর্বে পূরণ হয়ে যাওয়া সারিতে ব্লকের ঘনত্ব"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"খেলার প্রারম্ভে প্রতি সারিতে পূরণকারী ব্লকের ঘনত্ব। এই মানটি ০ (কোন ব্লক থাকবে না) "
-"থেকে ১০ (সম্পূর্ণ সারি পূরণ করা থাকবে) এর মধ্যবর্তী।"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "বামে সরান"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "বামে নেওয়ার জন্য কী (Key) চাপতে হয়।"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "ডানে সরান"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "ডানে নেওয়ার জন্য কী (Key) চাপতে হয়।"
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "নিচে যাও"
-
-# FIXME
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "নিচে নেওয়ার জন্য কী (Key) চাপতে হয়।"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "ফেলে দাও"
-
-# FIXME
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "ফেলে দেওয়ার জন্যে যে কী (Key) চাপতে হয়।"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "আবর্তন"
-
-# FIXME
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "আবর্তনের জন্য কী (Key) চাপতে হয়।"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "সাময়িক বিরতি"
-
-# FIXME
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "বিরতি নেওয়ার জন্য কী (Key) চাপতে হয়।"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "প্রারম্ভিক দক্ষতা স্তর (১ বা অধিক) নির্ধারণ করুন"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "স্তর"
 
@@ -233,157 +84,117 @@ msgstr "বৈশিষ্ট্য (_ব)"
 msgid "_Help"
 msgstr "সহায়িকা (_স)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "গনোম-ট্রিস সংক্রান্ত পছন্দ"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "খেলা"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "বৈশিষ্ট্য"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "পূর্বে পূরণ হয়ে যাওয়া সারির সংখ্যা (_স):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "পূর্বে পূরণ হয়ে যাওয়া সারিতে ব্লকের সংখ্যা (_ঘ):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "প্রারম্ভিক দক্ষতা স্তর (_প):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "কাজ"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "শব্দ সক্রিয় করো (_স)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "পরবর্তী ব্লকটিকে পূর্বেই দেখাও (_প)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "ব্লকে অনিয়মিত রং ব্যবহার করো (_ক)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "ব্লকগুলোকে ঘড়ির কাঁটার উল্টাদিকে ঘুরাও (_ঘ)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 #, fuzzy
 msgid "Show _where the block will land"
 msgstr "ব্লক যেখানে পড়বে, তা দেখাও"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "থিম"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "নিয়ন্ত্রণ"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "কীবোর্ড নিয়ন্ত্রণ"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "বামে সরান"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "ডানে সরান"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "নিচে যাও"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "ফেলে দাও"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "আবর্তন"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "সাময়িক বিরতি"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ব্লকের ধরন"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "গনোম খেলার সার্ভার"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "অঙ্কুর প্রকল্পের পক্ষে, প্রজ্ঞা [progga@BengaLinux.Org]"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "গনোমট্রিস-এর স্কোর"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "বৈশিষ্ট্য (_ব)"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "খেলার কনফিগারেশন নির্ধারণ করুন"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -605,6 +416,112 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "ব্লক আঁকার জন্য যে ছবি ব্যবহার করা হবে"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "ব্লক আঁকার জন্য যে ছবি ব্যবহার করা হবে।"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ব্লক আঁকার জন্য ব্যবহৃত থিম"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ব্লক ও পটভূমি আঁকতে ব্যবহৃত থিম-এর নাম।"
+
+#~ msgid "Level to start with"
+#~ msgstr "যে দক্ষতা স্তর থেকে খেলা আরম্ভ হবে"
+
+#~ msgid "Level to start with."
+#~ msgstr "যে দক্ষতা স্তর থেকে খেলা আরম্ভ হবে।"
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "পটভূমিতে কোন ছবিব্ঃব্যবহার করা হবে কিনা"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "পটভূমির রঙের ওপর দিয়ে পটভূমির ছবি আঁকা হবে কিনা, এটি তা নির্ধারণ করে।"
+
+#~ msgid "The background color"
+#~ msgstr "পটভূমির রং"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "পটভূমির রং - এরূপ অবস্থায় যেন gdk_color_parse তা বুঝতে পারে।"
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "পরবর্তী ব্লকটি পূর্ব থেকেই দেখা যাবে কিনা"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "পরবর্তী ব্লকটি পূর্ব থেকেই দেখা হবে কিনা।"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "লক্ষ্যবস্তু প্রদান করা হবে কিনা"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "যেখানে ব্লক পড়বে, তার কোন গ্রাফিকাল রূপায়ন দেখানো হবে কিনা।"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ব্লকের গায়ে অনিয়মিতভাবে রং দেওয়া হবে কিনা"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ব্লকের গায়ে অনিয়মিতভাবে রং দেওয়া হবে কিনা।"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "ঘড়ির কাঁটার উল্টা দিকে আবর্তিত হবে কিনা"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "ঘড়ির কাঁটার উল্টা দিকে আবর্তিত হবে কিনা।"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "যে সংখ্যক সারি পূরণ করা হবে"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "খেলার প্রারম্ভে যে সংখ্যক সারি অনিয়মিতভাবে ব্লক দিয়ে পূরণ করা থাকবে।"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "পূর্বে পূরণ হয়ে যাওয়া সারিতে ব্লকের ঘনত্ব"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "খেলার প্রারম্ভে প্রতি সারিতে পূরণকারী ব্লকের ঘনত্ব। এই মানটি ০ (কোন ব্লক থাকবে "
+#~ "না) থেকে ১০ (সম্পূর্ণ সারি পূরণ করা থাকবে) এর মধ্যবর্তী।"
+
+#~ msgid "Key press to move left."
+#~ msgstr "বামে নেওয়ার জন্য কী (Key) চাপতে হয়।"
+
+#~ msgid "Key press to move right."
+#~ msgstr "ডানে নেওয়ার জন্য কী (Key) চাপতে হয়।"
+
+# FIXME
+#~ msgid "Key press to move down."
+#~ msgstr "নিচে নেওয়ার জন্য কী (Key) চাপতে হয়।"
+
+# FIXME
+#~ msgid "Key press to drop."
+#~ msgstr "ফেলে দেওয়ার জন্যে যে কী (Key) চাপতে হয়।"
+
+# FIXME
+#~ msgid "Key press to rotate."
+#~ msgstr "আবর্তনের জন্য কী (Key) চাপতে হয়।"
+
+# FIXME
+#~ msgid "Key press to pause."
+#~ msgstr "বিরতি নেওয়ার জন্য কী (Key) চাপতে হয়।"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "বৈশিষ্ট্য (_ব)"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "খেলার কনফিগারেশন নির্ধারণ করুন"
 
 #, fuzzy
 #~ msgid "Player Chat"

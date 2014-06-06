@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-23 23:24+0900\n"
 "Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -30,9 +30,9 @@ msgstr "一時停止"
 msgid "Game Over"
 msgstr "ゲームオーバー"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "GNOMEトリス"
 
@@ -40,156 +40,11 @@ msgstr "GNOMEトリス"
 msgid "Fit falling blocks together"
 msgstr "落ちてくるブロックを組み合わせて消し去って下さい"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "ブロックの描画に使用する画像"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "ブロックの描画に使用する画像です。"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ブロックの描画に使用するテーマ"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ブロックと背景を描画する際に使用するテーマの名前です。"
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "ゲーム開始時のレベル"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "ゲーム開始時のレベルです。"
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "背景として画像を利用するかどうか"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "背景色の上に背景画像を描画するかどうかです。"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "背景色"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "背景の色を gdk_color_parse が理解する書式で指定して下さい。"
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "次のブロックのプレビューを表示するかどうか"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "次のブロックのプレビューを表示するかどうかです。"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "ブロックを落とす箇所を表示するかどうか"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "ブロックを落とす場所を視覚効果を使って表示するかどうかです。"
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ブロックの色をランダムにするかどうか"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ブロックの色をランダムにするかどうかです。"
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "半時計周りに回転させるかどうか"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "半時計周りに回転させるかどうかです。"
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "予め埋めておく桁の番号"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "ゲーム開始時にランダムなブロックで予め埋めておく桁の番号です。"
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "予め埋めておくブロックの密度"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"ゲーム開始時に予め埋めておくブロックの密度です。指定可能な値は 0 (ブロックな"
-"し) 〜 10 (全て埋める) です。"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "左へ移動する"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "左に移動するキーです。"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "右へ移動する"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "右に移動するキーです。"
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "下へ移動する"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "下へ移動する時に使用するキーです。"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "落とすキー"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "落とす時に使用するキーです。"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "回転させるキー"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "回転させる時に使用するキーです。"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "一時停止"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "プレイを一時停止する時に使用するキーです。"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "開始時のレベルをセットする (1 以上)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "レベル"
 
@@ -233,74 +88,98 @@ msgstr "設定(_S)"
 msgid "_Help"
 msgstr "ヘルプ(_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "GNOME トリスの設定"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "ゲーム"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "事前設定"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "事前に埋めておくブロックの高さ(_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "事前に埋めておくブロックの幅(_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "開始時のレベル(_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "操作"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "サウンドを有効にする(_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "次のブロックを表示する(_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "ブロックの色をランダムに変更する(_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "半時計周りに回転させる(_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "ブロックを落とす場所を表示する(_W)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "テーマ"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "操作"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "キーボードの操作"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "左へ移動する"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "右へ移動する"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "下へ移動する"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "落とすキー"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "回転させるキー"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "一時停止"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ブロックのスタイル"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -310,11 +189,11 @@ msgstr ""
 "\n"
 "GNOMEトリスは GNOME ゲーム集の一部です。"
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "GNOME ゲーム集のウェブサイト"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "相花 毅 <takeshi.aihana@gmail.com>\n"
@@ -329,69 +208,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "GNOMEトリスの得点"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "妥当な .desktop ファイルではありません"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "バージョン '%s' の .desktop ファイルはサポートしていません"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%sの起動中です"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "コマンドラインからドキュメントにはアクセスできません"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "不明な起動オプションです: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "ドキュメントの URI を 'Type=Link' な .desktop エントリには渡せません"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "起動可能なアイテムではありません"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "セッション・マネージャに接続しない"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "設定を保存したファイルを指定する"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "セッション管理の ID を指定する"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "セッション管理のオプション:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "セッション管理のオプションを表示する"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -616,6 +432,143 @@ msgstr ""
 "あなたは %s と一緒に GNU 一般公衆利用許諾契約書の写しを受け取っているはずで"
 "す。そうでない場合は、Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA 02110-1301, USA へ手紙を書いて下さい。"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "ブロックの描画に使用する画像"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "ブロックの描画に使用する画像です。"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ブロックの描画に使用するテーマ"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ブロックと背景を描画する際に使用するテーマの名前です。"
+
+#~ msgid "Level to start with"
+#~ msgstr "ゲーム開始時のレベル"
+
+#~ msgid "Level to start with."
+#~ msgstr "ゲーム開始時のレベルです。"
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "背景として画像を利用するかどうか"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "背景色の上に背景画像を描画するかどうかです。"
+
+#~ msgid "The background color"
+#~ msgstr "背景色"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "背景の色を gdk_color_parse が理解する書式で指定して下さい。"
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "次のブロックのプレビューを表示するかどうか"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "次のブロックのプレビューを表示するかどうかです。"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "ブロックを落とす箇所を表示するかどうか"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "ブロックを落とす場所を視覚効果を使って表示するかどうかです。"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ブロックの色をランダムにするかどうか"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ブロックの色をランダムにするかどうかです。"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "半時計周りに回転させるかどうか"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "半時計周りに回転させるかどうかです。"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "予め埋めておく桁の番号"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "ゲーム開始時にランダムなブロックで予め埋めておく桁の番号です。"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "予め埋めておくブロックの密度"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "ゲーム開始時に予め埋めておくブロックの密度です。指定可能な値は 0 (ブロック"
+#~ "なし) 〜 10 (全て埋める) です。"
+
+#~ msgid "Key press to move left."
+#~ msgstr "左に移動するキーです。"
+
+#~ msgid "Key press to move right."
+#~ msgstr "右に移動するキーです。"
+
+#~ msgid "Key press to move down."
+#~ msgstr "下へ移動する時に使用するキーです。"
+
+#~ msgid "Key press to drop."
+#~ msgstr "落とす時に使用するキーです。"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "回転させる時に使用するキーです。"
+
+#~ msgid "Key press to pause."
+#~ msgstr "プレイを一時停止する時に使用するキーです。"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "妥当な .desktop ファイルではありません"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "バージョン '%s' の .desktop ファイルはサポートしていません"
+
+#~ msgid "Starting %s"
+#~ msgstr "%sの起動中です"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "コマンドラインからドキュメントにはアクセスできません"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "不明な起動オプションです: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "ドキュメントの URI を 'Type=Link' な .desktop エントリには渡せません"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "起動可能なアイテムではありません"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "セッション・マネージャに接続しない"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "設定を保存したファイルを指定する"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "セッション管理の ID を指定する"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "セッション管理のオプション:"
+
+#~ msgid "Show session management options"
+#~ msgstr "セッション管理のオプションを表示する"
 
 #~ msgid "Player Chat"
 #~ msgstr "プレイヤーのチャット"

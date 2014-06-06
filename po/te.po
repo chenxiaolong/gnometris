@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-05-07 20:09+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -39,9 +39,9 @@ msgstr "విరామపర్చిన"
 msgid "Game Over"
 msgstr "ఆట అయిపోయింది"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "గ్నోమెట్రిస్"
 
@@ -49,154 +49,11 @@ msgstr "గ్నోమెట్రిస్"
 msgid "Fit falling blocks together"
 msgstr ""
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "భాగాలను గీయుటకు ఉపయోగించాల్సిన ప్రతిరూపం"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "భాగాలను గీయుటకు ఉపయోగించిన ప్రతిరూపం"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "ప్రారంభించాల్సిన స్థాయి"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "ప్రారంభించాల్సిన స్థాయి."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "పూర్వరంగం వర్ణము"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "నింపుటకు అడ్డపట్టీల సంఖ్య"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "ఎడమకు జరుగు"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "ఎడమవైపుకు జరుగుటకు మీటను నొక్కుము"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "కుడికి జరుగుము"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "కుడివైపుకు జరుగుటకు మీటను నొక్కుము"
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "కిందకి జరుపు"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "పరిభ్రమణం"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "విరామము"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr ""
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr ""
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "స్థాయి"
 
@@ -240,155 +97,115 @@ msgstr "అమరికలు (_S)"
 msgid "_Help"
 msgstr "సహాయం (_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "గ్నోమెట్రిస్ అభీష్టాలు"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "ఆట"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "అమర్చు"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr ""
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr ""
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "ప్రారంభ స్థాయి (_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "కార్యం"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "ధ్వనులను క్రియాశీలీకరించు (_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "తరువాతి భాగాన్ని ఉపదర్శనంచేయుము (_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "భిన్నమైన భాగాల రంగులను ఉపయోగించు (_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "వైవిద్యాంశం"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "నియంత్రణలు"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "మీటపలకం నియంత్రణలు"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "ఎడమకు జరుగు"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "కుడికి జరుగుము"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "కిందకి జరుపు"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr ""
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "పరిభ్రమణం"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "విరామము"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "భాగం శైలి"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "గ్నోమ్ ఆటల మహాతలప్రదేశం"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "Bharat Kumar Jonnalagadda <bharath@swecha.net>"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "గ్నోమెట్రిస్ స్కోర్లు"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "ఫైలు చెల్లునటువంచి .desktop ఫైలు కాదు"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "గుర్తించబడని డెస్కుటాపు ఫైలు వర్షన్ '%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "%s ప్రారంభిస్తోంది"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "ఆదేశవరుస నందు అనువర్తనములు పత్రములను ఆంగీకరించవు"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "గుర్తించబడని ప్రారంభ ఐచ్చికము: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "పత్రము URIలను Type=Link' desktop entry కు పంపలేదు."
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "దించదగిన అంశము కాదు"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "సెషన్ నిర్వాహికకు అనుసంధానమును అచేతనము చేయుము"
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "దాచివున్న ఆకృతీకరణను కలిగివున్న ఫైలు తెలుపుము"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "సెషన్ నిర్వహణా IDను తెలుపుము"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ఐడి"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "సెషన్ నిర్వహణా ఐచ్చికములు:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "సెషన్ నిర్వహణా ఐచ్చికములను చూపుము"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -604,6 +421,74 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "భాగాలను గీయుటకు ఉపయోగించాల్సిన ప్రతిరూపం"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "భాగాలను గీయుటకు ఉపయోగించిన ప్రతిరూపం"
+
+#~ msgid "Level to start with"
+#~ msgstr "ప్రారంభించాల్సిన స్థాయి"
+
+#~ msgid "Level to start with."
+#~ msgstr "ప్రారంభించాల్సిన స్థాయి."
+
+#~ msgid "The background color"
+#~ msgstr "పూర్వరంగం వర్ణము"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "నింపుటకు అడ్డపట్టీల సంఖ్య"
+
+#~ msgid "Key press to move left."
+#~ msgstr "ఎడమవైపుకు జరుగుటకు మీటను నొక్కుము"
+
+#~ msgid "Key press to move right."
+#~ msgstr "కుడివైపుకు జరుగుటకు మీటను నొక్కుము"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "ఫైలు చెల్లునటువంచి .desktop ఫైలు కాదు"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "గుర్తించబడని డెస్కుటాపు ఫైలు వర్షన్ '%s'"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "%s ప్రారంభిస్తోంది"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "ఆదేశవరుస నందు అనువర్తనములు పత్రములను ఆంగీకరించవు"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "గుర్తించబడని ప్రారంభ ఐచ్చికము: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "పత్రము URIలను Type=Link' desktop entry కు పంపలేదు."
+
+#~ msgid "Not a launchable item"
+#~ msgstr "దించదగిన అంశము కాదు"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "సెషన్ నిర్వాహికకు అనుసంధానమును అచేతనము చేయుము"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "దాచివున్న ఆకృతీకరణను కలిగివున్న ఫైలు తెలుపుము"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "సెషన్ నిర్వహణా IDను తెలుపుము"
+
+#~ msgid "ID"
+#~ msgstr "ఐడి"
+
+#~ msgid "Session management options:"
+#~ msgstr "సెషన్ నిర్వహణా ఐచ్చికములు:"
+
+#~ msgid "Show session management options"
+#~ msgstr "సెషన్ నిర్వహణా ఐచ్చికములను చూపుము"
 
 #~ msgid "Player Chat"
 #~ msgstr "ఆటగాడి మాటామంతి"

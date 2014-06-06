@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-18 15:39+0530\n"
 "Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
 "Language-Team: Gujarati\n"
@@ -47,9 +47,9 @@ msgid "Game Over"
 msgstr "રમત પૂરી"
 
 # libgnomeui/gnome-file-entry.c:241
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "જીનોમટ્રીસ"
 
@@ -57,165 +57,11 @@ msgstr "જીનોમટ્રીસ"
 msgid "Fit falling blocks together"
 msgstr "નીચે પડતા ઘનને જોડે બેસાડો"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "ઘન દોરવા માટે વાપરવાનું ચિત્ર"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "ઘન દોરવા માટે વાપરવાનું ચિત્ર."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "બ્લોકને રેન્ડર કરવા માટે વપરાતી થીમનું નામ"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "બ્લોક અને પાશ્વ ભાગને રેન્ડર કરવા માટે વપરાતી થીમનું નામ."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "શરુ કરવા માટેનુ સ્તર"
-
-# libgnomeui/gnome-appbar.c:771
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "શરુ કરવા માટેનુ સ્તર."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "શું પાશ્વ ભાગનું ચિત્ર વાપરવું કે નહિં"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "આ શું પાશ્વ ભાગનું ચિત્ર પાશ્વ ભાગના રંગની ઉપર દોરવું કે નહિં તે પસંદ કરે છે."
-
-# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
-# libgnomeui/gnome-druid-page-standard.c:170
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "પાશ્વ ભાગનો રંગ"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "પાશ્વ ભાગનો રંગ, gdk_color_parse બંધારણમાં સમજે છે."
-
-# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
-# libgnomecanvas/gnome-canvas-text.c:349
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "કે પછી ઘનને પહેલેથી જોવું કે નહિ"
-
-# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
-# libgnomecanvas/gnome-canvas-text.c:349
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "કે પછી ઘનને પહેલેથી જોવું કે નહિ."
-
-# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
-# libgnomecanvas/gnome-canvas-text.c:349
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "લક્ષ્ય પૂરો પાડવો કે નહિં"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "બ્લોક ક્યાં રહેશે તેની ગ્રાફિકવાળી રજૂઆત પૂરી પાડવી કે નહિં."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "કે પછી ઘનને ગમે તે રંગ આપવો"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "કે પછી ઘનને ગમે તે રંગ આપવો."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "કે પછી ઘડિયાળની વિરુધ્ધ દિશામાં ફેરવવું"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "કે પછી ઘડિયાળની વિરુધ્ધ દિશામાં ફેરવવું."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "ભરવાની હરોળોની સંખ્યા"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "રમતની શરુઆતમાં ગમે તેટલા ઘનથી ભરેલા હરોળોની સંખ્યા."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "ભરેલી હરોળની ઘનતા"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"રમતની શરુઆત વખતે હરોળમાં ગોઠવેલા ઘનની ઘનતા. તેની કિંમત ૦ (એકપણ ઘન નહિ) અને ૧૦ (ઘનથી "
-"ભરેલી આખી હરોળ માટે)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "ડાબે ખસો"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "ડાબે ખસેડવા માટે કી નું દબાણ."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "જમણે ખસો"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "જમણે ખસેડવા માટે કી નું દબાણ."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "નીચે ખસો"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "નીચે જવા માટે કી દબાવો."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "છોડી દો"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "છોડી દેવા માટે કી દબાવો."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "ફેરવો"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "ફેરવવા માટે કી દેબવવા."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "અટકાવો"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "અટકાવવા માટે કી દબાવો."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "શરુઆતનું સ્તર નક્કી કરો (૧ અથવા મોટું)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "સ્તર"
 
@@ -263,33 +109,33 @@ msgstr "સુયોજનો (_S)"
 msgid "_Help"
 msgstr "મદદ (_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Gnometris પસંદગીઓ"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
 # libgnomeui/gnome-app-helper.c:95 libgnomeui/gnome-app-helper.h:534
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "રમત"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "ગોઠવણ"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "પહેલેથી ભરેલી હરોળોની સંખ્યા (_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "પહેલેથી ભરેલી હરોળમાં ઘનની ઘનતા (_D):"
 
 # gnome-session/gsm-client-row.c:34
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "શરૂઆતનું સ્તર (_S):"
 
@@ -300,50 +146,74 @@ msgstr "શરૂઆતનું સ્તર (_S):"
 # gnome-session/session-properties-capplet.c:217
 # #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
 # gnome-session/session-properties-capplet.c:217
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "પ્રક્રિયા"
 
 # libgnome/gnome-program.c:578
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "અવાજ સક્રિય કરો (_E)"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
 # libgnomeui/gnome-font-picker.c:192
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "આગળના બ્લોકનું પૂર્વદર્શન (_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "રેન્ડમ બ્લોક રંગો વાપરો (_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "બ્લોક વિષમઘડી દિશામાં ફેરવો (_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "બ્લોક ક્યાં રહેશે તે બતાવો (_w)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "થીમ"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "નિયંત્રકો"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "કીબોર્ડ નિયંત્રકો"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "ડાબે ખસો"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "જમણે ખસો"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "નીચે ખસો"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "છોડી દો"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "ફેરવો"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "અટકાવો"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "બ્લોક શૈલી"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -353,11 +223,11 @@ msgstr ""
 "\n"
 "Gnometris એ જીનોમ રમતોનો ભાગ છે."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "જીનોમ રમતો વેબ સાઈટ"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "અંકિત પટેલ <ankit644@yahoo.com>, શ્ર્વેતા કોઠારી <swkothar@redhat.com>"
 
@@ -365,70 +235,6 @@ msgstr "અંકિત પટેલ <ankit644@yahoo.com>, શ્ર્વેત
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Gnometris ગુણો"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "ફાઇલ એ યોગ્ય .desktop ફાઇલ નથી"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "સુયોજનો (_S)"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "આદેશ વાક્ય પર કાર્યક્રમ એ દસ્તાવેજો ને સ્વીકારતા નથી"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "'Type=Link' ડેસ્કટોપ પ્રવેશ માં દસ્તાવેજ URIs ને પસાર કરી શકાતુ નથી"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "સત્ર વ્યવસ્થાપક ને જોડવાનું નિષ્ક્રિય કરો"
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "રમતના રુપરેખા સુયોજિત કરો"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "સત્ર વ્યવસ્થાપન ID ને સ્પષ્ટ કરો"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "સત્ર વ્યવસ્થાપન વિકલ્પો:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "સત્ર વ્યવસ્થાપન વિકલ્પો ને બતાવો"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -669,6 +475,152 @@ msgstr ""
 "You should have received a copy of the GNU General Public License along with "
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "ઘન દોરવા માટે વાપરવાનું ચિત્ર"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "ઘન દોરવા માટે વાપરવાનું ચિત્ર."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "બ્લોકને રેન્ડર કરવા માટે વપરાતી થીમનું નામ"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "બ્લોક અને પાશ્વ ભાગને રેન્ડર કરવા માટે વપરાતી થીમનું નામ."
+
+#~ msgid "Level to start with"
+#~ msgstr "શરુ કરવા માટેનુ સ્તર"
+
+# libgnomeui/gnome-appbar.c:771
+#~ msgid "Level to start with."
+#~ msgstr "શરુ કરવા માટેનુ સ્તર."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "શું પાશ્વ ભાગનું ચિત્ર વાપરવું કે નહિં"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "આ શું પાશ્વ ભાગનું ચિત્ર પાશ્વ ભાગના રંગની ઉપર દોરવું કે નહિં તે પસંદ કરે છે."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-druid-page-standard.c:170
+#~ msgid "The background color"
+#~ msgstr "પાશ્વ ભાગનો રંગ"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "પાશ્વ ભાગનો રંગ, gdk_color_parse બંધારણમાં સમજે છે."
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:349
+#~ msgid "Whether to preview the next block"
+#~ msgstr "કે પછી ઘનને પહેલેથી જોવું કે નહિ"
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:349
+#~ msgid "Whether to preview the next block."
+#~ msgstr "કે પછી ઘનને પહેલેથી જોવું કે નહિ."
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:349
+#~ msgid "Whether to provide a target"
+#~ msgstr "લક્ષ્ય પૂરો પાડવો કે નહિં"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "બ્લોક ક્યાં રહેશે તેની ગ્રાફિકવાળી રજૂઆત પૂરી પાડવી કે નહિં."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "કે પછી ઘનને ગમે તે રંગ આપવો"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "કે પછી ઘનને ગમે તે રંગ આપવો."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "કે પછી ઘડિયાળની વિરુધ્ધ દિશામાં ફેરવવું"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "કે પછી ઘડિયાળની વિરુધ્ધ દિશામાં ફેરવવું."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "ભરવાની હરોળોની સંખ્યા"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "રમતની શરુઆતમાં ગમે તેટલા ઘનથી ભરેલા હરોળોની સંખ્યા."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "ભરેલી હરોળની ઘનતા"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "રમતની શરુઆત વખતે હરોળમાં ગોઠવેલા ઘનની ઘનતા. તેની કિંમત ૦ (એકપણ ઘન નહિ) અને ૧૦ "
+#~ "(ઘનથી ભરેલી આખી હરોળ માટે)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "ડાબે ખસેડવા માટે કી નું દબાણ."
+
+#~ msgid "Key press to move right."
+#~ msgstr "જમણે ખસેડવા માટે કી નું દબાણ."
+
+#~ msgid "Key press to move down."
+#~ msgstr "નીચે જવા માટે કી દબાવો."
+
+#~ msgid "Key press to drop."
+#~ msgstr "છોડી દેવા માટે કી દબાવો."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "ફેરવવા માટે કી દેબવવા."
+
+#~ msgid "Key press to pause."
+#~ msgstr "અટકાવવા માટે કી દબાવો."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "ફાઇલ એ યોગ્ય .desktop ફાઇલ નથી"
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "સુયોજનો (_S)"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "આદેશ વાક્ય પર કાર્યક્રમ એ દસ્તાવેજો ને સ્વીકારતા નથી"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: નહિં ઓળખાતો વિકલ્પ `--%s'\n"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "'Type=Link' ડેસ્કટોપ પ્રવેશ માં દસ્તાવેજ URIs ને પસાર કરી શકાતુ નથી"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "સત્ર વ્યવસ્થાપક ને જોડવાનું નિષ્ક્રિય કરો"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "રમતના રુપરેખા સુયોજિત કરો"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "સત્ર વ્યવસ્થાપન ID ને સ્પષ્ટ કરો"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "સત્ર વ્યવસ્થાપન વિકલ્પો:"
+
+#~ msgid "Show session management options"
+#~ msgstr "સત્ર વ્યવસ્થાપન વિકલ્પો ને બતાવો"
 
 #~ msgid "Player Chat"
 #~ msgstr "ખેલાડી સંવાદ"

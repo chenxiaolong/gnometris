@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-21 21:36+0200\n"
 "Last-Translator: Yavor Doganov <yavor@gnu.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -27,9 +27,9 @@ msgstr "На пауза"
 msgid "Game Over"
 msgstr "Край на играта"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Тетрис"
 
@@ -37,156 +37,11 @@ msgstr "Тетрис"
 msgid "Fit falling blocks together"
 msgstr "Нареждане на падащи блокчета"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Изображение за блокчетата"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Изображение за блокчетата."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Темата използвана за изрисуване на плочките"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Името на темата използвана за изрисуване на плочките и фона."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Начално ниво"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Начално ниво."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Дали да се използва изображение за фон"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "Това определя дали да се рисува изображението за фон над цвета за фон."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Цвят на фона"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Цвят за фона във формат за gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Дали да се показва следващата фигура"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Дали да се показва следващата фигура."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Дали да се показва цел"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Дали да се показва графично, къде ще попаднат плочките."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Дали да се задават случайни цветове на блокчетата"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Дали да се задават случайни цветове на блокчетата."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Дали да се върти обратно на часовниковата стрелка"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Дали да се върти обратно на часовниковата стрелка."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Брой редове за запълване"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Брой редове, случайно запълнени с блокчета в началото на играта."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Плътност на запълнените редове"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Плътността на блокчетата в редовете, запълнени в началото на играта. "
-"Стойността е между 0 (без блокчета) и 10 (изцяло запълнен ред)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Движение наляво"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Клавиш за движение наляво."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Движение надясно"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Клавиш за движение надясно."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Движение надолу"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Клавиш за ход надолу"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Пускане"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Клавиш за пускане"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Завъртане"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Клавиш за въртене"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Пауза"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Клавиш за пауза"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Задаване на начално ниво (1 или повече)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "НИВО"
 
@@ -230,74 +85,98 @@ msgstr "_Настройки"
 msgid "_Help"
 msgstr "Помо_щ"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Настройки на „Тетрис“"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Игра"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Настройки"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Брой редове запълнени в началото:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Плътност на кубчетата в запълнените редове:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Начално ниво:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Действие"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Включване на звуците"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Показване на следващата фигура"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Използване на произволни цветове на фигурите"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "В_ъртене на фигурите обратно на часовниковата стрелка"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Показване къде ще падне _плочката"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Тема"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Клавиши"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Управление с клавиатура"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Движение наляво"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Движение надясно"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Движение надолу"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Пускане"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Завъртане"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Стил на плочките"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -307,11 +186,11 @@ msgstr ""
 "\n"
 "„Тетрис“ е част от игрите на GNOME."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Уеб сайт на игрите на GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Ростислав „zbrox“ Райков <zbrox@i-space.org>\n"
@@ -325,69 +204,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Тетрис — резултати"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Файлът не е във формат .desktop"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Непозната версия на файла: %s"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Стартиране на %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Програмата не приема документи през командния ред"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Непозната опция при стартиране „%d“"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "В обекти от вида „Type=Link“ не може да се подават адреси на документи"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Не е обект за стартиране"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Изключване на връзката с управлението на сесиите"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Указване на файла със запазените настройки"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "ФАЙЛ"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Указване на идентификатор за управлението на сесиите"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ИДЕНТИФИКАТОР"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Настройки на управлението на сесии:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Показване на настройките за управлението на сесиите"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -614,6 +430,144 @@ msgstr ""
 "Трябва да сте получили копие от Общия публичен лиценз на GNU (GNU GPL) "
 "заедно с тази програма (%s). Ако не сте, пишете до Free Software Foundation, "
 "Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Изображение за блокчетата"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Изображение за блокчетата."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Темата използвана за изрисуване на плочките"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Името на темата използвана за изрисуване на плочките и фона."
+
+#~ msgid "Level to start with"
+#~ msgstr "Начално ниво"
+
+#~ msgid "Level to start with."
+#~ msgstr "Начално ниво."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Дали да се използва изображение за фон"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Това определя дали да се рисува изображението за фон над цвета за фон."
+
+#~ msgid "The background color"
+#~ msgstr "Цвят на фона"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Цвят за фона във формат за gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Дали да се показва следващата фигура"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Дали да се показва следващата фигура."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Дали да се показва цел"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Дали да се показва графично, къде ще попаднат плочките."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Дали да се задават случайни цветове на блокчетата"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Дали да се задават случайни цветове на блокчетата."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Дали да се върти обратно на часовниковата стрелка"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Дали да се върти обратно на часовниковата стрелка."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Брой редове за запълване"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "Брой редове, случайно запълнени с блокчета в началото на играта."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Плътност на запълнените редове"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Плътността на блокчетата в редовете, запълнени в началото на играта. "
+#~ "Стойността е между 0 (без блокчета) и 10 (изцяло запълнен ред)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Клавиш за движение наляво."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Клавиш за движение надясно."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Клавиш за ход надолу"
+
+#~ msgid "Key press to drop."
+#~ msgstr "Клавиш за пускане"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Клавиш за въртене"
+
+#~ msgid "Key press to pause."
+#~ msgstr "Клавиш за пауза"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Файлът не е във формат .desktop"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Непозната версия на файла: %s"
+
+#~ msgid "Starting %s"
+#~ msgstr "Стартиране на %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Програмата не приема документи през командния ред"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Непозната опция при стартиране „%d“"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "В обекти от вида „Type=Link“ не може да се подават адреси на документи"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Не е обект за стартиране"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Изключване на връзката с управлението на сесиите"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Указване на файла със запазените настройки"
+
+#~ msgid "FILE"
+#~ msgstr "ФАЙЛ"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Указване на идентификатор за управлението на сесиите"
+
+#~ msgid "ID"
+#~ msgstr "ИДЕНТИФИКАТОР"
+
+#~ msgid "Session management options:"
+#~ msgstr "Настройки на управлението на сесии:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Показване на настройките за управлението на сесиите"
 
 #~ msgid "Player Chat"
 #~ msgstr "Разговори с играчите"

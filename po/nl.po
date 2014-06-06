@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-06 21:22+0900\n"
 "Last-Translator: Tino Meinen <tino.meinen@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -59,9 +59,9 @@ msgstr "Gepauzeerd"
 msgid "Game Over"
 msgstr "Spel afgelopen"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -69,168 +69,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "De vallende blokken goed op elkaar stapelen"
 
-# BUG
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Afbeelding voor de blokken"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Afbeelding voor de blokken"
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "De afbeelding die op de blokken wordt getoond"
-
-# vrij vertaald
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "De naam van het thema van de blokken en de achtergrond."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Begin-niveau"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Begin-niveau."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Of een achtergrondafbeelding wordt gebruikt"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Dit bepaalt of een achtergrondafbeelding over de achtergrondkleur wordt "
-"afgebeeld."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "De achtergrondkleur"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "De achtergrondkleur in een formaat dat gdk_color_parse begrijpt."
-
-# of een vooruitblik op het volgende blok wordt gegeven/
-# of het volgende blok wordt getoond
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Of het volgende blok moet worden getoond"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Of het volgende blok moet worden getoond."
-
-# target is waarschijnlijk de landingsplaats
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Of de landingsplaats moet worden getoond"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Of grafisch weergegeven wordt waar het blok terecht zal komen. "
-
-# Of de blokken willekeurige kleuren krijgen/een willekeurige kleur krijgen
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Of de blokken een willekeurig kleur krijgen"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Of de blokken een willekeurige kleur krijgen."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Of tegen de klok in kan worden gedraaid"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Of tegen de klok in kan worden gedraaid."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Het aantal te vullen rijen"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Het aantal rijen aan het begin van het spel die met willekeurige blokken "
-"zijn voorgevuld."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "De dichtheid van voorgevulde rijen"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"De dichtheid van blokken in voorgevulde rijen aan het begin van het spel. De "
-"waarde ligt tussen 0 (voor geen blokken) en 10 (voor een compleet gevulde "
-"rij)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Naar links"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Toetsaanslag om naar links te gaan"
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Naar rechts"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Toetsaanslag om naar rechts te gaan"
-
-# Beweeg de stukken omlaag
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Omlaag"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Toets waarmee naar beneden verplaatst wordt."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Laten vallen"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Toets waardoor een stuk valt."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Draaien"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Toets waarmee gedraaid wordt."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pauzeren"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Toets waarmee gepauzeerd wordt."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Begin-niveau instellen (1 of hoger)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "NIVEAU"
 
@@ -279,79 +122,104 @@ msgstr "I_nstellingen"
 msgid "_Help"
 msgstr "_Hulp"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Gnometris voorkeuren"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Spel"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Instellen"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Aantal voorgevulde rijen:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Dichtheid van blokken in een voorgevulde rij:"
 
 # begin-level
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Begin-niveau:"
 
 # Operatie
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Bewerking"
 
 # BUG
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Geluiden aanzetten"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Volgend blok tonen"
 
 # 'gebruiken' kan eventueel worden weggelaten
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Willekeurige blokkleuren gebruiken"
 
 # antikloksgewijs draaien/tegen de klok in draaien
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Blokken tegen de klok in draaien"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "_Tonen waar het blok terechtkomt"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Thema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Elementen"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Bedieningstoetsen"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Naar links"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Naar rechts"
+
+# Beweeg de stukken omlaag
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Omlaag"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Laten vallen"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Draaien"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Blokkenstijl"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -361,11 +229,11 @@ msgstr ""
 "\n"
 "Gnometris is onderdeel van Gnome Games."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Gnome games website"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Tino Meinen\n"
@@ -379,69 +247,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Gnometris scores"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Bestand is geen geldig .desktop-bestand"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Niet herkend bureaubladbestand versie ‘%s’"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s starten"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Toepassing accepteert geen documenten op de opdrachtregel"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Niet herkende opstartoptie: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Kan document-URI's niet aan een ‘Type=Link’ bureaublad-pictogram geven"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Geen opstartbaar item"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Verbinding met sessiebeheer verbreken"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Geef het bestand met de opgeslagen configuratie"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "BESTAND"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Geef sessiebeheer-ID"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Sessiebeheer-opties:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Sessiebeheer-opties tonen"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -675,6 +480,154 @@ msgstr ""
 "U moet gelijk met %s een kopie van de GNU General Public License hebben "
 "ontvangen; zo niet, schrijf dan naar de Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+
+# BUG
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Afbeelding voor de blokken"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Afbeelding voor de blokken"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "De afbeelding die op de blokken wordt getoond"
+
+# vrij vertaald
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "De naam van het thema van de blokken en de achtergrond."
+
+#~ msgid "Level to start with"
+#~ msgstr "Begin-niveau"
+
+#~ msgid "Level to start with."
+#~ msgstr "Begin-niveau."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Of een achtergrondafbeelding wordt gebruikt"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Dit bepaalt of een achtergrondafbeelding over de achtergrondkleur wordt "
+#~ "afgebeeld."
+
+#~ msgid "The background color"
+#~ msgstr "De achtergrondkleur"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "De achtergrondkleur in een formaat dat gdk_color_parse begrijpt."
+
+# of een vooruitblik op het volgende blok wordt gegeven/
+# of het volgende blok wordt getoond
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Of het volgende blok moet worden getoond"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Of het volgende blok moet worden getoond."
+
+# target is waarschijnlijk de landingsplaats
+#~ msgid "Whether to provide a target"
+#~ msgstr "Of de landingsplaats moet worden getoond"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Of grafisch weergegeven wordt waar het blok terecht zal komen. "
+
+# Of de blokken willekeurige kleuren krijgen/een willekeurige kleur krijgen
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Of de blokken een willekeurig kleur krijgen"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Of de blokken een willekeurige kleur krijgen."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Of tegen de klok in kan worden gedraaid"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Of tegen de klok in kan worden gedraaid."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Het aantal te vullen rijen"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Het aantal rijen aan het begin van het spel die met willekeurige blokken "
+#~ "zijn voorgevuld."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "De dichtheid van voorgevulde rijen"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "De dichtheid van blokken in voorgevulde rijen aan het begin van het spel. "
+#~ "De waarde ligt tussen 0 (voor geen blokken) en 10 (voor een compleet "
+#~ "gevulde rij)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Toetsaanslag om naar links te gaan"
+
+#~ msgid "Key press to move right."
+#~ msgstr "Toetsaanslag om naar rechts te gaan"
+
+#~ msgid "Key press to move down."
+#~ msgstr "Toets waarmee naar beneden verplaatst wordt."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Toets waardoor een stuk valt."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Toets waarmee gedraaid wordt."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Toets waarmee gepauzeerd wordt."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Bestand is geen geldig .desktop-bestand"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Niet herkend bureaubladbestand versie ‘%s’"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s starten"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Toepassing accepteert geen documenten op de opdrachtregel"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Niet herkende opstartoptie: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Kan document-URI's niet aan een ‘Type=Link’ bureaublad-pictogram geven"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Geen opstartbaar item"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Verbinding met sessiebeheer verbreken"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Geef het bestand met de opgeslagen configuratie"
+
+#~ msgid "FILE"
+#~ msgstr "BESTAND"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Geef sessiebeheer-ID"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Sessiebeheer-opties:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Sessiebeheer-opties tonen"
 
 #~ msgid "Player Chat"
 #~ msgstr "Spelers-chat"

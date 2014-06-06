@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-25 13:51+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
@@ -26,9 +26,9 @@ msgstr "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸ್ಥಗಿತಗೊಳಿ�
 msgid "Game Over"
 msgstr "ಆಟ ಮುಗಿದಿದೆ"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್"
 
@@ -36,158 +36,11 @@ msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್"
 msgid "Fit falling blocks together"
 msgstr "ಬೀಳುತ್ತಿರುವ ಇಟ್ಟಿಗೆಗಳನ್ನು ಸರಿಯಾಗಿ ಜೋಡಿಸಿ"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಎಳೆಯಲು ಬಳಸಬೇಕಿರುವ ಚಿತ್ರ"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಎಳೆಯಲು ಬಳಸಬೇಕಿರುವ ಚಿತ್ರ."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ರೆಂಡರ್ ಮಾಡಲು ಬಳಸಲಾಗುವ ವಿನ್ಯಾಸ"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಹಾಗು ಹಿನ್ನಲೆಯನ್ನು ರೆಂಡರ್ ಮಾಡಲು ಬಳಸಲಾಗುವ ಥೀಮಿನ ಹೆಸರು."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "ಆರಂಭದಲ್ಲಿರಬೇಕಿರುವ ಹಂತ"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "ಆರಂಭದಲ್ಲಿರಬೇಕಿರುವ ಹಂತ."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಬಳಸಬೇಕೆ"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"ಹಿನ್ನಲೆಯ ಚಿತ್ರವನ್ನು ಹಿನ್ನಲೆಯ ಬಣ್ಣದ ಮೇಲೆ ಎಳೆಯ ಬೇಕೆ ಅಥವ ಬೇಡವೆ ಎಂದು ಇದು ಆಯ್ಕೆ "
-"ಮಾಡುತ್ತದೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "ಹಿನ್ನಲೆಯ ಬಣ್ಣ"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "ಹಿನ್ನಲೆಯ ಬಣ್ಣ, gdk_color_parse ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳುವ ವಿನ್ಯಾಸದಲ್ಲಿ."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "ಮುಂದಿನ ಇಟ್ಟಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಬೇಕೆ"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "ಮುಂದಿನ ಇಟ್ಟಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಬೇಕೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "ಒಂದು ಗುರಿಯನ್ನು ಒದಗಿಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "ಇಟ್ಟಿಗೆಯು ಎಲ್ಲಿ ಇರಿಸಲ್ಪಡುತ್ತದೆ ಎಂದು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ನಿರೂಪಣೆಯನ್ನು ನೀಡಬೇಕೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "ಮನಬಂದಂತೆ ಇಟ್ಟಿಗೆಗಳಿಗೆ ಬಣ್ಣಗಳನ್ನು ನೀಡಬೇಕೆ"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "ಮನಬಂದಂತೆ ಇಟ್ಟಿಗೆಗಳಿಗೆ ಬಣ್ಣಗಳನ್ನು ನೀಡಬೇಕೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "ಅಪ್ರದಕ್ಷಿಣೆಯಾಗಿ ತಿರುಗಿಸಬೇಕೆ"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "ಅಪ್ರದಕ್ಷಿಣೆಯಾಗಿ ತಿರುಗಿಸಬೇಕೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "ತುಂಬಬೇಕಿರುವ ಸಾಲುಗಳ ಸಂಖ್ಯೆ"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "ಆಟದ ಆರಂಭದಲ್ಲಿ ಮನಬಂದಂತೆ ಇಟ್ಟಿಗೆಗಳಿಂದ ತುಂಬಿಸಬೇಕಿರುವ ಸಾಲುಗಳ ಸಂಖ್ಯೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "ತುಂಬಿಸಲಾದ ಸಾಲುಗಳ ಸಾಂದ್ರತೆ"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"ಆಟದ ಆರಂಭದಲ್ಲಿ ಸಾಲುಗಳಲ್ಲಿ ತುಂಬಿಸಲಾಗುವ ಇಟ್ಟಿಗೆಗಳ ಸಾಂದ್ರತೆ. ಮೌಲ್ಯವು 0 (ಯಾವುದೆ ಇಟ್ಟಿಗೆ "
-"ಇರವುದಿಲ್ಲ) ಹಾಗು 10 ರ (ಸಂಪೂರ್ಣವಾಗಿ ತುಂಬಿಸಲಾಗುತ್ತದೆ) ಒಳಗಿನದಾಗಿರುತ್ತದೆ."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "ಎಡಕ್ಕೆ ನಡೆಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "ಎಡಕ್ಕೆ ಚಲಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "ಬಲಕ್ಕೆ ನಡೆಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "ಬಲಕ್ಕೆ ಚಲಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "ಕೆಳಕ್ಕೆ ನಡೆಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "ಕೆಳಕ್ಕೆ ನಡೆಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "ಬೀಳಿಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "ಕೆಳಕ್ಕೆ ಬೀಳಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "ತಿರುಗಿಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "ತಿರುಗಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತಗೊಳಿಸು"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸ್ಥಗಿತಗೊಳಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "ಆರಂಭದ ಹಂತವನ್ನು ಅಣಿಗೊಳಿಸಿ (೧ ಅಥವ ಹೆಚ್ಚಿನ)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "LEVEL"
 
@@ -231,74 +84,98 @@ msgstr "ಸಂಯೋಜನೆಗಳು(_S)"
 msgid "_Help"
 msgstr "ನೆರವು(_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್ ಆದ್ಯತೆಗಳು"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "ಆಟ"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "ಸೆಟ್ಅಪ್"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "ಮೊದಲೆ ತುಂಬಿಸಲಾದ ಸಾಲುಗಳ ಸಂಖ್ಯೆ(_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "ಮೊದಲೆ ತುಂಬಿಸಲಾದ ಸಾಲಿನಲ್ಲಿ ಇಟ್ಟಿಗೆಗಳ ಸಾಂದ್ರತೆ(_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "ಆರಂಭದ ಹಂತ(_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "ಕಾರ್ಯಾಚರಣೆ"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "ಶಬ್ದ ಮಾಡುವುದನ್ನು ಶಕ್ತಗೊಳಿಸು(_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "ಮುಂದಿನ ಇಟ್ಟಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸು(_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "ಇಟ್ಟಿಗೆಗೆ ಯಾವುದಾದರೂ ಬಣ್ಣಗಳನ್ನು ಬಳಸು(_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಅಪ್ರದಕ್ಷಿಣೆಯಾಗಿ ತಿರುಗಿಸಿ(_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "ಇಟ್ಟಿಗೆಯು ಎಲ್ಲಿ ಬೀಳುತ್ತದೆ ಎಂದು ತೋರಿಸು(_w)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "ವಿನ್ಯಾಸ"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "ನಿಯಂತ್ರಣಗಳು"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "ಕೀಲಿಮಣೆ ನಿಯಂತ್ರಣಗಳು"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "ಎಡಕ್ಕೆ ನಡೆಸು"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "ಬಲಕ್ಕೆ ನಡೆಸು"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "ಕೆಳಕ್ಕೆ ನಡೆಸು"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "ಬೀಳಿಸು"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "ತಿರುಗಿಸು"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತಗೊಳಿಸು"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ಇಟ್ಟಿಗೆಯ ಶೈಲಿ"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -308,81 +185,17 @@ msgstr ""
 "\n"
 "ಗ್ನೋಮೆಟ್ರಿಸ್ ಎನ್ನುವುದು GNOME ಆಟಗಳ ಒಂದು ಭಾಗವಾಗಿದೆ."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "GNOME ಆಟಗಳ ಜಾಲತಾಣ"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್ ಅಂಕಗಳು"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "ಕಡತವು ಒಂದು ಮಾನ್ಯವಾದಂತಹ .desktop ಕಡತವಾಗಿಲ್ಲ"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "ಗುರುತಿಸಲಾಗದ ಗಣಕತೆರೆ ಕಡತದ ಆವೃತ್ತಿ '%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s ಅನ್ನು ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "ಅನ್ವಯವು ಆಜ್ಞಾ ಸಾಲಿನಲ್ಲಿ ದಸ್ತಾವೇಜುಗಳನ್ನು ಅಂಗೀಕರಿಸುವುದಿಲ್ಲ"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "ಗುರುತಿಸಲಾಗದ ಆರಂಭದ ಆಯ್ಕೆ: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"ದಸ್ತಾವೇಜಿನ URI ಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "ಆರಂಭಿಸಬಹುದಾದ ಅಂಶವಾಗಿಲ್ಲ"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "ಅಧಿವೇಶನ ನಿರ್ವಾಹಕನೊಂದಿಗಿನ ಸಂಪರ್ಕವನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "ಉಳಿಸಲಾದ ಸಂರಚನೆಯನ್ನು ಹೊಂದಿರುವ ಕಡತವನ್ನು ಸೂಚಿಸಿ"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "ಅಧಿವೇಶನ ನಿರ್ವಹಣಾ ID ಯನ್ನು ಸೂಚಿಸಿ"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "ಅಧಿವೇಶನ ನಿರ್ವಹಣಾ ಆಯ್ಕೆಗಳು:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "ಹೊಸ ಅಧಿವೇಶನ ನಿರ್ವಹಣಾ ಆಯ್ಕೆಗಳು"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -609,6 +422,145 @@ msgstr ""
 "You should have received a copy of the GNU General Public License along with "
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಎಳೆಯಲು ಬಳಸಬೇಕಿರುವ ಚಿತ್ರ"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಎಳೆಯಲು ಬಳಸಬೇಕಿರುವ ಚಿತ್ರ."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ರೆಂಡರ್ ಮಾಡಲು ಬಳಸಲಾಗುವ ವಿನ್ಯಾಸ"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಹಾಗು ಹಿನ್ನಲೆಯನ್ನು ರೆಂಡರ್ ಮಾಡಲು ಬಳಸಲಾಗುವ ಥೀಮಿನ ಹೆಸರು."
+
+#~ msgid "Level to start with"
+#~ msgstr "ಆರಂಭದಲ್ಲಿರಬೇಕಿರುವ ಹಂತ"
+
+#~ msgid "Level to start with."
+#~ msgstr "ಆರಂಭದಲ್ಲಿರಬೇಕಿರುವ ಹಂತ."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಬಳಸಬೇಕೆ"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "ಹಿನ್ನಲೆಯ ಚಿತ್ರವನ್ನು ಹಿನ್ನಲೆಯ ಬಣ್ಣದ ಮೇಲೆ ಎಳೆಯ ಬೇಕೆ ಅಥವ ಬೇಡವೆ ಎಂದು ಇದು ಆಯ್ಕೆ "
+#~ "ಮಾಡುತ್ತದೆ."
+
+#~ msgid "The background color"
+#~ msgstr "ಹಿನ್ನಲೆಯ ಬಣ್ಣ"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "ಹಿನ್ನಲೆಯ ಬಣ್ಣ, gdk_color_parse ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳುವ ವಿನ್ಯಾಸದಲ್ಲಿ."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "ಮುಂದಿನ ಇಟ್ಟಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಬೇಕೆ"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "ಮುಂದಿನ ಇಟ್ಟಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಬೇಕೆ."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "ಒಂದು ಗುರಿಯನ್ನು ಒದಗಿಸು"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "ಇಟ್ಟಿಗೆಯು ಎಲ್ಲಿ ಇರಿಸಲ್ಪಡುತ್ತದೆ ಎಂದು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ನಿರೂಪಣೆಯನ್ನು ನೀಡಬೇಕೆ."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "ಮನಬಂದಂತೆ ಇಟ್ಟಿಗೆಗಳಿಗೆ ಬಣ್ಣಗಳನ್ನು ನೀಡಬೇಕೆ"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "ಮನಬಂದಂತೆ ಇಟ್ಟಿಗೆಗಳಿಗೆ ಬಣ್ಣಗಳನ್ನು ನೀಡಬೇಕೆ."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "ಅಪ್ರದಕ್ಷಿಣೆಯಾಗಿ ತಿರುಗಿಸಬೇಕೆ"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "ಅಪ್ರದಕ್ಷಿಣೆಯಾಗಿ ತಿರುಗಿಸಬೇಕೆ."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "ತುಂಬಬೇಕಿರುವ ಸಾಲುಗಳ ಸಂಖ್ಯೆ"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "ಆಟದ ಆರಂಭದಲ್ಲಿ ಮನಬಂದಂತೆ ಇಟ್ಟಿಗೆಗಳಿಂದ ತುಂಬಿಸಬೇಕಿರುವ ಸಾಲುಗಳ ಸಂಖ್ಯೆ."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "ತುಂಬಿಸಲಾದ ಸಾಲುಗಳ ಸಾಂದ್ರತೆ"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "ಆಟದ ಆರಂಭದಲ್ಲಿ ಸಾಲುಗಳಲ್ಲಿ ತುಂಬಿಸಲಾಗುವ ಇಟ್ಟಿಗೆಗಳ ಸಾಂದ್ರತೆ. ಮೌಲ್ಯವು 0 (ಯಾವುದೆ "
+#~ "ಇಟ್ಟಿಗೆ ಇರವುದಿಲ್ಲ) ಹಾಗು 10 ರ (ಸಂಪೂರ್ಣವಾಗಿ ತುಂಬಿಸಲಾಗುತ್ತದೆ) ಒಳಗಿನದಾಗಿರುತ್ತದೆ."
+
+#~ msgid "Key press to move left."
+#~ msgstr "ಎಡಕ್ಕೆ ಚಲಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
+
+#~ msgid "Key press to move right."
+#~ msgstr "ಬಲಕ್ಕೆ ಚಲಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
+
+#~ msgid "Key press to move down."
+#~ msgstr "ಕೆಳಕ್ಕೆ ನಡೆಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
+
+#~ msgid "Key press to drop."
+#~ msgstr "ಕೆಳಕ್ಕೆ ಬೀಳಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "ತಿರುಗಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
+
+#~ msgid "Key press to pause."
+#~ msgstr "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸ್ಥಗಿತಗೊಳಿಸಲು ಒತ್ತಬೇಕಿರುವ ಕೀಲಿ."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "ಕಡತವು ಒಂದು ಮಾನ್ಯವಾದಂತಹ .desktop ಕಡತವಾಗಿಲ್ಲ"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "ಗುರುತಿಸಲಾಗದ ಗಣಕತೆರೆ ಕಡತದ ಆವೃತ್ತಿ '%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s ಅನ್ನು ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "ಅನ್ವಯವು ಆಜ್ಞಾ ಸಾಲಿನಲ್ಲಿ ದಸ್ತಾವೇಜುಗಳನ್ನು ಅಂಗೀಕರಿಸುವುದಿಲ್ಲ"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "ಗುರುತಿಸಲಾಗದ ಆರಂಭದ ಆಯ್ಕೆ: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "ದಸ್ತಾವೇಜಿನ URI ಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "ಆರಂಭಿಸಬಹುದಾದ ಅಂಶವಾಗಿಲ್ಲ"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "ಅಧಿವೇಶನ ನಿರ್ವಾಹಕನೊಂದಿಗಿನ ಸಂಪರ್ಕವನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "ಉಳಿಸಲಾದ ಸಂರಚನೆಯನ್ನು ಹೊಂದಿರುವ ಕಡತವನ್ನು ಸೂಚಿಸಿ"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "ಅಧಿವೇಶನ ನಿರ್ವಹಣಾ ID ಯನ್ನು ಸೂಚಿಸಿ"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "ಅಧಿವೇಶನ ನಿರ್ವಹಣಾ ಆಯ್ಕೆಗಳು:"
+
+#~ msgid "Show session management options"
+#~ msgstr "ಹೊಸ ಅಧಿವೇಶನ ನಿರ್ವಹಣಾ ಆಯ್ಕೆಗಳು"
 
 #~ msgid "Player Chat"
 #~ msgstr "ಆಟಗಾರರ ಸಂಭಾಷಣೆ"

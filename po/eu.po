@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-12 18:09+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
@@ -26,9 +26,9 @@ msgstr "Pausarazita"
 msgid "Game Over"
 msgstr "Jokoa amaitu da"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -36,160 +36,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Kokatu erortzen diren blokeak"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Blokeak marrazteko erabili beharreko irudia"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Blokeak marrazteko erabili beharreko irudia."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Blokeak errendatzeko erabilitako gaia"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Blokeak eta atzeko planoa errendatzeko erabilitako gaiaren izena."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Hasteko maila"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Hasteko maila."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Atzeko planoko irudia erabili behar den edo ez adierazten du"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Atzeko planoko irudia atzeko planoaren kolorearen gainean marraztu behar den "
-"edo ez adierazten du."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Atzeko planoaren kolorea"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr ""
-"Atzeko planoaren kolorea, gdk_color_parse-k ulertzen duen formatu batean."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Hurrengo blokea aurreikusiko den ala ez adierazten du."
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Hurrengo blokea aurreikusiko den ala ez adierazten du."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Jomuga eskuratuko den ala ez adierazten du"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Blokea nora helduko den grafikoki irudikatuko den ala ez adierazten du."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Blokeei ausazko koloreak emango zaizkien ala ez adierazten du"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Blokeei ausazko koloreak emango zaizkien ala ez adierazten du."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Erloju-orratzen noranzkoan biratuko diren ala ez adierazten du"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Erloju-orratzen noranzkoan biratuko diren ala ez adierazten du."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Bete beharreko errenkaden kopurua"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Jokoaren hasieran ausazko blokeekin betetako errenkaden kopurua."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Betetako errenkaden dentsitatea"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Joko-hasieran betetako errenkaden bloke-dentsitatea. Balioa 0 (blokerik ez) "
-"eta 10 (errenkada guztiz betea) bitartekoa da."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Mugitu ezkerrera"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Sakatu tekla ezkerrerantz joateko."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Mugitu eskuinera"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Sakatu tekla eskuinerantz joateko."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Eraman beherantz"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Beherantz joateko tekla."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Jaregin"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Jaregiteko tekla."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Biratu"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Birarazteko tekla."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pausarazi"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Pausarazteko tekla."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Ezarri hasierako maila (1 edo handiagoa)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "MAILA"
 
@@ -233,74 +84,98 @@ msgstr "E_zarpenak"
 msgid "_Help"
 msgstr "La_guntza"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Gnometris-en hobespenak"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Jokoa"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Konfigurazioa"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Aurrez betetako errenkaden kopurua:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Bloke-dentsitatea, aurrez betetako errenkada batean:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Hasierako maila:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Eragiketa"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Gaitu soinuak"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Aurreikusi hurrengo blokea"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Erabili ausazko bloke-koloreak"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Biratu blokeak erloju-orratzen aurkako noranzkoan"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Erakutsi _blokea nora helduko den"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Gaia"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Kontrolak"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Teklatuko kontrolak"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Mugitu ezkerrera"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Mugitu eskuinera"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Eraman beherantz"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Jaregin"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Biratu"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pausarazi"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Blokeen estiloa"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -310,80 +185,17 @@ msgstr ""
 "\n"
 "GNOME Games-ekoa da Gnometris."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "GNOME Games webgunea"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Gnometris-eko puntuazioa"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Fitxategia ez da baliozko .desktop fitxategia"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Mahaigaineko (.desktop) fitxategiaren '%s' bertsioa ezezaguna"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s hasieratzen"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Aplikazioak ez ditu dokumenturik onartzen komando-lerroan"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Abiarazteko aukera ezezaguna: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Ezin zaio dokumentuaren URIrik eman mahaigaineko 'Type=Link' sarrerari"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Ez da elementu abiarazgarria"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Desgaitu saio-kudeatzailearen konexioa"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Zehaztu gordetako konfigurazioa duen fitxategia"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FITXATEGIA"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Zehaztu saio-kudeatzailearen IDa"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "IDa"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Saio-kudeaketaren aukerak:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Erakutsi saio-kudeaketaren aukerak"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -610,6 +422,147 @@ msgstr ""
 "GNU Lizentzia Publiko Orokorraren kopia bat jasoko zenuen %s(r)ekin batera; "
 "halakorik jaso ez baduzu, idatzi hona: Free Software Foundation, Inc., 51 "
 "Franklin street, Fifth floor, Boston, MA 02110-1301 USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Blokeak marrazteko erabili beharreko irudia"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Blokeak marrazteko erabili beharreko irudia."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Blokeak errendatzeko erabilitako gaia"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Blokeak eta atzeko planoa errendatzeko erabilitako gaiaren izena."
+
+#~ msgid "Level to start with"
+#~ msgstr "Hasteko maila"
+
+#~ msgid "Level to start with."
+#~ msgstr "Hasteko maila."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Atzeko planoko irudia erabili behar den edo ez adierazten du"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Atzeko planoko irudia atzeko planoaren kolorearen gainean marraztu behar "
+#~ "den edo ez adierazten du."
+
+#~ msgid "The background color"
+#~ msgstr "Atzeko planoaren kolorea"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr ""
+#~ "Atzeko planoaren kolorea, gdk_color_parse-k ulertzen duen formatu batean."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Hurrengo blokea aurreikusiko den ala ez adierazten du."
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Hurrengo blokea aurreikusiko den ala ez adierazten du."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Jomuga eskuratuko den ala ez adierazten du"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Blokea nora helduko den grafikoki irudikatuko den ala ez adierazten du."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Blokeei ausazko koloreak emango zaizkien ala ez adierazten du"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Blokeei ausazko koloreak emango zaizkien ala ez adierazten du."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Erloju-orratzen noranzkoan biratuko diren ala ez adierazten du"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Erloju-orratzen noranzkoan biratuko diren ala ez adierazten du."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Bete beharreko errenkaden kopurua"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "Jokoaren hasieran ausazko blokeekin betetako errenkaden kopurua."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Betetako errenkaden dentsitatea"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Joko-hasieran betetako errenkaden bloke-dentsitatea. Balioa 0 (blokerik "
+#~ "ez) eta 10 (errenkada guztiz betea) bitartekoa da."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Sakatu tekla ezkerrerantz joateko."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Sakatu tekla eskuinerantz joateko."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Beherantz joateko tekla."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Jaregiteko tekla."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Birarazteko tekla."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Pausarazteko tekla."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Fitxategia ez da baliozko .desktop fitxategia"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Mahaigaineko (.desktop) fitxategiaren '%s' bertsioa ezezaguna"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s hasieratzen"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Aplikazioak ez ditu dokumenturik onartzen komando-lerroan"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Abiarazteko aukera ezezaguna: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Ezin zaio dokumentuaren URIrik eman mahaigaineko 'Type=Link' sarrerari"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Ez da elementu abiarazgarria"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Desgaitu saio-kudeatzailearen konexioa"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Zehaztu gordetako konfigurazioa duen fitxategia"
+
+#~ msgid "FILE"
+#~ msgstr "FITXATEGIA"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Zehaztu saio-kudeatzailearen IDa"
+
+#~ msgid "ID"
+#~ msgstr "IDa"
+
+#~ msgid "Session management options:"
+#~ msgstr "Saio-kudeaketaren aukerak:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Erakutsi saio-kudeaketaren aukerak"
 
 #~ msgid "Player Chat"
 #~ msgstr "Jokalarien elkarrizketa"

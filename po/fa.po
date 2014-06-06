@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2006-02-18 20:34+0330\n"
 "Last-Translator: Farzaneh Sarafraz <farzaneh@farsiweb.info>\n"
 "Language-Team: Persian\n"
@@ -28,9 +28,9 @@ msgstr "در حال مکث"
 msgid "Game Over"
 msgstr "بازی تمام شد"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "گنومتریس"
 
@@ -38,157 +38,11 @@ msgstr "گنومتریس"
 msgid "Fit falling blocks together"
 msgstr "جور کردن بلوک‌های در حال سقوط با یکدیگر"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "تصویر مورد استفاده برای ترسیم بلوک‌ها"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "تصویر مورد استفاده برای ترسیم بلوک‌ها."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "تم مورد استفاده برای ترسیم بلوک‌ها"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "مرحله‌ی شروع"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "مرحله‌ی شروع "
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "این که از تصویر پس‌زمینه استفاده شود یا نه"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "این انتخاب می‌کند که تصویر پس‌زمینه روی رنگ پس‌زمینه ترسیم شود یا نه."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "رنگ پس‌زمینه"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "رنگ پس‌زمینه، در قالبی که gdk_color_parse می‌فهمد."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "این که بلوک بعدی پیش‌نمایش شود یا نه"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "این که بلوک بعدی پیش‌نمایش شود یا نه."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-#, fuzzy
-msgid "Whether to provide a target"
-msgstr "این که بلوک بعدی پیش‌نمایش شود یا نه"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "این که بلوک‌ها رنگ‌های تصادفی داشته باشند یا نه"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "این که بلوک‌ها رنگ‌های تصادفی داشته باشند. یا نه"
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "این که چرخاندن پادساعت‌گرد باشد یا نه"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "این که چرخاندن پادساعت‌گرد باشد یا نه."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "تعداد سطرهایی که باید پر شوند"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "تعداد سطرهای پر شده با بلوک‌های تصادفی در ابتدای بازی."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "فشردگی سطر‌های پر شده"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"فشردگی بلوک‌ها در سطرهای پرشده در ابتدای بازی. مقدار بین ۰ (برای بدون بلوک) و "
-"۱۰ (برای سطرهای کاملاً پر شده) است."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "جابه‌جایی به چپ"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "فشردن کلید برای جابه‌جایی به چپ."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "جابه‌جایی به راست"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "فشردن کلید برای جابه‌جایی به راست."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "جابه‌جایی به پایین"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "کلیدی که برای جابه‌جایی به پایین فشرده می‌شود."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "انداختن"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "کلیدی که برای انداختن فشرده می شود."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "چرخاندن"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "کلیدی که برای چرخاندن فشرده می‌شود."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "مکث"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "کلیدی که برای مکث فشرده می‌شود."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "تنظیم مرحله‌ی شروع (۱ یا بیشتر)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "مرحله"
 
@@ -232,86 +86,110 @@ msgstr "_تنظیمات"
 msgid "_Help"
 msgstr "_راهنما"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ترجیحات گنومتریس"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "بازی"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "برپاسازی"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_تعداد سطرهای از پیش پر شده:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_فشردگی بلوک‌های سطرهای از پیش پر شده:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_مرحله‌ی شروع:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "عملیات"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_به کار انداختن صدا‌ها"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_پیش‌نمایش بلوک بعدی"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_استفاده از رنگ‌های بلوک تصادفی"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_چرخاندن پادساعت‌گرد بلوک‌ها"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "تم"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "کنترل‌ها"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "کنترل‌های صفحه کلید"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "جابه‌جایی به چپ"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "جابه‌جایی به راست"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "جابه‌جایی به پایین"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "انداختن"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "چرخاندن"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "مکث"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "سبک بلوک"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "کارگزار بازی‌های گنوم"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "روزبه پورنادر <roozbeh@farsiweb.info>\n"
@@ -322,71 +200,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "امتیازهای گنومتریس"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "_تنظیمات"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "تنظیم پیکربندی بازی "
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "FILE"
-msgstr "نام پرونده"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -608,6 +421,105 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "تصویر مورد استفاده برای ترسیم بلوک‌ها"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "تصویر مورد استفاده برای ترسیم بلوک‌ها."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "تم مورد استفاده برای ترسیم بلوک‌ها"
+
+#~ msgid "Level to start with"
+#~ msgstr "مرحله‌ی شروع"
+
+#~ msgid "Level to start with."
+#~ msgstr "مرحله‌ی شروع "
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "این که از تصویر پس‌زمینه استفاده شود یا نه"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "این انتخاب می‌کند که تصویر پس‌زمینه روی رنگ پس‌زمینه ترسیم شود یا نه."
+
+#~ msgid "The background color"
+#~ msgstr "رنگ پس‌زمینه"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "رنگ پس‌زمینه، در قالبی که gdk_color_parse می‌فهمد."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "این که بلوک بعدی پیش‌نمایش شود یا نه"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "این که بلوک بعدی پیش‌نمایش شود یا نه."
+
+#, fuzzy
+#~ msgid "Whether to provide a target"
+#~ msgstr "این که بلوک بعدی پیش‌نمایش شود یا نه"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "این که بلوک‌ها رنگ‌های تصادفی داشته باشند یا نه"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "این که بلوک‌ها رنگ‌های تصادفی داشته باشند. یا نه"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "این که چرخاندن پادساعت‌گرد باشد یا نه"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "این که چرخاندن پادساعت‌گرد باشد یا نه."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "تعداد سطرهایی که باید پر شوند"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "تعداد سطرهای پر شده با بلوک‌های تصادفی در ابتدای بازی."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "فشردگی سطر‌های پر شده"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "فشردگی بلوک‌ها در سطرهای پرشده در ابتدای بازی. مقدار بین ۰ (برای بدون "
+#~ "بلوک) و ۱۰ (برای سطرهای کاملاً پر شده) است."
+
+#~ msgid "Key press to move left."
+#~ msgstr "فشردن کلید برای جابه‌جایی به چپ."
+
+#~ msgid "Key press to move right."
+#~ msgstr "فشردن کلید برای جابه‌جایی به راست."
+
+#~ msgid "Key press to move down."
+#~ msgstr "کلیدی که برای جابه‌جایی به پایین فشرده می‌شود."
+
+#~ msgid "Key press to drop."
+#~ msgstr "کلیدی که برای انداختن فشرده می شود."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "کلیدی که برای چرخاندن فشرده می‌شود."
+
+#~ msgid "Key press to pause."
+#~ msgstr "کلیدی که برای مکث فشرده می‌شود."
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "_تنظیمات"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "تنظیم پیکربندی بازی "
+
+#, fuzzy
+#~ msgid "FILE"
+#~ msgstr "نام پرونده"
 
 #, fuzzy
 #~ msgid "Player Chat"

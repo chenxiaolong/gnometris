@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-03-13 16:10+0530\n"
 "Last-Translator: Dr.T.vasudevan <agnihot3@gmail.com>\n"
 "Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
@@ -35,9 +35,9 @@ msgstr "தாமதி"
 msgid "Game Over"
 msgstr "ஆட்டம் முடிந்தது"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "க்னோமெட்ரிஸ்"
 
@@ -45,156 +45,11 @@ msgstr "க்னோமெட்ரிஸ்"
 msgid "Fit falling blocks together"
 msgstr "பொருத்தமான ஒன்றாக விழும் பகுதிகள்"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "தொகுதியை வரைய பயன்படும் படிமம்"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "தொகுதியை வரைய பயன்படும் படிமம்."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "மரத்துண்டுகளை வரைய பயன்படும் படிமம்"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "மரத்துண்டுகள் மற்றும் பின்னணிக்கான கருத்தின் பெயர்."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "தொடங்கவேண்டிய மட்டம்"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "தொடங்கவேண்டிய மட்டம்."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "பின்னணி சித்திரத்தை பயன்படுத்த வேண்டுமா"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "பின்னணி பிம்பத்தை பின்னணி வண்ணத்தின் மீது வரைய வேண்டுமா என்பதை தேர்வு செய்"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "பின்னணி வண்ணம்"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "gdk_color_parse புரிந்துக்கொள்ளத்தக்க பின்னணி வண்ணம்"
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "அடுத்த மரத்துண்டை முன்காட்ட வேண்டுமா"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "அடுத்த பகுதியை முன்காட்ட வேண்டுமா"
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "இலக்கை காட்டவா?"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "மரத்துண்டுகள் விழக்கூடிய இடத்தை சித்திரமாக காட்ட வேண்டுமா?"
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "பின்னணி வண்ண தொடர்பற்ற நிறங்களை தரவேண்டுமா"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "மரத்துண்டுகளுக்கு தொடர்பற்ற நிறங்களை தரவேண்டுமா."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "வல இடமாக சுழற்ற வேண்டுமா"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "வல இடமாக சுழற்ற வேண்டுமா"
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "நிரப்ப வேண்டிய வரிகளின் எண்ணிக்கை"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "விளையாட்டின் துவக்கத்தில் அங்கிங்கு நிரப்பட்ட வரிகளின் எண்ணிக்கை"
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "நிரப்பப்பட்ட வரிகளின் எண்ணிக்கை"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"விளையாட்டு துவங்கும் போது உள்ள மரத்துண்டு நிரப்பல்கள். மதிப்பு 0 (மரத்துண்டு இல்லையெனில்) "
-"மற்றும் 10 (முழுமையாக நிரப்பட்டது) க்குள் இருக்க வேண்டும்"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "இடதுபுறம் நகர்."
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "இடதுபுறம் நகர விசையை அழுத்து."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "வலதுபுறம் நகர்."
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "வலதுபுறம் நகர விசையை அழுத்து."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "கீழே நகர்த்து"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "கீழே நகர விசையை அழுத்தவும்"
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "விடு"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "விழுவதற்கு விசையை அழுத்தவும்"
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "சுழற்றவும்"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "சுழற்றுவதற்கான விசையை அழுத்தவும்"
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "தாமதி"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "தாமதிக்க விசையை அழுத்தவும்"
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "ஆரம்ப நிலை அமைத்தல்(1-10)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "மட்டம்"
 
@@ -238,74 +93,98 @@ msgstr "_அமைப்புகள்"
 msgid "_Help"
 msgstr "உதவி (_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "க்னோமெட்ரிக் விருப்பங்கள்"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "விளையாட்டு"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "அமைப்பு"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "ஏற்கெனவே நிரப்பப்பட்ட வரிகளின் _எண்ணிக்கை"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "ஏற்கெனவே நிரப்பட்ட வரிகளில் மரத்துண்டுகளின் _அடர்த்தி"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_தொடக்க மட்டம்:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "செயல்பாடு"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_ஒலிகளை செயல்படசெய்"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "அடுத்த மரத்துண்டின் _முன்பார்வை"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_தொடர்பற்ற மரத்துண்டு நிறங்களை பயன்படுத்து"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "மரத்துண்டை வல இடமாக சுழற்று"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "மரத்துண்டுகள் _விழக்கூடிய இடத்தை காட்ட"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "கருத்து"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "கட்டுப்பாடுகள்"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "விசைப் பலகை கட்டுப்பாடுகள்"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "இடதுபுறம் நகர்."
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "வலதுபுறம் நகர்."
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "கீழே நகர்த்து"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "விடு"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "சுழற்றவும்"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "தாமதி"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "மரத்துண்டின் பாணி"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -315,11 +194,11 @@ msgstr ""
 "\n"
 "ஜியோமெட்ரிஸ் க்னோம் விளையாட்டுகளில் ஒன்று"
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "க்னோம் விளையாட்டு வலையகம்"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Zhakanini <tamilpc@ambalam.com>, 2004 Jayaradha N <jaya@pune.redhat.com>, "
@@ -328,69 +207,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "க்னோமெட்ரிஸ் மதிப்பெண்கள்"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "கோப்பு செல்லுபடியாகும்  .desktop கோப்பு அல்ல"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "அடையாளம் காண இயலாத மேல்மேசை கோப்பு `%s'"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "%s ஐ துவக்குகிறது"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "பயன்பாடு கட்டளை வரியில் ஆவணங்களை ஒப்புக்கொள்ளாது"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "அடையாளம் காண இயலாத துவக்க தேர்வு : %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "'Type=Link' மேல்மேசை உள்ளீடுக்கு ஆவண யூஆர்ஐ ஐ கொடுக்க இயலாது"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "துவக்க முடியாத உருப்படி"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "அமர்வு மேலாளருக்கு இணைப்பை செயல் நீக்கு"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "சேமித்த வடிவமைப்பு உள்ள கோப்பை குறிப்பிடுக"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "அமர்வு மேலாண்மை அடையாளத்தை குறிப்பிடுக"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ஐடி (ID)"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "அமர்வு மேலாண்மை தேர்வுகள்:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "அமர்வு மேலாணமை தேர்வுகளை காட்டு"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -615,6 +431,142 @@ msgstr ""
 "%s நிரலுடன் ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு கிடைத்திருக்க "
 "வேண்டும். இல்லையானால் கீழ் கண்ட முகவரிக்கு கடிதம் எழுதவும்.Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "தொகுதியை வரைய பயன்படும் படிமம்"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "தொகுதியை வரைய பயன்படும் படிமம்."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "மரத்துண்டுகளை வரைய பயன்படும் படிமம்"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "மரத்துண்டுகள் மற்றும் பின்னணிக்கான கருத்தின் பெயர்."
+
+#~ msgid "Level to start with"
+#~ msgstr "தொடங்கவேண்டிய மட்டம்"
+
+#~ msgid "Level to start with."
+#~ msgstr "தொடங்கவேண்டிய மட்டம்."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "பின்னணி சித்திரத்தை பயன்படுத்த வேண்டுமா"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "பின்னணி பிம்பத்தை பின்னணி வண்ணத்தின் மீது வரைய வேண்டுமா என்பதை தேர்வு செய்"
+
+#~ msgid "The background color"
+#~ msgstr "பின்னணி வண்ணம்"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "gdk_color_parse புரிந்துக்கொள்ளத்தக்க பின்னணி வண்ணம்"
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "அடுத்த மரத்துண்டை முன்காட்ட வேண்டுமா"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "அடுத்த பகுதியை முன்காட்ட வேண்டுமா"
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "இலக்கை காட்டவா?"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "மரத்துண்டுகள் விழக்கூடிய இடத்தை சித்திரமாக காட்ட வேண்டுமா?"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "பின்னணி வண்ண தொடர்பற்ற நிறங்களை தரவேண்டுமா"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "மரத்துண்டுகளுக்கு தொடர்பற்ற நிறங்களை தரவேண்டுமா."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "வல இடமாக சுழற்ற வேண்டுமா"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "வல இடமாக சுழற்ற வேண்டுமா"
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "நிரப்ப வேண்டிய வரிகளின் எண்ணிக்கை"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "விளையாட்டின் துவக்கத்தில் அங்கிங்கு நிரப்பட்ட வரிகளின் எண்ணிக்கை"
+
+#~ msgid "The density of filled rows"
+#~ msgstr "நிரப்பப்பட்ட வரிகளின் எண்ணிக்கை"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "விளையாட்டு துவங்கும் போது உள்ள மரத்துண்டு நிரப்பல்கள். மதிப்பு 0 (மரத்துண்டு "
+#~ "இல்லையெனில்) மற்றும் 10 (முழுமையாக நிரப்பட்டது) க்குள் இருக்க வேண்டும்"
+
+#~ msgid "Key press to move left."
+#~ msgstr "இடதுபுறம் நகர விசையை அழுத்து."
+
+#~ msgid "Key press to move right."
+#~ msgstr "வலதுபுறம் நகர விசையை அழுத்து."
+
+#~ msgid "Key press to move down."
+#~ msgstr "கீழே நகர விசையை அழுத்தவும்"
+
+#~ msgid "Key press to drop."
+#~ msgstr "விழுவதற்கு விசையை அழுத்தவும்"
+
+#~ msgid "Key press to rotate."
+#~ msgstr "சுழற்றுவதற்கான விசையை அழுத்தவும்"
+
+#~ msgid "Key press to pause."
+#~ msgstr "தாமதிக்க விசையை அழுத்தவும்"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "கோப்பு செல்லுபடியாகும்  .desktop கோப்பு அல்ல"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "அடையாளம் காண இயலாத மேல்மேசை கோப்பு `%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s ஐ துவக்குகிறது"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "பயன்பாடு கட்டளை வரியில் ஆவணங்களை ஒப்புக்கொள்ளாது"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "அடையாளம் காண இயலாத துவக்க தேர்வு : %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "'Type=Link' மேல்மேசை உள்ளீடுக்கு ஆவண யூஆர்ஐ ஐ கொடுக்க இயலாது"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "துவக்க முடியாத உருப்படி"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "அமர்வு மேலாளருக்கு இணைப்பை செயல் நீக்கு"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "சேமித்த வடிவமைப்பு உள்ள கோப்பை குறிப்பிடுக"
+
+#~ msgid "FILE"
+#~ msgstr "FILE"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "அமர்வு மேலாண்மை அடையாளத்தை குறிப்பிடுக"
+
+#~ msgid "ID"
+#~ msgstr "ஐடி (ID)"
+
+#~ msgid "Session management options:"
+#~ msgstr "அமர்வு மேலாண்மை தேர்வுகள்:"
+
+#~ msgid "Show session management options"
+#~ msgstr "அமர்வு மேலாணமை தேர்வுகளை காட்டு"
 
 #~ msgid "Player Chat"
 #~ msgstr "விளையாடுபவரின் அரட்டை"

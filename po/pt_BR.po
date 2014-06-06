@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-28 14:59-0300\n"
 "Last-Translator: Vladimir Melo <vmelo@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -39,9 +39,9 @@ msgstr "Pausado"
 msgid "Game Over"
 msgstr "Fim do jogo"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -49,160 +49,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Encaixe blocos que estão caindo"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Imagem para usar para desenhar os blocos"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Imagem para usar para desenhar os blocos."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "O tema para usar para desenhar os blocos"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "O nome do tema usado para desenhar os blocos e o plano de fundo."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Nível inicial"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Nível inicial do jogo."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Usar a imagem do plano de fundo"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Isto seleciona se deve desenhar a imagem do plano de fundo sobre a cor do "
-"plano de fundo."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "A cor do plano de fundo"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "A cor do plano de fundo, num formato que gdk_color_parse entende."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Visualizar ou não o bloco seguinte"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Visualiza o bloco seguinte."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Mostrar um alvo"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Mostra uma representação gráfica de onde o bloco cairá."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Dar ou não cores aleatórias aos blocos"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Dá cores aleatórias aos blocos."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Girar no sentido anti-horário"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Gira ou não no sentido anti-horário."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "O número de linhas a preencher"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"O número de linhas que estarão preenchidas com blocos randômicos no começo "
-"do jogo."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "A densidade das linhas preenchidas"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"A densidade de blocos em linhas preenchidas no começo do jogo. O valor pode "
-"variar entre 0 (nenhum bloco) e 10 (pra uma coluna completamente cheia)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Ir para esquerda"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Tecla para mover à esquerda."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Ir para a direita"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Tecla para mover à direita."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Move para baixo"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Tecla para mover para baixo."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Soltar"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Tecla para soltar."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Girar"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Tecla para girar."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pausar"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Tecla para pausar."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Definir nível inicial (1 ou maior)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "NÍVEL"
 
@@ -246,74 +97,98 @@ msgstr "_Configurações"
 msgid "_Help"
 msgstr "Aj_uda"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Preferências do Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Jogo"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Configurações"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Número de linhas já preenchidas:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Densidade de blocos nas linhas já preenchidas:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "Nível _inicial:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Operação"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Habilitar sons"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Visualizar próximo bloco"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Usar cores dos blocos aleatórias"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Girar blocos no sentido anti-horário"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Mostrar _onde o bloco vai cair"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Controles"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Controle por teclado"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Ir para esquerda"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Ir para a direita"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Move para baixo"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Soltar"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Girar"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pausar"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Estilo dos blocos"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -323,11 +198,11 @@ msgstr ""
 "\n"
 "Gnometris faz parte do GNOME Games."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Site do GNOME Games"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
@@ -344,71 +219,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Pontuações do Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "O arquivo não é um arquivo .desktop válido"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Versão de arquivo desktop não reconhecida \"%s\""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Iniciando %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "O aplicativo não aceita documentos na linha de comando"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Opção de lançamento não reconhecida: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Não é possível passar as URIs do documento para uma entrada de desktop do "
-"tipo \"link\""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Não é um item lançável"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Desabilitar a conexão para o gerenciador de sessão"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Especificar o arquivo que contém a configuração salva"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "ARQUIVO"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Especificar o ID de gerenciamento de sessão"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Opções de gerenciamento de sessão:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Mostrar as opções de gerenciamento de sessões"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -634,6 +444,149 @@ msgstr ""
 "Você deve ter recebido uma cópia da Licença Pública Geral GNU (GPL) junto "
 "com %s; se não, escreva para a Free Software Foundation, Inc., 51 Franklin "
 "Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Imagem para usar para desenhar os blocos"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Imagem para usar para desenhar os blocos."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "O tema para usar para desenhar os blocos"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "O nome do tema usado para desenhar os blocos e o plano de fundo."
+
+#~ msgid "Level to start with"
+#~ msgstr "Nível inicial"
+
+#~ msgid "Level to start with."
+#~ msgstr "Nível inicial do jogo."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Usar a imagem do plano de fundo"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Isto seleciona se deve desenhar a imagem do plano de fundo sobre a cor do "
+#~ "plano de fundo."
+
+#~ msgid "The background color"
+#~ msgstr "A cor do plano de fundo"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "A cor do plano de fundo, num formato que gdk_color_parse entende."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Visualizar ou não o bloco seguinte"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Visualiza o bloco seguinte."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Mostrar um alvo"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Mostra uma representação gráfica de onde o bloco cairá."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Dar ou não cores aleatórias aos blocos"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Dá cores aleatórias aos blocos."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Girar no sentido anti-horário"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Gira ou não no sentido anti-horário."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "O número de linhas a preencher"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "O número de linhas que estarão preenchidas com blocos randômicos no "
+#~ "começo do jogo."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "A densidade das linhas preenchidas"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "A densidade de blocos em linhas preenchidas no começo do jogo. O valor "
+#~ "pode variar entre 0 (nenhum bloco) e 10 (pra uma coluna completamente "
+#~ "cheia)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Tecla para mover à esquerda."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Tecla para mover à direita."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tecla para mover para baixo."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tecla para soltar."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tecla para girar."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tecla para pausar."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "O arquivo não é um arquivo .desktop válido"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Versão de arquivo desktop não reconhecida \"%s\""
+
+#~ msgid "Starting %s"
+#~ msgstr "Iniciando %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "O aplicativo não aceita documentos na linha de comando"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Opção de lançamento não reconhecida: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Não é possível passar as URIs do documento para uma entrada de desktop do "
+#~ "tipo \"link\""
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Não é um item lançável"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Desabilitar a conexão para o gerenciador de sessão"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Especificar o arquivo que contém a configuração salva"
+
+#~ msgid "FILE"
+#~ msgstr "ARQUIVO"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Especificar o ID de gerenciamento de sessão"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Opções de gerenciamento de sessão:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Mostrar as opções de gerenciamento de sessões"
 
 #~ msgid "Player Chat"
 #~ msgstr "Bate-papo"
@@ -6713,14 +6666,14 @@ msgstr ""
 #~ msgid ""
 #~ "%(move)s White %(piece)s moves from %(start)s to %(end)s (%(result)s)"
 #~ msgstr ""
-#~ "%(move)s %(piece)s de cor branca move de %(start)s para %(end)s (%(result)"
-#~ "s)"
+#~ "%(move)s %(piece)s de cor branca move de %(start)s para %(end)s "
+#~ "(%(result)s)"
 
 #~ msgid ""
 #~ "%(move)s Black %(piece)s moves from %(start)s to %(end)s (%(result)s)"
 #~ msgstr ""
-#~ "%(move)s %(piece)s de cor preta move de %(start)s para %(end)s (%(result)"
-#~ "s)"
+#~ "%(move)s %(piece)s de cor preta move de %(start)s para %(end)s "
+#~ "(%(result)s)"
 
 #~ msgid "a"
 #~ msgstr "a"

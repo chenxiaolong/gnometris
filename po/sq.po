@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2006-03-02 21:11+0100\n"
 "Last-Translator: Elian Myftiu <elian@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -25,9 +25,9 @@ msgstr "E pezulluar"
 msgid "Game Over"
 msgstr "Loja Mbarojë"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -35,158 +35,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Përshtat blloqet që bien bashkë"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Imazhi i blloqeve"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Imazhi i blloqeve."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Tema e përdorur për paraqitjen e blloqeve"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Emri i temës i përdorur për paraqitjen e blloqeve dhe sfondit."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Niveli fillestar"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Niveli fillestar."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Nëse duhet përdorur figura e sfondit"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Kjo vendos nëse duhet apo jo vizatuar figura e sfondit mbi ngjyrën e sfondit."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Ngjyra e sfondit"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Ngjyra e sfondit, e formatit të kuptueshëm nga gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Shfaq bllokun që vjen më pas"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Shfaq bllokun që vjen më pas."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Nëse duhet të shfaqë një shënjestër"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Nëse duhet të të tregojë ku do të bjerë blloku."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Nëse blloqet duhen ngjyrosur rastësisht"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Nëse blloqet duhen ngjyrosur rastësisht."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Rrotullo numuruesin sipas akrepave"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Rrotullo numuruesin sipas akrepave."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Numri i rreshtave për tu mbushur"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Numri i rreshtave që janë të mbushur rastësisht me blloqe në fillim të lojës."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Dendësia e rreshtave të mbushur"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Dendësia e blloqeve në fillim të lojës. Vlera shkon midis 0 (asnjë bllok) "
-"dhe 10 (për një rresht të mbushur me blloqe)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Lëviz majtas"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Tasti për të lëvizur majtas."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Lëviz djathtas"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Tasti për të lëvizur djathtas."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Lëviz poshtë"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Tasti për të lëvizur poshtë."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Hidh"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Tasti për të hedhur."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Rrotullo"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Tasti për të rrotulluar."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pezullo"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Tasti për të pezulluar."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Cakto nivelin e fillimit (1 ose më i madh)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "NIVELI"
 
@@ -230,158 +83,117 @@ msgstr "_Rregullime"
 msgid "_Help"
 msgstr "_Ndihmë"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Preferimet e Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Loja"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Rregullimi"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Numri i rreshtave të paraplotësuar:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Dendësia e blloqeve në një rresht të paraplotësuar:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "Niveli _Fillestar:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Veprimi"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Aktivizo tingujt"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "Pa_rashiko bllokun që vjen"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Përdor ngjyra të rastësishme blloku"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rrotullo blloqet kundrejt akrepave"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 #, fuzzy
 msgid "Show _where the block will land"
 msgstr "Trego ku do të _bjerë blloku"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Kontrollet"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Kontrollet e Tastierës"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Lëviz majtas"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Lëviz djathtas"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Lëviz poshtë"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Hidh"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Rrotullo"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pezullo"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Stili i Bllokut"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Serveri i lojës GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "Elian Myftiu <elian@alblinux.net>"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Rezultatet e Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "_Rregullime"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "Cakto konfigurimin e lojës"
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "FILE"
-msgstr "EMRIFILE"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -603,6 +415,116 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Imazhi i blloqeve"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Imazhi i blloqeve."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Tema e përdorur për paraqitjen e blloqeve"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Emri i temës i përdorur për paraqitjen e blloqeve dhe sfondit."
+
+#~ msgid "Level to start with"
+#~ msgstr "Niveli fillestar"
+
+#~ msgid "Level to start with."
+#~ msgstr "Niveli fillestar."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Nëse duhet përdorur figura e sfondit"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Kjo vendos nëse duhet apo jo vizatuar figura e sfondit mbi ngjyrën e "
+#~ "sfondit."
+
+#~ msgid "The background color"
+#~ msgstr "Ngjyra e sfondit"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Ngjyra e sfondit, e formatit të kuptueshëm nga gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Shfaq bllokun që vjen më pas"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Shfaq bllokun që vjen më pas."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Nëse duhet të shfaqë një shënjestër"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Nëse duhet të të tregojë ku do të bjerë blloku."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Nëse blloqet duhen ngjyrosur rastësisht"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Nëse blloqet duhen ngjyrosur rastësisht."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Rrotullo numuruesin sipas akrepave"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Rrotullo numuruesin sipas akrepave."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Numri i rreshtave për tu mbushur"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Numri i rreshtave që janë të mbushur rastësisht me blloqe në fillim të "
+#~ "lojës."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Dendësia e rreshtave të mbushur"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Dendësia e blloqeve në fillim të lojës. Vlera shkon midis 0 (asnjë bllok) "
+#~ "dhe 10 (për një rresht të mbushur me blloqe)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Tasti për të lëvizur majtas."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Tasti për të lëvizur djathtas."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tasti për të lëvizur poshtë."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tasti për të hedhur."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tasti për të rrotulluar."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tasti për të pezulluar."
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "_Rregullime"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Cakto konfigurimin e lojës"
+
+#, fuzzy
+#~ msgid "FILE"
+#~ msgstr "EMRIFILE"
 
 #, fuzzy
 #~ msgid "Player Chat"

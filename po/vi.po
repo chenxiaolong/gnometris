@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games TRUNK\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-10 00:52+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -27,9 +27,9 @@ msgstr "Đã tạm dừng"
 msgid "Game Over"
 msgstr "Hết lượt chơi"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -37,156 +37,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Khớp khối đang rơi xuống"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Ảnh dùng để vẽ các khối"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Ảnh dùng để vẽ các khối."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Sắc thái dùng để vẽ các khối"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Tên của sắc thái dùng để vẽ các khối và nền."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Cấp độ sơ khởi"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Cấp độ sơ khơi."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Có nên dùng ảnh nền hay không"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "Có nên vẽ ảnh nền ở trên màu nền hay không."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Màu nền"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Màu nên dạng mà gdk_color_parse (gdk phân tách màu) có hiểu được."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Có nên xem trước khối tiếp theo hay không"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Có nên xem trước khối tiếp theo hay không."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Có nên cung cấp đích hay không"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Có nên cung cấp sự tiêu biểu đồ họa của nơi sẽ nhận khối."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Có nên đặt màu ngẫu nhiên cho các khối không"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Có nên lấy màu ngẫu nhiên cho các khối hay không."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Có nên xoay theo ngược chiều kim đồng hồ hay không"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Có nên xoay theo ngược chiều kim đồng hồ hay không."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Số lượng hàng cần điền đầy"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Số lượng hàng đã điền đầy vơi khối ngẫu nhiên trước khi bắt đầu chơi."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Mật độ khối trong hàng được điền trước"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Số khối trong hàng đã điền đầy hoàn thành trước khi bắt đầu chơi. Có giá trị "
-"giữa 0 (không có khối) và 10 (hàng khối hoàn thành)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Sang trái"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Nhấn phím để di chuyển trái."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Sang phải"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Nhấn phím để di chuyển phải."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Chuyển xuống"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Nhấn phím để di chuyển xuống."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Thả"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Nhấn phím để thả một khối."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Xoay"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Nhấn phím để xoay."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Tạm dừng"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Nhấn phím để tạm đừng."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Lập cấp khởi đầu (1 hay nhiều hơn)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "CẤP"
 
@@ -230,74 +85,98 @@ msgstr "Thiết _lập"
 msgid "_Help"
 msgstr "Trợ _giúp"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Tùy thích Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Trò chơi"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Thiết lập"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "Số các hàng được đ_iền trước:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Mật độ của các khối trong hàng được điền trước:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "Cấp _khởi đầu:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Thao tác"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "Bật â_m thanh"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Xem trước khối tiếp theo"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "Dùng màu sắc khối _ngẫu nhiên"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Xoay theo ngược chiều kim đồng hồ"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Hiện nơi sẽ _nhận khối"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Sắc thái"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Điều khiển"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Điều khiển bàn phím:"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Sang trái"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Sang phải"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Chuyển xuống"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Thả"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Xoay"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Tạm dừng"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Kiểu dạng khối"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -307,82 +186,17 @@ msgstr ""
 "\n"
 "Gnometris thuộc về Trờ chơi GNOME."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Nơi Mạng Trò chơi GNOME"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "Nhóm Việt hóa GNOME (http://gnomevi.sourceforge.net)"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Điểm Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Tập tin không phải là một tập tin .desktop hợp lệ"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Không nhận ra tập tin môi trường Phiên bản « %s »"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Đang khởi chạy %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Ứng dụng không chấp nhận tài liệu trên dòng lệnh"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Không nhận ra tuỳ chọn khởi chạy: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Không thể gửi địa chỉ URI của tài liệu cho một mục nhập môi trường « "
-"Type=Link » (Kiểu=Liên kết)"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Không phải một mục có thể khởi chạy được"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Tắt kết nối đến trình quản lý buổi hợp"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Xác định tập tin chứa cấu hình đã lưu"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "TẬP TIN"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Xác định mã số quản lý buổi hợp"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "Mã số"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Tuỳ chọn quản lý buổi hợp:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Hiển thị các tuỳ chọn về chức năng quản lý buổi hợp"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -610,6 +424,145 @@ msgstr ""
 "Free Software Foundation, Inc.,\n"
 "51 Franklin Street, Fifth Floor,\n"
 "Boston, MA  02110-1301, USA (Mỹ)."
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Ảnh dùng để vẽ các khối"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Ảnh dùng để vẽ các khối."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Sắc thái dùng để vẽ các khối"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Tên của sắc thái dùng để vẽ các khối và nền."
+
+#~ msgid "Level to start with"
+#~ msgstr "Cấp độ sơ khởi"
+
+#~ msgid "Level to start with."
+#~ msgstr "Cấp độ sơ khơi."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Có nên dùng ảnh nền hay không"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "Có nên vẽ ảnh nền ở trên màu nền hay không."
+
+#~ msgid "The background color"
+#~ msgstr "Màu nền"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Màu nên dạng mà gdk_color_parse (gdk phân tách màu) có hiểu được."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Có nên xem trước khối tiếp theo hay không"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Có nên xem trước khối tiếp theo hay không."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Có nên cung cấp đích hay không"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Có nên cung cấp sự tiêu biểu đồ họa của nơi sẽ nhận khối."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Có nên đặt màu ngẫu nhiên cho các khối không"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Có nên lấy màu ngẫu nhiên cho các khối hay không."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Có nên xoay theo ngược chiều kim đồng hồ hay không"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Có nên xoay theo ngược chiều kim đồng hồ hay không."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Số lượng hàng cần điền đầy"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Số lượng hàng đã điền đầy vơi khối ngẫu nhiên trước khi bắt đầu chơi."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Mật độ khối trong hàng được điền trước"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Số khối trong hàng đã điền đầy hoàn thành trước khi bắt đầu chơi. Có giá "
+#~ "trị giữa 0 (không có khối) và 10 (hàng khối hoàn thành)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Nhấn phím để di chuyển trái."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Nhấn phím để di chuyển phải."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Nhấn phím để di chuyển xuống."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Nhấn phím để thả một khối."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Nhấn phím để xoay."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Nhấn phím để tạm đừng."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Tập tin không phải là một tập tin .desktop hợp lệ"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Không nhận ra tập tin môi trường Phiên bản « %s »"
+
+#~ msgid "Starting %s"
+#~ msgstr "Đang khởi chạy %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Ứng dụng không chấp nhận tài liệu trên dòng lệnh"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Không nhận ra tuỳ chọn khởi chạy: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Không thể gửi địa chỉ URI của tài liệu cho một mục nhập môi trường « "
+#~ "Type=Link » (Kiểu=Liên kết)"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Không phải một mục có thể khởi chạy được"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Tắt kết nối đến trình quản lý buổi hợp"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Xác định tập tin chứa cấu hình đã lưu"
+
+#~ msgid "FILE"
+#~ msgstr "TẬP TIN"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Xác định mã số quản lý buổi hợp"
+
+#~ msgid "ID"
+#~ msgstr "Mã số"
+
+#~ msgid "Session management options:"
+#~ msgstr "Tuỳ chọn quản lý buổi hợp:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Hiển thị các tuỳ chọn về chức năng quản lý buổi hợp"
 
 #~ msgid "Player Chat"
 #~ msgstr "Trò chuyện người chơi"

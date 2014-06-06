@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2005-02-28 16:05+0200\n"
 "Last-Translator: Canonical Ltd <translations@canonical.com>\n"
 "Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
@@ -26,9 +26,9 @@ msgstr "Iphumle"
 msgid "Game Over"
 msgstr "Umdlalo Uphelile"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "I-Gnometris"
 
@@ -36,161 +36,12 @@ msgstr "I-Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Dibanisa iibhloko eziwayo"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-#, fuzzy
-msgid "The theme used for rendering the blocks"
-msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Inqanaba emakuqalwe ngalo"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Inqanaba emakuqalwe ngalo."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Nokuba ngaba umfanekiso wangasemva usetyenziswe na"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Le ikhetha ukuba umfanekiso wokuvela ngasemva uzotywe ngaphezu kombala "
-"wokuvela ngasemva na okanye hayi."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Umbala wokuvela ngasemva"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Umbala wokuvela ngasemva, ngendlela eyaziwayo yi-gdk_color_parse."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Nokuba ngaba uqale uyijonge ibhloko elandelayo"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Nokuba ngaba uqale uyijonge ibhloko elandelayo."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-#, fuzzy
-msgid "Whether to provide a target"
-msgstr "Nokuba ngaba uqale uyijonge ibhloko elandelayo"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Nokuba ngaba iibhloko zinikwe imibala engakhethwanga na"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Nokuba ngaba iibhloko zinikwe imibala engakhethwanga na."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Nokuba ngaba ujikelezisele ngakwicala eliphikisana nelewotshi na"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Nokuba ngaba ujikelezisele ngakwicala eliphikisana nelewotshi na."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Inani lemigca emayizaliswe"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Inani lemigca elineebhloko ezingamiselwanga ekuqaleni komdlalo."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Uxinano lwemigca enento"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Uxinano lwee-bhloko kwimigca enento ekuqaleni komdlalo. Ixabiso liphakathi "
-"kuka-0 (xa kungekho zibhloko) kunye ne-10 (kumgca ozele qhu)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Yiya ngasekhohlo"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Ukucofa iqhosha ukuya ngasekhohlo."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Yiya ngasekunene"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Ukucofa iqhosha ukuya ngasekunene."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Yiya ngezantsi"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Iqhosha emalicinezelwe ukuya ngasezantsi."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Wisa"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Iqhosha emalicinezelwe ukuwisa."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Jikelezisa"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Iqhosha emalicinezelwe ukujikelezisa."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Phumla"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Iqhosha emalicinezelwe ukuphumla."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 #, fuzzy
 msgid "Set starting level (1 or greater)"
 msgstr "Misela inqanaba emakuqalwe kulo (1-10)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "INQANABA"
 
@@ -236,95 +87,119 @@ msgstr ""
 msgid "_Help"
 msgstr "_Uncedo"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 #, fuzzy
 msgid "Gnometris Preferences"
 msgstr "Izinto ezikhethekayo ze-Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Umdlalo"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Ukumisela inkqubo"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 #, fuzzy
 msgid "_Number of pre-filled rows:"
 msgstr "Inani lemigca esele izalisiwe:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Uxinano lweebhloko kumgca osele uzalisiwe:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 #, fuzzy
 msgid "_Starting level:"
 msgstr "Inqanaba ekuqalwa kulo:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Umsebenzi"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 #, fuzzy
 msgid "_Enable sounds"
 msgstr "Yenza izandi zisebenze"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 #, fuzzy
 msgid "_Preview next block"
 msgstr "Qala ujonge ibhloko elandelayo"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 #, fuzzy
 msgid "_Use random block colors"
 msgstr "Sebenzisa imibala yeebloko engakhethwanga"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 #, fuzzy
 msgid "_Rotate blocks counterclockwise"
 msgstr "Jikelezisa iibhloko ziye ngakwicala eliphikisana nelewotshi"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Isihloko"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Izilawuli"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Izilawuli Ze-keyboard"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Yiya ngasekhohlo"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Yiya ngasekunene"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Yiya ngezantsi"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Wisa"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Jikelezisa"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Phumla"
+
+#: ../gnometris/tetris.cpp:797
 #, fuzzy
 msgid "Block Style"
 msgstr "Ibhloko yeshumi"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Iseva yomdlalo"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "Canonical Ltd <translations@canonical.com>"
 
@@ -332,71 +207,6 @@ msgstr "Canonical Ltd <translations@canonical.com>"
 #, fuzzy
 msgid "Gnometris Scores"
 msgstr "I-Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "Inqanaba ekuqalwa kulo:"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "Misela umiliselo lomdlalo"
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "FILE"
-msgstr "IGAMA LEFAYILI"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -633,6 +443,108 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko."
+
+#, fuzzy
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko"
+
+#~ msgid "Level to start with"
+#~ msgstr "Inqanaba emakuqalwe ngalo"
+
+#~ msgid "Level to start with."
+#~ msgstr "Inqanaba emakuqalwe ngalo."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Nokuba ngaba umfanekiso wangasemva usetyenziswe na"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Le ikhetha ukuba umfanekiso wokuvela ngasemva uzotywe ngaphezu kombala "
+#~ "wokuvela ngasemva na okanye hayi."
+
+#~ msgid "The background color"
+#~ msgstr "Umbala wokuvela ngasemva"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Umbala wokuvela ngasemva, ngendlela eyaziwayo yi-gdk_color_parse."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Nokuba ngaba uqale uyijonge ibhloko elandelayo"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Nokuba ngaba uqale uyijonge ibhloko elandelayo."
+
+#, fuzzy
+#~ msgid "Whether to provide a target"
+#~ msgstr "Nokuba ngaba uqale uyijonge ibhloko elandelayo"
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Nokuba ngaba iibhloko zinikwe imibala engakhethwanga na"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Nokuba ngaba iibhloko zinikwe imibala engakhethwanga na."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Nokuba ngaba ujikelezisele ngakwicala eliphikisana nelewotshi na"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Nokuba ngaba ujikelezisele ngakwicala eliphikisana nelewotshi na."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Inani lemigca emayizaliswe"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "Inani lemigca elineebhloko ezingamiselwanga ekuqaleni komdlalo."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Uxinano lwemigca enento"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Uxinano lwee-bhloko kwimigca enento ekuqaleni komdlalo. Ixabiso "
+#~ "liphakathi kuka-0 (xa kungekho zibhloko) kunye ne-10 (kumgca ozele qhu)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Ukucofa iqhosha ukuya ngasekhohlo."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Ukucofa iqhosha ukuya ngasekunene."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Iqhosha emalicinezelwe ukuya ngasezantsi."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Iqhosha emalicinezelwe ukuwisa."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Iqhosha emalicinezelwe ukujikelezisa."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Iqhosha emalicinezelwe ukuphumla."
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "Inqanaba ekuqalwa kulo:"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Misela umiliselo lomdlalo"
+
+#, fuzzy
+#~ msgid "FILE"
+#~ msgstr "IGAMA LEFAYILI"
 
 #, fuzzy
 #~ msgid "Player Chat"

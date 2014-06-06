@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2008-01-25 13:49+0530\n"
 "Last-Translator: Sangeeta Kumari\n"
 "Language-Team:  <en@li.org>\n"
@@ -27,9 +27,9 @@ msgstr "ठहरू"
 msgid "Game Over"
 msgstr "खेल खत्म"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "गनोमेट्रिस"
 
@@ -37,156 +37,11 @@ msgstr "गनोमेट्रिस"
 msgid "Fit falling blocks together"
 msgstr "गिरैत पिण्डकेँ आपसमे जमाउ"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "पिण्ड बनाबै लेल उपयोगमे बिंब"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "पिण्ड बनाबै लेल उपयोगमे बिंब."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "ब्लॉक बनाबै लेल उपयोगमे प्रसंग"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "ब्लॉक आ पृष्ठभूमि रेंडर करब क' लेल प्रयुक्त थीम क' नाम."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "स्तर जकरासँ प्रारंभ कएनाइ अछि"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "स्तर जकरासँ प्रारंभ कएनाइ अछि."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "की पृष्ठभूमि बिंब क' प्रयोग कएनाइ अछि"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "ई चुनैत अछि जे की पृष्ठभूमि रँग क' उप्पर पृष्ठभूमि बिंबकेँ घीँचल जएनाइ अछि जे नहि"
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "पृष्ठभूमि रँग"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "पृष्ठभूमि रँग, gdk_color_parseकेँ समझए बला प्रारूपमे."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "की अगिला पिण्ड क' पूर्वावलोकन करू"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "की अगिला पिण्ड क' पूर्वावलोकन करू."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "की लक्ष्य देल जएनाइ अछि"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "की आलेखीय प्रतिरूपण देल जएनाइ अछि जे कतए ब्लॉक रहताह."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "की पिण्डकेँ बेतरतीब रँग दिअ'"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "की पिण्डकेँ बेतरतीब रँग दिअ'."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "की घड़ी क' विपरीत दिशामे घुरैनाइ अछि"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "की घड़ी क' विपरीत दिशामे घुरैनाइ अछि."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "भरबाक लेल पंक्ति क' सँख्या "
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "खेल प्रारंभ हए पर पंक्ति क' सँख्या जे बेतरतीब पिण्डसँ भरल हुए."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "भरल पँक्ति क' घनत्व"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"खेल प्रारंभ हए पर पंक्तिमे भरल जाए बला पिण्ड क' घनत्व. मान अछि- 0 (कोनो पिण्ड नहि) सँ "
-"लए क' 10 (सौंसे भरल पंक्ति लेल)"
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "बायाँ जाउ"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "बामाँ लए जाए लेल कुँजी दाबू."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "दाँया जाउ"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "दायाँ लए जाए लेल कुँजी दाबू."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "नीच्चाँ जाउ"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "नीच्चाँ लए जाए लेल कुँजी दाबू."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "छोड़ू"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "कँचा छोड़ब लेल कुँजी दाबू."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "घुमाबू"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "घुमाबै लेल कुँजी दाबू."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "ठहरू"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "रोकबाक लेल कुँजी दाबू."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "प्रारंभिक स्तर नियत करू (1 अथवा बेसी पैघ)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "स्तर"
 
@@ -230,155 +85,115 @@ msgstr "जमावट (_S)"
 msgid "_Help"
 msgstr "मद्दति (_H)"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "ग्नोमेट्रिस वरीयतासभ"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "खेल"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "सेटअप"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "पहिले सँ भरल पंक्ति क' सँख्या (_N)"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "पहिलेसँ भरल पंक्तिमे पिण्ड क' घनत्व (_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "लेबल शुरू कए रहल अछि (_S):"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "सँक्रिया"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "ध्वनिसभ सक्षम करू (_E)"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "अगिला पिण्ड क' पूर्वावलोकन (_P)"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "क्रमहीन ब्लॉक रँग क' प्रयोग करू (_U)"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "वामावर्त दिशामे पिण्डकेँ घुराबू (_R)"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "देखाबू जे कतए ब्लॉक रहताह (_w)"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "प्रसंग"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "नियंत्रक"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "कुँजीपटल नियंत्रण"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "बायाँ जाउ"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "दाँया जाउ"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "नीच्चाँ जाउ"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "छोड़ू"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "घुमाबू"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "ठहरू"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "ब्लाक शैली"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr "संगीता कुमारी (sangeeta09@gmail.com)"
 
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "गनोमेट्रिस स्कोर"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: अपरिचित विकल्प `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "जमावट (_S)"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: अपरिचित विकल्प `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "खेल क' विन्यास तय करू"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -605,6 +420,116 @@ msgstr ""
 "अहाँक GNU जनरल पब्लिक लाइसेंस क' एकटा कॉपी %s क' सँग प्राप्त कएनाइ चाही; जँ नहि, "
 "Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
 "02110-1301, USAकेँ लिखू."
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "पिण्ड बनाबै लेल उपयोगमे बिंब"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "पिण्ड बनाबै लेल उपयोगमे बिंब."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "ब्लॉक बनाबै लेल उपयोगमे प्रसंग"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "ब्लॉक आ पृष्ठभूमि रेंडर करब क' लेल प्रयुक्त थीम क' नाम."
+
+#~ msgid "Level to start with"
+#~ msgstr "स्तर जकरासँ प्रारंभ कएनाइ अछि"
+
+#~ msgid "Level to start with."
+#~ msgstr "स्तर जकरासँ प्रारंभ कएनाइ अछि."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "की पृष्ठभूमि बिंब क' प्रयोग कएनाइ अछि"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "ई चुनैत अछि जे की पृष्ठभूमि रँग क' उप्पर पृष्ठभूमि बिंबकेँ घीँचल जएनाइ अछि जे नहि"
+
+#~ msgid "The background color"
+#~ msgstr "पृष्ठभूमि रँग"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "पृष्ठभूमि रँग, gdk_color_parseकेँ समझए बला प्रारूपमे."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "की अगिला पिण्ड क' पूर्वावलोकन करू"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "की अगिला पिण्ड क' पूर्वावलोकन करू."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "की लक्ष्य देल जएनाइ अछि"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "की आलेखीय प्रतिरूपण देल जएनाइ अछि जे कतए ब्लॉक रहताह."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "की पिण्डकेँ बेतरतीब रँग दिअ'"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "की पिण्डकेँ बेतरतीब रँग दिअ'."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "की घड़ी क' विपरीत दिशामे घुरैनाइ अछि"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "की घड़ी क' विपरीत दिशामे घुरैनाइ अछि."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "भरबाक लेल पंक्ति क' सँख्या "
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "खेल प्रारंभ हए पर पंक्ति क' सँख्या जे बेतरतीब पिण्डसँ भरल हुए."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "भरल पँक्ति क' घनत्व"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "खेल प्रारंभ हए पर पंक्तिमे भरल जाए बला पिण्ड क' घनत्व. मान अछि- 0 (कोनो पिण्ड नहि) "
+#~ "सँ लए क' 10 (सौंसे भरल पंक्ति लेल)"
+
+#~ msgid "Key press to move left."
+#~ msgstr "बामाँ लए जाए लेल कुँजी दाबू."
+
+#~ msgid "Key press to move right."
+#~ msgstr "दायाँ लए जाए लेल कुँजी दाबू."
+
+#~ msgid "Key press to move down."
+#~ msgstr "नीच्चाँ लए जाए लेल कुँजी दाबू."
+
+#~ msgid "Key press to drop."
+#~ msgstr "कँचा छोड़ब लेल कुँजी दाबू."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "घुमाबै लेल कुँजी दाबू."
+
+#~ msgid "Key press to pause."
+#~ msgstr "रोकबाक लेल कुँजी दाबू."
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: अपरिचित विकल्प `--%s'\n"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "जमावट (_S)"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: अपरिचित विकल्प `--%s'\n"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "खेल क' विन्यास तय करू"
 
 #~ msgid "Player Chat"
 #~ msgstr "खेलाड़ी चैट"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-19 10:50+0300\n"
 "Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
@@ -28,9 +28,9 @@ msgstr "Keskeytetty"
 msgid "Game Over"
 msgstr "Peli loppu"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -38,156 +38,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Sovita putoavat palikat yhteen"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Palikoiden piirtämiseen käytetty kuva"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Palikoiden piirtämiseen käytetty kuva."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Palikoiden piirtämiseen käytetty teema"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Palikoiden ja taustan piirtoon käytetyn teeman nimi."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Aloituskenttä"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Aloituskenttä."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Käytetäänkö taustakuvaa?"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "Valitsee piirretäänkö taustakuva taustavärin päälle."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Taustan väri"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Taustan väri, gdk_color_parsen ymmärtämässä muodossa."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Tulisiko näyttää seuraavan palikan esikatselu"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Tulisiko näyttää seuraavan palikan esikatselu."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Näytetäänkö kohde"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Näytetäänkö palikan laskeutumispaikka pelissä graafisesti etukäteen."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Tulisiko palikoille antaa satunnaiset värit"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Tulisiko palikoille antaa satunnaiset värit."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Pyöritetäänkö vastapäivään"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Pyöritetäänkö vastapäivään."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Täytettävien rivien lukumäärä"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Rivien lukumäärä mitä täytetään satunnaisilla palikoilla pelin alussa."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Täytetyn rivin tiheys"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Täytettyjen rivien palikkatiheys pelin alussa. Arvo on välillä 0 (ei "
-"palikoita) ja 10 (täysin täytetty rivi)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Siirry vasemmalle"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Näppäin vasemmalle siirtämiseen."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Siirry oikealle"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Näppäin oikealle siirtämiseen."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Liikuta alas"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Näppäin alas siirtämiseen."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Tiputa"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Näppäin tiputtamiseen."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Pyöritä"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Näppäin kierittämiseen."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Keskeytä"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Taukonäppäin."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Aseta aloitustaso (1 tai suurempi)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "TASO"
 
@@ -231,74 +86,98 @@ msgstr "_Asetukset"
 msgid "_Help"
 msgstr "O_hje"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Gnometrisin asetukset"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Peli"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Asetukset"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Esitäytettyjen rivien määrä:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "E_sitäytetyn rivin vahvuus:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Aloitustaso:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Toiminta"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "Ää_net päälle"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "Se_uraavan palikan esikatselu"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "Käytä _sattumanvaraisia palikan värejä"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Pyöritä palikoita vastapäivään"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Näytä mihin palikka _laskeutuu"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Teema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Ohjaimet"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Näppäimistöohjaus"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Siirry vasemmalle"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Siirry oikealle"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Liikuta alas"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Tiputa"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Pyöritä"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Keskeytä"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Palikoiden tyyli"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -308,11 +187,11 @@ msgstr ""
 "\n"
 "Gnometris on osa Gnomen pelejä."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Gnome-pelien www-sivut"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Timo Jyrinki, 2008\n"
@@ -324,69 +203,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Gnometrisin pisteet"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Tiedosto ei ole kelvollinen .desktop-tiedosto"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Työpöytätiedoston versiota \"%s\" ei tunnistettu"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Käynnistetään %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Ohjelma ei hyväksyä asiakirjoja komentoriviltä"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Tuntematon käynnistysvalitsin: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Asiakirjan URI:a ei voi välittää \"Type=Link\"-työpöytälinkeille"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Ei käynnistettävä kohde"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Estä yhteys istunnonhallintaan"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Anna tiedosto, joka sisältää tallennetut asetukset"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "TIEDOSTO"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Anna istunnonhallinnan tunniste"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "TUNNISTE"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Istunnonhallinnan valitsimet:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Näytä istunnonhallinan valitsimet"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -613,6 +429,144 @@ msgstr ""
 "Ohjelman %s mukana pitäisi tulla kopio GPL-lisenssistä; jos näin ei ole, "
 "kirjoita osoitteeseen Free Software Foundation Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Palikoiden piirtämiseen käytetty kuva"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Palikoiden piirtämiseen käytetty kuva."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Palikoiden piirtämiseen käytetty teema"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Palikoiden ja taustan piirtoon käytetyn teeman nimi."
+
+#~ msgid "Level to start with"
+#~ msgstr "Aloituskenttä"
+
+#~ msgid "Level to start with."
+#~ msgstr "Aloituskenttä."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Käytetäänkö taustakuvaa?"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "Valitsee piirretäänkö taustakuva taustavärin päälle."
+
+#~ msgid "The background color"
+#~ msgstr "Taustan väri"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Taustan väri, gdk_color_parsen ymmärtämässä muodossa."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Tulisiko näyttää seuraavan palikan esikatselu"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Tulisiko näyttää seuraavan palikan esikatselu."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Näytetäänkö kohde"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Näytetäänkö palikan laskeutumispaikka pelissä graafisesti etukäteen."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Tulisiko palikoille antaa satunnaiset värit"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Tulisiko palikoille antaa satunnaiset värit."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Pyöritetäänkö vastapäivään"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Pyöritetäänkö vastapäivään."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Täytettävien rivien lukumäärä"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Rivien lukumäärä mitä täytetään satunnaisilla palikoilla pelin alussa."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Täytetyn rivin tiheys"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Täytettyjen rivien palikkatiheys pelin alussa. Arvo on välillä 0 (ei "
+#~ "palikoita) ja 10 (täysin täytetty rivi)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Näppäin vasemmalle siirtämiseen."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Näppäin oikealle siirtämiseen."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Näppäin alas siirtämiseen."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Näppäin tiputtamiseen."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Näppäin kierittämiseen."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Taukonäppäin."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Tiedosto ei ole kelvollinen .desktop-tiedosto"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Työpöytätiedoston versiota \"%s\" ei tunnistettu"
+
+#~ msgid "Starting %s"
+#~ msgstr "Käynnistetään %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Ohjelma ei hyväksyä asiakirjoja komentoriviltä"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Tuntematon käynnistysvalitsin: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "Asiakirjan URI:a ei voi välittää \"Type=Link\"-työpöytälinkeille"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Ei käynnistettävä kohde"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Estä yhteys istunnonhallintaan"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Anna tiedosto, joka sisältää tallennetut asetukset"
+
+#~ msgid "FILE"
+#~ msgstr "TIEDOSTO"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Anna istunnonhallinnan tunniste"
+
+#~ msgid "ID"
+#~ msgstr "TUNNISTE"
+
+#~ msgid "Session management options:"
+#~ msgstr "Istunnonhallinnan valitsimet:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Näytä istunnonhallinan valitsimet"
 
 #~ msgid "Player Chat"
 #~ msgstr "Pelaajakeskustelut"
@@ -3658,13 +3612,13 @@ msgstr ""
 
 #~ msgid "White queen at %(start)s takes the black knight at %(end)s"
 #~ msgstr ""
-#~ "Valkoinen kuningatar ruudusta %(start)s syö mustan hevosen ruudussa %(end)"
-#~ "s"
+#~ "Valkoinen kuningatar ruudusta %(start)s syö mustan hevosen ruudussa "
+#~ "%(end)s"
 
 #~ msgid "White queen at %(start)s takes the black bishop at %(end)s"
 #~ msgstr ""
-#~ "Valkoinen kuningatar ruudusta %(start)s syö mustan lähetin ruudussa %(end)"
-#~ "s"
+#~ "Valkoinen kuningatar ruudusta %(start)s syö mustan lähetin ruudussa "
+#~ "%(end)s"
 
 #~ msgid "White queen at %(start)s takes the black queen at %(end)s"
 #~ msgstr ""
@@ -3739,8 +3693,8 @@ msgstr ""
 
 #~ msgid "Black rook at %(start)s takes the white queen at %(end)s"
 #~ msgstr ""
-#~ "Musta torni ruudusta %(start)s syö valkoisen kuningattaren ruudussa %(end)"
-#~ "s"
+#~ "Musta torni ruudusta %(start)s syö valkoisen kuningattaren ruudussa "
+#~ "%(end)s"
 
 #~ msgid "Black knight moves from %(start)s to %(end)s"
 #~ msgstr "Musta hevonen siirtyy ruudusta %(start)s ruutuun %(end)s"
@@ -3795,8 +3749,8 @@ msgstr ""
 
 #~ msgid "Black queen at %(start)s takes the white pawn at %(end)s"
 #~ msgstr ""
-#~ "Musta kuningatar ruudusta %(start)s syö valkoisen sotilaan ruudussa %(end)"
-#~ "s"
+#~ "Musta kuningatar ruudusta %(start)s syö valkoisen sotilaan ruudussa "
+#~ "%(end)s"
 
 #~ msgid "Black queen at %(start)s takes the white rook at %(end)s"
 #~ msgstr ""

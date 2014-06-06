@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2009-02-11 22:46+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -28,9 +28,9 @@ msgstr "Gör paus"
 msgid "Game Over"
 msgstr "Spelet är slut"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -38,160 +38,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Passa ihop fallande klossar"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Bild att använda för uppritning av klossar"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Bild att använda för uppritning av klossar."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Temat som används för rendering av klossarna"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Namnet på temat som används för rendering av klossarna och bakgrunden."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Nivå att börja med"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Nivå att börja med."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Huruvida bakgrundsbilden ska användas"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"Detta väljer huruvida bakgrundsbilden ska ritas över bakgrundsfärgen eller "
-"inte."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Bakgrundsfärgen"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Bakgrundsfärgen, i ett format som gdk_color_parse förstår."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Huruvida nästa kloss ska förhandsgranskas"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Huruvida nästa kloss ska förhandsgranskas."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Huruvida ett mål ska tillhandahållas"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Huruvida en grafisk representation ska ges av var en kloss kommer att landa."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Huruvida klossar ska ges slumpmässiga färger"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Huruvida klossar ska ges slumpmässiga färger."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Huruvida rotation ska ske motsols"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Huruvida rotation ska ske motsols."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Antalet rader att fylla"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Antalet rader som är fyllda med slumpmässiga klossar i början på spelet."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Densiteten för ifyllda rader"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Densiteten för klossar i rader som är ifyllda i början av spelet. Värdet är "
-"mellan 0 (för inga klossar) och 10 (för en helt ifylld rad)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Flytta vänster"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Tangenttryck för att flytta till vänster."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Flytta höger"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Tangenttryck för att flytta till höger."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Flytta nedåt"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Tangenttryck för att flytta nedåt."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Släpp"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Tangenttryck för att släppa."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Rotera"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Tangenttryck för att rotera."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Paus"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Tangenttryck för att göra paus."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Ställ in startnivå (1 eller större)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "NIVÅ"
 
@@ -235,74 +86,98 @@ msgstr "_Inställningar"
 msgid "_Help"
 msgstr "_Hjälp"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Inställningar för Gnometris"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Spel"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Konfiguration"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "_Antal förifyllda rader:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Densiteten på klossar i en förifylld rad:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Startnivå:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Åtgärd"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "A_ktivera ljud"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Förhandsgranska nästa kloss"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "_Använd slumpmässiga klossfärger"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotera klossar moturs"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Visa _var klossen kommer att landa"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Styrning"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Tangentbordsstyrning"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Flytta vänster"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Flytta höger"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Flytta nedåt"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Släpp"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Rotera"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Paus"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Stil på klossar"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -312,11 +187,11 @@ msgstr ""
 "\n"
 "Gnometris är en del av GNOME Games."
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr "Webbplatsen för GNOME Games"
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Daniel Nylander\n"
@@ -331,69 +206,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Poänglistan för Gnometris"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Filen är inte en giltig .desktop-fil"
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Okänd Version \"%s\" i desktop-fil"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Startar %s"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Programmet tar inte emot dokument på kommandoraden"
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Okänt startalternativ: %d"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Kan inte skicka dokument-URI:er till en \"Type=Link\"-skrivbordspost"
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Inte ett körbart objekt"
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr "Inaktivera anslutning till sessionshanteraren"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "Specify file containing saved configuration"
-msgstr "Ange fil som innehåller sparad konfiguration"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr "FIL"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr "Ange id för sessionshantering"
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr "ID"
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr "Flaggor för sessionshantering:"
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr "Visa flaggor för sessionshantering"
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -620,6 +432,149 @@ msgstr ""
 "Du bör ha fått en kopia av GNU General Public License tillsammans med %s. Om "
 "inte, skriv till Free Software Foundation, Inc., 51 Franklin Street, Fifth "
 "Floor, Boston, MA  02110-1301, USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Bild att använda för uppritning av klossar"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Bild att använda för uppritning av klossar."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Temat som används för rendering av klossarna"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr ""
+#~ "Namnet på temat som används för rendering av klossarna och bakgrunden."
+
+#~ msgid "Level to start with"
+#~ msgstr "Nivå att börja med"
+
+#~ msgid "Level to start with."
+#~ msgstr "Nivå att börja med."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Huruvida bakgrundsbilden ska användas"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Detta väljer huruvida bakgrundsbilden ska ritas över bakgrundsfärgen "
+#~ "eller inte."
+
+#~ msgid "The background color"
+#~ msgstr "Bakgrundsfärgen"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Bakgrundsfärgen, i ett format som gdk_color_parse förstår."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Huruvida nästa kloss ska förhandsgranskas"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Huruvida nästa kloss ska förhandsgranskas."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Huruvida ett mål ska tillhandahållas"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Huruvida en grafisk representation ska ges av var en kloss kommer att "
+#~ "landa."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Huruvida klossar ska ges slumpmässiga färger"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Huruvida klossar ska ges slumpmässiga färger."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Huruvida rotation ska ske motsols"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Huruvida rotation ska ske motsols."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Antalet rader att fylla"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Antalet rader som är fyllda med slumpmässiga klossar i början på spelet."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Densiteten för ifyllda rader"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Densiteten för klossar i rader som är ifyllda i början av spelet. Värdet "
+#~ "är mellan 0 (för inga klossar) och 10 (för en helt ifylld rad)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Tangenttryck för att flytta till vänster."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Tangenttryck för att flytta till höger."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tangenttryck för att flytta nedåt."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tangenttryck för att släppa."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tangenttryck för att rotera."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tangenttryck för att göra paus."
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Filen är inte en giltig .desktop-fil"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Okänd Version \"%s\" i desktop-fil"
+
+#~ msgid "Starting %s"
+#~ msgstr "Startar %s"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Programmet tar inte emot dokument på kommandoraden"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Okänt startalternativ: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Kan inte skicka dokument-URI:er till en \"Type=Link\"-skrivbordspost"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Inte ett körbart objekt"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Inaktivera anslutning till sessionshanteraren"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Ange fil som innehåller sparad konfiguration"
+
+#~ msgid "FILE"
+#~ msgstr "FIL"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Ange id för sessionshantering"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Flaggor för sessionshantering:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Visa flaggor för sessionshantering"
 
 #~ msgid "Player Chat"
 #~ msgstr "Spelarchatt"
@@ -6781,15 +6736,15 @@ msgstr ""
 #~ "%(move)s White %(piece)s at %(start)s takes the black %(victim_piece)s at "
 #~ "%(end)s (%(result)s)"
 #~ msgstr ""
-#~ "%(move)s Vit %(piece)s på %(start)s slår svart %(victim_piece)s på %(end)"
-#~ "s (%(result)s)"
+#~ "%(move)s Vit %(piece)s på %(start)s slår svart %(victim_piece)s på "
+#~ "%(end)s (%(result)s)"
 
 #~ msgid ""
 #~ "%(move)s Black %(piece)s at %(start)s takes the white %(victim_piece)s at "
 #~ "%(end)s (%(result)s)"
 #~ msgstr ""
-#~ "%(move)s Svart %(piece)s at %(start)s slår vit %(victim_piece)s på %(end)"
-#~ "s (%(result)s)"
+#~ "%(move)s Svart %(piece)s at %(start)s slår vit %(victim_piece)s på "
+#~ "%(end)s (%(result)s)"
 
 #~ msgid ""
 #~ "%(move)s White %(piece)s moves from %(start)s to %(end)s (%(result)s)"

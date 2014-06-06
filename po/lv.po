@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-14 16:25-0500\n"
+"POT-Creation-Date: 2014-06-05 23:27-0400\n"
 "PO-Revision-Date: 2007-04-01 19:08+0300\n"
 "Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
 "Language-Team: Latvian <locale@laka.lv>\n"
@@ -30,9 +30,9 @@ msgstr "Pauze"
 msgid "Game Over"
 msgstr "Spēles beigas"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:71
-#: ../gnometris/tetris.cpp:173 ../gnometris/tetris.cpp:1375
-#: ../gnometris/tetris.cpp:1379 ../gnometris/tetris.cpp:1381
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
+#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
+#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -40,156 +40,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Salikt krītošos blokus kopā"
 
-#: ../gnometris/gnometris.schemas.in.h:1
-msgid "Image to use for drawing blocks"
-msgstr "Attēls, ko lietot zīmējot blokus"
-
-#: ../gnometris/gnometris.schemas.in.h:2
-msgid "Image to use for drawing blocks."
-msgstr "Attēls, ko lietot zīmējot blokus."
-
-#: ../gnometris/gnometris.schemas.in.h:3
-msgid "The theme used for rendering the blocks"
-msgstr "Tēma, kas lietota zīmējot blokus"
-
-#: ../gnometris/gnometris.schemas.in.h:4
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Tēmas nosaukums ir lietots bloku un fona attēlu zīmēšanai."
-
-#: ../gnometris/gnometris.schemas.in.h:5
-msgid "Level to start with"
-msgstr "Sākuma līmenis"
-
-#: ../gnometris/gnometris.schemas.in.h:6
-msgid "Level to start with."
-msgstr "Sākuma līmenis."
-
-#: ../gnometris/gnometris.schemas.in.h:7
-msgid "Whether to use the background image"
-msgstr "Vai lietot fona attēlu"
-
-#: ../gnometris/gnometris.schemas.in.h:8
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr "Šis nosaka vai fona attēlu zīmēt virs fona krāsas."
-
-#: ../gnometris/gnometris.schemas.in.h:9
-msgid "The background color"
-msgstr "Fona attēla krāsas"
-
-#: ../gnometris/gnometris.schemas.in.h:10
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Fona attēla krāsas, gdk_color parse formāta pazinēja."
-
-#: ../gnometris/gnometris.schemas.in.h:11
-msgid "Whether to preview the next block"
-msgstr "Vai pirmsapskatīt nākamo bloku"
-
-#: ../gnometris/gnometris.schemas.in.h:12
-msgid "Whether to preview the next block."
-msgstr "Vai pirmsapskatīt nākamo bloku."
-
-#: ../gnometris/gnometris.schemas.in.h:13
-msgid "Whether to provide a target"
-msgstr "Vai pagādāt mērķi"
-
-#: ../gnometris/gnometris.schemas.in.h:14
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr "Vai pagādāt grafisku attēlojumu, kur bloks nolaidīsies."
-
-#: ../gnometris/gnometris.schemas.in.h:15
-msgid "Whether to give blocks random colors"
-msgstr "Vai blokiem piešķirt gadījumizvēles krāsas"
-
-#: ../gnometris/gnometris.schemas.in.h:16
-msgid "Whether to give blocks random colors."
-msgstr "Vai blokiem piešķirt gadījumizvēles krāsas."
-
-#: ../gnometris/gnometris.schemas.in.h:17
-msgid "Whether to rotate counter clock wise"
-msgstr "Vai rotēt pretēji pulsteņa rādītāja virzienam"
-
-#: ../gnometris/gnometris.schemas.in.h:18
-msgid "Whether to rotate counter clock wise."
-msgstr "Vai rotēt pretēji pulsteņa rādītāja virzienam."
-
-#: ../gnometris/gnometris.schemas.in.h:19
-msgid "The number of rows to fill"
-msgstr "Aizpildāmo rindu skaits"
-
-#: ../gnometris/gnometris.schemas.in.h:20
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr "Skaits rindām, kas spēles sākumā aizpildītas ar gadījuma blokiem."
-
-#: ../gnometris/gnometris.schemas.in.h:21
-msgid "The density of filled rows"
-msgstr "Blīvums iepriekš aizpildītajās rindās"
-
-#: ../gnometris/gnometris.schemas.in.h:22
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Biezums bloku rindaas speelees sakumaa. Vertiibi jabuut starp 0 (nav bloku) "
-"un 10 (pilniigi aizpilditai rindai)."
-
-#: ../gnometris/gnometris.schemas.in.h:23 ../gnometris/tetris.cpp:777
-msgid "Move left"
-msgstr "Gājiens pa kreisi"
-
-#: ../gnometris/gnometris.schemas.in.h:24
-msgid "Key press to move left."
-msgstr "Taustiņa nospiediens, lai pārvietotos pa kreisi."
-
-#: ../gnometris/gnometris.schemas.in.h:25 ../gnometris/tetris.cpp:778
-msgid "Move right"
-msgstr "Gājiens pa labi"
-
-#: ../gnometris/gnometris.schemas.in.h:26
-msgid "Key press to move right."
-msgstr "Taustiņa nospiediens, lai pārvietotos pa labi."
-
-#: ../gnometris/gnometris.schemas.in.h:27 ../gnometris/tetris.cpp:779
-msgid "Move down"
-msgstr "Pārvietotot uz leju"
-
-#: ../gnometris/gnometris.schemas.in.h:28
-msgid "Key press to move down."
-msgstr "Taustiņa nospiediens, lai pārvietotu lejup."
-
-#: ../gnometris/gnometris.schemas.in.h:29 ../gnometris/tetris.cpp:780
-msgid "Drop"
-msgstr "Mest"
-
-#: ../gnometris/gnometris.schemas.in.h:30
-msgid "Key press to drop."
-msgstr "Taustiņa nospiediens, lai mestu."
-
-#: ../gnometris/gnometris.schemas.in.h:31 ../gnometris/tetris.cpp:781
-msgid "Rotate"
-msgstr "Rotēt"
-
-#: ../gnometris/gnometris.schemas.in.h:32
-msgid "Key press to rotate."
-msgstr "Taustiņa nospiediens, lai rotētu."
-
-#: ../gnometris/gnometris.schemas.in.h:33 ../gnometris/tetris.cpp:782
-msgid "Pause"
-msgstr "Pauze"
-
-#: ../gnometris/gnometris.schemas.in.h:34
-msgid "Key press to pause."
-msgstr "Taustiņa nospiediens, lai nopauzētu."
-
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "Set starting level (1 or greater)"
 msgstr "Iestatiet sākuma līmeni (1 vai vairak)"
 
-#: ../gnometris/main.cpp:50
+#: ../gnometris/main.cpp:52
 msgid "LEVEL"
 msgstr "LĪMENIS"
 
@@ -233,85 +88,109 @@ msgstr "_Uzstādījumi"
 msgid "_Help"
 msgstr "_Palīdzība"
 
-#: ../gnometris/tetris.cpp:611
+#: ../gnometris/tetris.cpp:615
 msgid "Gnometris Preferences"
 msgstr "Gnometris iestatījumi"
 
-#: ../gnometris/tetris.cpp:632
+#: ../gnometris/tetris.cpp:636
 msgid "Game"
 msgstr "Spēle"
 
-#: ../gnometris/tetris.cpp:635
+#: ../gnometris/tetris.cpp:639
 msgid "Setup"
 msgstr "Uzstādījumi"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:641
+#: ../gnometris/tetris.cpp:645
 msgid "_Number of pre-filled rows:"
 msgstr "Iepriekš aizpildīto ri_ndu skaits:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:660
+#: ../gnometris/tetris.cpp:664
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Bloku blīvums iepriekš aizpildītajās rindās:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:679
+#: ../gnometris/tetris.cpp:683
 msgid "_Starting level:"
 msgstr "_Sākuma līmenis:"
 
-#: ../gnometris/tetris.cpp:700
+#: ../gnometris/tetris.cpp:704
 msgid "Operation"
 msgstr "Darbība"
 
-#: ../gnometris/tetris.cpp:705
+#: ../gnometris/tetris.cpp:709
 msgid "_Enable sounds"
 msgstr "_Aktivizēt skaņu"
 
-#: ../gnometris/tetris.cpp:714
+#: ../gnometris/tetris.cpp:718
 msgid "_Preview next block"
 msgstr "_Apskatīt nākamo bloku"
 
-#: ../gnometris/tetris.cpp:723
+#: ../gnometris/tetris.cpp:727
 msgid "_Use random block colors"
 msgstr "Lietot gadīj_umizvēles bloka krāsas"
 
-#: ../gnometris/tetris.cpp:734
+#: ../gnometris/tetris.cpp:738
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotēt pretēji pulsteņa rādītāja virzienam"
 
-#: ../gnometris/tetris.cpp:743
+#: ../gnometris/tetris.cpp:747
 msgid "Show _where the block will land"
 msgstr "Rādīt kur _piezemēsies bloki"
 
-#: ../gnometris/tetris.cpp:757 ../gnometris/tetris.cpp:790
+#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
 msgid "Theme"
 msgstr "Tēma"
 
-#: ../gnometris/tetris.cpp:766
+#: ../gnometris/tetris.cpp:770
 msgid "Controls"
 msgstr "Vadība"
 
-#: ../gnometris/tetris.cpp:769
+#: ../gnometris/tetris.cpp:773
 msgid "Keyboard Controls"
 msgstr "Tastatūras vadība"
 
-#: ../gnometris/tetris.cpp:793
+#: ../gnometris/tetris.cpp:781
+msgid "Move left"
+msgstr "Gājiens pa kreisi"
+
+#: ../gnometris/tetris.cpp:782
+msgid "Move right"
+msgstr "Gājiens pa labi"
+
+#: ../gnometris/tetris.cpp:783
+msgid "Move down"
+msgstr "Pārvietotot uz leju"
+
+#: ../gnometris/tetris.cpp:784
+msgid "Drop"
+msgstr "Mest"
+
+#: ../gnometris/tetris.cpp:785
+msgid "Rotate"
+msgstr "Rotēt"
+
+#: ../gnometris/tetris.cpp:786
+msgid "Pause"
+msgstr "Pauze"
+
+#: ../gnometris/tetris.cpp:797
 msgid "Block Style"
 msgstr "Bloka stils"
 
-#: ../gnometris/tetris.cpp:1384
+#: ../gnometris/tetris.cpp:1388
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1387
+#: ../gnometris/tetris.cpp:1391
 msgid "GNOME Games web site"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1390
+#: ../gnometris/tetris.cpp:1394
 msgid "translator-credits"
 msgstr ""
 "Raivis Dejus <orvils@gmail.com>\n"
@@ -320,70 +199,6 @@ msgstr ""
 #: ../gnometris/highscores.cpp:52
 msgid "Gnometris Scores"
 msgstr "Gnometris rezultāti"
-
-#: ../libgames-support/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:188
-#, fuzzy, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "%s: neatpazīts parametrs `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:958
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "_Uzstādījumi"
-
-#: ../libgames-support/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1168
-#, fuzzy, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "%s: neatpazīts parametrs `--%s'\n"
-
-#: ../libgames-support/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-
-#: ../libgames-support/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:225
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:228
-#, fuzzy
-msgid "Specify file containing saved configuration"
-msgstr "Uzstādīt spēles konfigurāciju"
-
-#: ../libgames-support/eggsmclient.c:228
-msgid "FILE"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:231
-msgid "ID"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:252
-msgid "Session management options:"
-msgstr ""
-
-#: ../libgames-support/eggsmclient.c:253
-msgid "Show session management options"
-msgstr ""
 
 #: ../libgames-support/games-controls.c:48
 msgid "No key"
@@ -610,6 +425,116 @@ msgstr ""
 "GNU Vispārējās Publiskās Licence ir pieejama kopā ar %s instalāciju. Ja tā "
 "jums nav pieejama, jūs to varat iegūt no Free Software Foundation, Inc., 59 "
 "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Attēls, ko lietot zīmējot blokus"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Attēls, ko lietot zīmējot blokus."
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Tēma, kas lietota zīmējot blokus"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Tēmas nosaukums ir lietots bloku un fona attēlu zīmēšanai."
+
+#~ msgid "Level to start with"
+#~ msgstr "Sākuma līmenis"
+
+#~ msgid "Level to start with."
+#~ msgstr "Sākuma līmenis."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Vai lietot fona attēlu"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr "Šis nosaka vai fona attēlu zīmēt virs fona krāsas."
+
+#~ msgid "The background color"
+#~ msgstr "Fona attēla krāsas"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Fona attēla krāsas, gdk_color parse formāta pazinēja."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Vai pirmsapskatīt nākamo bloku"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Vai pirmsapskatīt nākamo bloku."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Vai pagādāt mērķi"
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr "Vai pagādāt grafisku attēlojumu, kur bloks nolaidīsies."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Vai blokiem piešķirt gadījumizvēles krāsas"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Vai blokiem piešķirt gadījumizvēles krāsas."
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Vai rotēt pretēji pulsteņa rādītāja virzienam"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Vai rotēt pretēji pulsteņa rādītāja virzienam."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Aizpildāmo rindu skaits"
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr "Skaits rindām, kas spēles sākumā aizpildītas ar gadījuma blokiem."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Blīvums iepriekš aizpildītajās rindās"
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Biezums bloku rindaas speelees sakumaa. Vertiibi jabuut starp 0 (nav "
+#~ "bloku) un 10 (pilniigi aizpilditai rindai)."
+
+#~ msgid "Key press to move left."
+#~ msgstr "Taustiņa nospiediens, lai pārvietotos pa kreisi."
+
+#~ msgid "Key press to move right."
+#~ msgstr "Taustiņa nospiediens, lai pārvietotos pa labi."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Taustiņa nospiediens, lai pārvietotu lejup."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Taustiņa nospiediens, lai mestu."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Taustiņa nospiediens, lai rotētu."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Taustiņa nospiediens, lai nopauzētu."
+
+#, fuzzy
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "%s: neatpazīts parametrs `--%s'\n"
+
+#, fuzzy
+#~ msgid "Starting %s"
+#~ msgstr "_Uzstādījumi"
+
+#, fuzzy
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "%s: neatpazīts parametrs `--%s'\n"
+
+#, fuzzy
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Uzstādīt spēles konfigurāciju"
 
 #~ msgid "Player Chat"
 #~ msgstr "Spēlētāja tērzēšana"
