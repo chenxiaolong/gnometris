@@ -24,7 +24,6 @@ AM_MAINTAINER_MODE([enable])
 need_cxx=yes
 need_clutter=no
 want_gstreamer=yes
-allow_smclient=no
 
 # Locate various programs
 
@@ -236,40 +235,6 @@ AM_CONDITIONAL([HAVE_GSTREAMER],[test "$have_gstreamer" = "yes"])
 AM_CONDITIONAL([HAVE_SDL_MIXER],[test "x$SDL_mixer" = "xyes"])
 AM_CONDITIONAL([ENABLE_SOUND],[test "$enable_sound" = "yes"])
 
-# SMClient
-
-SMCLIENT_PKGS=
-if test "$allow_smclient" = "yes"; then
-  GDK_TARGET="$($PKG_CONFIG --variable target gdk-2.0)"
-
-  AC_MSG_CHECKING([which smclient backend to use])
-  AC_ARG_WITH([smclient],
-    [AS_HELP_STRING([--with-smclient],[which smclient backend to use (xsmp)])],
-    [],
-    [case "$with_platform" in
-       gnome|gtk-only) case "$GDK_TARGET" in
-                         x11) with_smclient=xsmp SMCLIENT_PKGS="sm" ;;
-                         *) with_smclient=no ;;
-                       esac
-                       ;;
-     esac])
-  AC_MSG_RESULT([$with_smclient])
-
-  if test "$with_smclient" != "no"; then
-    if test -n "$SMCLIENT_PKGS"; then
-      PKG_CHECK_MODULES([SMCLIENT],[$SMCLIENT_PKGS])
-    fi
-
-    AC_DEFINE([WITH_SMCLIENT],[1],[Define if smclient is enabled])
-  fi
-
-else
-  with_smclient=no
-fi
-
-AM_CONDITIONAL([WITH_SMCLIENT],[test "$with_smclient" != "no"])
-AM_CONDITIONAL([WITH_SMCLIENT_XSMP],[test "$with_smclient" = "xsmp"])
-
 # *************
 
 AC_PATH_PROG([GLIB_GENMARSHAL],[glib-genmarshal])
@@ -423,7 +388,6 @@ fi
 
 echo "
 
-    Using SM Client:       ${with_smclient}
     Using Clutter:         ${enable_clutter}
     Sound support:         ${with_sound}
     Use setgid binaries:   ${setgid}

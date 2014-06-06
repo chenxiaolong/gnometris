@@ -9,9 +9,6 @@ gnometris/renderer-noclutter.cpp
 gnometris/scoreframe.cpp
 gnometris/tetris.cpp
 gnometris/highscores.cpp
-libgames-support/eggdesktopfile.c
-libgames-support/eggsmclient.c
-libgames-support/eggsmclient-xsmp.c
 libgames-support/games-controls.c
 libgames-support/games-files.c
 libgames-support/games-help.c
