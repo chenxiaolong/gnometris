@@ -30,7 +30,15 @@
 #include "games-scores.h"
 #include "games-scores-backend.h"
 #include "games-runtime.h"
+#ifdef _WIN32
+#include <fcntl.h>
+#include <inttypes.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#else
 #include "games-setgid-io.h"
+#endif
 
 struct _GamesScoresBackendPrivate {
   GamesScoreStyle style;
@@ -109,19 +117,35 @@ games_scores_backend_get_lock (GamesScoresBackend * self)
   if (self->priv->fd != -1) {
     /* Assume we already have the lock and rewind the file to
      * the beginning. */
+#ifdef _WIN32
+    lseek (self->priv->fd, 0, SEEK_SET);
+#else
     setgid_io_seek (self->priv->fd, 0, SEEK_SET);
+#endif
     return TRUE;		/* Assume we already have the lock. */
   }
 
+#ifdef _WIN32
+  self->priv->fd = open (self->priv->filename, O_RDWR);
+#else
   self->priv->fd = setgid_io_open (self->priv->filename, O_RDWR);
+#endif
   if (self->priv->fd == -1) {
     return FALSE;
   }
 
+#ifdef _WIN32
+  error = 0;
+#else
   error = setgid_io_lock (self->priv->fd);
+#endif
 
   if (error == -1) {
+#ifdef _WIN32
+    close (self->priv->fd);
+#else
     setgid_io_close (self->priv->fd);
+#endif
     self->priv->fd = -1;
     return FALSE;
   }
@@ -138,9 +162,15 @@ games_scores_backend_release_lock (GamesScoresBackend * self)
   if (self->priv->fd == -1)
     return;
 
+#ifndef _WIN32
   setgid_io_unlock (self->priv->fd);
+#endif
 
+#ifdef _WIN32
+  close (self->priv->fd);
+#else
   setgid_io_close (self->priv->fd);
+#endif
 
   self->priv->fd = -1;
 }
@@ -163,7 +193,11 @@ games_scores_backend_get_scores (GamesScoresBackend * self)
   GList *t;
 
   /* Check for a change in the scores file and update if necessary. */
+#ifdef _WIN32
+  error = stat (self->priv->filename, &info);
+#else
   error = setgid_io_stat (self->priv->filename, &info);
+#endif
 
   /* If an error occurs then we give up on the file and return NULL. */
   if (error != 0)
@@ -195,7 +229,11 @@ games_scores_backend_get_scores (GamesScoresBackend * self)
     length = 0;
     do {
       target -= length;
+#ifdef _WIN32
+      length = read (self->priv->fd, buffer, info.st_size);
+#else
       length = setgid_io_read (self->priv->fd, buffer, info.st_size);
+#endif
       if (length == -1) {
 	games_scores_backend_release_lock (self);
 	g_free (buffer);
@@ -290,10 +328,18 @@ games_scores_backend_set_scores (GamesScoresBackend * self, GList * list)
     rtime = d->time;
     rname = d->name;
 
+#ifdef _WIN32
+    buffer = g_strdup_printf ("%s %I64d %s\n",
+#else
     buffer = g_strdup_printf ("%s %lld %s\n",
+#endif
 			      g_ascii_dtostr (dtostrbuf, sizeof (dtostrbuf),
 					      rscore), rtime, rname);
+#ifdef _WIN32
+    write (self->priv->fd, buffer, strlen (buffer));
+#else
     setgid_io_write (self->priv->fd, buffer, strlen (buffer));
+#endif
     output_length += strlen (buffer);
     /* Ignore any errors and blunder on. */
     g_free (buffer);
@@ -302,7 +348,11 @@ games_scores_backend_set_scores (GamesScoresBackend * self, GList * list)
   }
 
   /* Remove any content in the file that hasn't yet been overwritten. */
+#ifdef _WIN32
+  ftruncate (self->priv->fd, output_length--);
+#else
   setgid_io_truncate (self->priv->fd, output_length--);
+#endif
 
   /* Update the timestamp so we don't reread the scores unnecessarily. */
   self->priv->timestamp = time (NULL);

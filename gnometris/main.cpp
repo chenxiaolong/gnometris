@@ -41,7 +41,9 @@ main(int argc, char *argv[])
 	if (!games_runtime_init ("gnometris"))
 		return 1;
 
+#ifndef _WIN32
 	setgid_io_init ();
+#endif
 
 	int cmdlineLevel = 0;
 

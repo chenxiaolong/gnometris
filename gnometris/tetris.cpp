@@ -158,7 +158,11 @@ Tetris::Tetris(int cmdlLevel):
 
 	outdir = g_build_filename (g_get_user_data_dir (), "gnometris", NULL);
 	if (!g_file_test (outdir, G_FILE_TEST_EXISTS))
+#ifdef _WIN32
+	    mkdir (outdir);
+#else
 	    mkdir (outdir, 0700);
+#endif
 	bgPixmap = g_build_filename (outdir, "background.bin", NULL);
 	g_free (outdir);
 

@@ -26,7 +26,9 @@
 
 #include <time.h>
 
+#ifndef _WIN32
 #include "games-setgid-io.h"
+#endif
 #include "games-score.h"
 
 G_BEGIN_DECLS

@@ -57,6 +57,7 @@
  *
  */
 
+#ifndef _WIN32
 #include <config.h>
 
 #include <glib.h>
@@ -554,3 +555,4 @@ setgid_io_init (void)
 
   setgid_io_initialised = 1;
 }
+#endif
