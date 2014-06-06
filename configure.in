@@ -1,13 +1,10 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-# This can be either "trunk" or "branches/gnome-x-y"
-m4_define([gnome_games_branch],["trunk"])
-
 AC_PREREQ([2.53])
-AC_INIT([GNOME Games], [2.26.3],
-  [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-games],
-  [gnome-games])
+AC_INIT([Gnometris], [2.26.3],
+  [https://github.com/chenxiaolong/gnometris/issues],
+  [gnometris])
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_HEADERS([config.h])
@@ -213,7 +210,7 @@ AM_CXXFLAGS="$AM_CXXFLAGS $WARN_CXXFLAGS"
 # i18n
 # ****
 
-GETTEXT_PACKAGE=gnome-games
+GETTEXT_PACKAGE=gnometris
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [The gettext package name])
 AM_GLIB_GNU_GETTEXT

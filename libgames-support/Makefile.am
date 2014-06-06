@@ -67,7 +67,6 @@ endif
 libgames_support_la_CPPFLAGS = \
 	-DPKGDATADIR="\"$(pkgdatadir)\""			\
 	-DDATADIR="\"$(datadir)\""				\
-	-DCOMMON_DATADIR="\"$(datadir)/gnome-games-common\""	\
 	-DSCORESDIR="\"$(scoredir)\""				\
 	$(NULL)
 
