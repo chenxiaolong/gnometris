@@ -180,7 +180,7 @@ conf_value_changed_cb (GamesConf *conf,
                          strcmp (group, list->conf_group) != 0)))
     return;
 
-  /* find our gconf key in the list store and update it */
+  /* find our config key in the list store and update it */
   valid = gtk_tree_model_get_iter_first (GTK_TREE_MODEL (list->store), &iter);
   while (valid) {
     gtk_tree_model_get (GTK_TREE_MODEL (list->store), &iter,
@@ -347,7 +347,7 @@ games_controls_list_add_control (GamesControlsList * list,
 
 void
 games_controls_list_add_controls (GamesControlsList * list,
-				  const gchar * first_gconf_key, ...)
+				  const gchar * first_config_key, ...)
 {
   va_list args;
   const char *key;
@@ -355,11 +355,11 @@ games_controls_list_add_controls (GamesControlsList * list,
   guint keyval;
 
   g_return_if_fail (GAMES_IS_CONTROLS_LIST (list));
-  g_return_if_fail (first_gconf_key != NULL);
+  g_return_if_fail (first_config_key != NULL);
 
-  va_start (args, first_gconf_key);
+  va_start (args, first_config_key);
 
-  key = first_gconf_key;
+  key = first_config_key;
   while (key) {
     label = va_arg (args, gchar *);
     keyval = va_arg (args, guint);
@@ -375,7 +375,6 @@ games_controls_list_add_controls (GamesControlsList * list,
 #if 0				/* possible TODO stuff */
 
 -add a "Reset to default" button which resets each command to the defaut key
-  (the default can be obtained with gconf_client_get_default_from_schema)
 
   - add a "Change" button which activates the currently selected row
 #endif

@@ -6,7 +6,6 @@ slotdir = $(pkgdatadir)/pixmaps
 slot_DATA = slot.svg
 
 EXTRA_DIST = \
-	$(schema_in_files)	\
 	$(slot_DATA)		\
 	games-marshal.list	\
 	$(NULL)
@@ -79,11 +78,6 @@ libgames_support_la_CFLAGS = 	\
 libgames_support_la_LIBADD = 	\
 	$(GTK_LIBS)
 
-if HAVE_GNOME
-libgames_support_la_CFLAGS += $(GNOME_CFLAGS)
-libgames_support_la_LIBADD += $(GNOME_LIBS)
-endif
-
 if HAVE_CLUTTER
 libgames_support_la_CFLAGS += $(CLUTTER_CFLAGS)
 libgames_support_la_LIBADD += $(CLUTTER_LIBS)
@@ -99,15 +93,6 @@ libgames_support_la_CFLAGS += $(SDL_MIXER_CFLAGS)
 libgames_support_la_LIBADD += $(SDL_MIXER_LIBS)
 endif
 
-install-data-local:
-if GCONF_SCHEMAS_INSTALL
-	if test -z "$(DESTDIR)" ; then \
-		for p in $^ ; do \
-			GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $$p 2>&1 > /dev/null; \
-		done \
-	fi
-endif
-
 stamp_files = \
 	stamp-games-marshal.c \
 	stamp-games-marshal.h \
@@ -117,8 +102,6 @@ CLEANFILES = \
 	$(BUILT_SOURCES) \
 	$(stamp_files) \
 	$(NULL)
-
-DISTCLEANFILES = $(schema_DATA)
 
 games-marshal.c: stamp-games-marshal.c
 	@true

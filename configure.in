@@ -69,35 +69,13 @@ GNOME_DOC_INIT([0.10.0],[have_gdu=yes],[have_gdu=no])
 # Dependencies
 # ************
 
-# Check which platform to use
-
-AC_MSG_CHECKING([for which platform to build])
-AC_ARG_WITH([platform],
-  [AS_HELP_STRING([--with-platform=gnome|gtk-only (default: gnome)])],
-  [case "$withval" in
-    gnome|gtk-only) ;;
-    *) AC_MSG_ERROR([invalid argument "$withval" for --with-platform]) ;;
-   esac],
-  [with_platform=gnome])
-AC_MSG_RESULT([$with_platform])
-
-AM_CONDITIONAL([HAVE_GNOME],[test "$with_platform" = "gnome"])
-
-if test "$with_platform" = "gnome"; then
-  AC_DEFINE([HAVE_GNOME],[1],[Define if GNOME support is enabled])
-fi
-
-# Features
-
 # Sound
 
 if test "$want_gstreamer" = "yes"; then
   AC_MSG_CHECKING([whether to enable sound support])
   AC_ARG_ENABLE([sound],
     [AS_HELP_STRING([--enable-sound],[Enable sound with GStreamer or SDL_Mixer.])],
-    [],[case "$with_platform" in
-          gnome|gtk-only) enable_sound=yes ;;
-        esac])
+    [],[enable_sound=yes])
   AC_MSG_RESULT([$enable_sound])
 else
   enable_sound=no
@@ -117,9 +95,7 @@ AC_MSG_RESULT([$with_sound])
 AC_MSG_CHECKING([whether to enable clutter support])
 AC_ARG_ENABLE([clutter],
   [AS_HELP_STRING([--enable-clutter],[whether to enable clutter support (default: disabled)])],
-  [],[case "$with_platform" in
-        gnome|gtk-only) enable_clutter=no ;;
-      esac])
+  [],[enable_clutter=no])
 AC_MSG_RESULT([$enable_clutter])
 
 
@@ -129,7 +105,6 @@ AC_MSG_RESULT([$enable_clutter])
 
 GTK_REQUIRED=2.14.0
 
-GCONF_REQUIRED=2.0
 CAIRO_REQUIRED=1.0
 GSTREAMER_REQUIRED=0.10.11
 
@@ -143,19 +118,6 @@ AC_SUBST([GTHREAD_LIBS])
 PKG_CHECK_MODULES([GTK],[gtk+-2.0 >= $GTK_REQUIRED])
 AC_SUBST([GTK_CFLAGS])
 AC_SUBST([GTK_LIBS])
-
-AM_GCONF_SOURCE_2
-AC_PATH_PROG([GCONFTOOL],[gconftool-2])
-
-# Check for GNOME modules
-
-if test "$with_platform" = "gnome"; then
-  PKG_CHECK_MODULES([GNOME],[gconf-2.0 >= $GCONF_REQUIRED])
-  AC_SUBST([GNOME_CFLAGS])
-  AC_SUBST([GNOME_LIBS])
-
-  need_gthread=yes
-fi
 
 # Check for Clutter
 
@@ -378,15 +340,6 @@ Configuration:
 
     Source code location:  ${srcdir}
     Compiler:              ${CC}
-
-    Platform:              ${with_platform}"
-
-if test -n "$with_platform_variant"; then
-  echo "
-    Platform variant:      ${with_platform_variant}"
-fi
-
-echo "
 
     Using Clutter:         ${enable_clutter}
     Sound support:         ${with_sound}

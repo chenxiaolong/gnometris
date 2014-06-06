@@ -30,6 +30,5 @@ DISTCLEANFILES = \
 distuninstallcheck_listfiles = find . -type f -print | grep -v '.scores' | grep-v scrollkeeper
 
 DISTCHECK_CONFIGURE_FLAGS = \
-	--with-platform=gnome \
 	--disable-schemas-install \
 	--disable-scrollkeeper
