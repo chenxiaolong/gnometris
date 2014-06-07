@@ -21,6 +21,7 @@
 #include <config.h>
 
 #include <locale.h>
+#include <stdlib.h>
 
 #include <glib/gi18n.h>
 
@@ -139,7 +140,9 @@ games_runtime_get_directory (GamesRuntimeDirectory directory)
 
   switch ((int) directory) {
     case GAMES_RUNTIME_DATA_DIRECTORY:
-      path = g_strdup (DATADIR);
+      path = g_strdup (getenv ("DATADIR"));
+      if (path == NULL)
+        path = g_strdup (DATADIR);
       break;
 
     case GAMES_RUNTIME_COMMON_DATA_DIRECTORY:
@@ -147,11 +150,17 @@ games_runtime_get_directory (GamesRuntimeDirectory directory)
       break;
 
     case GAMES_RUNTIME_PKG_DATA_DIRECTORY:
-      path = g_strdup (PKGDATADIR);
+      path = g_strdup (getenv ("PKGDATADIR"));
+      if (path == NULL)
+        path = g_strdup (getenv ("DATADIR"));
+      if (path == NULL)
+        path = g_strdup (PKGDATADIR);
       break;
 
     case GAMES_RUNTIME_SCORES_DIRECTORY:
-      path = g_strdup (SCORESDIR);
+      path = g_strdup (getenv ("SCORESDIR"));
+      if (path == NULL)
+        path = g_strdup (SCORESDIR);
       break;
 
     default: {
