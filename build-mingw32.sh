@@ -31,6 +31,7 @@ tempdir=$(mktemp -d)
 mkdir "${tempdir}/gnometris/"
 mv ./TEMP/"${_prefix}"/* "${tempdir}"/gnometris/
 rm -r TEMP
+rm -r "${tempdir}"/gnometris/share/applications/
 
 pushd "${tempdir}/gnometris/bin/"
 cp ${_bindir}/libatk-1.0-0.dll .
