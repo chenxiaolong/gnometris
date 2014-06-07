@@ -11,7 +11,6 @@ AC_CONFIG_HEADERS([config.h])
 
 # Feature matrix
 
-need_clutter=no
 want_gstreamer=yes
 
 # Locate various programs
@@ -57,14 +56,6 @@ AC_ARG_WITH([sound],
   [with_sound=sdl_mixer])
 AC_MSG_RESULT([$with_sound])
 
-# Clutter
-  
-AC_MSG_CHECKING([whether to enable clutter support])
-AC_ARG_ENABLE([clutter],
-  [AS_HELP_STRING([--enable-clutter],[whether to enable clutter support (default: disabled)])],
-  [],[enable_clutter=no])
-AC_MSG_RESULT([$enable_clutter])
-
 # Gameplay documentation
 
 AC_MSG_CHECKING([whether to build gameplay documentation])
@@ -88,38 +79,6 @@ GSTREAMER_REQUIRED=0.10.11
 PKG_CHECK_MODULES([GTK],[gtk+-2.0 >= $GTK_REQUIRED])
 AC_SUBST([GTK_CFLAGS])
 AC_SUBST([GTK_LIBS])
-
-# Check for Clutter
-
-if test "$enable_clutter" = "yes"; then
-  CLUTTER_API_VERSION=
-  AC_MSG_CHECKING([for clutter API version])
-  for API_VERSION in 0.8; do
-    PKG_CHECK_EXISTS([clutter-$API_VERSION clutter-cairo-$API_VERSION],
-      [CLUTTER_API_VERSION=$API_VERSION; break],[])
-  done
-  if test -z "$CLUTTER_API_VERSION"; then
-    AC_MSG_ERROR([no clutter found])
-  fi
-  AC_MSG_RESULT([$CLUTTER_API_VERSION])
-
-  CLUTTER_REQUIRED=0.8.8
-  CLUTTER_GTK_REQUIRED=0.8.3
-  CLUTTER_CAIRO_REQUIRED=0.8.2
-
-  PKG_CHECK_MODULES([CLUTTER],[
-    clutter-$CLUTTER_API_VERSION >= $CLUTTER_REQUIRED
-    clutter-cairo-$CLUTTER_API_VERSION >= $CLUTTER_CAIRO_REQUIRED])
-  AC_SUBST([CLUTTER_CFLAGS])
-  AC_SUBST([CLUTTER_LIBS])
-
-  PKG_CHECK_MODULES([CLUTTER_GTK],[
-    clutter-gtk-$CLUTTER_API_VERSION  >= $CLUTTER_GTK_REQUIRED])
-  AC_SUBST([CLUTTER_GTK_CFLAGS])
-  AC_SUBST([CLUTTER_GTK_LIBS])
-fi
-
-AM_CONDITIONAL([HAVE_CLUTTER],[test "$enable_clutter" = "yes"])
 
 # Gameplay documentation
 
@@ -261,7 +220,6 @@ Configuration:
     Source code location:  ${srcdir}
     Compiler:              ${CC}
 
-    Using Clutter:         ${enable_clutter}
     Sound support:         ${with_sound}
     Enable gameplay docs:  ${enable_gameplaydoc}
     Use setgid binaries:   ${setgid}

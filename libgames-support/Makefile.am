@@ -55,13 +55,6 @@ libgames_support_la_SOURCES +=		\
 	games-scores-backend.h		\
 	$(NULL)
 
-if HAVE_CLUTTER
-libgames_support_la_SOURCES += \
-	games-clutter-embed.c		\
-	games-clutter-embed.h		\
-	$(NULL)
-endif
-
 libgames_support_la_CPPFLAGS = \
 	-DPKGDATADIR="\"$(pkgdatadir)\""			\
 	-DDATADIR="\"$(datadir)\""				\
@@ -74,11 +67,6 @@ libgames_support_la_CFLAGS = 	\
 
 libgames_support_la_LIBADD = 	\
 	$(GTK_LIBS)
-
-if HAVE_CLUTTER
-libgames_support_la_CFLAGS += $(CLUTTER_CFLAGS)
-libgames_support_la_LIBADD += $(CLUTTER_LIBS)
-endif
 
 if HAVE_GSTREAMER
 libgames_support_la_CFLAGS += $(GSTREAMER_CFLAGS)

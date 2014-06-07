@@ -65,9 +65,7 @@ extern int rot_next;
 
 extern bool random_block_colors;
 
-#ifndef HAVE_CLUTTER
 class Field;
-#endif
 class Preview;
 class BlockOps;
 class ScoreFrame;
@@ -95,11 +93,7 @@ private:
 	char *defaultPixmap;
 	gint themeno;
 
-#ifdef HAVE_CLUTTER
-	BlockOps *field;
-#else
 	Field *field;
-#endif
 	Preview *preview;
 	ScoreFrame *scoreFrame;
 	HighScores *high_scores;
