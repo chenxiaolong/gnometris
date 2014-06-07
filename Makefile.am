@@ -14,19 +14,7 @@ DIST_SUBDIRS = po icons sounds libgames-support gnometris
 
 EXTRA_DIST = \
 	autogen.sh \
-	COPYING-DOCS \
-	xmldocs.make \
-	omf.make \
-	gnome-doc-utils.make
-
-DISTCLEANFILES = \
-	intltool-extract \
-	intltool-merge \
-	intltool-update \
-	gnome-doc-utils.make
+	COPYING-DOCS
 
 # Ignore score files, these *should* be left behind.
 distuninstallcheck_listfiles = find . -type f -print | grep -v '.scores'
-
-DISTCHECK_CONFIGURE_FLAGS = \
-	--disable-schemas-install

@@ -33,7 +33,6 @@
 
 #include <libgames-support/games-controls.h>
 #include <libgames-support/games-frame.h>
-#include <libgames-support/games-help.h>
 #include <libgames-support/games-runtime.h>
 #include <libgames-support/games-sound.h>
 #include <libgames-support/games-stock.h>
@@ -1367,7 +1366,13 @@ int
 Tetris::gameHelp(GtkAction *action, void *data)
 {
 	Tetris *t = (Tetris*) data;
-	games_help_display(t->getWidget(), "gnometris", NULL);
+	GError *error = NULL;
+
+	gtk_show_uri (gtk_widget_get_screen (t->getWidget ()), "help:gnometris", gtk_get_current_event_time (), &error);
+	if (error)
+		g_warning ("Failed to show help: %s", error->message);
+	g_clear_error (&error);
+
 	return TRUE;
 }
 

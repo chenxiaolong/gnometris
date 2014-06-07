@@ -1,12 +1,10 @@
-include $(top_srcdir)/gnome-doc-utils.make
+@YELP_HELP_RULES@
+HELP_ID = gnometris
 
-DOC_LINGUAS = ca cs de el en_GB es eu fi fr it oc sv zh_CN
+HELP_MEDIA = 
+         
+HELP_FILES = \
+        legal.xml \ 
+        index.docbook
 
-DOC_MODULE = gnometris
-
-DOC_ENTITIES = \
-	legal.xml
-
-DOC_FIGURES =
-
-dist-hook: doc-dist-hook
+HELP_LINGUAS = ca cs de el en_GB es eu fi fr it oc sv zh_CN

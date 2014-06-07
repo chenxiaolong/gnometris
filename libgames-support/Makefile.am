@@ -40,8 +40,6 @@ libgames_support_la_SOURCES +=		\
 	games-atk-utils.h		\
 	games-frame.c			\
 	games-frame.h			\
-	games-help.c			\
-	games-help.h			\
 	games-score.h			\
 	games-score.c			\
 	games-scores.c			\
