@@ -208,7 +208,6 @@ icons/Makefile
 sounds/Makefile
 libgames-support/Makefile
 gnometris/Makefile
-gnometris/pix/Makefile
 gnometris/help/Makefile
 gnometris/gnometris.desktop.in
 ])

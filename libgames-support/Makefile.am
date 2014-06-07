@@ -1,12 +1,6 @@
 NULL =
 
-commondatadir = $(datadir)/gnome-games-common
-
-slotdir = $(pkgdatadir)/pixmaps
-slot_DATA = slot.svg
-
 EXTRA_DIST = \
-	$(slot_DATA)		\
 	games-marshal.list	\
 	$(NULL)
 
