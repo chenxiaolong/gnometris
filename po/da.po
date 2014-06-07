@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2009-03-14 04:07+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -51,9 +51,9 @@ msgstr "Pause"
 msgid "Game Over"
 msgstr "Spillet er slut"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -61,11 +61,11 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Anbring faldende blokke så de passer sammen"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "Set starting level (1 or greater)"
 msgstr "Sæt startbane (1 eller mere)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "BANE"
 
@@ -97,110 +97,110 @@ msgstr "Linjer:"
 msgid "Level:"
 msgstr "Bane:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "_Spil"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr "_Indstillinger"
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr "_Hjælp"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 msgid "Gnometris Preferences"
 msgstr "Indstillinger til Gnometris"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "Spil"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "Opsætning"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 msgid "_Number of pre-filled rows:"
 msgstr "_Antal foropfyldte rækker:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Tæthed af blokke i en foropfyldt række:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 msgid "_Starting level:"
 msgstr "_Startbane:"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr "Operation"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 msgid "_Enable sounds"
 msgstr "_Aktivér lyde"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 msgid "_Preview next block"
 msgstr "_Vis næste blok"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 msgid "_Use random block colors"
 msgstr "_Benyt tilfældige blokfarver"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotér blokke mod uret"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr "Vis _hvor klodsen vil lande"
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "Styreenheder"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "Tastaturstyreenheder"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "Træk til venstre"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "Træk til højre"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr "Flyt ned"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 msgid "Drop"
 msgstr "Slip"
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 msgid "Rotate"
 msgstr "Rotér"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "Pause"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 msgid "Block Style"
 msgstr "Blokstil"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -210,11 +210,11 @@ msgstr ""
 "\n"
 "Gnometris er en del af GNOME Games."
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 msgid "GNOME Games web site"
 msgstr "Hjemmeside for GNOME Games"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr ""
 "Anders Wegge Jakobsen\n"
@@ -242,10 +242,6 @@ msgstr "<Tryk en tast>"
 #: ../libgames-support/games-controls.c:332
 msgid "Unknown Command"
 msgstr "Ukendt kommando"
-
-#: ../libgames-support/games-help.c:56
-msgid "Unable to open help file"
-msgstr "Kan ikke åbne hjælpefil"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -455,6 +451,9 @@ msgstr ""
 "Du bør have modtaget en kopi af GNU General Public License sammen med %s; er "
 "dette ikke tilfældet, så skriv til Free Software Foundation, Inc., 51 "
 "Franklin Street, Femte sal, Boston, MA  02110-1301  USA"
+
+#~ msgid "Unable to open help file"
+#~ msgstr "Kan ikke åbne hjælpefil"
 
 #~ msgid "Image to use for drawing blocks"
 #~ msgstr "Billede som skal bruges til at tegne blokke"

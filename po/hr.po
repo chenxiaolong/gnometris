@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2008-04-16 07:32+0000\n"
 "Last-Translator: Launchpad Translations Administrators <rosetta@launchpad."
 "net>\n"
@@ -27,9 +27,9 @@ msgstr "Pauzirano"
 msgid "Game Over"
 msgstr "Igra je gotova"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -37,12 +37,12 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Postavi padajuće blokove skupa"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 #, fuzzy
 msgid "Set starting level (1 or greater)"
 msgstr "Podesi početni nivo (1-10)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "RAZINA"
 
@@ -76,125 +76,125 @@ msgstr "Redaka:"
 msgid "Level:"
 msgstr "Razina:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "_Igra"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr "_Postavke"
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr "_Pomoć"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 msgid "Gnometris Preferences"
 msgstr "Gnometris postavke"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "Igra"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "Podešavanje"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 msgid "_Number of pre-filled rows:"
 msgstr "_Broj unaprijed popunjenih redova:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Koncetracija blokova u unaprijed popunjenim redovima:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 msgid "_Starting level:"
 msgstr "_Početni nivo:"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr "Operacija"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 msgid "_Enable sounds"
 msgstr "_Uključi zvukove"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 #, fuzzy
 msgid "_Preview next block"
 msgstr "Prikazivanje slijedećeg bloka"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 msgid "_Use random block colors"
 msgstr "_Koristi nasumične boje blokova"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotiraj blokove suprotno smjeru kazaljke na satu"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "Tema"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "Kontrole"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "Kontrole tastaturom"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "Pomakni lijevo"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "Pomakni desno"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr "Pomaknite dolje"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 #, fuzzy
 msgid "Drop"
 msgstr "_Ispusti"
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 msgid "Rotate"
 msgstr "Rotiraj"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "Pauza"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 #, fuzzy
 msgid "Block Style"
 msgstr "Blokiraj desetku"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 msgid "GNOME Games web site"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr ""
 "lokalizacija@linux.hr\n"
@@ -236,11 +236,6 @@ msgstr "<Pritisnite tipku>"
 #: ../libgames-support/games-controls.c:332
 msgid "Unknown Command"
 msgstr "Nepoznata naredba"
-
-#: ../libgames-support/games-help.c:56
-#, fuzzy
-msgid "Unable to open help file"
-msgstr "Da li ste pročitali datoteku za pomoć?"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -445,6 +440,10 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Unable to open help file"
+#~ msgstr "Da li ste pročitali datoteku za pomoć?"
 
 #~ msgid "Image to use for drawing blocks"
 #~ msgstr "Slika za korištenje za crtanje blokova"

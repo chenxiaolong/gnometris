@@ -10,7 +10,6 @@ gnometris/tetris.cpp
 gnometris/highscores.cpp
 libgames-support/games-controls.c
 libgames-support/games-files.c
-libgames-support/games-help.c
 libgames-support/games-scores-dialog.c
 libgames-support/games-sound.c
 libgames-support/games-stock.c

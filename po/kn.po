@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2009-03-25 13:51+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
@@ -26,9 +26,9 @@ msgstr "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸ್ಥಗಿತಗೊಳಿ�
 msgid "Game Over"
 msgstr "ಆಟ ಮುಗಿದಿದೆ"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್"
 
@@ -36,11 +36,11 @@ msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್"
 msgid "Fit falling blocks together"
 msgstr "ಬೀಳುತ್ತಿರುವ ಇಟ್ಟಿಗೆಗಳನ್ನು ಸರಿಯಾಗಿ ಜೋಡಿಸಿ"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "Set starting level (1 or greater)"
 msgstr "ಆರಂಭದ ಹಂತವನ್ನು ಅಣಿಗೊಳಿಸಿ (೧ ಅಥವ ಹೆಚ್ಚಿನ)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "LEVEL"
 
@@ -72,110 +72,110 @@ msgstr "ಸಾಲುಗಳು:"
 msgid "Level:"
 msgstr "ಮಟ್ಟ:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "ಆಟ(_G)"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr "ಸಂಯೋಜನೆಗಳು(_S)"
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr "ನೆರವು(_H)"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 msgid "Gnometris Preferences"
 msgstr "ಗ್ನೋಮೆಟ್ರಿಸ್ ಆದ್ಯತೆಗಳು"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "ಆಟ"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "ಸೆಟ್ಅಪ್"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 msgid "_Number of pre-filled rows:"
 msgstr "ಮೊದಲೆ ತುಂಬಿಸಲಾದ ಸಾಲುಗಳ ಸಂಖ್ಯೆ(_N):"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "ಮೊದಲೆ ತುಂಬಿಸಲಾದ ಸಾಲಿನಲ್ಲಿ ಇಟ್ಟಿಗೆಗಳ ಸಾಂದ್ರತೆ(_D):"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 msgid "_Starting level:"
 msgstr "ಆರಂಭದ ಹಂತ(_S):"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr "ಕಾರ್ಯಾಚರಣೆ"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 msgid "_Enable sounds"
 msgstr "ಶಬ್ದ ಮಾಡುವುದನ್ನು ಶಕ್ತಗೊಳಿಸು(_E)"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 msgid "_Preview next block"
 msgstr "ಮುಂದಿನ ಇಟ್ಟಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸು(_P)"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 msgid "_Use random block colors"
 msgstr "ಇಟ್ಟಿಗೆಗೆ ಯಾವುದಾದರೂ ಬಣ್ಣಗಳನ್ನು ಬಳಸು(_U)"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 msgid "_Rotate blocks counterclockwise"
 msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಅಪ್ರದಕ್ಷಿಣೆಯಾಗಿ ತಿರುಗಿಸಿ(_R)"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr "ಇಟ್ಟಿಗೆಯು ಎಲ್ಲಿ ಬೀಳುತ್ತದೆ ಎಂದು ತೋರಿಸು(_w)"
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "ವಿನ್ಯಾಸ"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "ನಿಯಂತ್ರಣಗಳು"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "ಕೀಲಿಮಣೆ ನಿಯಂತ್ರಣಗಳು"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "ಎಡಕ್ಕೆ ನಡೆಸು"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "ಬಲಕ್ಕೆ ನಡೆಸು"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr "ಕೆಳಕ್ಕೆ ನಡೆಸು"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 msgid "Drop"
 msgstr "ಬೀಳಿಸು"
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 msgid "Rotate"
 msgstr "ತಿರುಗಿಸು"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತಗೊಳಿಸು"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 msgid "Block Style"
 msgstr "ಇಟ್ಟಿಗೆಯ ಶೈಲಿ"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -185,11 +185,11 @@ msgstr ""
 "\n"
 "ಗ್ನೋಮೆಟ್ರಿಸ್ ಎನ್ನುವುದು GNOME ಆಟಗಳ ಒಂದು ಭಾಗವಾಗಿದೆ."
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 msgid "GNOME Games web site"
 msgstr "GNOME ಆಟಗಳ ಜಾಲತಾಣ"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
 
@@ -208,10 +208,6 @@ msgstr "<ಒಂದು ಕೀಲಿಯನ್ನು ಒತ್ತಿ>"
 #: ../libgames-support/games-controls.c:332
 msgid "Unknown Command"
 msgstr "ಗೊತ್ತಿರದ ಆಜ್ಞೆ"
-
-#: ../libgames-support/games-help.c:56
-msgid "Unable to open help file"
-msgstr "ನೆರವಿನ ಕಡತವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -422,6 +418,9 @@ msgstr ""
 "You should have received a copy of the GNU General Public License along with "
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
+
+#~ msgid "Unable to open help file"
+#~ msgstr "ನೆರವಿನ ಕಡತವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
 #~ msgid "Image to use for drawing blocks"
 #~ msgstr "ಇಟ್ಟಿಗೆಗಳನ್ನು ಎಳೆಯಲು ಬಳಸಬೇಕಿರುವ ಚಿತ್ರ"

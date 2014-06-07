@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2008-02-01 12:10+0545\n"
 "Last-Translator: Nabin Gautam <nabin@mpp.org.np>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -26,9 +26,9 @@ msgstr "पज गरियो"
 msgid "Game Over"
 msgstr "खेल समाप्त"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "ग्नोमेट्रिस"
 
@@ -36,11 +36,11 @@ msgstr "ग्नोमेट्रिस"
 msgid "Fit falling blocks together"
 msgstr "सँगैसँगै झर्ने खण्डलाई मिलाउनुहोस्"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "Set starting level (1 or greater)"
 msgstr "सुरुआत स्तर सेट गर्ने या नगर्ने (१ वा ठूलो)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "स्तर"
 
@@ -72,110 +72,110 @@ msgstr "लाइन:"
 msgid "Level:"
 msgstr "स्तर:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "खेल"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr "सेटिङ"
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr "मद्दत"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 msgid "Gnometris Preferences"
 msgstr "ग्नोमेट्रिस प्रथमिकता"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "खेल"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "सेटअप"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 msgid "_Number of pre-filled rows:"
 msgstr "पहिले भरिएका पङ्‌क्तिको सङ्ख्या:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "पहिले भरिएका पङ्‌क्तिमा खण्डको घनत्व:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 msgid "_Starting level:"
 msgstr "सुरुआत स्तर:"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr "कार्य"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 msgid "_Enable sounds"
 msgstr "ध्वनिलाई सक्षम पार्नुहोस्"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 msgid "_Preview next block"
 msgstr "पछिल्लो खण्ड पूर्वावलोकन गर्नुहोस्"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 msgid "_Use random block colors"
 msgstr "अनियमित खण्ड रङ प्रयोग गर्नुहोस्"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 msgid "_Rotate blocks counterclockwise"
 msgstr "खण्डलाई घडीको विपरित दिशामा घुमाउनुहोस्"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr "खण्ड रोकिने ठाउँ देखाउनुहोस्"
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "विषयवस्तु"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "नियन्त्रण"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "कुञ्जीपाटी नियन्त्रण"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "बाँया सार्नुहोस्"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "दाँया सार्नुहोस्"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr "तल सार्नुहोस्"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 msgid "Drop"
 msgstr "झार्नुहोस्"
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 msgid "Rotate"
 msgstr "घुमाउनुहोस्"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "पज गर्नुहोस्"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 msgid "Block Style"
 msgstr "खण्ड शैली"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -185,11 +185,11 @@ msgstr ""
 "\n"
 "जिनोमेट्रिक्स जिनोम खेलको भाग हो ।"
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 msgid "GNOME Games web site"
 msgstr "जिनोम खेल वेब साइट"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr "अनुवादक श्रेय"
 
@@ -208,11 +208,6 @@ msgstr "<Press a Key>"
 #: ../libgames-support/games-controls.c:332
 msgid "Unknown Command"
 msgstr "अज्ञात आदेश"
-
-#: ../libgames-support/games-help.c:56
-#, fuzzy
-msgid "Unable to open help file"
-msgstr "मद्दत प्रदर्शन गर्न असमर्थ: %s"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -421,6 +416,10 @@ msgstr ""
 "तपाईँले %s को साथमा जीएनयूको साधारण सार्वजनिक इजाजतपत्रको प्रतिलिपि प्राप्त गरेको "
 "हुनुपर्छ; यदि नभएमा, नि: शुल्क सफ्टवेयर प्रतिष्ठान, Inc., 51 Franklin Street, Fifth "
 "Floor, Boston, MA  02110-1301  USA मा पत्र लेख्नुहोस्"
+
+#, fuzzy
+#~ msgid "Unable to open help file"
+#~ msgstr "मद्दत प्रदर्शन गर्न असमर्थ: %s"
 
 #~ msgid "Image to use for drawing blocks"
 #~ msgstr "खण्ड झार्नका लागि प्रयोग गरिने छवि"

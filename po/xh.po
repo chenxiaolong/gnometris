@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2005-02-28 16:05+0200\n"
 "Last-Translator: Canonical Ltd <translations@canonical.com>\n"
 "Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
@@ -26,9 +26,9 @@ msgstr "Iphumle"
 msgid "Game Over"
 msgstr "Umdlalo Uphelile"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "I-Gnometris"
 
@@ -36,12 +36,12 @@ msgstr "I-Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Dibanisa iibhloko eziwayo"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 #, fuzzy
 msgid "Set starting level (1 or greater)"
 msgstr "Misela inqanaba emakuqalwe kulo (1-10)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "INQANABA"
 
@@ -75,131 +75,131 @@ msgstr "Imigca:"
 msgid "Level:"
 msgstr "Inqanaba:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "_Umdlalo"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr "_Uncedo"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 #, fuzzy
 msgid "Gnometris Preferences"
 msgstr "Izinto ezikhethekayo ze-Gnometris"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "Umdlalo"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "Ukumisela inkqubo"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 #, fuzzy
 msgid "_Number of pre-filled rows:"
 msgstr "Inani lemigca esele izalisiwe:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Uxinano lweebhloko kumgca osele uzalisiwe:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 #, fuzzy
 msgid "_Starting level:"
 msgstr "Inqanaba ekuqalwa kulo:"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr "Umsebenzi"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 #, fuzzy
 msgid "_Enable sounds"
 msgstr "Yenza izandi zisebenze"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 #, fuzzy
 msgid "_Preview next block"
 msgstr "Qala ujonge ibhloko elandelayo"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 #, fuzzy
 msgid "_Use random block colors"
 msgstr "Sebenzisa imibala yeebloko engakhethwanga"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 #, fuzzy
 msgid "_Rotate blocks counterclockwise"
 msgstr "Jikelezisa iibhloko ziye ngakwicala eliphikisana nelewotshi"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "Isihloko"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "Izilawuli"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "Izilawuli Ze-keyboard"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "Yiya ngasekhohlo"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "Yiya ngasekunene"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr "Yiya ngezantsi"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 msgid "Drop"
 msgstr "Wisa"
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 msgid "Rotate"
 msgstr "Jikelezisa"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "Phumla"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 #, fuzzy
 msgid "Block Style"
 msgstr "Ibhloko yeshumi"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Iseva yomdlalo"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr "Canonical Ltd <translations@canonical.com>"
 
@@ -219,11 +219,6 @@ msgstr "<Cofa Iqhosha>"
 #: ../libgames-support/games-controls.c:332
 msgid "Unknown Command"
 msgstr "Umyalelo Ongaziwayo"
-
-#: ../libgames-support/games-help.c:56
-#, fuzzy
-msgid "Unable to open help file"
-msgstr "Uyifundile ifayili yoncedo?"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -443,6 +438,10 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Unable to open help file"
+#~ msgstr "Uyifundile ifayili yoncedo?"
 
 #~ msgid "Image to use for drawing blocks"
 #~ msgstr "Umfanekiso osetyenziswa xa kuzotywa iibhloko"

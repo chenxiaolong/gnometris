@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2004-05-27 22:28-0000\n"
 "Last-Translator: Samuel Jon Gunnarsson <sammi@techattack.nu>\n"
 "Language-Team: Icelandic <gnome@techattack.nu>\n"
@@ -26,9 +26,9 @@ msgstr "Hlé"
 msgid "Game Over"
 msgstr "Leik lokið"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -36,12 +36,12 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr "Fella fallandi steina saman"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 #, fuzzy
 msgid "Set starting level (1 or greater)"
 msgstr "Upphafsborð (1-10)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "BORÐ"
 
@@ -75,134 +75,134 @@ msgstr "Línur:"
 msgid "Level:"
 msgstr "Borð:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "_Leikur"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 #, fuzzy
 msgid "Gnometris Preferences"
 msgstr "Gnometris stillingar"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "Leikur"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "Uppsetning"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 #, fuzzy
 msgid "_Number of pre-filled rows:"
 msgstr "Fjöldi fylltra raða:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Þéttleiki kubba í fylltri röð"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 #, fuzzy
 msgid "_Starting level:"
 msgstr "Upphafsborð:"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr "Aðgerðir"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 #, fuzzy
 msgid "_Enable sounds"
 msgstr "Virkja hljóð"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 #, fuzzy
 msgid "_Preview next block"
 msgstr "Forsýna næsta kubb"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 #, fuzzy
 msgid "_Use random block colors"
 msgstr "Nota handahófskennda liti á kubba"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 #, fuzzy
 msgid "_Rotate blocks counterclockwise"
 msgstr "Snúa í öfugan sólarhring"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "Þemu"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "Stjórntæki"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "Stjórnlyklar"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "Færa til vinstri"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "Færa til hægri"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 #, fuzzy
 msgid "Move down"
 msgstr "Færa kubbana niður"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 #, fuzzy
 msgid "Drop"
 msgstr "_Sleppa"
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 #, fuzzy
 msgid "Rotate"
 msgstr "Byrja aftur"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "Hlé"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 #, fuzzy
 msgid "Block Style"
 msgstr "Block ten"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Enginn leikjaþjónn tilgreindur"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr "þýðing"
 
@@ -224,11 +224,6 @@ msgstr ""
 #, fuzzy
 msgid "Unknown Command"
 msgstr "Óþekktur litur"
-
-#: ../libgames-support/games-help.c:56
-#, fuzzy
-msgid "Unable to open help file"
-msgstr "Hefurðu lesið hjálparskrána?"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -452,6 +447,10 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Unable to open help file"
+#~ msgstr "Hefurðu lesið hjálparskrána?"
 
 #~ msgid "Image to use for drawing blocks"
 #~ msgstr "Hvaða mynd á að nota til að teikna kubba"

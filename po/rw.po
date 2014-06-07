@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games 2.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2005-03-28 19:35-0700\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
@@ -34,9 +34,9 @@ msgstr "Mu karuhuko"
 msgid "Game Over"
 msgstr ""
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr ""
 
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Fit falling blocks together"
 msgstr ""
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 #, fuzzy
 msgid "Set starting level (1 or greater)"
 msgstr "urwego 1. 10"
@@ -69,7 +69,7 @@ msgstr "urwego 1. 10"
 # officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Impress.Settings.Level.text
 # #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
 # officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.OLEMisc.Settings.Level.text
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 #, fuzzy
 msgid "LEVEL"
 msgstr "urwego"
@@ -126,79 +126,79 @@ msgstr "Imirongo."
 msgid "Level:"
 msgstr "urwego"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 #, fuzzy
 msgid "_Settings"
 msgstr "Amagenamiterere"
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 #, fuzzy
 msgid "_Help"
 msgstr "Ifashayobora"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 msgid "Gnometris Preferences"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr ""
 
 # setup2/win\source\loader\loader.lng:%TITLE%.text
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr "Imikorere"
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 #, fuzzy
 msgid "_Number of pre-filled rows:"
 msgstr "Bya Byahawe imiterere mbere Byuzuye Imbariro"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Bya in a Byahawe imiterere mbere Byuzuye Urubariro"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 #, fuzzy
 msgid "_Starting level:"
 msgstr "urwego"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 msgid "Operation"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 #, fuzzy
 msgid "_Enable sounds"
 msgstr "Amajwi"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 #, fuzzy
 msgid "_Preview next block"
 msgstr "Komeza>> Funga"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 #, fuzzy
 msgid "_Use random block colors"
 msgstr "Funga Amabara"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 msgid "_Rotate blocks counterclockwise"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr ""
 
@@ -208,60 +208,60 @@ msgstr ""
 # basctl/source\basicide\tbxctl.src:RID_TBXCONTROLS.RID_TOOLBOX.text
 # #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
 # basctl/source\basicide\tbxctl.src:RID_TBXCONTROLS.text
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "Amagenzura"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr ""
 
 # officecfg/registry\schema\org\openoffice\Office\Calc.xcs:....Input.MoveSelectionDirection..3.text
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "Kwimura ibumoso"
 
 # officecfg/registry\schema\org\openoffice\Office\Calc.xcs:....Input.MoveSelectionDirection..1.text
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "Kwimura Iburyo"
 
 # officecfg/registry\schema\org\openoffice\Office\Calc.xcs:....Input.MoveSelectionDirection..0.text
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr "Kwimura Hasi"
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 msgid "Drop"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 msgid "Rotate"
 msgstr "Kuzengurutsa"
 
 # 4630
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "akaruhuko"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 #, fuzzy
 msgid "Block Style"
 msgstr "10"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Seriveri"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 #, fuzzy
 msgid "translator-credits"
 msgstr "Umusemuzi"
@@ -283,11 +283,6 @@ msgstr "<a"
 #: ../libgames-support/games-controls.c:332
 msgid "Unknown Command"
 msgstr ""
-
-#: ../libgames-support/games-help.c:56
-#, fuzzy
-msgid "Unable to open help file"
-msgstr "Gusoma Ifashayobora IDOSIYE"
 
 #: ../libgames-support/games-scores-dialog.c:114
 msgid "Time"
@@ -531,6 +526,10 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Unable to open help file"
+#~ msgstr "Gusoma Ifashayobora IDOSIYE"
 
 #, fuzzy
 #~ msgid "Image to use for drawing blocks"

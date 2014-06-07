@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 23:27-0400\n"
+"POT-Creation-Date: 2014-06-07 00:35-0400\n"
 "PO-Revision-Date: 2008-12-08 16:36+0100\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -26,9 +26,9 @@ msgstr "Pauza"
 msgid "Game Over"
 msgstr "Koniec hry"
 
-#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:73
-#: ../gnometris/tetris.cpp:177 ../gnometris/tetris.cpp:1379
-#: ../gnometris/tetris.cpp:1383 ../gnometris/tetris.cpp:1385
+#: ../gnometris/gnometris.desktop.in.in.h:1 ../gnometris/main.cpp:66
+#: ../gnometris/tetris.cpp:172 ../gnometris/tetris.cpp:1338
+#: ../gnometris/tetris.cpp:1342 ../gnometris/tetris.cpp:1344
 msgid "Gnometris"
 msgstr "Gnometris"
 
@@ -36,12 +36,12 @@ msgstr "Gnometris"
 msgid "Fit falling blocks together"
 msgstr ""
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 #, fuzzy
 msgid "Set starting level (1 or greater)"
 msgstr "Nastavte štartovaciu úroveň (1-10)"
 
-#: ../gnometris/main.cpp:52
+#: ../gnometris/main.cpp:48
 msgid "LEVEL"
 msgstr "ÚROVEŇ"
 
@@ -76,133 +76,133 @@ msgstr "Riadkov: "
 msgid "Level:"
 msgstr "Úroveň:"
 
-#: ../gnometris/tetris.cpp:119
+#: ../gnometris/tetris.cpp:110
 msgid "_Game"
 msgstr "_Hra"
 
-#: ../gnometris/tetris.cpp:120
+#: ../gnometris/tetris.cpp:111
 msgid "_Settings"
 msgstr "_Nastavenia"
 
-#: ../gnometris/tetris.cpp:121
+#: ../gnometris/tetris.cpp:112
 msgid "_Help"
 msgstr "_Pomocník"
 
-#: ../gnometris/tetris.cpp:615
+#: ../gnometris/tetris.cpp:600
 #, fuzzy
 msgid "Gnometris Preferences"
 msgstr "Nastavenie Gnometris"
 
-#: ../gnometris/tetris.cpp:636
+#: ../gnometris/tetris.cpp:621
 msgid "Game"
 msgstr "Hra"
 
-#: ../gnometris/tetris.cpp:639
+#: ../gnometris/tetris.cpp:624
 msgid "Setup"
 msgstr ""
 
 #. pre-filled rows
-#: ../gnometris/tetris.cpp:645
+#: ../gnometris/tetris.cpp:630
 #, fuzzy
 msgid "_Number of pre-filled rows:"
 msgstr "Počet predvyplnených riadkov:"
 
 #. pre-filled rows density
-#: ../gnometris/tetris.cpp:664
+#: ../gnometris/tetris.cpp:649
 #, fuzzy
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "Hustota blokov v predvyplnených riadkoch:"
 
 #. starting level
-#: ../gnometris/tetris.cpp:683
+#: ../gnometris/tetris.cpp:668
 #, fuzzy
 msgid "_Starting level:"
 msgstr "Počiatočná úroveň:"
 
-#: ../gnometris/tetris.cpp:704
+#: ../gnometris/tetris.cpp:689
 #, fuzzy
 msgid "Operation"
 msgstr "Generujem"
 
-#: ../gnometris/tetris.cpp:709
+#: ../gnometris/tetris.cpp:694
 #, fuzzy
 msgid "_Enable sounds"
 msgstr "Povoliť _zvuky"
 
-#: ../gnometris/tetris.cpp:718
+#: ../gnometris/tetris.cpp:703
 #, fuzzy
 msgid "_Preview next block"
 msgstr "Ukazovať nasledujúci blok"
 
-#: ../gnometris/tetris.cpp:727
+#: ../gnometris/tetris.cpp:712
 #, fuzzy
 msgid "_Use random block colors"
 msgstr "Náhodné farby blokov"
 
-#: ../gnometris/tetris.cpp:738
+#: ../gnometris/tetris.cpp:723
 #, fuzzy
 msgid "_Rotate blocks counterclockwise"
 msgstr "Otáčať proti smeru hodinových ručičiek"
 
-#: ../gnometris/tetris.cpp:747
+#: ../gnometris/tetris.cpp:732
 msgid "Show _where the block will land"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:761 ../gnometris/tetris.cpp:794
+#: ../gnometris/tetris.cpp:744 ../gnometris/tetris.cpp:777
 msgid "Theme"
 msgstr "Téma"
 
-#: ../gnometris/tetris.cpp:770
+#: ../gnometris/tetris.cpp:753
 msgid "Controls"
 msgstr "Ovládanie"
 
-#: ../gnometris/tetris.cpp:773
+#: ../gnometris/tetris.cpp:756
 msgid "Keyboard Controls"
 msgstr "Ovládanie klávesnicou"
 
-#: ../gnometris/tetris.cpp:781
+#: ../gnometris/tetris.cpp:764
 msgid "Move left"
 msgstr "Posun doľava"
 
-#: ../gnometris/tetris.cpp:782
+#: ../gnometris/tetris.cpp:765
 msgid "Move right"
 msgstr "Posun doprava"
 
-#: ../gnometris/tetris.cpp:783
+#: ../gnometris/tetris.cpp:766
 msgid "Move down"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:784
+#: ../gnometris/tetris.cpp:767
 msgid "Drop"
 msgstr ""
 
-#: ../gnometris/tetris.cpp:785
+#: ../gnometris/tetris.cpp:768
 #, fuzzy
 msgid "Rotate"
 msgstr "Hrať znovu"
 
-#: ../gnometris/tetris.cpp:786
+#: ../gnometris/tetris.cpp:769
 msgid "Pause"
 msgstr "Pauza"
 
-#: ../gnometris/tetris.cpp:797
+#: ../gnometris/tetris.cpp:780
 #, fuzzy
 msgid "Block Style"
 msgstr "Blok desiatky"
 
-#: ../gnometris/tetris.cpp:1388
+#: ../gnometris/tetris.cpp:1347
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
 "Gnometris is a part of GNOME Games."
 msgstr ""
 
-#: ../gnometris/tetris.cpp:1391
+#: ../gnometris/tetris.cpp:1350
 #, fuzzy
 msgid "GNOME Games web site"
 msgstr "Nedefinovaný herný server"
 
-#: ../gnometris/tetris.cpp:1394
+#: ../gnometris/tetris.cpp:1353
 msgid "translator-credits"
 msgstr ""
 "Stanislav Višňovský (visnovsky@nenya.ms.mff.cuni.cz)\n"
@@ -226,11 +226,6 @@ msgstr ""
 #, fuzzy
 msgid "Unknown Command"
 msgstr "Neznáma farba"
-
-#: ../libgames-support/games-help.c:56
-#, fuzzy
-msgid "Unable to open help file"
-msgstr "Čítali ste pomocníka?"
 
 #: ../libgames-support/games-scores-dialog.c:114
 #, fuzzy
@@ -453,6 +448,10 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Unable to open help file"
+#~ msgstr "Čítali ste pomocníka?"
 
 #, fuzzy
 #~ msgid "Image to use for drawing blocks"
