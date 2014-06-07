@@ -38,6 +38,10 @@ gnometris_LDADD = \
 	$(GTK_LIBS) \
 	$(INTLLIBS)
 
+if OS_WIN32
+gnometris_LDFLAGS = -mwindows
+endif
+
 pixmapdir = $(pkgdatadir)/gnometris/pixmaps
 pixmap_DATA = gnometris.svg
 

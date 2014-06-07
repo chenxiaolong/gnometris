@@ -91,7 +91,7 @@ ${_host}-windres "${tempdir}"/res.{rc,o}
 
 ${_host}-g++ \
   -static \
-  -Wl,-subsystem,windows \
+  -mwindows \
   win32-launcher.cpp \
   "${tempdir}/res.o" \
   -lshlwapi \

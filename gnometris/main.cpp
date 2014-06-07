@@ -21,6 +21,10 @@
 
 #include <config.h>
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 #include <libgames-support/games-scores.h>
 #include <libgames-support/games-sound.h>
 #include <libgames-support/games-conf.h>
@@ -81,3 +85,12 @@ main(int argc, char *argv[])
 
 	return 0;
 }
+
+#ifdef _WIN32
+int APIENTRY WinMain(HINSTANCE hInstance,
+                     HINSTANCE hPrevInstance,
+                     LPSTR lpCmdLine,
+                     int nCmdShow) {
+	return main(__argc, __argv);
+}
+#endif
