@@ -26,8 +26,7 @@ DISTCLEANFILES = \
 	gnome-doc-utils.make
 
 # Ignore score files, these *should* be left behind.
-distuninstallcheck_listfiles = find . -type f -print | grep -v '.scores' | grep-v scrollkeeper
+distuninstallcheck_listfiles = find . -type f -print | grep -v '.scores'
 
 DISTCHECK_CONFIGURE_FLAGS = \
-	--disable-schemas-install \
-	--disable-scrollkeeper
+	--disable-schemas-install

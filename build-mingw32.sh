@@ -20,8 +20,7 @@ NOCONFIGURE=1 ./autogen.sh
   --build=${_build} \
   --host=${_host} \
   --disable-setgid \
-  --disable-gameplaydoc \
-  --disable-scrollkeeper
+  --disable-gameplaydoc
 
 make
 
