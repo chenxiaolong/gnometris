@@ -202,95 +202,9 @@ games_stock_set_pause_actions (GtkAction * pause_action,
   set_pause_actions (resume_action, actions);
 }
 
-/* This will become GTK_CHECK_VERSION (2, 15, x) once the patch from gtk+ bug 511332 is committed */
-#undef HAVE_GTK_ICON_FACTORY_ADD_ALIAS
-
-#ifndef HAVE_GTK_ICON_FACTORY_ADD_ALIAS
-
-static void
-register_stock_icon (GtkIconFactory * icon_factory,
-                     const char * stock_id,
-                     const char * icon_name)
-{
-  GtkIconSource *source;
-  GtkIconSet *set;
-
-  set = gtk_icon_set_new ();
-
-  source = gtk_icon_source_new ();
-  gtk_icon_source_set_icon_name (source, icon_name);
-  gtk_icon_set_add_source (set, source);
-  gtk_icon_source_free (source);
-
-  gtk_icon_factory_add (icon_factory, stock_id, set);
-  gtk_icon_set_unref (set);
-}
-
-static void
-register_stock_icon_bidi (GtkIconFactory * icon_factory,
-                          const char * stock_id,
-                          const char * icon_name_ltr,
-                          const char * icon_name_rtl)
-{
-  GtkIconSource *source;
-  GtkIconSet *set;
-
-  set = gtk_icon_set_new ();
-
-  source = gtk_icon_source_new ();
-  gtk_icon_source_set_icon_name (source, icon_name_ltr);
-  gtk_icon_source_set_direction (source, GTK_TEXT_DIR_LTR);
-  gtk_icon_source_set_direction_wildcarded (source, FALSE);
-  gtk_icon_set_add_source (set, source);
-  gtk_icon_source_free (source);
-
-  source = gtk_icon_source_new ();
-  gtk_icon_source_set_icon_name (source, icon_name_rtl);
-  gtk_icon_source_set_direction (source, GTK_TEXT_DIR_RTL);
-  gtk_icon_source_set_direction_wildcarded (source, FALSE);
-  gtk_icon_set_add_source (set, source);
-  gtk_icon_source_free (source);
-
-  gtk_icon_factory_add (icon_factory, stock_id, set);
-  gtk_icon_set_unref (set);
-}
-
-#endif /* HAVE_GTK_ICON_FACTORY_ADD_ALIAS */
-
 void
 games_stock_init (void)
 {
-  /* These stocks have a gtk stock icon */
-  const char *stock_icon_aliases[][2] = {
-    { GAMES_STOCK_CONTENTS,         GTK_STOCK_HELP },
-    { GAMES_STOCK_HINT,             GTK_STOCK_DIALOG_INFO },
-    { GAMES_STOCK_NEW_GAME,         GTK_STOCK_NEW },
-    { GAMES_STOCK_RESET,            GTK_STOCK_CLEAR },
-    { GAMES_STOCK_RESTART_GAME,     GTK_STOCK_REFRESH },
-#if GTK_CHECK_VERSION (2, 8, 0)
-    { GAMES_STOCK_FULLSCREEN,       GTK_STOCK_FULLSCREEN },
-#endif
-#ifdef HAVE_GTK_ICON_FACTORY_ADD_ALIAS
-    { GAMES_STOCK_REDO_MOVE,        GTK_STOCK_REDO },
-    { GAMES_STOCK_UNDO_MOVE,        GTK_STOCK_UNDO },
-#endif
-    { GAMES_STOCK_LEAVE_FULLSCREEN, GTK_STOCK_LEAVE_FULLSCREEN },
-    { GAMES_STOCK_NETWORK_GAME,     GTK_STOCK_NETWORK },
-    { GAMES_STOCK_NETWORK_LEAVE,    GTK_STOCK_STOP },
-    { GAMES_STOCK_PLAYER_LIST,      GTK_STOCK_INFO },
-
-    { GAMES_STOCK_PAUSE_GAME,       "stock_timer_stopped" },
-    { GAMES_STOCK_RESUME_GAME,      "stock_timer" },
-    { GAMES_STOCK_SCORES,           "stock_scores" },
-  };
-
-#ifndef HAVE_GTK_ICON_FACTORY_ADD_ALIAS
-  const char *stock_icon_aliases_bidi[][3] = {
-    { GAMES_STOCK_REDO_MOVE, GTK_STOCK_REDO "-ltr", GTK_STOCK_REDO "-rtl" },
-    { GAMES_STOCK_UNDO_MOVE, GTK_STOCK_UNDO "-ltr", GTK_STOCK_UNDO "-rtl" },
-  };
-#endif
-
   static const GtkStockItem games_stock_items[] = {
     { GAMES_STOCK_CONTENTS,         N_("_Contents"),          0, GDK_F1, NULL },
     { GAMES_STOCK_FULLSCREEN,       N_("_Fullscreen"),        0, GDK_F11, NULL },
@@ -315,42 +229,6 @@ games_stock_init (void)
     { GAMES_STOCK_END_GAME,         N_("_End Game"),          0, 0, NULL },
   };
 
-  guint i;
-  GtkIconFactory *icon_factory;
-
-  icon_factory = gtk_icon_factory_new ();
-
-#ifdef HAVE_GTK_ICON_FACTORY_ADD_ALIAS
-  for (i = 0; i < G_N_ELEMENTS (stock_icon_aliases); ++i) {
-    gtk_icon_factory_add_alias (stock_icon_aliases[i][0],
-                                stock_icon_aliases[i][1]);
-  }
-
-#else
-  for (i = 0; i < G_N_ELEMENTS (stock_icon_aliases); ++i) {
-    register_stock_icon (icon_factory,
-                         stock_icon_aliases[i][0],
-                         stock_icon_aliases[i][1]);
-  }
-
-  for (i = 0; i < G_N_ELEMENTS (stock_icon_aliases_bidi); ++i) {
-    register_stock_icon_bidi (icon_factory,
-                              stock_icon_aliases_bidi[i][0],
-                              stock_icon_aliases_bidi[i][1],
-                              stock_icon_aliases_bidi[i][2]);
-  }
-#endif /* HAVE_GTK_ICON_FACTORY_ADD_ALIAS */
-
-  gtk_icon_factory_add_default (icon_factory);
-  g_object_unref (icon_factory);
-
-  /* GtkIconTheme will then look in our custom hicolor dir
-   * for icons as well as the standard search paths.
-   */
-  /* FIXME: multi-head! */
-  gtk_icon_theme_append_search_path (gtk_icon_theme_get_default (),
-                                     games_runtime_get_directory (GAMES_RUNTIME_ICON_THEME_DIRECTORY));
- 
   gtk_stock_add_static (games_stock_items, G_N_ELEMENTS (games_stock_items));
 }
 
