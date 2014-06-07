@@ -126,7 +126,7 @@ games_scores_backend_get_lock (GamesScoresBackend * self)
   }
 
 #ifdef _WIN32
-  self->priv->fd = open (self->priv->filename, O_RDWR);
+  self->priv->fd = open (self->priv->filename, O_RDWR | O_BINARY);
 #else
   self->priv->fd = setgid_io_open (self->priv->filename, O_RDWR);
 #endif
