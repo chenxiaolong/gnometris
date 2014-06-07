@@ -6,7 +6,6 @@ AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz foreign])
 AM_SILENT_RULES([yes])
 AM_MAINTAINER_MODE
 
-AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_HEADERS([config.h])
 
 # Feature matrix
@@ -70,8 +69,6 @@ dnl Checks for libraries
 dnl ###########################################################################
 
 GTK_REQUIRED=2.14.0
-
-CAIRO_REQUIRED=1.0
 GSTREAMER_REQUIRED=0.10.11
 
 # Check for common modules
@@ -91,14 +88,17 @@ AM_CONDITIONAL([WITH_GAMEPLAYDOC],[test "$enable_gameplaydoc" = "yes"])
 # Sound support: GStreamer and SDL_mixer
 have_gstreamer=no
 if test "$enable_sound" = "yes" -a "$with_sound" = "sdl_mixer"; then
-  # Check for SDL_Mixer sound support, sets SDL_MIXER_CFLAGS, SDL_MIXER_LIBS, AUDIO_SDL
-  GAMES_CHECK_SOUND()
+  PKG_CHECK_MODULES([SDL_MIXER],
+    [SDL_mixer >= $SDL_VERSION],
+    [have_sdl_mixer=yes],[have_sdl_mixer=no])
 
   if test "$SDL_mixer" = "no"; then
     with_sound=gstreamer
     echo "SDL_Mixer not found, fallback to GStreamer."
+  else
+    AC_DEFINE(AUDIO_SDL, 1, [SDL_Mixer support])
+    AC_DEFINE(SDL, 1, [SDL is used])
   fi
-
 fi
 
 if test "$enable_sound" = "yes" -a "$with_sound" = "gstreamer"; then
