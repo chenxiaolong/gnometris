@@ -49,11 +49,6 @@ gnometris_LDADD = \
 	$(GTK_LIBS) \
 	$(INTLLIBS)
 
-if WITH_GTHREAD
-gnometris_CXXFLAGS += $(GHTREAD_CFLAGS)
-gnometris_LDADD += $(GTHREAD_LIBS)
-endif
-
 if HAVE_CLUTTER
 #noinst_PROGRAMS = gnometris-noclutter
 
