@@ -126,7 +126,9 @@ Tetris::Tetris(int cmdlLevel):
 	{ "EndGame", GAMES_STOCK_END_GAME, NULL, NULL, NULL, G_CALLBACK (gameEnd) },
 	{ "Quit", GTK_STOCK_QUIT, NULL, NULL, NULL, G_CALLBACK (gameQuit) },
 	{ "Preferences", GTK_STOCK_PREFERENCES, NULL, NULL, NULL, G_CALLBACK (gameProperties) },
+#ifdef WITH_GAMEPLAYDOC
 	{ "Contents", GAMES_STOCK_CONTENTS, NULL, NULL, NULL, G_CALLBACK (gameHelp) },
+#endif
 	{ "About", GTK_STOCK_ABOUT, NULL, NULL, NULL, G_CALLBACK (gameAbout) }
 	};
 
@@ -147,7 +149,9 @@ Tetris::Tetris(int cmdlLevel):
 	"      <menuitem action='Preferences'/>"
 	"    </menu>"
 	"    <menu action='HelpMenu'>"
+#ifdef WITH_GAMEPLAYDOC
 	"      <menuitem action='Contents'/>"
+#endif
 	"      <menuitem action='About'/>"
 	"    </menu>"
 	"  </menubar>"

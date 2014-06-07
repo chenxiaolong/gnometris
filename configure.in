@@ -95,6 +95,14 @@ AC_ARG_ENABLE([clutter],
   [],[enable_clutter=no])
 AC_MSG_RESULT([$enable_clutter])
 
+# Gameplay documentation
+
+AC_MSG_CHECKING([whether to build gameplay documentation])
+AC_ARG_ENABLE([gameplaydoc],
+  [AS_HELP_STRING([--enable-gameplaydoc],[whether to build gameplay documentation (default: enabled)])],
+  [],[enable_gameplaydoc=yes])
+AC_MSG_RESULT([$enable_gameplaydoc])
+
 
 # ********************
 # Checks for libraries
@@ -147,6 +155,14 @@ if test "$enable_clutter" = "yes"; then
 fi
 
 AM_CONDITIONAL([HAVE_CLUTTER],[test "$enable_clutter" = "yes"])
+
+# Gameplay documentation
+
+if test "$enable_gameplaydoc" = "yes"; then
+  AC_DEFINE([WITH_GAMEPLAYDOC],[1],[Define if gameplay docs should be built])
+fi
+
+AM_CONDITIONAL([WITH_GAMEPLAYDOC],[test "$enable_gameplaydoc" = "yes"])
 
 # GThread
 
@@ -340,6 +356,7 @@ Configuration:
 
     Using Clutter:         ${enable_clutter}
     Sound support:         ${with_sound}
+    Enable gameplay docs:  ${enable_gameplaydoc}
     Use setgid binaries:   ${setgid}
     Scores user:           ${scores_user}
     Scores & setgid group: ${scores_group}

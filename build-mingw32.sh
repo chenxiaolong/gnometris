@@ -13,7 +13,6 @@ _build=x86_64-unknown-linux-gnu
 _prefix=/usr/${_host}
 _bindir=${_prefix}/bin
 
-sed -i '/SUBDIRS/s/help//g' gnometris/Makefile.am
 NOCONFIGURE=1 ./autogen.sh
 
 ./configure \
@@ -21,6 +20,7 @@ NOCONFIGURE=1 ./autogen.sh
   --build=${_build} \
   --host=${_host} \
   --disable-setgid \
+  --disable-gameplaydoc \
   --disable-scrollkeeper
 
 make

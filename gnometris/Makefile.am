@@ -1,4 +1,7 @@
-SUBDIRS = pix #help
+SUBDIRS = pix
+if WITH_GAMEPLAYDOC
+SUBDIRS += help
+endif
 
 bin_PROGRAMS=gnometris
 
