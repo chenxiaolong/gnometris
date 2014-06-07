@@ -100,6 +100,11 @@ rm "${tempdir}/res.rc"
 rm "${tempdir}/res.o"
 rm "${tempdir}/combined.ico"
 
+${_host}-strip "${tempdir}"/gnometris/bin/*
+if which upx >/dev/null; then
+  upx -9 "${tempdir}"/gnometris/bin/*
+fi
+
 pushd "${tempdir}"
 zip -r gnometris.zip gnometris/
 popd
