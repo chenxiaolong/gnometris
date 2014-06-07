@@ -63,6 +63,43 @@ cp ${_bindir}/SDL_mixer.dll .
 cp ${_bindir}/zlib1.dll .
 popd
 
+pushd "${tempdir}/gnometris/share/icons/hicolor/"
+cp /usr/share/icons/hicolor/index.theme .
+gtk-update-icon-cache .
+popd
+
+sizes=($(find icons -type d -name '*x*' | sort -r | xargs basename -a | xargs))
+icons=()
+
+for size in "${sizes[@]}"; do
+  convert -resize ${size} icons/${size}/gnome-gnometris.png \
+    "${tempdir}/output-${size}.ico"
+  icons+=("${tempdir}/output-${size}.ico")
+done
+
+# Preserve descending order
+convert "${icons[@]}" "${tempdir}/combined.ico"
+rm "${icons[@]}"
+
+cat > "${tempdir}/res.rc" << EOF
+1 ICON "${tempdir}/combined.ico"
+EOF
+
+${_host}-windres "${tempdir}"/res.{rc,o}
+
+${_host}-g++ \
+  -static \
+  -Wl,-subsystem,windows \
+  win32-launcher.cpp \
+  "${tempdir}/res.o" \
+  -lshlwapi \
+  -DLANG=\"zh_CN.UTF-8\" \
+  -o "${tempdir}/gnometris/Gnome 方块.exe"
+
+rm "${tempdir}/res.rc"
+rm "${tempdir}/res.o"
+rm "${tempdir}/combined.ico"
+
 pushd "${tempdir}"
 zip -r gnometris.zip gnometris/
 popd
