@@ -439,7 +439,7 @@ Tetris::initOptions ()
 	if (startingLevel > 20)
 		startingLevel = 20;
 
-	games_sound_enable (confGetBoolean (KEY_OPTIONS_GROUP, KEY_SOUND, TRUE));
+	games_sound_enable (confGetBoolean (KEY_OPTIONS_GROUP, KEY_SOUND, FALSE));
 
 	useTarget = confGetBoolean (KEY_OPTIONS_GROUP, KEY_USE_TARGET, FALSE);
 
@@ -449,7 +449,7 @@ Tetris::initOptions ()
 		preview->enable(do_preview);
 	}
 
-	random_block_colors = confGetBoolean (KEY_OPTIONS_GROUP, KEY_RANDOM_BLOCK_COLORS, TRUE);
+	random_block_colors = confGetBoolean (KEY_OPTIONS_GROUP, KEY_RANDOM_BLOCK_COLORS, FALSE);
 
 	rotateCounterClockWise = confGetBoolean (KEY_OPTIONS_GROUP, KEY_ROTATE_COUNTER_CLOCKWISE, TRUE);
 
