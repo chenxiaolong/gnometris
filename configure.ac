@@ -1,70 +1,40 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
 AC_PREREQ([2.53])
 AC_INIT([Gnometris], [2.26.3],
   [https://github.com/chenxiaolong/gnometris/issues],
-  [gnometris])
+  [gnometris], [https://github.com/chenxiaolong/gnometris])
+AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz foreign])
+AM_SILENT_RULES([yes])
+AM_MAINTAINER_MODE
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_HEADERS([config.h])
 
-AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-bzip2 foreign])
-
-if test -z "$enable_maintainer_mode"; then
-  enable_maintainer_mode=yes
-fi
-AM_MAINTAINER_MODE([enable])
-
 # Feature matrix
 
-need_cxx=yes
 need_clutter=no
 want_gstreamer=yes
 
 # Locate various programs
 
-PKG_PROG_PKG_CONFIG([0.15])
-
 AC_PROG_CC
-AC_PROG_CPP
-AC_PROG_LN_S
-AC_PROG_SED
-
-if test "$need_cxx" = "yes"; then
-  AC_PROG_CXX
-
-  # Check whether a C++ was found (AC_PROG_CXX sets $CXX to "g++" even when it
-  # doesn't exist)
-  AC_LANG_PUSH([C++])
-  AC_COMPILE_IFELSE([AC_LANG_PROGRAM([],[])],[],[AC_MSG_ERROR([No C++ compiler found])])
-  AC_LANG_POP([C++])
-fi
-
 AM_PROG_CC_C_O
+AC_PROG_CXX
 
 AC_PROG_LIBTOOL
 
-GNOME_COMMON_INIT
 GNOME_DEBUG_CHECK
 GNOME_COMPILE_WARNINGS([maximum])
 GNOME_CXX_WARNINGS([yes])
-GNOME_MAINTAINER_MODE_DEFINES
 
-AC_C99_VARIADIC_MACROS
-AC_C99_VARIABLE_ARRAYS
-AC_C99_INITIALIZERS
-AC_C99_STDINT_H   
+dnl ###########################################################################
+dnl Documentation
+dnl ###########################################################################
 
-# *************
-# Documentation
-# *************
+YELP_HELP_INIT
 
-GNOME_DOC_INIT([0.10.0],[have_gdu=yes],[have_gdu=no])
-
-# ************
-# Dependencies
-# ************
+dnl ###########################################################################
+dnl Dependencies
+dnl ###########################################################################
 
 # Sound
 
@@ -104,9 +74,9 @@ AC_ARG_ENABLE([gameplaydoc],
 AC_MSG_RESULT([$enable_gameplaydoc])
 
 
-# ********************
-# Checks for libraries
-# ********************
+dnl ###########################################################################
+dnl Checks for libraries
+dnl ###########################################################################
 
 GTK_REQUIRED=2.14.0
 
@@ -114,11 +84,6 @@ CAIRO_REQUIRED=1.0
 GSTREAMER_REQUIRED=0.10.11
 
 # Check for common modules
-
-need_gthread=no
-PKG_CHECK_MODULES([GTHREAD],[gthread-2.0])
-AC_SUBST([GTHREAD_CFLAGS])
-AC_SUBST([GTHREAD_LIBS])
 
 PKG_CHECK_MODULES([GTK],[gtk+-2.0 >= $GTK_REQUIRED])
 AC_SUBST([GTK_CFLAGS])
@@ -164,10 +129,6 @@ fi
 
 AM_CONDITIONAL([WITH_GAMEPLAYDOC],[test "$enable_gameplaydoc" = "yes"])
 
-# GThread
-
-AM_CONDITIONAL([WITH_GTHREAD],[test "$need_gthread" = "yes"])
-
 # Sound support: GStreamer and SDL_mixer
 have_gstreamer=no
 if test "$enable_sound" = "yes" -a "$with_sound" = "sdl_mixer"; then
@@ -210,96 +171,39 @@ AM_CONDITIONAL([HAVE_GSTREAMER],[test "$have_gstreamer" = "yes"])
 AM_CONDITIONAL([HAVE_SDL_MIXER],[test "x$SDL_mixer" = "xyes"])
 AM_CONDITIONAL([ENABLE_SOUND],[test "$enable_sound" = "yes"])
 
-# *************
+dnl ###########################################################################
+dnl glib-genmarshal
+dnl ###########################################################################
 
 AC_PATH_PROG([GLIB_GENMARSHAL],[glib-genmarshal])
 
 GLIB_GENMARSHAL_INTERNAL="--internal"
 AC_SUBST([GLIB_GENMARSHAL_INTERNAL])
 
-# ********
-
-AM_CFLAGS="$AM_CFLAGS $WARN_CFLAGS"
-AM_CXXFLAGS="$AM_CXXFLAGS $WARN_CXXFLAGS"
-
-# ****
-# i18n
-# ****
+dnl ###########################################################################
+dnl i18n
+dnl ###########################################################################
 
 GETTEXT_PACKAGE=gnometris
 AC_SUBST(GETTEXT_PACKAGE)
-AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [The gettext package name])
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Name of default gettext domain])
 AM_GLIB_GNU_GETTEXT
 
 IT_PROG_INTLTOOL([0.35.0])
 
-# ********************
-# Game specific checks
-# ********************
+dnl ###########################################################################
+dnl Check for header files and library functions
+dnl ###########################################################################
 
-# Check for library functions
-# ===========================
-
-AC_CHECK_FUNCS([dup2 strcasecmp strchr strerror \
-                malloc vprintf], [],
-               [AC_MSG_ERROR([cannot find required function])])
-AC_CHECK_FUNCS([fork select]) 
-AC_CHECK_FUNCS([alarm getpwuid getenv setenv close hstrerror kill socketpair])
-
-AC_FUNC_SELECT_ARGTYPES
-
+AC_CHECK_HEADERS(fcntl.h)
+AC_CHECK_HEADERS(time.h)
+AC_CHECK_HEADERS(unistd.h)
+AC_CHECK_FUNCS(strchr fork getpwuid close)
 AC_HEADER_STDC
 
-AC_TYPE_SIGNAL
-AC_FUNC_FORK
-AC_FUNC_STRCOLL
-AC_FUNC_VPRINTF
-
-# Check for PF_LOCAL/PF_UNIX
-# ==========================
-# There should be an autoconf macro to check this???
-#
-# Not having this is not necessarily a fatal error.  It should mean that
-# the WinAPI interface is used instead.
-AC_MSG_CHECKING([for PF_LOCAL])
-AC_EGREP_CPP(PF_LOCAL,
-             [#include <sys/types.h>
-              #include <sys/socket.h>
-              PF_LOCAL ],
-             [AC_MSG_RESULT(no)
-              AC_MSG_CHECKING([for PF_UNIX])
-              AC_EGREP_CPP(PF_UNIX, [ #include <sys/types.h>
-                                      #include <sys/socket.h>
-				      PF_UNIX ],
-                           [AC_MSG_RESULT(no)],
-                           [AC_MSG_RESULT(yes)
-                            AC_DEFINE([PF_LOCAL], PF_UNIX,
-				      [PF_UNIX is available])
-			    AC_DEFINE([AF_LOCAL], AF_UNIX,
-				      [AF_UNIX is available])])], 
-             AC_MSG_RESULT(yes))
-
-# Check for header files
-# ======================
-AC_CHECK_HEADERS([fcntl.h limits.h sys/time.h time.h \
-                  unistd.h], [],
-                 [AC_MSG_ERROR([cannot find required header file])])
-AC_CHECK_HEADERS([netdb.h sys/socket.h winsock2.h])
-AC_HEADER_SYS_WAIT
-
-
-# Checks for typedefs, structures, and compiler characteristics
-AC_C_CONST
-AC_C_VOLATILE
-AC_FUNC_REALLOC
-AC_HEADER_STDBOOL
-AC_C_INLINE
-AC_TYPE_SIZE_T
-AC_HEADER_TIME
-
-# *************
-# setgid checks
-# *************
+dnl ###########################################################################
+dnl setgid checks
+dnl ###########################################################################
 
 AC_ARG_ENABLE([setgid],
   [AS_HELP_STRING([--disable-setgid],
@@ -325,15 +229,18 @@ AC_SUBST(scores_user)
 scoredir='${localstatedir}/games'
 AC_SUBST(scoredir)
 
-##############################################
+dnl ###########################################################################
+dnl Flags
+dnl ###########################################################################
 
 AC_SUBST([AM_CPPFLAGS])
 AC_SUBST([AM_CFLAGS])
 AC_SUBST([AM_CXXFLAGS])
 AC_SUBST([AM_LDFLAGS])
 
-##############################################
-##############################################
+dnl ###########################################################################
+dnl Files to generate
+dnl ###########################################################################
 
 AC_CONFIG_FILES([
 Makefile

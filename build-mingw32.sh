@@ -46,7 +46,6 @@ cp ${_bindir}/libgio-2.0-0.dll .
 cp ${_bindir}/libglib-2.0-0.dll .
 cp ${_bindir}/libgmodule-2.0-0.dll .
 cp ${_bindir}/libgobject-2.0-0.dll .
-cp ${_bindir}/libgthread-2.0-0.dll .
 cp ${_bindir}/libgtk-win32-2.0-0.dll .
 cp ${_bindir}/libharfbuzz-0.dll .
 cp ${_bindir}/libiconv-2.dll .
